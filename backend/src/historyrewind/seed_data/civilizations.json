@@ -1,0 +1,587 @@
+[
+  {
+    "id": "mesopotamia",
+    "name": "Mesopotamia",
+    "colorIndex": 1,
+    "start": -3200,
+    "end": -539,
+    "events": [
+      {
+        "year": -3200,
+        "sig": "major",
+        "title": "Cuneiform Emerges at Uruk",
+        "body": "The world's earliest writing system develops from clay tokens used to record grain and livestock, becoming the first script for recording language and law."
+      },
+      {
+        "year": -2334,
+        "sig": "minor",
+        "title": "Sargon Founds the Akkadian Empire",
+        "body": "Sargon of Akkad unites the Sumerian city-states into history's first known multi-ethnic empire."
+      },
+      {
+        "year": -1754,
+        "sig": "major",
+        "title": "Hammurabi's Code Carved in Stone",
+        "body": "Babylon's king publishes 282 laws on a black diorite stele, one of the earliest surviving law codes governing an entire society."
+      },
+      {
+        "year": -612,
+        "sig": "minor",
+        "title": "Nineveh Falls",
+        "body": "A coalition of Babylonians and Medes sacks the Assyrian capital, ending centuries of Assyrian dominance over Mesopotamia."
+      },
+      {
+        "year": -539,
+        "sig": "major",
+        "title": "Cyrus the Great Takes Babylon",
+        "body": "The Persian king enters Babylon without a battle, absorbing Mesopotamia into the Achaemenid Empire and ending Babylonian independence."
+      }
+    ]
+  },
+  {
+    "id": "egypt",
+    "name": "Egypt",
+    "colorIndex": 2,
+    "start": -3100,
+    "end": -30,
+    "events": [
+      {
+        "year": -3100,
+        "sig": "major",
+        "title": "Narmer Unites Upper and Lower Egypt",
+        "body": "A single king, likely Narmer, unifies the Nile valley into one kingdom, founding one of the world's first territorial states."
+      },
+      {
+        "year": -2686,
+        "sig": "minor",
+        "title": "The Old Kingdom Begins",
+        "body": "The Third Dynasty ushers in Egypt's first great age of pyramid building and centralized rule from Memphis."
+      },
+      {
+        "year": -2560,
+        "sig": "major",
+        "title": "The Great Pyramid of Giza Is Completed",
+        "body": "Pharaoh Khufu's tomb rises as the tallest structure on Earth, a record it will hold for nearly 4,000 years."
+      },
+      {
+        "year": -1274,
+        "sig": "minor",
+        "title": "The Battle of Kadesh",
+        "body": "Ramesses II fights the Hittites to a standstill in one of history's largest chariot battles, leading to one of the earliest known peace treaties."
+      },
+      {
+        "year": -30,
+        "sig": "major",
+        "title": "Death of Cleopatra VII",
+        "body": "Egypt's last active pharaoh dies after Rome's conquest, and the millennia-old kingdom becomes a Roman province."
+      }
+    ]
+  },
+  {
+    "id": "indus",
+    "name": "Indus Valley",
+    "colorIndex": 3,
+    "start": -2600,
+    "end": -1300,
+    "events": [
+      {
+        "year": -2600,
+        "sig": "major",
+        "title": "Harappa and Mohenjo-daro Rise",
+        "body": "Twin cities along the Indus River emerge with grid-planned streets, standardized brick sizes, and sophisticated drainage systems unmatched elsewhere in the Bronze Age world."
+      },
+      {
+        "year": -2500,
+        "sig": "minor",
+        "title": "A Standardized Script Appears on Seals",
+        "body": "Thousands of carved steatite seals bear a still-undeciphered script, used widely enough to suggest long-distance trade record-keeping."
+      },
+      {
+        "year": -2350,
+        "sig": "major",
+        "title": "Trade Networks Reach Mesopotamia",
+        "body": "Indus merchants exchange carnelian beads, ivory, and cotton textiles with Sumerian city-states via sea routes through the Persian Gulf."
+      },
+      {
+        "year": -1900,
+        "sig": "minor",
+        "title": "The Great Bath Falls Out of Use",
+        "body": "Mohenjo-daro's massive public water tank, likely used for ritual bathing, is abandoned as the city's population begins to decline."
+      },
+      {
+        "year": -1300,
+        "sig": "major",
+        "title": "The Civilization Fades",
+        "body": "Following climate shifts and the drying of the Sarasvati river system, Indus cities are gradually abandoned, their script falling silent for millennia."
+      }
+    ]
+  },
+  {
+    "id": "greece",
+    "name": "Greece",
+    "colorIndex": 4,
+    "start": -800,
+    "end": -146,
+    "events": [
+      {
+        "year": -776,
+        "sig": "major",
+        "title": "The First Olympic Games",
+        "body": "City-states pause their rivalries to compete at Olympia, founding a tradition of pan-Hellenic athletic competition that will run for over a thousand years."
+      },
+      {
+        "year": -621,
+        "sig": "minor",
+        "title": "Draco's Harsh Laws Are Written Down",
+        "body": "Athens gets its first written law code, so severe that “draconian” will still describe harsh punishment millennia later."
+      },
+      {
+        "year": -508,
+        "sig": "major",
+        "title": "Cleisthenes Founds Athenian Democracy",
+        "body": "Reforms give ordinary male citizens a direct vote in the assembly, an experiment in self-rule without precedent in the ancient world."
+      },
+      {
+        "year": -490,
+        "sig": "minor",
+        "title": "Victory at Marathon",
+        "body": "Athens repels the first Persian invasion at the Battle of Marathon, a triumph later commemorated by a runner's legendary sprint to deliver the news."
+      },
+      {
+        "year": -146,
+        "sig": "major",
+        "title": "Rome Conquers Greece",
+        "body": "After the sack of Corinth, Greece becomes a Roman province, even as Greek art, philosophy, and language go on to shape Roman civilization itself."
+      }
+    ]
+  },
+  {
+    "id": "rome",
+    "name": "Rome",
+    "colorIndex": 5,
+    "start": -753,
+    "end": 476,
+    "events": [
+      {
+        "year": -753,
+        "sig": "major",
+        "title": "Legendary Founding of Rome",
+        "body": "According to tradition, Romulus founds the city on the Palatine Hill, beginning a settlement that will grow into an empire spanning three continents."
+      },
+      {
+        "year": -509,
+        "sig": "minor",
+        "title": "The Roman Republic Is Established",
+        "body": "Romans expel their last king and found a republic governed by elected magistrates and the Senate."
+      },
+      {
+        "year": -44,
+        "sig": "major",
+        "title": "Assassination of Julius Caesar",
+        "body": "Senators stab Caesar to death on the Ides of March, fearing his growing power — the act triggers the civil wars that end the Republic."
+      },
+      {
+        "year": 80,
+        "sig": "minor",
+        "title": "The Colosseum Opens",
+        "body": "Emperor Titus inaugurates the Flavian Amphitheatre with 100 days of games, seating some 50,000 spectators."
+      },
+      {
+        "year": 476,
+        "sig": "major",
+        "title": "Fall of the Western Roman Empire",
+        "body": "Germanic general Odoacer deposes the last Western emperor, Romulus Augustulus — an event later historians mark as Rome's end in the West."
+      }
+    ]
+  },
+  {
+    "id": "persia",
+    "name": "Persia",
+    "colorIndex": 6,
+    "start": -550,
+    "end": 651,
+    "events": [
+      {
+        "year": -550,
+        "sig": "major",
+        "title": "Cyrus the Great Founds the Achaemenid Empire",
+        "body": "Cyrus unites the Medes and Persians and begins a policy of tolerating local customs and religions across his conquests, including freeing the Jews from Babylonian captivity."
+      },
+      {
+        "year": -518,
+        "sig": "minor",
+        "title": "Construction Begins at Persepolis",
+        "body": "Darius I starts building a ceremonial capital whose terraces and reliefs will showcase the empire's reach from Egypt to the Indus."
+      },
+      {
+        "year": -480,
+        "sig": "major",
+        "title": "The Battle of Thermopylae",
+        "body": "A small Greek force led by Spartan king Leonidas delays Xerxes' invading army at a mountain pass, buying time even in defeat."
+      },
+      {
+        "year": 224,
+        "sig": "minor",
+        "title": "The Sassanid Dynasty Rises",
+        "body": "Ardashir I overthrows the Parthians and founds a new Persian empire that will rival Rome and Byzantium for four centuries."
+      },
+      {
+        "year": 651,
+        "sig": "major",
+        "title": "The Sassanid Empire Falls to Arab Conquest",
+        "body": "The last Sassanid king is killed fleeing eastward, and Persia is absorbed into the rapidly expanding Islamic caliphate."
+      }
+    ]
+  },
+  {
+    "id": "china",
+    "name": "China",
+    "colorIndex": 7,
+    "start": -221,
+    "end": 1279,
+    "events": [
+      {
+        "year": -221,
+        "sig": "major",
+        "title": "Qin Shi Huang Unifies China",
+        "body": "After conquering the last rival state, Ying Zheng declares himself First Emperor and standardizes script, currency, and roads across a unified China."
+      },
+      {
+        "year": -214,
+        "sig": "minor",
+        "title": "Construction Begins on the Great Wall",
+        "body": "Existing frontier walls are joined and extended under Qin rule to defend against northern nomadic incursions."
+      },
+      {
+        "year": 105,
+        "sig": "major",
+        "title": "Cai Lun Refines Papermaking",
+        "body": "A court eunuch perfects a process for making paper from bark, hemp, and rags, transforming the spread of writing across Asia."
+      },
+      {
+        "year": 630,
+        "sig": "minor",
+        "title": "Tang Taizong Becomes ‘Heavenly Khan’",
+        "body": "Steppe leaders acknowledge the Tang emperor as supreme ruler, opening a golden age of trade along the Silk Road."
+      },
+      {
+        "year": 1279,
+        "sig": "major",
+        "title": "Mongols Conquer the Song Dynasty",
+        "body": "Kublai Khan's forces defeat the last Song loyalists at the Battle of Yamen, bringing all of China under Mongol Yuan rule for the first time."
+      }
+    ]
+  },
+  {
+    "id": "maya",
+    "name": "Maya",
+    "colorIndex": 8,
+    "start": 250,
+    "end": 909,
+    "events": [
+      {
+        "year": 250,
+        "sig": "major",
+        "title": "The Classic Period Begins",
+        "body": "Maya city-states like Tikal and Calakmul enter their peak era of monumental architecture, written history, and dynastic rivalry."
+      },
+      {
+        "year": 378,
+        "sig": "minor",
+        "title": "Teotihuacan's Influence Reaches Tikal",
+        "body": "A political upheaval at Tikal, linked to contact with the distant central Mexican city of Teotihuacan, installs a new ruling dynasty."
+      },
+      {
+        "year": 615,
+        "sig": "major",
+        "title": "Pakal Ascends the Throne at Palenque",
+        "body": "Twelve-year-old K'inich Janaab' Pakal begins a 68-year reign that will make Palenque one of the Classic Period's greatest artistic centers."
+      },
+      {
+        "year": 738,
+        "sig": "minor",
+        "title": "Quiriguá Captures and Sacrifices Copán's King",
+        "body": "Vassal city Quiriguá defeats its former overlord Copán in battle, upending the political order of the southeastern Maya lowlands."
+      },
+      {
+        "year": 909,
+        "sig": "major",
+        "title": "The Last Long Count Date Is Carved",
+        "body": "A monument at Toniná records the final Classic Maya calendar inscription, as southern lowland cities are abandoned in the following decades."
+      }
+    ]
+  },
+  {
+    "id": "byzantine",
+    "name": "Byzantine Empire",
+    "colorIndex": 1,
+    "start": 330,
+    "end": 1453,
+    "events": [
+      {
+        "year": 330,
+        "sig": "major",
+        "title": "Constantinople Is Founded",
+        "body": "Emperor Constantine dedicates a new capital on the Bosphorus, positioning the Eastern Roman Empire to outlast Rome itself by a thousand years."
+      },
+      {
+        "year": 529,
+        "sig": "minor",
+        "title": "Justinian's Code Is Compiled",
+        "body": "A systematic codification of Roman law is issued, becoming the foundation of legal systems across continental Europe for centuries."
+      },
+      {
+        "year": 537,
+        "sig": "major",
+        "title": "The Hagia Sophia Is Completed",
+        "body": "Justinian's architects raise the largest cathedral in the world, its vast dome said to make the emperor exclaim he had surpassed Solomon."
+      },
+      {
+        "year": 1054,
+        "sig": "minor",
+        "title": "The Great Schism Divides the Church",
+        "body": "Theological and political disputes split Christianity into the Roman Catholic and Eastern Orthodox churches."
+      },
+      {
+        "year": 1453,
+        "sig": "major",
+        "title": "Constantinople Falls to the Ottomans",
+        "body": "After a 53-day siege, Sultan Mehmed II's forces breach the city's ancient walls, ending the Byzantine Empire and the last direct link to Rome."
+      }
+    ]
+  },
+  {
+    "id": "islamic",
+    "name": "Islamic Caliphates",
+    "colorIndex": 2,
+    "start": 622,
+    "end": 1258,
+    "events": [
+      {
+        "year": 622,
+        "sig": "major",
+        "title": "The Hijra Marks Year One",
+        "body": "Muhammad and his followers migrate from Mecca to Medina, an event that becomes the starting point of the Islamic calendar."
+      },
+      {
+        "year": 632,
+        "sig": "minor",
+        "title": "The Rashidun Caliphate Begins",
+        "body": "Following Muhammad's death, a series of elected caliphs rapidly expand Muslim rule across Arabia, the Levant, and Persia."
+      },
+      {
+        "year": 750,
+        "sig": "major",
+        "title": "The Abbasid Caliphate Is Founded",
+        "body": "The Abbasids overthrow the Umayyads and move the capital to Baghdad, ushering in an Islamic Golden Age of science and scholarship."
+      },
+      {
+        "year": 830,
+        "sig": "minor",
+        "title": "The House of Wisdom Flourishes in Baghdad",
+        "body": "Scholars translate and expand on Greek, Persian, and Indian texts, advancing mathematics, medicine, and astronomy."
+      },
+      {
+        "year": 1258,
+        "sig": "major",
+        "title": "The Mongols Sack Baghdad",
+        "body": "Hulagu Khan's forces destroy the Abbasid capital and its libraries, an event many historians mark as the end of the Golden Age."
+      }
+    ]
+  },
+  {
+    "id": "khmer",
+    "name": "Khmer Empire",
+    "colorIndex": 3,
+    "start": 802,
+    "end": 1431,
+    "events": [
+      {
+        "year": 802,
+        "sig": "major",
+        "title": "Jayavarman II Founds the Khmer Empire",
+        "body": "A ruler declares himself universal monarch atop Phnom Kulen, unifying rival principalities into what will become the Khmer Empire."
+      },
+      {
+        "year": 900,
+        "sig": "minor",
+        "title": "Yasodharapura Becomes the Capital",
+        "body": "King Yasovarman I establishes a new capital near Angkor, anchored by a temple-mountain dedicated to Shiva."
+      },
+      {
+        "year": 1113,
+        "sig": "major",
+        "title": "Construction of Angkor Wat Begins",
+        "body": "Suryavarman II commissions the largest religious monument in the world, originally dedicated to the Hindu god Vishnu."
+      },
+      {
+        "year": 1296,
+        "sig": "minor",
+        "title": "A Chinese Envoy Records Daily Life",
+        "body": "Zhou Daguan's detailed account of Angkor becomes one of the only surviving eyewitness descriptions of the empire at its height."
+      },
+      {
+        "year": 1431,
+        "sig": "major",
+        "title": "Ayutthaya Sacks Angkor",
+        "body": "A Siamese army captures the capital after a prolonged siege, hastening the empire's shift of power away from Angkor."
+      }
+    ]
+  },
+  {
+    "id": "mongol",
+    "name": "Mongol Empire",
+    "colorIndex": 4,
+    "start": 1206,
+    "end": 1368,
+    "events": [
+      {
+        "year": 1206,
+        "sig": "major",
+        "title": "Genghis Khan Unites the Mongol Tribes",
+        "body": "A kurultai of chieftains proclaims Temüjin as Genghis Khan, “universal ruler,” beginning the fastest territorial expansion in history."
+      },
+      {
+        "year": 1219,
+        "sig": "minor",
+        "title": "The Invasion of Khwarazm Begins",
+        "body": "Genghis Khan turns west, destroying the Khwarazmian Empire in Central Asia in retaliation for the killing of Mongol envoys."
+      },
+      {
+        "year": 1258,
+        "sig": "major",
+        "title": "The Mongols Sack Baghdad",
+        "body": "Hulagu Khan's western campaign topples the Abbasid Caliphate, extending Mongol power into the heart of the Islamic world."
+      },
+      {
+        "year": 1271,
+        "sig": "minor",
+        "title": "Kublai Khan Founds the Yuan Dynasty",
+        "body": "Genghis Khan's grandson declares a new Chinese dynasty, ruling as both Mongol Great Khan and Chinese emperor."
+      },
+      {
+        "year": 1368,
+        "sig": "major",
+        "title": "The Yuan Dynasty Falls",
+        "body": "Ming rebels led by Zhu Yuanzhang drive the Mongols back to the steppe, ending nearly a century of Mongol rule over China."
+      }
+    ]
+  },
+  {
+    "id": "mali",
+    "name": "Mali Empire",
+    "colorIndex": 5,
+    "start": 1235,
+    "end": 1468,
+    "events": [
+      {
+        "year": 1235,
+        "sig": "major",
+        "title": "Sundiata Keita Founds the Mali Empire",
+        "body": "After defeating the sorcerer-king Sumanguru at Kirina, Sundiata unites the Mandinka clans into an empire that will control West Africa's gold trade."
+      },
+      {
+        "year": 1285,
+        "sig": "minor",
+        "title": "Sakoura Expands Mali's Reach",
+        "body": "A former palace slave seizes the throne and extends Mali's borders to the Atlantic coast and the Saharan salt mines."
+      },
+      {
+        "year": 1324,
+        "sig": "major",
+        "title": "Mansa Musa's Pilgrimage to Mecca",
+        "body": "Mali's emperor travels to Mecca with a caravan reportedly carrying tons of gold, spending so freely in Cairo that he depresses regional gold prices for years."
+      },
+      {
+        "year": 1327,
+        "sig": "minor",
+        "title": "Sankoré Madrasa Flourishes in Timbuktu",
+        "body": "Timbuktu becomes a center of Islamic scholarship, drawing scholars and manuscripts from across the Muslim world."
+      },
+      {
+        "year": 1468,
+        "sig": "major",
+        "title": "Songhai Captures Timbuktu",
+        "body": "Sunni Ali's Songhai forces seize Mali's great trading city, marking the empire's decline as Songhai rises in its place."
+      }
+    ]
+  },
+  {
+    "id": "aztec",
+    "name": "Aztec (Mexica)",
+    "colorIndex": 6,
+    "start": 1325,
+    "end": 1521,
+    "events": [
+      {
+        "year": 1325,
+        "sig": "major",
+        "title": "Tenochtitlan Is Founded",
+        "body": "According to legend, the Mexica see an eagle perched on a cactus devouring a serpent — the sign they were seeking — and build their capital on a lake island."
+      },
+      {
+        "year": 1428,
+        "sig": "minor",
+        "title": "The Triple Alliance Forms",
+        "body": "Tenochtitlan, Texcoco, and Tlacopan unite, launching the rapid expansion that will become the Aztec Empire."
+      },
+      {
+        "year": 1487,
+        "sig": "major",
+        "title": "The Great Temple Is Dedicated",
+        "body": "Tens of thousands are said to attend the consecration of the rebuilt Templo Mayor, marking the empire near the height of its power."
+      },
+      {
+        "year": 1519,
+        "sig": "minor",
+        "title": "Cortés Arrives on the Coast",
+        "body": "Hernán Cortés lands with a small Spanish force, soon allying with rivals of the Aztecs as he marches toward Tenochtitlan."
+      },
+      {
+        "year": 1521,
+        "sig": "major",
+        "title": "The Fall of Tenochtitlan",
+        "body": "After a brutal siege and a smallpox epidemic that devastates the city, Spanish forces and their Indigenous allies capture the Aztec capital."
+      }
+    ]
+  },
+  {
+    "id": "inca",
+    "name": "Inca",
+    "colorIndex": 7,
+    "start": 1438,
+    "end": 1572,
+    "events": [
+      {
+        "year": 1438,
+        "sig": "major",
+        "title": "Pachacuti Begins the Inca Expansion",
+        "body": "After repelling a rival invasion, Pachacuti reorganizes Cusco and launches the conquests that transform a small kingdom into an empire."
+      },
+      {
+        "year": 1450,
+        "sig": "minor",
+        "title": "Machu Picchu Is Built",
+        "body": "A royal estate rises high in the Andes, connected to the empire by a vast network of mountain roads and suspension bridges."
+      },
+      {
+        "year": 1532,
+        "sig": "major",
+        "title": "Atahualpa Is Captured at Cajamarca",
+        "body": "Francisco Pizarro's small expedition ambushes the Inca emperor, despite being vastly outnumbered, exploiting a recent civil war and Spanish weaponry."
+      },
+      {
+        "year": 1533,
+        "sig": "minor",
+        "title": "Atahualpa Is Executed",
+        "body": "Despite paying a legendary ransom in gold and silver, the emperor is killed, and Spanish forces install a puppet ruler in Cusco."
+      },
+      {
+        "year": 1572,
+        "sig": "major",
+        "title": "The Last Inca Stronghold Falls",
+        "body": "Spanish forces capture Vilcabamba and execute Túpac Amaru, ending organized Inca resistance four decades after first contact."
+      }
+    ]
+  }
+]
