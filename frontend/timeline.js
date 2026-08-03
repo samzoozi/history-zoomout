@@ -306,7 +306,8 @@
   function showLocationOnMap(location) {
     var mapEl = document.getElementById("detailMap");
     var dotEl = document.getElementById("detailMapDot");
-    var captionEl = document.getElementById("detailMapCaption");
+    var historicalEl = document.getElementById("detailMapCaptionHistorical");
+    var modernEl = document.getElementById("detailMapCaptionModern");
 
     var hasCoords = location && location.latitude != null && location.longitude != null;
     if (!hasCoords) {
@@ -324,15 +325,12 @@
     });
 
     var place = [location.city, location.country].filter(Boolean).join(", ");
-    var historical = location.historicalName;
+    var historical = location.historicalName || "";
     var sameAsCity = historical && location.city &&
       historical.toLowerCase() === location.city.toLowerCase();
 
-    if (historical && !sameAsCity && place) {
-      captionEl.textContent = historical + " · " + place;
-    } else {
-      captionEl.textContent = place || historical || "";
-    }
+    historicalEl.textContent = sameAsCity ? "" : historical;
+    modernEl.textContent = place;
   }
 
   document.getElementById("detailClose").addEventListener("click", function () {

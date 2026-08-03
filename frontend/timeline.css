@@ -670,17 +670,25 @@ button:focus-visible,
   left: 6px;
   bottom: 6px;
   max-width: calc(100% - 12px);
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.detail-map-caption span {
   font-size: 10px;
   letter-spacing: 0.03em;
-  color: var(--ink-secondary);
-  background: var(--surface);
-  padding: 2px 6px;
-  border-radius: 4px;
-  border: 1px solid var(--hairline);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  text-shadow: 0 1px 3px var(--surface), 0 0 6px var(--surface);
 }
+.detail-map-caption-historical {
+  color: var(--ink-muted);
+  font-style: italic;
+}
+.detail-map-caption-historical:empty { display: none; }
+.detail-map-caption-modern { color: var(--ink-secondary); }
+.detail-map-caption-modern:empty { display: none; }
 .detail-close {
   display: inline-flex;
   align-self: flex-end;
