@@ -25,7 +25,7 @@
     return year <= 0 ? (Math.abs(year) + " BCE") : (year + " CE");
   }
 
-  var state = { sig: "major", zoom: 1, selectedCivs: null };
+  var state = { sig: "all", zoom: 1, selectedCivs: null };
 
   var lanesEl = document.getElementById("lanes");
   var axisTrack = document.getElementById("axisTrack");
@@ -36,7 +36,6 @@
   var zoomInput = document.getElementById("zoom");
   var zoomReadout = document.getElementById("zoomReadout");
   var eventCountEl = document.getElementById("eventCount");
-  var eventCountEl2 = document.getElementById("eventCount2");
   var civCountEl = document.getElementById("civCount");
   var stageEl = document.getElementById("stage");
   var loadStateEl = document.getElementById("loadState");
@@ -260,11 +259,6 @@
     });
     markerEl.setAttribute("aria-pressed", "true");
 
-    var empty = document.getElementById("detailEmpty");
-    var content = document.getElementById("detailContent");
-    empty.style.display = "none";
-    content.classList.add("show");
-
     document.getElementById("detailEyebrow").style.setProperty("--eyebrow-color", colorVar);
     document.getElementById("detailCiv").textContent = civ.name;
     document.getElementById("detailDate").textContent = "· " + yearLabel(ev.year);
@@ -342,7 +336,6 @@
 
   function init() {
     if (eventCountEl) eventCountEl.textContent = String(totalEventCount());
-    if (eventCountEl2) eventCountEl2.textContent = String(totalEventCount());
     if (civCountEl) civCountEl.textContent = String(CIVS.length);
 
     state.selectedCivs = new Set(CIVS.map(function (c) { return c.id; }));

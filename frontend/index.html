@@ -27,8 +27,8 @@
             </div>
           </div>
           <div class="segmented" role="group" aria-label="Event significance">
-            <button type="button" data-sig="major" aria-pressed="true">Landmark events</button>
-            <button type="button" data-sig="all" aria-pressed="false">All events</button>
+            <button type="button" data-sig="major" aria-pressed="false">Landmark events</button>
+            <button type="button" data-sig="all" aria-pressed="true">All events</button>
           </div>
           <div class="zoom-control">
             <label for="zoom">Scale</label>
@@ -57,20 +57,6 @@
       <aside class="detail-panel" id="detailPanel">
         <div class="drag-handle"></div>
         <button class="detail-close" id="detailClose">Close ✕</button>
-        <div class="detail-empty" id="detailEmpty">
-          <svg width="72" height="72" viewBox="0 0 72 72" fill="none" aria-hidden="true">
-            <circle cx="36" cy="36" r="30" stroke="var(--hairline-strong)" stroke-width="1"/>
-            <circle cx="36" cy="36" r="21" stroke="var(--hairline-strong)" stroke-width="1"/>
-            <circle cx="36" cy="36" r="2.5" fill="var(--brass)"/>
-            <line x1="36" y1="3" x2="36" y2="11" stroke="var(--brass)" stroke-width="1.4"/>
-            <line x1="36" y1="61" x2="36" y2="69" stroke="var(--hairline-strong)" stroke-width="1.4"/>
-            <line x1="3" y1="36" x2="11" y2="36" stroke="var(--hairline-strong)" stroke-width="1.4"/>
-            <line x1="61" y1="36" x2="69" y2="36" stroke="var(--hairline-strong)" stroke-width="1.4"/>
-            <line x1="36" y1="36" x2="53" y2="21" stroke="var(--brass)" stroke-width="1.4"/>
-          </svg>
-          <p>Select a mark on the timeline to read its record.</p>
-          <span class="hint"><span id="eventCount2">—</span> events · 3200 BCE – 1600 CE</span>
-        </div>
         <div class="detail-content" id="detailContent">
           <div class="detail-eyebrow" id="detailEyebrow"><span class="dot"></span><span id="detailCiv"></span><span class="date" id="detailDate"></span></div>
           <figure class="detail-figure" id="detailFigure" hidden>
