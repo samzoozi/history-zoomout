@@ -21,6 +21,12 @@ class Topic(Base):
     start_year: Mapped[int] = mapped_column(Integer, nullable=False)
     end_year: Mapped[int] = mapped_column(Integer, nullable=False)
 
+    summary: Mapped[str | None] = mapped_column(Text, nullable=True)
+    source_url: Mapped[str | None] = mapped_column(String, nullable=True)
+    image_url: Mapped[str | None] = mapped_column(String, nullable=True)
+    image_attribution: Mapped[str | None] = mapped_column(String, nullable=True)
+    wikidata_id: Mapped[str | None] = mapped_column(String, nullable=True)
+
     events: Mapped[list[Event]] = relationship(
         back_populates="topic",
         order_by="Event.year",
@@ -37,5 +43,10 @@ class Event(Base):
     sig: Mapped[str] = mapped_column(String, nullable=False)
     title: Mapped[str] = mapped_column(String, nullable=False)
     body: Mapped[str] = mapped_column(Text, nullable=False)
+
+    source_url: Mapped[str | None] = mapped_column(String, nullable=True)
+    image_url: Mapped[str | None] = mapped_column(String, nullable=True)
+    image_attribution: Mapped[str | None] = mapped_column(String, nullable=True)
+    wikidata_id: Mapped[str | None] = mapped_column(String, nullable=True)
 
     topic: Mapped[Topic] = relationship(back_populates="events")
