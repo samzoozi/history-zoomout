@@ -32,7 +32,6 @@
   var eraOverlay = document.getElementById("eraOverlay");
   var trackEl = document.getElementById("track");
   var scroller = document.getElementById("scroller");
-  var eraChipsEl = document.getElementById("eraChips");
   var zoomInput = document.getElementById("zoom");
   var zoomReadout = document.getElementById("zoomReadout");
   var eventCountEl = document.getElementById("eventCount");
@@ -55,48 +54,6 @@
     var n = 0;
     CIVS.forEach(function (civ) { n += civ.events.length; });
     return n;
-  }
-
-  function buildEraChips() {
-    var frag = document.createDocumentFragment();
-    var full = document.createElement("button");
-    full.type = "button";
-    full.textContent = "Full Timeline";
-    full.className = "active";
-    full.addEventListener("click", function () { setEra(null, full); });
-    frag.appendChild(full);
-
-    ERAS.forEach(function (era) {
-      var btn = document.createElement("button");
-      btn.type = "button";
-      btn.textContent = era.label;
-      btn.addEventListener("click", function () { setEra(era, btn); });
-      frag.appendChild(btn);
-    });
-    eraChipsEl.appendChild(frag);
-  }
-
-  function setEra(era, btnEl) {
-    Array.prototype.forEach.call(eraChipsEl.children, function (c) { c.classList.remove("active"); });
-    btnEl.classList.add("active");
-
-    if (!era) {
-      state.zoom = 1;
-      zoomInput.value = "1";
-      updateZoomReadout();
-      render();
-      scroller.scrollTo({ left: 0, top: 0, behavior: "smooth" });
-      return;
-    }
-    var span = era.end - era.start;
-    var viewportWidth = scroller.clientWidth - LABEL_WIDTH - 60;
-    var targetZoom = Math.min(4, Math.max(0.6, viewportWidth / (span * BASE_PX_PER_YEAR)));
-    state.zoom = targetZoom;
-    zoomInput.value = String(targetZoom.toFixed(1));
-    updateZoomReadout();
-    render();
-    var left = yearToX(era.start) - 24;
-    scroller.scrollTo({ left: left, top: 0, behavior: "smooth" });
   }
 
   function updateZoomReadout() {
@@ -385,7 +342,6 @@
 
     state.selectedCivs = new Set(CIVS.map(function (c) { return c.id; }));
     buildCivFilter();
-    buildEraChips();
     render();
     loadWorldMap();
 
