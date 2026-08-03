@@ -284,8 +284,55 @@
       sourceLink.hidden = true;
     }
 
+    showLocationOnMap(ev.location);
+
     var panel = document.getElementById("detailPanel");
     panel.classList.add("open");
+  }
+
+  var worldMapReady = null;
+
+  function loadWorldMap() {
+    if (worldMapReady) return worldMapReady;
+    worldMapReady = fetch("world-map.svg")
+      .then(function (res) { return res.text(); })
+      .then(function (svgText) {
+        document.getElementById("detailMapSvg").innerHTML = svgText;
+      })
+      .catch(function () { /* map is a nice-to-have; fail silently */ });
+    return worldMapReady;
+  }
+
+  function showLocationOnMap(location) {
+    var mapEl = document.getElementById("detailMap");
+    var dotEl = document.getElementById("detailMapDot");
+    var captionEl = document.getElementById("detailMapCaption");
+
+    var hasCoords = location && location.latitude != null && location.longitude != null;
+    if (!hasCoords) {
+      mapEl.hidden = true;
+      return;
+    }
+
+    mapEl.hidden = false;
+    loadWorldMap().then(function () {
+      var xPct = (location.longitude + 180) / 360 * 100;
+      var yPct = (90 - location.latitude) / 180 * 100;
+      dotEl.style.left = xPct + "%";
+      dotEl.style.top = yPct + "%";
+      dotEl.hidden = false;
+    });
+
+    var place = [location.city, location.country].filter(Boolean).join(", ");
+    var historical = location.historicalName;
+    var sameAsCity = historical && location.city &&
+      historical.toLowerCase() === location.city.toLowerCase();
+
+    if (historical && !sameAsCity && place) {
+      captionEl.textContent = historical + " · " + place;
+    } else {
+      captionEl.textContent = place || historical || "";
+    }
   }
 
   document.getElementById("detailClose").addEventListener("click", function () {
@@ -342,6 +389,7 @@
     buildCivFilter();
     buildEraChips();
     render();
+    loadWorldMap();
 
     loadStateEl.hidden = true;
     stageEl.hidden = false;
