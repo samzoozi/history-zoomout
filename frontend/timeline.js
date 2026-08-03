@@ -272,6 +272,24 @@
     document.getElementById("detailBody").textContent = ev.body;
     document.getElementById("detailTag").textContent = ev.sig === "major" ? "Landmark event" : "Related event";
 
+    var figure = document.getElementById("detailFigure");
+    if (ev.imageUrl) {
+      document.getElementById("detailImage").src = ev.imageUrl;
+      document.getElementById("detailImage").alt = ev.title;
+      document.getElementById("detailImageCaption").textContent = ev.imageAttribution || "";
+      figure.hidden = false;
+    } else {
+      figure.hidden = true;
+    }
+
+    var sourceLink = document.getElementById("detailSourceLink");
+    if (ev.sourceUrl) {
+      sourceLink.href = ev.sourceUrl;
+      sourceLink.hidden = false;
+    } else {
+      sourceLink.hidden = true;
+    }
+
     var panel = document.getElementById("detailPanel");
     panel.classList.add("open");
   }
