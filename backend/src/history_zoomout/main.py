@@ -5,7 +5,7 @@ from sqlalchemy.orm import selectinload
 
 from .config import settings
 from .db import SessionLocal
-from .db.models import Civilization
+from .db.models import Topic
 from .schemas import CivilizationOut
 
 app = FastAPI(title="History Zoomout API")
@@ -28,9 +28,10 @@ def list_civilizations():
     db = SessionLocal()
     try:
         stmt = (
-            select(Civilization)
-            .options(selectinload(Civilization.events))
-            .order_by(Civilization.start_year)
+            select(Topic)
+            .where(Topic.category == "civilization")
+            .options(selectinload(Topic.events))
+            .order_by(Topic.start_year)
         )
         return db.scalars(stmt).all()
     finally:

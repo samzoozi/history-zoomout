@@ -2,7 +2,7 @@ import json
 from importlib import resources
 
 from . import Base, SessionLocal, engine
-from .models import Civilization, Event
+from .models import Event, Topic
 
 
 def load_seed_data() -> list[dict]:
@@ -19,13 +19,14 @@ def seed() -> None:
     db = SessionLocal()
     try:
         db.query(Event).delete()
-        db.query(Civilization).delete()
+        db.query(Topic).delete()
         db.flush()
 
         for civ in civilizations:
             db.add(
-                Civilization(
+                Topic(
                     id=civ["id"],
+                    category="civilization",
                     name=civ["name"],
                     color_index=civ["colorIndex"],
                     start_year=civ["start"],
