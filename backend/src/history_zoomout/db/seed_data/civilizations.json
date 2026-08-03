@@ -19,7 +19,7 @@
         "body": "The world's earliest writing system develops from clay tokens used to record grain and livestock at the city of Uruk, becoming the first script for recording language and law.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Cuneiform",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Xerxes_Cuneiform_Van.JPG/330px-Xerxes_Cuneiform_Van.JPG",
-        "imageAttribution": "Photo by Bjørn Christian Tørrissen, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageAttribution": "Photo by Bj\u00f8rn Christian T\u00f8rrissen, CC BY-SA 3.0, via Wikimedia Commons",
         "imageDescription": "A monumental Achaemenid-era cuneiform inscription of Xerxes I, carved into the cliff at Van in eastern Turkey.",
         "wikidataId": "Q401",
         "location": {
@@ -55,7 +55,7 @@
         "body": "After centuries of Akkadian and Gutian rule, Ur-Nammu reunites southern Mesopotamia under the city of Ur and issues the Code of Ur-Nammu, the oldest law code known to survive.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Third_Dynasty_of_Ur",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ur_III.svg/330px-Ur_III.svg.png",
-        "imageAttribution": "Map by Sémhur and Zunkir, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageAttribution": "Map by S\u00e9mhur and Zunkir, CC BY-SA 3.0, via Wikimedia Commons",
         "imageDescription": "A map of the Third Dynasty of Ur's territorial extent under Ur-Nammu and Shulgi.",
         "wikidataId": "Q723587",
         "location": {
@@ -416,7 +416,7 @@
         "body": "Sargon of Akkad's inscriptions describe ships arriving from Meluhha, most likely the Indus Valley, carrying carnelian beads, ivory, and timber to Mesopotamian ports in exchange for silver, wool, and grain.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Meluhha",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Moyen_Orient_3mil_aC.svg/330px-Moyen_Orient_3mil_aC.svg.png",
-        "imageAttribution": "Map by Sémhur (base) and Zunkir (derivative), CC BY-SA 3.0, via Wikimedia Commons",
+        "imageAttribution": "Map by S\u00e9mhur (base) and Zunkir (derivative), CC BY-SA 3.0, via Wikimedia Commons",
         "imageDescription": "A map of the Middle East in the second half of the 3rd millennium BC, spanning the Akkadian and Ur III periods.",
         "wikidataId": "Q483421"
       },
@@ -677,7 +677,7 @@
         "body": "Scipio Africanus decisively defeats Hannibal's Carthaginian army in North Africa, ending the Second Punic War and breaking Carthage as a rival power in the Mediterranean for good.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Zama",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Hannibal_Slodtz_Louvre_MR2093.png/330px-Hannibal_Slodtz_Louvre_MR2093.png",
-        "imageAttribution": "Sculpture by Sébastien Slodtz, Public domain, via Wikimedia Commons",
+        "imageAttribution": "Sculpture by S\u00e9bastien Slodtz, Public domain, via Wikimedia Commons",
         "imageDescription": "An 18th-century marble sculpture of Hannibal Barca counting the rings taken from Roman knights killed at Cannae.",
         "wikidataId": "Q200056",
         "location": {
@@ -754,7 +754,7 @@
         "wikidataId": "Q43107",
         "location": {
           "historicalName": "Nicomedia",
-          "city": "İzmit",
+          "city": "\u0130zmit",
           "country": "Turkey",
           "latitude": 40.76,
           "longitude": 29.92
@@ -815,7 +815,7 @@
         "year": -539,
         "sig": "minor",
         "title": "Cyrus Conquers Babylon, Frees the Jewish Captives",
-        "body": "Cyrus captures Babylon and issues the Cyrus Cylinder, a declaration recording his restoration of displaced peoples and local temples — including freeing the Jewish captives held there since the Babylonian conquest of Jerusalem.",
+        "body": "Cyrus captures Babylon and issues the Cyrus Cylinder, a declaration recording his restoration of displaced peoples and local temples \u2014 including freeing the Jewish captives held there since the Babylonian conquest of Jerusalem.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Cyrus_Cylinder",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Cyrus_Cylinder_front.jpg/330px-Cyrus_Cylinder_front.jpg",
         "imageAttribution": "Photo by Prioryman, CC BY-SA 3.0, via Wikimedia Commons",
@@ -941,7 +941,7 @@
         "year": 260,
         "sig": "major",
         "title": "Shapur I Captures the Roman Emperor Valerian",
-        "body": "Sasanian king Shapur I defeats a Roman army at Edessa and takes Emperor Valerian prisoner — the first time a reigning Roman emperor is ever captured in battle.",
+        "body": "Sasanian king Shapur I defeats a Roman army at Edessa and takes Emperor Valerian prisoner \u2014 the first time a reigning Roman emperor is ever captured in battle.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Edessa",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Naghsh-e_rostam%2C_Ir%C3%A1n%2C_2016-09-24%2C_DD_12.jpg/330px-Naghsh-e_rostam%2C_Ir%C3%A1n%2C_2016-09-24%2C_DD_12.jpg",
         "imageAttribution": "Photo by Diego Delso, CC BY-SA 4.0, via Wikimedia Commons",
@@ -949,7 +949,7 @@
         "wikidataId": "Q1165502",
         "location": {
           "historicalName": "Edessa",
-          "city": "Şanlıurfa",
+          "city": "\u015eanl\u0131urfa",
           "country": "Turkey",
           "latitude": 37.15,
           "longitude": 38.8
@@ -1132,7 +1132,7 @@
         "body": "Kublai Khan's fleet destroys the last Song loyalist forces at the naval Battle of Yamen, completing the Mongol conquest of China and founding the Yuan dynasty.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Yamen",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Jingmen002.jpg/500px-Jingmen002.jpg",
-        "imageAttribution": "Photo by 长夜无风, CC BY 3.0, via Wikimedia Commons",
+        "imageAttribution": "Photo by \u957f\u591c\u65e0\u98ce, CC BY 3.0, via Wikimedia Commons",
         "imageDescription": "The modern memorial site at Yamen, Guangdong, marking the naval battle that ended the Song dynasty.",
         "wikidataId": null,
         "location": {
@@ -1149,38 +1149,223 @@
     "id": "maya",
     "name": "Maya",
     "colorIndex": 8,
-    "start": 250,
-    "end": 909,
+    "start": -2000,
+    "end": 1697,
+    "summary": "The Maya developed one of the ancient world's most sophisticated civilizations across the tropical lowlands of modern Mexico, Guatemala, Belize, and Honduras, without ever unifying into a single empire. Preclassic cities like Nakbe and El Mirador pioneered monumental pyramid-building by the first millennium BC; the Classic Period (c. 250-900 AD) saw rival city-states such as Tikal, Calakmul, Palenque, and Cop\u00e1n compete through warfare, dynastic marriage, and monumental art before a still-debated collapse depopulated the southern lowlands; and in the Postclassic era power shifted north to Chichen Itza and then Mayapan, whose fall in the 1440s fragmented the Yucat\u00e1n into small kingdoms that resisted Spanish conquest until the last one fell in 1697.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Maya_civilization",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Tikal_Temple1_2006_08_11.JPG/330px-Tikal_Temple1_2006_08_11.JPG",
+    "imageAttribution": "Photo by Raymond Ostertag, CC BY-SA 2.5, via Wikimedia Commons",
+    "imageDescription": "Temple I, the Great Jaguar pyramid, rising over the Great Plaza at Tikal.",
+    "wikidataId": "Q28567",
     "events": [
+      {
+        "year": -750,
+        "sig": "major",
+        "title": "Monumental Construction Begins at Nakbe",
+        "body": "In the Mirador Basin, Nakbe becomes one of the first Maya settlements to raise large stone platforms and pyramids, marking the start of large-scale Maya monumental architecture.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Nakbe",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Nakbe%2C_small_temple_1.jpg/330px-Nakbe%2C_small_temple_1.jpg",
+        "imageAttribution": "Photo by Simon Burchell, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "A small temple pyramid at Nakbe, one of the earliest major Maya sites.",
+        "wikidataId": "Q1964016",
+        "location": {
+          "historicalName": "Nakbe",
+          "city": null,
+          "country": "Guatemala",
+          "latitude": null,
+          "longitude": null
+        }
+      },
+      {
+        "year": -300,
+        "sig": "major",
+        "title": "El Mirador Rises as the First Great Maya City",
+        "body": "Nearby El Mirador eclipses Nakbe to become the largest Preclassic Maya city, its La Danta pyramid ranking among the largest structures built anywhere in the ancient world by volume.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/El_Mirador",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Pir%C3%A1mide_de_la_Danta%2C_Pet%C3%A9n.jpg/330px-Pir%C3%A1mide_de_la_Danta%2C_Pet%C3%A9n.jpg",
+        "imageAttribution": "Photo by Konjiki1, CC0, via Wikimedia Commons",
+        "imageDescription": "The La Danta pyramid complex at El Mirador, one of the largest structures of the ancient world by volume.",
+        "wikidataId": "Q504904",
+        "location": {
+          "historicalName": "El Mirador",
+          "city": null,
+          "country": "Guatemala",
+          "latitude": 17.755,
+          "longitude": -89.92055556
+        }
+      },
+      {
+        "year": 150,
+        "sig": "major",
+        "title": "Preclassic Maya Cities Collapse",
+        "body": "El Mirador and most other major Preclassic centers are abandoned amid drought and political breakdown, closing out the Preclassic period before power later shifts to cities like Tikal.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/El_Mirador",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Elmiradortigre.jpg/330px-Elmiradortigre.jpg",
+        "imageAttribution": "Photo by Authenticmaya, CC BY-SA 2.5, via Wikimedia Commons",
+        "imageDescription": "The jungle-covered Tigre pyramid at El Mirador, abandoned along with the rest of the city by about 150 AD.",
+        "wikidataId": "Q504904",
+        "location": {
+          "historicalName": "El Mirador",
+          "city": null,
+          "country": "Guatemala",
+          "latitude": 17.755,
+          "longitude": -89.92055556
+        }
+      },
       {
         "year": 250,
         "sig": "major",
         "title": "The Classic Period Begins",
-        "body": "Maya city-states like Tikal and Calakmul enter their peak era of monumental architecture, written history, and dynastic rivalry."
+        "body": "Maya city-states like Tikal and Calakmul enter their peak era of monumental architecture, written history, and dynastic rivalry.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Tikal",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Tikal_3.jpg/330px-Tikal_3.jpg",
+        "imageAttribution": "Photo by Mundo Maya, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "The Great Plaza at Tikal, one of the dominant Maya city-states of the Classic Period.",
+        "wikidataId": "Q181172"
       },
       {
         "year": 378,
-        "sig": "minor",
-        "title": "Teotihuacan's Influence Reaches Tikal",
-        "body": "A political upheaval at Tikal, linked to contact with the distant central Mexican city of Teotihuacan, installs a new ruling dynasty."
+        "sig": "major",
+        "title": "Teotihuacan's Entrada Remakes Tikal",
+        "body": "A Teotihuacan-backed general, Siyaj K'ak', arrives at Tikal the same day its king dies in battle; within a year a new Teotihuacan-aligned dynasty holds the throne and Tikal's power surges as the distant central Mexican city's proxy in the Maya lowlands.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Tikal",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Tikal_Stela_31.jpg/330px-Tikal_Stela_31.jpg",
+        "imageAttribution": "Photo by Greg Willis, CC BY-SA 2.0, via Wikimedia Commons",
+        "imageDescription": "Stela 31 at Tikal, which depicts king Siyaj Chan K'awiil II and records the aftermath of the 378 AD entrada.",
+        "wikidataId": "Q181172",
+        "location": {
+          "historicalName": "Yax Mutal",
+          "city": "Tikal",
+          "country": "Guatemala",
+          "latitude": 17.22194444,
+          "longitude": -89.62361111
+        }
       },
       {
         "year": 615,
         "sig": "major",
         "title": "Pakal Ascends the Throne at Palenque",
-        "body": "Twelve-year-old K'inich Janaab' Pakal begins a 68-year reign that will make Palenque one of the Classic Period's greatest artistic centers."
+        "body": "Twelve-year-old K'inich Janaab' Pakal begins a 68-year reign that will make Palenque one of the Classic Period's greatest artistic centers.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/K%CA%BCinich_Janaab%CA%BC_Pakal",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Maya_Jade_Mask_%26_Burial_Artifacts_of_Kinich_Hanab_Pakal%2C_Ruler_of_Palenque%2C_615-683_AD.jpg/330px-Maya_Jade_Mask_%26_Burial_Artifacts_of_Kinich_Hanab_Pakal%2C_Ruler_of_Palenque%2C_615-683_AD.jpg",
+        "imageAttribution": "Photo by Gary Todd, CC0, via Wikimedia Commons",
+        "imageDescription": "The jade funerary mask and burial regalia of K'inich Janaab' Pakal, displayed at Mexico City's National Museum of Anthropology.",
+        "wikidataId": "Q371384",
+        "location": {
+          "historicalName": "Lakamha",
+          "city": "Palenque",
+          "country": "Mexico",
+          "latitude": 17.48416667,
+          "longitude": -92.04638889
+        }
       },
       {
         "year": 738,
         "sig": "minor",
-        "title": "Quiriguá Captures and Sacrifices Copán's King",
-        "body": "Vassal city Quiriguá defeats its former overlord Copán in battle, upending the political order of the southeastern Maya lowlands."
+        "title": "Quirigu\u00e1 Captures and Sacrifices Cop\u00e1n's King",
+        "body": "Vassal city Quirigu\u00e1 defeats its former overlord Cop\u00e1n in battle; king K'ak' Tiliw Chan Yopaat has Cop\u00e1n's ruler Waxaklajuun Ubaah K'awiil beheaded, upending the political order of the southeastern Maya lowlands.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Quirigu%C3%A1",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/GT_Quirigua_StelaE.JPG/330px-GT_Quirigua_StelaE.JPG",
+        "imageAttribution": "Photo by Jan Pesula, CC BY 2.5, via Wikimedia Commons",
+        "imageDescription": "Stela E at Quirigu\u00e1, a 12-meter monument raised in 771 by K'ak' Tiliw Chan Yopaat, the king who conquered Cop\u00e1n.",
+        "wikidataId": "Q318422",
+        "location": {
+          "historicalName": "Quirigu\u00e1",
+          "city": "Quirigu\u00e1",
+          "country": "Guatemala",
+          "latitude": 15.26944444,
+          "longitude": -89.04027778
+        }
       },
       {
         "year": 909,
         "sig": "major",
         "title": "The Last Long Count Date Is Carved",
-        "body": "A monument at Toniná records the final Classic Maya calendar inscription, as southern lowland cities are abandoned in the following decades."
+        "body": "Monument 101 at Tonin\u00e1 records the final Classic Maya Long Count inscription, as southern lowland cities are abandoned in the following decades.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Tonin%C3%A1",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Templo_Mayor_Tonin%C3%A1_1.jpg/330px-Templo_Mayor_Tonin%C3%A1_1.jpg",
+        "imageAttribution": "Photo by J. Antonio Cruz Coutino, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "The Templo Mayor pyramid at Tonin\u00e1, the Chiapas hill-city where Maya scribes carved their last Long Count date in 909.",
+        "wikidataId": "Q1042074",
+        "location": {
+          "historicalName": "Tonin\u00e1",
+          "city": "Tonin\u00e1",
+          "country": "Mexico",
+          "latitude": 16.90121944,
+          "longitude": -92.009675
+        }
+      },
+      {
+        "year": 950,
+        "sig": "major",
+        "title": "Chichen Itza Rises to Dominate the Yucat\u00e1n",
+        "body": "Chichen Itza grows into the peninsula's dominant power, blending Maya and central Mexican Toltec architectural styles at monuments like El Castillo.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Chichen_Itza",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Chichen_Itza_3.jpg/330px-Chichen_Itza_3.jpg",
+        "imageAttribution": "Photo by Daniel Schwen, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "El Castillo, the step pyramid dedicated to Kukulcan at the center of Chichen Itza.",
+        "wikidataId": "Q5859",
+        "location": {
+          "historicalName": "Chichen Itza",
+          "city": "Chichen Itza",
+          "country": "Mexico",
+          "latitude": 20.68305556,
+          "longitude": -88.56861111
+        }
+      },
+      {
+        "year": 1220,
+        "sig": "major",
+        "title": "Mayapan Becomes the Yucat\u00e1n's New Capital",
+        "body": "Mayapan, a walled city modeled on Chichen Itza, becomes the political and cultural capital of the Yucat\u00e1n Maya, eventually growing to more than 4,000 structures.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Mayapan",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Mayapan_%272010_-_31.JPG/330px-Mayapan_%272010_-_31.JPG",
+        "imageAttribution": "Photo by SiMeCaIS, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "Ruins of Mayapan, walled capital of the Yucat\u00e1n Maya from the 1220s to the 1440s.",
+        "wikidataId": "Q567966",
+        "location": {
+          "historicalName": "Mayapan",
+          "city": "Telchaquillo",
+          "country": "Mexico",
+          "latitude": null,
+          "longitude": null
+        }
+      },
+      {
+        "year": 1441,
+        "sig": "major",
+        "title": "Mayapan Collapses, Fragmenting the Yucat\u00e1n",
+        "body": "Rebellion topples Mayapan's ruling Cocom dynasty, and the Yucat\u00e1n Maya splinter into rival, often warring city-states with no single dominant capital.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Mayapan",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Mayapan_Panorama.JPG/330px-Mayapan_Panorama.JPG",
+        "imageAttribution": "Photo by Pavel Vorobiev, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "Panoramic view of Mayapan's ruins from the temple of Kukulcan.",
+        "wikidataId": "Q567966",
+        "location": {
+          "historicalName": "Mayapan",
+          "city": "Telchaquillo",
+          "country": "Mexico",
+          "latitude": null,
+          "longitude": null
+        }
+      },
+      {
+        "year": 1697,
+        "sig": "major",
+        "title": "Nojpet\u00e9n Falls, Ending Independent Maya Rule",
+        "body": "Spanish forces under Mart\u00edn de Urs\u00faa storm Nojpet\u00e9n, the Itza capital on Lake Pet\u00e9n Itz\u00e1, ending the last independent Maya kingdom more than 175 years after the conquest of Mexico began.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Nojpet%C3%A9n",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Flores%2C_Pet%C3%A9n%2C_aerial_view_from_above_Santa_Elena.jpg/330px-Flores%2C_Pet%C3%A9n%2C_aerial_view_from_above_Santa_Elena.jpg",
+        "imageAttribution": "Photo by Rafael Amado Deras, CC BY 2.0, via Wikimedia Commons",
+        "imageDescription": "Flores, Guatemala, the modern town built on the island that was once Nojpet\u00e9n, the Itza Maya capital.",
+        "wikidataId": "Q1577053",
+        "location": {
+          "historicalName": "Nojpet\u00e9n",
+          "city": "Flores",
+          "country": "Guatemala",
+          "latitude": 16.92972222,
+          "longitude": -89.89166667
+        }
       }
     ]
   },
@@ -1329,8 +1514,8 @@
         "body": "After a 53-day siege using massive cannon to breach the ancient walls, Ottoman sultan Mehmed II captures Constantinople, ending the Byzantine Empire and the last continuous link to ancient Rome.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Siege_of_Constantinople_fresco%2C_Moldovi%C8%9Ba_monastery%2C_Vatra_Moldovi%C8%9Bei%2C_2017.jpg/330px-Siege_of_Constantinople_fresco%2C_Moldovi%C8%9Ba_monastery%2C_Vatra_Moldovi%C8%9Bei%2C_2017.jpg",
-        "imageAttribution": "Fresco, Moldovița Monastery, photo by DimiTalen, CC0, via Wikimedia Commons",
-        "imageDescription": "A modern fresco at Moldovița Monastery in Romania depicting the siege of Constantinople.",
+        "imageAttribution": "Fresco, Moldovi\u021ba Monastery, photo by DimiTalen, CC0, via Wikimedia Commons",
+        "imageDescription": "A modern fresco at Moldovi\u021ba Monastery in Romania depicting the siege of Constantinople.",
         "wikidataId": "Q160077",
         "location": {
           "historicalName": "Constantinople",
@@ -1546,7 +1731,7 @@
     "colorIndex": 4,
     "start": 1206,
     "end": 1368,
-    "summary": "Founded in 1206 when a kurultai of steppe chieftains proclaims Temüjin as Genghis Khan, the Mongol Empire grows within two generations into the largest contiguous land empire ever assembled, stretching from the Sea of Japan to the edge of Central Europe. Mongol armies topple the Khwarazmian Empire, the Abbasid Caliphate, and the Song dynasty of China, while cavalry under Batu Khan and Subutai push as far west as Hungary and Poland before a Mamluk army halts their advance at Ain Jalut. A war of succession after Möngke Khan's death splits the empire into four largely independent khanates by the 1260s; the largest, Kublai Khan's Yuan dynasty, rules China until Ming rebels drive the Mongols back to the steppe in 1368.",
+    "summary": "Founded in 1206 when a kurultai of steppe chieftains proclaims Tem\u00fcjin as Genghis Khan, the Mongol Empire grows within two generations into the largest contiguous land empire ever assembled, stretching from the Sea of Japan to the edge of Central Europe. Mongol armies topple the Khwarazmian Empire, the Abbasid Caliphate, and the Song dynasty of China, while cavalry under Batu Khan and Subutai push as far west as Hungary and Poland before a Mamluk army halts their advance at Ain Jalut. A war of succession after M\u00f6ngke Khan's death splits the empire into four largely independent khanates by the 1260s; the largest, Kublai Khan's Yuan dynasty, rules China until Ming rebels drive the Mongols back to the steppe in 1368.",
     "sourceUrl": "https://en.wikipedia.org/wiki/Mongol_Empire",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Asia_in_1335.svg",
     "imageAttribution": "Map by Wengier (derivative of a map by Teaandcrumpets), Public domain, via Wikimedia Commons",
@@ -1557,7 +1742,7 @@
         "year": 1206,
         "sig": "major",
         "title": "Genghis Khan Unites the Mongol Tribes",
-        "body": "A kurultai of steppe chieftains gathers at the source of the Onon River and proclaims Temüjin as Genghis Khan, \"universal ruler,\" ending decades of tribal warfare and setting off the fastest territorial expansion in history.",
+        "body": "A kurultai of steppe chieftains gathers at the source of the Onon River and proclaims Tem\u00fcjin as Genghis Khan, \"universal ruler,\" ending decades of tribal warfare and setting off the fastest territorial expansion in history.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Genghis_Khan",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/YuanEmperorAlbumGenghisPortrait.jpg/330px-YuanEmperorAlbumGenghisPortrait.jpg",
         "imageAttribution": "Portrait by unknown artist, digitized by the National Palace Museum, Public domain, via Wikimedia Commons",
@@ -1593,7 +1778,7 @@
         "year": 1241,
         "sig": "minor",
         "title": "Mongol Cavalry Crush Hungary at Mohi",
-        "body": "Batu Khan and Subutai's twin invasion of Europe culminates on the Sajó River, where a Mongol army annihilates the royal army of King Béla IV, opening the Hungarian plain to two years of occupation before the Mongols unexpectedly withdraw.",
+        "body": "Batu Khan and Subutai's twin invasion of Europe culminates on the Saj\u00f3 River, where a Mongol army annihilates the royal army of King B\u00e9la IV, opening the Hungarian plain to two years of occupation before the Mongols unexpectedly withdraw.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Mohi",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Battle_of_Mohi_1241.PNG/330px-Battle_of_Mohi_1241.PNG",
         "imageAttribution": "Illumination from the Chronicon Pictum (Cod. 2623), Public domain, via Wikimedia Commons",
@@ -1647,11 +1832,11 @@
         "year": 1264,
         "sig": "major",
         "title": "The Toluid Civil War Splits the Empire",
-        "body": "Kublai Khan's younger brother Ariq Böke surrenders after a four-year war of succession, but the fighting has already broken the unified Mongol Empire into four largely independent khanates: the Yuan, the Golden Horde, the Chagatai Khanate, and the Ilkhanate.",
+        "body": "Kublai Khan's younger brother Ariq B\u00f6ke surrenders after a four-year war of succession, but the fighting has already broken the unified Mongol Empire into four largely independent khanates: the Yuan, the Golden Horde, the Chagatai Khanate, and the Ilkhanate.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Toluid_Civil_War",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Arik_Buka_defeats_Alghu-Rashid_al%27Din_Jami_al_Tavarikhs-large.jpg/330px-Arik_Buka_defeats_Alghu-Rashid_al%27Din_Jami_al_Tavarikhs-large.jpg",
         "imageAttribution": "Painting by Miskin, Public domain, via Wikimedia Commons",
-        "imageDescription": "A 1596 illustration from Rashid al-Din's Jami al-Tavarikh depicting Ariq Böke's defeat by Kublai Khan's forces.",
+        "imageDescription": "A 1596 illustration from Rashid al-Din's Jami al-Tavarikh depicting Ariq B\u00f6ke's defeat by Kublai Khan's forces.",
         "wikidataId": "Q16871984"
       },
       {
@@ -1735,7 +1920,7 @@
       {
         "year": 1327,
         "sig": "minor",
-        "title": "Sankoré Madrasa Flourishes in Timbuktu",
+        "title": "Sankor\u00e9 Madrasa Flourishes in Timbuktu",
         "body": "Timbuktu becomes a center of Islamic scholarship, drawing scholars and manuscripts from across the Muslim world."
       },
       {
@@ -1752,7 +1937,7 @@
     "colorIndex": 6,
     "start": 1325,
     "end": 1521,
-    "summary": "Founded in 1325 when the wandering Mexica people build their capital, Tenochtitlan, on a marshy island in Lake Texcoco, the Aztec civilization becomes an empire in 1428 when Tenochtitlan joins Texcoco and Tlacopan in the Triple Alliance after defeating the Tepanecs of Azcapotzalco. Over the following century Mexica armies and tribute demands extend the alliance's reach across central Mexico, funding a religious capital whose Great Temple is consecrated in 1487 under the ruler Ahuitzotl. Hernán Cortés lands on the Gulf coast in 1519 and, allying with rivals of the Aztecs, marches on Tenochtitlan; after his men are driven out on La Noche Triste in 1520 he returns with a larger force and, aided by a smallpox epidemic that has already killed thousands, besieges and captures the city in 1521, ending Mexica rule.",
+    "summary": "Founded in 1325 when the wandering Mexica people build their capital, Tenochtitlan, on a marshy island in Lake Texcoco, the Aztec civilization becomes an empire in 1428 when Tenochtitlan joins Texcoco and Tlacopan in the Triple Alliance after defeating the Tepanecs of Azcapotzalco. Over the following century Mexica armies and tribute demands extend the alliance's reach across central Mexico, funding a religious capital whose Great Temple is consecrated in 1487 under the ruler Ahuitzotl. Hern\u00e1n Cort\u00e9s lands on the Gulf coast in 1519 and, allying with rivals of the Aztecs, marches on Tenochtitlan; after his men are driven out on La Noche Triste in 1520 he returns with a larger force and, aided by a smallpox epidemic that has already killed thousands, besieges and captures the city in 1521, ending Mexica rule.",
     "sourceUrl": "https://en.wikipedia.org/wiki/Aztecs",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Aztec_Empire.png/330px-Aztec_Empire.png",
     "imageAttribution": "Map by Aldan-2, CC BY-SA 4.0, via Wikimedia Commons",
@@ -1763,11 +1948,11 @@
         "year": 1325,
         "sig": "major",
         "title": "Tenochtitlan Is Founded",
-        "body": "According to legend, the Mexica see an eagle devouring a serpent atop a cactus — the sign their priests had foretold — and found their capital, Tenochtitlan, on a marshy island in Lake Texcoco.",
+        "body": "According to legend, the Mexica see an eagle devouring a serpent atop a cactus \u2014 the sign their priests had foretold \u2014 and found their capital, Tenochtitlan, on a marshy island in Lake Texcoco.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Tenochtitlan",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Fundacion_Tenochtitlan.jpg/500px-Fundacion_Tenochtitlan.jpg",
-        "imageAttribution": "Painting by Roberto Cueva del Río, CC BY-SA 3.0, via Wikimedia Commons",
-        "imageDescription": "A 20th-century mural, Fundación de Tenochtitlan, by Roberto Cueva del Río, depicting the city's legendary founding.",
+        "imageAttribution": "Painting by Roberto Cueva del R\u00edo, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A 20th-century mural, Fundaci\u00f3n de Tenochtitlan, by Roberto Cueva del R\u00edo, depicting the city's legendary founding.",
         "wikidataId": "Q13695",
         "location": {
           "historicalName": "Tenochtitlan",
@@ -1831,8 +2016,8 @@
         "body": "Moctezuma Xocoyotzin is crowned as the ninth tlatoani of Tenochtitlan, inheriting an empire near its greatest extent that he will rule for nearly two decades before the Spanish arrive.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Moctezuma_II",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Coronaci%C3%B3n_de_Moctezuma_II%2C_en_el_folio_152.png/330px-Coronaci%C3%B3n_de_Moctezuma_II%2C_en_el_folio_152.png",
-        "imageAttribution": "Illustration from the Codex Durán, Public domain, via Wikimedia Commons",
-        "imageDescription": "Moctezuma II receiving his crown during his 1502 coronation, illustrated in the 16th-century Codex Durán.",
+        "imageAttribution": "Illustration from the Codex Dur\u00e1n, Public domain, via Wikimedia Commons",
+        "imageDescription": "Moctezuma II receiving his crown during his 1502 coronation, illustrated in the 16th-century Codex Dur\u00e1n.",
         "wikidataId": "Q141791",
         "location": {
           "historicalName": "Tenochtitlan",
@@ -1845,12 +2030,12 @@
       {
         "year": 1519,
         "sig": "minor",
-        "title": "Cortés Arrives on the Coast",
-        "body": "Hernán Cortés lands on the Gulf coast and founds Veracruz, then marches inland, defeating and then allying with the Tlaxcalans as he advances toward Tenochtitlan.",
+        "title": "Cort\u00e9s Arrives on the Coast",
+        "body": "Hern\u00e1n Cort\u00e9s lands on the Gulf coast and founds Veracruz, then marches inland, defeating and then allying with the Tlaxcalans as he advances toward Tenochtitlan.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Hern%C3%A1n_Cort%C3%A9s",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Retrato_de_Hern%C3%A1n_Cort%C3%A9s.jpg/330px-Retrato_de_Hern%C3%A1n_Cort%C3%A9s.jpg",
-        "imageAttribution": "Portrait by unknown artist (Museo de América collection), Public domain, via Wikimedia Commons",
-        "imageDescription": "An anonymous portrait of Hernán Cortés, based on a likeness he sent to Paolo Giovio.",
+        "imageAttribution": "Portrait by unknown artist (Museo de Am\u00e9rica collection), Public domain, via Wikimedia Commons",
+        "imageDescription": "An anonymous portrait of Hern\u00e1n Cort\u00e9s, based on a likeness he sent to Paolo Giovio.",
         "wikidataId": "Q7326",
         "location": {
           "historicalName": "Veracruz",
@@ -1864,7 +2049,7 @@
         "year": 1520,
         "sig": "major",
         "title": "The Spanish Are Driven Out on La Noche Triste",
-        "body": "After Moctezuma II is killed in rioting and Cortés's men loot the palace treasury, the Mexica attack the retreating Spanish column on the causeway out of the city, inflicting heavy losses in what the Spanish call La Noche Triste, the Night of Sorrows.",
+        "body": "After Moctezuma II is killed in rioting and Cort\u00e9s's men loot the palace treasury, the Mexica attack the retreating Spanish column on the causeway out of the city, inflicting heavy losses in what the Spanish call La Noche Triste, the Night of Sorrows.",
         "sourceUrl": "https://en.wikipedia.org/wiki/La_Noche_Triste",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/The_Sad_Night_%28Noche_Triste%29_%28Conquest_of_Mexico%29_Painting.jpg/330px-The_Sad_Night_%28Noche_Triste%29_%28Conquest_of_Mexico%29_Painting.jpg",
         "imageAttribution": "Anonymous 17th-century painting, Public domain, via Wikimedia Commons",
@@ -1882,11 +2067,11 @@
         "year": 1521,
         "sig": "major",
         "title": "The Fall of Tenochtitlan",
-        "body": "After a three-month siege and a smallpox epidemic that has already killed thousands, including the previous emperor Cuitláhuac, Spanish forces and their Indigenous allies capture the last tlatoani, Cuauhtémoc, and take Tenochtitlan.",
+        "body": "After a three-month siege and a smallpox epidemic that has already killed thousands, including the previous emperor Cuitl\u00e1huac, Spanish forces and their Indigenous allies capture the last tlatoani, Cuauht\u00e9moc, and take Tenochtitlan.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Brigantines_in_the_Siege_of_Tenochtitlan.jpg/330px-Brigantines_in_the_Siege_of_Tenochtitlan.jpg",
-        "imageAttribution": "Illustration from the Florentine Codex by Bernardino de Sahagún, Public domain, via Wikimedia Commons",
-        "imageDescription": "Cortés's brigantine fleet deployed on Lake Texcoco during the siege of Tenochtitlan.",
+        "imageAttribution": "Illustration from the Florentine Codex by Bernardino de Sahag\u00fan, Public domain, via Wikimedia Commons",
+        "imageDescription": "Cort\u00e9s's brigantine fleet deployed on Lake Texcoco during the siege of Tenochtitlan.",
         "wikidataId": "Q593267",
         "location": {
           "historicalName": "Tenochtitlan",
@@ -1933,7 +2118,7 @@
         "year": 1572,
         "sig": "major",
         "title": "The Last Inca Stronghold Falls",
-        "body": "Spanish forces capture Vilcabamba and execute Túpac Amaru, ending organized Inca resistance four decades after first contact."
+        "body": "Spanish forces capture Vilcabamba and execute T\u00fapac Amaru, ending organized Inca resistance four decades after first contact."
       }
     ]
   },
@@ -1947,7 +2132,7 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/History_of_Japan",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Daibutsu-den_in_Todaiji_Nara01bs3200.jpg/330px-Daibutsu-den_in_Todaiji_Nara01bs3200.jpg",
     "imageAttribution": "Photo by 663highland, CC BY 2.5, via Wikimedia Commons",
-    "imageDescription": "The Great Buddha Hall of Tōdai-ji temple in Nara, one of Japan's most significant early Buddhist temples.",
+    "imageDescription": "The Great Buddha Hall of T\u014ddai-ji temple in Nara, one of Japan's most significant early Buddhist temples.",
     "wikidataId": "Q130436",
     "events": [
       {
@@ -1990,11 +2175,11 @@
         "year": 645,
         "sig": "major",
         "title": "Isshi Incident Triggers the Taika Reform",
-        "body": "Prince Naka no Ōe and Nakatomi no Kamatari assassinate the powerful minister Soga no Iruka at court, clearing the way for Emperor Kōtoku's Taika Reform, which recasts Japan's government along centralized Chinese Tang lines.",
+        "body": "Prince Naka no \u014ce and Nakatomi no Kamatari assassinate the powerful minister Soga no Iruka at court, clearing the way for Emperor K\u014dtoku's Taika Reform, which recasts Japan's government along centralized Chinese Tang lines.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Taika_Reform",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Irukaansatsuzu.jpg/330px-Irukaansatsuzu.jpg",
         "imageAttribution": "Scroll painting by Gukei Sumiyoshi, public domain, via Wikimedia Commons",
-        "imageDescription": "A depiction of the assassination of Soga no Iruka from the Tōnomine Engi scroll, painted in the Edo period.",
+        "imageDescription": "A depiction of the assassination of Soga no Iruka from the T\u014dnomine Engi scroll, painted in the Edo period.",
         "wikidataId": "Q570140",
         "location": {
           "historicalName": "Asuka",
@@ -2007,15 +2192,15 @@
       {
         "year": 794,
         "sig": "major",
-        "title": "Capital Moves to Heian-kyō",
-        "body": "Emperor Kanmu relocates the capital to Heian-kyō, opening the four-century Heian period in which a hereditary court aristocracy presides over a golden age of Japanese literature and art.",
+        "title": "Capital Moves to Heian-ky\u014d",
+        "body": "Emperor Kanmu relocates the capital to Heian-ky\u014d, opening the four-century Heian period in which a hereditary court aristocracy presides over a golden age of Japanese literature and art.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Heian_period",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Genji_emaki_TAKEKAWA.jpg/330px-Genji_emaki_TAKEKAWA.jpg",
         "imageAttribution": "Illustrated scroll from The Tale of Genji, Imperial court in Kyoto, public domain, via Wikimedia Commons",
         "imageDescription": "A scene from the illustrated Tale of Genji handscroll (Genji Monogatari Emaki), an early 12th-century work depicting Heian court life.",
         "wikidataId": "Q193292",
         "location": {
-          "historicalName": "Heian-kyō",
+          "historicalName": "Heian-ky\u014d",
           "city": "Kyoto",
           "country": "Japan",
           "latitude": 35.01161,
@@ -2061,15 +2246,15 @@
       {
         "year": 1467,
         "sig": "major",
-        "title": "Ōnin War Shatters Central Authority",
+        "title": "\u014cnin War Shatters Central Authority",
         "body": "A succession dispute among the shogunate's leading families erupts into a decade of fighting centered on Kyoto, permanently weakening the Ashikaga shogunate and opening the Sengoku, or \"Warring States,\" era of rival regional daimyo.",
         "sourceUrl": "https://en.wikipedia.org/wiki/%C5%8Cnin_War",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Onin-War-1467-1477-The-Battle-of-Onin-by-Utagawa-Yoshitora.png/330px-Onin-War-1467-1477-The-Battle-of-Onin-by-Utagawa-Yoshitora.png",
         "imageAttribution": "Woodblock print by Utagawa Yoshitora, public domain, via Wikimedia Commons",
-        "imageDescription": "The Battle of Ōnin during the Ōnin War (1467-1477), depicted by Utagawa Yoshitora.",
+        "imageDescription": "The Battle of \u014cnin during the \u014cnin War (1467-1477), depicted by Utagawa Yoshitora.",
         "wikidataId": "Q385676",
         "location": {
-          "historicalName": "Heian-kyō",
+          "historicalName": "Heian-ky\u014d",
           "city": "Kyoto",
           "country": "Japan",
           "latitude": 35.01161,
@@ -2084,7 +2269,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Sekigahara",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Sekigaharascreen.jpg/330px-Sekigaharascreen.jpg",
         "imageAttribution": "Folding screen painting, Collection of the Town of Sekigahara Archive of History and Cultural Anthropology, public domain, via Wikimedia Commons",
-        "imageDescription": "A folding screen (byōbu) depicting the Battle of Sekigahara, based on an early 17th-century original.",
+        "imageDescription": "A folding screen (by\u014dbu) depicting the Battle of Sekigahara, based on an early 17th-century original.",
         "wikidataId": "Q234188",
         "location": {
           "historicalName": "Sekigahara",
@@ -2123,7 +2308,7 @@
         "imageDescription": "A portrait of Emperor Meiji by Takahashi Yuichi, held in the Imperial Collection.",
         "wikidataId": "Q8707",
         "location": {
-          "historicalName": "Heian-kyō",
+          "historicalName": "Heian-ky\u014d",
           "city": "Kyoto",
           "country": "Japan",
           "latitude": 35.01161,
@@ -2149,15 +2334,15 @@
         "year": 1299,
         "sig": "major",
         "title": "Osman I Founds the Ottoman Beylik",
-        "body": "Osman I, a Turkoman frontier lord ruling from the small Anatolian town of Söğüt, breaks from Seljuk overlordship and founds the beylik that will grow into the Ottoman Empire.",
+        "body": "Osman I, a Turkoman frontier lord ruling from the small Anatolian town of S\u00f6\u011f\u00fct, breaks from Seljuk overlordship and founds the beylik that will grow into the Ottoman Empire.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Osman_I",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/I_Osman.jpg/330px-I_Osman.jpg",
         "imageAttribution": "Ottoman miniature painting, Public domain, via Wikimedia Commons",
         "imageDescription": "An Ottoman miniature portrait of Osman I, founder of the Ottoman Empire.",
         "wikidataId": "Q83100",
         "location": {
-          "historicalName": "Söğüt",
-          "city": "Söğüt",
+          "historicalName": "S\u00f6\u011f\u00fct",
+          "city": "S\u00f6\u011f\u00fct",
           "country": "Turkey",
           "latitude": 40.01861111,
           "longitude": 30.18138889
@@ -2256,12 +2441,12 @@
       {
         "year": 1839,
         "sig": "major",
-        "title": "The Edict of Gülhane Launches the Tanzimat Reforms",
-        "body": "Sultan Abdülmecid I proclaims the Edict of Gülhane at Topkapı Palace, launching the Tanzimat era of reforms that overhaul Ottoman law, education, and taxation in an attempt to modernize the empire and halt its long decline.",
+        "title": "The Edict of G\u00fclhane Launches the Tanzimat Reforms",
+        "body": "Sultan Abd\u00fclmecid I proclaims the Edict of G\u00fclhane at Topkap\u0131 Palace, launching the Tanzimat era of reforms that overhaul Ottoman law, education, and taxation in an attempt to modernize the empire and halt its long decline.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Tanzimat",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Sultan_Abd%C3%BClmecid_I.jpg/330px-Sultan_Abd%C3%BClmecid_I.jpg",
         "imageAttribution": "Painting by David Wilkie, Public domain, via Wikimedia Commons",
-        "imageDescription": "A portrait of Sultan Abdülmecid I, who proclaimed the Edict of Gülhane.",
+        "imageDescription": "A portrait of Sultan Abd\u00fclmecid I, who proclaimed the Edict of G\u00fclhane.",
         "wikidataId": "Q330961",
         "location": {
           "historicalName": "Constantinople",
@@ -2297,7 +2482,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Abolition_of_the_Ottoman_sultanate",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Sultanvahideddin.jpg/330px-Sultanvahideddin.jpg",
         "imageAttribution": "Public domain, via Wikimedia Commons",
-        "imageDescription": "Sultan Mehmed VI departing Dolmabahçe Palace shortly before his exile in November 1922.",
+        "imageDescription": "Sultan Mehmed VI departing Dolmabah\u00e7e Palace shortly before his exile in November 1922.",
         "wikidataId": "Q3809270",
         "location": {
           "historicalName": "Constantinople",

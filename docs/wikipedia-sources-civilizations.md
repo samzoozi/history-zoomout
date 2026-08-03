@@ -823,3 +823,107 @@ Ottoman period, not just before 1453.
   matching how this dataset already handles non-English names elsewhere (e.g. persia's
   `Şanlıurfa`, rome's `İzmit`, japan's `Tōdai-ji`/`Ōnin`) rather than transliterating to
   ASCII.
+
+## Maya (topic id: `maya`) — pulled 2026-08-03
+
+Status: **merged into live seed data 2026-08-03** (`backend/src/history_zoomout/db/seed_data/civilizations.json`, replacing the old 5-event entry wholesale) and reseeded. The
+old entry had 5 events (250-909 AD, Classic Period only) with no sources, images, or
+wikidata ids — a pre-enrichment placeholder like the original Persia pilot.
+
+User confirmed expanding the date range to the civilization's full documented span
+(c. 2000 BC – 1697 AD) rather than keeping the Classic-only 250-909 window, since the
+Preclassic origins and Postclassic/Spanish-conquest era are both well documented on
+Wikipedia. `colorIndex: 8` kept unchanged from the existing entry so a merge is a
+drop-in replacement.
+
+Covers three sub-periods: Preclassic (c. 2000 BC – 250 AD, first cities and monumental
+architecture at Nakbe and El Mirador), Classic (250-909 AD, the rival city-state era —
+kept the existing 5 events, verified and enriched with sources/images), and Postclassic
+(909-1697 AD, the shift north to Chichen Itza and Mayapan, ending with the Spanish
+conquest).
+
+### Topic-level source
+
+- **Maya civilization** — https://en.wikipedia.org/wiki/Maya_civilization — Wikidata
+  Q28567
+  - The article's own lead thumbnail (`Mayamap.png`) is a plain map, not very
+    illustrative. Used `File:Tikal_Temple1_2006_08_11.JPG` (Tikal Temple I, the "Great
+    Jaguar" pyramid) instead — a more recognizable visual signature for the civilization
+    as a whole, and distinct from every per-event image so the topic image doesn't
+    duplicate any event's.
+
+### Event-level sources
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| Monumental construction begins at Nakbe | c. 750 BC | [Nakbe](https://en.wikipedia.org/wiki/Nakbe) | Q1964016 | Simon Burchell, CC BY-SA 4.0 |
+| El Mirador rises as the first great Maya city | c. 300 BC | [El Mirador](https://en.wikipedia.org/wiki/El_Mirador) | Q504904 | Konjiki1, CC0 |
+| Preclassic Maya cities collapse | 150 AD | [El Mirador](https://en.wikipedia.org/wiki/El_Mirador) | Q504904 | Authenticmaya, CC BY-SA 2.5 |
+| The Classic Period begins | 250 AD | [Tikal](https://en.wikipedia.org/wiki/Tikal) | Q181172 | Mundo Maya, CC BY-SA 4.0 |
+| Teotihuacan's entrada remakes Tikal | 378 AD | [Tikal](https://en.wikipedia.org/wiki/Tikal) | Q181172 | Greg Willis, CC BY-SA 2.0 (Stela 31) |
+| Pakal ascends the throne at Palenque | 615 AD | [Kʼinich Janaabʼ Pakal](https://en.wikipedia.org/wiki/K%CA%BCinich_Janaab%CA%BC_Pakal) | Q371384 | Gary Todd, CC0 |
+| Quiriguá captures and sacrifices Copán's king | 738 AD | [Quiriguá](https://en.wikipedia.org/wiki/Quirigu%C3%A1) | Q318422 | Jan Pešula, CC BY 2.5 (Stela E) |
+| The last Long Count date is carved | 909 AD | [Toniná](https://en.wikipedia.org/wiki/Tonin%C3%A1) | Q1042074 | J. Antonio Cruz Coutiño, CC BY-SA 4.0 |
+| Chichen Itza rises to dominate the Yucatán | 950 AD | [Chichen Itza](https://en.wikipedia.org/wiki/Chichen_Itza) | Q5859 | Daniel Schwen, CC BY-SA 4.0 |
+| Mayapan becomes the Yucatán's new capital | 1220s | [Mayapan](https://en.wikipedia.org/wiki/Mayapan) | Q567966 | SiMeCaIS, CC BY-SA 3.0 |
+| Mayapan collapses, fragmenting the Yucatán | 1441 | [Mayapan](https://en.wikipedia.org/wiki/Mayapan) | Q567966 | Pavel Vorobiev, CC BY-SA 3.0 |
+| Nojpetén falls, ending independent Maya rule | 1697 | [Nojpetén](https://en.wikipedia.org/wiki/Nojpet%C3%A9n) | Q1577053 | Rafael Amado Deras, CC BY 2.0 |
+
+Image note: the Stela E used for the 738 AD event wasn't erected until 771 — it's a later
+victory monument raised by the same king (Kʼakʼ Tiliw Chan Yopaat) commemorating his
+reign following the Copán conquest, not a depiction of the 738 event itself, since no
+image of the event's own year was found. Noted here rather than presented as
+contemporary.
+
+### Event locations
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Nakbe | Nakbe | —, Guatemala | not found |
+| El Mirador rises | El Mirador | —, Guatemala | 17.755, -89.921 |
+| Preclassic collapse | El Mirador | —, Guatemala | 17.755, -89.921 |
+| Classic Period begins | — | — | omitted (names two city-states, Tikal and Calakmul; no single place) |
+| Teotihuacan's entrada | Yax Mutal | Tikal, Guatemala | 17.222, -89.624 |
+| Pakal ascends | Lakamha | Palenque, Mexico | 17.484, -92.046 |
+| Quiriguá captures Copán's king | Quiriguá | Quiriguá, Guatemala | 15.269, -89.040 |
+| Last Long Count date | Toniná | Toniná, Mexico | 16.901, -92.010 |
+| Chichen Itza rises | Chichen Itza | Chichen Itza, Mexico | 20.683, -88.569 |
+| Mayapan founded / collapses | Mayapan | Telchaquillo, Mexico | not found |
+| Nojpetén falls | Nojpetén | Flores, Guatemala | 16.930, -89.892 |
+
+Nakbe and Mayapan have no coordinates on Wikipedia (checked the site article and, for
+Mayapan, the nearest named modern town, Telchaquillo — neither has a coordinates
+property); `city`/`country` filled in from article text per the skill's fallback
+guidance, `latitude`/`longitude` left `null` rather than guessed.
+
+### Corrections / decisions
+
+- **Date range expanded from 250-909 AD to 2000 BC – 1697 AD**, per user confirmation —
+  the existing seed data only covered the Classic Period. This is the same kind of gap
+  the Persia pilot caught (missing the entire Parthian era): the old Maya entry skipped
+  the Preclassic origins and the entire five-centuries-long Postclassic era, including
+  the civilization's actual end (the 1697 fall of Nojpetén to Spain).
+- **378 AD event retitled and rewritten for accuracy.** The existing body ("A political
+  upheaval at Tikal, linked to contact with... Teotihuacan, installs a new ruling
+  dynasty") understated what happened: Tikal's king was killed the same day a
+  Teotihuacan-backed general arrived, and a new Teotihuacan-aligned king was installed
+  within the year — a foreign-backed regime change (the "entrada"), not a vague
+  "upheaval." Retitled from "Teotihuacan's Influence Reaches Tikal" to "Teotihuacan's
+  Entrada Remakes Tikal" and rewrote the body with the verified sequence of events.
+  Years (378/379) and Stela 31 as the depicting monument were both confirmed against the
+  Tikal article.
+- **738 AD event (Quiriguá/Copán) kept at `sig: "minor"`**, matching the existing
+  rating — enriched the body with the verified beheading detail (3 May 738) and added
+  sources/image, but didn't re-judge its significance rating per the skill's guidance
+  not to feel obliged to harmonize events not otherwise being changed.
+- **250, 615, 909 AD events (Classic Period Begins, Pakal Ascends, Last Long Count)
+  verified as-is** — all facts in the existing bodies (Tikal/Calakmul peak era; Pakal's
+  age-12 accession and 68-year reign; Toniná Monument 101 as the last Long Count
+  inscription) checked out against Wikipedia. Only added sources, images, wikidata ids,
+  and locations; body text essentially unchanged.
+- **Diacritics kept** (Quiriguá, Copán, Toniná, Nojpetén, Petén, Yucatán, Martín de
+  Ursúa), matching the Ottoman/Persia/Rome/Japan precedent of preserving native spelling
+  rather than transliterating to ASCII. "Chichen Itza" and "Mayapan" kept unaccented
+  since those are the actual English Wikipedia article titles for those two sites
+  (inconsistently, some file captions on Commons do accent them, but the article titles
+  themselves don't).
