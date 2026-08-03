@@ -411,7 +411,7 @@
     document.getElementById("detailDate").textContent = "· " + yearLabel(ev.year);
     document.getElementById("detailTitle").textContent = ev.title;
     document.getElementById("detailBody").textContent = ev.body;
-    document.getElementById("detailTag").textContent = ev.sig === "major" ? "Landmark event" : "Related event";
+    document.getElementById("detailTag").textContent = ev.sig === "major" ? "Major event" : "Related event";
 
     var figure = document.getElementById("detailFigure");
     if (ev.imageUrl) {
@@ -524,13 +524,9 @@
     document.getElementById("detailPanel").classList.remove("open");
   });
 
-  document.querySelectorAll(".segmented button").forEach(function (btn) {
-    btn.addEventListener("click", function () {
-      document.querySelectorAll(".segmented button").forEach(function (b) { b.setAttribute("aria-pressed", "false"); });
-      btn.setAttribute("aria-pressed", "true");
-      state.sig = btn.dataset.sig;
-      render();
-    });
+  document.getElementById("landmarksToggle").addEventListener("change", function (e) {
+    state.sig = e.target.checked ? "major" : "all";
+    render();
   });
 
   zoomInput.addEventListener("input", function () {

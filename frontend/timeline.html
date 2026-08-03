@@ -49,10 +49,11 @@
       </div>
       <div class="controls">
         <div class="control-row">
-          <div class="segmented" role="group" aria-label="Event significance">
-            <button type="button" data-sig="major" aria-pressed="false">Landmark events</button>
-            <button type="button" data-sig="all" aria-pressed="true">All events</button>
-          </div>
+          <label class="switch-control">
+            <input type="checkbox" id="landmarksToggle" />
+            <span class="switch-track"><span class="switch-thumb"></span></span>
+            <span class="switch-label">Major events only</span>
+          </label>
           <div class="zoom-control">
             <label for="zoom">Scale</label>
             <input type="range" id="zoom" min="0.6" max="4" step="0.1" value="1" />
