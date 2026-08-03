@@ -44,36 +44,181 @@
     "colorIndex": 2,
     "start": -3100,
     "end": -30,
+    "summary": "Ancient Egypt's civilization ran from Narmer's unification of Upper and Lower Egypt around 3100 BC through the Old, Middle, and New Kingdoms -- each followed by a period of fragmentation and reunification -- to the Late Period's conquest by Persia, then Alexander the Great, and finally the Ptolemaic dynasty, which ended with Cleopatra VII's death in 30 BC.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ancient_Egypt",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg/330px-Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg",
+    "imageAttribution": "Photo by Douwe C. van der Zee, CC BY-SA 4.0, via Wikimedia Commons",
+    "wikidataId": "Q11768",
     "events": [
       {
         "year": -3100,
         "sig": "major",
         "title": "Narmer Unites Upper and Lower Egypt",
-        "body": "A single king, likely Narmer, unifies the Nile valley into one kingdom, founding one of the world's first territorial states."
+        "body": "King Narmer conquers or absorbs Lower Egypt, uniting the Nile valley under a single ruler for the first time and founding the line of pharaohs that will govern Egypt for the next three millennia.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Narmer",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Narmer_palette_%28obverse%29_%28cropped%29.jpg/330px-Narmer_palette_%28obverse%29_%28cropped%29.jpg",
+        "imageAttribution": "Public domain, via Wikimedia Commons",
+        "wikidataId": "Q189582",
+        "location": {
+          "historicalName": "Hierakonpolis",
+          "city": "Kom el-Ahmar",
+          "country": "Egypt",
+          "latitude": 25.0972,
+          "longitude": 32.7794
+        }
       },
       {
-        "year": -2686,
+        "year": -2670,
         "sig": "minor",
-        "title": "The Old Kingdom Begins",
-        "body": "The Third Dynasty ushers in Egypt's first great age of pyramid building and centralized rule from Memphis."
+        "title": "Djoser Builds the Step Pyramid at Saqqara",
+        "body": "Pharaoh Djoser's architect Imhotep builds Egypt's first monumental stone structure, a six-tiered pyramid that launches the Old Kingdom's age of pyramid-building.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Pyramid_of_Djoser",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Sakkara_01.jpg/500px-Sakkara_01.jpg",
+        "imageAttribution": "Photo via Wikimedia Commons, CC BY-SA 3.0",
+        "wikidataId": "Q192158",
+        "location": {
+          "historicalName": "Saqqara",
+          "city": "Saqqara",
+          "country": "Egypt",
+          "latitude": 29.8711,
+          "longitude": 31.2167
+        }
       },
       {
         "year": -2560,
         "sig": "major",
         "title": "The Great Pyramid of Giza Is Completed",
-        "body": "Pharaoh Khufu's tomb rises as the tallest structure on Earth, a record it will hold for nearly 4,000 years."
+        "body": "Pharaoh Khufu's tomb is finished after roughly two decades of construction, standing as the largest pyramid ever built and the last surviving Ancient Wonder of the World.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg/330px-Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg",
+        "imageAttribution": "Photo by Douwe C. van der Zee, CC BY-SA 4.0, via Wikimedia Commons",
+        "wikidataId": "Q37200",
+        "location": {
+          "historicalName": "Giza",
+          "city": "Giza",
+          "country": "Egypt",
+          "latitude": 29.987,
+          "longitude": 31.2118
+        }
+      },
+      {
+        "year": -2055,
+        "sig": "major",
+        "title": "Mentuhotep II Reunifies Egypt, Begins the Middle Kingdom",
+        "body": "After more than a century of division known as the First Intermediate Period, Mentuhotep II defeats his rivals and reunites Upper and Lower Egypt, founding the Middle Kingdom from his power base at Thebes.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Mentuhotep_II",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Statue_of_Montuhotep_from_Deir_al-Bahri%2C_11th_Dynasty%2C_2065-2014_BCE%3B_Egyptian_Museum%2C_Cairo_%283%29.jpg/330px-Statue_of_Montuhotep_from_Deir_al-Bahri%2C_11th_Dynasty%2C_2065-2014_BCE%3B_Egyptian_Museum%2C_Cairo_%283%29.jpg",
+        "imageAttribution": "Photo by Prof. Mortel, CC BY 2.0, via Wikimedia Commons",
+        "wikidataId": "Q296439",
+        "location": {
+          "historicalName": "Thebes",
+          "city": "Luxor",
+          "country": "Egypt",
+          "latitude": 25.7206,
+          "longitude": 32.6103
+        }
+      },
+      {
+        "year": -1550,
+        "sig": "major",
+        "title": "Ahmose I Expels the Hyksos, Begins the New Kingdom",
+        "body": "Ahmose I captures the Hyksos stronghold of Avaris, driving the foreign dynasty out of Egypt and founding the 18th Dynasty, which will carry Egypt to the height of its power and territorial reach.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Ahmose_I",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Head_of_Ahmose_I_MET_DP140854.jpg/330px-Head_of_Ahmose_I_MET_DP140854.jpg",
+        "imageAttribution": "Metropolitan Museum of Art, CC0, via Wikimedia Commons",
+        "wikidataId": "Q7222",
+        "location": {
+          "historicalName": "Avaris",
+          "city": "Tell el-Dab'a",
+          "country": "Egypt",
+          "latitude": 30.7833,
+          "longitude": 31.8333
+        }
+      },
+      {
+        "year": -1353,
+        "sig": "minor",
+        "title": "Akhenaten Launches Egypt's Religious Revolution",
+        "body": "Pharaoh Akhenaten abandons Egypt's traditional pantheon for the worship of a single sun-disc god, Aten, and builds a new capital at Amarna -- a radical break that his successors will reverse within a generation.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Akhenaten",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/GD-EG-Caire-Mus%C3%A9e061.JPG/330px-GD-EG-Caire-Mus%C3%A9e061.JPG",
+        "imageAttribution": "Photo via Wikimedia Commons, CC BY-SA 2.5",
+        "wikidataId": "Q81794",
+        "location": {
+          "historicalName": "Akhetaten",
+          "city": "Amarna",
+          "country": "Egypt",
+          "latitude": 27.6453,
+          "longitude": 30.8964
+        }
       },
       {
         "year": -1274,
         "sig": "minor",
         "title": "The Battle of Kadesh",
-        "body": "Ramesses II fights the Hittites to a standstill in one of history's largest chariot battles, leading to one of the earliest known peace treaties."
+        "body": "Ramesses II leads Egyptian forces against the Hittite army of Muwatalli II in one of history's largest chariot battles; both sides claim victory, and the standoff eventually produces the world's earliest surviving peace treaty.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Kadesh",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Egypt_Abou_Simbel6.jpg/330px-Egypt_Abou_Simbel6.jpg",
+        "imageAttribution": "Photo via Wikimedia Commons, CC BY-SA 3.0",
+        "wikidataId": "Q203729",
+        "location": {
+          "historicalName": "Kadesh",
+          "city": "Homs",
+          "country": "Syria",
+          "latitude": null,
+          "longitude": null
+        }
+      },
+      {
+        "year": -525,
+        "sig": "major",
+        "title": "Cambyses II Conquers Egypt for Persia",
+        "body": "The Achaemenid king Cambyses II defeats Pharaoh Psamtik III at Pelusium and crowns himself pharaoh, ending Egypt's Late Period independence and folding it into the Persian Empire as a satrapy.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/First_Achaemenid_conquest_of_Egypt",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Western_part_of_the_Achaemenid_Empire.jpg/500px-Western_part_of_the_Achaemenid_Empire.jpg",
+        "imageAttribution": "Map by Mossmaps, CC BY-SA 4.0, via Wikimedia Commons",
+        "wikidataId": null,
+        "location": {
+          "historicalName": "Pelusium",
+          "city": "Tell el-Farama",
+          "country": "Egypt",
+          "latitude": 31.04166667,
+          "longitude": 32.545
+        }
+      },
+      {
+        "year": -332,
+        "sig": "major",
+        "title": "Alexander the Great Conquers Egypt",
+        "body": "Alexander enters Egypt to a welcome as a liberator from Persian rule and is crowned pharaoh at Memphis, ending nearly two centuries of Achaemenid control and setting up the Macedonian Greek Ptolemaic dynasty that follows.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Alexander_the_Great",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Alexander_Mosaic_detail_of_Alexander_the_Great_%283x4_cropped%29.jpg/330px-Alexander_Mosaic_detail_of_Alexander_the_Great_%283x4_cropped%29.jpg",
+        "imageAttribution": "Public domain, via Wikimedia Commons (detail of the Alexander Mosaic)",
+        "wikidataId": "Q8409",
+        "location": {
+          "historicalName": "Memphis",
+          "city": "Mit Rahina",
+          "country": "Egypt",
+          "latitude": 29.8494,
+          "longitude": 31.255
+        }
       },
       {
         "year": -30,
         "sig": "major",
         "title": "Death of Cleopatra VII",
-        "body": "Egypt's last active pharaoh dies after Rome's conquest, and the millennia-old kingdom becomes a Roman province."
+        "body": "Egypt's last active pharaoh dies by suicide after Rome's conquest of the Ptolemaic Kingdom, ending nearly three millennia of pharaonic rule and making Egypt a province of Rome.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Cleopatra",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kleopatra-VII.-Altes-Museum-Berlin1.jpg/330px-Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
+        "imageAttribution": "Photo by Louis le Grand, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q635",
+        "location": {
+          "historicalName": "Alexandria",
+          "city": "Alexandria",
+          "country": "Egypt",
+          "latitude": 31.1975,
+          "longitude": 29.8925
+        }
       }
     ]
   },
@@ -122,36 +267,147 @@
     "colorIndex": 4,
     "start": -800,
     "end": -146,
+    "summary": "Ancient Greece rose from a loose collection of city-states in the Archaic period, through the Classical age's wars with Persia and each other, to Alexander the Great's Macedonian-led conquests that opened the Hellenistic era -- before falling under Roman control after the Achaean War in 146 BC.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ancient_Greece",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Parthenon_%2830276156187%29.jpg/330px-Parthenon_%2830276156187%29.jpg",
+    "imageAttribution": "Photo by Phanatic, CC BY-SA 2.0, via Wikimedia Commons",
+    "wikidataId": "Q11772",
     "events": [
       {
         "year": -776,
         "sig": "major",
         "title": "The First Olympic Games",
-        "body": "City-states pause their rivalries to compete at Olympia, founding a tradition of pan-Hellenic athletic competition that will run for over a thousand years."
+        "body": "City-states across Greece send athletes to Olympia for a festival of competition held in honor of Zeus, beginning a tradition that will continue every four years for over a thousand years.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Ancient_Olympic_Games",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/GR-olympia-palaestra.jpg/330px-GR-olympia-palaestra.jpg",
+        "imageAttribution": "Photo by Bgabel, CC BY-SA 3.0, via Wikimedia Commons",
+        "wikidataId": "Q188468",
+        "location": {
+          "historicalName": "Olympia",
+          "city": "Olympia",
+          "country": "Greece",
+          "latitude": 37.64,
+          "longitude": 21.63
+        }
       },
       {
         "year": -621,
         "sig": "minor",
         "title": "Draco's Harsh Laws Are Written Down",
-        "body": "Athens gets its first written law code, so severe that “draconian” will still describe harsh punishment millennia later."
+        "body": "Athens gets its first written law code under the lawgiver Draco, whose penalties are so severe -- reportedly prescribing death for even minor offenses -- that his name gives us the word \"draconian.\"",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Draco_(legislator)",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Draco_engraving_from_1833_%28cropped%29.jpg/330px-Draco_engraving_from_1833_%28cropped%29.jpg",
+        "imageAttribution": "Engraving by Max Karl Baldamus, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q28626",
+        "location": {
+          "historicalName": "Athens",
+          "city": "Athens",
+          "country": "Greece",
+          "latitude": 37.98,
+          "longitude": 23.73
+        }
       },
       {
         "year": -508,
         "sig": "major",
         "title": "Cleisthenes Founds Athenian Democracy",
-        "body": "Reforms give ordinary male citizens a direct vote in the assembly, an experiment in self-rule without precedent in the ancient world."
+        "body": "Cleisthenes reorganizes Athens' constitution around ten new tribes cutting across old aristocratic loyalties, laying the groundwork for direct democratic government by its citizens.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Cleisthenes",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Cleisthenes.jpg/330px-Cleisthenes.jpg",
+        "imageAttribution": "Unknown artist, CC BY, via Wikimedia Commons",
+        "wikidataId": "Q207634",
+        "location": {
+          "historicalName": "Athens",
+          "city": "Athens",
+          "country": "Greece",
+          "latitude": 37.98,
+          "longitude": 23.73
+        }
       },
       {
         "year": -490,
         "sig": "minor",
         "title": "Victory at Marathon",
-        "body": "Athens repels the first Persian invasion at the Battle of Marathon, a triumph later commemorated by a runner's legendary sprint to deliver the news."
+        "body": "An outnumbered Athenian army routs the first Persian invasion force on the plain of Marathon, a victory that becomes a defining Athenian legend of citizen-soldiers defending their homeland.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Marathon",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Scene_of_the_Battle_of_Marathon.jpg/330px-Scene_of_the_Battle_of_Marathon.jpg",
+        "imageAttribution": "Illustration by John Steeple Davis, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q31900",
+        "location": {
+          "historicalName": "Marathon",
+          "city": "Marathon",
+          "country": "Greece",
+          "latitude": 38.15,
+          "longitude": 23.96
+        }
+      },
+      {
+        "year": -480,
+        "sig": "major",
+        "title": "The Battle of Salamis",
+        "body": "A Greek fleet under the Athenian Themistocles lures Xerxes' much larger Persian navy into the narrow straits of Salamis and destroys it, breaking Persia's second invasion of Greece.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Salamis",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Battle_of_salamis.png/330px-Battle_of_salamis.png",
+        "imageAttribution": "Department of History, United States Military Academy, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q178850",
+        "location": {
+          "historicalName": "Salamis",
+          "city": "Salamis Island",
+          "country": "Greece",
+          "latitude": 37.93,
+          "longitude": 23.5
+        }
+      },
+      {
+        "year": -431,
+        "sig": "major",
+        "title": "The Peloponnesian War Begins",
+        "body": "Long-simmering rivalry between Athens and Sparta erupts into open war between their respective alliances, a 27-year conflict that will exhaust both sides and end Athens' golden age.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Peloponnesian_War",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Pelop_war_en.png/330px-Pelop_war_en.png",
+        "imageAttribution": "Map by Captain Blood, translated by Kenmayer, CC BY-SA 3.0, via Wikimedia Commons",
+        "wikidataId": "Q33745",
+        "location": {
+          "historicalName": "Sparta",
+          "city": "Sparta",
+          "country": "Greece",
+          "latitude": 37.08,
+          "longitude": 22.42
+        }
+      },
+      {
+        "year": -334,
+        "sig": "major",
+        "title": "Alexander Invades the Persian Empire",
+        "body": "Leading a mostly Macedonian and Greek army across the Hellespont, Alexander wins his first battle against Achaemenid forces at the Granicus River, opening a decade of conquest that will remake the Greek world.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_the_Granicus",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Charles_Le_Brun%2C_Le_Passage_du_Granique%2C_1665.png/330px-Charles_Le_Brun%2C_Le_Passage_du_Granique%2C_1665.png",
+        "imageAttribution": "Painting by Charles Le Brun, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q192938",
+        "location": {
+          "historicalName": "Granicus",
+          "city": "Biga",
+          "country": "Turkey",
+          "latitude": 40.22805556,
+          "longitude": 27.24222222
+        }
       },
       {
         "year": -146,
         "sig": "major",
         "title": "Rome Conquers Greece",
-        "body": "After the sack of Corinth, Greece becomes a Roman province, even as Greek art, philosophy, and language go on to shape Roman civilization itself."
+        "body": "Roman forces defeat the Achaean League at Corinth and raze the city, ending Greek political independence and absorbing the Greek world into Rome's expanding Mediterranean empire.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Corinth_(146_BC)",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Tony_robert-fleury%2C_l%27ultimo_giorno_di_corinto%2C_ante_1870.JPG/330px-Tony_robert-fleury%2C_l%27ultimo_giorno_di_corinto%2C_ante_1870.JPG",
+        "imageAttribution": "Painting by Tony Robert-Fleury, photographed by Sailko, CC BY 3.0, via Wikimedia Commons",
+        "wikidataId": "Q587983",
+        "location": {
+          "historicalName": "Corinth",
+          "city": "Corinth",
+          "country": "Greece",
+          "latitude": 37.9053455,
+          "longitude": 22.8801924
+        }
       }
     ]
   },
@@ -161,36 +417,147 @@
     "colorIndex": 5,
     "start": -753,
     "end": 476,
+    "summary": "Rome grew from a legendary founding in 753 BC through a Republic that conquered the Mediterranean, into an Empire under Augustus in 27 BC that split its administration under Diocletian in 293 AD -- the Western half finally collapsing in 476 AD while the Eastern half continued for another millennium as the Byzantine Empire.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ancient_Rome",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Roman_Republic_Empire_map.gif/330px-Roman_Republic_Empire_map.gif",
+    "imageAttribution": "Map by Roke, CC BY-SA 3.0, via Wikimedia Commons",
+    "wikidataId": "Q1747689",
     "events": [
       {
         "year": -753,
         "sig": "major",
         "title": "Legendary Founding of Rome",
-        "body": "According to tradition, Romulus founds the city on the Palatine Hill, beginning a settlement that will grow into an empire spanning three continents."
+        "body": "Tradition holds that Romulus founds the city of Rome on the Palatine Hill after being raised by a she-wolf; archaeology instead points to a gradual merger of hilltop villages around the same period.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Founding_of_Rome",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Kapitolinische_W%C3%B6lfin_Museum_Capitolini.jpg/330px-Kapitolinische_W%C3%B6lfin_Museum_Capitolini.jpg",
+        "imageAttribution": "Photo by Rabax63, CC BY-SA 4.0, via Wikimedia Commons",
+        "wikidataId": "Q1247524",
+        "location": {
+          "historicalName": "Rome",
+          "city": "Rome",
+          "country": "Italy",
+          "latitude": 41.89,
+          "longitude": 12.48
+        }
       },
       {
         "year": -509,
         "sig": "minor",
         "title": "The Roman Republic Is Established",
-        "body": "Romans expel their last king and found a republic governed by elected magistrates and the Senate."
+        "body": "Rome's last king is overthrown and replaced with elected magistrates and a Senate, beginning nearly five centuries of republican government before power concentrates again under the emperors.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Roman_Republic",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Roman_republic%2C_territory_44_BC.svg/330px-Roman_republic%2C_territory_44_BC.svg.png",
+        "imageAttribution": "Map by Ifly6, CC BY-SA 4.0, via Wikimedia Commons",
+        "wikidataId": "Q17167",
+        "location": {
+          "historicalName": "Rome",
+          "city": "Rome",
+          "country": "Italy",
+          "latitude": 41.89,
+          "longitude": 12.48
+        }
+      },
+      {
+        "year": -202,
+        "sig": "major",
+        "title": "Rome Defeats Hannibal at Zama",
+        "body": "Scipio Africanus decisively defeats Hannibal's Carthaginian army in North Africa, ending the Second Punic War and breaking Carthage as a rival power in the Mediterranean for good.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Zama",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Hannibal_Slodtz_Louvre_MR2093.png/330px-Hannibal_Slodtz_Louvre_MR2093.png",
+        "imageAttribution": "Sculpture by Sébastien Slodtz, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q200056",
+        "location": {
+          "historicalName": "Zama",
+          "city": null,
+          "country": "Tunisia",
+          "latitude": null,
+          "longitude": null
+        }
       },
       {
         "year": -44,
         "sig": "major",
         "title": "Assassination of Julius Caesar",
-        "body": "Senators stab Caesar to death on the Ides of March, fearing his growing power — the act triggers the civil wars that end the Republic."
+        "body": "A group of senators stab Caesar to death in the Theatre of Pompey on the Ides of March, hoping to save the Republic from his growing personal power -- instead triggering the civil wars that end it.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Julius_Caesar",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Vincenzo_Camuccini_-_La_morte_di_Cesare_%28cropped_3-2%29.jpg/330px-Vincenzo_Camuccini_-_La_morte_di_Cesare_%28cropped_3-2%29.jpg",
+        "imageAttribution": "Painting by Vincenzo Camuccini, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q1025466",
+        "location": {
+          "historicalName": "Rome",
+          "city": "Rome",
+          "country": "Italy",
+          "latitude": 41.89,
+          "longitude": 12.48
+        }
+      },
+      {
+        "year": -27,
+        "sig": "major",
+        "title": "Augustus Becomes Rome's First Emperor",
+        "body": "Octavian, Caesar's adopted heir, takes the title Augustus after defeating his rivals in the civil wars, ending the Republic in all but name and founding the Roman Empire he will rule for over 40 years.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Augustus",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Augustus_of_Prima_Porta.jpg/330px-Augustus_of_Prima_Porta.jpg",
+        "imageAttribution": "Photo by Justin Benttinen, CC BY-SA 4.0, via Wikimedia Commons",
+        "wikidataId": "Q1405",
+        "location": {
+          "historicalName": "Rome",
+          "city": "Rome",
+          "country": "Italy",
+          "latitude": 41.89,
+          "longitude": 12.48
+        }
       },
       {
         "year": 80,
         "sig": "minor",
         "title": "The Colosseum Opens",
-        "body": "Emperor Titus inaugurates the Flavian Amphitheatre with 100 days of games, seating some 50,000 spectators."
+        "body": "Emperor Titus inaugurates Rome's great amphitheater with a hundred days of games, giving the Empire its most enduring symbol of public spectacle and engineering ambition.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Colosseum",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/330px-Colosseo_2020.jpg",
+        "imageAttribution": "Photo by FeaturedPics, CC BY-SA 4.0, via Wikimedia Commons",
+        "wikidataId": "Q10285",
+        "location": {
+          "historicalName": "Rome",
+          "city": "Rome",
+          "country": "Italy",
+          "latitude": 41.89,
+          "longitude": 12.48
+        }
+      },
+      {
+        "year": 293,
+        "sig": "minor",
+        "title": "Diocletian Splits the Empire Into the Tetrarchy",
+        "body": "Facing an empire too vast for one ruler to defend, Diocletian institutes a four-way division of power between two senior and two junior emperors -- an arrangement that foreshadows the later permanent split between East and West.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Diocletian",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Istanbul_Archaeology_Museum_Bust_of_Diocletian%2C_from_Nikomedia%2C_Izmit%2C_end_3rd_century_AD_1536.jpg/330px-Istanbul_Archaeology_Museum_Bust_of_Diocletian%2C_from_Nikomedia%2C_Izmit%2C_end_3rd_century_AD_1536.jpg",
+        "imageAttribution": "Photo by Dosseman, CC BY-SA 4.0, via Wikimedia Commons",
+        "wikidataId": "Q43107",
+        "location": {
+          "historicalName": "Nicomedia",
+          "city": "İzmit",
+          "country": "Turkey",
+          "latitude": 40.76,
+          "longitude": 29.92
+        }
       },
       {
         "year": 476,
         "sig": "major",
         "title": "Fall of the Western Roman Empire",
-        "body": "Germanic general Odoacer deposes the last Western emperor, Romulus Augustulus — an event later historians mark as Rome's end in the West."
+        "body": "The Germanic general Odoacer deposes the last Western emperor, the teenage Romulus Augustulus, at Ravenna -- the traditional date marking the end of the Western Roman Empire, while the Eastern half endures as Byzantium.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Romulus_Augustulus",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Gold_Solidus_of_Romulus_Augustulus.jpg/500px-Gold_Solidus_of_Romulus_Augustulus.jpg",
+        "imageAttribution": "American Numismatic Society, CC0, via Wikimedia Commons",
+        "wikidataId": "Q608613",
+        "location": {
+          "historicalName": "Ravenna",
+          "city": "Ravenna",
+          "country": "Italy",
+          "latitude": 44.42,
+          "longitude": 12.2
+        }
       }
     ]
   },
