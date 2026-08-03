@@ -105,6 +105,11 @@
   var topicFilterCount = document.getElementById("topicFilterCount");
   var topicFilterAll = document.getElementById("topicFilterAll");
   var topicFilterClear = document.getElementById("topicFilterClear");
+  var navToggle = document.getElementById("navToggle");
+  var navScrim = document.getElementById("navScrim");
+  var navDrawer = document.getElementById("navDrawer");
+  var navClose = document.getElementById("navClose");
+  var navList = document.getElementById("navList");
 
   function pxPerYear() { return BASE_PX_PER_YEAR * state.zoom; }
   function yearToX(year) { return (year - DOMAIN_START) * pxPerYear(); }
@@ -287,6 +292,44 @@
     renderLanes();
   });
 
+  function renderNavList(categories) {
+    navList.innerHTML = "";
+    categories.forEach(function (cat) {
+      var isCurrent = cat.id === CATEGORY;
+      var item = document.createElement(isCurrent ? "span" : "a");
+      item.className = "nav-drawer-item" + (isCurrent ? " active" : "");
+      if (isCurrent) {
+        item.setAttribute("aria-current", "page");
+      } else {
+        item.href = "index.html?category=" + encodeURIComponent(cat.id);
+      }
+      item.innerHTML =
+        '<span class="nav-drawer-item-label">' + cat.label + "</span>" +
+        '<span class="nav-drawer-item-count">' + cat.count + "</span>";
+      navList.appendChild(item);
+    });
+  }
+
+  function openNav() {
+    navDrawer.classList.add("open");
+    navScrim.classList.add("open");
+    navToggle.setAttribute("aria-expanded", "true");
+  }
+  function closeNav() {
+    navDrawer.classList.remove("open");
+    navScrim.classList.remove("open");
+    navToggle.setAttribute("aria-expanded", "false");
+  }
+
+  navToggle.addEventListener("click", function () {
+    if (navDrawer.classList.contains("open")) closeNav(); else openNav();
+  });
+  navScrim.addEventListener("click", closeNav);
+  navClose.addEventListener("click", closeNav);
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") closeNav();
+  });
+
   function selectEvent(topic, ev, markerEl, colorVar) {
     document.querySelectorAll(".marker[aria-pressed='true']").forEach(function (m) {
       m.setAttribute("aria-pressed", "false");
@@ -450,6 +493,7 @@
       var categories = results[1];
       var match = categories.filter(function (c) { return c.id === CATEGORY; })[0];
       if (match) CATEGORY_LABEL = match.label;
+      renderNavList(categories);
       init();
     })
     .catch(function (err) {

@@ -236,6 +236,109 @@ button:focus-visible,
   width: 3.4em;
 }
 
+/* ---------- Nav drawer ---------- */
+/* Hidden by default; slides in from the left over the whole app (topbar
+   included) to list every category, mirroring .detail-panel's slide-in. */
+/* Fixed and out of the topbar's flex flow entirely -- tucked into the
+   topbar's own left padding gutter, left of the wordmark -- so it never
+   pushes the title/controls out of their original position. */
+.nav-toggle {
+  position: fixed;
+  top: 34px;
+  left: 12px;
+  z-index: 25;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  border: none;
+  border-radius: 6px;
+  background: none;
+  cursor: pointer;
+}
+.nav-toggle svg { width: 18px; height: 18px; }
+.nav-toggle:hover, .nav-toggle[aria-expanded="true"] {
+  background: var(--brass-glow);
+}
+
+.nav-scrim {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 12, 18, 0.35);
+  z-index: 29;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+.nav-scrim.open { opacity: 1; pointer-events: auto; }
+
+.nav-drawer {
+  position: fixed;
+  top: 0; left: 0; bottom: 0;
+  width: 300px;
+  max-width: 84vw;
+  background: var(--surface-raised);
+  border-right: 1px solid var(--hairline-strong);
+  box-shadow: var(--shadow);
+  padding: 20px;
+  overflow-y: auto;
+  transform: translateX(-100%);
+  transition: transform 0.28s cubic-bezier(.2,.8,.2,1);
+  z-index: 30;
+}
+.nav-drawer.open { transform: translateX(0); }
+
+.nav-drawer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.nav-drawer-title {
+  font-family: 'Marcellus', serif;
+  font-size: 18px;
+  color: var(--ink-primary);
+}
+.nav-drawer-close {
+  border: none;
+  background: none;
+  color: var(--ink-muted);
+  cursor: pointer;
+  font-size: 14px;
+  padding: 4px;
+}
+.nav-drawer-close:hover { color: var(--ink-primary); }
+
+.nav-drawer-list { display: flex; flex-direction: column; gap: 4px; }
+.nav-drawer-item {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--ink-secondary);
+  cursor: pointer;
+}
+.nav-drawer-item:hover { background: var(--surface); color: var(--ink-primary); }
+.nav-drawer-item.active {
+  color: var(--brass-strong);
+  background: var(--brass-glow);
+  cursor: default;
+}
+.nav-drawer-item-label {
+  font-family: 'Marcellus', serif;
+  font-size: 15px;
+}
+.nav-drawer-item-count {
+  font-size: 11.5px;
+  color: var(--ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+
 /* ---------- Topic filter ---------- */
 .topic-filter { position: relative; }
 .topic-filter-toggle {
