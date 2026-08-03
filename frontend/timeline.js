@@ -301,7 +301,7 @@
       if (isCurrent) {
         item.setAttribute("aria-current", "page");
       } else {
-        item.href = "index.html?category=" + encodeURIComponent(cat.id);
+        item.href = "timeline.html?category=" + encodeURIComponent(cat.id);
       }
       item.innerHTML =
         '<span class="nav-drawer-item-label">' + cat.label + "</span>" +

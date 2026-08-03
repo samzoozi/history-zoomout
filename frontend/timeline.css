@@ -244,21 +244,21 @@ button:focus-visible,
    pushes the title/controls out of their original position. */
 .nav-toggle {
   position: fixed;
-  top: 34px;
-  left: 12px;
+  top: 30px;
+  left: 8px;
   z-index: 25;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 26px;
-  height: 26px;
+  width: 34px;
+  height: 34px;
   padding: 0;
   border: none;
   border-radius: 6px;
   background: none;
   cursor: pointer;
 }
-.nav-toggle svg { width: 18px; height: 18px; }
+.nav-toggle svg { width: 23px; height: 23px; }
 .nav-toggle:hover, .nav-toggle[aria-expanded="true"] {
   background: var(--brass-glow);
 }

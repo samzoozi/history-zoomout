@@ -27,7 +27,7 @@ class FrontendStack(Stack):
 
         distribution = cloudfront.Distribution(
             self, "SiteDistribution",
-            default_root_object="index.html",
+            default_root_object="timeline.html",
             default_behavior=cloudfront.BehaviorOptions(
                 origin=origins.S3BucketOrigin.with_origin_access_control(site_bucket),
                 viewer_protocol_policy=cloudfront.ViewerProtocolPolicy.REDIRECT_TO_HTTPS,
