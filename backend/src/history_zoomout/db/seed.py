@@ -48,6 +48,7 @@ def seed() -> None:
                     source_url=civ.get("sourceUrl"),
                     image_url=civ.get("imageUrl"),
                     image_attribution=civ.get("imageAttribution"),
+                    image_description=civ.get("imageDescription"),
                     wikidata_id=civ.get("wikidataId"),
                     events=[
                         Event(
@@ -58,6 +59,7 @@ def seed() -> None:
                             source_url=ev.get("sourceUrl"),
                             image_url=ev.get("imageUrl"),
                             image_attribution=ev.get("imageAttribution"),
+                            image_description=ev.get("imageDescription"),
                             wikidata_id=ev.get("wikidataId"),
                             location=build_location(ev.get("location")),
                         )

@@ -9,6 +9,7 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/History_of_Mesopotamia",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/N-Mesopotamia_and_Syria_english.svg/330px-N-Mesopotamia_and_Syria_english.svg.png",
     "imageAttribution": "Map by Goran tek-en, CC BY-SA 4.0, via Wikimedia Commons",
+    "imageDescription": "A map of ancient Mesopotamia along the Tigris and Euphrates rivers.",
     "wikidataId": "Q2481441",
     "events": [
       {
@@ -19,6 +20,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Cuneiform",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Xerxes_Cuneiform_Van.JPG/330px-Xerxes_Cuneiform_Van.JPG",
         "imageAttribution": "Photo by Bjørn Christian Tørrissen, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A monumental Achaemenid-era cuneiform inscription of Xerxes I, carved into the cliff at Van in eastern Turkey.",
         "wikidataId": "Q401",
         "location": {
           "historicalName": "Uruk",
@@ -36,6 +38,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Sargon_of_Akkad",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Sargon_of_Akkad_on_his_victory_stele.jpg/330px-Sargon_of_Akkad_on_his_victory_stele.jpg",
         "imageAttribution": "Photo by ALFGRN, CC BY-SA 2.0, via Wikimedia Commons",
+        "imageDescription": "Sargon of Akkad depicted on his victory stele.",
         "wikidataId": "Q199461",
         "location": {
           "historicalName": "Akkad",
@@ -53,6 +56,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Third_Dynasty_of_Ur",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ur_III.svg/330px-Ur_III.svg.png",
         "imageAttribution": "Map by Sémhur and Zunkir, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A map of the Third Dynasty of Ur's territorial extent under Ur-Nammu and Shulgi.",
         "wikidataId": "Q723587",
         "location": {
           "historicalName": "Ur",
@@ -70,6 +74,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Code_of_Hammurabi",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/P1050763_Louvre_code_Hammurabi_face_rwk.JPG/330px-P1050763_Louvre_code_Hammurabi_face_rwk.JPG",
         "imageAttribution": "Photo by Mbzt, CC BY 3.0, via Wikimedia Commons",
+        "imageDescription": "The front face of the Code of Hammurabi stele, now in the Louvre.",
         "wikidataId": "Q93304",
         "location": {
           "historicalName": "Babylon",
@@ -87,6 +92,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Library_of_Ashurbanipal",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/AshurbanipalKingOfAssyria.jpg/330px-AshurbanipalKingOfAssyria.jpg",
         "imageAttribution": "Photo by KeyolTranslater, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "A relief of King Ashurbanipal hunting lions, from his palace at Nineveh.",
         "wikidataId": null,
         "location": {
           "historicalName": "Nineveh",
@@ -104,6 +110,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Nineveh",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Fall_of_nineveh.jpg/330px-Fall_of_nineveh.jpg",
         "imageAttribution": "Illustration by Mu-tamajo, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "John Martin's 1829 painting The Fall of Nineveh.",
         "wikidataId": "Q612286",
         "location": {
           "historicalName": "Nineveh",
@@ -121,6 +128,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Nebuchadnezzar_II",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Nebuchadnezzar_II_crop.png/330px-Nebuchadnezzar_II_crop.png",
         "imageAttribution": "Public domain, via Wikimedia Commons",
+        "imageDescription": "A depiction of Etemenanki, the great ziggurat of Babylon rebuilt under Nebuchadnezzar II.",
         "wikidataId": "Q12591",
         "location": {
           "historicalName": "Jerusalem",
@@ -138,6 +146,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Babylon",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/The_fall_of_Babylon%3B_Cyrus_the_Great_defeating_the_Chaldean_Wellcome_V0034440.jpg/330px-The_fall_of_Babylon%3B_Cyrus_the_Great_defeating_the_Chaldean_Wellcome_V0034440.jpg",
         "imageAttribution": "Mezzotint by J. Martin (1831), CC BY 4.0, via Wikimedia Commons / Wellcome Collection",
+        "imageDescription": "J. Martin's 1831 mezzotint depicting Cyrus the Great's conquest of Babylon.",
         "wikidataId": "Q28169617",
         "location": {
           "historicalName": "Babylon",
@@ -159,6 +168,7 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Ancient_Egypt",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg/330px-Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg",
     "imageAttribution": "Photo by Douwe C. van der Zee, CC BY-SA 4.0, via Wikimedia Commons",
+    "imageDescription": "A modern photograph of the Pyramid of Khufu at Giza, the last surviving Wonder of the Ancient World.",
     "wikidataId": "Q11768",
     "events": [
       {
@@ -169,6 +179,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Narmer",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Narmer_palette_%28obverse%29_%28cropped%29.jpg/330px-Narmer_palette_%28obverse%29_%28cropped%29.jpg",
         "imageAttribution": "Public domain, via Wikimedia Commons",
+        "imageDescription": "The Narmer Palette, a ceremonial carved slate commemorating the unification of Upper and Lower Egypt.",
         "wikidataId": "Q189582",
         "location": {
           "historicalName": "Hierakonpolis",
@@ -186,6 +197,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Pyramid_of_Djoser",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Sakkara_01.jpg/500px-Sakkara_01.jpg",
         "imageAttribution": "Photo via Wikimedia Commons, CC BY-SA 3.0",
+        "imageDescription": "The Step Pyramid of Djoser at Saqqara, Egypt's first monumental stone structure.",
         "wikidataId": "Q192158",
         "location": {
           "historicalName": "Saqqara",
@@ -203,6 +215,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg/330px-Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg",
         "imageAttribution": "Photo by Douwe C. van der Zee, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "A modern photograph of the Great Pyramid of Giza, built as Khufu's tomb.",
         "wikidataId": "Q37200",
         "location": {
           "historicalName": "Giza",
@@ -220,6 +233,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Mentuhotep_II",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Statue_of_Montuhotep_from_Deir_al-Bahri%2C_11th_Dynasty%2C_2065-2014_BCE%3B_Egyptian_Museum%2C_Cairo_%283%29.jpg/330px-Statue_of_Montuhotep_from_Deir_al-Bahri%2C_11th_Dynasty%2C_2065-2014_BCE%3B_Egyptian_Museum%2C_Cairo_%283%29.jpg",
         "imageAttribution": "Photo by Prof. Mortel, CC BY 2.0, via Wikimedia Commons",
+        "imageDescription": "A statue of Mentuhotep II from his mortuary complex at Deir el-Bahri, now in the Egyptian Museum, Cairo.",
         "wikidataId": "Q296439",
         "location": {
           "historicalName": "Thebes",
@@ -237,6 +251,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Ahmose_I",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Head_of_Ahmose_I_MET_DP140854.jpg/330px-Head_of_Ahmose_I_MET_DP140854.jpg",
         "imageAttribution": "Metropolitan Museum of Art, CC0, via Wikimedia Commons",
+        "imageDescription": "A carved head of Ahmose I, founder of Egypt's 18th Dynasty, at the Metropolitan Museum of Art.",
         "wikidataId": "Q7222",
         "location": {
           "historicalName": "Avaris",
@@ -271,6 +286,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Kadesh",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Egypt_Abou_Simbel6.jpg/330px-Egypt_Abou_Simbel6.jpg",
         "imageAttribution": "Photo via Wikimedia Commons, CC BY-SA 3.0",
+        "imageDescription": "The temple of Abu Simbel, built by Ramesses II, whose reliefs commemorate his campaign at Kadesh.",
         "wikidataId": "Q203729",
         "location": {
           "historicalName": "Kadesh",
@@ -288,6 +304,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/First_Achaemenid_conquest_of_Egypt",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Western_part_of_the_Achaemenid_Empire.jpg/500px-Western_part_of_the_Achaemenid_Empire.jpg",
         "imageAttribution": "Map by Mossmaps, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "A map of the western Achaemenid Empire, including Egypt after Cambyses II's conquest.",
         "wikidataId": null,
         "location": {
           "historicalName": "Pelusium",
@@ -305,6 +322,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Alexander_the_Great",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Alexander_Mosaic_detail_of_Alexander_the_Great_%283x4_cropped%29.jpg/330px-Alexander_Mosaic_detail_of_Alexander_the_Great_%283x4_cropped%29.jpg",
         "imageAttribution": "Public domain, via Wikimedia Commons (detail of the Alexander Mosaic)",
+        "imageDescription": "A detail of the Alexander Mosaic from Pompeii, depicting Alexander the Great in battle.",
         "wikidataId": "Q8409",
         "location": {
           "historicalName": "Memphis",
@@ -322,6 +340,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Cleopatra",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kleopatra-VII.-Altes-Museum-Berlin1.jpg/330px-Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
         "imageAttribution": "Photo by Louis le Grand, Public domain, via Wikimedia Commons",
+        "imageDescription": "A Roman marble bust of Cleopatra VII, dated to around the time of her visit to Rome, now in Berlin's Altes Museum.",
         "wikidataId": "Q635",
         "location": {
           "historicalName": "Alexandria",
@@ -343,6 +362,7 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Indus_Valley_Civilisation",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Indus_Valley_Civilization%2C_Mature_Phase_%282600-1900_BCE%29.png/330px-Indus_Valley_Civilization%2C_Mature_Phase_%282600-1900_BCE%29.png",
     "imageAttribution": "Map by Avantiputra7, CC BY-SA 3.0, via Wikimedia Commons",
+    "imageDescription": "A map of the Indus Valley Civilization's extent during its Mature Phase (2600-1900 BC).",
     "wikidataId": "Q42534",
     "events": [
       {
@@ -368,6 +388,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Harappa",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/View_of_Granary_and_Great_Hall_on_Mound_F_-_Archaeological_site_of_Harappa.jpg/330px-View_of_Granary_and_Great_Hall_on_Mound_F_-_Archaeological_site_of_Harappa.jpg",
         "imageAttribution": "Photo by Muhammad Bin Naveed, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "The Granary and Great Hall on Mound F at the archaeological site of Harappa.",
         "wikidataId": "Q185562",
         "location": {
           "historicalName": "Harappa",
@@ -385,6 +406,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Indus_script",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Indus_seal_impression.jpg",
         "imageAttribution": "Photo by PHGCOM, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "An Indus Valley seal impression showing a five-character Indus script inscription, in the British Museum.",
         "wikidataId": "Q601388"
       },
       {
@@ -395,6 +417,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Meluhha",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Moyen_Orient_3mil_aC.svg/330px-Moyen_Orient_3mil_aC.svg.png",
         "imageAttribution": "Map by Sémhur (base) and Zunkir (derivative), CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A map of the Middle East in the second half of the 3rd millennium BC, spanning the Akkadian and Ur III periods.",
         "wikidataId": "Q483421"
       },
       {
@@ -405,6 +428,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Indus_Valley_Civilisation",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Great_bath_view_Mohenjodaro.JPG/330px-Great_bath_view_Mohenjodaro.JPG",
         "imageAttribution": "Photo by Saqib Qayyum, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "The Great Bath at Mohenjo-daro, a large brick-built pool at the center of the city's citadel, likely used for ritual bathing.",
         "wikidataId": "Q42534"
       },
       {
@@ -415,6 +439,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Cemetery_H_culture",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Cemetery_H_Pottery.png/330px-Cemetery_H_Pottery.png",
         "imageAttribution": "Illustration by Avantiputra7, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "Painted pottery urns from Harappa's Cemetery H period, now in the National Museum, New Delhi.",
         "wikidataId": "Q2364797",
         "location": {
           "historicalName": "Harappa (Cemetery H)",
@@ -432,6 +457,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Indus_Valley_Civilisation",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Mohenjodaro_-_view_of_the_stupa_mound.JPG/330px-Mohenjodaro_-_view_of_the_stupa_mound.JPG",
         "imageAttribution": "Photo by Saqib Qayyum, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "The ruins of a Buddhist stupa built centuries later atop Mohenjo-daro's citadel mound.",
         "wikidataId": "Q42534"
       }
     ]
@@ -446,6 +472,7 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Ancient_Greece",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Parthenon_%2830276156187%29.jpg/330px-Parthenon_%2830276156187%29.jpg",
     "imageAttribution": "Photo by Phanatic, CC BY-SA 2.0, via Wikimedia Commons",
+    "imageDescription": "The Parthenon, the temple to Athena atop the Acropolis in Athens.",
     "wikidataId": "Q11772",
     "events": [
       {
@@ -456,6 +483,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Ancient_Olympic_Games",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/GR-olympia-palaestra.jpg/330px-GR-olympia-palaestra.jpg",
         "imageAttribution": "Photo by Bgabel, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "The ruins of the palaestra (wrestling school) at Olympia, site of the ancient Olympic Games.",
         "wikidataId": "Q188468",
         "location": {
           "historicalName": "Olympia",
@@ -473,6 +501,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Draco_(legislator)",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Draco_engraving_from_1833_%28cropped%29.jpg/330px-Draco_engraving_from_1833_%28cropped%29.jpg",
         "imageAttribution": "Engraving by Max Karl Baldamus, Public domain, via Wikimedia Commons",
+        "imageDescription": "An 1833 engraved portrait of the Athenian lawgiver Draco.",
         "wikidataId": "Q28626",
         "location": {
           "historicalName": "Athens",
@@ -490,6 +519,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Cleisthenes",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Cleisthenes.jpg/330px-Cleisthenes.jpg",
         "imageAttribution": "Unknown artist, CC BY, via Wikimedia Commons",
+        "imageDescription": "A modern bust of Cleisthenes, regarded as the father of Athenian democracy.",
         "wikidataId": "Q207634",
         "location": {
           "historicalName": "Athens",
@@ -507,6 +537,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Marathon",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Scene_of_the_Battle_of_Marathon.jpg/330px-Scene_of_the_Battle_of_Marathon.jpg",
         "imageAttribution": "Illustration by John Steeple Davis, Public domain, via Wikimedia Commons",
+        "imageDescription": "An illustration of the Battle of Marathon.",
         "wikidataId": "Q31900",
         "location": {
           "historicalName": "Marathon",
@@ -524,6 +555,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Salamis",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Battle_of_salamis.png/330px-Battle_of_salamis.png",
         "imageAttribution": "Department of History, United States Military Academy, Public domain, via Wikimedia Commons",
+        "imageDescription": "A map showing the Persian advance from Thermopylae to Salamis in 480 BC.",
         "wikidataId": "Q178850",
         "location": {
           "historicalName": "Salamis",
@@ -541,6 +573,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Peloponnesian_War",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Pelop_war_en.png/330px-Pelop_war_en.png",
         "imageAttribution": "Map by Captain Blood, translated by Kenmayer, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A map of the alliances and campaigns of the Peloponnesian War.",
         "wikidataId": "Q33745",
         "location": {
           "historicalName": "Sparta",
@@ -558,6 +591,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_the_Granicus",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Charles_Le_Brun%2C_Le_Passage_du_Granique%2C_1665.png/330px-Charles_Le_Brun%2C_Le_Passage_du_Granique%2C_1665.png",
         "imageAttribution": "Painting by Charles Le Brun, Public domain, via Wikimedia Commons",
+        "imageDescription": "Charles Le Brun's 1665 painting Le Passage du Granique, depicting Alexander's forces crossing the Granicus River.",
         "wikidataId": "Q192938",
         "location": {
           "historicalName": "Granicus",
@@ -575,6 +609,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Corinth_(146_BC)",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Tony_robert-fleury%2C_l%27ultimo_giorno_di_corinto%2C_ante_1870.JPG/330px-Tony_robert-fleury%2C_l%27ultimo_giorno_di_corinto%2C_ante_1870.JPG",
         "imageAttribution": "Painting by Tony Robert-Fleury, photographed by Sailko, CC BY 3.0, via Wikimedia Commons",
+        "imageDescription": "A 19th-century painting depicting the Roman sack of Corinth in 146 BC.",
         "wikidataId": "Q587983",
         "location": {
           "historicalName": "Corinth",
@@ -596,6 +631,7 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Ancient_Rome",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Roman_Republic_Empire_map.gif/330px-Roman_Republic_Empire_map.gif",
     "imageAttribution": "Map by Roke, CC BY-SA 3.0, via Wikimedia Commons",
+    "imageDescription": "A map tracing Roman territory from the early Republic through the Empire's height and eventual east-west division.",
     "wikidataId": "Q1747689",
     "events": [
       {
@@ -606,6 +642,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Founding_of_Rome",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Kapitolinische_W%C3%B6lfin_Museum_Capitolini.jpg/330px-Kapitolinische_W%C3%B6lfin_Museum_Capitolini.jpg",
         "imageAttribution": "Photo by Rabax63, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "The Capitoline Wolf, a bronze sculpture of a she-wolf suckling Romulus and Remus, Rome's legendary founders.",
         "wikidataId": "Q1247524",
         "location": {
           "historicalName": "Rome",
@@ -623,6 +660,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Roman_Republic",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Roman_republic%2C_territory_44_BC.svg/330px-Roman_republic%2C_territory_44_BC.svg.png",
         "imageAttribution": "Map by Ifly6, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "A map of Roman Republic territory in 44 BC, near the end of the Republican era.",
         "wikidataId": "Q17167",
         "location": {
           "historicalName": "Rome",
@@ -640,6 +678,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Zama",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Hannibal_Slodtz_Louvre_MR2093.png/330px-Hannibal_Slodtz_Louvre_MR2093.png",
         "imageAttribution": "Sculpture by Sébastien Slodtz, Public domain, via Wikimedia Commons",
+        "imageDescription": "An 18th-century marble sculpture of Hannibal Barca counting the rings taken from Roman knights killed at Cannae.",
         "wikidataId": "Q200056",
         "location": {
           "historicalName": "Zama",
@@ -657,6 +696,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Julius_Caesar",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Vincenzo_Camuccini_-_La_morte_di_Cesare_%28cropped_3-2%29.jpg/330px-Vincenzo_Camuccini_-_La_morte_di_Cesare_%28cropped_3-2%29.jpg",
         "imageAttribution": "Painting by Vincenzo Camuccini, Public domain, via Wikimedia Commons",
+        "imageDescription": "Vincenzo Camuccini's early 19th-century painting La morte di Cesare (The Death of Caesar), depicting the assassination in the Senate.",
         "wikidataId": "Q1025466",
         "location": {
           "historicalName": "Rome",
@@ -674,6 +714,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Augustus",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Augustus_of_Prima_Porta.jpg/330px-Augustus_of_Prima_Porta.jpg",
         "imageAttribution": "Photo by Justin Benttinen, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "The Augustus of Prima Porta, a marble statue of Augustus in military dress and one of the best-known portraits of the emperor.",
         "wikidataId": "Q1405",
         "location": {
           "historicalName": "Rome",
@@ -691,6 +732,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Colosseum",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/330px-Colosseo_2020.jpg",
         "imageAttribution": "Photo by FeaturedPics, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "A modern photograph of the Colosseum, Rome's great amphitheater, still standing today.",
         "wikidataId": "Q10285",
         "location": {
           "historicalName": "Rome",
@@ -708,6 +750,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Diocletian",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Istanbul_Archaeology_Museum_Bust_of_Diocletian%2C_from_Nikomedia%2C_Izmit%2C_end_3rd_century_AD_1536.jpg/330px-Istanbul_Archaeology_Museum_Bust_of_Diocletian%2C_from_Nikomedia%2C_Izmit%2C_end_3rd_century_AD_1536.jpg",
         "imageAttribution": "Photo by Dosseman, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "A late 3rd-century bust of Emperor Diocletian from Nikomedia, modern Izmit, Turkey.",
         "wikidataId": "Q43107",
         "location": {
           "historicalName": "Nicomedia",
@@ -725,6 +768,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Romulus_Augustulus",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Gold_Solidus_of_Romulus_Augustulus.jpg/500px-Gold_Solidus_of_Romulus_Augustulus.jpg",
         "imageAttribution": "American Numismatic Society, CC0, via Wikimedia Commons",
+        "imageDescription": "A gold solidus coin minted for Romulus Augustulus, the last Western Roman emperor.",
         "wikidataId": "Q608613",
         "location": {
           "historicalName": "Ravenna",
@@ -746,6 +790,7 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/History_of_Iran",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Achaemenid_Empire_500_BCE.jpg/330px-Achaemenid_Empire_500_BCE.jpg",
     "imageAttribution": "Map by Cattette, CC BY 4.0, via Wikimedia Commons",
+    "imageDescription": "A map of the Achaemenid Empire's territory around 500 BC, near its greatest extent.",
     "wikidataId": "Q28926",
     "events": [
       {
@@ -756,6 +801,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Cyrus_the_Great",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Cyrus_II_%28The_Great%29_%28cropped%29.jpg/330px-Cyrus_II_%28The_Great%29_%28cropped%29.jpg",
         "imageAttribution": "Photo by Surenae, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "A relief of a winged figure at Pasargadae, Cyrus the Great's capital.",
         "wikidataId": "Q8423",
         "location": {
           "historicalName": "Pasargadae",
@@ -773,6 +819,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Cyrus_Cylinder",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Cyrus_Cylinder_front.jpg/330px-Cyrus_Cylinder_front.jpg",
         "imageAttribution": "Photo by Prioryman, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "The Cyrus Cylinder, an inscribed clay cylinder recording Cyrus's decrees after taking Babylon, now in the British Museum.",
         "wikidataId": "Q405008",
         "location": {
           "historicalName": "Babylon",
@@ -790,6 +837,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Persepolis",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Gate_of_All_Nations%2C_Persepolis.jpg/500px-Gate_of_All_Nations%2C_Persepolis.jpg",
         "imageAttribution": "Photo by Alborzagros, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "The Gate of All Nations at Persepolis, the ceremonial entrance to Darius I's palace complex.",
         "wikidataId": "Q129072",
         "location": {
           "historicalName": "Persepolis",
@@ -807,6 +855,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Thermopylae",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/L%C3%A9onidas_aux_Thermopyles_-_Jacques-Louis_David_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3690_%3B_L_3711.jpg/330px-L%C3%A9onidas_aux_Thermopyles_-_Jacques-Louis_David_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3690_%3B_L_3711.jpg",
         "imageAttribution": "Painting by Jacques-Louis David, Public domain, via Wikimedia Commons",
+        "imageDescription": "Jacques-Louis David's 1814 painting Leonidas at Thermopylae, held at the Louvre.",
         "wikidataId": "Q131969",
         "location": {
           "historicalName": "Thermopylae",
@@ -824,6 +873,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Darius_III",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Darius_III_mosaic.jpg/500px-Darius_III_mosaic.jpg",
         "imageAttribution": "Photo by Carole Raddato, CC BY-SA 2.0, via Wikimedia Commons (detail of the Alexander Mosaic)",
+        "imageDescription": "The Alexander Mosaic, a Roman floor mosaic from Pompeii depicting Alexander the Great's battle against Darius III, now in Naples.",
         "wikidataId": "Q102865",
         "location": {
           "historicalName": "Hecatompylos",
@@ -841,6 +891,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Parthian_Empire",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Map_of_the_Parthian_Empire_under_Mithridates_II.svg/330px-Map_of_the_Parthian_Empire_under_Mithridates_II.svg.png",
         "imageAttribution": "Map by Ro4444 (edited), CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "A map of the Parthian Empire's extent under Mithridates II.",
         "wikidataId": "Q1986139",
         "location": {
           "historicalName": "Nisa",
@@ -858,6 +909,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Carrhae",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Battle_of_Carrhae_%28Caesar%CB%90_A_History_Of_The_Art_Of_War_Among_The_Romans_Down_To_The_End%2C_vol._II%2C_1892%29.jpg/330px-Battle_of_Carrhae_%28Caesar%CB%90_A_History_Of_The_Art_Of_War_Among_The_Romans_Down_To_The_End%2C_vol._II%2C_1892%29.jpg",
         "imageAttribution": "Theodore Ayrault Dodge, Public domain, via Wikimedia Commons",
+        "imageDescription": "An 1892 illustration of the Battle of Carrhae from a history of Roman warfare.",
         "wikidataId": "Q205887",
         "location": {
           "historicalName": "Carrhae",
@@ -875,6 +927,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Sasanian_Empire",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/The_Sasanian_Empire_at_its_apex_under_Khosrow_II.svg/330px-The_Sasanian_Empire_at_its_apex_under_Khosrow_II.svg.png",
         "imageAttribution": "Map by Ro4444 (edited), CC BY 4.0, via Wikimedia Commons",
+        "imageDescription": "A map of the Sasanian Empire's extent under Khosrow II, near its greatest reach.",
         "wikidataId": "Q83891",
         "location": {
           "historicalName": "Hormozdgan",
@@ -892,6 +945,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Edessa",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Naghsh-e_rostam%2C_Ir%C3%A1n%2C_2016-09-24%2C_DD_12.jpg/330px-Naghsh-e_rostam%2C_Ir%C3%A1n%2C_2016-09-24%2C_DD_12.jpg",
         "imageAttribution": "Photo by Diego Delso, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "A Sasanian rock relief at Naqsh-e Rostam showing Shapur I's triumph over the captured Roman emperor Valerian.",
         "wikidataId": "Q1165502",
         "location": {
           "historicalName": "Edessa",
@@ -909,6 +963,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Muslim_conquest_of_Persia",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/IslamicConquestsIroon.png/330px-IslamicConquestsIroon.png",
         "imageAttribution": "Map by Javierfv1212, edited by HistoryofIran, Public domain, via Wikimedia Commons",
+        "imageDescription": "A map of Sasanian, Byzantine, and early Muslim territorial borders around the time of the Arab conquest.",
         "wikidataId": "Q887684",
         "location": {
           "historicalName": "Merv",
@@ -930,6 +985,7 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/History_of_China",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/330px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
     "imageAttribution": "Photo by Severin.stalder, CC BY-SA 3.0, via Wikimedia Commons",
+    "imageDescription": "The Great Wall of China at Jinshanling, one of its best-preserved sections.",
     "wikidataId": "Q82972",
     "events": [
       {
@@ -940,6 +996,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Qin_Shi_Huang",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/QinShiHuang19century.jpg/330px-QinShiHuang19century.jpg",
         "imageAttribution": "Public domain, via Wikimedia Commons",
+        "imageDescription": "A 19th-century portrait of Qin Shi Huang, copied from a 1609 Chinese original.",
         "wikidataId": "Q7192",
         "location": {
           "historicalName": "Xianyang",
@@ -957,6 +1014,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/330px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
         "imageAttribution": "Photo by Severin.stalder, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "The Great Wall of China at Jinshanling, part of the fortifications linked under Qin Shi Huang.",
         "wikidataId": "Q12501"
       },
       {
@@ -967,6 +1025,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Emperor_Gaozu_of_Han",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Liu-bang.jpg/330px-Liu-bang.jpg",
         "imageAttribution": "Public domain, via Wikimedia Commons",
+        "imageDescription": "A Ming-dynasty portrait of Liu Bang, posthumously honored as Emperor Gaozu, founder of the Han dynasty.",
         "wikidataId": "Q7210",
         "location": {
           "historicalName": "Chang'an",
@@ -984,6 +1043,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Cai_Lun",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Cai-lun.jpg/330px-Cai-lun.jpg",
         "imageAttribution": "Public domain, via Wikimedia Commons",
+        "imageDescription": "A portrait of Cai Lun, the Han court official credited with refining papermaking.",
         "wikidataId": "Q229235",
         "location": {
           "historicalName": "Luoyang",
@@ -1001,6 +1061,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Emperor_Wen_of_Sui",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Sui_Wendi_Tang.jpg/330px-Sui_Wendi_Tang.jpg",
         "imageAttribution": "Painting by Yan Liben, Public domain, via Wikimedia Commons",
+        "imageDescription": "A traditional Chinese portrait of Emperor Wen of Sui, founder of the short-lived Sui dynasty.",
         "wikidataId": "Q7418",
         "location": {
           "historicalName": "Chang'an",
@@ -1018,6 +1079,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Emperor_Taizong_of_Tang",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/TangTaizong.jpg/330px-TangTaizong.jpg",
         "imageAttribution": "Public domain, via Wikimedia Commons",
+        "imageDescription": "A traditional portrait of Emperor Taizong of Tang.",
         "wikidataId": "Q9701",
         "location": {
           "historicalName": "Chang'an",
@@ -1035,6 +1097,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/An_Lushan_rebellion",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/An_Lushan_Rebellion.png/330px-An_Lushan_Rebellion.png",
         "imageAttribution": "Map by SY, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "A map of the territory affected by the An Lushan Rebellion.",
         "wikidataId": "Q253774",
         "location": {
           "historicalName": "Fanyang",
@@ -1052,6 +1115,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Emperor_Taizu_of_Song",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Song_Taizu.jpg/330px-Song_Taizu.jpg",
         "imageAttribution": "Public domain, via Wikimedia Commons",
+        "imageDescription": "A traditional portrait of Song Taizu (Zhao Kuangyin), founder of the Song dynasty, from a scroll later remounted in the Qing dynasty.",
         "wikidataId": "Q7471",
         "location": {
           "historicalName": "Bianjing",
@@ -1069,6 +1133,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Yamen",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Jingmen002.jpg/500px-Jingmen002.jpg",
         "imageAttribution": "Photo by 长夜无风, CC BY 3.0, via Wikimedia Commons",
+        "imageDescription": "The modern memorial site at Yamen, Guangdong, marking the naval battle that ended the Song dynasty.",
         "wikidataId": null,
         "location": {
           "historicalName": "Yamen",
@@ -1129,6 +1194,7 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Byzantine_Empire",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Eastern_Roman_Empire_565_CE.svg/330px-Eastern_Roman_Empire_565_CE.svg.png",
     "imageAttribution": "Map by Mnohohrishnyi, CC0, via Wikimedia Commons",
+    "imageDescription": "A map of the Eastern Roman (Byzantine) Empire at the end of Justinian I's reign in 565.",
     "wikidataId": "Q12544",
     "events": [
       {
@@ -1139,6 +1205,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Constantinople",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Byzantine_Constantinople-en.png/330px-Byzantine_Constantinople-en.png",
         "imageAttribution": "Map by Cplakidas, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A topographical map of Constantinople during the Byzantine period.",
         "wikidataId": "Q16869",
         "location": {
           "historicalName": "Constantinople",
@@ -1156,6 +1223,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Code_of_Justinian",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ghent%2C_Ghent_University_Library_MS_Bibliotheek_Letteren_en_Wijsbegeerte-Handschriften_0021_fol._24v-25r_Code_of_Justinian.jpg/330px-Ghent%2C_Ghent_University_Library_MS_Bibliotheek_Letteren_en_Wijsbegeerte-Handschriften_0021_fol._24v-25r_Code_of_Justinian.jpg",
         "imageAttribution": "Public domain, via Wikimedia Commons",
+        "imageDescription": "A 13th-century manuscript excerpt of the Code of Justinian with medieval legal commentary in the margins.",
         "wikidataId": "Q735763",
         "location": {
           "historicalName": "Constantinople",
@@ -1173,6 +1241,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Hagia_Sophia",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Hagia_Sophia_%28228968325%29.jpeg/330px-Hagia_Sophia_%28228968325%29.jpeg",
         "imageAttribution": "Photo by Adli Wahid, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A photograph of the Hagia Sophia, the great domed cathedral Justinian I built in Constantinople.",
         "wikidataId": "Q12506",
         "location": {
           "historicalName": "Constantinople",
@@ -1190,6 +1259,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Siege_of_Constantinople_(717%E2%80%93718)",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/47-cropped-manasses-chronicle.jpg/330px-47-cropped-manasses-chronicle.jpg",
         "imageAttribution": "Illustration from the Manasses Chronicle, Public domain, via Wikimedia Commons",
+        "imageDescription": "A 14th-century miniature from the Constantine Manasses Chronicle depicting the Arab siege of Constantinople.",
         "wikidataId": "Q27900",
         "location": {
           "historicalName": "Constantinople",
@@ -1207,6 +1277,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Kleidion",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/SamuilsDeathBGhistory.jpg/330px-SamuilsDeathBGhistory.jpg",
         "imageAttribution": "Illustration from the Manasses Chronicle, Public domain, via Wikimedia Commons",
+        "imageDescription": "A manuscript illustration showing Basil II's victory over the Bulgarians and the death of Tsar Samuel.",
         "wikidataId": "Q584047",
         "location": {
           "historicalName": "Kleidion",
@@ -1224,6 +1295,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/East%E2%80%93West_Schism",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Great_Schism_with_former_borders_%281054%29.png/330px-Great_Schism_with_former_borders_%281054%29.png",
         "imageAttribution": "Map by Barrikader, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A map of Christianity's eastern and western allegiances following the 1054 schism.",
         "wikidataId": "Q51648",
         "location": {
           "historicalName": "Constantinople",
@@ -1258,6 +1330,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Siege_of_Constantinople_fresco%2C_Moldovi%C8%9Ba_monastery%2C_Vatra_Moldovi%C8%9Bei%2C_2017.jpg/330px-Siege_of_Constantinople_fresco%2C_Moldovi%C8%9Ba_monastery%2C_Vatra_Moldovi%C8%9Bei%2C_2017.jpg",
         "imageAttribution": "Fresco, Moldovița Monastery, photo by DimiTalen, CC0, via Wikimedia Commons",
+        "imageDescription": "A modern fresco at Moldovița Monastery in Romania depicting the siege of Constantinople.",
         "wikidataId": "Q160077",
         "location": {
           "historicalName": "Constantinople",
@@ -1279,6 +1352,7 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Caliphate",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Mohammad_adil-Rashidun-empire-at-its-peak-close.PNG/330px-Mohammad_adil-Rashidun-empire-at-its-peak-close.PNG",
     "imageAttribution": "Map by Mohammad adil, CC BY-SA 3.0, via Wikimedia Commons",
+    "imageDescription": "A map of the Rashidun Caliphate at its greatest territorial extent.",
     "wikidataId": "Q131401",
     "events": [
       {
@@ -1289,6 +1363,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Hijrah",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/New_York_Public_Library%2C_Spencer_Collection_Turk._MS._3_Siyar-i_Nab%C3%AE_fol._286r_Jibril_delivers_to_Muhammad_a_message_from_God_telling_him_to_leave_Makka_for_Madina.jpg/330px-thumbnail.jpg",
         "imageAttribution": "Public domain, via Wikimedia Commons",
+        "imageDescription": "An Islamic miniature depicting the angel Jibril delivering God's instruction for Muhammad to leave Mecca for Medina.",
         "wikidataId": "Q131482",
         "location": {
           "historicalName": "Yathrib",
@@ -1306,6 +1381,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Rashidun_Caliphate",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Mohammad_adil-Rashidun-empire-at-its-peak-close.PNG/330px-Mohammad_adil-Rashidun-empire-at-its-peak-close.PNG",
         "imageAttribution": "Map by Mohammad adil, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A map of the Rashidun Caliphate's territory at its height, following the conquests begun under Abu Bakr.",
         "wikidataId": "Q12490507",
         "location": {
           "historicalName": "Yathrib",
@@ -1323,6 +1399,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Mu'awiya_I",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Arab-Sasanian_coin_of_Muawiyah_I%2C_struck_at_the_Fasa_mint_in_Darabjird_%28Fars%29.jpg/330px-Arab-Sasanian_coin_of_Muawiyah_I%2C_struck_at_the_Fasa_mint_in_Darabjird_%28Fars%29.jpg",
         "imageAttribution": "Public domain, via Wikimedia Commons",
+        "imageDescription": "An Arab-Sasanian silver coin of Caliph Muawiyah I, minted in the Umayyad Caliphate's early style.",
         "wikidataId": "Q181154",
         "location": {
           "historicalName": "Damascus",
@@ -1340,6 +1417,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Tours",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Steuben_-_Bataille_de_Poitiers.png/330px-Steuben_-_Bataille_de_Poitiers.png",
         "imageAttribution": "Painting by Charles de Steuben, Public domain, via Wikimedia Commons",
+        "imageDescription": "A 19th-century painting of Charles Martel at the Battle of Tours.",
         "wikidataId": "Q173077",
         "location": {
           "historicalName": "Tours",
@@ -1357,6 +1435,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Abbasid_Caliphate",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Balami_-_Tarikhnama_-_Abu%27l-%27Abbas_al-Saffah_is_proclaimed_the_first_%27Abbasid_Caliph_%28cropped%29.jpg/330px-Balami_-_Tarikhnama_-_Abu%27l-%27Abbas_al-Saffah_is_proclaimed_the_first_%27Abbasid_Caliph_%28cropped%29.jpg",
         "imageAttribution": "Illustration from a Tarikhnama manuscript, Public domain, via Wikimedia Commons",
+        "imageDescription": "A folio from a Tarikhnama (history) by Balami depicting the proclamation of Abu al-Abbas al-Saffah as the first Abbasid caliph.",
         "wikidataId": "Q12536",
         "location": {
           "historicalName": "Kufa",
@@ -1374,6 +1453,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/House_of_Wisdom",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Maqamat_hariri.jpg/330px-Maqamat_hariri.jpg",
         "imageAttribution": "Illustration from the Maqamat al-Hariri manuscript (13th century), Public domain, via Wikimedia Commons",
+        "imageDescription": "A manuscript illustration of a library, from the Maqamat of al-Hariri.",
         "wikidataId": "Q33018",
         "location": {
           "historicalName": "Baghdad",
@@ -1391,6 +1471,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Tughril_I",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Seljuk_Sultan_Tugrul_Bey_sitting_on_his_throne._Topkap%C4%B1_Saray%C4%B1_M%C3%BCzesi_1653-3_%28304_B%29.jpg/330px-Seljuk_Sultan_Tugrul_Bey_sitting_on_his_throne._Topkap%C4%B1_Saray%C4%B1_M%C3%BCzesi_1653-3_%28304_B%29.jpg",
         "imageAttribution": "Public domain, via Wikimedia Commons",
+        "imageDescription": "A miniature depicting the Seljuk sultan Tughril Beg enthroned in Nishapur.",
         "wikidataId": "Q144565",
         "location": {
           "historicalName": "Baghdad",
@@ -1408,6 +1489,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Siege_of_Baghdad",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Bagdad1258.jpg/330px-Bagdad1258.jpg",
         "imageAttribution": "Illustration from Rashid al-Din's Jami al-Tawarikh, Public domain, via Wikimedia Commons",
+        "imageDescription": "A medieval illustration of the Mongol siege of Baghdad in 1258.",
         "wikidataId": "Q369560",
         "location": {
           "historicalName": "Baghdad",
@@ -1468,6 +1550,7 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Mongol_Empire",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Asia_in_1335.svg",
     "imageAttribution": "Map by Wengier (derivative of a map by Teaandcrumpets), Public domain, via Wikimedia Commons",
+    "imageDescription": "A map of Asia's political boundaries in 1335, near the Mongol Empire's territorial peak.",
     "wikidataId": "Q12557",
     "events": [
       {
@@ -1478,6 +1561,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Genghis_Khan",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/YuanEmperorAlbumGenghisPortrait.jpg/330px-YuanEmperorAlbumGenghisPortrait.jpg",
         "imageAttribution": "Portrait by unknown artist, digitized by the National Palace Museum, Public domain, via Wikimedia Commons",
+        "imageDescription": "A posthumous portrait of Genghis Khan (Taizu), from the Yuan imperial portrait album.",
         "wikidataId": "Q720",
         "location": {
           "historicalName": "Source of the Onon River",
@@ -1495,6 +1579,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Mongol_invasion_of_the_Khwarazmian_Empire",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B8%D1%89%D0%B5_%D0%9E%D1%82%D1%8B%D1%80%D0%B0%D1%80_%D1%81_%D0%B2%D0%BE%D0%B7%D0%B4%D1%83%D1%85%D0%B0.jpg",
         "imageAttribution": "Photo by Coopypasted, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "An aerial view of the ruins of Otrar, whose governor's seizure of a Mongol caravan triggered the invasion of Khwarazm.",
         "wikidataId": "Q431177",
         "location": {
           "historicalName": "Otrar",
@@ -1512,6 +1597,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Mohi",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Battle_of_Mohi_1241.PNG/330px-Battle_of_Mohi_1241.PNG",
         "imageAttribution": "Illumination from the Chronicon Pictum (Cod. 2623), Public domain, via Wikimedia Commons",
+        "imageDescription": "A medieval illustration from Hayton of Corycus's La Flor des estoires, depicting the Battle of Mohi in 1241.",
         "wikidataId": "Q705874",
         "location": {
           "historicalName": "Muhi",
@@ -1529,6 +1615,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Siege_of_Baghdad_(1258)",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Bagdad1258.jpg/330px-Bagdad1258.jpg",
         "imageAttribution": "Painting from Rashid al-Din's Jami al-tawarikh, Public domain, via Wikimedia Commons",
+        "imageDescription": "A medieval illustration of the Mongol siege of Baghdad in 1258.",
         "wikidataId": "Q369560",
         "location": {
           "historicalName": "Baghdad",
@@ -1546,6 +1633,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Ain_Jalut",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Campaign_of_the_Battle_of_Ain_Jalut_1260.svg/330px-Campaign_of_the_Battle_of_Ain_Jalut_1260.svg.png",
         "imageAttribution": "Map by MapMaster, CC BY 3.0, via Wikimedia Commons",
+        "imageDescription": "A map of the campaign leading to the 1260 Battle of Ain Jalut.",
         "wikidataId": "Q244356",
         "location": {
           "historicalName": "Ain Jalut",
@@ -1563,6 +1651,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Toluid_Civil_War",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Arik_Buka_defeats_Alghu-Rashid_al%27Din_Jami_al_Tavarikhs-large.jpg/330px-Arik_Buka_defeats_Alghu-Rashid_al%27Din_Jami_al_Tavarikhs-large.jpg",
         "imageAttribution": "Painting by Miskin, Public domain, via Wikimedia Commons",
+        "imageDescription": "A 1596 illustration from Rashid al-Din's Jami al-Tavarikh depicting Ariq Böke's defeat by Kublai Khan's forces.",
         "wikidataId": "Q16871984"
       },
       {
@@ -1573,6 +1662,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Yuan_dynasty",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/YuanEmperorAlbumKhubilaiPortrait.jpg/330px-YuanEmperorAlbumKhubilaiPortrait.jpg",
         "imageAttribution": "Portrait by Araniko, Public domain, via Wikimedia Commons",
+        "imageDescription": "A posthumous portrait of Kublai Khan, painted to make him appear younger than his actual age.",
         "wikidataId": "Q7313",
         "location": {
           "historicalName": "Dadu",
@@ -1605,6 +1695,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Yuan_dynasty",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Portrait_assis_de_l%27empereur_Ming_Taizu.jpg/330px-Portrait_assis_de_l%27empereur_Ming_Taizu.jpg",
         "imageAttribution": "Portrait of the Hongwu Emperor (Zhu Yuanzhang), digitized by the National Palace Museum, Public domain, via Wikimedia Commons",
+        "imageDescription": "A seated portrait of Emperor Ming Taizu (Zhu Yuanzhang), who founded the Ming dynasty after the Yuan's fall.",
         "wikidataId": "Q7313",
         "location": {
           "historicalName": "Dadu",
@@ -1665,6 +1756,7 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/Aztecs",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Aztec_Empire.png/330px-Aztec_Empire.png",
     "imageAttribution": "Map by Aldan-2, CC BY-SA 4.0, via Wikimedia Commons",
+    "imageDescription": "A map of the Aztec Empire's extent in 1519, during the reign of Moctezuma II.",
     "wikidataId": "Q12542",
     "events": [
       {
@@ -1675,6 +1767,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Tenochtitlan",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Fundacion_Tenochtitlan.jpg/500px-Fundacion_Tenochtitlan.jpg",
         "imageAttribution": "Painting by Roberto Cueva del Río, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A 20th-century mural, Fundación de Tenochtitlan, by Roberto Cueva del Río, depicting the city's legendary founding.",
         "wikidataId": "Q13695",
         "location": {
           "historicalName": "Tenochtitlan",
@@ -1692,6 +1785,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Aztec_Empire",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Aztec_Triple_Alliance.png/500px-Aztec_Triple_Alliance.png",
         "imageAttribution": "Aztec glyphs for the Triple Alliance's member states by XcepticZP and Goldenbrook, Public domain, via Wikimedia Commons",
+        "imageDescription": "Aztec glyphs representing the three Triple Alliance city-states: Texcoco, Tenochtitlan, and Tlacopan.",
         "wikidataId": "Q2608489"
       },
       {
@@ -1702,6 +1796,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Tlatelolco_(altepetl)",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Moquihuix_mendoza.jpg/250px-Moquihuix_mendoza.jpg",
         "imageAttribution": "Illustration of Moquihuix from the Codex Mendoza, Public domain, via Wikimedia Commons",
+        "imageDescription": "A depiction of Moquihuix, the defeated ruler of Tlatelolco, from the Codex Mendoza.",
         "wikidataId": "Q796925",
         "location": {
           "historicalName": "Tlatelolco",
@@ -1719,6 +1814,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Templo_Mayor",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Templo_Mayor_50.jpg/330px-Templo_Mayor_50.jpg",
         "imageAttribution": "Photo by GAED, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A photograph of the excavated ruins of the Templo Mayor, Tenochtitlan's Great Temple.",
         "wikidataId": "Q774021",
         "location": {
           "historicalName": "Templo Mayor, Tenochtitlan",
@@ -1736,6 +1832,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Moctezuma_II",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Coronaci%C3%B3n_de_Moctezuma_II%2C_en_el_folio_152.png/330px-Coronaci%C3%B3n_de_Moctezuma_II%2C_en_el_folio_152.png",
         "imageAttribution": "Illustration from the Codex Durán, Public domain, via Wikimedia Commons",
+        "imageDescription": "Moctezuma II receiving his crown during his 1502 coronation, illustrated in the 16th-century Codex Durán.",
         "wikidataId": "Q141791",
         "location": {
           "historicalName": "Tenochtitlan",
@@ -1753,6 +1850,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Hern%C3%A1n_Cort%C3%A9s",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Retrato_de_Hern%C3%A1n_Cort%C3%A9s.jpg/330px-Retrato_de_Hern%C3%A1n_Cort%C3%A9s.jpg",
         "imageAttribution": "Portrait by unknown artist (Museo de América collection), Public domain, via Wikimedia Commons",
+        "imageDescription": "An anonymous portrait of Hernán Cortés, based on a likeness he sent to Paolo Giovio.",
         "wikidataId": "Q7326",
         "location": {
           "historicalName": "Veracruz",
@@ -1770,6 +1868,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/La_Noche_Triste",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/The_Sad_Night_%28Noche_Triste%29_%28Conquest_of_Mexico%29_Painting.jpg/330px-The_Sad_Night_%28Noche_Triste%29_%28Conquest_of_Mexico%29_Painting.jpg",
         "imageAttribution": "Anonymous 17th-century painting, Public domain, via Wikimedia Commons",
+        "imageDescription": "A 17th-century oil painting depicting the Spanish retreat from Tenochtitlan under Mexica attack, known as La Noche Triste.",
         "wikidataId": "Q1308854",
         "location": {
           "historicalName": "Tenochtitlan (the Tacuba causeway)",
@@ -1787,6 +1886,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Brigantines_in_the_Siege_of_Tenochtitlan.jpg/330px-Brigantines_in_the_Siege_of_Tenochtitlan.jpg",
         "imageAttribution": "Illustration from the Florentine Codex by Bernardino de Sahagún, Public domain, via Wikimedia Commons",
+        "imageDescription": "Cortés's brigantine fleet deployed on Lake Texcoco during the siege of Tenochtitlan.",
         "wikidataId": "Q593267",
         "location": {
           "historicalName": "Tenochtitlan",
@@ -1847,6 +1947,7 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/History_of_Japan",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Daibutsu-den_in_Todaiji_Nara01bs3200.jpg/330px-Daibutsu-den_in_Todaiji_Nara01bs3200.jpg",
     "imageAttribution": "Photo by 663highland, CC BY 2.5, via Wikimedia Commons",
+    "imageDescription": "The Great Buddha Hall of Tōdai-ji temple in Nara, one of Japan's most significant early Buddhist temples.",
     "wikidataId": "Q130436",
     "events": [
       {
@@ -1857,6 +1958,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Kofun_period",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Yamato_Kingship_ethnic_groups.svg/330px-Yamato_Kingship_ethnic_groups.svg.png",
         "imageAttribution": "Map by Immanuelle, CC BY 4.0, via Wikimedia Commons",
+        "imageDescription": "A map of ethnic groups within the early Yamato polity.",
         "wikidataId": "Q459939",
         "location": {
           "historicalName": "Yamato",
@@ -1874,6 +1976,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Buddhism_in_Japan",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Asuka_dera_daibutsu.jpg/330px-Asuka_dera_daibutsu.jpg",
         "imageAttribution": "Photo by Chris 73, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "The Asuka Great Buddha at Asuka-dera, Japan's oldest Buddhist temple, founded soon after Buddhism's introduction.",
         "wikidataId": "Q736311",
         "location": {
           "historicalName": "Asuka",
@@ -1891,6 +1994,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Taika_Reform",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Irukaansatsuzu.jpg/330px-Irukaansatsuzu.jpg",
         "imageAttribution": "Scroll painting by Gukei Sumiyoshi, public domain, via Wikimedia Commons",
+        "imageDescription": "A depiction of the assassination of Soga no Iruka from the Tōnomine Engi scroll, painted in the Edo period.",
         "wikidataId": "Q570140",
         "location": {
           "historicalName": "Asuka",
@@ -1908,6 +2012,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Heian_period",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Genji_emaki_TAKEKAWA.jpg/330px-Genji_emaki_TAKEKAWA.jpg",
         "imageAttribution": "Illustrated scroll from The Tale of Genji, Imperial court in Kyoto, public domain, via Wikimedia Commons",
+        "imageDescription": "A scene from the illustrated Tale of Genji handscroll (Genji Monogatari Emaki), an early 12th-century work depicting Heian court life.",
         "wikidataId": "Q193292",
         "location": {
           "historicalName": "Heian-kyō",
@@ -1925,6 +2030,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Kamakura_shogunate",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Procession-of-Minamoto-no-Yoritomo-visits-Kyoto-1190-Utagawa-Sadahide.png/330px-Procession-of-Minamoto-no-Yoritomo-visits-Kyoto-1190-Utagawa-Sadahide.png",
         "imageAttribution": "Woodblock print by Utagawa Sadahide, public domain, via Wikimedia Commons",
+        "imageDescription": "An 1862 print depicting Minamoto no Yoritomo's procession into Kyoto, around 1190.",
         "wikidataId": "Q736839",
         "location": {
           "historicalName": "Kamakura",
@@ -1942,6 +2048,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Mongol_invasions_of_Japan",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Mongol_invasions_of_Japan_1274%2C_1281.jpg/330px-Mongol_invasions_of_Japan_1274%2C_1281.jpg",
         "imageAttribution": "Illustration by Qiushufang, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "A map of the two Mongol invasion routes into Japan in 1274 and 1281.",
         "wikidataId": "Q208156",
         "location": {
           "historicalName": "Hakata Bay",
@@ -1959,6 +2066,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/%C5%8Cnin_War",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Onin-War-1467-1477-The-Battle-of-Onin-by-Utagawa-Yoshitora.png/330px-Onin-War-1467-1477-The-Battle-of-Onin-by-Utagawa-Yoshitora.png",
         "imageAttribution": "Woodblock print by Utagawa Yoshitora, public domain, via Wikimedia Commons",
+        "imageDescription": "The Battle of Ōnin during the Ōnin War (1467-1477), depicted by Utagawa Yoshitora.",
         "wikidataId": "Q385676",
         "location": {
           "historicalName": "Heian-kyō",
@@ -1976,6 +2084,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Sekigahara",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Sekigaharascreen.jpg/330px-Sekigaharascreen.jpg",
         "imageAttribution": "Folding screen painting, Collection of the Town of Sekigahara Archive of History and Cultural Anthropology, public domain, via Wikimedia Commons",
+        "imageDescription": "A folding screen (byōbu) depicting the Battle of Sekigahara, based on an early 17th-century original.",
         "wikidataId": "Q234188",
         "location": {
           "historicalName": "Sekigahara",
@@ -1993,6 +2102,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Perry_Expedition",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Japanese_1854_print_Commodore_Perry.jpg/330px-Japanese_1854_print_Commodore_Perry.jpg",
         "imageAttribution": "Japanese print, artist unknown, public domain, via Wikimedia Commons",
+        "imageDescription": "An 1854 Japanese print of Commodore Perry's fleet, showing one of the two paddlewheel steamers on his visit.",
         "wikidataId": "Q7169780",
         "location": {
           "historicalName": "Uraga",
@@ -2010,6 +2120,7 @@
         "sourceUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Emperor_Meiji_by_Takahashi_Yuichi.jpg/330px-Emperor_Meiji_by_Takahashi_Yuichi.jpg",
         "imageAttribution": "Painting by Takahashi Yuichi, public domain, via Wikimedia Commons",
+        "imageDescription": "A portrait of Emperor Meiji by Takahashi Yuichi, held in the Imperial Collection.",
         "wikidataId": "Q8707",
         "location": {
           "historicalName": "Heian-kyō",

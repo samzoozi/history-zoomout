@@ -37,10 +37,11 @@ are snake_case.
 ## Output shape
 
 Topic-level fields: `id`, `name`, `colorIndex`, `start`, `end`, `summary`, `sourceUrl`,
-`imageUrl`, `imageAttribution`, `wikidataId`, `events[]`.
+`imageUrl`, `imageAttribution`, `imageDescription`, `wikidataId`, `events[]`.
 
 Each event: `year`, `sig` (`"major"` | `"minor"`), `title`, `body`, `sourceUrl`,
-`imageUrl`, `imageAttribution`, `wikidataId`, and optionally `location`.
+`imageUrl`, `imageAttribution`, `imageDescription`, `wikidataId`, and optionally
+`location`.
 
 Each `location`: `historicalName` (the place as known at the time, e.g. "Carrhae"),
 `city`/`country` (modern equivalents, e.g. "Harran", "Turkey" -- these often differ from
@@ -124,12 +125,21 @@ Fetch it with:
 ```
 WebFetch(
   url: "https://en.wikipedia.org/w/api.php?action=query&titles=File:<Filename>&prop=imageinfo&iiprop=extmetadata&format=json",
-  prompt: "From this JSON, return extmetadata fields: Artist, LicenseShortName, Credit
-           (plain text, strip HTML tags)."
+  prompt: "From this JSON, return extmetadata fields: Artist, LicenseShortName, Credit,
+           ImageDescription (plain text, strip HTML tags)."
 )
 ```
 Build `imageAttribution` as `"<Photo/Painting/Map> by <Artist>, <License>, via Wikimedia
 Commons"`. If an image has no usable artist/license info, don't use it.
+
+`ImageDescription` is the uploader's own caption of what the image actually depicts (e.g.
+"Capitoline she-wolf, a bronze figure showing Romulus and Remus") -- this is what a reader
+sees under the image, distinct from the `imageAttribution` credit line. Not every file has
+one. When present, don't copy it verbatim (same reasoning as the Copyright section below --
+it's also uploader prose, often terse or awkwardly phrased); rewrite it as one short,
+factual sentence identifying the subject, in the same plain tone as `body`. When absent,
+leave `imageDescription` `null` rather than inventing a description from the image's
+filename or your own guess at its contents.
 
 Don't hotlink raw Commons file pages or scrape them directly -- the URLs these two APIs
 return (`thumbnail.source` and the `imageinfo` result) are Wikimedia's own

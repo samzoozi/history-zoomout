@@ -240,9 +240,16 @@
 
     var figure = document.getElementById("detailFigure");
     if (ev.imageUrl) {
-      document.getElementById("detailImage").src = ev.imageUrl;
-      document.getElementById("detailImage").alt = ev.title;
-      document.getElementById("detailImageCaption").textContent = ev.imageAttribution || "";
+      var detailImage = document.getElementById("detailImage");
+      detailImage.src = ev.imageUrl;
+      detailImage.alt = ev.imageDescription || ev.title;
+      if (ev.imageAttribution) {
+        detailImage.title = ev.imageAttribution;
+      } else {
+        detailImage.removeAttribute("title");
+      }
+      document.getElementById("detailImageCaption").textContent =
+        ev.imageDescription || ev.imageAttribution || "";
       figure.hidden = false;
     } else {
       figure.hidden = true;

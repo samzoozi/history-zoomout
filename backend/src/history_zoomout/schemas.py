@@ -25,6 +25,9 @@ class EventOut(BaseModel):
     image_attribution: str | None = Field(
         default=None, serialization_alias="imageAttribution"
     )
+    image_description: str | None = Field(
+        default=None, serialization_alias="imageDescription"
+    )
     wikidata_id: str | None = Field(default=None, serialization_alias="wikidataId")
     location: LocationOut | None = None
 
@@ -42,6 +45,9 @@ class TopicOut(BaseModel):
     image_url: str | None = Field(default=None, serialization_alias="imageUrl")
     image_attribution: str | None = Field(
         default=None, serialization_alias="imageAttribution"
+    )
+    image_description: str | None = Field(
+        default=None, serialization_alias="imageDescription"
     )
     wikidata_id: str | None = Field(default=None, serialization_alias="wikidataId")
     events: list[EventOut]

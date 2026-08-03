@@ -25,6 +25,7 @@ class Topic(Base):
     source_url: Mapped[str | None] = mapped_column(String, nullable=True)
     image_url: Mapped[str | None] = mapped_column(String, nullable=True)
     image_attribution: Mapped[str | None] = mapped_column(String, nullable=True)
+    image_description: Mapped[str | None] = mapped_column(Text, nullable=True)
     wikidata_id: Mapped[str | None] = mapped_column(String, nullable=True)
 
     events: Mapped[list[Event]] = relationship(
@@ -68,6 +69,7 @@ class Event(Base):
     source_url: Mapped[str | None] = mapped_column(String, nullable=True)
     image_url: Mapped[str | None] = mapped_column(String, nullable=True)
     image_attribution: Mapped[str | None] = mapped_column(String, nullable=True)
+    image_description: Mapped[str | None] = mapped_column(Text, nullable=True)
     wikidata_id: Mapped[str | None] = mapped_column(String, nullable=True)
 
     location_id: Mapped[int | None] = mapped_column(
