@@ -336,7 +336,7 @@
     stageEl.hidden = false;
   }
 
-  fetch(API_BASE + "/civilizations")
+  fetch(API_BASE + "/topics?category=civilization")
     .then(function (res) {
       if (!res.ok) throw new Error("Request failed with status " + res.status);
       return res.json();

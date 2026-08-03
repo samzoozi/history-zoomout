@@ -18,7 +18,7 @@ uv run history-zoomout-seed    # load civilizations.json into Postgres
 uv run uvicorn history_zoomout.main:app --reload --port 8000
 ```
 
-`GET http://localhost:8000/civilizations` should return all 15 civilizations with their events.
+`GET http://localhost:8000/topics?category=civilization` should return all 15 civilizations with their events.
 
 Connection settings (`DATABASE_URL`, `CORS_ORIGINS`) are read from the environment or a `.env`
 file in this directory — see `history_zoomout/config.py` for defaults, which match the Postgres

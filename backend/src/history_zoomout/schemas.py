@@ -10,7 +10,7 @@ class EventOut(BaseModel):
     body: str
 
 
-class CivilizationOut(BaseModel):
+class TopicOut(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 
     id: str

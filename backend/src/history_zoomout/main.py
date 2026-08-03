@@ -6,7 +6,7 @@ from sqlalchemy.orm import selectinload
 from .config import settings
 from .db import SessionLocal
 from .db.models import Topic
-from .schemas import CivilizationOut
+from .schemas import TopicOut
 
 app = FastAPI(title="History Zoomout API")
 
@@ -23,13 +23,13 @@ def health() -> dict:
     return {"status": "ok"}
 
 
-@app.get("/civilizations", response_model=list[CivilizationOut])
-def list_civilizations():
+@app.get("/topics", response_model=list[TopicOut])
+def list_topics(category: str):
     db = SessionLocal()
     try:
         stmt = (
             select(Topic)
-            .where(Topic.category == "civilization")
+            .where(Topic.category == category)
             .options(selectinload(Topic.events))
             .order_by(Topic.start_year)
         )
