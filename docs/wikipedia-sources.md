@@ -445,3 +445,138 @@ Wisdom (830) and the Mongol sack of Baghdad (1258) with nothing in between.
   be wrong (404) and was caught by the same direct-URL verification step used for every
   other topic -- fixed by re-querying the imageinfo API for the real thumbnail URL rather
   than trusting the guess.
+
+## Japan (topic id: `japan`) — pulled 2026-08-03
+
+Status: **new topic, not yet in `civilizations.json`** — file written to
+`data/wikipedia-data/japan.json` only; merging into the live seed and reseeding is a
+separate step.
+
+Unlike the other topics here, Japan has no fall/conquest/dissolution to end on --
+statehood continues to the present. Framed the topic as "pre-modern Japan," ending at
+the 1868 Meiji Restoration (fall of the shogunate), matching how Byzantine/Islamic/etc.
+end at a regime's collapse rather than drifting into the modern nation-state. `colorIndex`
+8 was assigned as the next unused value following the existing rotation (mesopotamia..maya
+= 1-8, byzantine..inca repeats 1-7); not derived from any app logic, just kept distinct
+from its nearest neighbors on the timeline (maya=8, byzantine=1).
+
+### Topic-level source
+
+- **History of Japan** — https://en.wikipedia.org/wiki/History_of_Japan — Wikidata Q130436
+- Lead article had no thumbnail image, so the topic-level image was sourced from Tōdai-ji's
+  Great Buddha Hall in Nara instead (built 8th century, tied to Buddhism's establishment
+  early in the timeline) rather than a generic map.
+
+### Event-level sources
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| Yamato polity unifies the Nara Basin | 300 AD | [Kofun period](https://en.wikipedia.org/wiki/Kofun_period) | Q459939 | Immanuelle (map), CC BY 4.0 |
+| Buddhism arrives from Baekje | 552 AD | [Buddhism in Japan](https://en.wikipedia.org/wiki/Buddhism_in_Japan) | Q736311 | Chris 73, CC BY-SA 3.0 |
+| Isshi Incident triggers the Taika Reform | 645 AD | [Taika Reform](https://en.wikipedia.org/wiki/Taika_Reform) | Q570140 | Gukei Sumiyoshi (scroll painting), Public domain |
+| Capital moves to Heian-kyō | 794 AD | [Heian period](https://en.wikipedia.org/wiki/Heian_period) | Q193292 | Imperial court in Kyoto (Genji emaki), Public domain |
+| Minamoto no Yoritomo becomes shogun | 1192 AD | [Kamakura shogunate](https://en.wikipedia.org/wiki/Kamakura_shogunate) | Q736839 | Utagawa Sadahide, Public domain |
+| Kamikaze repel the second Mongol invasion | 1281 AD | [Mongol invasions of Japan](https://en.wikipedia.org/wiki/Mongol_invasions_of_Japan) | Q208156 | Qiushufang, CC BY-SA 4.0 |
+| Ōnin War shatters central authority | 1467 AD | [Ōnin War](https://en.wikipedia.org/wiki/%C5%8Cnin_War) | Q385676 | Utagawa Yoshitora, Public domain |
+| Tokugawa Ieyasu wins at Sekigahara | 1600 AD | [Battle of Sekigahara](https://en.wikipedia.org/wiki/Battle_of_Sekigahara) | Q234188 | Town of Sekigahara Archive (folding screen), Public domain |
+| Commodore Perry forces Japan open | 1853 AD | [Perry Expedition](https://en.wikipedia.org/wiki/Perry_Expedition) | Q7169780 | Unknown artist, Public domain |
+| Meiji Restoration ends the shogunate | 1868 AD | [Meiji Restoration](https://en.wikipedia.org/wiki/Meiji_Restoration) | Q8707 | Takahashi Yuichi (painting), Public domain |
+
+### Event locations
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Yamato polity unifies the Nara Basin | Yamato | Nara, Japan | 34.684, 135.805 |
+| Buddhism arrives from Baekje | Asuka | Asuka, Japan | 34.471, 135.821 |
+| Isshi Incident triggers the Taika Reform | Asuka | Asuka, Japan | 34.471, 135.821 |
+| Capital moves to Heian-kyō | Heian-kyō | Kyoto, Japan | 35.012, 135.768 |
+| Minamoto no Yoritomo becomes shogun | Kamakura | Kamakura, Japan | 35.320, 139.553 |
+| Kamikaze repel the second Mongol invasion | Hakata Bay | Fukuoka, Japan | 33.590, 130.402 |
+| Ōnin War shatters central authority | Heian-kyō | Kyoto, Japan | 35.012, 135.768 |
+| Tokugawa Ieyasu wins at Sekigahara | Sekigahara | Sekigahara, Japan | 35.366, 136.467 |
+| Commodore Perry forces Japan open | Uraga | Yokosuka, Japan | 35.233, 139.717 |
+| Meiji Restoration ends the shogunate | Heian-kyō | Kyoto, Japan | 35.012, 135.768 |
+
+### Corrections / decisions made vs. the original seed data
+
+- N/A -- this is a brand-new topic, not a replacement of existing seed data.
+- The Kamakura shogunate's founding date is genuinely disputed between 1185 (when
+  Yoritomo established the shugo/jitō systems) and 1192 (when he received the title of
+  shogun). Went with 1192, the traditional and more commonly cited date, since the event
+  title centers on Yoritomo *becoming shogun* specifically.
+- Buddhism's introduction date is also disputed between 538 and 552; Wikipedia's own
+  article calls both "unreliable" but treats 552 (per the *Nihon Shoki*) as the one
+  "usually considered" official. Went with 552.
+- The Meiji Restoration's declaration and the Ōnin War both took place at the same
+  Kyoto location as the Heian-kyō founding event -- reused the same coordinates rather
+  than treating them as different places, since Kyoto has been continuously the same
+  city under both names.
+
+## Indus Valley (topic id: `indus`) — pulled 2026-08-03
+
+Status: **researched, not yet merged into live seed data** (`data/wikipedia-data/indus.json`).
+
+The existing 5-event pilot entry started at 2600 BC and covered only the Mature Harappan
+phase forward -- it skipped the ~700-year Early Harappan period entirely, the same gap the
+Persia pilot had for its Parthian era. Widened the topic's `start` from -2600 to -3300 to
+add a founding event for the Early Harappan phase, matching the full 3300-1300 BC range
+Wikipedia gives for the civilization as a whole. `colorIndex` (3) kept from the existing
+entry for a drop-in merge.
+
+### Topic-level source
+
+- **Indus Valley Civilisation** — https://en.wikipedia.org/wiki/Indus_Valley_Civilisation — Wikidata Q42534
+- Image is the lead thumbnail (a Mature Phase site-distribution map) since the article's
+  own images are otherwise mostly artifact photos better suited to individual events.
+
+### Event-level sources
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| Early farming villages rise at Kot Diji | 3300 BC | [Kot Diji](https://en.wikipedia.org/wiki/Kot_Diji) | Q1017084 | *(none — see note below)* |
+| Harappa and Mohenjo-daro rise | 2600 BC | [Harappa](https://en.wikipedia.org/wiki/Harappa) | Q185562 | Muhammad Bin Naveed, CC BY-SA 3.0 |
+| A standardized script appears on seals | 2500 BC | [Indus script](https://en.wikipedia.org/wiki/Indus_script) | Q601388 | PHGCOM, CC BY-SA 3.0 |
+| Trade networks reach Mesopotamia | 2334 BC | [Meluhha](https://en.wikipedia.org/wiki/Meluhha) | Q483421 | Sémhur (base) / Zunkir (derivative), CC BY-SA 3.0 |
+| The Mature Harappan cities begin to decline | 1900 BC | [Indus Valley Civilisation](https://en.wikipedia.org/wiki/Indus_Valley_Civilisation) | Q42534 | Saqib Qayyum, CC BY-SA 3.0 |
+| Cemetery H culture marks a Late Harappan shift | 1700 BC | [Cemetery H culture](https://en.wikipedia.org/wiki/Cemetery_H_culture) | Q2364797 | Avantiputra7, CC BY-SA 4.0 |
+| The civilization fades | 1300 BC | [Indus Valley Civilisation](https://en.wikipedia.org/wiki/Indus_Valley_Civilisation) | Q42534 | Saqib Qayyum, CC BY-SA 3.0 |
+
+### Event locations
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Early farming villages rise at Kot Diji | Kot Diji | Khairpur, Pakistan | 27.346, 68.707 |
+| Harappa and Mohenjo-daro rise | Harappa | Harappa, Pakistan | 30.629, 72.864 |
+| Cemetery H culture marks a Late Harappan shift | Harappa (Cemetery H) | Harappa, Pakistan | 30.629, 72.864 |
+
+Trade with Mesopotamia, the seal script, the Mature Harappan decline, and the final fade
+are all civilization-wide developments without one natural place, so those four events
+have no `location` -- consistent with how the original pilot data treated this topic (no
+event had a location at all).
+
+### Corrections / decisions made vs. the original seed data
+
+- Widened `start` from -2600 to -3300 to add the Kot Diji founding event and cover the
+  Early Harappan phase (see status note above).
+- "Trade Networks Reach Mesopotamia" moved from -2350 to -2334: the earliest documented
+  Mesopotamian reference to Meluhha (widely identified with the Indus Valley) is in
+  Sargon of Akkad's inscriptions, and Sargon's reign begins 2334 BC. -2350 predates his
+  reign and isn't otherwise attested in the sources checked.
+- "The Great Bath Falls Out of Use" (-1900, minor) is retitled "The Mature Harappan
+  Cities Begin to Decline." No source found gives a specific construction or
+  disuse date for the Great Bath itself -- Mohenjo-daro's own article only dates the
+  *city* to "built c. 2500 BC, abandoned c. 1700 BC," with no separate Great Bath date.
+  1900 BC is well-attested as the point the Mature Harappan phase ends and population/trade
+  contraction begins (Harappa's article gives its Mature phase as "2600 BC – 1900 BC"),
+  so kept the year but reframed the fact to what's actually sourceable. Kept the Great
+  Bath as the event's image (a real, dateable structure at the city) even though the
+  title no longer centers on it.
+- No usable image found for the Kot Diji founding event. The two images tagged to the
+  Kot Diji Wikipedia article both depict Kot Diji Fort, an 18th-century Talpur-era
+  fortification built on a hill above the ancient mound -- not the Bronze Age
+  archaeological site itself. Left the event without an image rather than use a
+  visually misleading one.
+- "Cemetery H Culture Marks a Late Harappan Shift" (new, 1700 BC) fills the gap between
+  Mohenjo-daro's abandonment (c. 1700 BC per its own article) and the civilization's
+  final fade (1300 BC) -- the original pilot data jumped straight from the Great Bath
+  event to the end with no Late Harappan representation at all.

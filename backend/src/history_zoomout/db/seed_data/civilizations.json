@@ -337,38 +337,102 @@
     "id": "indus",
     "name": "Indus Valley",
     "colorIndex": 3,
-    "start": -2600,
+    "start": -3300,
     "end": -1300,
+    "summary": "Village farming communities along the Indus and its tributaries grow into walled settlements by 3300 BC, and by 2600 BC these coalesce into a network of standardized cities -- Harappa, Mohenjo-daro, and dozens more -- sharing brick sizes, city planning, and a still-undeciphered script. Indus traders reach Mesopotamia by sea, but the great cities lose population and long-distance contact around 1900 BC as regional rivers dry up, and by 1300 BC the last localized successor cultures fade out, centuries before any written record explains why.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Indus_Valley_Civilisation",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Indus_Valley_Civilization%2C_Mature_Phase_%282600-1900_BCE%29.png/330px-Indus_Valley_Civilization%2C_Mature_Phase_%282600-1900_BCE%29.png",
+    "imageAttribution": "Map by Avantiputra7, CC BY-SA 3.0, via Wikimedia Commons",
+    "wikidataId": "Q42534",
     "events": [
+      {
+        "year": -3300,
+        "sig": "major",
+        "title": "Early Farming Villages Rise at Kot Diji",
+        "body": "Walled settlements at Kot Diji, on the Indus's east bank opposite the future site of Mohenjo-daro, adopt the fortification style and pottery traditions that mark the start of the Early Harappan period.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Kot_Diji",
+        "wikidataId": "Q1017084",
+        "location": {
+          "historicalName": "Kot Diji",
+          "city": "Khairpur",
+          "country": "Pakistan",
+          "latitude": 27.34555556,
+          "longitude": 68.70666667
+        }
+      },
       {
         "year": -2600,
         "sig": "major",
         "title": "Harappa and Mohenjo-daro Rise",
-        "body": "Twin cities along the Indus River emerge with grid-planned streets, standardized brick sizes, and sophisticated drainage systems unmatched elsewhere in the Bronze Age world."
+        "body": "Harappa and Mohenjo-daro emerge as the Indus Valley's twin great cities, their grid-planned streets, standardized baked-brick sizes, and covered drains opening the seven-century Mature Harappan period.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Harappa",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/View_of_Granary_and_Great_Hall_on_Mound_F_-_Archaeological_site_of_Harappa.jpg/330px-View_of_Granary_and_Great_Hall_on_Mound_F_-_Archaeological_site_of_Harappa.jpg",
+        "imageAttribution": "Photo by Muhammad Bin Naveed, CC BY-SA 3.0, via Wikimedia Commons",
+        "wikidataId": "Q185562",
+        "location": {
+          "historicalName": "Harappa",
+          "city": "Harappa",
+          "country": "Pakistan",
+          "latitude": 30.62888889,
+          "longitude": 72.86388889
+        }
       },
       {
         "year": -2500,
         "sig": "minor",
         "title": "A Standardized Script Appears on Seals",
-        "body": "Thousands of carved steatite seals bear a still-undeciphered script, used widely enough to suggest long-distance trade record-keeping."
+        "body": "Thousands of carved steatite seals carry a symbol system used widely enough across Mature Harappan cities to suggest formal record-keeping, though without any known bilingual text, the script remains undeciphered today.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Indus_script",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Indus_seal_impression.jpg",
+        "imageAttribution": "Photo by PHGCOM, CC BY-SA 3.0, via Wikimedia Commons",
+        "wikidataId": "Q601388"
       },
       {
-        "year": -2350,
-        "sig": "major",
+        "year": -2334,
+        "sig": "minor",
         "title": "Trade Networks Reach Mesopotamia",
-        "body": "Indus merchants exchange carnelian beads, ivory, and cotton textiles with Sumerian city-states via sea routes through the Persian Gulf."
+        "body": "Sargon of Akkad's inscriptions describe ships arriving from Meluhha, most likely the Indus Valley, carrying carnelian beads, ivory, and timber to Mesopotamian ports in exchange for silver, wool, and grain.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Meluhha",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Moyen_Orient_3mil_aC.svg/330px-Moyen_Orient_3mil_aC.svg.png",
+        "imageAttribution": "Map by Sémhur (base) and Zunkir (derivative), CC BY-SA 3.0, via Wikimedia Commons",
+        "wikidataId": "Q483421"
       },
       {
         "year": -1900,
         "sig": "minor",
-        "title": "The Great Bath Falls Out of Use",
-        "body": "Mohenjo-daro's massive public water tank, likely used for ritual bathing, is abandoned as the city's population begins to decline."
+        "title": "The Mature Harappan Cities Begin to Decline",
+        "body": "Population and long-distance trade at Harappa and Mohenjo-daro start to contract as the seven-century Mature Harappan period ends, opening a slower slide into regional fragmentation.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Indus_Valley_Civilisation",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Great_bath_view_Mohenjodaro.JPG/330px-Great_bath_view_Mohenjodaro.JPG",
+        "imageAttribution": "Photo by Saqib Qayyum, CC BY-SA 3.0, via Wikimedia Commons",
+        "wikidataId": "Q42534"
+      },
+      {
+        "year": -1700,
+        "sig": "major",
+        "title": "Cemetery H Culture Marks a Late Harappan Shift",
+        "body": "As Mohenjo-daro is abandoned, a new culture identified by cremation burials in painted urns appears at Harappa's \"Cemetery H,\" with settlement pushing eastward and rice farming replacing the old river-trade economy.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Cemetery_H_culture",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Cemetery_H_Pottery.png/330px-Cemetery_H_Pottery.png",
+        "imageAttribution": "Illustration by Avantiputra7, CC BY-SA 4.0, via Wikimedia Commons",
+        "wikidataId": "Q2364797",
+        "location": {
+          "historicalName": "Harappa (Cemetery H)",
+          "city": "Harappa",
+          "country": "Pakistan",
+          "latitude": 30.62888889,
+          "longitude": 72.86388889
+        }
       },
       {
         "year": -1300,
         "sig": "major",
         "title": "The Civilization Fades",
-        "body": "Following climate shifts and the drying of the Sarasvati river system, Indus cities are gradually abandoned, their script falling silent for millennia."
+        "body": "A prolonged drying of the region's rivers drains the water supply that sustained Indus cities, and the last Late Harappan successor cultures fade into isolated regional traditions, centuries before any written record explains their end.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Indus_Valley_Civilisation",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Mohenjodaro_-_view_of_the_stupa_mound.JPG/330px-Mohenjodaro_-_view_of_the_stupa_mound.JPG",
+        "imageAttribution": "Photo by Saqib Qayyum, CC BY-SA 3.0, via Wikimedia Commons",
+        "wikidataId": "Q42534"
       }
     ]
   },
@@ -1547,6 +1611,190 @@
         "sig": "major",
         "title": "The Last Inca Stronghold Falls",
         "body": "Spanish forces capture Vilcabamba and execute Túpac Amaru, ending organized Inca resistance four decades after first contact."
+      }
+    ]
+  },
+  {
+    "id": "japan",
+    "name": "Japan",
+    "colorIndex": 8,
+    "start": 300,
+    "end": 1868,
+    "summary": "The Yamato clan's chieftains unify much of Japan from the Nara Basin around 300 AD, and over the next millennium the country moves through waves of continental influence -- Buddhism, Chinese-style law codes, and courtly aristocracy -- before military governments led by shoguns take real power from 1192 onward. Centuries of feudal warfare give way to Tokugawa unification and two and a half centuries of enforced isolation, which ends when American warships force Japan open in 1853 and the shogunate collapses in the 1868 Meiji Restoration.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/History_of_Japan",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Daibutsu-den_in_Todaiji_Nara01bs3200.jpg/330px-Daibutsu-den_in_Todaiji_Nara01bs3200.jpg",
+    "imageAttribution": "Photo by 663highland, CC BY 2.5, via Wikimedia Commons",
+    "wikidataId": "Q130436",
+    "events": [
+      {
+        "year": 300,
+        "sig": "major",
+        "title": "Yamato Polity Unifies the Nara Basin",
+        "body": "Chieftains of the Yamato clan consolidate power over the Nara Basin and neighboring regions, founding the imperial line that rules Japan, at least in name, to the present day.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Kofun_period",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Yamato_Kingship_ethnic_groups.svg/330px-Yamato_Kingship_ethnic_groups.svg.png",
+        "imageAttribution": "Map by Immanuelle, CC BY 4.0, via Wikimedia Commons",
+        "wikidataId": "Q459939",
+        "location": {
+          "historicalName": "Yamato",
+          "city": "Nara",
+          "country": "Japan",
+          "latitude": 34.68444444,
+          "longitude": 135.805
+        }
+      },
+      {
+        "year": 552,
+        "sig": "major",
+        "title": "Buddhism Arrives from Baekje",
+        "body": "King Seong of the Korean kingdom of Baekje sends Emperor Kinmei's court a Buddha image, sutras, and ritual banners, introducing Buddhism to Japan and beginning its long fusion with native Shinto practice.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Buddhism_in_Japan",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Asuka_dera_daibutsu.jpg/330px-Asuka_dera_daibutsu.jpg",
+        "imageAttribution": "Photo by Chris 73, CC BY-SA 3.0, via Wikimedia Commons",
+        "wikidataId": "Q736311",
+        "location": {
+          "historicalName": "Asuka",
+          "city": "Asuka",
+          "country": "Japan",
+          "latitude": 34.47130556,
+          "longitude": 135.82072222
+        }
+      },
+      {
+        "year": 645,
+        "sig": "major",
+        "title": "Isshi Incident Triggers the Taika Reform",
+        "body": "Prince Naka no Ōe and Nakatomi no Kamatari assassinate the powerful minister Soga no Iruka at court, clearing the way for Emperor Kōtoku's Taika Reform, which recasts Japan's government along centralized Chinese Tang lines.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Taika_Reform",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Irukaansatsuzu.jpg/330px-Irukaansatsuzu.jpg",
+        "imageAttribution": "Scroll painting by Gukei Sumiyoshi, public domain, via Wikimedia Commons",
+        "wikidataId": "Q570140",
+        "location": {
+          "historicalName": "Asuka",
+          "city": "Asuka",
+          "country": "Japan",
+          "latitude": 34.47130556,
+          "longitude": 135.82072222
+        }
+      },
+      {
+        "year": 794,
+        "sig": "major",
+        "title": "Capital Moves to Heian-kyō",
+        "body": "Emperor Kanmu relocates the capital to Heian-kyō, opening the four-century Heian period in which a hereditary court aristocracy presides over a golden age of Japanese literature and art.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Heian_period",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Genji_emaki_TAKEKAWA.jpg/330px-Genji_emaki_TAKEKAWA.jpg",
+        "imageAttribution": "Illustrated scroll from The Tale of Genji, Imperial court in Kyoto, public domain, via Wikimedia Commons",
+        "wikidataId": "Q193292",
+        "location": {
+          "historicalName": "Heian-kyō",
+          "city": "Kyoto",
+          "country": "Japan",
+          "latitude": 35.01161,
+          "longitude": 135.76811
+        }
+      },
+      {
+        "year": 1192,
+        "sig": "major",
+        "title": "Minamoto no Yoritomo Becomes Shogun",
+        "body": "Minamoto no Yoritomo receives the title of shogun from the emperor, formalizing the military government he had already built at Kamakura and beginning nearly seven centuries of rule by warrior-class shoguns rather than the imperial court.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Kamakura_shogunate",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Procession-of-Minamoto-no-Yoritomo-visits-Kyoto-1190-Utagawa-Sadahide.png/330px-Procession-of-Minamoto-no-Yoritomo-visits-Kyoto-1190-Utagawa-Sadahide.png",
+        "imageAttribution": "Woodblock print by Utagawa Sadahide, public domain, via Wikimedia Commons",
+        "wikidataId": "Q736839",
+        "location": {
+          "historicalName": "Kamakura",
+          "city": "Kamakura",
+          "country": "Japan",
+          "latitude": 35.31972222,
+          "longitude": 139.5525
+        }
+      },
+      {
+        "year": 1281,
+        "sig": "major",
+        "title": "Kamikaze Repel the Second Mongol Invasion",
+        "body": "A typhoon destroys Kublai Khan's invasion fleet off Kyushu for the second time in seven years, ending Mongol attempts to conquer Japan and giving rise to the legend of the kamikaze, or \"divine wind.\"",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Mongol_invasions_of_Japan",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Mongol_invasions_of_Japan_1274%2C_1281.jpg/330px-Mongol_invasions_of_Japan_1274%2C_1281.jpg",
+        "imageAttribution": "Illustration by Qiushufang, CC BY-SA 4.0, via Wikimedia Commons",
+        "wikidataId": "Q208156",
+        "location": {
+          "historicalName": "Hakata Bay",
+          "city": "Fukuoka",
+          "country": "Japan",
+          "latitude": 33.59,
+          "longitude": 130.40166667
+        }
+      },
+      {
+        "year": 1467,
+        "sig": "major",
+        "title": "Ōnin War Shatters Central Authority",
+        "body": "A succession dispute among the shogunate's leading families erupts into a decade of fighting centered on Kyoto, permanently weakening the Ashikaga shogunate and opening the Sengoku, or \"Warring States,\" era of rival regional daimyo.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/%C5%8Cnin_War",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Onin-War-1467-1477-The-Battle-of-Onin-by-Utagawa-Yoshitora.png/330px-Onin-War-1467-1477-The-Battle-of-Onin-by-Utagawa-Yoshitora.png",
+        "imageAttribution": "Woodblock print by Utagawa Yoshitora, public domain, via Wikimedia Commons",
+        "wikidataId": "Q385676",
+        "location": {
+          "historicalName": "Heian-kyō",
+          "city": "Kyoto",
+          "country": "Japan",
+          "latitude": 35.01161,
+          "longitude": 135.76811
+        }
+      },
+      {
+        "year": 1600,
+        "sig": "major",
+        "title": "Tokugawa Ieyasu Wins at Sekigahara",
+        "body": "Tokugawa Ieyasu's Eastern Army crushes the rival Western coalition at Sekigahara, a victory that ends over a century of civil war and, three years later, brings him the title of shogun, founding the Tokugawa shogunate that rules Japan for the next two and a half centuries.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Sekigahara",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Sekigaharascreen.jpg/330px-Sekigaharascreen.jpg",
+        "imageAttribution": "Folding screen painting, Collection of the Town of Sekigahara Archive of History and Cultural Anthropology, public domain, via Wikimedia Commons",
+        "wikidataId": "Q234188",
+        "location": {
+          "historicalName": "Sekigahara",
+          "city": "Sekigahara",
+          "country": "Japan",
+          "latitude": 35.3655,
+          "longitude": 136.46694444
+        }
+      },
+      {
+        "year": 1853,
+        "sig": "major",
+        "title": "Commodore Perry Forces Japan Open",
+        "body": "US Commodore Matthew Perry sails a squadron of warships into Uraga, forcing the Tokugawa shogunate to abandon over two centuries of sakoku isolation and open Japanese ports to American trade.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Perry_Expedition",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Japanese_1854_print_Commodore_Perry.jpg/330px-Japanese_1854_print_Commodore_Perry.jpg",
+        "imageAttribution": "Japanese print, artist unknown, public domain, via Wikimedia Commons",
+        "wikidataId": "Q7169780",
+        "location": {
+          "historicalName": "Uraga",
+          "city": "Yokosuka",
+          "country": "Japan",
+          "latitude": 35.23333333,
+          "longitude": 139.71666667
+        }
+      },
+      {
+        "year": 1868,
+        "sig": "major",
+        "title": "Meiji Restoration Ends the Shogunate",
+        "body": "Emperor Meiji is restored to direct political power and the last shogun, Tokugawa Yoshinobu, surrenders his authority, ending nearly 700 years of shogunate rule and launching Japan's rapid modernization.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Emperor_Meiji_by_Takahashi_Yuichi.jpg/330px-Emperor_Meiji_by_Takahashi_Yuichi.jpg",
+        "imageAttribution": "Painting by Takahashi Yuichi, public domain, via Wikimedia Commons",
+        "wikidataId": "Q8707",
+        "location": {
+          "historicalName": "Heian-kyō",
+          "city": "Kyoto",
+          "country": "Japan",
+          "latitude": 35.01161,
+          "longitude": 135.76811
+        }
       }
     ]
   }
