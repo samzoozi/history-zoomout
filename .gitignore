@@ -16,3 +16,6 @@ wheels/
 infra/cdk.out/
 infra/cdk.context.json
 infra/.venv
+
+# Fetched/generated data (not committed -- see docs/wikipedia-sources.md for provenance)
+/data/
