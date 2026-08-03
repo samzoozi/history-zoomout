@@ -12,15 +12,23 @@ description: >
 
 # Wikipedia topic research
 
-Turns a topic name into a reviewed `data/wikipedia-data/<topic-id>.json` file, built
-the same way the Persia pilot was: real Wikipedia sources, verified facts, licensed
+Turns a topic name into a reviewed `data/wikipedia-data/<category>/<slug>.json` file,
+built the same way the Persia pilot was: real Wikipedia sources, verified facts, licensed
 images, geocoded event locations, and a paper trail. The JSON output lands in `data/`
-(gitignored -- fetched/generated, not committed) and the tracking-doc entry in `docs/`
-(committed -- it's the durable, human-curated record). Neither is the live seed file
-(`backend/src/history_zoomout/db/seed_data/civilizations.json`) or the database --
-merging is a separate step the user asks for explicitly.
+(gitignored -- fetched/generated, not committed) and the tracking-doc entry in
+`docs/wikipedia-sources-<category>s.md` (committed -- it's the durable, human-curated
+record). Neither is the live seed file (`backend/src/history_zoomout/db/seed_data/`) or
+the database -- merging is a separate step the user asks for explicitly.
 
 ## Before starting
+
+**Always ask the user which category this topic belongs to** (`civilization`, `country`,
+`sport`, or any other) if it isn't already obvious/stated -- the category determines
+where the file goes (`data/wikipedia-data/<category>/`, `docs/wikipedia-sources-<category>s.md`)
+and, for anything other than `civilization`, how the topic `id` must be built (see below).
+Don't guess this from the topic name alone: e.g. "Japan" could be the existing
+`civilization` topic or a new `country` topic, and those need different ids and land in
+different files.
 
 Confirm with the user, if not already given:
 - **Topic id, name, category, and date range** (start/end year). For an existing
@@ -28,6 +36,19 @@ Confirm with the user, if not already given:
   future merge is a drop-in replacement rather than a rename.
 - **Scope for this pass** -- one topic, or several? (Bias toward one at a time; each
   topic pilot is worth reviewing before repeating the process.)
+
+### Topic id uniqueness across categories
+
+`Topic.id` is a plain string primary key in `backend/src/history_zoomout/db/models.py`,
+*not* scoped by category -- two topics in different categories cannot share an id without
+colliding at merge/seed time. The existing `civilization` category already has bare ids
+like `japan`, `rome`, `persia`. To avoid collisions:
+- `civilization` topics keep their existing bare ids (no change, for backward
+  compatibility with what's already merged).
+- Every other category prefixes its topic ids with `<category>-`, e.g. `country-france`,
+  `country-japan`, `sport-basketball`. Pick this id up front when confirming topic
+  parameters with the user, and use the prefixed form as the JSON's `id` field directly --
+  don't leave it bare and expect the merge step to fix it later.
 
 Read `backend/src/history_zoomout/db/models.py` and `schemas.py` first if it's been a
 while -- the field list below is a snapshot and the schema can evolve. Field names in
@@ -95,8 +116,8 @@ war/battle/crisis, and the fall/end, at minimum) rather than a fixed count. For 
   ```
 - Cross-check dates/facts against any existing seed data for this topic. Don't silently
   overwrite a wrong fact -- note the correction and why in the tracking doc (see the
-  Persia entry in `docs/wikipedia-sources.md` for the format: it caught a date/fact
-  conflation between two separate events that had been merged into one).
+  Persia entry in `docs/wikipedia-sources-civilizations.md` for the format: it caught a
+  date/fact conflation between two separate events that had been merged into one).
 - Write `body` from scratch based on the verified facts, 1-2 sentences, present/active
   tense, matching the existing dataset's tone. Never copy Wikipedia's prose (see
   Copyright below).
@@ -169,12 +190,20 @@ same-place-different-name situation). `city`/`country` are today's.
 
 ### 6. Write the output
 
-- `data/wikipedia-data/<topic-id>.json` -- the full topic object, in the shape above.
-- A new section in `docs/wikipedia-sources.md`, following the existing Persia section's
-  structure: status line, topic-level source with reasoning if non-obvious, an
-  event-source table (event / year / article / Wikidata / image credit), a locations
-  table, and a corrections/decisions section explaining any judgment calls or fixes to
-  existing data.
+- `data/wikipedia-data/<category>/<slug>.json` -- the full topic object, in the shape
+  above, in the subfolder matching this topic's category (create the subfolder if it's
+  the first topic in a new category). `<slug>` is the id without its category prefix
+  (e.g. `country-france` -> `data/wikipedia-data/country/france.json`) -- the folder
+  already encodes the category, so the filename doesn't need to repeat it.
+- A new section in `docs/wikipedia-sources-<category>s.md`, following the existing
+  Persia section's structure (in `docs/wikipedia-sources-civilizations.md`): status
+  line, topic-level source with reasoning if non-obvious, an event-source table (event /
+  year / article / Wikidata / image credit), a locations table, and a
+  corrections/decisions section explaining any judgment calls or fixes to existing data.
+  If this is the first topic in a new category, create the file with the same intro
+  boilerplate as the existing categories' files (what the category covers, where its
+  JSON lives, the id-prefixing rule, a pointer to the sibling category files) before
+  adding the topic's own section.
 
 ### 7. Validate before calling it done
 
@@ -197,7 +226,7 @@ extract/article text into `summary` or `body`.
 ## Scope discipline
 
 This skill produces files under `data/` and `docs/` only. It does not:
-- Edit `civilizations.json` or run `history-zoomout-seed`
+- Edit any file under `backend/src/history_zoomout/db/seed_data/` or run `history-zoomout-seed`
 - Change the database schema (if a topic needs a field that doesn't exist yet -- e.g.
   the `location`/image/citation fields all started as a separate ask before any topic
   research happened -- that's a schema change to raise with the user first, not something

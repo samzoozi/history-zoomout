@@ -1,10 +1,17 @@
-# Wikipedia source tracking
+# Wikipedia source tracking — Civilizations
 
 Log of what's been pulled from Wikipedia/Wikidata/Wikimedia Commons for seed data, so we
 know what's already sourced and don't re-scrape blind. One section per topic.
 
-Sourced JSON files live in `data/wikipedia-data/` — reviewed there before being merged into
-the live seed file at `backend/src/history_zoomout/db/seed_data/civilizations.json`.
+This file covers the `civilization` category only. Other categories (e.g. `country`) are
+tracked in their own `wikipedia-sources-<category>.md` file in this directory — topic ids
+and topic names can otherwise collide across categories (e.g. a civilization "Japan" and a
+country "Japan"), so each category gets its own file and its own subfolder under
+`data/wikipedia-data/`.
+
+Sourced JSON files live in `data/wikipedia-data/civilization/` — reviewed there before
+being merged into the live seed file at
+`backend/src/history_zoomout/db/seed_data/civilizations.json`.
 
 Body text is written from scratch based on the facts in these articles, not copied from
 Wikipedia's prose (Wikipedia's text is CC BY-SA and requires attribution/share-alike if
