@@ -742,3 +742,77 @@ separate city-states (Tenochtitlan, Texcoco, Tlacopan), not a single-site event.
   months before the 1521 siege itself, rather than during it as the original body's
   phrasing ("a smallpox epidemic that devastates the city") implied alongside the siege.
   Reworded to describe the epidemic as having already happened by the time of capture.
+
+## Ottoman Empire (topic id: `ottoman`) — pulled 2026-08-03
+
+Status: **merged into live seed data 2026-08-03** (`backend/src/history_zoomout/db/seed_data/civilizations.json`, new topic — not previously present) and reseeded. `colorIndex: 1` continues the color cycle (16 existing topics run through indices 1–8 twice; this is the first entry of a third cycle).
+
+New topic covering the full 623-year span (1299–1922) from Osman I's founding beylik
+through the empire's classical-age peak under Suleiman the Magnificent, its 17th-century
+military reversal at Vienna, its long 18th–19th century retreat and reform era, and its
+formal end with the 1922 abolition of the sultanate.
+
+### Topic-level source
+
+- **Ottoman Empire** — https://en.wikipedia.org/wiki/Ottoman_Empire — Wikidata Q12560
+  - The article's own lead thumbnail is a late flag, not very illustrative. Used
+    `File:OttomanEmpireMain.png` instead — a map of the empire's territorial extent in
+    1683, sourced from the article body — since it's a much stronger visual match for a
+    civilization-scale topic than a flag icon.
+
+### Event-level sources
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| Osman I founds the Ottoman beylik | 1299 | [Osman I](https://en.wikipedia.org/wiki/Osman_I) | Q83100 | Ottoman miniature painting, Public domain |
+| Mehmed II conquers Constantinople | 1453 | [Fall of Constantinople](https://en.wikipedia.org/wiki/Fall_of_Constantinople) | Q160077 | DimiTalen, CC0 |
+| Suleiman the Magnificent besieges Vienna | 1529 | [Siege of Vienna (1529)](https://en.wikipedia.org/wiki/Siege_of_Vienna_(1529)) | Q207576 | Bartel Beham (engraving), Public domain |
+| Holy League destroys the Ottoman fleet at Lepanto | 1571 | [Battle of Lepanto](https://en.wikipedia.org/wiki/Battle_of_Lepanto) | Q165425 | Laureys a Castro (painting), Public domain |
+| The Ottomans are routed at the Battle of Vienna | 1683 | [Battle of Vienna](https://en.wikipedia.org/wiki/Battle_of_Vienna) | Q200855 | Anonymous painter, Museum of Military History Vienna, Public domain |
+| Treaty of Karlowitz ends the Great Turkish War | 1699 | [Treaty of Karlowitz](https://en.wikipedia.org/wiki/Treaty_of_Karlowitz) | Q192303 | O.Mustafin, CC0 |
+| Edict of Gülhane launches the Tanzimat reforms | 1839 | [Tanzimat](https://en.wikipedia.org/wiki/Tanzimat), [Edict of Gülhane](https://en.wikipedia.org/wiki/Edict_of_G%C3%BClhane), [Abdülmecid I](https://en.wikipedia.org/wiki/Abd%C3%BClmecid_I) | Q330961 | David Wilkie (painting), Public domain |
+| Young Turk Revolution restores the constitution | 1908 | [Young Turk Revolution](https://en.wikipedia.org/wiki/Young_Turk_Revolution) | Q4298662 | Charles Roden Buxton, Public domain |
+| Grand National Assembly abolishes the sultanate | 1922 | [Abolition of the Ottoman sultanate](https://en.wikipedia.org/wiki/Abolition_of_the_Ottoman_sultanate) | Q3809270 | Unknown author, Public domain |
+
+Image note: the Tanzimat article's own lead image (an 1877 parliament photo) postdates
+the 1839 edict by decades, and the Edict of Gülhane article's thumbnail is the same
+mismatched photo. Used a portrait of Sultan Abdülmecid I (from his own article) instead,
+since he's the figure who actually proclaimed the edict.
+
+### Event locations
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Osman I founds the beylik | Söğüt | Söğüt, Turkey | 40.019, 30.181 |
+| Mehmed II conquers Constantinople | Constantinople | Istanbul, Turkey | 41.014, 28.955 |
+| Siege of Vienna (1529) | Vienna | Vienna, Austria | 48.208, 16.373 |
+| Battle of Lepanto | Lepanto | Nafpaktos, Greece | 38.394, 21.831 |
+| Battle of Vienna (1683) | Vienna | Vienna, Austria | 48.208, 16.373 |
+| Treaty of Karlowitz | Karlowitz | Sremski Karlovci, Serbia | 45.203, 19.934 |
+| Edict of Gülhane / Tanzimat | Constantinople | Istanbul, Turkey | 41.014, 28.955 |
+| Young Turk Revolution | Monastir | Bitola, North Macedonia | 41.032, 21.335 |
+| Abolition of the sultanate | Constantinople | Istanbul, Turkey | 41.014, 28.955 |
+
+Note on city naming: "Constantinople" is used as the `historicalName` for all four
+Istanbul-based events, including the two 19th/20th-century ones (1839, 1922) — the city
+wasn't officially renamed to Istanbul until the 1930 Republic-era reform, so
+"Constantinople" remained the common English/diplomatic name throughout the entire
+Ottoman period, not just before 1453.
+
+### Decisions / judgment calls
+
+- **Karlowitz (1699) and the Young Turk Revolution (1908) rated `minor`.** Both are
+  real turning points, but each sits alongside a `major`-rated event that already
+  captures the same inflection (Karlowitz formalizes the retreat already marked by the
+  1683 Vienna defeat; the 1908 revolution is a domestic constitutional shift rather than
+  a founding/fall/decisive-battle event on the scale of the other `major` entries).
+- **No separate Suleiman-the-Magnificent "peak" event.** The 1529 Siege of Vienna event
+  covers the empire's classical-age high-water mark under Suleiman directly, so a
+  second, separate "reign of Suleiman" entry would have been redundant with it.
+- **Siege of Vienna (1529) duration given as "18 days"** rather than the vaguer "under
+  three weeks" — the article gives exact dates (27 September – 15 October 1529), so the
+  precise figure was used instead of an approximation.
+- Kept full diacritics in the JSON itself (Söğüt, Gülhane, Abdülmecid, Topkapı),
+  matching how this dataset already handles non-English names elsewhere (e.g. persia's
+  `Şanlıurfa`, rome's `İzmit`, japan's `Tōdai-ji`/`Ōnin`) rather than transliterating to
+  ASCII.

@@ -2131,5 +2131,182 @@
         }
       }
     ]
+  },
+  {
+    "id": "ottoman",
+    "name": "Ottoman Empire",
+    "colorIndex": 1,
+    "start": 1299,
+    "end": 1922,
+    "summary": "The Ottoman Empire grows from a small Turkoman frontier principality founded by Osman I around 1299 into a vast Islamic empire spanning Europe, Asia, and North Africa -- conquering Constantinople in 1453, reaching its height under Suleiman the Magnificent, and surviving repeated wars and reform efforts before the Grand National Assembly abolishes the sultanate in 1922.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ottoman_Empire",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/OttomanEmpireMain.png/500px-OttomanEmpireMain.png",
+    "imageAttribution": "Map by Chamboz, CC BY-SA 4.0, via Wikimedia Commons",
+    "imageDescription": "A map of the Ottoman Empire's territorial extent in 1683, near its greatest reach.",
+    "wikidataId": "Q12560",
+    "events": [
+      {
+        "year": 1299,
+        "sig": "major",
+        "title": "Osman I Founds the Ottoman Beylik",
+        "body": "Osman I, a Turkoman frontier lord ruling from the small Anatolian town of Söğüt, breaks from Seljuk overlordship and founds the beylik that will grow into the Ottoman Empire.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Osman_I",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/I_Osman.jpg/330px-I_Osman.jpg",
+        "imageAttribution": "Ottoman miniature painting, Public domain, via Wikimedia Commons",
+        "imageDescription": "An Ottoman miniature portrait of Osman I, founder of the Ottoman Empire.",
+        "wikidataId": "Q83100",
+        "location": {
+          "historicalName": "Söğüt",
+          "city": "Söğüt",
+          "country": "Turkey",
+          "latitude": 40.01861111,
+          "longitude": 30.18138889
+        }
+      },
+      {
+        "year": 1453,
+        "sig": "major",
+        "title": "Mehmed II Conquers Constantinople",
+        "body": "Sultan Mehmed II breaches Constantinople's ancient walls after a 53-day siege using massive cannon, ending the Byzantine Empire and transforming Ottoman rule from a regional power into an empire straddling Europe and Asia.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Siege_of_Constantinople_fresco%2C_Moldovi%C8%9Ba_monastery%2C_Vatra_Moldovi%C8%9Bei%2C_2017.jpg/330px-Siege_of_Constantinople_fresco%2C_Moldovi%C8%9Ba_monastery%2C_Vatra_Moldovi%C8%9Bei%2C_2017.jpg",
+        "imageAttribution": "Fresco, Moldovita Monastery, photo by DimiTalen, CC0, via Wikimedia Commons",
+        "imageDescription": "A modern fresco at Moldovita Monastery in Romania depicting the siege of Constantinople.",
+        "wikidataId": "Q160077",
+        "location": {
+          "historicalName": "Constantinople",
+          "city": "Istanbul",
+          "country": "Turkey",
+          "latitude": 41.01361111,
+          "longitude": 28.955
+        }
+      },
+      {
+        "year": 1529,
+        "sig": "major",
+        "title": "Suleiman the Magnificent Besieges Vienna",
+        "body": "Suleiman the Magnificent lays siege to the Habsburg capital of Vienna but withdraws after 18 days when rain, dwindling supplies, and the approaching winter make the walls unbreakable in time -- marking the deepest advance of Ottoman power into Central Europe.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Siege_of_Vienna_(1529)",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Siegeofvienna1529.jpg/330px-Siegeofvienna1529.jpg",
+        "imageAttribution": "Engraving by Bartel Beham, Public domain, via Wikimedia Commons",
+        "imageDescription": "A contemporary engraving depicting the 1529 Ottoman siege of Vienna.",
+        "wikidataId": "Q207576",
+        "location": {
+          "historicalName": "Vienna",
+          "city": "Vienna",
+          "country": "Austria",
+          "latitude": 48.2083,
+          "longitude": 16.3725
+        }
+      },
+      {
+        "year": 1571,
+        "sig": "major",
+        "title": "The Holy League Destroys the Ottoman Fleet at Lepanto",
+        "body": "A Holy League fleet of Spanish, Venetian, and papal galleys crushes the Ottoman navy in the Gulf of Patras, ending decades of unchallenged Ottoman dominance at sea even as the empire rebuilds its fleet within a year.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Lepanto",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Laureys_a_Castro_-_The_Battle_of_Lepanto.jpeg/330px-Laureys_a_Castro_-_The_Battle_of_Lepanto.jpeg",
+        "imageAttribution": "Painting by Laureys a Castro, Public domain, via Wikimedia Commons",
+        "imageDescription": "A 17th-century painting depicting the naval Battle of Lepanto.",
+        "wikidataId": "Q165425",
+        "location": {
+          "historicalName": "Lepanto",
+          "city": "Nafpaktos",
+          "country": "Greece",
+          "latitude": 38.39388889,
+          "longitude": 21.83055556
+        }
+      },
+      {
+        "year": 1683,
+        "sig": "major",
+        "title": "The Ottomans Are Routed at the Battle of Vienna",
+        "body": "A relief army led by Polish king John III Sobieski smashes the two-month Ottoman siege of Vienna, halting the empire's westward expansion for good and touching off a sixteen-year war that steadily rolls back Ottoman territory in Europe.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Vienna",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Anonym_Entsatz_Wien_1683.jpg/330px-Anonym_Entsatz_Wien_1683.jpg",
+        "imageAttribution": "Painting, Museum of Military History Vienna, Public domain, via Wikimedia Commons",
+        "imageDescription": "A monumental painting depicting the 1683 siege and relief of Vienna.",
+        "wikidataId": "Q200855",
+        "location": {
+          "historicalName": "Vienna",
+          "city": "Vienna",
+          "country": "Austria",
+          "latitude": 48.2083,
+          "longitude": 16.3725
+        }
+      },
+      {
+        "year": 1699,
+        "sig": "minor",
+        "title": "The Treaty of Karlowitz Ends the Great Turkish War",
+        "body": "Defeated in the Great Turkish War, the Ottoman Empire signs the Treaty of Karlowitz, ceding Hungary and other territories to the Habsburgs, Podolia to Poland-Lithuania, and Dalmatia and the Morea to Venice in its first major territorial retreat from a coalition of European powers.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Treaty_of_Karlowitz",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Treaty_of_Karlowitz.jpg/330px-Treaty_of_Karlowitz.jpg",
+        "imageAttribution": "Photo by O.Mustafin, CC0, via Wikimedia Commons",
+        "imageDescription": "A copy of the Treaty of Karlowitz document exhibited in the Doge's Palace in Venice.",
+        "wikidataId": "Q192303",
+        "location": {
+          "historicalName": "Karlowitz",
+          "city": "Sremski Karlovci",
+          "country": "Serbia",
+          "latitude": 45.20277778,
+          "longitude": 19.93361111
+        }
+      },
+      {
+        "year": 1839,
+        "sig": "major",
+        "title": "The Edict of Gülhane Launches the Tanzimat Reforms",
+        "body": "Sultan Abdülmecid I proclaims the Edict of Gülhane at Topkapı Palace, launching the Tanzimat era of reforms that overhaul Ottoman law, education, and taxation in an attempt to modernize the empire and halt its long decline.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Tanzimat",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Sultan_Abd%C3%BClmecid_I.jpg/330px-Sultan_Abd%C3%BClmecid_I.jpg",
+        "imageAttribution": "Painting by David Wilkie, Public domain, via Wikimedia Commons",
+        "imageDescription": "A portrait of Sultan Abdülmecid I, who proclaimed the Edict of Gülhane.",
+        "wikidataId": "Q330961",
+        "location": {
+          "historicalName": "Constantinople",
+          "city": "Istanbul",
+          "country": "Turkey",
+          "latitude": 41.01361111,
+          "longitude": 28.955
+        }
+      },
+      {
+        "year": 1908,
+        "sig": "minor",
+        "title": "The Young Turk Revolution Restores the Constitution",
+        "body": "Army officers of the Committee of Union and Progress rise up in Ottoman Macedonia and force Sultan Abdul Hamid II to restore the suspended 1876 constitution, ending three decades of autocratic rule and opening the empire's final constitutional era.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Young_Turk_Revolution",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Declaration_of_the_1908_Revolution_in_Ottoman_Empire.png/330px-Declaration_of_the_1908_Revolution_in_Ottoman_Empire.png",
+        "imageAttribution": "Photo by Charles Roden Buxton, Public domain, via Wikimedia Commons",
+        "imageDescription": "Religious leaders of different faiths appearing together to mark the 1908 constitutional restoration.",
+        "wikidataId": "Q4298662",
+        "location": {
+          "historicalName": "Monastir",
+          "city": "Bitola",
+          "country": "North Macedonia",
+          "latitude": 41.03194444,
+          "longitude": 21.33472222
+        }
+      },
+      {
+        "year": 1922,
+        "sig": "major",
+        "title": "The Grand National Assembly Abolishes the Sultanate",
+        "body": "The Grand National Assembly in Ankara abolishes the Ottoman sultanate, stripping Sultan Mehmed VI of political power and formally ending over six centuries of Ottoman rule as the last sultan departs Constantinople into exile.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Abolition_of_the_Ottoman_sultanate",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Sultanvahideddin.jpg/330px-Sultanvahideddin.jpg",
+        "imageAttribution": "Public domain, via Wikimedia Commons",
+        "imageDescription": "Sultan Mehmed VI departing Dolmabahçe Palace shortly before his exile in November 1922.",
+        "wikidataId": "Q3809270",
+        "location": {
+          "historicalName": "Constantinople",
+          "city": "Istanbul",
+          "country": "Turkey",
+          "latitude": 41.01361111,
+          "longitude": 28.955
+        }
+      }
+    ]
   }
 ]
