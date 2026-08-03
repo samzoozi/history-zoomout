@@ -26,7 +26,7 @@ credentials in the root `docker-compose.yml`.
 
 ## Migrations
 
-Models live in `history_zoomout/models.py`. After changing them:
+Models live in `history_zoomout/db/models.py`. After changing them:
 
 ```
 uv run alembic revision --autogenerate -m "describe the change"
@@ -36,4 +36,4 @@ uv run alembic upgrade head
 ## Re-seeding
 
 `history-zoomout-seed` clears and reloads all civilizations/events from
-`history_zoomout/seed_data/civilizations.json` — safe to re-run.
+`history_zoomout/db/seed_data/civilizations.json` — safe to re-run.

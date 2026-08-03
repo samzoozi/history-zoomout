@@ -1,12 +1,14 @@
 import json
 from importlib import resources
 
-from .db import Base, SessionLocal, engine
+from . import Base, SessionLocal, engine
 from .models import Civilization, Event
 
 
 def load_seed_data() -> list[dict]:
-    path = resources.files("history_zoomout.seed_data").joinpath("civilizations.json")
+    path = resources.files("history_zoomout.db.seed_data").joinpath(
+        "civilizations.json"
+    )
     return json.loads(path.read_text())
 
 

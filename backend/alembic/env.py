@@ -3,9 +3,11 @@ from logging.config import fileConfig
 from sqlalchemy import engine_from_config, pool
 
 from alembic import context
-from history_zoomout import models  # noqa: F401 -- registers models on Base.metadata
 from history_zoomout.config import settings
-from history_zoomout.db import Base
+from history_zoomout.db import (
+    Base,
+    models,  # noqa: F401 -- registers models on Base.metadata
+)
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.

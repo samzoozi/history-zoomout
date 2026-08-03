@@ -5,7 +5,7 @@ from sqlalchemy.orm import selectinload
 
 from .config import settings
 from .db import SessionLocal
-from .models import Civilization
+from .db.models import Civilization
 from .schemas import CivilizationOut
 
 app = FastAPI(title="History Zoomout API")
