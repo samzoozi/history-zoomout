@@ -156,18 +156,17 @@ button:focus-visible,
   align-items: flex-start;
   justify-content: space-between;
   gap: 24px;
-  padding: 28px clamp(20px, 4vw, 44px) 20px;
+  /* Left inset is fixed (not the same responsive clamp as the right side)
+     so the hamburger's left edge lines up with .lane-label's name text
+     (~21px in from the viewport edge -- see its 4px padding + swatch +
+     gap) at every breakpoint, instead of drifting up to 44px on wide
+     screens while the timeline content underneath stays put. */
+  padding: 28px clamp(20px, 4vw, 44px) 20px 20px;
   border-bottom: 1px solid var(--hairline);
   flex-wrap: wrap;
   flex-shrink: 0;
 }
-/* .nav-toggle is fixed at left:8px, width 34px (spans to x=42) -- below the
-   width where clamp(20px, 4vw, 44px) settles at its 20px floor, the topbar's
-   own left padding is no longer wide enough to clear it, so the button
-   overlaps the wordmark. Widen the gutter once that floor kicks in. */
-@media (max-width: 520px) {
-  .topbar { padding-left: 52px; }
-}
+.brand-row { display: flex; align-items: center; gap: 12px; }
 .brand-block { display: flex; flex-direction: column; gap: 4px; }
 .wordmark {
   font-family: 'Marcellus', serif;
@@ -257,28 +256,27 @@ button:focus-visible,
 /* ---------- Nav drawer ---------- */
 /* Hidden by default; slides in from the left over the whole app (topbar
    included) to list every category, mirroring .detail-panel's slide-in. */
-/* Fixed and out of the topbar's flex flow entirely -- tucked into the
-   topbar's own left padding gutter, left of the wordmark -- so it never
-   pushes the title/controls out of their original position. */
+/* A normal flex item inside .brand-row (see above) rather than fixed --
+   that keeps it vertically centered against the wordmark at every
+   breakpoint instead of chasing .topbar's padding with a tuned pixel
+   offset that only happened to line up at one width. */
 .nav-toggle {
-  position: fixed;
-  top: 30px;
-  left: 8px;
-  z-index: 25;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 34px;
   height: 34px;
+  flex-shrink: 0;
   padding: 0;
-  border: none;
-  border-radius: 6px;
-  background: none;
+  border: 1px solid var(--hairline);
+  border-radius: 8px;
+  background: var(--surface);
   cursor: pointer;
 }
 .nav-toggle svg { width: 23px; height: 23px; }
 .nav-toggle:hover, .nav-toggle[aria-expanded="true"] {
   background: var(--brass-glow);
+  border-color: var(--hairline-strong);
 }
 
 .nav-scrim {
@@ -522,7 +520,11 @@ button:focus-visible,
   left: 0;
   z-index: 4;
   background: var(--page);
-  padding: 14px 16px 14px 4px;
+  /* 20px left inset matches .topbar's fixed left padding (see above) so the
+     swatch dot lines up with the hamburger's left edge on desktop. Narrowed
+     back down on mobile (see the 900px breakpoint) where the label column
+     itself shrinks to 108px and can't spare the extra 16px. */
+  padding: 14px 16px 14px 20px;
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -682,6 +684,21 @@ button:focus-visible,
     background: var(--hairline-strong);
     margin: 0 auto 14px;
   }
+  /* The label column is sticky (see .lane-label) so it stays put while the
+     timeline scrolls horizontally -- worth keeping on mobile for orientation,
+     but 184px eats close to half a phone viewport. Shrink it to just the
+     swatch + a truncated name and drop the date-range subtext; the full
+     range is still available via the marker's own tooltip/detail panel. */
+  .axis-spacer, .lane-label { width: 108px; }
+  .lane-label { padding-left: 4px; padding-right: 8px; }
+  .lane-label .swatch-row { min-width: 0; }
+  .lane-label .name {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .lane-label .span { display: none; }
 }
 .drag-handle { display: none; }
 

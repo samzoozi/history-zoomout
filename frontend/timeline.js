@@ -3,7 +3,6 @@
 
   var DOMAIN_PADDING_YEARS = 60;
   var BASE_PX_PER_YEAR = 0.62;
-  var LABEL_WIDTH = 184;
   var SIDEBAR_GUTTER = 360; // scroll room so the open detail panel never covers the timeline's end
   var AUTO_TICK_MIN_PX_SPACING = 170; // smallest step whose pixel gap at the CURRENT zoom clears this; recomputed every render so ticks get denser as pxPerYear() grows with zoom
   var NICE_TICK_STEPS_YEARS = [10, 25, 50, 100, 200, 250, 500, 1000, 2000, 2500, 5000, 10000, 25000];
@@ -47,7 +46,7 @@
   var DOMAIN_END = TIMELINE_CONFIG.domainEnd;
   var ERAS = TIMELINE_CONFIG.eras;
 
-  var API_BASE = window.HISTORYZOOMOUT_API_BASE || "http://localhost:8000";
+  var API_BASE = window.HISTORYZOOMOUT_API_BASE || "http://" + window.location.hostname + ":8000";
 
   var TOPICS = [];
 
@@ -89,6 +88,7 @@
 
   var lanesEl = document.getElementById("lanes");
   var axisTrack = document.getElementById("axisTrack");
+  var axisSpacer = document.querySelector(".axis-spacer");
   var eraOverlay = document.getElementById("eraOverlay");
   var trackEl = document.getElementById("track");
   var scroller = document.getElementById("scroller");
@@ -113,6 +113,11 @@
   function pxPerYear() { return BASE_PX_PER_YEAR * state.zoom; }
   function yearToX(year) { return (year - DOMAIN_START) * pxPerYear(); }
   function trackWidth() { return (DOMAIN_END - DOMAIN_START) * pxPerYear(); }
+  // Read live rather than hardcode: .axis-spacer's width is set in CSS and
+  // shrinks under the mobile breakpoint, so this stays in sync with whatever
+  // the stylesheet currently says instead of drifting out of alignment with
+  // the (same-width) sticky .lane-label column.
+  function labelWidth() { return axisSpacer.getBoundingClientRect().width; }
 
   function fitDomainToData() {
     if (!TOPICS.length) return;
@@ -134,7 +139,7 @@
 
   function renderAxisAndEras() {
     var w = trackWidth();
-    trackEl.style.width = (w + LABEL_WIDTH + SIDEBAR_GUTTER) + "px";
+    trackEl.style.width = (w + labelWidth() + SIDEBAR_GUTTER) + "px";
     axisTrack.innerHTML = "";
     generateTicks(DOMAIN_START, DOMAIN_END).forEach(function (y) {
       var tick = document.createElement("div");
@@ -144,7 +149,7 @@
       axisTrack.appendChild(tick);
     });
 
-    eraOverlay.style.left = LABEL_WIDTH + "px";
+    eraOverlay.style.left = labelWidth() + "px";
     eraOverlay.style.width = w + "px";
     eraOverlay.innerHTML = "";
     ERAS.forEach(function (era, i) {
@@ -561,6 +566,18 @@
     renderLanes();
   }
 
+  // Rotating the phone (or resizing a desktop window) can cross the mobile
+  // breakpoint that changes .axis-spacer's CSS width, which renderAxisAndEras
+  // reads live via labelWidth() -- re-run it so the era overlay and track
+  // width stay aligned with the sticky label column's actual rendered size.
+  var initialized = false;
+  var resizeReflowTimer = null;
+  window.addEventListener("resize", function () {
+    if (!initialized) return;
+    clearTimeout(resizeReflowTimer);
+    resizeReflowTimer = setTimeout(renderAxisAndEras, 150);
+  });
+
   function init() {
     document.title = "History Zoomout — " + CATEGORY_LABEL;
     if (eventCountEl) eventCountEl.textContent = String(totalEventCount());
@@ -574,6 +591,7 @@
 
     loadStateEl.hidden = true;
     stageEl.hidden = false;
+    initialized = true;
   }
 
   Promise.all([
