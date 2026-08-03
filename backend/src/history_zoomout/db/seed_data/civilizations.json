@@ -200,36 +200,181 @@
     "colorIndex": 6,
     "start": -550,
     "end": 651,
+    "summary": "Persia was ruled by three successive empires: the Achaemenids, founded by Cyrus the Great in 550 BC and toppled by Alexander the Great in 330 BC; the Parthians, who threw off Seleucid rule in 247 BC and famously humbled Rome at Carrhae; and the Sasanians, who revived Persian imperial rule in 224 AD and held it until the Arab conquest of 651 AD.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/History_of_Iran",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Achaemenid_Empire_500_BCE.jpg/330px-Achaemenid_Empire_500_BCE.jpg",
+    "imageAttribution": "Map by Cattette, CC BY 4.0, via Wikimedia Commons",
+    "wikidataId": "Q28926",
     "events": [
       {
         "year": -550,
         "sig": "major",
         "title": "Cyrus the Great Founds the Achaemenid Empire",
-        "body": "Cyrus unites the Medes and Persians and begins a policy of tolerating local customs and religions across his conquests, including freeing the Jews from Babylonian captivity."
+        "body": "Cyrus II defeats the Median Empire and unites the Medes and Persians under Achaemenid rule, founding what will become the largest empire the ancient world had yet seen.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Cyrus_the_Great",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Cyrus_II_%28The_Great%29_%28cropped%29.jpg/330px-Cyrus_II_%28The_Great%29_%28cropped%29.jpg",
+        "imageAttribution": "Photo by Surenae, CC BY-SA 4.0, via Wikimedia Commons",
+        "wikidataId": "Q8423",
+        "location": {
+          "historicalName": "Pasargadae",
+          "city": "Pasargadae",
+          "country": "Iran",
+          "latitude": 30.2,
+          "longitude": 53.17944444
+        }
+      },
+      {
+        "year": -539,
+        "sig": "minor",
+        "title": "Cyrus Conquers Babylon, Frees the Jewish Captives",
+        "body": "Cyrus captures Babylon and issues the Cyrus Cylinder, a declaration recording his restoration of displaced peoples and local temples — including freeing the Jewish captives held there since the Babylonian conquest of Jerusalem.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Cyrus_Cylinder",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Cyrus_Cylinder_front.jpg/330px-Cyrus_Cylinder_front.jpg",
+        "imageAttribution": "Photo by Prioryman, CC BY-SA 3.0, via Wikimedia Commons",
+        "wikidataId": "Q405008",
+        "location": {
+          "historicalName": "Babylon",
+          "city": "Al-Hillah",
+          "country": "Iraq",
+          "latitude": 32.5425,
+          "longitude": 44.42111111
+        }
       },
       {
         "year": -518,
         "sig": "minor",
         "title": "Construction Begins at Persepolis",
-        "body": "Darius I starts building a ceremonial capital whose terraces and reliefs will showcase the empire's reach from Egypt to the Indus."
+        "body": "Darius I begins building a new ceremonial capital in the Persian heartland, whose terraces, columned halls, and reliefs will showcase the empire's reach from Egypt to the Indus Valley.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Persepolis",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Gate_of_All_Nations%2C_Persepolis.jpg/500px-Gate_of_All_Nations%2C_Persepolis.jpg",
+        "imageAttribution": "Photo by Alborzagros, CC BY-SA 3.0, via Wikimedia Commons",
+        "wikidataId": "Q129072",
+        "location": {
+          "historicalName": "Persepolis",
+          "city": "Marvdasht",
+          "country": "Iran",
+          "latitude": 29.935,
+          "longitude": 52.89
+        }
       },
       {
         "year": -480,
         "sig": "major",
         "title": "The Battle of Thermopylae",
-        "body": "A small Greek force led by Spartan king Leonidas delays Xerxes' invading army at a mountain pass, buying time even in defeat."
+        "body": "Xerxes' invading army is delayed for three days at a narrow mountain pass by a small Greek force under the Spartan king Leonidas, whose stand becomes a lasting symbol of resistance even in defeat.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Thermopylae",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/L%C3%A9onidas_aux_Thermopyles_-_Jacques-Louis_David_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3690_%3B_L_3711.jpg/330px-L%C3%A9onidas_aux_Thermopyles_-_Jacques-Louis_David_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3690_%3B_L_3711.jpg",
+        "imageAttribution": "Painting by Jacques-Louis David, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q131969",
+        "location": {
+          "historicalName": "Thermopylae",
+          "city": "Thermopylae",
+          "country": "Greece",
+          "latitude": 38.79583333,
+          "longitude": 22.53694444
+        }
+      },
+      {
+        "year": -330,
+        "sig": "major",
+        "title": "The Achaemenid Empire Falls to Alexander the Great",
+        "body": "Darius III, the last Achaemenid king, is killed by his own satraps while fleeing Alexander the Great's invasion, bringing the two-century-old empire to an end.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Darius_III",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Darius_III_mosaic.jpg/500px-Darius_III_mosaic.jpg",
+        "imageAttribution": "Photo by Carole Raddato, CC BY-SA 2.0, via Wikimedia Commons (detail of the Alexander Mosaic)",
+        "wikidataId": "Q102865",
+        "location": {
+          "historicalName": "Hecatompylos",
+          "city": "Damghan",
+          "country": "Iran",
+          "latitude": null,
+          "longitude": null
+        }
+      },
+      {
+        "year": -247,
+        "sig": "major",
+        "title": "The Parthian Empire Is Founded",
+        "body": "Arsaces I leads the Parni tribe in seizing the region of Parthia from the crumbling Seleucid Empire, founding a new Iranian dynasty that will rule for the next 470 years.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Parthian_Empire",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Map_of_the_Parthian_Empire_under_Mithridates_II.svg/330px-Map_of_the_Parthian_Empire_under_Mithridates_II.svg.png",
+        "imageAttribution": "Map by Ro4444 (edited), CC BY-SA 4.0, via Wikimedia Commons",
+        "wikidataId": "Q1986139",
+        "location": {
+          "historicalName": "Nisa",
+          "city": "Nisa",
+          "country": "Turkmenistan",
+          "latitude": 37.97,
+          "longitude": 58.2
+        }
+      },
+      {
+        "year": -53,
+        "sig": "major",
+        "title": "The Battle of Carrhae",
+        "body": "A Roman invasion force under Crassus is lured into open desert and destroyed by Parthian cavalry under the general Surena, in one of Rome's most catastrophic defeats.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Carrhae",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Battle_of_Carrhae_%28Caesar%CB%90_A_History_Of_The_Art_Of_War_Among_The_Romans_Down_To_The_End%2C_vol._II%2C_1892%29.jpg/330px-Battle_of_Carrhae_%28Caesar%CB%90_A_History_Of_The_Art_Of_War_Among_The_Romans_Down_To_The_End%2C_vol._II%2C_1892%29.jpg",
+        "imageAttribution": "Theodore Ayrault Dodge, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q205887",
+        "location": {
+          "historicalName": "Carrhae",
+          "city": "Harran",
+          "country": "Turkey",
+          "latitude": 36.87083333,
+          "longitude": 39.025
+        }
       },
       {
         "year": 224,
         "sig": "minor",
-        "title": "The Sassanid Dynasty Rises",
-        "body": "Ardashir I overthrows the Parthians and founds a new Persian empire that will rival Rome and Byzantium for four centuries."
+        "title": "The Sasanian Dynasty Rises",
+        "body": "Ardashir I defeats the last Parthian king and founds a new Persian empire under the House of Sasan, which will rival Rome and later Byzantium for over four centuries.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sasanian_Empire",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/The_Sasanian_Empire_at_its_apex_under_Khosrow_II.svg/330px-The_Sasanian_Empire_at_its_apex_under_Khosrow_II.svg.png",
+        "imageAttribution": "Map by Ro4444 (edited), CC BY 4.0, via Wikimedia Commons",
+        "wikidataId": "Q83891",
+        "location": {
+          "historicalName": "Hormozdgan",
+          "city": "Ramhormoz",
+          "country": "Iran",
+          "latitude": 31.28,
+          "longitude": 49.6
+        }
+      },
+      {
+        "year": 260,
+        "sig": "major",
+        "title": "Shapur I Captures the Roman Emperor Valerian",
+        "body": "Sasanian king Shapur I defeats a Roman army at Edessa and takes Emperor Valerian prisoner — the first time a reigning Roman emperor is ever captured in battle.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Edessa",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Naghsh-e_rostam%2C_Ir%C3%A1n%2C_2016-09-24%2C_DD_12.jpg/330px-Naghsh-e_rostam%2C_Ir%C3%A1n%2C_2016-09-24%2C_DD_12.jpg",
+        "imageAttribution": "Photo by Diego Delso, CC BY-SA 4.0, via Wikimedia Commons",
+        "wikidataId": "Q1165502",
+        "location": {
+          "historicalName": "Edessa",
+          "city": "Şanlıurfa",
+          "country": "Turkey",
+          "latitude": 37.15,
+          "longitude": 38.8
+        }
       },
       {
         "year": 651,
         "sig": "major",
-        "title": "The Sassanid Empire Falls to Arab Conquest",
-        "body": "The last Sassanid king is killed fleeing eastward, and Persia is absorbed into the rapidly expanding Islamic caliphate."
+        "title": "The Sasanian Empire Falls to Arab Conquest",
+        "body": "After the Rashidun Caliphate's forces overrun the empire, the last Sasanian king, Yazdegerd III, is murdered while fleeing near Merv, and Persia is absorbed into the expanding Islamic caliphate.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Muslim_conquest_of_Persia",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/IslamicConquestsIroon.png/330px-IslamicConquestsIroon.png",
+        "imageAttribution": "Map by Javierfv1212, edited by HistoryofIran, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q887684",
+        "location": {
+          "historicalName": "Merv",
+          "city": "Mary",
+          "country": "Turkmenistan",
+          "latitude": 37.66277778,
+          "longitude": 62.1925
+        }
       }
     ]
   },

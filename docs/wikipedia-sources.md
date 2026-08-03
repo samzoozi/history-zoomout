@@ -12,7 +12,7 @@ reproduced; facts themselves aren't copyrightable, so we paraphrase).
 
 ## Persia (topic id: `persia`) — pulled 2026-08-02, expanded same day
 
-Status: **in `data/wikipedia-data/persia.json`, 10 events, not yet merged into live seed data.**
+Status: **merged into live seed data 2026-08-02** (`backend/src/history_zoomout/db/seed_data/civilizations.json`, replacing the old 5-event entry wholesale) and reseeded.
 
 Covers all three successive Persian empires as one topic (550 BC – 651 AD): Achaemenid,
 Parthian, and Sasanian. The original 5-event pilot only covered Achaemenid + Sasanian with
