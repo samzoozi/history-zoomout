@@ -1,33 +1,90 @@
 (function () {
   "use strict";
 
-  var DOMAIN_START = -3200;
-  var DOMAIN_END = 1600;
   var DOMAIN_PADDING_YEARS = 60;
   var BASE_PX_PER_YEAR = 0.62;
   var LABEL_WIDTH = 184;
   var SIDEBAR_GUTTER = 360; // scroll room so the open detail panel never covers the timeline's end
+  var AUTO_TICK_TARGET_COUNT = 8;
+  var AUTO_TICK_MIN_PX_SPACING = 100; // at zoom=1x, so "1900 CE"-style labels never crowd each other
+  var NICE_TICK_STEPS_YEARS = [10, 25, 50, 100, 200, 250, 500, 1000, 2000, 2500, 5000, 10000, 25000];
 
-  var ERAS = [
-    { start: -3200, end: -1200, label: "Bronze Age" },
-    { start: -1200, end: -500, label: "Iron Age" },
-    { start: -500, end: 500, label: "Classical Antiquity" },
-    { start: 500, end: 1000, label: "Early Middle Ages" },
-    { start: 1000, end: 1450, label: "High Middle Ages" },
-    { start: 1450, end: 1600, label: "Age of Contact" }
-  ];
+  // Per-category timeline rendering config. `civilization` keeps the original
+  // curated eras/ticks/domain; any category not listed here gets a domain
+  // fitted purely to its data (no artificial floor) with no era-band overlay
+  // and auto-generated round-number ticks (see generateTicks).
+  var CATEGORY_TIMELINE_CONFIG = {
+    civilization: {
+      domainStart: -3200,
+      domainEnd: 1600,
+      eras: [
+        { start: -3200, end: -1200, label: "Bronze Age" },
+        { start: -1200, end: -500, label: "Iron Age" },
+        { start: -500, end: 500, label: "Classical Antiquity" },
+        { start: 500, end: 1000, label: "Early Middle Ages" },
+        { start: 1000, end: 1450, label: "High Middle Ages" },
+        { start: 1450, end: 1600, label: "Age of Contact" }
+      ],
+      tickYears: [-3000, -2500, -2000, -1500, -1000, -500, 1, 500, 1000, 1500]
+    }
+  };
+  var DEFAULT_TIMELINE_CONFIG = {
+    domainStart: Infinity,
+    domainEnd: -Infinity,
+    eras: [],
+    tickYears: null // null means auto-generate from the fitted domain
+  };
 
-  var TICK_YEARS = [-3000, -2500, -2000, -1500, -1000, -500, 1, 500, 1000, 1500];
+  function getCategory() {
+    return new URLSearchParams(window.location.search).get("category") || "civilization";
+  }
+
+  var CATEGORY = getCategory();
+  var TIMELINE_CONFIG = CATEGORY_TIMELINE_CONFIG[CATEGORY] || DEFAULT_TIMELINE_CONFIG;
+  var CATEGORY_LABEL = CATEGORY.charAt(0).toUpperCase() + CATEGORY.slice(1);
+
+  var DOMAIN_START = TIMELINE_CONFIG.domainStart;
+  var DOMAIN_END = TIMELINE_CONFIG.domainEnd;
+  var ERAS = TIMELINE_CONFIG.eras;
+  var TICK_YEARS = TIMELINE_CONFIG.tickYears;
 
   var API_BASE = window.HISTORYZOOMOUT_API_BASE || "http://localhost:8000";
 
-  var CIVS = [];
+  var TOPICS = [];
 
   function yearLabel(year) {
     return year <= 0 ? (Math.abs(year) + " BCE") : (year + " CE");
   }
 
-  var state = { sig: "all", zoom: 1, selectedCivs: null };
+  // Pick a round-number tick step (10/25/50/100/250/500/1000-year style)
+  // for categories without curated tickYears. Balances two constraints: land
+  // close to AUTO_TICK_TARGET_COUNT ticks across the domain, but never pick a
+  // step so small that adjacent "1900 CE"-style labels would crowd each
+  // other at the current zoom.
+  function pickTickStep(span) {
+    var roughStep = span / AUTO_TICK_TARGET_COUNT;
+    for (var i = 0; i < NICE_TICK_STEPS_YEARS.length; i++) {
+      var step = NICE_TICK_STEPS_YEARS[i];
+      if (step >= roughStep && step * pxPerYear() >= AUTO_TICK_MIN_PX_SPACING) {
+        return step;
+      }
+    }
+    return NICE_TICK_STEPS_YEARS[NICE_TICK_STEPS_YEARS.length - 1];
+  }
+
+  function generateTicks(start, end) {
+    var span = end - start;
+    if (span <= 0) return [Math.round(start)];
+    var step = pickTickStep(span);
+    var first = Math.ceil(start / step) * step;
+    var ticks = [];
+    for (var y = first; y <= end; y += step) {
+      ticks.push(Math.round(y));
+    }
+    return ticks;
+  }
+
+  var state = { sig: "all", zoom: 1, selectedTopics: null };
 
   var lanesEl = document.getElementById("lanes");
   var axisTrack = document.getElementById("axisTrack");
@@ -37,32 +94,36 @@
   var zoomInput = document.getElementById("zoom");
   var zoomReadout = document.getElementById("zoomReadout");
   var eventCountEl = document.getElementById("eventCount");
-  var civCountEl = document.getElementById("civCount");
+  var topicCountEl = document.getElementById("topicCount");
   var stageEl = document.getElementById("stage");
   var loadStateEl = document.getElementById("loadState");
-  var civFilterEl = document.getElementById("civFilter");
-  var civFilterToggle = document.getElementById("civFilterToggle");
-  var civFilterPanel = document.getElementById("civFilterPanel");
-  var civFilterList = document.getElementById("civFilterList");
-  var civFilterCount = document.getElementById("civFilterCount");
-  var civFilterAll = document.getElementById("civFilterAll");
-  var civFilterClear = document.getElementById("civFilterClear");
+  var topicFilterEl = document.getElementById("topicFilter");
+  var topicFilterToggle = document.getElementById("topicFilterToggle");
+  var topicFilterLabel = document.getElementById("topicFilterLabel");
+  var topicFilterPanel = document.getElementById("topicFilterPanel");
+  var topicFilterList = document.getElementById("topicFilterList");
+  var topicFilterCount = document.getElementById("topicFilterCount");
+  var topicFilterAll = document.getElementById("topicFilterAll");
+  var topicFilterClear = document.getElementById("topicFilterClear");
 
   function pxPerYear() { return BASE_PX_PER_YEAR * state.zoom; }
   function yearToX(year) { return (year - DOMAIN_START) * pxPerYear(); }
   function trackWidth() { return (DOMAIN_END - DOMAIN_START) * pxPerYear(); }
 
   function fitDomainToData() {
-    if (!CIVS.length) return;
-    var minStart = CIVS.reduce(function (m, c) { return Math.min(m, c.start); }, DOMAIN_START);
-    var maxEnd = CIVS.reduce(function (m, c) { return Math.max(m, c.end); }, DOMAIN_END);
+    if (!TOPICS.length) return;
+    var minStart = TOPICS.reduce(function (m, t) { return Math.min(m, t.start); }, DOMAIN_START);
+    var maxEnd = TOPICS.reduce(function (m, t) { return Math.max(m, t.end); }, DOMAIN_END);
     DOMAIN_START = minStart - DOMAIN_PADDING_YEARS;
     DOMAIN_END = maxEnd + DOMAIN_PADDING_YEARS;
+    if (!TICK_YEARS) {
+      TICK_YEARS = generateTicks(DOMAIN_START, DOMAIN_END);
+    }
   }
 
   function totalEventCount() {
     var n = 0;
-    CIVS.forEach(function (civ) { n += civ.events.length; });
+    TOPICS.forEach(function (topic) { n += topic.events.length; });
     return n;
   }
 
@@ -105,20 +166,20 @@
 
   function renderLanes() {
     lanesEl.innerHTML = "";
-    CIVS.forEach(function (civ) {
-      if (!state.selectedCivs.has(civ.id)) return;
-      var colorVar = "var(--civ-" + civ.colorIndex + ")";
+    TOPICS.forEach(function (topic) {
+      if (!state.selectedTopics.has(topic.id)) return;
+      var colorVar = "var(--civ-" + topic.colorIndex + ")";
 
       var row = document.createElement("div");
       row.className = "lane-row";
-      row.dataset.civId = civ.id;
+      row.dataset.topicId = topic.id;
 
       var label = document.createElement("div");
       label.className = "lane-label";
       label.style.setProperty("--civ-color", colorVar);
       label.innerHTML =
-        '<span class="swatch-row"><span class="swatch"></span><span class="name">' + civ.name + "</span></span>" +
-        '<span class="span">' + yearLabel(civ.start) + " – " + yearLabel(civ.end) + "</span>";
+        '<span class="swatch-row"><span class="swatch"></span><span class="name">' + topic.name + "</span></span>" +
+        '<span class="span">' + yearLabel(topic.start) + " – " + yearLabel(topic.end) + "</span>";
 
       var laneTrack = document.createElement("div");
       laneTrack.className = "lane-track";
@@ -126,13 +187,13 @@
 
       var line = document.createElement("div");
       line.className = "lane-line";
-      var lx = yearToX(civ.start);
-      var rx = yearToX(civ.end);
+      var lx = yearToX(topic.start);
+      var rx = yearToX(topic.end);
       line.style.left = lx + "px";
       line.style.width = Math.max(2, rx - lx) + "px";
       laneTrack.appendChild(line);
 
-      civ.events.forEach(function (ev) {
+      topic.events.forEach(function (ev) {
         if (state.sig === "major" && ev.sig !== "major") return;
         var marker = document.createElement("button");
         marker.type = "button";
@@ -140,12 +201,12 @@
         marker.style.setProperty("--civ-color", colorVar);
         marker.style.left = yearToX(ev.year) + "px";
         marker.setAttribute("aria-pressed", "false");
-        var evId = civ.id + "::" + ev.year;
+        var evId = topic.id + "::" + ev.year;
         marker.dataset.evId = evId;
         marker.innerHTML =
           '<span class="dot"></span>' +
           '<span class="tip"><span class="tip-date">' + yearLabel(ev.year) + "</span>" + ev.title + "</span>";
-        marker.addEventListener("click", function () { selectEvent(civ, ev, marker, colorVar); });
+        marker.addEventListener("click", function () { selectEvent(topic, ev, marker, colorVar); });
         laneTrack.appendChild(marker);
       });
 
@@ -155,84 +216,85 @@
     });
   }
 
-  function updateCivFilterCount() {
-    civFilterCount.textContent = state.selectedCivs.size + "/" + CIVS.length;
+  function updateTopicFilterCount() {
+    topicFilterCount.textContent = state.selectedTopics.size + "/" + TOPICS.length;
   }
 
-  function buildCivFilter() {
-    civFilterList.innerHTML = "";
-    CIVS.forEach(function (civ) {
+  function buildTopicFilter() {
+    if (topicFilterLabel) topicFilterLabel.textContent = CATEGORY_LABEL;
+    topicFilterList.innerHTML = "";
+    TOPICS.forEach(function (topic) {
       var item = document.createElement("label");
-      item.className = "civ-filter-item";
+      item.className = "topic-filter-item";
 
       var checkbox = document.createElement("input");
       checkbox.type = "checkbox";
       checkbox.checked = true;
       checkbox.addEventListener("change", function () {
         if (checkbox.checked) {
-          state.selectedCivs.add(civ.id);
+          state.selectedTopics.add(topic.id);
         } else {
-          state.selectedCivs.delete(civ.id);
+          state.selectedTopics.delete(topic.id);
         }
-        updateCivFilterCount();
+        updateTopicFilterCount();
         renderLanes();
       });
 
       var swatch = document.createElement("span");
       swatch.className = "swatch";
-      swatch.style.setProperty("--civ-color", "var(--civ-" + civ.colorIndex + ")");
+      swatch.style.setProperty("--civ-color", "var(--civ-" + topic.colorIndex + ")");
 
       var name = document.createElement("span");
-      name.textContent = civ.name;
+      name.textContent = topic.name;
 
       item.appendChild(checkbox);
       item.appendChild(swatch);
       item.appendChild(name);
-      civFilterList.appendChild(item);
+      topicFilterList.appendChild(item);
     });
-    updateCivFilterCount();
+    updateTopicFilterCount();
   }
 
-  function openCivFilter() {
-    civFilterPanel.hidden = false;
-    civFilterToggle.setAttribute("aria-expanded", "true");
+  function openTopicFilter() {
+    topicFilterPanel.hidden = false;
+    topicFilterToggle.setAttribute("aria-expanded", "true");
   }
-  function closeCivFilter() {
-    civFilterPanel.hidden = true;
-    civFilterToggle.setAttribute("aria-expanded", "false");
+  function closeTopicFilter() {
+    topicFilterPanel.hidden = true;
+    topicFilterToggle.setAttribute("aria-expanded", "false");
   }
 
-  civFilterToggle.addEventListener("click", function () {
-    if (civFilterPanel.hidden) openCivFilter(); else closeCivFilter();
+  topicFilterToggle.addEventListener("click", function () {
+    if (topicFilterPanel.hidden) openTopicFilter(); else closeTopicFilter();
   });
   document.addEventListener("click", function (e) {
-    if (!civFilterEl.contains(e.target)) closeCivFilter();
+    if (!topicFilterEl.contains(e.target)) closeTopicFilter();
   });
   document.addEventListener("keydown", function (e) {
-    if (e.key === "Escape") closeCivFilter();
+    if (e.key === "Escape") closeTopicFilter();
   });
 
-  civFilterAll.addEventListener("click", function () {
-    state.selectedCivs = new Set(CIVS.map(function (c) { return c.id; }));
-    civFilterList.querySelectorAll("input[type=checkbox]").forEach(function (cb) { cb.checked = true; });
-    updateCivFilterCount();
+  topicFilterAll.addEventListener("click", function () {
+    state.selectedTopics = new Set(TOPICS.map(function (t) { return t.id; }));
+    topicFilterList.querySelectorAll("input[type=checkbox]").forEach(function (cb) { cb.checked = true; });
+    updateTopicFilterCount();
     renderLanes();
   });
-  civFilterClear.addEventListener("click", function () {
-    state.selectedCivs = new Set();
-    civFilterList.querySelectorAll("input[type=checkbox]").forEach(function (cb) { cb.checked = false; });
-    updateCivFilterCount();
+  topicFilterClear.addEventListener("click", function () {
+    state.selectedTopics = new Set();
+    topicFilterList.querySelectorAll("input[type=checkbox]").forEach(function (cb) { cb.checked = false; });
+    updateTopicFilterCount();
     renderLanes();
   });
 
-  function selectEvent(civ, ev, markerEl, colorVar) {
+  function selectEvent(topic, ev, markerEl, colorVar) {
     document.querySelectorAll(".marker[aria-pressed='true']").forEach(function (m) {
       m.setAttribute("aria-pressed", "false");
     });
     markerEl.setAttribute("aria-pressed", "true");
 
     document.getElementById("detailEyebrow").style.setProperty("--eyebrow-color", colorVar);
-    document.getElementById("detailCiv").textContent = civ.name;
+    document.getElementById("detailTopic").textContent = topic.name;
     document.getElementById("detailDate").textContent = "· " + yearLabel(ev.year);
     document.getElementById("detailTitle").textContent = ev.title;
     document.getElementById("detailBody").textContent = ev.body;
@@ -359,12 +421,13 @@
   }
 
   function init() {
+    document.title = "History Zoomout — " + CATEGORY_LABEL;
     if (eventCountEl) eventCountEl.textContent = String(totalEventCount());
-    if (civCountEl) civCountEl.textContent = String(CIVS.length);
+    if (topicCountEl) topicCountEl.textContent = String(TOPICS.length);
 
     fitDomainToData();
-    state.selectedCivs = new Set(CIVS.map(function (c) { return c.id; }));
-    buildCivFilter();
+    state.selectedTopics = new Set(TOPICS.map(function (t) { return t.id; }));
+    buildTopicFilter();
     render();
     loadWorldMap();
 
@@ -372,13 +435,21 @@
     stageEl.hidden = false;
   }
 
-  fetch(API_BASE + "/topics?category=civilization")
-    .then(function (res) {
+  Promise.all([
+    fetch(API_BASE + "/topics?category=" + encodeURIComponent(CATEGORY)).then(function (res) {
+      if (!res.ok) throw new Error("Request failed with status " + res.status);
+      return res.json();
+    }),
+    fetch(API_BASE + "/categories").then(function (res) {
       if (!res.ok) throw new Error("Request failed with status " + res.status);
       return res.json();
     })
-    .then(function (data) {
-      CIVS = data;
+  ])
+    .then(function (results) {
+      TOPICS = results[0];
+      var categories = results[1];
+      var match = categories.filter(function (c) { return c.id === CATEGORY; })[0];
+      if (match) CATEGORY_LABEL = match.label;
       init();
     })
     .catch(function (err) {

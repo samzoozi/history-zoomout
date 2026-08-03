@@ -1,6 +1,12 @@
 from pydantic import BaseModel, ConfigDict, Field
 
 
+class CategoryOut(BaseModel):
+    id: str
+    label: str
+    count: int
+
+
 class LocationOut(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 

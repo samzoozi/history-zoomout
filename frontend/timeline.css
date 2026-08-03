@@ -169,6 +169,8 @@ button:focus-visible,
   display: flex;
   align-items: center;
   gap: 0.28em;
+  color: inherit;
+  text-decoration: none;
 }
 .wordmark .accent { color: var(--brass); }
 .wordmark-icon {
@@ -234,9 +236,9 @@ button:focus-visible,
   width: 3.4em;
 }
 
-/* ---------- Civilization filter ---------- */
-.civ-filter { position: relative; }
-.civ-filter-toggle {
+/* ---------- Topic filter ---------- */
+.topic-filter { position: relative; }
+.topic-filter-toggle {
   border: 1px solid var(--hairline-strong);
   background: var(--surface);
   color: var(--ink-secondary);
@@ -249,19 +251,19 @@ button:focus-visible,
   align-items: center;
   gap: 6px;
 }
-.civ-filter-toggle:hover { border-color: var(--brass); color: var(--ink-primary); }
-.civ-filter-toggle span {
+.topic-filter-toggle:hover { border-color: var(--brass); color: var(--ink-primary); }
+.topic-filter-toggle span {
   font-variant-numeric: tabular-nums;
   color: var(--ink-muted);
   font-size: 11.5px;
 }
-.civ-filter-toggle[aria-expanded="true"] {
+.topic-filter-toggle[aria-expanded="true"] {
   border-color: var(--brass);
   color: var(--brass-strong);
   background: var(--brass-glow);
 }
 
-.civ-filter-panel {
+.topic-filter-panel {
   position: absolute;
   top: calc(100% + 8px);
   left: 0;
@@ -273,14 +275,14 @@ button:focus-visible,
   box-shadow: var(--shadow);
   padding: 10px;
 }
-.civ-filter-actions {
+.topic-filter-actions {
   display: flex;
   gap: 6px;
   padding-bottom: 8px;
   margin-bottom: 8px;
   border-bottom: 1px solid var(--hairline);
 }
-.civ-filter-actions button {
+.topic-filter-actions button {
   flex: 1;
   border: 1px solid var(--hairline-strong);
   background: var(--surface);
@@ -290,16 +292,16 @@ button:focus-visible,
   border-radius: 6px;
   cursor: pointer;
 }
-.civ-filter-actions button:hover { border-color: var(--brass); color: var(--ink-primary); }
+.topic-filter-actions button:hover { border-color: var(--brass); color: var(--ink-primary); }
 
-.civ-filter-list {
+.topic-filter-list {
   display: flex;
   flex-direction: column;
   gap: 2px;
   max-height: 320px;
   overflow-y: auto;
 }
-.civ-filter-item {
+.topic-filter-item {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -308,9 +310,9 @@ button:focus-visible,
   cursor: pointer;
   font-size: 13px;
 }
-.civ-filter-item:hover { background: var(--surface); }
-.civ-filter-item input[type="checkbox"] { accent-color: var(--brass); }
-.civ-filter-item .swatch {
+.topic-filter-item:hover { background: var(--surface); }
+.topic-filter-item input[type="checkbox"] { accent-color: var(--brass); }
+.topic-filter-item .swatch {
   width: 9px; height: 9px; border-radius: 50%;
   background: var(--civ-color);
   flex-shrink: 0;

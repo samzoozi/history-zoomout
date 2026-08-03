@@ -3,10 +3,11 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>History Zoomout — Interface Concept</title>
+<title>History Zoomout</title>
 <link rel="stylesheet" href="timeline.css" />
+<link rel="stylesheet" href="landing.css" />
 </head>
-<body>
+<body class="landing-body">
   <div class="app">
     <header class="topbar">
       <div class="brand-block">
@@ -30,78 +31,19 @@
           <span>History</span><span class="accent">Zoomout</span>
         </div>
       </div>
-      <div class="controls">
-        <div class="control-row">
-          <div class="civ-filter" id="civFilter">
-            <button type="button" class="civ-filter-toggle" id="civFilterToggle" aria-haspopup="true" aria-expanded="false">
-              Civilizations <span id="civFilterCount">—</span>
-            </button>
-            <div class="civ-filter-panel" id="civFilterPanel" hidden>
-              <div class="civ-filter-actions">
-                <button type="button" id="civFilterAll">Select all</button>
-                <button type="button" id="civFilterClear">Clear</button>
-              </div>
-              <div class="civ-filter-list" id="civFilterList"></div>
-            </div>
-          </div>
-          <div class="segmented" role="group" aria-label="Event significance">
-            <button type="button" data-sig="major" aria-pressed="false">Landmark events</button>
-            <button type="button" data-sig="all" aria-pressed="true">All events</button>
-          </div>
-          <div class="zoom-control">
-            <label for="zoom">Scale</label>
-            <input type="range" id="zoom" min="0.6" max="4" step="0.1" value="1" />
-            <span class="zoom-readout" id="zoomReadout">100%</span>
-          </div>
-        </div>
-      </div>
     </header>
 
-    <div class="load-state" id="loadState" role="status">Loading timeline…</div>
+    <main class="landing-main">
+      <p class="landing-tagline">Pick a history to zoom through.</p>
 
-    <div class="stage" id="stage" hidden>
-      <div class="scroller" id="scroller">
-        <div class="track" id="track">
-          <div class="axis-row">
-            <div class="axis-spacer"></div>
-            <div class="axis-track" id="axisTrack"></div>
-          </div>
-          <div class="era-overlay" id="eraOverlay"></div>
-          <div id="lanes"></div>
-        </div>
-      </div>
+      <div class="load-state" id="loadState" role="status">Loading categories…</div>
 
-      <aside class="detail-panel" id="detailPanel">
-        <div class="drag-handle"></div>
-        <button class="detail-close" id="detailClose">Close ✕</button>
-        <div class="detail-content" id="detailContent">
-          <div class="detail-eyebrow" id="detailEyebrow"><span class="dot"></span><span id="detailCiv"></span><span class="date" id="detailDate"></span></div>
-          <figure class="detail-figure" id="detailFigure" hidden>
-            <img class="detail-image" id="detailImage" alt="" />
-            <figcaption class="detail-image-caption" id="detailImageCaption"></figcaption>
-          </figure>
-          <h2 class="detail-title" id="detailTitle"></h2>
-          <div class="detail-rule"></div>
-          <p class="detail-body" id="detailBody"></p>
-          <div class="detail-footer">
-            <span class="detail-tag" id="detailTag"></span>
-            <a class="detail-source-link" id="detailSourceLink" href="#" target="_blank" rel="noopener noreferrer" hidden>Read on Wikipedia ↗</a>
-          </div>
-          <div class="detail-map" id="detailMap" hidden>
-            <div class="detail-map-svg" id="detailMapSvg"></div>
-            <span class="detail-map-dot" id="detailMapDot" hidden></span>
-            <div class="detail-map-caption" id="detailMapCaption">
-              <span class="detail-map-caption-historical" id="detailMapCaptionHistorical"></span>
-              <span class="detail-map-caption-modern" id="detailMapCaptionModern"></span>
-            </div>
-          </div>
-        </div>
-      </aside>
-    </div>
+      <div class="category-grid" id="categoryGrid" hidden></div>
+    </main>
 
     <footer class="note">Interface concept for History Zoomout — dates approximate, for illustration only.</footer>
   </div>
 
-  <script src="timeline.js"></script>
+  <script src="landing.js"></script>
 </body>
 </html>

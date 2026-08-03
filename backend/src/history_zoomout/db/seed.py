@@ -4,11 +4,16 @@ from importlib import resources
 from . import Base, SessionLocal, engine
 from .models import Event, Location, Topic
 
+# (category, seed_data filename) pairs. Add an entry here once a new
+# category's seed file lands under seed_data/ -- seeding logic itself doesn't
+# need to change.
+SEED_FILES = [
+    ("civilization", "civilizations.json"),
+]
 
-def load_seed_data() -> list[dict]:
-    path = resources.files("history_zoomout.db.seed_data").joinpath(
-        "civilizations.json"
-    )
+
+def load_seed_data(filename: str) -> list[dict]:
+    path = resources.files("history_zoomout.db.seed_data").joinpath(filename)
     return json.loads(path.read_text())
 
 
@@ -26,7 +31,6 @@ def build_location(loc: dict | None) -> Location | None:
 
 def seed() -> None:
     Base.metadata.create_all(bind=engine)
-    civilizations = load_seed_data()
 
     db = SessionLocal()
     try:
@@ -35,40 +39,44 @@ def seed() -> None:
         db.query(Topic).delete()
         db.flush()
 
-        for civ in civilizations:
-            db.add(
-                Topic(
-                    id=civ["id"],
-                    category="civilization",
-                    name=civ["name"],
-                    color_index=civ["colorIndex"],
-                    start_year=civ["start"],
-                    end_year=civ["end"],
-                    summary=civ.get("summary"),
-                    source_url=civ.get("sourceUrl"),
-                    image_url=civ.get("imageUrl"),
-                    image_attribution=civ.get("imageAttribution"),
-                    image_description=civ.get("imageDescription"),
-                    wikidata_id=civ.get("wikidataId"),
-                    events=[
-                        Event(
-                            year=ev["year"],
-                            sig=ev["sig"],
-                            title=ev["title"],
-                            body=ev["body"],
-                            source_url=ev.get("sourceUrl"),
-                            image_url=ev.get("imageUrl"),
-                            image_attribution=ev.get("imageAttribution"),
-                            image_description=ev.get("imageDescription"),
-                            wikidata_id=ev.get("wikidataId"),
-                            location=build_location(ev.get("location")),
-                        )
-                        for ev in civ["events"]
-                    ],
+        total = 0
+        for category, filename in SEED_FILES:
+            topics = load_seed_data(filename)
+            for topic in topics:
+                db.add(
+                    Topic(
+                        id=topic["id"],
+                        category=category,
+                        name=topic["name"],
+                        color_index=topic["colorIndex"],
+                        start_year=topic["start"],
+                        end_year=topic["end"],
+                        summary=topic.get("summary"),
+                        source_url=topic.get("sourceUrl"),
+                        image_url=topic.get("imageUrl"),
+                        image_attribution=topic.get("imageAttribution"),
+                        image_description=topic.get("imageDescription"),
+                        wikidata_id=topic.get("wikidataId"),
+                        events=[
+                            Event(
+                                year=ev["year"],
+                                sig=ev["sig"],
+                                title=ev["title"],
+                                body=ev["body"],
+                                source_url=ev.get("sourceUrl"),
+                                image_url=ev.get("imageUrl"),
+                                image_attribution=ev.get("imageAttribution"),
+                                image_description=ev.get("imageDescription"),
+                                wikidata_id=ev.get("wikidataId"),
+                                location=build_location(ev.get("location")),
+                            )
+                            for ev in topic["events"]
+                        ],
+                    )
                 )
-            )
+            total += len(topics)
         db.commit()
-        print(f"Seeded {len(civilizations)} civilizations.")
+        print(f"Seeded {total} topics across {len(SEED_FILES)} categories.")
     finally:
         db.close()
 
