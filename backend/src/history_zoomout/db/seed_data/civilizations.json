@@ -1061,36 +1061,147 @@
     "colorIndex": 1,
     "start": 330,
     "end": 1453,
+    "summary": "The Byzantine Empire carried Roman rule forward in the east for over a thousand years after Constantine founded Constantinople in 330 -- surviving Arab sieges, reaching a medieval peak under Basil II, and enduring the Fourth Crusade's sack of its own capital in 1204 -- before finally falling to the Ottomans in 1453.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Byzantine_Empire",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Eastern_Roman_Empire_565_CE.svg/330px-Eastern_Roman_Empire_565_CE.svg.png",
+    "imageAttribution": "Map by Mnohohrishnyi, CC0, via Wikimedia Commons",
+    "wikidataId": "Q12544",
     "events": [
       {
         "year": 330,
         "sig": "major",
         "title": "Constantinople Is Founded",
-        "body": "Emperor Constantine dedicates a new capital on the Bosphorus, positioning the Eastern Roman Empire to outlast Rome itself by a thousand years."
+        "body": "Emperor Constantine dedicates his new capital on the site of the Greek city of Byzantium, a strategically located city that will anchor Roman power in the east for over a thousand years.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Constantinople",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Byzantine_Constantinople-en.png/330px-Byzantine_Constantinople-en.png",
+        "imageAttribution": "Map by Cplakidas, CC BY-SA 3.0, via Wikimedia Commons",
+        "wikidataId": "Q16869",
+        "location": {
+          "historicalName": "Constantinople",
+          "city": "Istanbul",
+          "country": "Turkey",
+          "latitude": 41.01361111,
+          "longitude": 28.955
+        }
       },
       {
         "year": 529,
         "sig": "minor",
         "title": "Justinian's Code Is Compiled",
-        "body": "A systematic codification of Roman law is issued, becoming the foundation of legal systems across continental Europe for centuries."
+        "body": "Emperor Justinian I orders the compilation of centuries of Roman law into a single authoritative code, a work that will shape legal systems across Europe for centuries.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Code_of_Justinian",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ghent%2C_Ghent_University_Library_MS_Bibliotheek_Letteren_en_Wijsbegeerte-Handschriften_0021_fol._24v-25r_Code_of_Justinian.jpg/330px-Ghent%2C_Ghent_University_Library_MS_Bibliotheek_Letteren_en_Wijsbegeerte-Handschriften_0021_fol._24v-25r_Code_of_Justinian.jpg",
+        "imageAttribution": "Public domain, via Wikimedia Commons",
+        "wikidataId": "Q735763",
+        "location": {
+          "historicalName": "Constantinople",
+          "city": "Istanbul",
+          "country": "Turkey",
+          "latitude": 41.01361111,
+          "longitude": 28.955
+        }
       },
       {
         "year": 537,
         "sig": "major",
         "title": "The Hagia Sophia Is Completed",
-        "body": "Justinian's architects raise the largest cathedral in the world, its vast dome said to make the emperor exclaim he had surpassed Solomon."
+        "body": "Justinian I dedicates a vast domed cathedral in Constantinople, an architectural triumph that remains the world's largest cathedral for nearly a thousand years.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Hagia_Sophia",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Hagia_Sophia_%28228968325%29.jpeg/330px-Hagia_Sophia_%28228968325%29.jpeg",
+        "imageAttribution": "Photo by Adli Wahid, CC BY-SA 3.0, via Wikimedia Commons",
+        "wikidataId": "Q12506",
+        "location": {
+          "historicalName": "Constantinople",
+          "city": "Istanbul",
+          "country": "Turkey",
+          "latitude": 41.01361111,
+          "longitude": 28.955
+        }
+      },
+      {
+        "year": 718,
+        "sig": "major",
+        "title": "Greek Fire Repels the Arab Siege of Constantinople",
+        "body": "A year-long Umayyad siege of the Byzantine capital collapses after Byzantine ships destroy the Arab fleet with Greek fire, an incendiary weapon that burns even on water -- a defeat that halts the Islamic conquests' advance into Europe from the east.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Siege_of_Constantinople_(717%E2%80%93718)",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/47-cropped-manasses-chronicle.jpg/330px-47-cropped-manasses-chronicle.jpg",
+        "imageAttribution": "Illustration from the Manasses Chronicle, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q27900",
+        "location": {
+          "historicalName": "Constantinople",
+          "city": "Istanbul",
+          "country": "Turkey",
+          "latitude": 41.01361111,
+          "longitude": 28.955
+        }
+      },
+      {
+        "year": 1014,
+        "sig": "minor",
+        "title": "Basil II Crushes Bulgaria at Kleidion",
+        "body": "Byzantine emperor Basil II annihilates the Bulgarian army in a mountain pass, a victory so decisive -- and so brutally followed up -- that it earns him the epithet 'the Bulgar Slayer' and marks the empire's medieval territorial peak.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Kleidion",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/SamuilsDeathBGhistory.jpg/330px-SamuilsDeathBGhistory.jpg",
+        "imageAttribution": "Illustration from the Manasses Chronicle, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q584047",
+        "location": {
+          "historicalName": "Kleidion",
+          "city": "Klyuch",
+          "country": "Bulgaria",
+          "latitude": 41.3625,
+          "longitude": 23.0175
+        }
       },
       {
         "year": 1054,
         "sig": "minor",
         "title": "The Great Schism Divides the Church",
-        "body": "Theological and political disputes split Christianity into the Roman Catholic and Eastern Orthodox churches."
+        "body": "Mutual excommunications between the Pope in Rome and the Patriarch of Constantinople formalize a centuries-old rift, splitting Christianity into Catholic and Orthodox branches that remain divided today.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/East%E2%80%93West_Schism",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Great_Schism_with_former_borders_%281054%29.png/330px-Great_Schism_with_former_borders_%281054%29.png",
+        "imageAttribution": "Map by Barrikader, CC BY-SA 3.0, via Wikimedia Commons",
+        "wikidataId": "Q51648",
+        "location": {
+          "historicalName": "Constantinople",
+          "city": "Istanbul",
+          "country": "Turkey",
+          "latitude": 41.01361111,
+          "longitude": 28.955
+        }
+      },
+      {
+        "year": 1204,
+        "sig": "major",
+        "title": "The Fourth Crusade Sacks Constantinople",
+        "body": "Crusader knights bound for the Holy Land instead storm and pillage Constantinople itself, installing a Latin emperor and shattering Byzantine power so thoroughly that the empire never fully recovers before its final fall two and a half centuries later.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sack_of_Constantinople",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Frammenti_di_mosaico_pavimentale_del_1213%2C_09.JPG/330px-Frammenti_di_mosaico_pavimentale_del_1213%2C_09.JPG",
+        "imageAttribution": "Photo by Sailko, CC BY-SA 3.0, via Wikimedia Commons",
+        "wikidataId": "Q1750892",
+        "location": {
+          "historicalName": "Constantinople",
+          "city": "Istanbul",
+          "country": "Turkey",
+          "latitude": 41.01361111,
+          "longitude": 28.955
+        }
       },
       {
         "year": 1453,
         "sig": "major",
         "title": "Constantinople Falls to the Ottomans",
-        "body": "After a 53-day siege, Sultan Mehmed II's forces breach the city's ancient walls, ending the Byzantine Empire and the last direct link to Rome."
+        "body": "After a 53-day siege using massive cannon to breach the ancient walls, Ottoman sultan Mehmed II captures Constantinople, ending the Byzantine Empire and the last continuous link to ancient Rome.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Siege_of_Constantinople_fresco%2C_Moldovi%C8%9Ba_monastery%2C_Vatra_Moldovi%C8%9Bei%2C_2017.jpg/330px-Siege_of_Constantinople_fresco%2C_Moldovi%C8%9Ba_monastery%2C_Vatra_Moldovi%C8%9Bei%2C_2017.jpg",
+        "imageAttribution": "Fresco, Moldovița Monastery, photo by DimiTalen, CC0, via Wikimedia Commons",
+        "wikidataId": "Q160077",
+        "location": {
+          "historicalName": "Constantinople",
+          "city": "Istanbul",
+          "country": "Turkey",
+          "latitude": 41.01361111,
+          "longitude": 28.955
+        }
       }
     ]
   },
@@ -1100,36 +1211,147 @@
     "colorIndex": 2,
     "start": 622,
     "end": 1258,
+    "summary": "The Islamic Caliphates passed through three successive dynasties: the Rashidun (632-661), whose rapid conquests carried Islam from Arabia across Persia and North Africa; the Umayyads (661-750), ruling from Damascus at their peak from Spain to India; and the Abbasids (750-1258), whose Baghdad-centered Golden Age ended when the Mongols sacked the city in 1258.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Caliphate",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Mohammad_adil-Rashidun-empire-at-its-peak-close.PNG/330px-Mohammad_adil-Rashidun-empire-at-its-peak-close.PNG",
+    "imageAttribution": "Map by Mohammad adil, CC BY-SA 3.0, via Wikimedia Commons",
+    "wikidataId": "Q131401",
     "events": [
       {
         "year": 622,
         "sig": "major",
         "title": "The Hijra Marks Year One",
-        "body": "Muhammad and his followers migrate from Mecca to Medina, an event that becomes the starting point of the Islamic calendar."
+        "body": "Muhammad and his followers migrate from Mecca to Medina to escape persecution, an event so pivotal to the Muslim community that it becomes year one of the Islamic calendar.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Hijrah",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/New_York_Public_Library%2C_Spencer_Collection_Turk._MS._3_Siyar-i_Nab%C3%AE_fol._286r_Jibril_delivers_to_Muhammad_a_message_from_God_telling_him_to_leave_Makka_for_Madina.jpg/330px-thumbnail.jpg",
+        "imageAttribution": "Public domain, via Wikimedia Commons",
+        "wikidataId": "Q131482",
+        "location": {
+          "historicalName": "Yathrib",
+          "city": "Medina",
+          "country": "Saudi Arabia",
+          "latitude": 24.47,
+          "longitude": 39.61
+        }
       },
       {
         "year": 632,
         "sig": "minor",
         "title": "The Rashidun Caliphate Begins",
-        "body": "Following Muhammad's death, a series of elected caliphs rapidly expand Muslim rule across Arabia, the Levant, and Persia."
+        "body": "Following Muhammad's death, Abu Bakr is chosen as the first caliph, beginning three decades of rapid conquest that will carry Islamic rule from Arabia across Persia, the Levant, and North Africa.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Rashidun_Caliphate",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Mohammad_adil-Rashidun-empire-at-its-peak-close.PNG/330px-Mohammad_adil-Rashidun-empire-at-its-peak-close.PNG",
+        "imageAttribution": "Map by Mohammad adil, CC BY-SA 3.0, via Wikimedia Commons",
+        "wikidataId": "Q12490507",
+        "location": {
+          "historicalName": "Yathrib",
+          "city": "Medina",
+          "country": "Saudi Arabia",
+          "latitude": 24.47,
+          "longitude": 39.61
+        }
+      },
+      {
+        "year": 661,
+        "sig": "major",
+        "title": "Muawiyah I Founds the Umayyad Caliphate",
+        "body": "After a civil war among Muhammad's early followers, Muawiyah I establishes the Umayyad Caliphate from his power base in Damascus, shifting the seat of Islamic rule from Arabia to Syria and founding a dynasty that will expand from Spain to India.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Mu'awiya_I",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Arab-Sasanian_coin_of_Muawiyah_I%2C_struck_at_the_Fasa_mint_in_Darabjird_%28Fars%29.jpg/330px-Arab-Sasanian_coin_of_Muawiyah_I%2C_struck_at_the_Fasa_mint_in_Darabjird_%28Fars%29.jpg",
+        "imageAttribution": "Public domain, via Wikimedia Commons",
+        "wikidataId": "Q181154",
+        "location": {
+          "historicalName": "Damascus",
+          "city": "Damascus",
+          "country": "Syria",
+          "latitude": 33.51305556,
+          "longitude": 36.30944444
+        }
+      },
+      {
+        "year": 732,
+        "sig": "major",
+        "title": "The Battle of Tours Halts Umayyad Expansion",
+        "body": "A Frankish army under Charles Martel defeats an Umayyad raiding force deep in what is now France, a battle later mythologized as the moment that stopped the Islamic conquests' advance into Western Europe.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Tours",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Steuben_-_Bataille_de_Poitiers.png/330px-Steuben_-_Bataille_de_Poitiers.png",
+        "imageAttribution": "Painting by Charles de Steuben, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q173077",
+        "location": {
+          "historicalName": "Tours",
+          "city": "Tours",
+          "country": "France",
+          "latitude": 47.393611,
+          "longitude": 0.689167
+        }
       },
       {
         "year": 750,
         "sig": "major",
         "title": "The Abbasid Caliphate Is Founded",
-        "body": "The Abbasids overthrow the Umayyads and move the capital to Baghdad, ushering in an Islamic Golden Age of science and scholarship."
+        "body": "Abu al-Abbas al-Saffah overthrows the Umayyad dynasty and founds the Abbasid Caliphate, which will soon move its capital to the newly built city of Baghdad and preside over an era of scientific and cultural flourishing.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Abbasid_Caliphate",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Balami_-_Tarikhnama_-_Abu%27l-%27Abbas_al-Saffah_is_proclaimed_the_first_%27Abbasid_Caliph_%28cropped%29.jpg/330px-Balami_-_Tarikhnama_-_Abu%27l-%27Abbas_al-Saffah_is_proclaimed_the_first_%27Abbasid_Caliph_%28cropped%29.jpg",
+        "imageAttribution": "Illustration from a Tarikhnama manuscript, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q12536",
+        "location": {
+          "historicalName": "Kufa",
+          "city": "Kufa",
+          "country": "Iraq",
+          "latitude": 32.03,
+          "longitude": 44.4
+        }
       },
       {
         "year": 830,
         "sig": "minor",
         "title": "The House of Wisdom Flourishes in Baghdad",
-        "body": "Scholars translate and expand on Greek, Persian, and Indian texts, advancing mathematics, medicine, and astronomy."
+        "body": "Scholars in Baghdad translate and expand upon Greek, Persian, and Indian texts at a great library and translation center, driving advances in mathematics, astronomy, and medicine during the Islamic Golden Age.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/House_of_Wisdom",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Maqamat_hariri.jpg/330px-Maqamat_hariri.jpg",
+        "imageAttribution": "Illustration from the Maqamat al-Hariri manuscript (13th century), Public domain, via Wikimedia Commons",
+        "wikidataId": "Q33018",
+        "location": {
+          "historicalName": "Baghdad",
+          "city": "Baghdad",
+          "country": "Iraq",
+          "latitude": 33.31527778,
+          "longitude": 44.36611111
+        }
+      },
+      {
+        "year": 1055,
+        "sig": "minor",
+        "title": "Seljuk Turks Take Control of Baghdad",
+        "body": "Sultan Tughril leads Seljuk forces into Baghdad and ends Shia Buyid domination of the Abbasid court, reducing the caliph to a religious figurehead under Sunni Turkic military rule for the remainder of the caliphate's existence.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Tughril_I",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Seljuk_Sultan_Tugrul_Bey_sitting_on_his_throne._Topkap%C4%B1_Saray%C4%B1_M%C3%BCzesi_1653-3_%28304_B%29.jpg/330px-Seljuk_Sultan_Tugrul_Bey_sitting_on_his_throne._Topkap%C4%B1_Saray%C4%B1_M%C3%BCzesi_1653-3_%28304_B%29.jpg",
+        "imageAttribution": "Public domain, via Wikimedia Commons",
+        "wikidataId": "Q144565",
+        "location": {
+          "historicalName": "Baghdad",
+          "city": "Baghdad",
+          "country": "Iraq",
+          "latitude": 33.31527778,
+          "longitude": 44.36611111
+        }
       },
       {
         "year": 1258,
         "sig": "major",
         "title": "The Mongols Sack Baghdad",
-        "body": "Hulagu Khan's forces destroy the Abbasid capital and its libraries, an event many historians mark as the end of the Golden Age."
+        "body": "Hulagu Khan's Mongol army razes Baghdad and executes the last Abbasid caliph, destroying the city's libraries and irrigation works in a catastrophe that ends the Abbasid Caliphate and is remembered as a turning point in the Islamic world's fortunes.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Siege_of_Baghdad",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Bagdad1258.jpg/330px-Bagdad1258.jpg",
+        "imageAttribution": "Illustration from Rashid al-Din's Jami al-Tawarikh, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q369560",
+        "location": {
+          "historicalName": "Baghdad",
+          "city": "Baghdad",
+          "country": "Iraq",
+          "latitude": 33.31527778,
+          "longitude": 44.36611111
+        }
       }
     ]
   },

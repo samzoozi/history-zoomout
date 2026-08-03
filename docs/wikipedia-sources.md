@@ -349,3 +349,99 @@ that ended centuries of division after the Han collapse.
   different events spanning Han, Sui, and Tang) -- this is accurate, not a mistake; Xi'an
   really was the seat of power for most of this span.
 - No Wikidata item found for the Battle of Yamen specifically -- left `wikidataId` null.
+
+## Byzantine Empire (topic id: `byzantine`) — pulled 2026-08-03
+
+Status: **merged into live seed data 2026-08-03** (replacing the old 5-event entry wholesale) and reseeded.
+
+Old data (5 events) had a 1,123-year span with no mention of the Arab sieges that nearly
+ended the empire in the 7th-8th centuries, its medieval territorial peak under Basil II,
+or the Fourth Crusade's sack of Constantinople in 1204 -- arguably the single most
+consequential setback in Byzantine history before the final fall in 1453, and completely
+absent from the original data.
+
+### Topic-level source
+
+- **Byzantine Empire** — https://en.wikipedia.org/wiki/Byzantine_Empire — Wikidata Q12544
+
+### Event-level sources
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| Constantinople founded | 330 AD | [Constantinople](https://en.wikipedia.org/wiki/Constantinople) | Q16869 | Cplakidas, CC BY-SA 3.0 (map) |
+| Justinian's Code compiled | 529 AD | [Code of Justinian](https://en.wikipedia.org/wiki/Code_of_Justinian) | Q735763 | Public domain |
+| Hagia Sophia completed | 537 AD | [Hagia Sophia](https://en.wikipedia.org/wiki/Hagia_Sophia) | Q12506 | Adli Wahid, CC BY-SA 3.0 |
+| Greek fire repels the Arab siege | 718 AD | [Siege of Constantinople (717-718)](https://en.wikipedia.org/wiki/Siege_of_Constantinople_(717%E2%80%93718)) | Q27900 | Manasses Chronicle, Public domain |
+| Basil II crushes Bulgaria at Kleidion | 1014 AD | [Battle of Kleidion](https://en.wikipedia.org/wiki/Battle_of_Kleidion) | Q584047 | Manasses Chronicle, Public domain |
+| The Great Schism | 1054 AD | [East-West Schism](https://en.wikipedia.org/wiki/East%E2%80%93West_Schism) | Q51648 | Barrikader, CC BY-SA 3.0 (map) |
+| Fourth Crusade sacks Constantinople | 1204 AD | [Sack of Constantinople](https://en.wikipedia.org/wiki/Sack_of_Constantinople) | Q1750892 | Sailko, CC BY-SA 3.0 |
+| Constantinople falls to the Ottomans | 1453 AD | [Fall of Constantinople](https://en.wikipedia.org/wiki/Fall_of_Constantinople) | Q160077 | DimiTalen, CC0 |
+
+### Event locations
+
+Every event in this topic happens at Constantinople itself (Istanbul, Turkey, 41.014,
+28.955) except one:
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Basil II crushes Bulgaria at Kleidion | Kleidion | Klyuch, Bulgaria | 41.363, 23.018 |
+
+### Corrections / decisions made vs. the original 5-event seed data
+
+- Chose the Battle of Kleidion (1014) over Basil II's final subjugation of Bulgaria
+  (1018) for the "medieval peak" event -- 1014 is the specific, dated, famous battle (and
+  the source of his "Bulgar Slayer" epithet); 1018 is a less dramatic formal submission.
+- "The Great Schism" doesn't have a single battle-style location, but it's conventionally
+  anchored to Constantinople since that's where the papal legates delivered the bull of
+  excommunication (at Hagia Sophia) -- used the same coordinates as the rest of the topic
+  rather than omitting location entirely.
+
+## Islamic Caliphates (topic id: `islamic`) — pulled 2026-08-03
+
+Status: **merged into live seed data 2026-08-03** (replacing the old 5-event entry wholesale) and reseeded.
+
+Old data (5 events) jumped straight from the Rashidun Caliphate's start (632) to the
+Abbasid Caliphate's founding (750) -- skipping the entire ~90-year Umayyad Caliphate,
+including the Islamic conquests' peak expansion into Spain and the Battle of Tours that
+halted its advance into the rest of Europe. Also a ~430-year gap between the House of
+Wisdom (830) and the Mongol sack of Baghdad (1258) with nothing in between.
+
+### Topic-level source
+
+- **Caliphate** — https://en.wikipedia.org/wiki/Caliphate — Wikidata Q131401
+
+### Event-level sources
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| The Hijra | 622 AD | [Hijrah](https://en.wikipedia.org/wiki/Hijrah) | Q131482 | Public domain |
+| Rashidun Caliphate begins | 632 AD | [Rashidun Caliphate](https://en.wikipedia.org/wiki/Rashidun_Caliphate) | Q12490507 | Mohammad adil, CC BY-SA 3.0 (map) |
+| Muawiyah I founds the Umayyad Caliphate | 661 AD | [Mu'awiya I](https://en.wikipedia.org/wiki/Mu%27awiya_I) | Q181154 | Public domain |
+| Battle of Tours halts Umayyad expansion | 732 AD | [Battle of Tours](https://en.wikipedia.org/wiki/Battle_of_Tours) | Q173077 | Charles de Steuben (painting), Public domain |
+| Abbasid Caliphate founded | 750 AD | [Abbasid Caliphate](https://en.wikipedia.org/wiki/Abbasid_Caliphate) | Q12536 | Tarikhnama manuscript, Public domain |
+| House of Wisdom flourishes | 830 AD | [House of Wisdom](https://en.wikipedia.org/wiki/House_of_Wisdom) | Q33018 | Maqamat al-Hariri manuscript, Public domain |
+| Seljuks take control of Baghdad | 1055 AD | [Tughril I](https://en.wikipedia.org/wiki/Tughril_I) | Q144565 | Public domain |
+| Mongols sack Baghdad | 1258 AD | [Siege of Baghdad](https://en.wikipedia.org/wiki/Siege_of_Baghdad) | Q369560 | Jami al-Tawarikh manuscript, Public domain |
+
+### Event locations
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| The Hijra | Yathrib | Medina, Saudi Arabia | 24.47, 39.61 |
+| Rashidun Caliphate begins | Yathrib | Medina, Saudi Arabia | 24.47, 39.61 |
+| Muawiyah I founds the Umayyad Caliphate | Damascus | Damascus, Syria | 33.513, 36.309 |
+| Battle of Tours | Tours | Tours, France | 47.394, 0.689 |
+| Abbasid Caliphate founded | Kufa | Kufa, Iraq | 32.03, 44.4 |
+| House of Wisdom flourishes | Baghdad | Baghdad, Iraq | 33.315, 44.366 |
+| Seljuks take control of Baghdad | Baghdad | Baghdad, Iraq | 33.315, 44.366 |
+| Mongols sack Baghdad | Baghdad | Baghdad, Iraq | 33.315, 44.366 |
+
+### Corrections / decisions made vs. the original 5-event seed data
+
+- The Abbasid Caliphate was proclaimed at Kufa in 750, not Baghdad -- Baghdad wasn't
+  founded until 762, several years into the dynasty. Used Kufa for the founding event and
+  Baghdad for everything afterward, once it became the actual seat of power.
+- A guessed Commons image hash prefix for the Abbasid founding illustration turned out to
+  be wrong (404) and was caught by the same direct-URL verification step used for every
+  other topic -- fixed by re-querying the imageinfo API for the real thumbnail URL rather
+  than trusting the guess.
