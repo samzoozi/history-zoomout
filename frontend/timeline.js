@@ -3,8 +3,10 @@
 
   var DOMAIN_START = -3200;
   var DOMAIN_END = 1600;
+  var DOMAIN_PADDING_YEARS = 60;
   var BASE_PX_PER_YEAR = 0.62;
   var LABEL_WIDTH = 184;
+  var SIDEBAR_GUTTER = 360; // scroll room so the open detail panel never covers the timeline's end
 
   var ERAS = [
     { start: -3200, end: -1200, label: "Bronze Age" },
@@ -50,6 +52,14 @@
   function yearToX(year) { return (year - DOMAIN_START) * pxPerYear(); }
   function trackWidth() { return (DOMAIN_END - DOMAIN_START) * pxPerYear(); }
 
+  function fitDomainToData() {
+    if (!CIVS.length) return;
+    var minStart = CIVS.reduce(function (m, c) { return Math.min(m, c.start); }, DOMAIN_START);
+    var maxEnd = CIVS.reduce(function (m, c) { return Math.max(m, c.end); }, DOMAIN_END);
+    DOMAIN_START = minStart - DOMAIN_PADDING_YEARS;
+    DOMAIN_END = maxEnd + DOMAIN_PADDING_YEARS;
+  }
+
   function totalEventCount() {
     var n = 0;
     CIVS.forEach(function (civ) { n += civ.events.length; });
@@ -62,7 +72,7 @@
 
   function renderAxisAndEras() {
     var w = trackWidth();
-    trackEl.style.width = (w + LABEL_WIDTH) + "px";
+    trackEl.style.width = (w + LABEL_WIDTH + SIDEBAR_GUTTER) + "px";
     axisTrack.innerHTML = "";
     TICK_YEARS.forEach(function (y) {
       if (y < DOMAIN_START || y > DOMAIN_END) return;
@@ -76,14 +86,19 @@
     eraOverlay.style.left = LABEL_WIDTH + "px";
     eraOverlay.style.width = w + "px";
     eraOverlay.innerHTML = "";
-    ERAS.forEach(function (era) {
+    ERAS.forEach(function (era, i) {
       var band = document.createElement("div");
       band.className = "era-band";
-      var left = yearToX(era.start);
-      var right = yearToX(era.end);
+      // Stretch the outermost eras' fill to the (possibly padded) domain edges
+      // so shading has no gap, while keeping the label anchored to the era's real start.
+      var boundStart = i === 0 ? Math.min(era.start, DOMAIN_START) : era.start;
+      var boundEnd = i === ERAS.length - 1 ? Math.max(era.end, DOMAIN_END) : era.end;
+      var left = yearToX(boundStart);
+      var right = yearToX(boundEnd);
+      var labelLeft = yearToX(era.start) - left + 10;
       band.style.left = left + "px";
       band.style.width = (right - left) + "px";
-      band.innerHTML = '<div class="era-fill"></div><span class="era-label">' + era.label + "</span>";
+      band.innerHTML = '<div class="era-fill"></div><span class="era-label" style="left:' + labelLeft + 'px">' + era.label + "</span>";
       eraOverlay.appendChild(band);
     });
   }
@@ -340,6 +355,7 @@
     if (eventCountEl) eventCountEl.textContent = String(totalEventCount());
     if (civCountEl) civCountEl.textContent = String(CIVS.length);
 
+    fitDomainToData();
     state.selectedCivs = new Set(CIVS.map(function (c) { return c.id; }));
     buildCivFilter();
     render();
