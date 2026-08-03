@@ -1464,36 +1464,155 @@
     "colorIndex": 4,
     "start": 1206,
     "end": 1368,
+    "summary": "Founded in 1206 when a kurultai of steppe chieftains proclaims Temüjin as Genghis Khan, the Mongol Empire grows within two generations into the largest contiguous land empire ever assembled, stretching from the Sea of Japan to the edge of Central Europe. Mongol armies topple the Khwarazmian Empire, the Abbasid Caliphate, and the Song dynasty of China, while cavalry under Batu Khan and Subutai push as far west as Hungary and Poland before a Mamluk army halts their advance at Ain Jalut. A war of succession after Möngke Khan's death splits the empire into four largely independent khanates by the 1260s; the largest, Kublai Khan's Yuan dynasty, rules China until Ming rebels drive the Mongols back to the steppe in 1368.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mongol_Empire",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Asia_in_1335.svg",
+    "imageAttribution": "Map by Wengier (derivative of a map by Teaandcrumpets), Public domain, via Wikimedia Commons",
+    "wikidataId": "Q12557",
     "events": [
       {
         "year": 1206,
         "sig": "major",
         "title": "Genghis Khan Unites the Mongol Tribes",
-        "body": "A kurultai of chieftains proclaims Temüjin as Genghis Khan, “universal ruler,” beginning the fastest territorial expansion in history."
+        "body": "A kurultai of steppe chieftains gathers at the source of the Onon River and proclaims Temüjin as Genghis Khan, \"universal ruler,\" ending decades of tribal warfare and setting off the fastest territorial expansion in history.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Genghis_Khan",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/YuanEmperorAlbumGenghisPortrait.jpg/330px-YuanEmperorAlbumGenghisPortrait.jpg",
+        "imageAttribution": "Portrait by unknown artist, digitized by the National Palace Museum, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q720",
+        "location": {
+          "historicalName": "Source of the Onon River",
+          "city": null,
+          "country": "Mongolia",
+          "latitude": 47.31666667,
+          "longitude": 110.65
+        }
       },
       {
         "year": 1219,
         "sig": "minor",
         "title": "The Invasion of Khwarazm Begins",
-        "body": "Genghis Khan turns west, destroying the Khwarazmian Empire in Central Asia in retaliation for the killing of Mongol envoys."
+        "body": "After the governor of Otrar seizes a Mongol trade caravan and executes its merchants, Genghis Khan turns west and invades the Khwarazmian Empire, destroying its great Central Asian cities within two years.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Mongol_invasion_of_the_Khwarazmian_Empire",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B8%D1%89%D0%B5_%D0%9E%D1%82%D1%8B%D1%80%D0%B0%D1%80_%D1%81_%D0%B2%D0%BE%D0%B7%D0%B4%D1%83%D1%85%D0%B0.jpg",
+        "imageAttribution": "Photo by Coopypasted, CC BY-SA 4.0, via Wikimedia Commons",
+        "wikidataId": "Q431177",
+        "location": {
+          "historicalName": "Otrar",
+          "city": "Otrar",
+          "country": "Kazakhstan",
+          "latitude": 42.8525,
+          "longitude": 68.30277778
+        }
+      },
+      {
+        "year": 1241,
+        "sig": "minor",
+        "title": "Mongol Cavalry Crush Hungary at Mohi",
+        "body": "Batu Khan and Subutai's twin invasion of Europe culminates on the Sajó River, where a Mongol army annihilates the royal army of King Béla IV, opening the Hungarian plain to two years of occupation before the Mongols unexpectedly withdraw.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Mohi",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Battle_of_Mohi_1241.PNG/330px-Battle_of_Mohi_1241.PNG",
+        "imageAttribution": "Illumination from the Chronicon Pictum (Cod. 2623), Public domain, via Wikimedia Commons",
+        "wikidataId": "Q705874",
+        "location": {
+          "historicalName": "Muhi",
+          "city": "Muhi",
+          "country": "Hungary",
+          "latitude": 47.9778,
+          "longitude": 20.9131
+        }
       },
       {
         "year": 1258,
         "sig": "major",
         "title": "The Mongols Sack Baghdad",
-        "body": "Hulagu Khan's western campaign topples the Abbasid Caliphate, extending Mongol power into the heart of the Islamic world."
+        "body": "Hulagu Khan's army breaches Baghdad's walls, executes the caliph al-Musta'sim, and topples the five-century-old Abbasid Caliphate, extending Mongol power into the heart of the Islamic world.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Siege_of_Baghdad_(1258)",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Bagdad1258.jpg/330px-Bagdad1258.jpg",
+        "imageAttribution": "Painting from Rashid al-Din's Jami al-tawarikh, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q369560",
+        "location": {
+          "historicalName": "Baghdad",
+          "city": "Baghdad",
+          "country": "Iraq",
+          "latitude": 33.31527778,
+          "longitude": 44.36611111
+        }
+      },
+      {
+        "year": 1260,
+        "sig": "major",
+        "title": "Mamluks Halt the Mongols at Ain Jalut",
+        "body": "A Mamluk army from Egypt defeats Hulagu's rearguard near the spring of Ain Jalut in Galilee, the first open-field defeat of a Mongol army and the effective limit of the empire's expansion into the Middle East.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Ain_Jalut",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Campaign_of_the_Battle_of_Ain_Jalut_1260.svg/330px-Campaign_of_the_Battle_of_Ain_Jalut_1260.svg.png",
+        "imageAttribution": "Map by MapMaster, CC BY 3.0, via Wikimedia Commons",
+        "wikidataId": "Q244356",
+        "location": {
+          "historicalName": "Ain Jalut",
+          "city": "Ein Harod",
+          "country": "Israel",
+          "latitude": 32.5506,
+          "longitude": 35.3569
+        }
+      },
+      {
+        "year": 1264,
+        "sig": "major",
+        "title": "The Toluid Civil War Splits the Empire",
+        "body": "Kublai Khan's younger brother Ariq Böke surrenders after a four-year war of succession, but the fighting has already broken the unified Mongol Empire into four largely independent khanates: the Yuan, the Golden Horde, the Chagatai Khanate, and the Ilkhanate.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Toluid_Civil_War",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Arik_Buka_defeats_Alghu-Rashid_al%27Din_Jami_al_Tavarikhs-large.jpg/330px-Arik_Buka_defeats_Alghu-Rashid_al%27Din_Jami_al_Tavarikhs-large.jpg",
+        "imageAttribution": "Painting by Miskin, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q16871984"
       },
       {
         "year": 1271,
-        "sig": "minor",
+        "sig": "major",
         "title": "Kublai Khan Founds the Yuan Dynasty",
-        "body": "Genghis Khan's grandson declares a new Chinese dynasty, ruling as both Mongol Great Khan and Chinese emperor."
+        "body": "Genghis Khan's grandson declares a new Chinese dynasty from his capital at Dadu, ruling simultaneously as Great Khan of the Mongols and emperor of China.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Yuan_dynasty",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/YuanEmperorAlbumKhubilaiPortrait.jpg/330px-YuanEmperorAlbumKhubilaiPortrait.jpg",
+        "imageAttribution": "Portrait by Araniko, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q7313",
+        "location": {
+          "historicalName": "Dadu",
+          "city": "Beijing",
+          "country": "China",
+          "latitude": 39.915,
+          "longitude": 116.39
+        }
+      },
+      {
+        "year": 1279,
+        "sig": "minor",
+        "title": "The Yuan Complete the Conquest of Song China",
+        "body": "A Yuan fleet destroys the last Song loyalist forces at the naval battle of Yamen, ending three centuries of Song rule and bringing all of China under Mongol control for the first time.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Yamen",
+        "wikidataId": "Q1078359",
+        "location": {
+          "historicalName": "Yamen",
+          "city": "Jiangmen",
+          "country": "China",
+          "latitude": 22.27,
+          "longitude": 113.08
+        }
       },
       {
         "year": 1368,
         "sig": "major",
         "title": "The Yuan Dynasty Falls",
-        "body": "Ming rebels led by Zhu Yuanzhang drive the Mongols back to the steppe, ending nearly a century of Mongol rule over China."
+        "body": "Ming rebels led by Zhu Yuanzhang capture the Yuan capital at Dadu, driving the Mongols back to the steppe and ending nearly a century of Mongol rule over China.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Yuan_dynasty",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Portrait_assis_de_l%27empereur_Ming_Taizu.jpg/330px-Portrait_assis_de_l%27empereur_Ming_Taizu.jpg",
+        "imageAttribution": "Portrait of the Hongwu Emperor (Zhu Yuanzhang), digitized by the National Palace Museum, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q7313",
+        "location": {
+          "historicalName": "Dadu",
+          "city": "Beijing",
+          "country": "China",
+          "latitude": 39.915,
+          "longitude": 116.39
+        }
       }
     ]
   },
@@ -1542,36 +1661,140 @@
     "colorIndex": 6,
     "start": 1325,
     "end": 1521,
+    "summary": "Founded in 1325 when the wandering Mexica people build their capital, Tenochtitlan, on a marshy island in Lake Texcoco, the Aztec civilization becomes an empire in 1428 when Tenochtitlan joins Texcoco and Tlacopan in the Triple Alliance after defeating the Tepanecs of Azcapotzalco. Over the following century Mexica armies and tribute demands extend the alliance's reach across central Mexico, funding a religious capital whose Great Temple is consecrated in 1487 under the ruler Ahuitzotl. Hernán Cortés lands on the Gulf coast in 1519 and, allying with rivals of the Aztecs, marches on Tenochtitlan; after his men are driven out on La Noche Triste in 1520 he returns with a larger force and, aided by a smallpox epidemic that has already killed thousands, besieges and captures the city in 1521, ending Mexica rule.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Aztecs",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Aztec_Empire.png/330px-Aztec_Empire.png",
+    "imageAttribution": "Map by Aldan-2, CC BY-SA 4.0, via Wikimedia Commons",
+    "wikidataId": "Q12542",
     "events": [
       {
         "year": 1325,
         "sig": "major",
         "title": "Tenochtitlan Is Founded",
-        "body": "According to legend, the Mexica see an eagle perched on a cactus devouring a serpent — the sign they were seeking — and build their capital on a lake island."
+        "body": "According to legend, the Mexica see an eagle devouring a serpent atop a cactus — the sign their priests had foretold — and found their capital, Tenochtitlan, on a marshy island in Lake Texcoco.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Tenochtitlan",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Fundacion_Tenochtitlan.jpg/500px-Fundacion_Tenochtitlan.jpg",
+        "imageAttribution": "Painting by Roberto Cueva del Río, CC BY-SA 3.0, via Wikimedia Commons",
+        "wikidataId": "Q13695",
+        "location": {
+          "historicalName": "Tenochtitlan",
+          "city": "Mexico City",
+          "country": "Mexico",
+          "latitude": 19.43333333,
+          "longitude": -99.13333333
+        }
       },
       {
         "year": 1428,
-        "sig": "minor",
+        "sig": "major",
         "title": "The Triple Alliance Forms",
-        "body": "Tenochtitlan, Texcoco, and Tlacopan unite, launching the rapid expansion that will become the Aztec Empire."
+        "body": "After the Tepanec usurper Maxtla besieges Tenochtitlan and drives the Acolhua ruler Nezahualcoyotl into exile, the Mexica join Texcoco and the breakaway city of Tlacopan to crush Azcapotzalco, forming the Triple Alliance that becomes the Aztec Empire.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Aztec_Empire",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Aztec_Triple_Alliance.png/500px-Aztec_Triple_Alliance.png",
+        "imageAttribution": "Aztec glyphs for the Triple Alliance's member states by XcepticZP and Goldenbrook, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q2608489"
+      },
+      {
+        "year": 1473,
+        "sig": "minor",
+        "title": "Axayacatl Conquers Tlatelolco",
+        "body": "Tenochtitlan's tlatoani Axayacatl defeats Moquihuix, ruler of the rival twin city Tlatelolco, in battle and subjects it to Tenochtitlan, bringing the entire island and its great marketplace under unified Mexica rule.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Tlatelolco_(altepetl)",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Moquihuix_mendoza.jpg/250px-Moquihuix_mendoza.jpg",
+        "imageAttribution": "Illustration of Moquihuix from the Codex Mendoza, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q796925",
+        "location": {
+          "historicalName": "Tlatelolco",
+          "city": "Mexico City",
+          "country": "Mexico",
+          "latitude": 19.4511,
+          "longitude": -99.1375
+        }
       },
       {
         "year": 1487,
         "sig": "major",
         "title": "The Great Temple Is Dedicated",
-        "body": "Tens of thousands are said to attend the consecration of the rebuilt Templo Mayor, marking the empire near the height of its power."
+        "body": "Ruler Ahuitzotl consecrates the rebuilt Templo Mayor on the final day of the month of Panquetzaliztli, its twin shrines to Huitzilopochtli and Tlaloc marking the Mexica capital near the height of its power.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Templo_Mayor",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Templo_Mayor_50.jpg/330px-Templo_Mayor_50.jpg",
+        "imageAttribution": "Photo by GAED, CC BY-SA 3.0, via Wikimedia Commons",
+        "wikidataId": "Q774021",
+        "location": {
+          "historicalName": "Templo Mayor, Tenochtitlan",
+          "city": "Mexico City",
+          "country": "Mexico",
+          "latitude": 19.4333,
+          "longitude": -99.13278
+        }
+      },
+      {
+        "year": 1502,
+        "sig": "minor",
+        "title": "Moctezuma II Becomes Tlatoani",
+        "body": "Moctezuma Xocoyotzin is crowned as the ninth tlatoani of Tenochtitlan, inheriting an empire near its greatest extent that he will rule for nearly two decades before the Spanish arrive.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Moctezuma_II",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Coronaci%C3%B3n_de_Moctezuma_II%2C_en_el_folio_152.png/330px-Coronaci%C3%B3n_de_Moctezuma_II%2C_en_el_folio_152.png",
+        "imageAttribution": "Illustration from the Codex Durán, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q141791",
+        "location": {
+          "historicalName": "Tenochtitlan",
+          "city": "Mexico City",
+          "country": "Mexico",
+          "latitude": 19.43333333,
+          "longitude": -99.13333333
+        }
       },
       {
         "year": 1519,
         "sig": "minor",
         "title": "Cortés Arrives on the Coast",
-        "body": "Hernán Cortés lands with a small Spanish force, soon allying with rivals of the Aztecs as he marches toward Tenochtitlan."
+        "body": "Hernán Cortés lands on the Gulf coast and founds Veracruz, then marches inland, defeating and then allying with the Tlaxcalans as he advances toward Tenochtitlan.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Hern%C3%A1n_Cort%C3%A9s",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Retrato_de_Hern%C3%A1n_Cort%C3%A9s.jpg/330px-Retrato_de_Hern%C3%A1n_Cort%C3%A9s.jpg",
+        "imageAttribution": "Portrait by unknown artist (Museo de América collection), Public domain, via Wikimedia Commons",
+        "wikidataId": "Q7326",
+        "location": {
+          "historicalName": "Veracruz",
+          "city": "Veracruz",
+          "country": "Mexico",
+          "latitude": 19.19027778,
+          "longitude": -96.15333333
+        }
+      },
+      {
+        "year": 1520,
+        "sig": "major",
+        "title": "The Spanish Are Driven Out on La Noche Triste",
+        "body": "After Moctezuma II is killed in rioting and Cortés's men loot the palace treasury, the Mexica attack the retreating Spanish column on the causeway out of the city, inflicting heavy losses in what the Spanish call La Noche Triste, the Night of Sorrows.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/La_Noche_Triste",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/The_Sad_Night_%28Noche_Triste%29_%28Conquest_of_Mexico%29_Painting.jpg/330px-The_Sad_Night_%28Noche_Triste%29_%28Conquest_of_Mexico%29_Painting.jpg",
+        "imageAttribution": "Anonymous 17th-century painting, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q1308854",
+        "location": {
+          "historicalName": "Tenochtitlan (the Tacuba causeway)",
+          "city": "Mexico City",
+          "country": "Mexico",
+          "latitude": 19.43333333,
+          "longitude": -99.13333333
+        }
       },
       {
         "year": 1521,
         "sig": "major",
         "title": "The Fall of Tenochtitlan",
-        "body": "After a brutal siege and a smallpox epidemic that devastates the city, Spanish forces and their Indigenous allies capture the Aztec capital."
+        "body": "After a three-month siege and a smallpox epidemic that has already killed thousands, including the previous emperor Cuitláhuac, Spanish forces and their Indigenous allies capture the last tlatoani, Cuauhtémoc, and take Tenochtitlan.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Brigantines_in_the_Siege_of_Tenochtitlan.jpg/330px-Brigantines_in_the_Siege_of_Tenochtitlan.jpg",
+        "imageAttribution": "Illustration from the Florentine Codex by Bernardino de Sahagún, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q593267",
+        "location": {
+          "historicalName": "Tenochtitlan",
+          "city": "Mexico City",
+          "country": "Mexico",
+          "latitude": 19.43333333,
+          "longitude": -99.13333333
+        }
       }
     ]
   },

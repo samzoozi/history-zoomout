@@ -580,3 +580,165 @@ event had a location at all).
   Mohenjo-daro's abandonment (c. 1700 BC per its own article) and the civilization's
   final fade (1300 BC) -- the original pilot data jumped straight from the Great Bath
   event to the end with no Late Harappan representation at all.
+
+## Mongol Empire (topic id: `mongol`) — pulled 2026-08-03
+
+Status: **existing topic, replaces current seed data** — file written to
+`data/wikipedia-data/mongol.json` only; merging into the live seed and reseeding is a
+separate step. Kept the existing `id` (`mongol`), `colorIndex` (4), and date range
+(1206-1368) for a drop-in replacement.
+
+The original pilot data had 5 events, all clustered around the empire's founding and its
+two most famous conquests (Baghdad, Yuan China), skipping three structurally important
+sub-periods entirely: the invasion of Europe (Batu Khan and Subutai reached Hungary and
+Poland in 1241), the empire's first major battlefield defeat (Ain Jalut, 1260, which set
+the permanent western limit of Mongol expansion), and the Toluid Civil War (1260-1264),
+which is the actual mechanism by which the "Mongol Empire" stopped being one empire and
+became four separate khanates. Expanded to 9 events to cover unification, the western
+campaigns (Khwarazm, Europe), the empire's territorial peak and its limit (Baghdad, Ain
+Jalut), its fracture into khanates, and the rise and fall of its largest successor state,
+the Yuan dynasty in China.
+
+### Topic-level source
+
+- **Mongol Empire** — https://en.wikipedia.org/wiki/Mongol_Empire — Wikidata Q12557 —
+  this article's own scope (1206-1368) matches the topic's existing date range exactly.
+- The lead thumbnail is an animated GIF of the empire's yearly expansion, not usable as a
+  static image. Used **Asia in 1335** instead, a public-domain map showing the empire at
+  its territorial height already split into the four khanates -- a more informative single
+  frame than any one year of the animation.
+
+### Event-level sources
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| Genghis Khan unites the Mongol tribes | 1206 | [Genghis Khan](https://en.wikipedia.org/wiki/Genghis_Khan) | Q720 | Unknown artist (Yuan imperial album portrait), digitized by National Palace Museum, Public domain |
+| The invasion of Khwarazm begins | 1219 | [Mongol invasion of the Khwarazmian Empire](https://en.wikipedia.org/wiki/Mongol_invasion_of_the_Khwarazmian_Empire) | Q431177 | Coopypasted (photo of Otrar ruins), CC BY-SA 4.0 |
+| Mongol cavalry crush Hungary at Mohi | 1241 | [Battle of Mohi](https://en.wikipedia.org/wiki/Battle_of_Mohi) | Q705874 | Anonymous illumination, Chronicon Pictum (Cod. 2623), Public domain |
+| The Mongols sack Baghdad | 1258 | [Siege of Baghdad (1258)](https://en.wikipedia.org/wiki/Siege_of_Baghdad_(1258)) | Q369560 | Sayf al-vâhidî et al. (Rashid al-Din's Jami al-tawarikh), Public domain |
+| Mamluks halt the Mongols at Ain Jalut | 1260 | [Battle of Ain Jalut](https://en.wikipedia.org/wiki/Battle_of_Ain_Jalut) | Q244356 | MapMaster (campaign map), CC BY 3.0 |
+| The Toluid Civil War splits the empire | 1264 | [Toluid Civil War](https://en.wikipedia.org/wiki/Toluid_Civil_War) | Q16871984 | Miskin (Mughal-era painting), Public domain |
+| Kublai Khan founds the Yuan Dynasty | 1271 | [Yuan dynasty](https://en.wikipedia.org/wiki/Yuan_dynasty) | Q7313 | Araniko (Yuan imperial album portrait), Public domain |
+| The Yuan complete the conquest of Song China | 1279 | [Battle of Yamen](https://en.wikipedia.org/wiki/Battle_of_Yamen) | Q1078359 | *(none — see note below)* |
+| The Yuan Dynasty falls | 1368 | [Yuan dynasty](https://en.wikipedia.org/wiki/Yuan_dynasty) | Q7313 | Unknown artist (portrait of the Hongwu Emperor), digitized by National Palace Museum, Public domain |
+
+### Event locations
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Genghis Khan unites the Mongol tribes | Source of the Onon River | (no city), Mongolia | 47.317, 110.65 |
+| The invasion of Khwarazm begins | Otrar | Otrar, Kazakhstan | 42.853, 68.303 |
+| Mongol cavalry crush Hungary at Mohi | Muhi | Muhi, Hungary | 47.978, 20.913 |
+| The Mongols sack Baghdad | Baghdad | Baghdad, Iraq | 33.315, 44.366 |
+| Mamluks halt the Mongols at Ain Jalut | Ain Jalut | Ein Harod, Israel | 32.551, 35.357 |
+| Kublai Khan founds the Yuan Dynasty | Dadu | Beijing, China | 39.915, 116.39 |
+| The Yuan complete the conquest of Song China | Yamen | Jiangmen, China | 22.27, 113.08 |
+| The Yuan Dynasty falls | Dadu | Beijing, China | 39.915, 116.39 |
+
+The Toluid Civil War has no `location` -- it's a succession conflict fought across the
+empire (Kublai based at Shangdu, Ariq Böke at Karakorum, with fighting well beyond both),
+not a single-site event.
+
+### Corrections / decisions made vs. the original seed data
+
+- Both existing events kept close to their original framing ("Genghis Khan Unites the
+  Mongol Tribes," "The Mongols Sack Baghdad," "The Yuan Dynasty Falls") since the facts
+  held up against sourcing -- the kurultai at the Onon River in 1206, Hulagu's 1258 siege,
+  and the Ming capture of Dadu on 14 September 1368 are all well-attested. Retitled "The
+  Invasion of Khwarazm Begins" only in body text, adding the specific Otrar incident
+  (a seized caravan, executed merchants) that the original body left unsourced/generic.
+  "Kublai Khan Founds the Yuan Dynasty" (1271) kept its year and title but was re-rated
+  `major` (was `minor`) since it's a dynastic founding, matching how foundings/falls are
+  rated everywhere else in this dataset.
+- No usable image found for "The Yuan Complete the Conquest of Song China" (Battle of
+  Yamen, 1279). The only image tagged to that article is a modern photo of a tourism
+  development built on the battle site, not a period depiction or a clear historical
+  photo -- left the event without an image rather than use a misleading modern one.
+- Added `location` to every event except the Toluid Civil War (see above), where the
+  original seed data had none.
+
+## Aztec (Mexica) (topic id: `aztec`) — pulled 2026-08-03
+
+Status: **existing topic, replaces current seed data** — file written to
+`data/wikipedia-data/aztec.json` only; merging into the live seed and reseeding is a
+separate step. Kept the existing `id` (`aztec`), `name` (`Aztec (Mexica)`), `colorIndex`
+(6), and date range (1325-1521) for a drop-in replacement.
+
+The original pilot data had 5 events spanning founding, the Triple Alliance, the Great
+Temple, and the Spanish conquest, but skipped the roughly six decades of imperial
+expansion between the Triple Alliance (1428) and the Great Temple's dedication (1487),
+and the ~32 years between the Great Temple and Cortés's arrival (1519) — both periods
+during which Tenochtitlan absorbed its last major island rival and crowned its final
+independent ruler. It also went straight from "Cortés arrives" to "the city falls,"
+skipping La Noche Triste (1520), the mid-conquest reversal in which the Mexica drove the
+Spanish out of the city and killed Moctezuma II — arguably the most dramatic single
+turning point of the whole conquest narrative, and the reason Cortés needed a second,
+larger campaign in 1521 at all. Expanded to 8 events to cover the conquest of Tlatelolco
+(unifying the island), Moctezuma II's coronation, and La Noche Triste, alongside the
+original five.
+
+### Topic-level source
+
+- **Aztecs** — https://en.wikipedia.org/wiki/Aztecs — Wikidata Q12542 — this article's
+  own scope ("flourished in central Mexico from about 1300 to 1521") matches the topic's
+  1325-1521 range far better than "Aztec Empire," whose own scope (1428-1521) only
+  covers the Triple Alliance era and would exclude the 1325 founding event entirely.
+- Image: **Aztec Empire (map, 1519)** by Aldan-2, showing the empire under Moctezuma II
+  at its territorial peak — sourced from the "Aztecs" article's own lead thumbnail.
+
+### Event-level sources
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| Tenochtitlan Is Founded | 1325 | [Tenochtitlan](https://en.wikipedia.org/wiki/Tenochtitlan) | Q13695 | Roberto Cueva del Río (painting), CC BY-SA 3.0 |
+| The Triple Alliance Forms | 1428 | [Aztec Empire](https://en.wikipedia.org/wiki/Aztec_Empire) | Q2608489 | XcepticZP & Goldenbrook (glyph diagram), Public domain |
+| Axayacatl Conquers Tlatelolco | 1473 | [Tlatelolco (altepetl)](https://en.wikipedia.org/wiki/Tlatelolco_(altepetl)) | Q796925 | Codex Mendoza illustration, Public domain |
+| The Great Temple Is Dedicated | 1487 | [Templo Mayor](https://en.wikipedia.org/wiki/Templo_Mayor) | Q774021 | GAED (photo), CC BY-SA 3.0 |
+| Moctezuma II Becomes Tlatoani | 1502 | [Moctezuma II](https://en.wikipedia.org/wiki/Moctezuma_II) | Q141791 | Codex Durán illustration, Public domain |
+| Cortés Arrives on the Coast | 1519 | [Hernán Cortés](https://en.wikipedia.org/wiki/Hern%C3%A1n_Cort%C3%A9s) | Q7326 | Unknown artist (Museo de América portrait), Public domain |
+| The Spanish Are Driven Out on La Noche Triste | 1520 | [La Noche Triste](https://en.wikipedia.org/wiki/La_Noche_Triste) | Q1308854 | Anonymous 17th-century painting, Public domain |
+| The Fall of Tenochtitlan | 1521 | [Fall of Tenochtitlan](https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan) | Q593267 | Bernardino de Sahagún (Florentine Codex), Public domain |
+
+### Event locations
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Tenochtitlan Is Founded | Tenochtitlan | Mexico City, Mexico | 19.433, -99.133 |
+| Axayacatl Conquers Tlatelolco | Tlatelolco | Mexico City, Mexico | 19.451, -99.138 |
+| The Great Temple Is Dedicated | Templo Mayor, Tenochtitlan | Mexico City, Mexico | 19.433, -99.133 |
+| Moctezuma II Becomes Tlatoani | Tenochtitlan | Mexico City, Mexico | 19.433, -99.133 |
+| Cortés Arrives on the Coast | Veracruz | Veracruz, Mexico | 19.190, -96.153 |
+| The Spanish Are Driven Out on La Noche Triste | Tenochtitlan (the Tacuba causeway) | Mexico City, Mexico | 19.433, -99.133 |
+| The Fall of Tenochtitlan | Tenochtitlan | Mexico City, Mexico | 19.433, -99.133 |
+
+The Triple Alliance's formation has no `location` -- it's a treaty between three
+separate city-states (Tenochtitlan, Texcoco, Tlacopan), not a single-site event.
+
+### Corrections / decisions made vs. the original seed data
+
+- All three original event years (1325, 1428, 1487) held up against sourcing --
+  Tenochtitlan's traditional founding date, the 1428 Tepanec war that produced the
+  Triple Alliance, and the Templo Mayor's 19 December 1487 dedication under Ahuitzotl
+  are all well-attested (the exact ceremony date came from the Templo Mayor article's
+  discussion of the Aztec calendar; the original body's vaguer "near the height of its
+  power" framing was kept since the article didn't corroborate a specific attendance or
+  sacrifice figure -- several widely circulated numbers for this ceremony trace to a
+  colonial-era chronicler and are considered exaggerated by modern historians, so no
+  number was added).
+- **"The Triple Alliance Forms" re-rated `major` (was `minor`)** -- Wikipedia's own
+  "Aztec Empire" article defines the empire as beginning with this alliance, so treating
+  its formation as more significant than a supporting detail matches how foundings are
+  rated everywhere else in this dataset (same reasoning as the Mongol topic's Kublai
+  Khan / Yuan dynasty re-rating).
+- "Cortés Arrives on the Coast" gained the specific detail that he founded Veracruz and
+  fought before allying with Tlaxcala, replacing the original's generic "rivals of the
+  Aztecs." The `location` used is the modern city of Veracruz; Cortés's actual 1519
+  landing/founding site (Villa Rica de la Vera Cruz, near modern La Antigua) was a few
+  miles away and the city was later relocated to its current site in 1599 -- treated as
+  the same place for this purpose, consistent with how this dataset handles other
+  historical-name/modern-site pairs.
+- "The Fall of Tenochtitlan" kept its year and title but the body was corrected: the
+  smallpox epidemic (which killed the previous emperor Cuitláhuac) struck in late 1520,
+  months before the 1521 siege itself, rather than during it as the original body's
+  phrasing ("a smallpox epidemic that devastates the city") implied alongside the siege.
+  Reworded to describe the epidemic as having already happened by the time of capture.
