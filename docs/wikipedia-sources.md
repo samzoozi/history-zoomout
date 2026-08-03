@@ -246,3 +246,106 @@ Empire end up as separate topics in this dataset.
   requests after a transcription error was caught (a guessed Commons hash prefix that
   didn't match the real file path) -- worth doing this check rather than trusting
   fetched/retyped URLs by inspection alone.
+
+## Mesopotamia (topic id: `mesopotamia`) — pulled 2026-08-03
+
+Status: **merged into live seed data 2026-08-03** (replacing the old 5-event entry wholesale) and reseeded.
+
+Old data (5 events) only showed the *fall* of both the Neo-Assyrian and Neo-Babylonian
+Empires ("Nineveh Falls," "Cyrus Takes Babylon") with no events for either one's rise --
+the same pattern as Persia's original pilot. Also missing the Sumerian revival under the
+Third Dynasty of Ur entirely.
+
+### Topic-level source
+
+- **History of Mesopotamia** — https://en.wikipedia.org/wiki/History_of_Mesopotamia — Wikidata Q2481441
+
+### Event-level sources
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| Cuneiform emerges at Uruk | 3200 BC | [Cuneiform](https://en.wikipedia.org/wiki/Cuneiform) | Q401 | Bjørn Christian Tørrissen, CC BY-SA 3.0 |
+| Sargon founds the Akkadian Empire | 2334 BC | [Sargon of Akkad](https://en.wikipedia.org/wiki/Sargon_of_Akkad) | Q199461 | ALFGRN, CC BY-SA 2.0 |
+| Ur-Nammu founds the Third Dynasty of Ur | c. 2112 BC | [Third Dynasty of Ur](https://en.wikipedia.org/wiki/Third_Dynasty_of_Ur) | Q723587 | Sémhur/Zunkir, CC BY-SA 3.0 (map) |
+| Hammurabi's Code | 1754 BC | [Code of Hammurabi](https://en.wikipedia.org/wiki/Code_of_Hammurabi) | Q93304 | Mbzt, CC BY 3.0 |
+| Ashurbanipal builds the Library at Nineveh | c. 630 BC | [Library of Ashurbanipal](https://en.wikipedia.org/wiki/Library_of_Ashurbanipal) | *(none found)* | KeyolTranslater, CC BY-SA 4.0 |
+| Nineveh falls | 612 BC | [Fall of Nineveh](https://en.wikipedia.org/wiki/Fall_of_Nineveh) | Q612286 | Mu-tamajo, CC BY-SA 4.0 |
+| Nebuchadnezzar II conquers Jerusalem | 587 BC | [Nebuchadnezzar II](https://en.wikipedia.org/wiki/Nebuchadnezzar_II), [Siege of Jerusalem (587 BC)](https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(587_BC)) | Q12591 | Public domain |
+| Cyrus takes Babylon | 539 BC | [Fall of Babylon](https://en.wikipedia.org/wiki/Fall_of_Babylon) | Q28169617 | J. Martin (1831 mezzotint), CC BY 4.0 |
+
+### Event locations
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Cuneiform emerges at Uruk | Uruk | Warka, Iraq | 31.324, 45.637 |
+| Sargon founds the Akkadian Empire | Akkad | *(unlocated)*, Iraq | *(none found)* |
+| Ur-Nammu founds the Third Dynasty of Ur | Ur | Nasiriyah, Iraq | 30.962, 46.105 |
+| Hammurabi's Code | Babylon | Al-Hillah, Iraq | 32.543, 44.421 |
+| Ashurbanipal builds the Library | Nineveh | Mosul, Iraq | 36.359, 43.153 |
+| Nineveh falls | Nineveh | Mosul, Iraq | 36.359, 43.153 |
+| Nebuchadnezzar II conquers Jerusalem | Jerusalem | Jerusalem, Israel | 31.779, 35.226 |
+| Cyrus takes Babylon | Babylon | Al-Hillah, Iraq | 32.543, 44.421 |
+
+### Corrections / decisions made vs. the original 5-event seed data
+
+- Akkad's location is a genuine open archaeological question -- its site has never been
+  definitively identified, unlike every other location in this dataset. `city` and
+  coordinates are left null; only `country` (Iraq, per scholarly consensus on the general
+  region) is filled in.
+- Ashurbanipal's library has no single founding year in the sources checked (his reign
+  spanned 668–627 BC) -- used 630 BC as a reasonable "circa" figure within that range
+  rather than a precise date.
+- No Wikidata item found specifically for the Library of Ashurbanipal as an event (only
+  for Ashurbanipal himself, and the source URL cites the library-specific article) --
+  left `wikidataId` null rather than pointing at a mismatched item.
+
+## China (topic id: `china`) — pulled 2026-08-03
+
+Status: **merged into live seed data 2026-08-03** (replacing the old 5-event entry wholesale) and reseeded.
+
+Old data (5 events) had a ~1500-year span but the Song dynasty (960–1279, over 300 years)
+only appeared via its *fall* to the Mongols -- no founding event at all. Also missing the
+Han dynasty's founding (only its papermaking event was represented) and the Sui reunification
+that ended centuries of division after the Han collapse.
+
+### Topic-level source
+
+- **History of China** — https://en.wikipedia.org/wiki/History_of_China — Wikidata Q82972
+
+### Event-level sources
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| Qin Shi Huang unifies China | 221 BC | [Qin Shi Huang](https://en.wikipedia.org/wiki/Qin_Shi_Huang) | Q7192 | Public domain |
+| Great Wall construction begins | 214 BC | [Great Wall of China](https://en.wikipedia.org/wiki/Great_Wall_of_China) | Q12501 | Severin.stalder, CC BY-SA 3.0 |
+| Liu Bang founds the Han Dynasty | 202 BC | [Emperor Gaozu of Han](https://en.wikipedia.org/wiki/Emperor_Gaozu_of_Han) | Q7210 | Public domain |
+| Cai Lun refines papermaking | 105 AD | [Cai Lun](https://en.wikipedia.org/wiki/Cai_Lun) | Q229235 | Public domain |
+| Sui Wendi reunifies China | 581 AD | [Emperor Wen of Sui](https://en.wikipedia.org/wiki/Emperor_Wen_of_Sui) | Q7418 | Yan Liben (painting), Public domain |
+| Tang Taizong becomes "Heavenly Khan" | 630 AD | [Emperor Taizong of Tang](https://en.wikipedia.org/wiki/Emperor_Taizong_of_Tang) | Q9701 | Public domain |
+| An Lushan Rebellion | 755 AD | [An Lushan rebellion](https://en.wikipedia.org/wiki/An_Lushan_rebellion) | Q253774 | SY, CC BY-SA 4.0 (map) |
+| Song Dynasty founded | 960 AD | [Emperor Taizu of Song](https://en.wikipedia.org/wiki/Emperor_Taizu_of_Song) | Q7471 | Public domain |
+| Mongols conquer the Song Dynasty | 1279 AD | [Battle of Yamen](https://en.wikipedia.org/wiki/Battle_of_Yamen) | *(none found)* | 长夜无风, CC BY 3.0 |
+
+### Event locations
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Qin Shi Huang unifies China | Xianyang | Xianyang, China | 34.33, 108.71 |
+| Great Wall construction begins | — | *(no single site)* | — |
+| Liu Bang founds the Han Dynasty | Chang'an | Xi'an, China | 34.26, 108.94 |
+| Cai Lun refines papermaking | Luoyang | Luoyang, China | 34.62, 112.45 |
+| Sui Wendi reunifies China | Chang'an | Xi'an, China | 34.26, 108.94 |
+| Tang Taizong becomes "Heavenly Khan" | Chang'an | Xi'an, China | 34.26, 108.94 |
+| An Lushan Rebellion | Fanyang | Beijing, China | 39.91, 116.40 |
+| Song Dynasty founded | Bianjing | Kaifeng, China | 34.80, 114.35 |
+| Mongols conquer the Song Dynasty | Yamen | Jiangmen, China | 22.27, 113.08 |
+
+### Corrections / decisions made vs. the original 5-event seed data
+
+- "Great Wall construction begins" has no `location` object at all (not even null fields)
+  -- the wall spans thousands of kilometers and was built by linking pre-existing regional
+  walls, so there's no single site to anchor it to, unlike every other event here.
+- Several capitals repeat the same coordinates (Chang'an/Xi'an is the capital across three
+  different events spanning Han, Sui, and Tang) -- this is accurate, not a mistake; Xi'an
+  really was the seat of power for most of this span.
+- No Wikidata item found for the Battle of Yamen specifically -- left `wikidataId` null.

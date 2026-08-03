@@ -5,36 +5,147 @@
     "colorIndex": 1,
     "start": -3200,
     "end": -539,
+    "summary": "Mesopotamia's civilizations rose and fell in succession along the Tigris and Euphrates: Sumerian city-states gave way to Sargon's Akkadian Empire, then the Sumerian revival under the Third Dynasty of Ur, Hammurabi's Babylon, the Neo-Assyrian Empire centered on Nineveh, and finally the Neo-Babylonian Empire, which fell to Cyrus the Great of Persia in 539 BC.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/History_of_Mesopotamia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/N-Mesopotamia_and_Syria_english.svg/330px-N-Mesopotamia_and_Syria_english.svg.png",
+    "imageAttribution": "Map by Goran tek-en, CC BY-SA 4.0, via Wikimedia Commons",
+    "wikidataId": "Q2481441",
     "events": [
       {
         "year": -3200,
         "sig": "major",
         "title": "Cuneiform Emerges at Uruk",
-        "body": "The world's earliest writing system develops from clay tokens used to record grain and livestock, becoming the first script for recording language and law."
+        "body": "The world's earliest writing system develops from clay tokens used to record grain and livestock at the city of Uruk, becoming the first script for recording language and law.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Cuneiform",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Xerxes_Cuneiform_Van.JPG/330px-Xerxes_Cuneiform_Van.JPG",
+        "imageAttribution": "Photo by Bjørn Christian Tørrissen, CC BY-SA 3.0, via Wikimedia Commons",
+        "wikidataId": "Q401",
+        "location": {
+          "historicalName": "Uruk",
+          "city": "Warka",
+          "country": "Iraq",
+          "latitude": 31.32416667,
+          "longitude": 45.63722222
+        }
       },
       {
         "year": -2334,
         "sig": "minor",
         "title": "Sargon Founds the Akkadian Empire",
-        "body": "Sargon of Akkad unites the Sumerian city-states into history's first known multi-ethnic empire."
+        "body": "Sargon of Akkad conquers the Sumerian city-states and unites them under a single ruler, creating what many historians consider the world's first empire.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sargon_of_Akkad",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Sargon_of_Akkad_on_his_victory_stele.jpg/330px-Sargon_of_Akkad_on_his_victory_stele.jpg",
+        "imageAttribution": "Photo by ALFGRN, CC BY-SA 2.0, via Wikimedia Commons",
+        "wikidataId": "Q199461",
+        "location": {
+          "historicalName": "Akkad",
+          "city": null,
+          "country": "Iraq",
+          "latitude": null,
+          "longitude": null
+        }
+      },
+      {
+        "year": -2112,
+        "sig": "major",
+        "title": "Ur-Nammu Founds the Third Dynasty of Ur",
+        "body": "After centuries of Akkadian and Gutian rule, Ur-Nammu reunites southern Mesopotamia under the city of Ur and issues the Code of Ur-Nammu, the oldest law code known to survive.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Third_Dynasty_of_Ur",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ur_III.svg/330px-Ur_III.svg.png",
+        "imageAttribution": "Map by Sémhur and Zunkir, CC BY-SA 3.0, via Wikimedia Commons",
+        "wikidataId": "Q723587",
+        "location": {
+          "historicalName": "Ur",
+          "city": "Nasiriyah",
+          "country": "Iraq",
+          "latitude": 30.9616529,
+          "longitude": 46.1051259
+        }
       },
       {
         "year": -1754,
         "sig": "major",
         "title": "Hammurabi's Code Carved in Stone",
-        "body": "Babylon's king publishes 282 laws on a black diorite stele, one of the earliest surviving law codes governing an entire society."
+        "body": "Babylon's king publishes 282 laws on a black diorite stele, one of the earliest surviving law codes governing an entire society.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Code_of_Hammurabi",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/P1050763_Louvre_code_Hammurabi_face_rwk.JPG/330px-P1050763_Louvre_code_Hammurabi_face_rwk.JPG",
+        "imageAttribution": "Photo by Mbzt, CC BY 3.0, via Wikimedia Commons",
+        "wikidataId": "Q93304",
+        "location": {
+          "historicalName": "Babylon",
+          "city": "Al-Hillah",
+          "country": "Iraq",
+          "latitude": 32.5425,
+          "longitude": 44.42111111
+        }
+      },
+      {
+        "year": -630,
+        "sig": "minor",
+        "title": "Ashurbanipal Builds the Library at Nineveh",
+        "body": "Assyrian king Ashurbanipal assembles a vast collection of cuneiform tablets at his capital, creating the ancient world's most systematic library and preserving countless Mesopotamian texts for posterity.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Library_of_Ashurbanipal",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/AshurbanipalKingOfAssyria.jpg/330px-AshurbanipalKingOfAssyria.jpg",
+        "imageAttribution": "Photo by KeyolTranslater, CC BY-SA 4.0, via Wikimedia Commons",
+        "wikidataId": null,
+        "location": {
+          "historicalName": "Nineveh",
+          "city": "Mosul",
+          "country": "Iraq",
+          "latitude": 36.35944444,
+          "longitude": 43.15277778
+        }
       },
       {
         "year": -612,
         "sig": "minor",
         "title": "Nineveh Falls",
-        "body": "A coalition of Babylonians and Medes sacks the Assyrian capital, ending centuries of Assyrian dominance over Mesopotamia."
+        "body": "A coalition of Babylonians and Medes storms the Assyrian capital, ending the Neo-Assyrian Empire's centuries of dominance over the Near East.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Nineveh",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Fall_of_nineveh.jpg/330px-Fall_of_nineveh.jpg",
+        "imageAttribution": "Illustration by Mu-tamajo, CC BY-SA 4.0, via Wikimedia Commons",
+        "wikidataId": "Q612286",
+        "location": {
+          "historicalName": "Nineveh",
+          "city": "Mosul",
+          "country": "Iraq",
+          "latitude": 36.35944444,
+          "longitude": 43.15277778
+        }
+      },
+      {
+        "year": -587,
+        "sig": "major",
+        "title": "Nebuchadnezzar II Conquers Jerusalem",
+        "body": "After a lengthy siege, Babylonian forces breach Jerusalem's walls, destroy Solomon's Temple, and deport much of the population -- the start of the Babylonian captivity that Cyrus will later end.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Nebuchadnezzar_II",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Nebuchadnezzar_II_crop.png/330px-Nebuchadnezzar_II_crop.png",
+        "imageAttribution": "Public domain, via Wikimedia Commons",
+        "wikidataId": "Q12591",
+        "location": {
+          "historicalName": "Jerusalem",
+          "city": "Jerusalem",
+          "country": "Israel",
+          "latitude": 31.77888889,
+          "longitude": 35.22555556
+        }
       },
       {
         "year": -539,
         "sig": "major",
         "title": "Cyrus the Great Takes Babylon",
-        "body": "The Persian king enters Babylon without a battle, absorbing Mesopotamia into the Achaemenid Empire and ending Babylonian independence."
+        "body": "Cyrus of Persia captures Babylon without a major battle, ending the Neo-Babylonian Empire and folding Mesopotamia into the Achaemenid Empire.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Babylon",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/The_fall_of_Babylon%3B_Cyrus_the_Great_defeating_the_Chaldean_Wellcome_V0034440.jpg/330px-The_fall_of_Babylon%3B_Cyrus_the_Great_defeating_the_Chaldean_Wellcome_V0034440.jpg",
+        "imageAttribution": "Mezzotint by J. Martin (1831), CC BY 4.0, via Wikimedia Commons / Wellcome Collection",
+        "wikidataId": "Q28169617",
+        "location": {
+          "historicalName": "Babylon",
+          "city": "Al-Hillah",
+          "country": "Iraq",
+          "latitude": 32.5425,
+          "longitude": 44.42111111
+        }
       }
     ]
   },
@@ -751,36 +862,157 @@
     "colorIndex": 7,
     "start": -221,
     "end": 1279,
+    "summary": "China was unified for the first time by the Qin in 221 BC, and passed through the Han, a long period of division ended by the Sui, the cosmopolitan Tang, and the innovative Song dynasty before the Mongols completed their conquest of the country in 1279 AD.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/History_of_China",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/330px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
+    "imageAttribution": "Photo by Severin.stalder, CC BY-SA 3.0, via Wikimedia Commons",
+    "wikidataId": "Q82972",
     "events": [
       {
         "year": -221,
         "sig": "major",
         "title": "Qin Shi Huang Unifies China",
-        "body": "After conquering the last rival state, Ying Zheng declares himself First Emperor and standardizes script, currency, and roads across a unified China."
+        "body": "Qin Shi Huang conquers the last rival states and declares himself the first emperor of a unified China, standardizing writing, currency, and law across the new empire.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Qin_Shi_Huang",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/QinShiHuang19century.jpg/330px-QinShiHuang19century.jpg",
+        "imageAttribution": "Public domain, via Wikimedia Commons",
+        "wikidataId": "Q7192",
+        "location": {
+          "historicalName": "Xianyang",
+          "city": "Xianyang",
+          "country": "China",
+          "latitude": 34.33,
+          "longitude": 108.71
+        }
       },
       {
         "year": -214,
         "sig": "minor",
         "title": "Construction Begins on the Great Wall",
-        "body": "Existing frontier walls are joined and extended under Qin rule to defend against northern nomadic incursions."
+        "body": "Qin Shi Huang orders existing defensive walls linked and extended into a single fortified line across China's northern frontier, the ancestor of the wall that stands today.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/330px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
+        "imageAttribution": "Photo by Severin.stalder, CC BY-SA 3.0, via Wikimedia Commons",
+        "wikidataId": "Q12501"
+      },
+      {
+        "year": -202,
+        "sig": "major",
+        "title": "Liu Bang Founds the Han Dynasty",
+        "body": "After defeating his rival Xiang Yu in the Chu-Han Contention, Liu Bang founds the Han dynasty, which will rule China for four centuries and give the Han Chinese their name.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Emperor_Gaozu_of_Han",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Liu-bang.jpg/330px-Liu-bang.jpg",
+        "imageAttribution": "Public domain, via Wikimedia Commons",
+        "wikidataId": "Q7210",
+        "location": {
+          "historicalName": "Chang'an",
+          "city": "Xi'an",
+          "country": "China",
+          "latitude": 34.26,
+          "longitude": 108.94
+        }
       },
       {
         "year": 105,
         "sig": "major",
         "title": "Cai Lun Refines Papermaking",
-        "body": "A court eunuch perfects a process for making paper from bark, hemp, and rags, transforming the spread of writing across Asia."
+        "body": "Han court official Cai Lun perfects a process for making paper from bark, hemp, and rags, a cheap and practical writing material that will eventually spread across the world.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Cai_Lun",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Cai-lun.jpg/330px-Cai-lun.jpg",
+        "imageAttribution": "Public domain, via Wikimedia Commons",
+        "wikidataId": "Q229235",
+        "location": {
+          "historicalName": "Luoyang",
+          "city": "Luoyang",
+          "country": "China",
+          "latitude": 34.62,
+          "longitude": 112.45
+        }
+      },
+      {
+        "year": 581,
+        "sig": "major",
+        "title": "Sui Wendi Reunifies China",
+        "body": "Emperor Wen ends nearly four centuries of division following the Han collapse, reuniting China under the short-lived Sui dynasty and laying the groundwork for the Grand Canal and the Tang golden age that follows.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Emperor_Wen_of_Sui",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Sui_Wendi_Tang.jpg/330px-Sui_Wendi_Tang.jpg",
+        "imageAttribution": "Painting by Yan Liben, Public domain, via Wikimedia Commons",
+        "wikidataId": "Q7418",
+        "location": {
+          "historicalName": "Chang'an",
+          "city": "Xi'an",
+          "country": "China",
+          "latitude": 34.26,
+          "longitude": 108.94
+        }
       },
       {
         "year": 630,
         "sig": "minor",
-        "title": "Tang Taizong Becomes ‘Heavenly Khan’",
-        "body": "Steppe leaders acknowledge the Tang emperor as supreme ruler, opening a golden age of trade along the Silk Road."
+        "title": "Tang Taizong Becomes 'Heavenly Khan'",
+        "body": "Emperor Taizong's defeat of the Eastern Turkic Khaganate leads the steppe peoples to acclaim him 'Heavenly Khan,' a title recognizing Tang authority over both China and the nomadic frontier.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Emperor_Taizong_of_Tang",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/TangTaizong.jpg/330px-TangTaizong.jpg",
+        "imageAttribution": "Public domain, via Wikimedia Commons",
+        "wikidataId": "Q9701",
+        "location": {
+          "historicalName": "Chang'an",
+          "city": "Xi'an",
+          "country": "China",
+          "latitude": 34.26,
+          "longitude": 108.94
+        }
+      },
+      {
+        "year": 755,
+        "sig": "major",
+        "title": "An Lushan Rebellion Devastates Tang China",
+        "body": "General An Lushan revolts against the Tang court, igniting an eight-year civil war so destructive that census records suggest China's population fell by tens of millions -- a blow the dynasty never fully recovers from.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/An_Lushan_rebellion",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/An_Lushan_Rebellion.png/330px-An_Lushan_Rebellion.png",
+        "imageAttribution": "Map by SY, CC BY-SA 4.0, via Wikimedia Commons",
+        "wikidataId": "Q253774",
+        "location": {
+          "historicalName": "Fanyang",
+          "city": "Beijing",
+          "country": "China",
+          "latitude": 39.91,
+          "longitude": 116.4
+        }
+      },
+      {
+        "year": 960,
+        "sig": "major",
+        "title": "The Song Dynasty Is Founded",
+        "body": "General Zhao Kuangyin is proclaimed emperor by his own troops and founds the Song dynasty, ushering in an era of economic growth, urbanization, and technological innovation like gunpowder and movable-type printing.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Emperor_Taizu_of_Song",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Song_Taizu.jpg/330px-Song_Taizu.jpg",
+        "imageAttribution": "Public domain, via Wikimedia Commons",
+        "wikidataId": "Q7471",
+        "location": {
+          "historicalName": "Bianjing",
+          "city": "Kaifeng",
+          "country": "China",
+          "latitude": 34.8,
+          "longitude": 114.35
+        }
       },
       {
         "year": 1279,
         "sig": "major",
         "title": "Mongols Conquer the Song Dynasty",
-        "body": "Kublai Khan's forces defeat the last Song loyalists at the Battle of Yamen, bringing all of China under Mongol Yuan rule for the first time."
+        "body": "Kublai Khan's fleet destroys the last Song loyalist forces at the naval Battle of Yamen, completing the Mongol conquest of China and founding the Yuan dynasty.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Yamen",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Jingmen002.jpg/500px-Jingmen002.jpg",
+        "imageAttribution": "Photo by 长夜无风, CC BY 3.0, via Wikimedia Commons",
+        "wikidataId": null,
+        "location": {
+          "historicalName": "Yamen",
+          "city": "Jiangmen",
+          "country": "China",
+          "latitude": 22.27,
+          "longitude": 113.08
+        }
       }
     ]
   },
