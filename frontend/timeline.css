@@ -243,15 +243,14 @@ button:focus-visible,
   width: 3.4em;
 }
 
-/* Below ~520px the topic filter, significance toggle, and zoom slider no
-   longer fit on one line and wrap into 3 stacked rows -- tighten padding and
-   gaps so that costs less vertical space before the timeline itself. */
+/* Below ~520px the significance toggle and zoom slider no longer fit on one
+   line and wrap into stacked rows -- tighten padding and gaps so that costs
+   less vertical space before the timeline itself. */
 @media (max-width: 520px) {
   .topbar { padding-top: 16px; padding-bottom: 12px; gap: 12px; }
   .controls { gap: 8px; align-items: stretch; }
   .control-row { gap: 8px; justify-content: flex-start; }
   .segmented button { padding: 5px 11px; }
-  .topic-filter-toggle { padding: 5px 10px; }
   .zoom-control input[type="range"] { width: 90px; }
 }
 
@@ -331,77 +330,63 @@ button:focus-visible,
 .nav-drawer-close:hover { color: var(--ink-primary); }
 
 .nav-drawer-list { display: flex; flex-direction: column; gap: 4px; }
-.nav-drawer-item {
+
+/* Each category is a .cat-row; the current one expands in place to nest its
+   topic checklist in a .cat-body underneath, so "browse categories" and
+   "filter topics within the category" read as one hierarchy instead of two
+   disconnected controls in opposite corners of the header. */
+.cat-section { display: flex; flex-direction: column; }
+.cat-row {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   gap: 12px;
+  width: 100%;
   padding: 10px 12px;
+  border: none;
   border-radius: 8px;
+  background: none;
   text-decoration: none;
   color: var(--ink-secondary);
   cursor: pointer;
+  font: inherit;
 }
-.nav-drawer-item:hover { background: var(--surface); color: var(--ink-primary); }
-.nav-drawer-item.active {
+.cat-row:hover { background: var(--surface); color: var(--ink-primary); }
+.cat-row.expanded {
   color: var(--brass-strong);
   background: var(--brass-glow);
-  cursor: default;
 }
-.nav-drawer-item-label {
+.cat-row.dim { color: var(--ink-muted); }
+.cat-row .name {
   font-family: 'Marcellus', serif;
   font-size: 15px;
-}
-.nav-drawer-item-count {
-  font-size: 11.5px;
-  color: var(--ink-muted);
-  font-variant-numeric: tabular-nums;
-}
-
-/* ---------- Topic filter ---------- */
-.topic-filter { position: relative; }
-.topic-filter-toggle {
-  border: 1px solid var(--hairline-strong);
-  background: var(--surface);
-  color: var(--ink-secondary);
-  font-size: 12.5px;
-  letter-spacing: 0.02em;
-  padding: 6px 12px;
-  border-radius: 999px;
-  cursor: pointer;
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 7px;
 }
-.topic-filter-toggle:hover { border-color: var(--brass); color: var(--ink-primary); }
-.topic-filter-toggle span {
-  font-variant-numeric: tabular-nums;
+.cat-row .chev {
+  font-size: 9px;
   color: var(--ink-muted);
-  font-size: 11.5px;
+  transition: transform 0.15s ease;
 }
-.topic-filter-toggle[aria-expanded="true"] {
-  border-color: var(--brass);
-  color: var(--brass-strong);
-  background: var(--brass-glow);
+.cat-row.expanded .chev { transform: rotate(90deg); color: var(--brass); }
+.cat-row .count {
+  font-size: 11.5px;
+  color: var(--ink-muted);
+  font-variant-numeric: tabular-nums;
 }
 
-.topic-filter-panel {
-  position: absolute;
-  top: calc(100% + 8px);
-  left: 0;
-  z-index: 10;
-  width: 240px;
-  background: var(--surface-raised);
-  border: 1px solid var(--hairline-strong);
-  border-radius: 10px;
-  box-shadow: var(--shadow);
-  padding: 10px;
+.cat-body {
+  padding: 2px 6px 10px 22px;
+  margin: 2px 0 6px 15px;
+  border-left: 2px solid var(--brass-glow);
 }
+
 .topic-filter-actions {
   display: flex;
   gap: 6px;
   padding-bottom: 8px;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   border-bottom: 1px solid var(--hairline);
 }
 .topic-filter-actions button {
@@ -416,13 +401,7 @@ button:focus-visible,
 }
 .topic-filter-actions button:hover { border-color: var(--brass); color: var(--ink-primary); }
 
-.topic-filter-list {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  max-height: 320px;
-  overflow-y: auto;
-}
+.topic-filter-list { display: flex; flex-direction: column; gap: 2px; }
 .topic-filter-item {
   display: flex;
   align-items: center;
@@ -658,7 +637,11 @@ button:focus-visible,
 .detail-panel {
   position: absolute;
   top: 0; right: 0; bottom: 0;
-  width: 348px;
+  /* Proportional instead of a flat 348px so it doesn't dominate mid-size
+     windows (e.g. ~40% of a ~1024px viewport) -- scales with the window
+     between a readable floor and a cap that keeps it from sprawling on
+     very wide screens. */
+  width: clamp(300px, 34vw, 400px);
   max-width: 92vw;
   border-left: 1px solid var(--hairline);
   background: var(--surface);
@@ -701,6 +684,33 @@ button:focus-visible,
   }
 }
 .drag-handle { display: none; }
+
+/* Sits as a direct child of the scrolling .detail-panel itself (not inside
+   .detail-content), so it's positioned relative to the panel's own padding
+   box and stays pinned to the visible bottom edge rather than scrolling
+   away with the content -- a persistent cue when there's more to see below,
+   toggled by updateDetailScrollFade() in timeline.js. */
+.detail-scroll-fade {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 60px;
+  /* A plain two-stop gradient only reaches ~50% opacity at its midpoint, so
+     across most of the band it barely registers -- especially over content
+     that isn't plain dark text (a photo, the map) where blending toward
+     --surface has little contrast to begin with. Front-loading the ramp
+     (opaque well before the bottom, and staying a solid block for the last
+     stretch) reads as a clear mask instead of a faint tint, regardless of
+     what's underneath. Also adds a soft shadow tint under the surface-color
+     wash so it still shows some presence over content close in tone to
+     --surface, without turning it into a heavy vignette everywhere else. */
+  background:
+    linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.06) 55%, rgba(0, 0, 0, 0.06)),
+    linear-gradient(to bottom, transparent, var(--surface) 65%, var(--surface));
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+.detail-scroll-fade.visible { opacity: 1; }
 
 .detail-content { display: flex; flex-direction: column; gap: 16px; }
 .detail-eyebrow {

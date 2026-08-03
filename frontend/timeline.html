@@ -47,18 +47,6 @@
       </div>
       <div class="controls">
         <div class="control-row">
-          <div class="topic-filter" id="topicFilter">
-            <button type="button" class="topic-filter-toggle" id="topicFilterToggle" aria-haspopup="true" aria-expanded="false">
-              <span id="topicFilterLabel">Topics</span> <span id="topicFilterCount">—</span>
-            </button>
-            <div class="topic-filter-panel" id="topicFilterPanel" hidden>
-              <div class="topic-filter-actions">
-                <button type="button" id="topicFilterAll">Select all</button>
-                <button type="button" id="topicFilterClear">Clear</button>
-              </div>
-              <div class="topic-filter-list" id="topicFilterList"></div>
-            </div>
-          </div>
           <div class="segmented" role="group" aria-label="Event significance">
             <button type="button" data-sig="major" aria-pressed="false">Landmark events</button>
             <button type="button" data-sig="all" aria-pressed="true">All events</button>
@@ -111,6 +99,7 @@
             </div>
           </div>
         </div>
+        <div class="detail-scroll-fade" id="detailScrollFade" aria-hidden="true"></div>
       </aside>
     </div>
 

@@ -98,14 +98,12 @@
   var topicCountEl = document.getElementById("topicCount");
   var stageEl = document.getElementById("stage");
   var loadStateEl = document.getElementById("loadState");
-  var topicFilterEl = document.getElementById("topicFilter");
-  var topicFilterToggle = document.getElementById("topicFilterToggle");
-  var topicFilterLabel = document.getElementById("topicFilterLabel");
-  var topicFilterPanel = document.getElementById("topicFilterPanel");
-  var topicFilterList = document.getElementById("topicFilterList");
-  var topicFilterCount = document.getElementById("topicFilterCount");
-  var topicFilterAll = document.getElementById("topicFilterAll");
-  var topicFilterClear = document.getElementById("topicFilterClear");
+  // The topic checklist for the current category lives nested inside the nav
+  // drawer (see renderNavList) rather than as static markup, since it has to
+  // render under whichever category row is "current" -- these get assigned
+  // once renderNavList builds that section.
+  var topicFilterList = null;
+  var topicFilterCountEl = null;
   var navToggle = document.getElementById("navToggle");
   var navScrim = document.getElementById("navScrim");
   var navDrawer = document.getElementById("navDrawer");
@@ -241,11 +239,10 @@
   }
 
   function updateTopicFilterCount() {
-    topicFilterCount.textContent = state.selectedTopics.size + "/" + TOPICS.length;
+    if (topicFilterCountEl) topicFilterCountEl.textContent = state.selectedTopics.size + "/" + TOPICS.length;
   }
 
   function buildTopicFilter() {
-    if (topicFilterLabel) topicFilterLabel.textContent = CATEGORY_LABEL;
     topicFilterList.innerHTML = "";
     TOPICS.forEach(function (topic) {
       var item = document.createElement("label");
@@ -279,53 +276,102 @@
     updateTopicFilterCount();
   }
 
-  function openTopicFilter() {
-    topicFilterPanel.hidden = false;
-    topicFilterToggle.setAttribute("aria-expanded", "true");
-  }
-  function closeTopicFilter() {
-    topicFilterPanel.hidden = true;
-    topicFilterToggle.setAttribute("aria-expanded", "false");
-  }
-
-  topicFilterToggle.addEventListener("click", function () {
-    if (topicFilterPanel.hidden) openTopicFilter(); else closeTopicFilter();
-  });
-  document.addEventListener("click", function (e) {
-    if (!topicFilterEl.contains(e.target)) closeTopicFilter();
-  });
-  document.addEventListener("keydown", function (e) {
-    if (e.key === "Escape") closeTopicFilter();
-  });
-
-  topicFilterAll.addEventListener("click", function () {
-    state.selectedTopics = new Set(TOPICS.map(function (t) { return t.id; }));
-    topicFilterList.querySelectorAll("input[type=checkbox]").forEach(function (cb) { cb.checked = true; });
-    updateTopicFilterCount();
-    renderLanes();
-  });
-  topicFilterClear.addEventListener("click", function () {
-    state.selectedTopics = new Set();
-    topicFilterList.querySelectorAll("input[type=checkbox]").forEach(function (cb) { cb.checked = false; });
-    updateTopicFilterCount();
-    renderLanes();
-  });
-
+  // The nav drawer is the single place to browse: each category is a row,
+  // and the current category's row expands in place to show its topic
+  // checklist (Select all / Clear + per-topic checkboxes) nested underneath,
+  // rather than that checklist living in a separate top-right control.
+  // Other categories stay simple links -- switching category is a page
+  // navigation today, so there's no topic list to nest under them yet.
+  //
+  // Only auto-expand the current category's checklist when it's the sole
+  // category -- with just one category (today) there's nothing else it could
+  // crowd out, so skipping the extra click is a pure win. Once a second
+  // category exists, a 16-item checklist auto-expanding would push that
+  // category's row off the bottom of the drawer with no hint it's there, so
+  // every row starts collapsed and the full category list stays scannable.
   function renderNavList(categories) {
     navList.innerHTML = "";
+    var soleCategory = categories.length === 1;
     categories.forEach(function (cat) {
       var isCurrent = cat.id === CATEGORY;
-      var item = document.createElement(isCurrent ? "span" : "a");
-      item.className = "nav-drawer-item" + (isCurrent ? " active" : "");
+      var section = document.createElement("div");
+      section.className = "cat-section";
+
+      var row = document.createElement(isCurrent ? "button" : "a");
+      row.className = "cat-row" + (isCurrent ? (soleCategory ? " expanded" : "") : " dim");
       if (isCurrent) {
-        item.setAttribute("aria-current", "page");
+        row.type = "button";
+        row.setAttribute("aria-expanded", soleCategory ? "true" : "false");
       } else {
-        item.href = "timeline.html?category=" + encodeURIComponent(cat.id);
+        row.href = "timeline.html?category=" + encodeURIComponent(cat.id);
       }
-      item.innerHTML =
-        '<span class="nav-drawer-item-label">' + cat.label + "</span>" +
-        '<span class="nav-drawer-item-count">' + cat.count + "</span>";
-      navList.appendChild(item);
+
+      var name = document.createElement("span");
+      name.className = "name";
+      if (isCurrent) {
+        var chev = document.createElement("span");
+        chev.className = "chev";
+        chev.setAttribute("aria-hidden", "true");
+        chev.textContent = "▶";
+        name.appendChild(chev);
+      }
+      name.appendChild(document.createTextNode(cat.label));
+      row.appendChild(name);
+
+      var count = document.createElement("span");
+      count.className = "count";
+      count.textContent = cat.count;
+      row.appendChild(count);
+
+      section.appendChild(row);
+
+      if (isCurrent) {
+        var body = document.createElement("div");
+        body.className = "cat-body";
+        body.hidden = !soleCategory;
+
+        var actions = document.createElement("div");
+        actions.className = "topic-filter-actions";
+        var allBtn = document.createElement("button");
+        allBtn.type = "button";
+        allBtn.textContent = "Select all";
+        allBtn.addEventListener("click", function () {
+          state.selectedTopics = new Set(TOPICS.map(function (t) { return t.id; }));
+          topicFilterList.querySelectorAll("input[type=checkbox]").forEach(function (cb) { cb.checked = true; });
+          updateTopicFilterCount();
+          renderLanes();
+        });
+        var clearBtn = document.createElement("button");
+        clearBtn.type = "button";
+        clearBtn.textContent = "Clear";
+        clearBtn.addEventListener("click", function () {
+          state.selectedTopics = new Set();
+          topicFilterList.querySelectorAll("input[type=checkbox]").forEach(function (cb) { cb.checked = false; });
+          updateTopicFilterCount();
+          renderLanes();
+        });
+        actions.appendChild(allBtn);
+        actions.appendChild(clearBtn);
+        body.appendChild(actions);
+
+        var list = document.createElement("div");
+        list.className = "topic-filter-list";
+        body.appendChild(list);
+
+        section.appendChild(body);
+
+        topicFilterList = list;
+        topicFilterCountEl = count;
+
+        row.addEventListener("click", function () {
+          var willOpen = body.hidden;
+          body.hidden = !willOpen;
+          row.classList.toggle("expanded", willOpen);
+          row.setAttribute("aria-expanded", String(willOpen));
+        });
+      }
+
+      navList.appendChild(section);
     });
   }
 
@@ -375,6 +421,10 @@
       document.getElementById("detailImageCaption").textContent =
         ev.imageDescription || ev.imageAttribution || "";
       figure.hidden = false;
+      // The image's intrinsic size (and so the panel's scrollHeight) isn't
+      // known until it loads, so the fade computed right below can be wrong
+      // until this fires -- recompute once it does.
+      detailImage.onload = updateDetailScrollFade;
     } else {
       figure.hidden = true;
     }
@@ -390,8 +440,37 @@
     showLocationOnMap(ev.location);
 
     var panel = document.getElementById("detailPanel");
+    panel.scrollTop = 0;
     panel.classList.add("open");
+    detailScrollFadeDismissed = false;
+    updateDetailScrollFade();
   }
+
+  // One-time "there's more below, scroll to see it" nudge for the detail
+  // panel: shown only in the pristine, just-opened state when content
+  // overflows, and dismissed for good on the reader's first scroll of that
+  // event -- not a running scroll-shadow that reappears/disappears as they
+  // scroll through the middle of the content (tried that first; it meant
+  // the fade sat over whatever line was currently at the bottom edge for as
+  // long as the reader hadn't reached the literal end, which read as "stuck"
+  // rather than as a cue). Scrolling back to the top doesn't bring it back.
+  var detailPanelEl = document.getElementById("detailPanel");
+  var detailScrollFadeEl = document.getElementById("detailScrollFade");
+  var detailScrollFadeDismissed = false;
+  function updateDetailScrollFade() {
+    if (detailScrollFadeDismissed) {
+      detailScrollFadeEl.classList.remove("visible");
+      return;
+    }
+    var hasOverflow = detailPanelEl.scrollHeight - detailPanelEl.clientHeight > 4;
+    detailScrollFadeEl.classList.toggle("visible", hasOverflow);
+  }
+  detailPanelEl.addEventListener("scroll", function () {
+    if (detailScrollFadeDismissed) return;
+    detailScrollFadeDismissed = true;
+    detailScrollFadeEl.classList.remove("visible");
+  });
+  window.addEventListener("resize", updateDetailScrollFade);
 
   var worldMapReady = null;
 
