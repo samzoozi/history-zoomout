@@ -11,7 +11,7 @@ from constructs import Construct
 
 # The Lambda handler below is a placeholder that returns a static response.
 # Swap `code` and `handler` for a Mangum-wrapped FastAPI app once
-# backend/src/historyrewind has one (e.g. lambda_.Code.from_asset("../backend")).
+# backend/src/history_zoomout has one (e.g. lambda_.Code.from_asset("../backend")).
 PLACEHOLDER_HANDLER = """
 import json
 
@@ -19,7 +19,7 @@ def handler(event, context):
     return {
         "statusCode": 200,
         "headers": {"Content-Type": "application/json"},
-        "body": json.dumps({"message": "historyrewind API placeholder"}),
+        "body": json.dumps({"message": "history_zoomout API placeholder"}),
     }
 """
 
@@ -47,8 +47,8 @@ class BackendStack(Stack):
             serverless_v2_max_capacity=2,
             vpc=vpc,
             vpc_subnets=ec2.SubnetSelection(subnet_type=ec2.SubnetType.PRIVATE_ISOLATED),
-            default_database_name="historyrewind",
-            credentials=rds.Credentials.from_generated_secret("historyrewind_admin"),
+            default_database_name="history_zoomout",
+            credentials=rds.Credentials.from_generated_secret("history_zoomout_admin"),
         )
 
         api_fn = lambda_.Function(

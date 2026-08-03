@@ -17,7 +17,7 @@
 
   var TICK_YEARS = [-3000, -2500, -2000, -1500, -1000, -500, 1, 500, 1000, 1500];
 
-  var API_BASE = window.HISTORYREWIND_API_BASE || "http://localhost:8000";
+  var API_BASE = window.HISTORYZOOMOUT_API_BASE || "http://localhost:8000";
 
   var CIVS = [];
 

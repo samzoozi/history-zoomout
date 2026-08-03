@@ -1,7 +1,7 @@
 [project]
-name = "historyrewind-infra"
+name = "history-zoomout-infra"
 version = "0.1.0"
-description = "AWS CDK app defining HistoryRewind's infrastructure"
+description = "AWS CDK app defining History Zoomout's infrastructure"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [

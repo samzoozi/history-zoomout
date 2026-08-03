@@ -12,7 +12,7 @@ env = cdk.Environment(
 )
 
 app = cdk.App()
-FrontendStack(app, "HistoryRewindFrontend", env=env)
-BackendStack(app, "HistoryRewindBackend", env=env)
+FrontendStack(app, "HistoryZoomoutFrontend", env=env)
+BackendStack(app, "HistoryZoomoutBackend", env=env)
 
 app.synth()

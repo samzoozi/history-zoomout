@@ -8,7 +8,7 @@ from .db import SessionLocal
 from .models import Civilization
 from .schemas import CivilizationOut
 
-app = FastAPI(title="HistoryRewind API")
+app = FastAPI(title="History Zoomout API")
 
 app.add_middleware(
     CORSMiddleware,

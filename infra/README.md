@@ -1,11 +1,11 @@
-# historyrewind infra
+# history-zoomout infra
 
-AWS CDK (Python) app defining HistoryRewind's infrastructure.
+AWS CDK (Python) app defining History Zoomout's infrastructure.
 
 ## Stacks
 
-- **HistoryRewindFrontend** — S3 bucket + CloudFront distribution serving `../frontend` as a static site.
-- **HistoryRewindBackend** — VPC, an Aurora Serverless v2 Postgres cluster, and a Lambda function behind
+- **HistoryZoomoutFrontend** — S3 bucket + CloudFront distribution serving `../frontend` as a static site.
+- **HistoryZoomoutBackend** — VPC, an Aurora Serverless v2 Postgres cluster, and a Lambda function behind
   API Gateway. The Lambda currently runs a placeholder handler; swap it for a Mangum-wrapped FastAPI app
   from `../backend` once one exists.
 

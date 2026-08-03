@@ -1,4 +1,4 @@
-# HistoryRewind
+# History Zoomout
 
 An interactive timeline of world civilizations — see the defining moments of Mesopotamia,
 Egypt, Rome, China, and more laid out side by side, zoomable from the Bronze Age to the
@@ -31,8 +31,8 @@ docker compose up -d
 ```
 cd backend
 uv run alembic upgrade head
-uv run historyrewind-seed
-uv run uvicorn historyrewind.main:app --reload --port 8000
+uv run history-zoomout-seed
+uv run uvicorn history_zoomout.main:app --reload --port 8000
 ```
 
 **3. Frontend** — no build step; serve it on a different port than the API:

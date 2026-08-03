@@ -96,7 +96,7 @@ wheels = [
 ]
 
 [[package]]
-name = "historyrewind-infra"
+name = "history-zoomout-infra"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

@@ -5,9 +5,9 @@ from sqlalchemy import pool
 
 from alembic import context
 
-from historyrewind import models  # noqa: F401 -- registers models on Base.metadata
-from historyrewind.config import settings
-from historyrewind.db import Base
+from history_zoomout import models  # noqa: F401 -- registers models on Base.metadata
+from history_zoomout.config import settings
+from history_zoomout.db import Base
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.

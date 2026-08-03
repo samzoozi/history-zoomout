@@ -1,5 +1,5 @@
 [project]
-name = "historyrewind"
+name = "history_zoomout"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -17,8 +17,8 @@ dependencies = [
 ]
 
 [project.scripts]
-historyrewind = "historyrewind:main"
-historyrewind-seed = "historyrewind.seed:main"
+history-zoomout = "history_zoomout:main"
+history-zoomout-seed = "history_zoomout.seed:main"
 
 [build-system]
 requires = ["uv_build>=0.9.2,<0.10.0"]
