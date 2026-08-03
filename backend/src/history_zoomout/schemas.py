@@ -1,6 +1,18 @@
 from pydantic import BaseModel, ConfigDict, Field
 
 
+class LocationOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    historical_name: str | None = Field(
+        default=None, serialization_alias="historicalName"
+    )
+    city: str | None = None
+    country: str | None = None
+    latitude: float | None = None
+    longitude: float | None = None
+
+
 class EventOut(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 
@@ -14,6 +26,7 @@ class EventOut(BaseModel):
         default=None, serialization_alias="imageAttribution"
     )
     wikidata_id: str | None = Field(default=None, serialization_alias="wikidataId")
+    location: LocationOut | None = None
 
 
 class TopicOut(BaseModel):

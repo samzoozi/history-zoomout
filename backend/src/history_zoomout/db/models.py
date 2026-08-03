@@ -1,4 +1,4 @@
-from sqlalchemy import ForeignKey, Integer, String, Text
+from sqlalchemy import Float, ForeignKey, Integer, String, Text
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from . import Base
@@ -34,6 +34,27 @@ class Topic(Base):
     )
 
 
+class Location(Base):
+    """A place an event happened, named both historically and as it maps today.
+
+    `historical_name` is the place as it was known at the time (e.g.
+    "Carrhae"); `city` and `country` are its modern-day equivalents (e.g.
+    "Harran", "Turkey"), since these often differ from the historical
+    name/borders.
+    """
+
+    __tablename__ = "locations"
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    historical_name: Mapped[str | None] = mapped_column(String, nullable=True)
+    city: Mapped[str | None] = mapped_column(String, nullable=True)
+    country: Mapped[str | None] = mapped_column(String, nullable=True)
+    latitude: Mapped[float | None] = mapped_column(Float, nullable=True)
+    longitude: Mapped[float | None] = mapped_column(Float, nullable=True)
+
+    events: Mapped[list[Event]] = relationship(back_populates="location")
+
+
 class Event(Base):
     __tablename__ = "events"
 
@@ -49,4 +70,9 @@ class Event(Base):
     image_attribution: Mapped[str | None] = mapped_column(String, nullable=True)
     wikidata_id: Mapped[str | None] = mapped_column(String, nullable=True)
 
+    location_id: Mapped[int | None] = mapped_column(
+        ForeignKey("locations.id"), nullable=True
+    )
+
     topic: Mapped[Topic] = relationship(back_populates="events")
+    location: Mapped[Location | None] = relationship(back_populates="events")

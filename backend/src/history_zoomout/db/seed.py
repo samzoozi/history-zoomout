@@ -2,7 +2,7 @@ import json
 from importlib import resources
 
 from . import Base, SessionLocal, engine
-from .models import Event, Topic
+from .models import Event, Location, Topic
 
 
 def load_seed_data() -> list[dict]:
@@ -12,6 +12,18 @@ def load_seed_data() -> list[dict]:
     return json.loads(path.read_text())
 
 
+def build_location(loc: dict | None) -> Location | None:
+    if loc is None:
+        return None
+    return Location(
+        historical_name=loc.get("historicalName"),
+        city=loc.get("city"),
+        country=loc.get("country"),
+        latitude=loc.get("latitude"),
+        longitude=loc.get("longitude"),
+    )
+
+
 def seed() -> None:
     Base.metadata.create_all(bind=engine)
     civilizations = load_seed_data()
@@ -19,6 +31,7 @@ def seed() -> None:
     db = SessionLocal()
     try:
         db.query(Event).delete()
+        db.query(Location).delete()
         db.query(Topic).delete()
         db.flush()
 
@@ -46,6 +59,7 @@ def seed() -> None:
                             image_url=ev.get("imageUrl"),
                             image_attribution=ev.get("imageAttribution"),
                             wikidata_id=ev.get("wikidataId"),
+                            location=build_location(ev.get("location")),
                         )
                         for ev in civ["events"]
                     ],

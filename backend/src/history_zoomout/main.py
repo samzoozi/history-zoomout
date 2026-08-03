@@ -5,7 +5,7 @@ from sqlalchemy.orm import selectinload
 
 from .config import settings
 from .db import SessionLocal
-from .db.models import Topic
+from .db.models import Event, Topic
 from .schemas import TopicOut
 
 app = FastAPI(title="History Zoomout API")
@@ -30,7 +30,7 @@ def list_topics(category: str):
         stmt = (
             select(Topic)
             .where(Topic.category == category)
-            .options(selectinload(Topic.events))
+            .options(selectinload(Topic.events).selectinload(Event.location))
             .order_by(Topic.start_year)
         )
         return db.scalars(stmt).all()
