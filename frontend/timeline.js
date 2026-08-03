@@ -5,14 +5,16 @@
   var BASE_PX_PER_YEAR = 0.62;
   var LABEL_WIDTH = 184;
   var SIDEBAR_GUTTER = 360; // scroll room so the open detail panel never covers the timeline's end
-  var AUTO_TICK_TARGET_COUNT = 8;
-  var AUTO_TICK_MIN_PX_SPACING = 100; // at zoom=1x, so "1900 CE"-style labels never crowd each other
+  var AUTO_TICK_MIN_PX_SPACING = 170; // smallest step whose pixel gap at the CURRENT zoom clears this; recomputed every render so ticks get denser as pxPerYear() grows with zoom
   var NICE_TICK_STEPS_YEARS = [10, 25, 50, 100, 200, 250, 500, 1000, 2000, 2500, 5000, 10000, 25000];
+  var MIN_MARKER_GAP_PX = 16; // minimum center-to-center spacing between markers in a lane, so close-in-time events never render as one indistinguishable blob
 
   // Per-category timeline rendering config. `civilization` keeps the original
-  // curated eras/ticks/domain; any category not listed here gets a domain
-  // fitted purely to its data (no artificial floor) with no era-band overlay
-  // and auto-generated round-number ticks (see generateTicks).
+  // curated eras/domain; any category not listed here gets a domain fitted
+  // purely to its data (no artificial floor) with no era-band overlay.
+  // Tick years are never curated here -- they're always generated fresh from
+  // the current zoom level (see generateTicks/pickTickStep) so zooming in
+  // reveals finer date resolution instead of just spreading the same ticks out.
   var CATEGORY_TIMELINE_CONFIG = {
     civilization: {
       domainStart: -3200,
@@ -24,15 +26,13 @@
         { start: 500, end: 1000, label: "Early Middle Ages" },
         { start: 1000, end: 1450, label: "High Middle Ages" },
         { start: 1450, end: 1600, label: "Age of Contact" }
-      ],
-      tickYears: [-3000, -2500, -2000, -1500, -1000, -500, 1, 500, 1000, 1500]
+      ]
     }
   };
   var DEFAULT_TIMELINE_CONFIG = {
     domainStart: Infinity,
     domainEnd: -Infinity,
-    eras: [],
-    tickYears: null // null means auto-generate from the fitted domain
+    eras: []
   };
 
   function getCategory() {
@@ -46,7 +46,6 @@
   var DOMAIN_START = TIMELINE_CONFIG.domainStart;
   var DOMAIN_END = TIMELINE_CONFIG.domainEnd;
   var ERAS = TIMELINE_CONFIG.eras;
-  var TICK_YEARS = TIMELINE_CONFIG.tickYears;
 
   var API_BASE = window.HISTORYZOOMOUT_API_BASE || "http://localhost:8000";
 
@@ -56,26 +55,28 @@
     return year <= 0 ? (Math.abs(year) + " BCE") : (year + " CE");
   }
 
-  // Pick a round-number tick step (10/25/50/100/250/500/1000-year style)
-  // for categories without curated tickYears. Balances two constraints: land
-  // close to AUTO_TICK_TARGET_COUNT ticks across the domain, but never pick a
-  // step so small that adjacent "1900 CE"-style labels would crowd each
-  // other at the current zoom.
-  function pickTickStep(span) {
-    var roughStep = span / AUTO_TICK_TARGET_COUNT;
+  // Pick the finest round-number tick step (10/25/50/.../1000-year style)
+  // whose pixel spacing at the CURRENT zoom still clears AUTO_TICK_MIN_PX_SPACING.
+  // Driven purely by pxPerYear() -- not by the domain's total span -- so this
+  // naturally returns a smaller (denser) step as you zoom in, rather than a
+  // step picked once for "about N ticks across the whole domain" that then
+  // never changes as zoom changes.
+  function pickTickStep() {
     for (var i = 0; i < NICE_TICK_STEPS_YEARS.length; i++) {
       var step = NICE_TICK_STEPS_YEARS[i];
-      if (step >= roughStep && step * pxPerYear() >= AUTO_TICK_MIN_PX_SPACING) {
+      if (step * pxPerYear() >= AUTO_TICK_MIN_PX_SPACING) {
         return step;
       }
     }
     return NICE_TICK_STEPS_YEARS[NICE_TICK_STEPS_YEARS.length - 1];
   }
 
+  // Recomputed on every render (see renderAxisAndEras) so it always reflects
+  // the current zoom.
   function generateTicks(start, end) {
     var span = end - start;
     if (span <= 0) return [Math.round(start)];
-    var step = pickTickStep(span);
+    var step = pickTickStep();
     var first = Math.ceil(start / step) * step;
     var ticks = [];
     for (var y = first; y <= end; y += step) {
@@ -121,9 +122,6 @@
     var maxEnd = TOPICS.reduce(function (m, t) { return Math.max(m, t.end); }, DOMAIN_END);
     DOMAIN_START = minStart - DOMAIN_PADDING_YEARS;
     DOMAIN_END = maxEnd + DOMAIN_PADDING_YEARS;
-    if (!TICK_YEARS) {
-      TICK_YEARS = generateTicks(DOMAIN_START, DOMAIN_END);
-    }
   }
 
   function totalEventCount() {
@@ -140,8 +138,7 @@
     var w = trackWidth();
     trackEl.style.width = (w + LABEL_WIDTH + SIDEBAR_GUTTER) + "px";
     axisTrack.innerHTML = "";
-    TICK_YEARS.forEach(function (y) {
-      if (y < DOMAIN_START || y > DOMAIN_END) return;
+    generateTicks(DOMAIN_START, DOMAIN_END).forEach(function (y) {
       var tick = document.createElement("div");
       tick.className = "tick";
       tick.style.left = yearToX(y) + "px";
@@ -190,6 +187,14 @@
       laneTrack.className = "lane-track";
       laneTrack.style.setProperty("--civ-color", colorVar);
 
+      // Faint guide spanning the lane's full width (the whole domain, not
+      // just this topic's date range) so a row never reads as empty/broken
+      // when scrolled somewhere its actual (colored, brighter) line doesn't
+      // reach -- there's always a thin rail hinting the lane continues.
+      var rail = document.createElement("div");
+      rail.className = "lane-rail";
+      laneTrack.appendChild(rail);
+
       var line = document.createElement("div");
       line.className = "lane-line";
       var lx = yearToX(topic.start);
@@ -198,13 +203,27 @@
       line.style.width = Math.max(2, rx - lx) + "px";
       laneTrack.appendChild(line);
 
-      topic.events.forEach(function (ev) {
-        if (state.sig === "major" && ev.sig !== "major") return;
+      // Resolve x positions before creating any marker elements: at low zoom,
+      // events close in time land within a few px of each other and render
+      // as one indistinguishable, barely-clickable blob. Sort by ideal x and
+      // push later markers apart just enough to keep a minimum gap, rather
+      // than rendering them at their literal (possibly identical) pixel position.
+      var positioned = topic.events
+        .filter(function (ev) { return !(state.sig === "major" && ev.sig !== "major"); })
+        .map(function (ev) { return { ev: ev, x: yearToX(ev.year) }; })
+        .sort(function (a, b) { return a.x - b.x; });
+      for (var i = 1; i < positioned.length; i++) {
+        var minX = positioned[i - 1].x + MIN_MARKER_GAP_PX;
+        if (positioned[i].x < minX) positioned[i].x = minX;
+      }
+
+      positioned.forEach(function (p) {
+        var ev = p.ev;
         var marker = document.createElement("button");
         marker.type = "button";
         marker.className = "marker" + (ev.sig === "major" ? " major" : "");
         marker.style.setProperty("--civ-color", colorVar);
-        marker.style.left = yearToX(ev.year) + "px";
+        marker.style.left = p.x + "px";
         marker.setAttribute("aria-pressed", "false");
         var evId = topic.id + "::" + ev.year;
         marker.dataset.evId = evId;

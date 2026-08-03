@@ -161,6 +161,13 @@ button:focus-visible,
   flex-wrap: wrap;
   flex-shrink: 0;
 }
+/* .nav-toggle is fixed at left:8px, width 34px (spans to x=42) -- below the
+   width where clamp(20px, 4vw, 44px) settles at its 20px floor, the topbar's
+   own left padding is no longer wide enough to clear it, so the button
+   overlaps the wordmark. Widen the gutter once that floor kicks in. */
+@media (max-width: 520px) {
+  .topbar { padding-left: 52px; }
+}
 .brand-block { display: flex; flex-direction: column; gap: 4px; }
 .wordmark {
   font-family: 'Marcellus', serif;
@@ -234,6 +241,18 @@ button:focus-visible,
   font-size: 12px;
   color: var(--ink-secondary);
   width: 3.4em;
+}
+
+/* Below ~520px the topic filter, significance toggle, and zoom slider no
+   longer fit on one line and wrap into 3 stacked rows -- tighten padding and
+   gaps so that costs less vertical space before the timeline itself. */
+@media (max-width: 520px) {
+  .topbar { padding-top: 16px; padding-bottom: 12px; gap: 12px; }
+  .controls { gap: 8px; align-items: stretch; }
+  .control-row { gap: 8px; justify-content: flex-start; }
+  .segmented button { padding: 5px 11px; }
+  .topic-filter-toggle { padding: 5px 10px; }
+  .zoom-control input[type="range"] { width: 90px; }
 }
 
 /* ---------- Nav drawer ---------- */
@@ -549,6 +568,21 @@ button:focus-visible,
 }
 .lane-track { position: relative; flex: 1; height: 78px; }
 
+/* Faint guide spanning the lane's FULL width (the whole domain, not just
+   this topic's date range), sitting behind the brighter .lane-line -- so a
+   row scrolled somewhere its actual dated line doesn't reach still shows a
+   thin trace rather than reading as empty/broken. */
+.lane-rail {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  transform: translateY(-50%);
+  background: var(--hairline-strong);
+  opacity: 0.6;
+}
+
 .lane-line {
   position: absolute;
   top: 50%;
@@ -640,6 +674,14 @@ button:focus-visible,
 .detail-panel.open { transform: translateX(0); }
 @media (max-width: 900px) {
   .detail-panel {
+    /* Fixed to the viewport rather than absolute within .stage: bottom:0 must
+       mean the true screen edge so translateY(100%) -- which only moves the
+       panel by its OWN rendered height -- fully clears it. With
+       position:absolute the panel sits inside .stage, whose bottom edge sits
+       above the page footer; a short panel (little/no content selected yet)
+       is shorter than that gap, so translateY(100%) undershoots and leaves a
+       sliver of the closed sheet visible over the timeline. */
+    position: fixed;
     left: 0; right: 0; bottom: 0; top: auto;
     width: auto;
     max-width: none;
