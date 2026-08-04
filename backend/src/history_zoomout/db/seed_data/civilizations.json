@@ -1692,36 +1692,138 @@
     "colorIndex": 3,
     "start": 802,
     "end": 1431,
+    "summary": "Founded in 802 when Jayavarman II is consecrated as a universal monarch on Phnom Kulen, the Khmer Empire grows into the dominant power of mainland Southeast Asia, centered on the temple-city of Angkor. Its kings build an unmatched sequence of monuments, from Angkor Wat under Suryavarman II to the fortified capital of Angkor Thom and the Bayon under Jayavarman VII, who rebuilds the empire after a Cham fleet sacks the capital in 1177. A Chinese envoy's eyewitness account of Angkor at the turn of the 14th century survives as one of the empire's only outside records, but repeated wars with the rising Siamese kingdom of Ayutthaya erode Khmer power until Angkor itself is captured and abandoned in 1431.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Khmer_Empire",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Map-of-southeast-asia_900_CE.svg/330px-Map-of-southeast-asia_900_CE.svg.png",
+    "imageAttribution": "Map by Jembezmamy, CC0, via Wikimedia Commons",
+    "imageDescription": "A map of Southeast Asia circa 900 CE, showing the Khmer Empire's territory alongside neighboring Champa and other states.",
+    "wikidataId": "Q201705",
     "events": [
       {
         "year": 802,
         "sig": "major",
         "title": "Jayavarman II Founds the Khmer Empire",
-        "body": "A ruler declares himself universal monarch atop Phnom Kulen, unifying rival principalities into what will become the Khmer Empire."
+        "body": "Atop Mount Mahendraparvata, brahmin priests consecrate Jayavarman II as a chakravartin, or universal monarch, establishing the devaraja cult of divine kingship and unifying rival principalities into the new Khmer Empire.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Jayavarman_II",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Phnom_Kulen8.JPG/330px-Phnom_Kulen8.JPG",
+        "imageAttribution": "Photo by Xufanc, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "Phnom Kulen, the mountain range known in antiquity as Mahendraparvata, where Jayavarman II was consecrated as universal monarch.",
+        "wikidataId": "Q379239",
+        "location": {
+          "historicalName": "Mahendraparvata",
+          "city": null,
+          "country": "Cambodia",
+          "latitude": 13.612778,
+          "longitude": 104.1125
+        }
       },
       {
         "year": 900,
         "sig": "minor",
         "title": "Yasodharapura Becomes the Capital",
-        "body": "King Yasovarman I establishes a new capital near Angkor, anchored by a temple-mountain dedicated to Shiva."
+        "body": "King Yasovarman I moves his court to a new capital, Yasodharapura, anchored by the temple-mountain of Phnom Bakheng, dedicated to Shiva on a hill overlooking the site that becomes Angkor.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Yasovarman_I",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Phnom_Bakheng_temple_at_Angkor%2C_Cambodia.jpg/330px-Phnom_Bakheng_temple_at_Angkor%2C_Cambodia.jpg",
+        "imageAttribution": "Photo by Satdeep Gill, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "Phnom Bakheng, the Shiva temple-mountain at the center of Yasovarman I's new capital, Yasodharapura.",
+        "wikidataId": "Q559810",
+        "location": {
+          "historicalName": "Yasodharapura",
+          "city": "Angkor",
+          "country": "Cambodia",
+          "latitude": 13.4125,
+          "longitude": 103.866667
+        }
       },
       {
         "year": 1113,
         "sig": "major",
         "title": "Construction of Angkor Wat Begins",
-        "body": "Suryavarman II commissions the largest religious monument in the world, originally dedicated to the Hindu god Vishnu."
+        "body": "Suryavarman II commissions the largest religious monument in the world as his state temple, originally dedicated to the Hindu god Vishnu.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Angkor_Wat",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Angkor_Wat.jpg/330px-Angkor_Wat.jpg",
+        "imageAttribution": "Photo by Bj\u00f8rn Christian T\u00f8rrissen, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "Angkor Wat, the front of the main temple complex, photographed in the late afternoon.",
+        "wikidataId": "Q43473",
+        "location": {
+          "historicalName": "Angkor Wat",
+          "city": "Angkor",
+          "country": "Cambodia",
+          "latitude": 13.4125,
+          "longitude": 103.866667
+        }
+      },
+      {
+        "year": 1177,
+        "sig": "major",
+        "title": "The Cham Sack Angkor",
+        "body": "A Cham fleet under Jaya Indravarman IV sails up the Tonl\u00e9 Sap, sacks the Khmer capital of Yasodharapura, and kills King Tribhuvanadityavarman, beginning a four-year occupation of the Khmer heartland.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Tonl%C3%A9_Sap",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Angkor_-_Bayon_-_032_Battle_Scenes_%288581861528%29.jpg/330px-Angkor_-_Bayon_-_032_Battle_Scenes_%288581861528%29.jpg",
+        "imageAttribution": "Photo by Photo Dharma, CC BY 2.0, via Wikimedia Commons",
+        "imageDescription": "A bas-relief at the Bayon temple depicting the Khmer-Cham naval battles fought on the Tonl\u00e9 Sap.",
+        "wikidataId": "Q23719075",
+        "location": {
+          "historicalName": "Yasodharapura",
+          "city": "Angkor",
+          "country": "Cambodia",
+          "latitude": 13.4125,
+          "longitude": 103.866667
+        }
+      },
+      {
+        "year": 1181,
+        "sig": "major",
+        "title": "Jayavarman VII Expels the Cham and Rebuilds Angkor",
+        "body": "After a four-year campaign to drive out the Cham occupiers, Jayavarman VII is crowned king and launches the empire's largest building program, founding the walled capital of Angkor Thom around the Bayon, his state temple.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Jayavarman_VII",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/JayavarmanVII.jpg/330px-JayavarmanVII.jpg",
+        "imageAttribution": "Sculpture photographed by Suzan Black, CC BY 3.0, via Wikimedia Commons",
+        "imageDescription": "A sandstone head presumed to depict King Jayavarman VII, in the Bayon style, now in the Mus\u00e9e Guimet, Paris.",
+        "wikidataId": "Q335273",
+        "location": {
+          "historicalName": "Angkor Thom",
+          "city": "Angkor",
+          "country": "Cambodia",
+          "latitude": 13.4125,
+          "longitude": 103.866667
+        }
       },
       {
         "year": 1296,
         "sig": "minor",
         "title": "A Chinese Envoy Records Daily Life",
-        "body": "Zhou Daguan's detailed account of Angkor becomes one of the only surviving eyewitness descriptions of the empire at its height."
+        "body": "Zhou Daguan, an envoy of the Yuan dynasty, spends nearly a year at Angkor and later writes The Customs of Cambodia, the only detailed eyewitness account of the empire that survives.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Zhou_Daguan",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Angkor_-_Bayon_-_052_At_Home_%288581882636%29.jpg/330px-Angkor_-_Bayon_-_052_At_Home_%288581882636%29.jpg",
+        "imageAttribution": "Photo by Photo Dharma, CC BY 2.0, via Wikimedia Commons",
+        "imageDescription": "A bas-relief at the Bayon depicting a scene of everyday Khmer domestic life, of the kind Zhou Daguan described in his account.",
+        "wikidataId": "Q197958",
+        "location": {
+          "historicalName": "Angkor",
+          "city": "Angkor",
+          "country": "Cambodia",
+          "latitude": 13.4125,
+          "longitude": 103.866667
+        }
       },
       {
         "year": 1431,
         "sig": "major",
         "title": "Ayutthaya Sacks Angkor",
-        "body": "A Siamese army captures the capital after a prolonged siege, hastening the empire's shift of power away from Angkor."
+        "body": "A Siamese army from Ayutthaya captures and loots the Khmer capital after a prolonged siege, prompting King Ponhea Yat to relocate the royal court south toward present-day Phnom Penh.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Angkor",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Ta_Prohm_%28III%29.jpg/330px-Ta_Prohm_%28III%29.jpg",
+        "imageAttribution": "Photo by Supanut Arunoprayote, CC BY 4.0, via Wikimedia Commons",
+        "imageDescription": "Ta Prohm, one of the Angkor temples later reclaimed by jungle after the capital's abandonment.",
+        "wikidataId": "Q24945556",
+        "location": {
+          "historicalName": "Angkor",
+          "city": "Angkor",
+          "country": "Cambodia",
+          "latitude": 13.4125,
+          "longitude": 103.866667
+        }
       }
     ]
   },
@@ -1897,37 +1999,125 @@
     "name": "Mali Empire",
     "colorIndex": 5,
     "start": 1235,
-    "end": 1468,
+    "end": 1610,
+    "summary": "The Mali Empire rises from the Mandinka heartland along the upper Niger River, founded by Sundiata Keita after his victory at Kirina in 1235. Under Mansa Musa, its ninth ruler, the empire reaches its greatest wealth and territorial extent, and his 1324 pilgrimage to Mecca makes Mali's gold famous across the Islamic world. Timbuktu flourishes as a hub of trade and Islamic scholarship under Mali's patronage, but a long, uneven decline follows Mansa Musa's death: rival Songhai seizes Timbuktu in 1468, and after a catastrophic defeat at Djenné in 1599, the empire fragments for good with the death of its last emperor, Mahmud Keita IV, around 1610.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mali_Empire",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Map_of_the_Mali_Empire.png/330px-Map_of_the_Mali_Empire.png",
+    "imageAttribution": "Map by HetmanTheResearcher, CC BY 4.0, via Wikimedia Commons",
+    "imageDescription": "A map showing the territorial extent of the Mali Empire near its height.",
+    "wikidataId": "Q184536",
     "events": [
       {
         "year": 1235,
         "sig": "major",
         "title": "Sundiata Keita Founds the Mali Empire",
-        "body": "After defeating the sorcerer-king Sumanguru at Kirina, Sundiata unites the Mandinka clans into an empire that will control West Africa's gold trade."
+        "body": "Sundiata Keita leads the united Mandinka clans to victory over the Sosso king Sumanguru Kanté at the Battle of Kirina, is crowned Mansa, and builds the conquered Sosso territories into the new Mali Empire.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Kirina",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Djenne_Terracotta_Equestrian_%2813th-15th_cent%29.jpg",
+        "imageAttribution": "Photo by Franko Khoury, Public domain, via Wikimedia Commons",
+        "imageDescription": "A 13th- to 15th-century terracotta equestrian figure from Mali, now in the National Museum of African Art.",
+        "wikidataId": "Q1319855",
+        "location": {
+          "historicalName": "Kirina",
+          "city": "Koulikoro",
+          "country": "Mali",
+          "latitude": null,
+          "longitude": null
+        }
       },
       {
         "year": 1285,
         "sig": "minor",
-        "title": "Sakoura Expands Mali's Reach",
-        "body": "A former palace slave seizes the throne and extends Mali's borders to the Atlantic coast and the Saharan salt mines."
+        "title": "Sakura Seizes the Throne and Expands Mali",
+        "body": "Sakura, a former palace dependent from outside the ruling Keita line, seizes power and pushes Mali's borders west to the Atlantic coast and east toward Gao before being killed returning from his own pilgrimage to Mecca around 1300, after which the Keita dynasty is restored.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Mansa_Sakura",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Djenne_Terracotta_Archer_%2813th-15th_cent%29.jpg",
+        "imageAttribution": "Photo by Franko Khoury, Public domain, via Wikimedia Commons",
+        "imageDescription": "A 13th- to 15th-century terracotta archer figure from Mali.",
+        "wikidataId": "Q3025939"
       },
       {
         "year": 1324,
         "sig": "major",
         "title": "Mansa Musa's Pilgrimage to Mecca",
-        "body": "Mali's emperor travels to Mecca with a caravan reportedly carrying tons of gold, spending so freely in Cairo that he depresses regional gold prices for years."
+        "body": "Mali's emperor travels to Mecca with a caravan reportedly carrying tons of gold, spending so freely in Cairo along the way that he depresses the region's gold prices for years afterward.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Mansa_Musa",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Catalan_Atlas_BNF_Sheet_6_Mansa_Musa_%28cropped%29.jpg/330px-Catalan_Atlas_BNF_Sheet_6_Mansa_Musa_%28cropped%29.jpg",
+        "imageAttribution": "Illustration attributed to Abraham Cresques, Public domain, via Wikimedia Commons",
+        "imageDescription": "A depiction of Mansa Musa enthroned and holding a gold coin, from the 1375 Catalan Atlas.",
+        "wikidataId": "Q309333",
+        "location": {
+          "historicalName": "Mecca",
+          "city": "Mecca",
+          "country": "Saudi Arabia",
+          "latitude": 21.4225,
+          "longitude": 39.82333333
+        }
       },
       {
         "year": 1327,
         "sig": "minor",
-        "title": "Sankor\u00e9 Madrasa Flourishes in Timbuktu",
-        "body": "Timbuktu becomes a center of Islamic scholarship, drawing scholars and manuscripts from across the Muslim world."
+        "title": "Djinguereber Mosque Built in Timbuktu",
+        "body": "Fresh from his pilgrimage, Mansa Musa commissions the Djinguereber Mosque in Timbuktu, part of a wave of building and scholarship that establishes the city as a center of Islamic learning under Mali's patronage.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Djinguereber_Mosque",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Djingareiber_cour.jpg/330px-Djingareiber_cour.jpg",
+        "imageAttribution": "Photo by KaTeznik, CC BY-SA 2.0 FR, via Wikimedia Commons",
+        "imageDescription": "The courtyard of the Djinguereber Mosque in Timbuktu.",
+        "wikidataId": "Q2480949",
+        "location": {
+          "historicalName": "Timbuktu",
+          "city": "Timbuktu",
+          "country": "Mali",
+          "latitude": 16.77583333,
+          "longitude": -3.00944444
+        }
       },
       {
         "year": 1468,
         "sig": "major",
         "title": "Songhai Captures Timbuktu",
-        "body": "Sunni Ali's Songhai forces seize Mali's great trading city, marking the empire's decline as Songhai rises in its place."
+        "body": "Sunni Ali's Songhai forces take Timbuktu, which Mali had already lost to Tuareg raiders decades earlier — a milestone in Mali's terminal decline as Songhai rises to become the region's dominant power.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Timbuktu",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Map_of_the_Songhay_Empire.png/500px-Map_of_the_Songhay_Empire.png",
+        "imageAttribution": "Map by HetmanTheResearcher, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "A map showing the territorial extent of the Songhai Empire.",
+        "wikidataId": "Q9427",
+        "location": {
+          "historicalName": "Timbuktu",
+          "city": "Timbuktu",
+          "country": "Mali",
+          "latitude": 16.77583333,
+          "longitude": -3.00944444
+        }
+      },
+      {
+        "year": 1599,
+        "sig": "major",
+        "title": "Mali's Defeat at the Battle of Djenné",
+        "body": "Seeking to exploit Songhai's collapse after Morocco's 1591 invasion, Mansa Mahmud Keita IV attacks the trade hub of Djenné but is routed by Moroccan musketeers stationed there, a defeat that shatters what remains of Mali's imperial prestige.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Mahmud_IV_(mansa)",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/The_Great_Clay_Mosque_in_Djenne%2C_Mali.jpg/500px-The_Great_Clay_Mosque_in_Djenne%2C_Mali.jpg",
+        "imageAttribution": "Photo by Ondřej Havelka, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "The Great Mosque of Djenné, in the city where the 1599 battle was fought.",
+        "wikidataId": "Q6734486",
+        "location": {
+          "historicalName": "Djenné",
+          "city": "Djenné",
+          "country": "Mali",
+          "latitude": 13.90555556,
+          "longitude": -4.555
+        }
+      },
+      {
+        "year": 1610,
+        "sig": "major",
+        "title": "Mali Empire Ends with the Death of Mahmud Keita IV",
+        "body": "Mali's last reigning emperor, Mahmud Keita IV, dies after retreating to the fortress of Sorokuru; his three sons divide what remains of the realm among themselves, and no single Keita ruler ever governs a unified Mali again.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Mahmud_IV_(mansa)",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Keita_dynasty_family_tree.png/500px-Keita_dynasty_family_tree.png",
+        "imageAttribution": "Diagram by Jansen.2, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "A family tree of the Keita dynasty that ruled the Mali Empire.",
+        "wikidataId": "Q6734486"
       }
     ]
   },
@@ -2089,36 +2279,156 @@
     "colorIndex": 7,
     "start": 1438,
     "end": 1572,
+    "summary": "After repelling a Chanka invasion around 1438, Pachacuti Inca Yupanqui rebuilds Cusco into an imperial capital and launches the campaigns that grow the Inca Empire into the largest state in the pre-Columbian Americas, stretching along the Andes from Ecuador to Chile and bound together by the Qhapaq \u00d1an road network. Huayna Capac's death from a mysterious epidemic in 1527 leaves his sons Hu\u00e1scar and Atahualpa fighting a ruinous civil war that Atahualpa wins only months before Francisco Pizarro's small Spanish force ambushes and captures him at Cajamarca in 1532. Atahualpa's execution and the Spanish occupation of Cusco end organized imperial rule, but a rump Neo-Inca State holds out in the mountains at Vilcabamba until Spanish forces capture the stronghold and execute its last ruler, T\u00fapac Amaru, in 1572.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Inca_Empire",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Tawantinsuyu_%28orthographic_projection%29.svg/330px-Tawantinsuyu_%28orthographic_projection%29.svg.png",
+    "imageAttribution": "Map by L'Am\u00e9ricain, CC BY-SA 3.0, via Wikimedia Commons",
+    "imageDescription": "A modern orthographic map showing the extent of the Inca Empire, Tawantinsuyu, along the Andes.",
+    "wikidataId": "Q28573",
     "events": [
       {
         "year": 1438,
         "sig": "major",
         "title": "Pachacuti Begins the Inca Expansion",
-        "body": "After repelling a rival invasion, Pachacuti reorganizes Cusco and launches the conquests that transform a small kingdom into an empire."
+        "body": "After repelling an invasion by the rival Chanka people, Pachacuti Inca Yupanqui takes the throne, rebuilds Cusco as an imperial capital, and launches the conquests that transform a small highland kingdom into the Inca Empire.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Pachacuti",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Brooklyn_Museum_-_Pachacuti%2C_Tenth_Inca%2C_1_of_14_Portraits_of_Inca_Kings_%28cropped%29.jpg/330px-Brooklyn_Museum_-_Pachacuti%2C_Tenth_Inca%2C_1_of_14_Portraits_of_Inca_Kings_%28cropped%29.jpg",
+        "imageAttribution": "Painting by an unknown artist, Public domain, via Wikimedia Commons",
+        "imageDescription": "An 18th-century portrait of Pachacuti, the ninth Sapa Inca, from a Brooklyn Museum series of paintings of Inca rulers.",
+        "wikidataId": "Q213758",
+        "location": {
+          "historicalName": "Cusco",
+          "city": "Cusco",
+          "country": "Peru",
+          "latitude": -13.5169,
+          "longitude": -71.9786
+        }
       },
       {
         "year": 1450,
         "sig": "minor",
         "title": "Machu Picchu Is Built",
-        "body": "A royal estate rises high in the Andes, connected to the empire by a vast network of mountain roads and suspension bridges."
+        "body": "Pachacuti commissions a royal estate high in the Andes at Machu Picchu, connected to the rest of the empire by the Qhapaq \u00d1an network of mountain roads and suspension bridges.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Machu_Picchu",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Machu_Picchu_Panorama_2025_%28cropped%29.jpg/330px-Machu_Picchu_Panorama_2025_%28cropped%29.jpg",
+        "imageAttribution": "Photo by Jorge Castro Ruso, CC BY-SA 2.0, via Wikimedia Commons",
+        "imageDescription": "A panoramic view of the Inca citadel of Machu Picchu, built high in the Andes.",
+        "wikidataId": "Q676203",
+        "location": {
+          "historicalName": "Machu Picchu",
+          "city": "Machu Picchu",
+          "country": "Peru",
+          "latitude": -13.16333333,
+          "longitude": -72.54555556
+        }
+      },
+      {
+        "year": 1527,
+        "sig": "major",
+        "title": "Huayna Capac Dies, Triggering a Succession Crisis",
+        "body": "Emperor Huayna Capac dies at Quito of a mysterious epidemic, possibly a European disease that outran the Spanish themselves, leaving no clear heir and setting his sons Hu\u00e1scar and Atahualpa on a collision course over the throne.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Huayna_Capac",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Hp_inka11.jpg/330px-Hp_inka11.jpg",
+        "imageAttribution": "Illustration by Felipe Guaman Poma de Ayala, Public domain, via Wikimedia Commons",
+        "imageDescription": "A period illustration by the Inca chronicler Guaman Poma de Ayala depicting Emperor Huayna Capac.",
+        "wikidataId": "Q311433",
+        "location": {
+          "historicalName": "Quito",
+          "city": "Quito",
+          "country": "Ecuador",
+          "latitude": -0.22,
+          "longitude": -78.5125
+        }
+      },
+      {
+        "year": 1532,
+        "sig": "minor",
+        "title": "Atahualpa Wins the Inca Civil War",
+        "body": "At the Battle of Quipaipan near Cusco, Atahualpa's generals crush Hu\u00e1scar's army and capture him, ending years of civil war and leaving Atahualpa in control of the empire just as Spanish forces land on the coast.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Inca_Civil_War",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/John_Harris_Valda_-_Huscar_and_Atahualpa_fighting_over_the_Inca_Empire.jpg/330px-John_Harris_Valda_-_Huscar_and_Atahualpa_fighting_over_the_Inca_Empire.jpg",
+        "imageAttribution": "Painting by John Harris Valda, Public domain, via Wikimedia Commons",
+        "imageDescription": "A painting depicting the civil war fought between the half-brothers Hu\u00e1scar and Atahualpa over the Inca throne.",
+        "wikidataId": "Q1763918",
+        "location": {
+          "historicalName": "Quipaipan",
+          "city": "Cusco",
+          "country": "Peru",
+          "latitude": -13.5169,
+          "longitude": -71.9786
+        }
       },
       {
         "year": 1532,
         "sig": "major",
         "title": "Atahualpa Is Captured at Cajamarca",
-        "body": "Francisco Pizarro's small expedition ambushes the Inca emperor, despite being vastly outnumbered, exploiting a recent civil war and Spanish weaponry."
+        "body": "In the town square of Cajamarca, Francisco Pizarro's small Spanish force ambushes Atahualpa's unarmed escort, massacring thousands and capturing the emperor, exploiting the recent civil war and the shock of Spanish horses and firearms.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Cajamarca",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/La_Captura_de_Atahualpa_-_Juan_Lepiani_1920s.png/330px-La_Captura_de_Atahualpa_-_Juan_Lepiani_1920s.png",
+        "imageAttribution": "Painting by Juan Lepiani, Public domain, via Wikimedia Commons",
+        "imageDescription": "A painting depicting the capture of Atahualpa by Spanish forces at the Battle of Cajamarca.",
+        "wikidataId": "Q1425362",
+        "location": {
+          "historicalName": "Cajamarca",
+          "city": "Cajamarca",
+          "country": "Peru",
+          "latitude": -7.1575,
+          "longitude": -78.5175
+        }
       },
       {
         "year": 1533,
         "sig": "minor",
         "title": "Atahualpa Is Executed",
-        "body": "Despite paying a legendary ransom in gold and silver, the emperor is killed, and Spanish forces install a puppet ruler in Cusco."
+        "body": "Despite paying a legendary ransom in gold and silver for his release, Atahualpa is tried and garroted at Cajamarca on charges including treason and the murder of his brother Hu\u00e1scar, and Spanish forces install a puppet emperor in Cusco.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Atahualpa",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Luis_Montero_-_The_Funerals_of_Inca_Atahualpa_-_Google_Art_Project.jpg/330px-Luis_Montero_-_The_Funerals_of_Inca_Atahualpa_-_Google_Art_Project.jpg",
+        "imageAttribution": "Painting by Luis Montero, Public domain, via Wikimedia Commons",
+        "imageDescription": "A 19th-century painting depicting the funeral of the executed Inca emperor Atahualpa.",
+        "wikidataId": "Q179577",
+        "location": {
+          "historicalName": "Cajamarca",
+          "city": "Cajamarca",
+          "country": "Peru",
+          "latitude": -7.1575,
+          "longitude": -78.5175
+        }
+      },
+      {
+        "year": 1536,
+        "sig": "major",
+        "title": "Manco Inca's Rebellion Fails; the Neo-Inca State Is Founded",
+        "body": "Manco Inca Yupanqui, installed by the Spanish as a puppet ruler, turns on his overseers and lays a ten-month siege to Cusco; when it fails, he retreats to the remote mountain refuge of Vilcabamba and founds the independent Neo-Inca State.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Siege_of_Cusco",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/POMA0402v.jpg/330px-POMA0402v.jpg",
+        "imageAttribution": "Illustration by Felipe Guaman Poma de Ayala, Public domain, via Wikimedia Commons",
+        "imageDescription": "A period illustration by the Inca chronicler Guaman Poma de Ayala depicting Manco Inca's uprising against Spanish rule.",
+        "wikidataId": "Q2398589",
+        "location": {
+          "historicalName": "Cusco",
+          "city": "Cusco",
+          "country": "Peru",
+          "latitude": -13.5169,
+          "longitude": -71.9786
+        }
       },
       {
         "year": 1572,
         "sig": "major",
         "title": "The Last Inca Stronghold Falls",
-        "body": "Spanish forces capture Vilcabamba and execute T\u00fapac Amaru, ending organized Inca resistance four decades after first contact."
+        "body": "Spanish forces capture T\u00fapac Amaru in the forests west of Vilcabamba, march him to Cusco, and publicly behead him before thousands in the central square, ending organized Inca resistance four decades after Pizarro's first landing.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/T%C3%BApac_Amaru",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/TupacamaruI.JPG/330px-TupacamaruI.JPG",
+        "imageAttribution": "Painting by an unidentified Cuzco School painter, Public domain, via Wikimedia Commons",
+        "imageDescription": "A Cuzco School portrait of T\u00fapac Amaru, the last Sapa Inca of the Neo-Inca State.",
+        "wikidataId": "Q296269",
+        "location": {
+          "historicalName": "Vilcabamba",
+          "city": "Vilcabamba",
+          "country": "Peru",
+          "latitude": -12.904,
+          "longitude": -73.203
+        }
       }
     ]
   },

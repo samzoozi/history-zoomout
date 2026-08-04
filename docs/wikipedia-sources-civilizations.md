@@ -1125,3 +1125,283 @@ the dynasty.
   English Wikipedia article titles themselves are spelled — consistent with Maya's
   precedent of following actual article-title spelling rather than always maximally
   diacritic-preserving.
+
+## Khmer Empire (topic id: `khmer`) — pulled 2026-08-03
+
+Status: **merged into live seed data 2026-08-03** (`backend/src/history_zoomout/db/seed_data/civilizations.json`, replacing the old 5-event entry wholesale) and reseeded. Kept the existing `id` (`khmer`), `colorIndex` (3), and date range (802-1431).
+
+The original 5-event pilot entry (802 founding, 900 capital move, 1113 Angkor Wat, 1296
+Zhou Daguan, 1431 fall) skipped the entire Jayavarman VII era (r. 1181-1218) — the reign
+historians generally consider the empire's most powerful, and the one that built Angkor
+Thom and the Bayon — along with the 1177 Cham sack of Angkor that made his rise possible.
+Same pattern as the Persia pilot's missing Parthian era: the most-famous monument
+(Angkor Wat) was covered, but the empire's actual military/political peak wasn't.
+Expanded to 7 events adding the 1177 sack and the 1181 restoration under Jayavarman VII.
+
+### Topic-level source
+
+- **Khmer Empire** — https://en.wikipedia.org/wiki/Khmer_Empire — Wikidata Q201705 —
+  this article's own scope (802-1431) matches the topic's date range exactly.
+- Image: **Map of Southeast Asia, c. 900 CE** (Jembezmamy, CC0), the article's own lead
+  thumbnail, showing the Khmer Empire's territory next to Champa and other neighboring
+  states — kept as a genuinely informative period map rather than swapped for a temple
+  photo, since Angkor Wat and Angkor Thom photos are already used at the event level and
+  a third photo of the same temple complex would have been redundant.
+
+### Event-level sources
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| Jayavarman II founds the Khmer Empire | 802 | [Jayavarman II](https://en.wikipedia.org/wiki/Jayavarman_II) | Q379239 | Xufanc, CC BY-SA 3.0 |
+| Yasodharapura becomes the capital | 900 | [Yasovarman I](https://en.wikipedia.org/wiki/Yasovarman_I) | Q559810 | Satdeep Gill, CC BY-SA 4.0 |
+| Construction of Angkor Wat begins | 1113 | [Angkor Wat](https://en.wikipedia.org/wiki/Angkor_Wat) | Q43473 | Bjørn Christian Tørrissen, CC BY-SA 4.0 |
+| The Cham sack Angkor | 1177 | [Battle of Tonlé Sap](https://en.wikipedia.org/wiki/Battle_of_Tonl%C3%A9_Sap) | Q23719075 | Photo Dharma, CC BY 2.0 (Bayon bas-relief) |
+| Jayavarman VII expels the Cham and rebuilds Angkor | 1181 | [Jayavarman VII](https://en.wikipedia.org/wiki/Jayavarman_VII) | Q335273 | Suzan Black, CC BY 3.0 (Bayon-style sculpture, Musée Guimet) |
+| A Chinese envoy records daily life | 1296 | [Zhou Daguan](https://en.wikipedia.org/wiki/Zhou_Daguan) | Q197958 | Photo Dharma, CC BY 2.0 (Bayon bas-relief) |
+| Ayutthaya sacks Angkor | 1431 | [Fall of Angkor](https://en.wikipedia.org/wiki/Fall_of_Angkor) | Q24945556 | Supanut Arunoprayote, CC BY 4.0 (Ta Prohm) |
+
+### Event locations
+
+Every event is anchored to Angkor itself (13.4125, 103.866667) except the founding, which
+uses the mountain where Jayavarman II was consecrated:
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Jayavarman II founds the empire | Mahendraparvata | —, Cambodia (Phnom Kulen) | 13.613, 104.113 |
+| Yasodharapura becomes the capital | Yasodharapura | Angkor, Cambodia | 13.4125, 103.867 |
+| Angkor Wat construction begins | Angkor Wat | Angkor, Cambodia | 13.4125, 103.867 |
+| The Cham sack Angkor | Yasodharapura | Angkor, Cambodia | 13.4125, 103.867 |
+| Jayavarman VII rebuilds Angkor | Angkor Thom | Angkor, Cambodia | 13.4125, 103.867 |
+| Chinese envoy records daily life | Angkor | Angkor, Cambodia | 13.4125, 103.867 |
+| Ayutthaya sacks Angkor | Angkor | Angkor, Cambodia | 13.4125, 103.867 |
+
+Angkor Thom has no coordinates on Wikipedia or Wikidata (checked both); it sits a few
+hundred meters north of Angkor Wat, so Angkor's own coordinates were reused rather than
+left null, consistent with how this dataset reuses a shared city's coordinates across
+multiple events already anchored there (e.g. Japan's repeated Heian-kyō/Kyoto
+coordinates).
+
+### Corrections / decisions made vs. the original 5-event seed data
+
+- **Added "The Cham Sack Angkor" (1177) and "Jayavarman VII Expels the Cham and Rebuilds
+  Angkor" (1181), both `major`.** These fill the empire's actual military/political peak,
+  entirely absent from the original 5 events — Jayavarman VII is the king who built
+  Angkor Thom and the Bayon and is "generally considered the most powerful of the Khmer
+  monarchs" per his own Wikipedia article, yet no event referenced him at all.
+- **"Yasodharapura Becomes the Capital" (900) kept its existing year, title, and framing**
+  — Wikipedia doesn't give an exact founding year for Yasodharapura (inscriptional
+  evidence points to roughly 897-902), so 900 was kept as a reasonable circa figure
+  already falling within that range, same approach as Persepolis (Persia) and Ashurbanipal's
+  library (Mesopotamia).
+- **Corrected a popular myth almost repeated into the dataset**: the "Leper King" epithet
+  is commonly but incorrectly associated with Yasovarman I. Wikipedia's own Terrace of the
+  Leper King article clarifies the statue actually depicts Yama and dates from the 12th-13th
+  century, a century-plus after Yasovarman I's 889-910 reign — the body text was written to
+  avoid repeating this conflation.
+- **"The Cham Sack Angkor" and "Jayavarman VII..." both located at Angkor**, not a
+  battle-specific site — the Battle of Tonlé Sap was a naval engagement on the lake/river
+  approach to the capital, and the sack itself happened at the city (Yasodharapura); no
+  single battlefield coordinate is documented separately from the capital.
+- No usable photo found for Jayavarman II or Zhou Daguan themselves (neither article's
+  images list contained anything but icons/wiki-chrome). Used Phnom Kulen (the
+  consecration site) for Jayavarman II, and a Bayon bas-relief of everyday domestic life
+  for Zhou Daguan, whose account is famous for describing exactly that kind of scene — both
+  thematically fitting rather than literal depictions, consistent with the Mongol topic's
+  Toluid Civil War precedent for events with no direct image match.
+- "Ayutthaya Sacks Angkor" uses a photo of Ta Prohm (jungle-reclaimed ruins) rather than a
+  period map or battle scene — no contemporary depiction of the 1431 siege itself was
+  found, and Ta Prohm's overgrown state is a widely recognized visual shorthand for
+  Angkor's abandonment, similar in spirit to Vikings' image swap to a directly-tied site
+  photo over a more generic option.
+
+## Inca (topic id: `inca`) — pulled 2026-08-03
+
+Status: **merged into live seed data 2026-08-03**
+(`backend/src/history_zoomout/db/seed_data/civilizations.json`, replacing the old 5-event
+entry wholesale). Kept the existing `id` (`inca`), `colorIndex` (7), and date range
+(1438-1572). Not yet reseeded into the database.
+
+The original 5-event seed entry covered the founding (1438), Machu Picchu (1450),
+Cajamarca (1532), Atahualpa's execution (1533), and the fall of Vilcabamba (1572), but
+skipped the empire's entire succession crisis: Huayna Capac's death in 1527 and the
+1529-1532 Inca Civil War between his sons Huáscar and Atahualpa. That civil war is the
+reason Pizarro's tiny force could ambush and capture an emperor at all — Atahualpa had
+just finished a war that gutted his own army and left the empire politically split. Also
+missing was Manco Inca's 1536-37 siege of Cusco, the rebellion that produced the Neo-Inca
+State at Vilcabamba in the first place — without it, "The Last Inca Stronghold Falls"
+(1572) has no stronghold origin story. Expanded to 8 events adding the 1527 succession
+crisis, the 1532 civil-war battle of Quipaipan, and the 1536 siege of Cusco.
+
+### Topic-level source
+
+- **Inca Empire** — https://en.wikipedia.org/wiki/Inca_Empire — Wikidata Q28573 — this
+  article's own scope (1438-1533) covers the imperial period; the topic's 1572 end date
+  (Neo-Inca State resistance) is documented in the article's "Spanish conquest" section.
+- Image: **Tawantinsuyu (orthographic projection)** map (L'Américain, CC BY-SA 3.0),
+  showing the empire's full Andean extent — used instead of the article's own lead
+  thumbnail (a heraldic Suntur Paucar/royal-scepter icon, not very illustrative on its
+  own) and instead of a Machu Picchu photo, since Machu Picchu is already used at the
+  event level and a map gives better geographic context for a topic spanning four modern
+  countries.
+
+### Event-level sources
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| Pachacuti begins the Inca expansion | 1438 | [Pachacuti](https://en.wikipedia.org/wiki/Pachacuti) | Q213758 | Unknown artist, Public domain (Brooklyn Museum portrait) |
+| Machu Picchu is built | 1450 | [Machu Picchu](https://en.wikipedia.org/wiki/Machu_Picchu) | Q676203 | Jorge Castro Ruso, CC BY-SA 2.0 |
+| Huayna Capac dies, triggering a succession crisis | 1527 | [Huayna Capac](https://en.wikipedia.org/wiki/Huayna_Capac) | Q311433 | Felipe Guaman Poma de Ayala, Public domain |
+| Atahualpa wins the Inca Civil War | 1532 | [Inca Civil War](https://en.wikipedia.org/wiki/Inca_Civil_War) | Q1763918 | John Harris Valda, Public domain |
+| Atahualpa is captured at Cajamarca | 1532 | [Battle of Cajamarca](https://en.wikipedia.org/wiki/Battle_of_Cajamarca) | Q1425362 | Juan Lepiani, Public domain |
+| Atahualpa is executed | 1533 | [Atahualpa](https://en.wikipedia.org/wiki/Atahualpa) | Q179577 | Luis Montero, Public domain |
+| Manco Inca's rebellion fails; the Neo-Inca State is founded | 1536 | [Siege of Cusco](https://en.wikipedia.org/wiki/Siege_of_Cusco) | Q2398589 | Felipe Guaman Poma de Ayala, Public domain |
+| The last Inca stronghold falls | 1572 | [Túpac Amaru](https://en.wikipedia.org/wiki/T%C3%BApac_Amaru) | Q296269 | Unidentified Cuzco School painter, Public domain |
+
+### Event locations
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Pachacuti begins the expansion | Cusco | Cusco, Peru | -13.5169, -71.9786 |
+| Machu Picchu is built | Machu Picchu | Machu Picchu, Peru | -13.163, -72.546 |
+| Huayna Capac dies | Quito | Quito, Ecuador | -0.220, -78.513 |
+| Atahualpa wins the civil war | Quipaipan | Cusco, Peru | -13.5169, -71.9786 |
+| Atahualpa captured at Cajamarca | Cajamarca | Cajamarca, Peru | -7.1575, -78.5175 |
+| Atahualpa executed | Cajamarca | Cajamarca, Peru | -7.1575, -78.5175 |
+| Manco Inca's siege fails | Cusco | Cusco, Peru | -13.5169, -71.9786 |
+| The last stronghold falls | Vilcabamba | Vilcabamba, Peru | -12.904, -73.203 |
+
+Quipaipan (the decisive civil-war battle site) has no coordinates on Wikipedia or
+Wikidata; its own article places it "only miles from Cuzco," so Cusco's coordinates were
+reused rather than left null, same approach as Khmer's Angkor Thom.
+
+### Corrections / decisions made vs. the original 5-event seed data
+
+- **Added "Huayna Capac Dies, Triggering a Succession Crisis" (1527, `major`) and
+  "Atahualpa Wins the Inca Civil War" (1532, `minor`).** Wikipedia's own Battle of
+  Cajamarca article credits Pizarro's ambush partly to the fact that Atahualpa's army had
+  just fought a multi-year civil war — omitting that war from the dataset made Cajamarca
+  read as a clean ambush of a healthy empire rather than the endgame of an empire already
+  fractured by a succession crisis. Huayna Capac's death is also notable in its own right:
+  he died of a disputed epidemic (measles or smallpox is suspected, though historians
+  disagree) more than a decade after first hearing of Spanish ships off his coast in
+  1515 — disease reaching the empire ahead of the conquistadors themselves.
+- **Added "Manco Inca's Rebellion Fails; the Neo-Inca State Is Founded" (1536, `major`).**
+  The existing "Last Inca Stronghold Falls" (1572) event referenced Vilcabamba without any
+  prior event explaining how or why an independent Inca state existed there to begin
+  with — this fills that gap with the failed 1536-37 siege of Cusco that forced Manco
+  Inca's retreat.
+- **"Atahualpa Is Executed" relocated to Cajamarca, not Cusco.** The original seed body
+  said Spanish forces "install a puppet ruler in Cusco" without specifying where the
+  execution itself happened; Atahualpa was tried and garroted at Cajamarca on 26 July
+  1533, the same town where he'd been held captive since his capture — he never reached
+  Cusco alive.
+- **"The Last Inca Stronghold Falls" body clarifies the execution happened at Cusco, not
+  Vilcabamba.** Túpac Amaru was captured in the forests west of Vilcabamba but marched to
+  Cusco and publicly beheaded there on 24 September 1572, three days after arriving —
+  kept the event's location field at Vilcabamba (where the campaign that ended the
+  Neo-Inca State culminated) while noting the Cusco execution in the body text, consistent
+  with how Khmer's "Ayutthaya Sacks Angkor" anchors location to the falling capital.
+- **Huayna Capac's death location given as Quito, not Tumipampa.** His own Wikipedia
+  infobox lists Tumipampa as the death location while the article's body text says Quito;
+  went with Quito since it has documented coordinates and is the more consistently
+  reported location across the article's own prose.
+- Two of the eight events (1527 and 1536) reuse Guaman Poma de Ayala illustrations from
+  his 17th-century chronicle *El primer nueva corónica y buen gobierno* — no photographic
+  or painted portraits of Huayna Capac or documentary scenes of the Cusco siege were found
+  on Commons, and Guaman Poma's chronicle is the standard period-illustration source for
+  this era, same role Bayon bas-reliefs played for Khmer's harder-to-photograph events.
+
+## Mali Empire (topic id: `mali`) — pulled 2026-08-03
+
+Status: **merged into live seed data 2026-08-03**
+(`backend/src/history_zoomout/db/seed_data/civilizations.json`, replacing the old 5-event
+entry wholesale). Kept the existing `id` (`mali`) and `colorIndex` (5), but the date range
+changed from **1235–1468 to 1235–1610** — see corrections below. Not yet reseeded into the
+database.
+
+The original 5-event seed entry ended at "Songhai Captures Timbuktu" (1468) as if that were
+the empire's fall. It wasn't: Wikipedia's own Mali Empire summary gives the empire's span
+as c. 1235 to c. 1610. Mali survived another 140+ years as a shrinking, contested state
+after losing Timbuktu, finally disintegrating after a catastrophic 1599 defeat at Djenné
+and the 1610 death of its last emperor, Mahmud Keita IV, whose sons split what remained of
+the realm among themselves. Expanded from 5 to 7 events to cover that missing final
+sub-period (1468-1610), which the old entry skipped entirely.
+
+### Topic-level source
+
+- **Mali Empire** — https://en.wikipedia.org/wiki/Mali_Empire — Wikidata Q184536
+- Image: **Map of the Mali Empire** (HetmanTheResearcher, CC BY 4.0) — this is the
+  article's own REST-summary thumbnail and was illustrative enough to keep as-is.
+
+### Event-level sources
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| Sundiata Keita founds the Mali Empire | 1235 | [Battle of Kirina](https://en.wikipedia.org/wiki/Battle_of_Kirina) | Q1319855 | Franko Khoury, Public domain (Smithsonian terracotta equestrian figure) |
+| Sakura seizes the throne and expands Mali | 1285 | [Mansa Sakura](https://en.wikipedia.org/wiki/Mansa_Sakura) | Q3025939 | Franko Khoury, Public domain (Smithsonian terracotta archer figure) |
+| Mansa Musa's pilgrimage to Mecca | 1324 | [Mansa Musa](https://en.wikipedia.org/wiki/Mansa_Musa) | Q309333 | Attr. Abraham Cresques, Public domain (1375 Catalan Atlas) |
+| Djinguereber Mosque built in Timbuktu | 1327 | [Djinguereber Mosque](https://en.wikipedia.org/wiki/Djinguereber_Mosque) | Q2480949 | KaTeznik, CC BY-SA 2.0 FR |
+| Songhai captures Timbuktu | 1468 | [Timbuktu](https://en.wikipedia.org/wiki/Timbuktu) | Q9427 | HetmanTheResearcher, CC BY-SA 4.0 (Songhai Empire map) |
+| Mali's defeat at the Battle of Djenné | 1599 | [Mahmud IV (mansa)](https://en.wikipedia.org/wiki/Mahmud_IV_(mansa)) | Q6734486 | Ondřej Havelka, CC BY-SA 4.0 |
+| Mali Empire ends with the death of Mahmud Keita IV | 1610 | [Mahmud IV (mansa)](https://en.wikipedia.org/wiki/Mahmud_IV_(mansa)) | Q6734486 | Jansen.2, CC BY-SA 4.0 (Keita dynasty family tree diagram) |
+
+No dedicated Wikipedia article exists for the 1599 Battle of Djenné or for Mahmud IV's
+1610 death specifically — both are sourced to the Mahmud IV (mansa) biography article,
+which covers both facts directly.
+
+### Event locations
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Sundiata Keita founds the empire | Kirina | Koulikoro, Mali | *(none found)* |
+| Sakura expands Mali's reach | — | — | *(no single site — broad campaign)* |
+| Mansa Musa's pilgrimage | Mecca | Mecca, Saudi Arabia | 21.4225, 39.8233 |
+| Djinguereber Mosque built | Timbuktu | Timbuktu, Mali | 16.7758, -3.0094 |
+| Songhai captures Timbuktu | Timbuktu | Timbuktu, Mali | 16.7758, -3.0094 |
+| Mali's defeat at Djenné | Djenné | Djenné, Mali | 13.9056, -4.555 |
+| Death of Mahmud Keita IV | — | — | *(no single site — Sorokuru fortress not on Wikipedia)* |
+
+Kirina has no coordinates on Wikipedia or Wikidata; its own article places it in the
+Koulikoro Region of Mali, so that region's principal city is given for `city` with
+`latitude`/`longitude` left `null`. Sakura's 1285 campaign and Mahmud IV's 1610 death (at
+a fortress called Sorokuru, which has no Wikipedia article at all) have no natural single
+place, so both events omit the `location` object entirely rather than guessing.
+
+### Corrections / decisions made vs. the original 5-event seed data
+
+- **End date changed from 1468 to 1610.** The old entry's last event, "Songhai Captures
+  Timbuktu," was written as if it were the empire's fall ("marking the empire's decline as
+  Songhai rises in its place"). Mali actually persisted as a contracting, contested state
+  for another 140+ years after that loss. Added two events to cover this: the catastrophic
+  1599 Battle of Djenné (Mansa Mahmud Keita IV's failed attempt to exploit Songhai's own
+  collapse after Morocco's 1591 invasion, defeated by Moroccan musketeers) and the 1610
+  death of Mahmud Keita IV, after which his three sons divided the remaining realm and no
+  single Keita ruler ever governed a unified Mali again.
+- **"Songhai Captures Timbuktu" (1468) body corrected — not a direct Mali-to-Songhai
+  handoff.** The old body implied Songhai took the city straight from Mali. Per Wikipedia's
+  Timbuktu article, Mali had already lost the city to Tuareg raiders decades earlier (early-
+  to-mid 15th century); Sunni Ali's Songhai forces captured it from the Tuareg in 1468, not
+  from Mali directly. Body text now reflects that sequence. (One source, *History of the
+  Mali Empire*, gives 1469 instead of 1468 for this capture — kept 1468 since it's what the
+  Timbuktu article and the existing seed data both use, and the two dates likely reflect a
+  siege-to-fall span rather than a real conflict.)
+- **Replaced "Sankoré Madrasa Flourishes in Timbuktu" (1327) with "Djinguereber Mosque
+  Built in Timbuktu" (1327, same year).** The old event's claim doesn't hold up: per the
+  Sankoré Madrasah article, that institution's actual golden age was in the 15th-16th
+  century under Songhai's Askia dynasty, not under Mali. The Djinguereber Mosque is
+  well-documented as built in 1327 under Mali's own Mansa Musa (commissioned on his return
+  from Mecca), making it a more accurate and better-sourced stand-in for the same "Timbuktu
+  becomes a scholarly/architectural center under Mali" beat.
+- **Sakura's body text expanded with sourced detail not in the old entry**: he was likely a
+  freed dependent of the Keita court rather than definitively "a palace slave" (Ibn
+  Khaldun's Arabic term *mawlā* is ambiguous between "slave" and "client"), and he was
+  killed returning from his own hajj around 1300, after which the Keita dynasty was
+  restored — this is why Mansa Musa (a Keita) is back on the throne by 1312.
+- Mansa Musa's pilgrimage body corrected to match Wikipedia's own caveats: the "tons of
+  gold" figure comes from disputed Arabic-source estimates that modern historians (e.g.
+  Warren Schultz) treat skeptically, and the trip spanned 1324-1325, not a single year —
+  kept the existing seed year of 1324 (departure year) since that's still accurate and
+  matches the empire's conventional "golden age" framing.
+- `sig` ratings kept from the existing entry where events carried over (1235 major, 1285
+  minor, 1324 major); assigned by judgment for the three new/replaced events, consistent
+  with the pattern used elsewhere in this file.
