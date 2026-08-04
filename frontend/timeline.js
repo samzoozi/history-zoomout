@@ -93,6 +93,8 @@
   var trackEl = document.getElementById("track");
   var scroller = document.getElementById("scroller");
   var zoomInput = document.getElementById("zoom");
+  var ZOOM_MIN = parseFloat(zoomInput.min);
+  var ZOOM_MAX = parseFloat(zoomInput.max);
   var zoomReadout = document.getElementById("zoomReadout");
   var eventCountEl = document.getElementById("eventCount");
   var topicCountEl = document.getElementById("topicCount");
@@ -535,26 +537,139 @@
     render();
   });
 
-  (function enableDragScroll() {
-    var isDown = false, startX = 0, startY = 0, startScrollX = 0, startScrollY = 0;
-    scroller.addEventListener("pointerdown", function (e) {
-      if (e.target.closest(".marker") || e.target.closest(".lane-label")) return;
-      isDown = true;
-      startX = e.clientX;
-      startY = e.clientY;
-      startScrollX = scroller.scrollLeft;
-      startScrollY = scroller.scrollTop;
+  // Pan (1 pointer) + pinch-zoom (2 pointers) over the timeline only, via
+  // Pointer Events so touch and mouse share one code path. #scroller has
+  // touch-action: none (see timeline.css) so the browser never intercepts a
+  // touch gesture for native scroll/page-zoom -- everything below is the only
+  // gesture handling that runs. Desktop trackpad pinch doesn't arrive as
+  // pointer events; it comes as wheel events with ctrlKey set (the
+  // cross-browser convention browsers use to report pinch on a trackpad,
+  // indistinguishable from a literal ctrl+wheel), handled separately below.
+  (function enablePanAndZoomGestures() {
+    var pointers = new Map(); // pointerId -> {x, y}
+    var mode = null; // "pan" | "pinch"
+    var panStart = null; // {x, y, scrollX, scrollY}
+    var lastPinchDistance = 0;
+
+    // yearToX()/pxPerYear() are relative to the flexible track area, which
+    // starts labelWidth() px into the (horizontally scrolling) content --
+    // the sticky lane-label column sits in front of it. Converting between a
+    // screen x (e.g. a pointer position) and the year under it has to route
+    // through that offset plus the current scroll position.
+    function screenXToYear(clientX) {
+      var rect = scroller.getBoundingClientRect();
+      var screenX = clientX - rect.left;
+      return DOMAIN_START + (scroller.scrollLeft + screenX - labelWidth()) / pxPerYear();
+    }
+    function scrollLeftToPinYear(year, clientX) {
+      var rect = scroller.getBoundingClientRect();
+      var screenX = clientX - rect.left;
+      return labelWidth() + yearToX(year) - screenX;
+    }
+
+    // Re-renders at the new zoom, then corrects scrollLeft so `year` lands
+    // back under `clientX` -- otherwise every zoom step would recenter on
+    // the domain start instead of staying anchored under the gesture.
+    function applyZoom(newZoom, year, clientX) {
+      var clamped = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, newZoom));
+      if (clamped === state.zoom) return;
+      state.zoom = clamped;
+      zoomInput.value = clamped;
+      updateZoomReadout();
+      render();
+      scroller.scrollLeft = scrollLeftToPinYear(year, clientX);
+    }
+
+    function distance(a, b) { return Math.hypot(a.x - b.x, a.y - b.y); }
+    function midpoint(a, b) { return { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 }; }
+
+    function beginPan() {
+      mode = "pan";
+      var p = pointers.values().next().value;
+      panStart = { x: p.x, y: p.y, scrollX: scroller.scrollLeft, scrollY: scroller.scrollTop };
       scroller.classList.add("grabbing");
-      scroller.setPointerCapture(e.pointerId);
+    }
+
+    scroller.addEventListener("pointerdown", function (e) {
+      // Ignore only when this is the sole (first) touch landing on a marker
+      // or the label column, so tapping a marker still selects it. A second
+      // finger for a pinch is tracked even if it happens to land on one.
+      if ((e.target.closest(".marker") || e.target.closest(".lane-label")) && pointers.size === 0) return;
+      pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      // Best-effort: capture just keeps pointermove firing here if a finger
+      // strays outside the element mid-gesture. The pan/pinch math below
+      // doesn't depend on it, so a failure here shouldn't abort the gesture.
+      try { scroller.setPointerCapture(e.pointerId); } catch (err) { /* ignore */ }
+
+      if (pointers.size === 1) {
+        beginPan();
+      } else if (pointers.size === 2) {
+        mode = "pinch";
+        var pts = Array.from(pointers.values());
+        lastPinchDistance = distance(pts[0], pts[1]);
+        scroller.classList.remove("grabbing");
+      }
     });
+
     scroller.addEventListener("pointermove", function (e) {
-      if (!isDown) return;
-      scroller.scrollLeft = startScrollX - (e.clientX - startX);
-      scroller.scrollTop = startScrollY - (e.clientY - startY);
+      if (!pointers.has(e.pointerId)) return;
+      pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+
+      if (mode === "pan" && pointers.size === 1) {
+        scroller.scrollLeft = panStart.scrollX - (e.clientX - panStart.x);
+        scroller.scrollTop = panStart.scrollY - (e.clientY - panStart.y);
+      } else if (mode === "pinch" && pointers.size === 2) {
+        var pts = Array.from(pointers.values());
+        var mid = midpoint(pts[0], pts[1]);
+        var dist = distance(pts[0], pts[1]);
+        if (lastPinchDistance > 0 && dist > 0) {
+          var year = screenXToYear(mid.x);
+          applyZoom(state.zoom * (dist / lastPinchDistance), year, mid.x);
+        }
+        lastPinchDistance = dist;
+      }
     });
-    function up() { isDown = false; scroller.classList.remove("grabbing"); }
-    scroller.addEventListener("pointerup", up);
-    scroller.addEventListener("pointercancel", up);
+
+    function release(e) {
+      pointers.delete(e.pointerId);
+      if (pointers.size === 1) {
+        beginPan(); // dropped from pinch to one finger -- resume panning from here, no jump
+      } else if (pointers.size === 0) {
+        mode = null;
+        scroller.classList.remove("grabbing");
+      }
+    }
+    scroller.addEventListener("pointerup", release);
+    scroller.addEventListener("pointercancel", release);
+
+    // iOS Safari's page-pinch-zoom runs on its own proprietary gesture
+    // recognizer (gesturestart/change/end) that sits outside both
+    // touch-action and the touch/pointer event pipeline -- blocking it is
+    // the standard, dedicated way to keep a custom pinch handler from also
+    // triggering the browser's own page zoom. It's bound on `document`
+    // rather than `#scroller`: the timeline strip doesn't fill the screen
+    // (there's a header above and a footer below), so a real two-finger
+    // pinch easily has one finger land outside `#scroller`'s box, where a
+    // listener scoped to it would never see the event at all. This only
+    // suppresses the browser's OWN zoom -- it doesn't touch pointer events,
+    // so it can't interfere with the pan/pinch handling above, and the
+    // actual zoom computation still only runs when the gesture started on
+    // `#scroller` (see the pointerdown handler above).
+    function preventNativeZoom(e) { e.preventDefault(); }
+    document.addEventListener("gesturestart", preventNativeZoom);
+    document.addEventListener("gesturechange", preventNativeZoom);
+    document.addEventListener("gestureend", preventNativeZoom);
+
+    // Trackpad pinch (and literal ctrl+wheel) zoom on desktop. Plain wheel
+    // scroll (no ctrlKey) is left alone so normal two-finger scrolling still
+    // pans the page/scroller natively.
+    scroller.addEventListener("wheel", function (e) {
+      if (!e.ctrlKey) return;
+      e.preventDefault();
+      var year = screenXToYear(e.clientX);
+      var factor = Math.exp(-e.deltaY * 0.008);
+      applyZoom(state.zoom * factor, year, e.clientX);
+    }, { passive: false });
   })();
 
   function render() {

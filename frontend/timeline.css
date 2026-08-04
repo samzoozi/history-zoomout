@@ -478,6 +478,11 @@ button:focus-visible,
   position: relative;
   cursor: grab;
   scrollbar-color: var(--hairline-strong) transparent;
+  /* Keep native touch panning (pan-x/pan-y) so single-finger drag still gets
+     the browser's smooth, momentum-based scrolling -- only pinch-zoom is
+     withheld (by omission) so a two-finger pinch here drives the custom zoom
+     logic in timeline.js instead of the browser's native page zoom. */
+  touch-action: pan-x pan-y;
 }
 .scroller.grabbing { cursor: grabbing; }
 .scroller::-webkit-scrollbar { height: 10px; width: 10px; }
