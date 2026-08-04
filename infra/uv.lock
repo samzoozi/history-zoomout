@@ -40,6 +40,21 @@ wheels = [
 ]
 
 [[package]]
+name = "aws-cdk-aws-lambda-python-alpha"
+version = "2.263.0a0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "aws-cdk-lib" },
+    { name = "constructs" },
+    { name = "jsii" },
+    { name = "publication" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/f4/75/4104cd14c5a0f638d197946a4b34a4930bc5b154ea80bdf2d4ac6a906323/aws_cdk_aws_lambda_python_alpha-2.263.0a0.tar.gz", hash = "sha256:d38e6165b9f9e6877bc39ae929494d2af6b30e217e6566ed515d404c14f5a790", size = 100273, upload-time = "2026-07-31T16:46:59.674Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/46/76/2d2699051475b2f4f5c5bd2cb4f95b8cc7c8f4242f088ac416325fc10b06/aws_cdk_aws_lambda_python_alpha-2.263.0a0-py3-none-any.whl", hash = "sha256:95f9c2f09d9930225de0f8ae628f4c66c24ec395fb4c8e02c033f2c778a810cf", size = 99302, upload-time = "2026-07-31T16:46:06.418Z" },
+]
+
+[[package]]
 name = "aws-cdk-cloud-assembly-schema"
 version = "54.15.0"
 source = { registry = "https://pypi.org/simple" }
@@ -100,12 +115,14 @@ name = "history-zoomout-infra"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "aws-cdk-aws-lambda-python-alpha" },
     { name = "aws-cdk-lib" },
     { name = "constructs" },
 ]
 
 [package.metadata]
 requires-dist = [
+    { name = "aws-cdk-aws-lambda-python-alpha", specifier = ">=2.263.0a0,<2.264.0" },
     { name = "aws-cdk-lib", specifier = ">=2.260.0,<3.0.0" },
     { name = "constructs", specifier = ">=10.5.0,<11.0.0" },
 ]

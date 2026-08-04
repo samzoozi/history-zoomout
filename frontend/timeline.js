@@ -720,26 +720,42 @@
     initialized = true;
   }
 
-  Promise.all([
-    fetch(API_BASE + "/topics?category=" + encodeURIComponent(CATEGORY)).then(function (res) {
-      if (!res.ok) throw new Error("Request failed with status " + res.status);
-      return res.json();
-    }),
-    fetch(API_BASE + "/categories").then(function (res) {
-      if (!res.ok) throw new Error("Request failed with status " + res.status);
-      return res.json();
-    })
-  ])
-    .then(function (results) {
-      TOPICS = results[0];
-      var categories = results[1];
-      var match = categories.filter(function (c) { return c.id === CATEGORY; })[0];
-      if (match) CATEGORY_LABEL = match.label;
-      renderNavList(categories);
-      init();
-    })
-    .catch(function (err) {
-      loadStateEl.textContent = "Couldn't load the timeline — is the API running at " + API_BASE + "? (" + err.message + ")";
-      loadStateEl.classList.add("error");
-    });
+  function fetchTimelineData() {
+    return Promise.all([
+      fetch(API_BASE + "/topics?category=" + encodeURIComponent(CATEGORY)).then(function (res) {
+        if (!res.ok) throw new Error("Request failed with status " + res.status);
+        return res.json();
+      }),
+      fetch(API_BASE + "/categories").then(function (res) {
+        if (!res.ok) throw new Error("Request failed with status " + res.status);
+        return res.json();
+      })
+    ]);
+  }
+
+  // The API Lambda scales to zero when idle, so the first request after a
+  // while can be slow enough that some browsers (mobile Safari/WebKit) abort
+  // the fetch outright rather than waiting it out. One silent retry covers
+  // this without surfacing a false "API is down" error to the user.
+  function loadTimelineData(isRetry) {
+    fetchTimelineData()
+      .then(function (results) {
+        TOPICS = results[0];
+        var categories = results[1];
+        var match = categories.filter(function (c) { return c.id === CATEGORY; })[0];
+        if (match) CATEGORY_LABEL = match.label;
+        renderNavList(categories);
+        init();
+      })
+      .catch(function (err) {
+        if (!isRetry) {
+          setTimeout(function () { loadTimelineData(true); }, 1000);
+          return;
+        }
+        loadStateEl.textContent = "Couldn't load the timeline — is the API running at " + API_BASE + "? (" + err.message + ")";
+        loadStateEl.classList.add("error");
+      });
+  }
+
+  loadTimelineData(false);
 })();

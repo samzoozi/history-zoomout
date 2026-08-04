@@ -1,128 +1,110 @@
-# Wire up historyzoomout.com, cut idle AWS cost, drop the NAT Gateway
+# Deploy history-zoomout: Neon for the database, domain still pending
 
-Planning doc — not yet implemented. Captures the agreed design so we can pick this back up later.
+Planning doc, kept up to date as we implement. Supersedes an earlier draft that used Aurora
+Serverless v2; that approach was replaced with Neon (see "Why Neon" below).
 
-## Context
+## Current state
 
-`infra/` already has a working two-stack CDK (Python) skeleton (`HistoryZoomoutFrontend`: S3 + CloudFront; `HistoryZoomoutBackend`: VPC + Aurora Serverless v2 + Lambda + API Gateway), deployed to `ca-central-1`. Three things are still open:
+- `infra/` has a two-stack CDK (Python) app: `HistoryZoomoutFrontend` (S3 + CloudFront) and
+  `HistoryZoomoutBackend` (Lambda + API Gateway). **Neither stack is actually deployed yet** —
+  confirmed via `aws cloudformation describe-stacks` returning "Stack does not exist" for both,
+  in `ca-central-1`. Despite an earlier note claiming otherwise, this is a from-scratch deploy.
+- The backend Lambda now runs the real FastAPI app (via Mangum), not a placeholder.
+- The database is Neon Postgres, not Aurora. Migrations have been run and data seeded against it
+  already, from a local machine.
+- The domain `historyzoomout.com` has not been purchased yet. Domain/Route53/ACM work is
+  deferred — the site is fully deployable and viewable without it, on the auto-generated
+  CloudFront and API Gateway URLs.
 
-1. The backend Lambda is a placeholder — it needs to actually run the FastAPI app.
-2. The domain `historyzoomout.com` isn't wired to anything yet (no Route53 hosted zone or registration in this AWS account — it's registered elsewhere, so a hosted zone needs to be created and its nameservers pointed to from the registrar).
-3. The design has two real cost problems for a low/occasional-traffic personal project: Aurora Serverless v2's 0.5 ACU floor runs 24/7 (~$45–50/mo), and the NAT Gateway is a flat ~$33/mo charge that exists only so the Lambda can reach Secrets Manager and (previously) so migrations could be run through it — neither actually requires internet egress.
+## Why Neon instead of Aurora Serverless v2
 
-Goal of this change: wire the real domain end-to-end, make the backend Lambda actually serve the API, and eliminate the NAT Gateway and the Aurora idle floor, replacing NAT with a private VPC endpoint and adding a dedicated, manually-invoked migration Lambda so `alembic upgrade head` / seeding never needs a path out of the VPC.
+The original plan used Aurora Serverless v2 with `min_capacity=0` (scale-to-zero) to avoid the
+~$45-50/mo cost of Aurora's 0.5 ACU floor, replacing the NAT Gateway (~$33/mo) with a Secrets
+Manager VPC interface endpoint. Two problems with that approach:
 
-Confirmed decisions: migrations run via **manual `aws lambda invoke`** (not an automatic CDK custom resource); the domain covers **both `historyzoomout.com` and `www.historyzoomout.com`**.
+1. Aurora's resume-from-zero isn't instant (not guaranteed sub-second), and the API Lambda's
+   timeout would need padding to absorb worst-case cold-resume latency.
+2. It's still meaningfully complex: VPC, interface endpoint, `PythonFunction` Docker bundling for
+   native deps, a dedicated migration Lambda invoked manually since there's no path out of the
+   VPC for local `alembic` access.
 
-## Stack layout
+Neon is Postgres-as-a-service built around fast scale-to-zero, reachable over a public TLS
+endpoint. Switching to it removes the VPC/NAT/interface-endpoint story entirely — the API Lambda
+doesn't need to be VPC-attached at all — and lets migrations run directly from a local machine
+against the live database, no in-VPC migration Lambda needed. Estimated cost: ~$1-3/mo total
+(mostly the eventual $0.50/mo Route53 hosted zone; Neon's free tier covers this project's traffic,
+and Lambda/API Gateway/CloudFront stay within their free tiers at this scale).
 
-Three CDK stacks in `infra/app.py`, in dependency order:
+Trade-off: the database now lives outside AWS/CDK — provisioning and scaling are managed via
+Neon's own console/CLI, not `cdk deploy`. Migrations and app code are unaffected (same
+SQLAlchemy/Alembic as before, just pointed at a different host).
 
-1. **`HistoryZoomoutDomain`** (`ca-central-1`, new) — owns the Route53 `HostedZone` for `historyzoomout.com`. Nothing else. Its only manual step: after first deploy, take the zone's NS records from the stack output and set them at the domain registrar.
-2. **`HistoryZoomoutFrontendCert`** (`us-east-1`, new, `cross_region_references=True`) — CloudFront requires its ACM cert in `us-east-1` regardless of where the rest of the app lives. DNS-validates a cert for `historyzoomout.com` + `www.historyzoomout.com` against the hosted zone from stack 1 (also `cross_region_references=True` on the Domain stack so the `HostedZone` construct can be passed directly instead of hand-copying the zone ID).
-3. **`HistoryZoomoutFrontend`** (`ca-central-1`, existing, modified) — S3 + CloudFront, now with the real domain names and cert from stacks 1–2, plus Route53 alias records.
-4. **`HistoryZoomoutBackend`** (`ca-central-1`, existing, modified) — VPC (no NAT) + Aurora Serverless v2 (scales to 0) + API Lambda + migration Lambda + API Gateway custom domain, using the hosted zone from stack 1 directly (same region, ordinary cross-stack reference, no special flag needed).
+## Backend stack (`infra/stacks/backend_stack.py`) — implemented
 
-`cross_region_references=True` is a real CDK feature (available in the installed `aws-cdk-lib`) that lets stacks in different regions share construct references directly — CDK exchanges the values via SSM under the hood, so no manual ARN/zone-ID copying is needed anywhere in this plan.
-
-## Backend stack changes (`infra/stacks/backend_stack.py`)
-
-**VPC**: `nat_gateways=0` (currently `1`). Add a Secrets Manager interface endpoint in the Lambda-private subnets:
-```python
-vpc.add_interface_endpoint("SecretsManagerEndpoint",
-    service=ec2.InterfaceVpcEndpointAwsService.SECRETS_MANAGER)
-```
-This is the only thing NAT was providing that's actually needed — neither Lambda talks to anything else outside the VPC.
-
-**Aurora**: add `serverless_v2_min_capacity=0` (currently effectively `0.5` via the default) and `serverless_v2_auto_pause_duration=Duration.minutes(5)`. Both params exist on `rds.DatabaseCluster` in the installed CDK version — confirmed by inspecting the installed package. This lets the cluster scale to 0 ACU after 5 minutes idle instead of running the floor 24/7.
-
-**API Lambda — replace the placeholder with a real Mangum-wrapped FastAPI app**:
-- `backend/pyproject.toml`: add `mangum` to `dependencies`.
-- New `backend/src/history_zoomout/lambda_handler.py`:
+- No VPC, no NAT, no Aurora. The API Lambda is a plain `PythonFunction` (from
+  `aws-cdk.aws-lambda-python-alpha`, needed for Docker-bundling `psycopg[binary]`'s native
+  extensions), not VPC-attached.
+- `backend/src/history_zoomout/lambda_handler.py` wraps the FastAPI app with Mangum:
   ```python
   from mangum import Mangum
   from .main import app
   handler = Mangum(app)
   ```
-- `infra/pyproject.toml`: add `aws-cdk.aws-lambda-python-alpha` (matching the installed `aws-cdk-lib` version, e.g. `2.260.0a0`) — needed because `psycopg[binary]` has native extensions that plain `Code.from_asset` can't bundle correctly; `PythonFunction` Docker-bundles dependencies for the Lambda runtime.
-- In `backend_stack.py`, swap `lambda_.Function(... code=lambda_.Code.from_inline(PLACEHOLDER_HANDLER) ...)` for:
-  ```python
-  from aws_cdk import aws_lambda_python_alpha as lambda_python
-  api_fn = lambda_python.PythonFunction(
-      self, "ApiFunction",
-      entry="../backend",
-      index="src/history_zoomout/lambda_handler.py",
-      handler="handler",
-      runtime=lambda_.Runtime.PYTHON_3_13,
-      ...
-  )
+- The Neon connection string lives in Secrets Manager under the name
+  `history-zoomout/database-url`, created out-of-band via:
   ```
-- Delete the now-unused `PLACEHOLDER_HANDLER` string.
-
-**DB URL resolution in Lambda**: `config.py`'s `database_url` currently only reads from `.env`/env var, which is right for local dev but there's no live value to put in a Lambda env var at synth time (the secret's contents aren't known until deploy). Add a small helper in `config.py` that, when a `DB_SECRET_ARN` env var is present, fetches credentials from Secrets Manager via `boto3` at cold start and composes the `postgresql+psycopg://` URL using the secret's `username`/`password` plus a `DB_HOST` env var (set from `database.cluster_endpoint.hostname` in the CDK stack). Falls through to today's `.env`-based default otherwise, so local dev is untouched.
-
-**API Gateway**: switch from the default `LambdaRestApi` (edge-optimized) to regional, so its custom-domain cert can live in `ca-central-1` alongside everything else instead of needing another `us-east-1` cross-region cert:
-```python
-api = apigateway.LambdaRestApi(self, "Api", handler=api_fn, proxy=True,
-    endpoint_types=[apigateway.EndpointType.REGIONAL])
-```
-Add an ACM cert for `api.historyzoomout.com` (DNS-validated against the imported hosted zone, same region — ordinary cross-stack reference), a `DomainName` + `BasePathMapping`, and a Route53 `ARecord` alias pointing at it.
-
-**CORS**: set the Lambda's `CORS_ORIGINS` env var (or equivalent settings override) to `["https://historyzoomout.com", "https://www.historyzoomout.com"]` for the deployed environment; local `.env` keeps today's `["*"]` default in `config.py` untouched.
-
-**New migration Lambda**:
-- New `backend/src/history_zoomout/lambda_migration.py`:
-  ```python
-  from alembic import command
-  from alembic.config import Config
-
-  def handler(event, context):
-      cfg = Config("alembic.ini")
-      command.upgrade(cfg, "head")
-      if event.get("seed"):
-          from .db.seed import seed
-          seed()
-      return {"status": "ok"}
+  aws secretsmanager create-secret --name history-zoomout/database-url \
+    --secret-string "<neon connection string>" --region ca-central-1
   ```
-- A second `PythonFunction` in `backend_stack.py` (same `entry="../backend"` bundle, `index="src/history_zoomout/lambda_migration.py"`), same VPC subnet/security-group/Secrets-Manager access as the API Lambda, longer timeout (~5 min) since migrations/seeding can run longer than a typical request. No API Gateway trigger — invoked manually:
-  ```
-  aws lambda invoke --function-name <MigrationFunction name> --payload '{"seed": true}' out.json
-  ```
-- Reuses the existing `alembic.ini` / `backend/alembic/` migration scripts and `backend/src/history_zoomout/db/seed.py::seed()` as-is — no changes needed there, since `alembic/env.py` already resolves its DB URL from `history_zoomout.config.settings`, which will pick up the new Secrets-Manager-backed resolution automatically.
+  (deliberately not created via CDK/`SecretValue`, so the value never touches committed source).
+  The stack imports it with `Secret.from_secret_name_v2` and grants the Lambda read access via
+  the `DB_SECRET_ARN` environment variable.
+- `backend/src/history_zoomout/config.py` resolves `database_url` from that secret at cold start
+  when `DB_SECRET_ARN` is set, falling through to the `.env`-based default otherwise — local dev
+  is unaffected.
+- `bundling.asset_excludes=[".venv", "__pycache__", ".ruff_cache", ".pytest_cache"]` on the
+  `PythonFunction` — without this, CDK bind-mounts the whole `backend/` directory (including the
+  106MB local `.venv`) into the Docker bundling container and rsync chokes on it.
+- Lambda timeout is 30s (padded well above Neon's typical wake latency) and runtime is
+  `PYTHON_3_14`, matching `backend/pyproject.toml`'s `requires-python = ">=3.14"` (the original
+  placeholder used `PYTHON_3_13`, which would have failed dependency resolution during bundling).
+- `cdk synth HistoryZoomoutBackend` and `cdk diff HistoryZoomoutBackend` both verified clean — diff
+  shows only additions (Lambda, its role/policy, API Gateway, log group), consistent with nothing
+  being deployed yet.
 
-## Frontend stack changes (`infra/stacks/frontend_stack.py`)
+## Frontend stack (`infra/stacks/frontend_stack.py`) — unchanged
 
-- Accept the cert (from the `us-east-1` stack) and hosted zone (from the Domain stack) as constructor args.
-- `cloudfront.Distribution(..., domain_names=["historyzoomout.com", "www.historyzoomout.com"], certificate=cert, ...)`.
-- Add Route53 `ARecord`/`AaaaRecord` (alias to the CloudFront distribution) for both the apex and `www` in the hosted zone.
-- Add a generated `config.js` to the `BucketDeployment` sources so the frontend knows where the API lives:
-  ```python
-  s3_deployment.Source.data("config.js",
-      "window.HISTORYZOOMOUT_API_BASE = 'https://api.historyzoomout.com';")
-  ```
-  The frontend already supports this override (`frontend/timeline.js:49` reads `window.HISTORYZOOMOUT_API_BASE`, falling back to `http://<hostname>:8000` for local dev) — no JS changes needed, just wiring the value in at deploy time.
-- `frontend/timeline.html`: add `<script src="config.js"></script>` immediately before the existing `<script src="timeline.js"></script>` (line 112), so the override is set before `timeline.js` runs.
+Still S3 + CloudFront serving `../frontend`, no domain/cert wiring yet. Works as-is without a
+purchased domain — viewable at the auto-generated `https://<distribution-id>.cloudfront.net` URL.
 
-Since `api.historyzoomout.com` is a name we choose ourselves rather than a generated one, this is a plain string constant — no cross-stack token or stack-ordering dependency between frontend and backend is needed.
+## Still open / deferred until the domain is purchased
 
-## `infra/app.py`
+This is essentially the original plan's domain work, unchanged, just not yet started:
 
-Reorder/extend to instantiate all four stacks with correct envs and dependencies:
-```python
-domain = DomainStack(app, "HistoryZoomoutDomain", env=env)
-frontend_cert = FrontendCertStack(app, "HistoryZoomoutFrontendCert",
-    env=cdk.Environment(account=env.account, region="us-east-1"),
-    hosted_zone=domain.hosted_zone, cross_region_references=True)
-FrontendStack(app, "HistoryZoomoutFrontend", env=env,
-    hosted_zone=domain.hosted_zone, certificate=frontend_cert.certificate,
-    cross_region_references=True)
-BackendStack(app, "HistoryZoomoutBackend", env=env, hosted_zone=domain.hosted_zone)
-```
+1. **`HistoryZoomoutDomain`** stack — Route53 hosted zone for `historyzoomout.com`. After first
+   deploy, take the zone's NS records and set them at the domain registrar.
+2. **`HistoryZoomoutFrontendCert`** stack (`us-east-1`, `cross_region_references=True`) — ACM cert
+   for `historyzoomout.com` + `www`, DNS-validated against the hosted zone from stack 1.
+3. **Frontend stack changes** — accept the cert + hosted zone, set `domain_names` on the
+   CloudFront distribution, add Route53 alias records for apex and `www`, and inject a generated
+   `config.js` pointing the frontend at wherever the API ends up living (custom domain or the
+   `execute-api` URL — see below).
+4. **Backend stack changes** — regional API Gateway custom domain (`api.historyzoomout.com`) with
+   its own same-region ACM cert, Route53 alias record.
 
-## Verification
+Until the domain exists, the frontend's `config.js` should point
+`window.HISTORYZOOMOUT_API_BASE` at the plain `https://<api-id>.execute-api.ca-central-1.amazonaws.com/prod/`
+URL from the backend stack's `ApiURL` output.
 
-1. `cd infra && uv run cdk synth` for all four stacks — confirms the new constructs (interface endpoint, `PythonFunction` bundling, ACM DNS validation, Route53 records) synthesize without errors, no AWS calls.
-2. `cd infra && uv run cdk diff --all` against the currently-deployed stacks to sanity-check the changeset (NAT removal, Aurora capacity change, new domain/cert/migration resources) before deploying anything billable.
-3. After `cdk deploy HistoryZoomoutDomain`, manually update NS records at the domain registrar, then confirm propagation (`dig NS historyzoomout.com`) before deploying the cert stack (DNS validation will hang otherwise).
-4. After full deploy: `aws lambda invoke --function-name <MigrationFunction> --payload '{"seed": true}' out.json` to apply migrations and seed data, then hit `https://api.historyzoomout.com/health` and `https://historyzoomout.com` to confirm the whole path works end-to-end.
-5. Confirm cost reduction by checking Cost Explorer after a few idle days — Aurora and NAT line items should drop to near-zero between usage bursts.
+## Verification checklist
+
+1. ~~`cdk synth HistoryZoomoutBackend`~~ — done, clean.
+2. ~~`cdk diff HistoryZoomoutBackend` against currently-deployed~~ — done; nothing deployed yet, so
+   diff is all-additions.
+3. `cdk deploy HistoryZoomoutBackend` then `cdk deploy HistoryZoomoutFrontend` — **not yet run**,
+   pending explicit go-ahead (these provision real, billable resources).
+4. After backend deploy: hit `<ApiURL output>/health` and `/categories` to confirm the Lambda
+   reaches Neon correctly from within AWS (already confirmed working from a local machine).
+5. After frontend deploy: wire `config.js` to the backend's `ApiURL` output, redeploy frontend,
+   confirm the CloudFront URL renders the timeline with real data.
+6. Once the domain is purchased: pick this doc back up at "Still open / deferred" above.

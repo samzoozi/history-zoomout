@@ -13,6 +13,10 @@ from constructs import Construct
 
 FRONTEND_DIR = Path(__file__).resolve().parents[2] / "frontend"
 
+# No custom domain yet (see docs/aws-deployment-plan.md), so this points straight at the
+# deployed HistoryZoomoutBackend stack's API Gateway URL rather than api.historyzoomout.com.
+API_BASE_URL = "https://0byqd8qeqb.execute-api.ca-central-1.amazonaws.com/prod"
+
 
 class FrontendStack(Stack):
     def __init__(self, scope: Construct, construct_id: str, **kwargs) -> None:
@@ -36,7 +40,13 @@ class FrontendStack(Stack):
 
         s3_deployment.BucketDeployment(
             self, "SiteDeployment",
-            sources=[s3_deployment.Source.asset(str(FRONTEND_DIR))],
+            sources=[
+                s3_deployment.Source.asset(str(FRONTEND_DIR)),
+                s3_deployment.Source.data(
+                    "config.js",
+                    f"window.HISTORYZOOMOUT_API_BASE = '{API_BASE_URL}';",
+                ),
+            ],
             destination_bucket=site_bucket,
             distribution=distribution,
             distribution_paths=["/*"],

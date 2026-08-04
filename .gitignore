@@ -12,6 +12,9 @@ wheels/
 # macOS
 .DS_Store
 
+# Environment / secrets
+.env
+
 # AWS CDK
 infra/cdk.out/
 infra/cdk.context.json
