@@ -724,16 +724,25 @@ button:focus-visible,
   /* The label column is sticky (see .lane-label) so it stays put while the
      timeline scrolls horizontally -- worth keeping on mobile for orientation,
      but 184px eats close to half a phone viewport. Shrink it to just the
-     swatch + a truncated name and drop the date-range subtext; the full
-     range is still available via the marker's own tooltip/detail panel. */
+     swatch + a name (wrapped to 2 lines, then ellipsized) and drop the
+     date-range subtext; the full range is still available via the marker's
+     own tooltip/detail panel. */
   .axis-spacer, .lane-label { width: 108px; }
   .lane-label { padding-left: 4px; padding-right: 8px; }
-  .lane-label .swatch-row { min-width: 0; }
+  .lane-label .swatch-row { min-width: 0; align-items: flex-start; }
+  /* Nudges the dot to sit level with the first line's text instead of
+     centering against the full (up to) 2-line block. */
+  .lane-label .swatch { margin-top: 5px; }
   .lane-label .name {
     min-width: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap;
+    white-space: normal;
+    hyphens: auto;
+    line-height: 1.25;
   }
   .lane-label .span { display: none; }
 }

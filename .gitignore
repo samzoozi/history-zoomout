@@ -22,3 +22,7 @@ infra/.venv
 
 # Fetched/generated data (not committed -- see docs/wikipedia-sources.md for provenance)
 /data/
+
+# Generated at deploy time by infra/stacks/frontend_stack.py; only needed locally for testing
+# against the live API
+/frontend/config.js
