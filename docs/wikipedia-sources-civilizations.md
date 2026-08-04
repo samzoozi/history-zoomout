@@ -927,3 +927,201 @@ guidance, `latitude`/`longitude` left `null` rather than guessed.
   since those are the actual English Wikipedia article titles for those two sites
   (inconsistently, some file captions on Commons do accent them, but the article titles
   themselves don't).
+
+## Vikings (Norse) (topic id: `vikings`) — pulled 2026-08-03
+
+Status: **merged into live seed data 2026-08-03** (`backend/src/history_zoomout/db/seed_data/civilizations.json`, new topic — not previously present) and reseeded. `colorIndex: 2` is the next unused value continuing the color rotation's third cycle (ottoman = 1, the first entry of that cycle).
+
+New topic covering the full 273-year span conventionally called the Viking Age
+(793–1066), from the raid on Lindisfarne through Norse expansion and settlement across
+Ireland, Francia, Rus', the North Atlantic, Denmark, and Norway, ending at the Battle of
+Stamford Bridge. Deliberately not framed around a single Scandinavian state -- unlike
+every other topic in this file, the Vikings never had one capital or ruling dynasty --
+so events span the full diaspora (Dublin, Novgorod, Rouen, Reykjavík, Vinland, Jelling,
+London) rather than one region's political succession.
+
+### Topic-level source
+
+- **Viking Age** — https://en.wikipedia.org/wiki/Viking_Age — Wikidata Q213649
+- Image: a Viking-age picture stone from Smiss, Gotland, sourced from the "Viking Age"
+  article's own lead thumbnail — chosen over a map since it's a genuine period artifact
+  rather than a modern-drawn overlay.
+
+### Event-level sources
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| Vikings raid the monastery at Lindisfarne | 793 | [Viking raid on Lindisfarne](https://en.wikipedia.org/wiki/Viking_raid_on_Lindisfarne) | *(none found)* | Eadfrith of Lindisfarne (attributed), Public domain |
+| Vikings found a longphort at Dublin | 841 | [Dublin](https://en.wikipedia.org/wiki/Dublin) | *(none found)* | Yorkshirian (map), CC BY-SA 3.0 |
+| Rurik founds the Rus' state at Novgorod | 862 | [Rurik](https://en.wikipedia.org/wiki/Rurik) | Q7990 | Дар Ветер, CC BY-SA 3.0 |
+| The Great Heathen Army invades England | 865 | [Great Heathen Army](https://en.wikipedia.org/wiki/Great_Heathen_Army) | Q1419965 | Hel-hama (map), CC BY-SA 3.0 |
+| Harald Fairhair unifies Norway at Hafrsfjord | 872 | [Battle of Hafrsfjord](https://en.wikipedia.org/wiki/Battle_of_Hafrsfjord) | Q515561 | Ole Peter Hansen Balling (painting), Public domain |
+| Ingólfr Arnarson settles Iceland | 874 | [Settlement of Iceland](https://en.wikipedia.org/wiki/Settlement_of_Iceland) | Q2725768 | Oscar Wergeland (painting), Public domain |
+| Rollo founds the Duchy of Normandy | 911 | [Rollo](https://en.wikipedia.org/wiki/Rollo) | Q273773 | Unknown artist (medieval roll), Public domain |
+| Harald Bluetooth Christianizes Denmark | 965 | [Harald Bluetooth](https://en.wikipedia.org/wiki/Harald_Bluetooth) | Q201041 | Alicudi (photo of the Jelling stones), CC BY-SA 3.0 |
+| Leif Erikson reaches Vinland | 1000 | [Leif Erikson](https://en.wikipedia.org/wiki/Leif_Erikson) | Q42838 | Dylan Kereluk (photo, L'Anse aux Meadows), CC BY 2.0 |
+| Cnut becomes King of England | 1016 | [Cnut](https://en.wikipedia.org/wiki/Cnut) | Q134128 | Unknown artist (Liber Vitae, 1031), Public domain |
+| The Battle of Stamford Bridge ends the Viking Age | 1066 | [Battle of Stamford Bridge](https://en.wikipedia.org/wiki/Battle_of_Stamford_Bridge) | Q203225 | Matthew Paris (13th-c. illustration), Public domain |
+
+### Event locations
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Vikings raid Lindisfarne | Lindisfarne | Holy Island, United Kingdom | 55.68, -1.803 |
+| Vikings found Dublin | Dyflin | Dublin, Ireland | 53.35, -6.260 |
+| Rurik founds the Rus' state | Novgorod | Veliky Novgorod, Russia | 58.55, 31.267 |
+| Great Heathen Army invades England | — | *(no single site)* | — |
+| Harald Fairhair unifies Norway | Hafrsfjord | Stavanger, Norway | 58.97, 5.731 |
+| Ingólfr Arnarson settles Iceland | Reykjarvík | Reykjavík, Iceland | 64.146, -21.943 |
+| Rollo founds Normandy | Rouen | Rouen, France | 49.443, 1.089 |
+| Harald Bluetooth Christianizes Denmark | Jelling | Jelling, Denmark | 55.754, 9.415 |
+| Leif Erikson reaches Vinland | Vinland | L'Anse aux Meadows, Canada | 51.596, -55.533 |
+| Cnut becomes King of England | London | London, United Kingdom | 51.507, -0.128 |
+| Battle of Stamford Bridge | Stamford Bridge | Stamford Bridge, United Kingdom | 53.993, -0.913 |
+
+"The Great Heathen Army Invades England" has no `location` -- the army landed in East
+Anglia and campaigned across multiple Anglo-Saxon kingdoms over several years, with no
+single site standing in for the whole invasion, unlike every other event in this topic.
+
+### Corrections / decisions made
+
+- **No single "founding" or "fall" event, unlike every other civilization topic here.**
+  The Vikings never coalesced into one state -- events instead trace the diaspora's
+  major footholds (Ireland, Rus', Normandy, Iceland, Vinland) alongside the unification
+  of Norway and Denmark as individual kingdoms. 793 (Lindisfarne) and 1066 (Stamford
+  Bridge) are used as the conventional start/end bookends of the "Viking Age" as a
+  cultural-historical period, per the Viking Age article's own framing, rather than any
+  single polity's founding and collapse.
+- **No Wikidata item found for the Lindisfarne raid or the Dublin longphort founding**
+  specifically. "Viking raid on Lindisfarne" is a real, distinct English Wikipedia
+  article (not just a redirect target) but carries no linked Wikidata item; Dublin's
+  841 founding is documented on the "Dublin" article's own history section, but the
+  only nearby Wikidata item ("Kingdom of Dublin," Q436994) covers the later 853–1170
+  polity, not the initial 841 camp -- left both `wikidataId` fields null rather than
+  pointing at a mismatched item, consistent with the pattern used elsewhere in this
+  dataset (e.g. Persia's Achaemenid fall, Maya's Kot Diji).
+- **Battle of Hafrsfjord's year is disputed.** Harald Fairhair's own article and popular
+  tradition date the battle to 872, but the Battle of Hafrsfjord article itself is more
+  cautious, giving a range of "sometime between 872 and 900." Used 872, the traditional
+  and far more commonly cited date, matching how this dataset has handled other
+  disputed-date events (e.g. Japan's Kamakura shogunate founding, 1185 vs. 1192).
+- **Harald Bluetooth's conversion/Jelling stone year given as "965.**" The Harald
+  Bluetooth article itself only says "around the 960s" without a precise year; 965 is
+  the commonly cited figure elsewhere and was kept as a reasonable circa date within
+  that range, the same approach used for Ashurbanipal's library (Mesopotamia) and
+  Persepolis's construction start (Persia).
+- **Leif Erikson's year (1000) vs. the L'Anse aux Meadows tree-ring date (1021).** The
+  sagas give no exact year for Leif's own voyage, only "c. 1000" by scholarly
+  convention; a 2021 tree-ring study precisely dated Norse-worked wood at L'Anse aux
+  Meadows to 1021, but that dates the site's occupation broadly, not necessarily Leif's
+  own specific landfall. Kept the event at the traditional c. 1000 date and used the
+  1021 dating only as corroborating evidence of Norse presence in the body text, rather
+  than replacing the year outright.
+- **Cnut's event uses 1016 (accepted as king after Edmund Ironside's death), not 1017
+  (his formal coronation in London)** -- matches how the Cnut article's own summary
+  describes his reign as "King of England from 1016." Noted here since the coronation
+  itself happened the following year.
+- **Image swapped from a modern statue to a site photo for Leif Erikson.** The REST
+  summary's own thumbnail was a Leif Erikson statue in Duluth, Minnesota (a 20th-century
+  American memorial); used a photo of the reconstructed Norse longhouse at L'Anse aux
+  Meadows instead, a real archaeological site tied directly to the event rather than a
+  later monument.
+- **Image swapped from a manuscript page to a battle painting for Harald Fairhair.**
+  Switched the source article itself from the person (Harald Fairhair) to the specific
+  event (Battle of Hafrsfjord), since that article's own lead image -- a 19th-century
+  painting of the battle -- was a stronger visual match than the Flateyjarbók
+  manuscript page found via the person's article.
+
+## Mughal Empire (topic id: `mughal`) — pulled 2026-08-03
+
+Status: **merged into live seed data 2026-08-03** (`backend/src/history_zoomout/db/seed_data/civilizations.json`, new topic — not previously present) and reseeded. `colorIndex: 3` is the next unused value continuing the
+color rotation's third cycle (ottoman = 1, vikings = 2). Covers the empire's full
+1526–1857 span, matching Wikipedia's own infobox dates for "Mughal Empire" rather than
+the narrower 1526–1707 "peak era" some accounts use.
+
+Ten events trace: the founding conquest, the ~15-year Sur Interregnum that briefly
+ended Mughal rule entirely, Akbar's restoration and consolidation, his religious
+policy, the East India Company's first foothold under Jahangir, the empire's cultural
+peak (Taj Mahal) and territorial peak (Aurangzeb's Deccan conquests) under Shah Jahan
+and Aurangzeb, the Persian sack of Delhi that broke the empire's wealth, the Battle of
+Plassey that started British political dominance, and the 1857 Rebellion that ended
+the dynasty.
+
+### Topic-level source
+
+- **Mughal Empire** — https://en.wikipedia.org/wiki/Mughal_Empire — Wikidata Q33296
+- The article's own lead thumbnail is a period map (`Joppen1907India1700a.jpg`, from an
+  1907 historical atlas) showing the empire's extent circa 1700 alongside European
+  trading posts — used as-is since it's a genuinely informative period map, not a
+  generic flag or portrait.
+
+### Event-level sources
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| Babur founds the Mughal Empire at Panipat | 1526 | [First Battle of Panipat](https://en.wikipedia.org/wiki/First_Battle_of_Panipat) | Q605321 | Baburnama manuscript painting, Public domain |
+| Sher Shah Suri defeats Humayun (Sur Interregnum begins) | 1540 | [Battle of Kannauj](https://en.wikipedia.org/wiki/Battle_of_Kannauj) | Q108485662 | Tarikh-i-Khandan-i-Timuriya manuscript painting, Public domain |
+| Akbar wins the Second Battle of Panipat | 1556 | [Second Battle of Panipat](https://en.wikipedia.org/wiki/Second_Battle_of_Panipat) | Q233414 | Kankar (Akbarnama painting), Public domain |
+| Akbar promulgates the Din-i-Ilahi | 1582 | [Din-i Ilahi](https://en.wikipedia.org/wiki/Din-i_Ilahi) | Q2347558 | Unknown artist (MFA Boston portrait), Public domain |
+| Thomas Roe's embassy gives the English a foothold at Surat | 1615 | [Thomas Roe](https://en.wikipedia.org/wiki/Thomas_Roe) | Q983131 | After Michiel Jansz. van Mierevelt, Public domain |
+| Shah Jahan commissions the Taj Mahal | 1632 | [Taj Mahal](https://en.wikipedia.org/wiki/Taj_Mahal) | Q9141 | Yann Forget, ed. Jim Carter, CC BY-SA 4.0 |
+| Aurangzeb conquers Golconda (greatest extent) | 1687 | [Siege of Golconda](https://en.wikipedia.org/wiki/Siege_of_Golconda) | Q16931432 | Anne S.K. Brown Military Collection, Public domain |
+| Nader Shah sacks Delhi | 1739 | [Nader Shah's invasion of India](https://en.wikipedia.org/wiki/Nader_Shah's_invasion_of_India) | Q6957844 | Unknown artist (Red Fort painting, c. 1739), Public domain |
+| The British win Bengal at Plassey | 1757 | [Battle of Plassey](https://en.wikipedia.org/wiki/Battle_of_Plassey) | Q203233 | Francis Hayman, Public domain |
+| The Mughal Empire ends with the 1857 Rebellion | 1857 | [Bahadur Shah Zafar](https://en.wikipedia.org/wiki/Bahadur_Shah_Zafar) | Q127369 | Unknown photographer, Public domain |
+
+### Event locations
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Babur founds the empire | Panipat | Panipat, India | 29.388, 76.97 |
+| Sher Shah Suri defeats Humayun | Kannauj | Kannauj, India | 27.07, 79.92 |
+| Akbar wins the Second Battle of Panipat | Panipat | Panipat, India | 29.388, 76.97 |
+| Akbar promulgates the Din-i-Ilahi | Fatehpur Sikri | Fatehpur Sikri, India | 27.091, 77.661 |
+| Thomas Roe's embassy | Agra | Agra, India | 27.18, 78.02 |
+| Taj Mahal commissioned | Agra | Agra, India | 27.18, 78.02 |
+| Aurangzeb conquers Golconda | Golconda | Hyderabad, India | 17.383, 78.401 |
+| Nader Shah sacks Delhi | Delhi | Delhi, India | 28.61, 77.23 |
+| Battle of Plassey | Palashi | Palashi, India | 23.8, 88.25 |
+| 1857 Rebellion ends the empire | Delhi | Delhi, India | 28.61, 77.23 |
+
+### Corrections / decisions made
+
+- N/A — this is a brand-new topic, not a replacement of existing seed data.
+- **No usable thumbnail found for the Battle of Kannauj article itself** (its REST
+  summary returned no `thumbnail.source`). Used a Sher Shah Suri court portrait from
+  the Tarikh-i-Khandan-i-Timuriya manuscript instead, sourced via the "Sher Shah Suri"
+  article. That file carries no `Artist`/`ImageDescription` in its extmetadata (only a
+  license and object name) — `imageDescription` left `null` per the skill's guidance
+  not to invent one, consistent with Persia's Achaemenid-fall and Maya's Kot Diji
+  precedent for missing/unusable image detail.
+- **"Thomas Roe's Embassy" event body reflects that his mission was a partial
+  success, not a triumph.** The Jahangir article states plainly that "no major trading
+  privileges were conceded" — the concrete outcome was permission for one factory at
+  Surat, not a sweeping charter. Framed the event around that more accurate, more
+  modest result rather than overstating it, since it's still the seed of the East
+  India Company's eventual presence.
+- **"Nader Shah Sacks Delhi" (1739) image swapped from the REST summary's default
+  thumbnail to a different Commons file.** The REST-summary thumbnail URL
+  (`Nadir_Shah_at_the_sack_of_delhi_-_Battle_scene...jpg`) 404'd against both
+  Wikipedia's and Commons' `imageinfo` API under that exact filename — the live file on
+  Commons uses "Abd-Bayg" without the space present in the REST summary's title.
+  Rather than chase the exact-match filename, used a different, better-fitting image
+  from the same article's own image list: a c. 1739 painting of Nader Shah enthroned in
+  Delhi's Red Fort, which depicts the event's actual location more directly than a
+  generic battle scene.
+- **"Aurangzeb Conquers Golconda" used for the empire's "greatest extent" marker**,
+  rather than his 1658 accession or the Bijapur conquest a year earlier (1686). The
+  Aurangzeb article doesn't cite one specific year for peak territorial extent, but
+  Golconda (1687) was his last conquest of an independent Deccan sultanate and is the
+  conventional endpoint historians cite for "the empire's largest extent" — chosen over
+  Bijapur since it's the culmination of the same campaign, not a mid-point.
+- **1857, not 1858, used for the Mughal Empire's end event**, matching the 1526–1857
+  span Wikipedia's own infobox gives for the empire as a whole. Bahadur Shah II was
+  actually captured 20 September 1857 but not tried (April 1858) or exiled to Rangoon
+  (7 October 1858) until the following year — the body text notes the later trial/exile
+  without shifting the event's year away from the conventional 1857 boundary.
+- Diacritics omitted (Nader Shah rather than Nāder Shāh, etc.), matching how the
+  English Wikipedia article titles themselves are spelled — consistent with Maya's
+  precedent of following actual article-title spelling rather than always maximally
+  diacritic-preserving.
