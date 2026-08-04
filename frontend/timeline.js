@@ -522,8 +522,23 @@
     modernEl.textContent = place;
   }
 
-  document.getElementById("detailClose").addEventListener("click", function () {
-    document.getElementById("detailPanel").classList.remove("open");
+  function closeDetailPanel() {
+    detailPanelEl.classList.remove("open");
+  }
+
+  document.getElementById("detailClose").addEventListener("click", closeDetailPanel);
+
+  // Tapping/clicking anywhere outside the open panel dismisses it, mirroring
+  // the nav drawer's scrim-click-to-close pattern. Marker clicks are
+  // excluded since they already manage the panel's open state themselves via
+  // selectEvent() (opening it, or swapping it to the newly clicked event) --
+  // without this exclusion, clicking a new marker while the panel is already
+  // open would immediately close the panel selectEvent() just opened, since
+  // the click bubbles up to this listener right after the marker's own.
+  document.addEventListener("click", function (e) {
+    if (!detailPanelEl.classList.contains("open")) return;
+    if (e.target.closest("#detailPanel") || e.target.closest(".marker")) return;
+    closeDetailPanel();
   });
 
   document.getElementById("landmarksToggle").addEventListener("change", function (e) {
