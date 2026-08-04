@@ -4,8 +4,11 @@ from aws_cdk import (
     CfnOutput,
     RemovalPolicy,
     Stack,
+    aws_certificatemanager as acm,
     aws_cloudfront as cloudfront,
     aws_cloudfront_origins as origins,
+    aws_route53 as route53,
+    aws_route53_targets as route53_targets,
     aws_s3 as s3,
     aws_s3_deployment as s3_deployment,
 )
@@ -13,13 +16,20 @@ from constructs import Construct
 
 FRONTEND_DIR = Path(__file__).resolve().parents[2] / "frontend"
 
-# No custom domain yet (see docs/aws-deployment-plan.md), so this points straight at the
-# deployed HistoryZoomoutBackend stack's API Gateway URL rather than api.historyzoomout.com.
-API_BASE_URL = "https://0byqd8qeqb.execute-api.ca-central-1.amazonaws.com/prod"
+DOMAIN_NAME = "historyzoomout.com"
+WWW_DOMAIN_NAME = f"www.{DOMAIN_NAME}"
+API_BASE_URL = "https://api.historyzoomout.com"
 
 
 class FrontendStack(Stack):
-    def __init__(self, scope: Construct, construct_id: str, **kwargs) -> None:
+    def __init__(
+        self,
+        scope: Construct,
+        construct_id: str,
+        hosted_zone: route53.IHostedZone,
+        certificate: acm.ICertificate,
+        **kwargs,
+    ) -> None:
         super().__init__(scope, construct_id, **kwargs)
 
         site_bucket = s3.Bucket(
@@ -31,6 +41,8 @@ class FrontendStack(Stack):
 
         distribution = cloudfront.Distribution(
             self, "SiteDistribution",
+            domain_names=[DOMAIN_NAME, WWW_DOMAIN_NAME],
+            certificate=certificate,
             default_root_object="timeline.html",
             default_behavior=cloudfront.BehaviorOptions(
                 origin=origins.S3BucketOrigin.with_origin_access_control(site_bucket),
@@ -52,4 +64,20 @@ class FrontendStack(Stack):
             distribution_paths=["/*"],
         )
 
-        CfnOutput(self, "SiteURL", value=f"https://{distribution.domain_name}")
+        cloudfront_target = route53.RecordTarget.from_alias(
+            route53_targets.CloudFrontTarget(distribution),
+        )
+        route53.ARecord(
+            self, "ApexAliasRecord",
+            zone=hosted_zone,
+            target=cloudfront_target,
+        )
+        route53.ARecord(
+            self, "WwwAliasRecord",
+            zone=hosted_zone,
+            record_name="www",
+            target=cloudfront_target,
+        )
+
+        CfnOutput(self, "SiteURL", value=f"https://{DOMAIN_NAME}")
+        CfnOutput(self, "CloudFrontURL", value=f"https://{distribution.domain_name}")
