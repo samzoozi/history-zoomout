@@ -1292,6 +1292,73 @@ guidance, `latitude`/`longitude` left `null` rather than guessed.
   (inconsistently, some file captions on Commons do accent them, but the article titles
   themselves don't).
 
+### Tag enrichment — 2026-08-05
+
+This file predates the tags feature (shipped 2026-08-04, after Maya's original pull and
+merge), so its 12 events carried no `tags` field even though the live
+`backend/src/history_zoomout/db/seed_data/civilizations.json` copy already had them
+(added directly to the seed data at merge time). Backfilled all 12 existing events'
+tags here first so this file matches what's live, then tallied coverage per
+`docs/wikipedia-tags.md`: `governance` and `religion` had zero events; `art`, `science`,
+`founding`, and `rebellion` had only one each across the full ~3700-year span;
+`architecture`, `collapse`, and `battle` were already reasonably covered (3-4 events
+each). User asked to research all tags for Maya broadly. Six events added, spread
+across all three sub-periods, targeting the zero/thin tags — `rebellion` (already
+covered by the existing 1441 Mayapan-collapse event) was left alone since no comparably
+significant, independently-dateable second rebellion turned up in research.
+
+| Event | Year | Article | Wikidata | Tags | Image credit |
+|---|---|---|---|---|---|
+| The San Bartolo murals depict Maya creation mythology and kingship | c. 100 BC | [San Bartolo (Maya site)](https://en.wikipedia.org/wiki/San_Bartolo_(Maya_site)) | Q795599 | religion, art | Authenticmaya, CC BY-SA 3.0 |
+| K'inich Yax K'uk' Mo' founds the Copán dynasty | 426 AD | [Kʼinich Yax Kʼukʼ Moʼ](https://en.wikipedia.org/wiki/K%CA%BCinich_Yax_K%CA%BCuk%CA%BC_Mo%CA%BC) | Q4164172 | founding | DuendeThumb, CC BY-SA 3.0 |
+| Kan Bahlam II dedicates the Group of the Cross at Palenque | c. 690 AD | [Temple of the Cross Complex](https://en.wikipedia.org/wiki/Temple_of_the_Cross_Complex) | Q7698757 | religion, art | Mdcarrasco, Public domain |
+| Yajaw Chan Muwaan II commissions the Bonampak murals | c. 790 AD | [Bonampak](https://en.wikipedia.org/wiki/Bonampak) | Q605455 | art, battle | Jacob Rus, CC BY-SA 2.0 |
+| Scribes compile the Dresden Codex | c. 1200 AD | [Dresden Codex](https://en.wikipedia.org/wiki/Dresden_Codex) | Q200944 | science | Unknown, Public domain |
+| Mayapan adopts multepal, a council of noble lineages | c. 1221 AD | [Mayapan](https://en.wikipedia.org/wiki/Mayapan) | Q567966 | governance | HJPD, CC BY-SA 3.0 |
+
+Locations:
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| San Bartolo murals | San Bartolo | —, Guatemala | not found |
+| Copán dynasty founding | Copán | Copán Ruinas, Honduras | 14.838, -89.143 |
+| Group of the Cross | Lakamha | Palenque, Mexico | 17.484, -92.046 (reused from the existing Pakal event, same site) |
+| Bonampak murals | Bonampak | Bonampak, Mexico | 16.704, -91.065 |
+| Dresden Codex | Chichen Itza | Chichen Itza, Mexico | 20.683, -88.569 (the codex's region of origin per its Wikipedia article, not its current home in Dresden) |
+| Mayapan multepal | Mayapan | Telchaquillo, Mexico | not found (same as the existing Mayapan events) |
+
+Notes and judgment calls:
+
+- **San Bartolo year**: the murals are carbon-dated to "100 BC" without a narrower range
+  given; used -100 as a single-year anchor.
+- **San Bartolo image**: Commons lists the uploader as "Authenticmaya~commonswiki" —
+  treated as the artist name (a Commons username, not a blank/missing Artist field) per
+  the skill's attribution rule.
+- **Group of the Cross year**: Wikipedia confirms Kʼinich Kan Bʼalam II reigned 684-702
+  AD and built the complex during that reign, but gives no specific dedication year (the
+  c. 692 AD date commonly cited elsewhere isn't sourced in the Wikipedia article text, so
+  it wasn't used). Used c. 690 AD — early-to-mid reign, distinct from Pakal's 615 AD
+  accession — as a placeholder, same approach as Persia's Taq-e Bostan/Khosrow I
+  reform-year placeholders.
+- **Group of the Cross image**: used a public-domain reconstruction illustration
+  (showing all three temples together) instead of a single-temple photo, since the event
+  is about the whole complex's dedication rather than one building.
+- **Bonampak commissioner**: confirmed against the article that Bonampak's own ruler,
+  Yajaw Chan Muwaan II — a Yaxchilan vassal since 600 AD — commissioned the murals to
+  commemorate his son Chooj's accession; an initial fetch had this garbled as "Yaxchilan's
+  king... installing Chan Muwaan II," which the article's actual text doesn't support.
+  Lintel dates run 780-787 AD; used 790 AD as the murals' overall completion estimate.
+- **Dresden Codex year**: Wikipedia cites a range of scholarly estimates (Thompson:
+  1200-1250 AD; Satterthwaite: no later than 1345 AD); used 1200 AD, the earliest end of
+  the range, to keep it clearly distinct from the existing 1220 AD Mayapan-founding event.
+- **Multepal year**: no exact founding year given; anchored to "a revolt around 1221 CE"
+  against Chichen Itza that Wikipedia ties to Mayapan's rise — placed one year after the
+  existing 1220 AD Mayapan-founding event (same city, distinct subject: the political
+  structure rather than the city's construction).
+- **Copán founding image**: the ceramic incense burner (Yax_Kuk_Mo.jpg) is a later,
+  7th-century artifact believed to depict the founder, not a contemporary 426 AD image —
+  noted here since no image from the founding's own era exists.
+
 ## Vikings (Norse) (topic id: `vikings`) — pulled 2026-08-03
 
 Status: **merged into live seed data 2026-08-03** (`backend/src/history_zoomout/db/seed_data/civilizations.json`, new topic — not previously present) and reseeded. `colorIndex: 2` is the next unused value continuing the color rotation's third cycle (ottoman = 1, the first entry of that cycle).
