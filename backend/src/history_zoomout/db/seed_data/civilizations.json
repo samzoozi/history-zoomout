@@ -432,9 +432,11 @@
       {
         "year": -3300,
         "sig": "major",
-        "tags": [],
         "title": "Early Farming Villages Rise at Kot Diji",
         "body": "Walled settlements at Kot Diji, on the Indus's east bank opposite the future site of Mohenjo-daro, adopt the fortification style and pottery traditions that mark the start of the Early Harappan period.",
+        "tags": [
+          "founding"
+        ],
         "sourceUrl": "https://en.wikipedia.org/wiki/Kot_Diji",
         "wikidataId": "Q1017084",
         "location": {
@@ -447,12 +449,29 @@
       },
       {
         "year": -2600,
-        "sig": "major",
+        "sig": "minor",
+        "title": "Standardized Weights Regulate Harappan Trade",
+        "body": "Cubical chert weights following a shared binary-and-decimal ratio system, along with finely graduated ivory and shell rulers, appear in near-identical form across Harappan cities -- consistency scholars read as evidence of a central authority able to enforce common standards.",
         "tags": [
-          "architecture"
+          "governance",
+          "science"
         ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/History_of_measurement_systems_in_India",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Harrappan_artefacts_08.JPG",
+        "imageAttribution": "Photo by Nomu420, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A Harappan-era weighing scale on display at the National Museum in New Delhi.",
+        "wikidataId": "Q1661530"
+      },
+      {
+        "year": -2600,
+        "sig": "major",
         "title": "Harappa and Mohenjo-daro Rise",
         "body": "Harappa and Mohenjo-daro emerge as the Indus Valley's twin great cities, their grid-planned streets, standardized baked-brick sizes, and covered drains opening the seven-century Mature Harappan period.",
+        "tags": [
+          "architecture",
+          "founding",
+          "governance"
+        ],
         "sourceUrl": "https://en.wikipedia.org/wiki/Harappa",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/View_of_Granary_and_Great_Hall_on_Mound_F_-_Archaeological_site_of_Harappa.jpg/330px-View_of_Granary_and_Great_Hall_on_Mound_F_-_Archaeological_site_of_Harappa.jpg",
         "imageAttribution": "Photo by Muhammad Bin Naveed, CC BY-SA 3.0, via Wikimedia Commons",
@@ -469,11 +488,11 @@
       {
         "year": -2500,
         "sig": "minor",
+        "title": "A Standardized Script Appears on Seals",
+        "body": "Thousands of carved steatite seals carry a symbol system used widely enough across Mature Harappan cities to suggest formal record-keeping, though without any known bilingual text, the script remains undeciphered today.",
         "tags": [
           "science"
         ],
-        "title": "A Standardized Script Appears on Seals",
-        "body": "Thousands of carved steatite seals carry a symbol system used widely enough across Mature Harappan cities to suggest formal record-keeping, though without any known bilingual text, the script remains undeciphered today.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Indus_script",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Indus_seal_impression.jpg",
         "imageAttribution": "Photo by PHGCOM, CC BY-SA 3.0, via Wikimedia Commons",
@@ -481,11 +500,70 @@
         "wikidataId": "Q601388"
       },
       {
+        "year": -2500,
+        "sig": "major",
+        "title": "The Great Bath Is Built at Mohenjo-daro",
+        "body": "Fitted baked bricks sealed with gypsum plaster and a layer of bitumen waterproof Mohenjo-daro's Great Bath, a colonnaded tank most scholars read as a site for ritual purification rather than everyday washing.",
+        "tags": [
+          "architecture",
+          "religion"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Great_Bath",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Great_Bath%2C_Mohenjo-daro_20160806_JYN-03.jpg",
+        "imageAttribution": "Photo by Aakashaliraza, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "The colonnaded Great Bath tank at Mohenjo-daro.",
+        "wikidataId": "Q3346415",
+        "location": {
+          "historicalName": "Mohenjo-daro",
+          "city": "Larkana",
+          "country": "Pakistan",
+          "latitude": 27.32916667,
+          "longitude": 68.13888889
+        }
+      },
+      {
+        "year": -2400,
+        "sig": "minor",
+        "title": "Terracotta Figurines Spark a 'Mother Goddess' Debate",
+        "body": "Small clay figurines of bejeweled women, common across Harappan sites, lead early excavators to propose a widespread fertility-goddess cult, though many scholars today read the same figurines as children's dolls or ornaments rather than religious icons.",
+        "tags": [
+          "religion",
+          "art"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Religion_of_the_Indus_Valley_Civilisation",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Female_figurine._Mature_Harappan_period._Indus_civilization_%28detail%29.jpg",
+        "imageAttribution": "Photo by Ismoon, CC0, via Wikimedia Commons",
+        "imageDescription": "A terracotta female figurine from Mohenjo-daro, wearing a fan-shaped headdress and layered jewelry, once read as a 'mother goddess.'",
+        "wikidataId": "Q107969856"
+      },
+      {
+        "year": -2350,
+        "sig": "minor",
+        "title": "Dholavira's Reservoirs Turn a Desert City Water-Secure",
+        "body": "Sixteen or more stone-cut reservoirs, some 7 meters deep and fed by dammed seasonal streams, let Dholavira store enough rainwater to sustain a large walled city through Kutch's long dry spells, among the earliest large-scale water-storage systems known anywhere.",
+        "tags": [
+          "architecture",
+          "science"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Dholavira",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Water_reservoir_at_Dholavira_site.jpg",
+        "imageAttribution": "Photo by Bhajish Bharathan, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "One of Dholavira's stone-cut water reservoirs.",
+        "wikidataId": "Q9468",
+        "location": {
+          "historicalName": "Dholavira",
+          "city": "Bhachau",
+          "country": "India",
+          "latitude": 23.88860556,
+          "longitude": 70.21363611
+        }
+      },
+      {
         "year": -2334,
         "sig": "minor",
-        "tags": [],
         "title": "Trade Networks Reach Mesopotamia",
         "body": "Sargon of Akkad's inscriptions describe ships arriving from Meluhha, most likely the Indus Valley, carrying carnelian beads, ivory, and timber to Mesopotamian ports in exchange for silver, wool, and grain.",
+        "tags": [],
         "sourceUrl": "https://en.wikipedia.org/wiki/Meluhha",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Moyen_Orient_3mil_aC.svg/330px-Moyen_Orient_3mil_aC.svg.png",
         "imageAttribution": "Map by Sémhur (base) and Zunkir (derivative), CC BY-SA 3.0, via Wikimedia Commons",
@@ -493,13 +571,57 @@
         "wikidataId": "Q483421"
       },
       {
+        "year": -2300,
+        "sig": "minor",
+        "title": "The 'Dancing Girl' Bronze Is Cast at Mohenjo-daro",
+        "body": "A small bronze figure of a bangled young woman, standing with one hand on her hip, is lost-wax cast at Mohenjo-daro, among the earliest known uses of the technique and a rare survival of Harappan figurative metalwork.",
+        "tags": [
+          "art",
+          "science"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Dancing_Girl_(prehistoric_sculpture)",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Dancing_girl_of_Mohenjo-daro.jpg",
+        "imageAttribution": "Photo by Gary Todd, CC0, via Wikimedia Commons",
+        "imageDescription": "The bronze 'Dancing Girl' statuette from Mohenjo-daro, now in the National Museum, New Delhi.",
+        "wikidataId": "Q17008494",
+        "location": {
+          "historicalName": "Mohenjo-daro",
+          "city": "Larkana",
+          "country": "Pakistan",
+          "latitude": 27.32916667,
+          "longitude": 68.13888889
+        }
+      },
+      {
+        "year": -2200,
+        "sig": "minor",
+        "title": "The Pashupati Seal Depicts a Horned Deity",
+        "body": "A steatite seal from Mohenjo-daro shows a horned, cross-legged figure encircled by wild animals; excavator John Marshall reads it as a proto-Shiva, a claim later scholars treat as one plausible interpretation among several for the civilization's undeciphered iconography.",
+        "tags": [
+          "religion",
+          "art"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Pashupati_seal",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Shiva_Pashupati.jpg",
+        "imageAttribution": "Photo of an ancient Indus Valley seal, Public domain, via Wikimedia Commons",
+        "imageDescription": "The Pashupati seal, showing a horned seated figure surrounded by animals.",
+        "wikidataId": "Q1942840",
+        "location": {
+          "historicalName": "Mohenjo-daro",
+          "city": "Larkana",
+          "country": "Pakistan",
+          "latitude": 27.32916667,
+          "longitude": 68.13888889
+        }
+      },
+      {
         "year": -1900,
         "sig": "minor",
+        "title": "The Mature Harappan Cities Begin to Decline",
+        "body": "Population and long-distance trade at Harappa and Mohenjo-daro start to contract as the seven-century Mature Harappan period ends, opening a slower slide into regional fragmentation.",
         "tags": [
           "collapse"
         ],
-        "title": "The Mature Harappan Cities Begin to Decline",
-        "body": "Population and long-distance trade at Harappa and Mohenjo-daro start to contract as the seven-century Mature Harappan period ends, opening a slower slide into regional fragmentation.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Indus_Valley_Civilisation",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Great_bath_view_Mohenjodaro.JPG/330px-Great_bath_view_Mohenjodaro.JPG",
         "imageAttribution": "Photo by Saqib Qayyum, CC BY-SA 3.0, via Wikimedia Commons",
@@ -509,9 +631,9 @@
       {
         "year": -1700,
         "sig": "major",
-        "tags": [],
         "title": "Cemetery H Culture Marks a Late Harappan Shift",
         "body": "As Mohenjo-daro is abandoned, a new culture identified by cremation burials in painted urns appears at Harappa's \"Cemetery H,\" with settlement pushing eastward and rice farming replacing the old river-trade economy.",
+        "tags": [],
         "sourceUrl": "https://en.wikipedia.org/wiki/Cemetery_H_culture",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Cemetery_H_Pottery.png/330px-Cemetery_H_Pottery.png",
         "imageAttribution": "Illustration by Avantiputra7, CC BY-SA 4.0, via Wikimedia Commons",
@@ -528,11 +650,11 @@
       {
         "year": -1300,
         "sig": "major",
+        "title": "The Civilization Fades",
+        "body": "A prolonged drying of the region's rivers drains the water supply that sustained Indus cities, and the last Late Harappan successor cultures fade into isolated regional traditions, centuries before any written record explains their end.",
         "tags": [
           "collapse"
         ],
-        "title": "The Civilization Fades",
-        "body": "A prolonged drying of the region's rivers drains the water supply that sustained Indus cities, and the last Late Harappan successor cultures fade into isolated regional traditions, centuries before any written record explains their end.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Indus_Valley_Civilisation",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Mohenjodaro_-_view_of_the_stupa_mound.JPG/330px-Mohenjodaro_-_view_of_the_stupa_mound.JPG",
         "imageAttribution": "Photo by Saqib Qayyum, CC BY-SA 3.0, via Wikimedia Commons",

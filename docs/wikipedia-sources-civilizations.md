@@ -885,7 +885,7 @@ from its nearest neighbors on the timeline (maya=8, byzantine=1).
 
 ## Indus Valley (topic id: `indus`) — pulled 2026-08-03
 
-Status: **researched, not yet merged into live seed data** (`data/wikipedia-data/indus.json`).
+Status: **merged into live seed data** (`data/wikipedia-data/civilization/indus.json`).
 
 The existing 5-event pilot entry started at 2600 BC and covered only the Mature Harappan
 phase forward -- it skipped the ~700-year Early Harappan period entirely, the same gap the
@@ -951,6 +951,84 @@ event had a location at all).
   Mohenjo-daro's abandonment (c. 1700 BC per its own article) and the civilization's
   final fade (1300 BC) -- the original pilot data jumped straight from the Great Bath
   event to the end with no Late Harappan representation at all.
+
+### Tag enrichment — all tags — 2026-08-05
+
+Requested scope: audit and fill gaps across the full tag vocabulary, not one tag.
+
+**Tag sync note**: `data/wikipedia-data/indus.json` had never carried a `tags` field on
+any event -- the topic was merged into the live seed data (`eebf7d7`) before the tagging
+system existed, and tags were added straight to `civilizations.json` later
+(`a29b5fc`) without updating this source file. Before adding anything new, synced the
+7 existing events' tags from the live seed data into the source file so the two don't
+diverge further: `architecture` x1 (Harappa/Mohenjo-daro rise), `science` x1 (script),
+`collapse` x2 (Mature Harappan decline, final fade), the other 4 events untagged.
+
+**Tally before new research**: `architecture` 1, `science` 1, `collapse` 2, `founding` 0,
+`governance` 0, `art` 0, `religion` 0, `battle` 0, `rebellion` 0.
+
+**Two existing events also got a tag correction**, not just new events, since these were
+plainly missing tags that fit the existing vocabulary's own definitions:
+- "Early Farming Villages Rise at Kot Diji" -> added `founding` (it's the civilization's
+  origin point).
+- "Harappa and Mohenjo-daro Rise" -> added `founding` (twin cities founded) and
+  `governance` (the grid planning and standardized brick sizes cited here are the same
+  evidence the Metrology literature uses for centralized administrative authority).
+
+**Six new events**, aimed at the zero-coverage tags (`art`, `religion`, `governance`)
+plus deepening `architecture` and `science`, all within the existing 3300-1300 BC range:
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| Standardized Weights Regulate Harappan Trade | 2600 BC | [History of measurement systems in India](https://en.wikipedia.org/wiki/History_of_measurement_systems_in_India) | Q1661530 | Nomu420, CC BY-SA 3.0 |
+| The Great Bath Is Built at Mohenjo-daro | 2500 BC | [Great Bath](https://en.wikipedia.org/wiki/Great_Bath) | Q3346415 | Aakashaliraza, CC BY-SA 4.0 |
+| Terracotta Figurines Spark a 'Mother Goddess' Debate | 2400 BC | [Religion of the Indus Valley Civilisation](https://en.wikipedia.org/wiki/Religion_of_the_Indus_Valley_Civilisation) | Q107969856 | Ismoon, CC0 |
+| Dholavira's Reservoirs Turn a Desert City Water-Secure | 2350 BC | [Dholavira](https://en.wikipedia.org/wiki/Dholavira) | Q9468 | Bhajish Bharathan, CC BY-SA 4.0 |
+| The 'Dancing Girl' Bronze Is Cast at Mohenjo-daro | 2300 BC | [Dancing Girl (prehistoric sculpture)](https://en.wikipedia.org/wiki/Dancing_Girl_(prehistoric_sculpture)) | Q17008494 | Gary Todd, CC0 |
+| The Pashupati Seal Depicts a Horned Deity | 2200 BC | [Pashupati seal](https://en.wikipedia.org/wiki/Pashupati_seal) | Q1942840 | Unknown Indus Valley sealmaker, Public domain |
+
+### New event locations
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| The Great Bath Is Built at Mohenjo-daro | Mohenjo-daro | Larkana, Pakistan | 27.329, 68.139 |
+| Dholavira's Reservoirs Turn a Desert City Water-Secure | Dholavira | Bhachau, India | 23.889, 70.214 |
+| The 'Dancing Girl' Bronze Is Cast at Mohenjo-daro | Mohenjo-daro | Larkana, Pakistan | 27.329, 68.139 |
+| The Pashupati Seal Depicts a Horned Deity | Mohenjo-daro | Larkana, Pakistan | 27.329, 68.139 |
+
+Standardized weights and the Mother Goddess figurine tradition are both civilization-wide
+practices without one natural findspot, so left without a `location`, consistent with how
+the script and Mesopotamia-trade events are already handled.
+
+### Corrections / notes from this pass
+
+- The Pashupati seal's find-year is given as 1928 or 1929 by its own article but its
+  *subject matter* dates to roughly 2350-2000 BC (the "Intermediate I" period); used
+  2200 BC, the midpoint commonly cited, as the event year -- the seal's creation date,
+  not its excavation date.
+- "Mother Goddess" is presented as a live scholarly debate, not settled fact: Marshall's
+  original fertility-cult reading is widely doubted today (Sharri Clark and others argue
+  the figurines are more likely dolls or ornaments). The event body reflects that
+  uncertainty rather than asserting the goddess-cult reading as established.
+- Lothal's dockyard was considered and dropped: whether the structure was a maritime dock
+  at all is actively disputed in the sources checked (critics read it as an irrigation
+  tank; Wadi al-Jarf in Egypt has a stronger claim to "world's earliest dock"), so it
+  didn't clear the "genuinely significant, independently verifiable" bar as cleanly as
+  the six events above.
+- `battle` and `rebellion` are still at zero and deliberately left that way -- the
+  Indus Valley Civilisation's archaeological record is notably light on evidence of
+  warfare or internal conflict (no fortified elite quarters, no depicted battle scenes,
+  no weapons caches on the scale seen in Mesopotamia or Egypt), and Wikipedia's own
+  coverage reflects that absence. Forcing events into either tag here would misrepresent
+  the civilization rather than fill a real gap.
+- The tracking-doc status line at the top of this topic's entry previously read
+  "researched, not yet merged into live seed data," which was stale even before this
+  pass -- `eebf7d7` had already merged Indus Valley into `civilizations.json` back on
+  2026-08-03. Corrected it above to reflect that, since this pass also merges the new
+  enrichment in.
+
+**Tally after this pass**: `architecture` 3, `art` 3, `battle` 0, `collapse` 2,
+`founding` 2, `governance` 2, `religion` 3, `rebellion` 0, `science` 4.
 
 ## Mongol Empire (topic id: `mongol`) — pulled 2026-08-03
 
