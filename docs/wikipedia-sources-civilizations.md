@@ -839,7 +839,7 @@ Twelve new events added, spanning every previously-missing sub-period:
 
 ## China (topic id: `china`) — pulled 2026-08-03
 
-Status: **merged into live seed data 2026-08-03** (replacing the old 5-event entry wholesale) and reseeded.
+Status: **merged into live seed data 2026-08-03** (replacing the old 5-event entry wholesale) and reseeded. Re-merged 2026-08-05 with the 15-event enrichment pass below (now 24 events total) and reseeded again.
 
 Old data (5 events) had a ~1500-year span but the Song dynasty (960–1279, over 300 years)
 only appeared via its *fall* to the Mongols -- no founding event at all. Also missing the
@@ -887,6 +887,92 @@ that ended centuries of division after the Han collapse.
   different events spanning Han, Sui, and Tang) -- this is accurate, not a mistake; Xi'an
   really was the seat of power for most of this span.
 - No Wikidata item found for the Battle of Yamen specifically -- left `wikidataId` null.
+
+### Enrichment pass — 2026-08-05
+
+The original 9-event set covered Qin, Han's founding, Sui, Tang, and Song's founding and
+fall, but left a ~360-year hole between Cai Lun's papermaking (105 AD) and Sui Wendi's
+reunification (581 AD) completely empty -- the entire Three Kingdoms, Jin, and Northern
+and Southern Dynasties period, one of the most consequential stretches in Chinese
+history, had zero events. The tag set also had zero `art`, zero `religion`, and zero
+`governance` events. Also note: like the Mesopotamia file before its own enrichment pass,
+`data/wikipedia-data/civilization/china.json` predates the `tags` field -- this pass adds
+`tags` to all 9 pre-existing events too, copied from the current values in
+`backend/src/history_zoomout/db/seed_data/civilizations.json`, purely to resync the
+research file; none of those 9 events' facts, images, or locations changed.
+
+Fifteen new events added, spanning every previously-missing sub-period (Three Kingdoms,
+Jin, Northern and Southern Dynasties, the Tang's religious and political high points, and
+Song governance and warfare beyond its founding):
+
+#### Event-level sources (new events only)
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| The Yellow Turban Rebellion erupts | 184 AD | [Yellow Turban Rebellion](https://en.wikipedia.org/wiki/Yellow_Turban_Rebellion) | Q751743 | SY (Seasonsinthesun), CC BY-SA 4.0 (map) |
+| The Battle of Red Cliffs | 208 AD | [Battle of Red Cliffs](https://en.wikipedia.org/wiki/Battle_of_Red_Cliffs) | Q830059 | User Jie, CC BY-SA 3.0 |
+| Cao Pi ends the Han dynasty | 220 AD | [Cao Pi](https://en.wikipedia.org/wiki/Cao_Pi) | Q313333 | Yan Liben (painting), Public domain |
+| The Jin dynasty reunifies China | 280 AD | [Jin dynasty (266–420)](https://en.wikipedia.org/wiki/Jin_dynasty_(266%E2%80%93420)) | Q7352 | Ian Kiu, CC BY-SA 3.0 (map) |
+| The Yungang Grottoes are carved | 460 AD | [Yungang Grottoes](https://en.wikipedia.org/wiki/Yungang_Grottoes) | Q308805 | xiquinhosilva, CC BY 2.0 |
+| Northern Wei moves its capital and adopts Han customs | 494 AD | [Emperor Xiaowen of Northern Wei](https://en.wikipedia.org/wiki/Emperor_Xiaowen_of_Northern_Wei) | Q1327614 | Public domain |
+| The Grand Canal is completed | 609 AD | [Grand Canal (China)](https://en.wikipedia.org/wiki/Grand_Canal_(China)) | Q31347 | EditQ, CC BY-SA 4.0 |
+| The Sui dynasty falls | 618 AD | [Emperor Yang of Sui](https://en.wikipedia.org/wiki/Emperor_Yang_of_Sui) | Q7419 | Yan Liben (painting), Public domain |
+| Xuanzang returns from his pilgrimage to India | 645 AD | [Xuanzang](https://en.wikipedia.org/wiki/Xuanzang) | Q42063 | Public domain |
+| Wu Zetian becomes emperor | 690 AD | [Wu Zetian](https://en.wikipedia.org/wiki/Wu_Zetian) | Q9738 | wanghongliu, CC BY-SA 3.0 |
+| The Diamond Sutra is printed | 868 AD | [Diamond Sutra](https://en.wikipedia.org/wiki/Diamond_Sutra) | Q494235 | Public domain |
+| The Tang dynasty falls | 907 AD | [Zhu Wen](https://en.wikipedia.org/wiki/Zhu_Wen) | Q1275305 | Public domain |
+| Bi Sheng invents movable type printing | 1041 AD | [Bi Sheng](https://en.wikipedia.org/wiki/Bi_Sheng) | Q200662 | Popolon, CC BY-SA 4.0 |
+| Wang Anshi launches the New Policies | 1069 AD | [Wang Anshi](https://en.wikipedia.org/wiki/Wang_Anshi) | Q319618 | Public domain |
+| The Jingkang Incident ends the Northern Song | 1127 AD | [Jingkang incident](https://en.wikipedia.org/wiki/Jingkang_incident) | Q1326831 | Public domain (portrait of Emperor Huizong) |
+
+#### Event locations (new events only)
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| The Yellow Turban Rebellion erupts | — | *(no single site -- uprising spanned multiple provinces)* | — |
+| The Battle of Red Cliffs | Chibi | Chibi, China | 29.72, 113.90 |
+| Cao Pi ends the Han dynasty | Luoyang | Luoyang, China | 34.62, 112.45 |
+| The Jin dynasty reunifies China | Luoyang | Luoyang, China | 34.62, 112.45 |
+| The Yungang Grottoes are carved | Pingcheng | Datong, China | 40.10, 113.37 |
+| Northern Wei moves its capital and adopts Han customs | Luoyang | Luoyang, China | 34.62, 112.45 |
+| The Grand Canal is completed | — | *(no single site -- canal spans multiple river basins)* | — |
+| The Sui dynasty falls | Jiangdu | Yangzhou, China | 32.39, 119.41 |
+| Xuanzang returns from his pilgrimage to India | Chang'an | Xi'an, China | 34.26, 108.94 |
+| Wu Zetian becomes emperor | Luoyang | Luoyang, China | 34.62, 112.45 |
+| The Diamond Sutra is printed | Dunhuang | Dunhuang, China | 40.14, 94.66 |
+| The Tang dynasty falls | Luoyang | Luoyang, China | 34.62, 112.45 |
+| Bi Sheng invents movable type printing | — | *(no single site -- workshop location not established)* | — |
+| Wang Anshi launches the New Policies | Bianjing | Kaifeng, China | 34.80, 114.35 |
+| The Jingkang Incident ends the Northern Song | Bianjing | Kaifeng, China | 34.80, 114.35 |
+
+#### Corrections / decisions made in this pass
+
+- **Cao Pi's abdication-ceremony site vs. Luoyang**: primary-source accounts place the
+  actual abdication ceremony near Fanyang (in modern Linying County, Henan), not at
+  Luoyang itself -- but Luoyang, which Cao Pi made Wei's capital immediately afterward,
+  is the well-documented, geocodable seat of the new state and is used here as a
+  reasonable simplification, the same way "Liu Bang Founds the Han Dynasty" (already in
+  the dataset) anchors to Chang'an rather than the exact battlefield-adjacent site of his
+  proclamation.
+- **Diamond Sutra located at Dunhuang, not its likely print origin**: scholarship
+  suggests the scroll was probably printed in Sichuan, but it was found in 1900 at the
+  Mogao Caves near Dunhuang, where it had been sealed for centuries, and Dunhuang is the
+  only site tied to the object that's well documented -- used as the find-site, not a
+  claim about where it was printed.
+- **Jingkang Incident's image is a portrait of Emperor Huizong**, not a battle scene or
+  map -- no freely licensed depiction of the siege of Bianjing itself was found; Huizong,
+  one of the two emperors captured in the incident, is the closest well-attributed image
+  available.
+- **Reused capital coordinates**: Luoyang (34.62, 112.45) anchors four different new
+  events (Cao Pi, the Jin reunification, the Northern Wei capital move, and the Tang's
+  fall) and Bianjing/Kaifeng (34.80, 114.35) anchors two (Wang Anshi, Jingkang) -- these
+  repeats are accurate, not mistakes; both cities really did serve as the imperial seat
+  across multiple of these events, the same pattern already noted for Chang'an/Xi'an in
+  the original pass.
+- **Grand Canal and Bi Sheng's invention have no `location` object**, following the same
+  precedent as "Great Wall construction begins" in the original pass -- the canal spans
+  multiple river basins with no single site, and Bi Sheng's own workshop location isn't
+  established in the sources checked.
 
 ## Byzantine Empire (topic id: `byzantine`) — pulled 2026-08-03
 
