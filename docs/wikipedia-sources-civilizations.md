@@ -94,6 +94,165 @@ reasonable stand-in rather than leaving it empty.
   wasn't asked for; used similar judgment for the new events (empire foundings and famous
   military upsets marked major, supporting details marked minor).
 
+### Tag enrichment — 2026-08-04
+
+Targeted every tag that was at zero or thin for Persia (per `docs/wikipedia-tags.md`):
+`art`, `governance`, `rebellion`, and `science` had no events at all; `religion` had
+only one. `battle` was already carrying 9 of the original 10 events, so no new events
+were added there. Four events added, merged into the existing `events[]` and re-sorted
+chronologically; the previously-merged events' `tags` (already live in
+`backend/src/history_zoomout/db/seed_data/civilizations.json` since the tags feature
+shipped, but missing from this file, which predates that merge) were also backfilled
+here so this file matches what's actually live.
+
+| Event | Year | Article | Wikidata | Tags | Image credit |
+|---|---|---|---|---|---|
+| Darius I suppresses rebellions, carves the Behistun Inscription | 521 BC | [Behistun inscription](https://en.wikipedia.org/wiki/Behistun_inscription) | Q180012 | rebellion, governance | Patrick C (Pentocelo), CC BY-SA 2.0 |
+| The Ionian Revolt challenges Persian rule | 499 BC | [Ionian Revolt](https://en.wikipedia.org/wiki/Ionian_Revolt) | Q208261 | rebellion | Eric Gaba & MinisterForBadTimes (map), CC BY-SA 3.0 |
+| Shapur I founds the Academy of Gondishapur | 270 AD | [Academy of Gondishapur](https://en.wikipedia.org/wiki/Academy_of_Gondishapur) | Q414464 | science | Alireza.heydear, CC BY-SA 4.0 |
+| Khosrow II commissions the grand reliefs at Taq-e Bostan | c. 600 AD | [Taq-e Bostan](https://en.wikipedia.org/wiki/Taq-e_Bostan) | Q940045 | art, religion | جواد, CC BY-SA 3.0 |
+
+Locations:
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Behistun Inscription | Behistun | Bisotun, Iran | 34.391, 47.436 |
+| Ionian Revolt | Miletus | Balat, Turkey | 37.530, 27.278 |
+| Academy of Gondishapur | Gondishapur | Dezful, Iran | 32.283, 48.517 |
+| Taq-e Bostan reliefs | Taq-e Bostan | Kermanshah, Iran | 34.388, 47.132 |
+
+Notes and judgment calls:
+
+- **Behistun year**: the inscription/relief itself wasn't carved on one single day; the
+  campaign it documents ran through 522–521 BC ending in nineteen battles by December
+  521 BC. Used 521 BC as the event year (the campaign's conclusion / when the record was
+  made), not 522 BC (when Darius took the throne).
+- **Behistun tags**: `governance` alongside `rebellion` because the inscription is as
+  much a legitimacy/administrative record — Darius justifying and documenting his rule —
+  as it is a chronicle of the revolts themselves.
+- **Ionian Revolt tags**: deliberately left off `battle` despite real battles occurring
+  (Battle of Lade, 494 BC) — `battle` was already carrying 9/10 of Persia's events, and
+  the revolt's defining feature for this pass is the uprising itself, not a single named
+  battle the way Thermopylae or Carrhae are.
+- **Gondishapur year**: Wikipedia gives a range (240–270 AD, Shapur I's reign) rather
+  than a precise founding date; used 270 AD (the end of that range) to avoid colliding
+  with the existing 260 AD Valerian-capture event, while staying within the sourced
+  window and after Shapur I's Antioch/Roman POW campaigns that populated the city.
+- **Taq-e Bostan year**: the site's large reliefs are usually attributed to Khosrow II's
+  reign (590–628 AD) without one precise carving date; used 600 AD as an approximate
+  mid-reign placeholder. (The site also has separate, more precisely dated 4th-century
+  investiture reliefs of Ardashir II and Shapur III — used the Khosrow II reliefs instead
+  since they're the more famous, more extensively described set.)
+- **Taq-e Bostan image**: used a photo of the equestrian relief of Khosrow II in armor
+  rather than a general site photo, since it's a specific, recognizable piece of the
+  carving rather than a wide establishing shot.
+
+### Tag enrichment — 2026-08-04 (round 2: religion/Zoroastrianism, architecture)
+
+The first enrichment round (above) treated `religion` and `architecture` as adequately
+covered at 1 event each and left them alone, focusing only on the zero-count tags. On
+review, that undersold both: the one `religion` event (Cyrus freeing the Jewish
+captives) says nothing about Zoroastrianism, arguably the more central religious thread
+for Persia specifically, and the one `architecture` event (Persepolis) doesn't represent
+the range of Persian building across three empires. Two more events added, both
+Sasanian-era to balance the existing Achaemenid-heavy `architecture` coverage.
+
+| Event | Year | Article | Wikidata | Tags | Image credit |
+|---|---|---|---|---|---|
+| Adur Gushnasp fire temple enshrined at Takht-e Soleymān | c. 420 AD | [Adur Gushnasp](https://en.wikipedia.org/wiki/Adur_Gushnasp) | Q6419581 | religion, architecture | Salar Arkan, CC BY-SA 4.0 |
+| Khosrow I builds the Grand Arch at Ctesiphon (Taq Kasra) | c. 540 AD | [Taq Kasra](https://en.wikipedia.org/wiki/Taq_Kasra) | Q1486703 | architecture | Safa Daneshvar, CC BY-SA 4.0 |
+
+Locations:
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Adur Gushnasp | Adur Gushnasp | Takht-e Soleyman, Iran | 36.603, 47.236 |
+| Taq Kasra | Ctesiphon | Salman Pak, Iraq | 33.1, 44.583 |
+
+Notes and judgment calls:
+
+- **Adur Gushnasp year**: no single founding date is recorded — archaeology suggests the
+  fire arrived at the site in the late 4th or early 5th century, and Bahram V (r.
+  420–438) is the first king recorded endowing it. Used 420 AD, the start of his reign,
+  as the anchor rather than the vaguer "late 4th century."
+  Zoroastrianism itself has no useful single "founding" event to add as its own entry —
+  the prophet Zoroaster's own dates are disputed across a 900-year range depending on the
+  source — so this event (a specific, dateable shrine with recorded royal patronage) was
+  the more defensible way to give the religion its own representation.
+- **Taq Kasra year/builder**: genuinely disputed in the source — Wikipedia notes
+  historians differ between Shapur I (242–272 AD, i.e. the same era as the already-covered
+  Valerian capture and Gondishapur founding) and Khosrow I (construction beginning
+  c. 540 AD). Went with Khosrow I/540 AD both because it's the more specific of the two
+  and because it spreads Persia's architecture coverage across reigns instead of
+  clustering everything in Shapur I's.
+- **Taq Kasra sig**: rated `major`, unlike Persepolis's `minor` — it's arguably the most
+  recognizable surviving Sasanian structure and an engineering record-holder (largest
+  free-standing brick vault built before the modern era). Not harmonized against
+  Persepolis's existing rating, per the skill's own guidance not to re-litigate events
+  outside the current scope.
+
+### Tag enrichment — 2026-08-04 (round 3: governance, science, art, religion)
+
+User asked to research tags for Persia broadly; a tally of the then-current 16 events
+showed `battle` dominant at 9 while `governance`, `science`, and `art` each had only 1
+event across the full ~1200-year span, and `religion` (3 events) had nothing at all in
+the ~470-year Parthian era. Confirmed scope with the user (all four tags) before
+researching. Ten events added, spread across all three empires — the Parthian era in
+particular goes from two events (founding, Battle of Carrhae) to five, gaining its first
+governance, art, and religion representation.
+
+| Event | Year | Article | Wikidata | Tags | Image credit |
+|---|---|---|---|---|---|
+| Darius I commissions the Old Persian cuneiform script | 521 BC | [Old Persian cuneiform](https://en.wikipedia.org/wiki/Old_Persian_cuneiform) | Q1471822 | science | Diego Delso, CC BY-SA 4.0 |
+| Darius I reorganizes the empire into satrapies | c. 519 BC | [Satrap](https://en.wikipedia.org/wiki/Satrap) | Q170305 | governance | Georges Jansoone, CC BY 2.5 |
+| The Apadana reliefs depict delegations from across the empire | c. 515 BC | [Apadana](https://en.wikipedia.org/wiki/Apadana) | Q617256 | art, architecture | Adam Jones, CC BY-SA 2.0 |
+| The Nisa helmeted warrior blends Hellenistic and Iranian art | c. 150–100 BC | [Nisa helmeted warrior](https://en.wikipedia.org/wiki/Nisa_helmeted_warrior) | Q134469651 | art | Bruce Allardice, CC BY-SA 4.0 |
+| Mithridates II adopts the title King of Kings | c. 108 BC | [Mithridates II of Parthia](https://en.wikipedia.org/wiki/Mithridates_II_of_Parthia) | Q297763 | governance | Classical Numismatic Group, CC BY-SA 3.0 |
+| Vologases I preserves the scattered Avesta texts | c. 60 AD | [Vologases I of Parthia](https://en.wikipedia.org/wiki/Vologases_I_of_Parthia) | Q312446 | religion | Classical Numismatic Group, CC BY-SA 3.0 |
+| Shapur I founds Bishapur, fusing Persian and Roman art | 266 AD | [Bishapur](https://en.wikipedia.org/wiki/Bishapur) | Q477898 | art, architecture | Carole Raddato, CC BY-SA 2.0 |
+| Kartir lays the foundations of a Zoroastrian state church | c. 272 AD | [Kartir](https://en.wikipedia.org/wiki/Kartir) | Q557619 | religion | Darafsh Kaviyani, CC BY 3.0 |
+| Khosrow I reforms taxation and the military | c. 550 AD | [Khosrow I](https://en.wikipedia.org/wiki/Khosrow_I) | Q207381 | governance | Classical Numismatic Group, CC BY-SA 3.0 |
+| Borzuya translates the Panchatantra into Pahlavi | c. 570 AD | [Borzuya](https://en.wikipedia.org/wiki/Borzuya) (date from [Kalila wa Dimna](https://en.wikipedia.org/wiki/Kalila_wa_Dimna)) | Q1017211 | science | Unknown, Public domain |
+
+Locations:
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Apadana reliefs | Persepolis | Marvdasht, Iran | 29.935, 52.89 |
+| Nisa helmeted warrior | Nisa | Ashgabat, Turkmenistan | 37.967, 58.195 |
+| Bishapur | Bishapur | Kazerun, Iran | 29.778, 51.571 |
+
+Notes and judgment calls:
+
+- **Satrapy reform year**: not precisely dated by Wikipedia — the article only says the
+  36-satrapy tribute schedule comes "according to the Behistun inscription," which is
+  itself dated 521 BC. Used 519 BC (a couple of years after Behistun, distinct from both
+  it and the 518 BC Persepolis construction-start event) rather than reusing 521 BC.
+- **Royal Road considered and dropped**: initially researched as an Achaemenid
+  governance candidate, but the article hedges its own dating ("Darius I improved the
+  existing road network... but lacks a citation for this specific claim") — the satrapy
+  reform had firmer sourcing (via the Behistun inscription) so it was used instead.
+- **Mithridates II year**: the "King of Kings" title adoption is dated specifically
+  (c. 109/108 BC); the vassal-state reorganization of the Caucasus/Mesopotamia it's
+  paired with in the body text happened across his wider reign (124–91 BC), not on that
+  same date — phrased to not overclaim a single date for both.
+- **Khosrow I reform year**: Wikipedia doesn't give a specific year for the tax/military
+  reforms beyond "after the 531 peace agreement with Rome." Used 550 AD as a placeholder
+  mid-reign date, distinct from the already-existing 540 AD Taq Kasra event for the same
+  king.
+- **Khosrow I image swap**: the first candidate image (Plate of the Sasanian king
+  Khosrow I Anushirvan) had a license but no listed artist, so per the skill's rule it
+  was dropped in favor of a Khosrow I coin from Gundeshapur mint with full attribution.
+- **Kartir persecution claim**: Wikipedia notes historian Parvaneh Pourshariati flags
+  that Kartir's own inscriptions claiming persecution of Christians, Jews, Mandaeans,
+  Manichaeans, and Buddhists may not reflect what was actually implemented — Jewish and
+  Christian sources from the period don't mention it. Body text says he "claims to have
+  suppressed" rather than stating the persecutions as settled fact.
+- **Kartir/Bishapur sig**: rated `minor` like the rest of this batch, for consistency
+  with the existing pattern where architecture/art/religion/science events are `minor`
+  and only foundings/falls/major battles are `major` — not because the events are
+  individually less significant.
+
 ## Egypt (topic id: `egypt`) — pulled 2026-08-02
 
 Status: **merged into live seed data 2026-08-02** (replacing the old 5-event entry wholesale) and reseeded.

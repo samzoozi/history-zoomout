@@ -926,12 +926,12 @@
       {
         "year": -550,
         "sig": "major",
+        "title": "Cyrus the Great Founds the Achaemenid Empire",
+        "body": "Cyrus II defeats the Median Empire and unites the Medes and Persians under Achaemenid rule, founding what will become the largest empire the ancient world had yet seen.",
         "tags": [
           "founding",
           "battle"
         ],
-        "title": "Cyrus the Great Founds the Achaemenid Empire",
-        "body": "Cyrus II defeats the Median Empire and unites the Medes and Persians under Achaemenid rule, founding what will become the largest empire the ancient world had yet seen.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Cyrus_the_Great",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Cyrus_II_%28The_Great%29_%28cropped%29.jpg/330px-Cyrus_II_%28The_Great%29_%28cropped%29.jpg",
         "imageAttribution": "Photo by Surenae, CC BY-SA 4.0, via Wikimedia Commons",
@@ -948,12 +948,12 @@
       {
         "year": -539,
         "sig": "minor",
+        "title": "Cyrus Conquers Babylon, Frees the Jewish Captives",
+        "body": "Cyrus captures Babylon and issues the Cyrus Cylinder, a declaration recording his restoration of displaced peoples and local temples — including freeing the Jewish captives held there since the Babylonian conquest of Jerusalem.",
         "tags": [
           "battle",
           "religion"
         ],
-        "title": "Cyrus Conquers Babylon, Frees the Jewish Captives",
-        "body": "Cyrus captures Babylon and issues the Cyrus Cylinder, a declaration recording his restoration of displaced peoples and local temples — including freeing the Jewish captives held there since the Babylonian conquest of Jerusalem.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Cyrus_Cylinder",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Cyrus_Cylinder_front.jpg/330px-Cyrus_Cylinder_front.jpg",
         "imageAttribution": "Photo by Prioryman, CC BY-SA 3.0, via Wikimedia Commons",
@@ -968,13 +968,63 @@
         }
       },
       {
+        "year": -521,
+        "sig": "major",
+        "title": "Darius I Suppresses Rebellions and Carves the Behistun Inscription",
+        "body": "After seizing the Achaemenid throne amid the chaos following Cambyses II's death, Darius I fights nineteen battles in a single year to crush a wave of rebellions across the empire, then has his victory and the defeated pretender kings carved into a cliff face at Behistun in three languages.",
+        "tags": [
+          "rebellion",
+          "governance"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Behistun_inscription",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Behistun_relief_Darius_and_Gaumata.jpg/500px-Behistun_relief_Darius_and_Gaumata.jpg",
+        "imageAttribution": "Photo by Patrick C (Pentocelo), CC BY-SA 2.0, via Wikimedia Commons",
+        "imageDescription": "The Behistun relief showing Darius I standing over the defeated rebel Gaumata.",
+        "wikidataId": "Q180012",
+        "location": {
+          "historicalName": "Behistun",
+          "city": "Bisotun",
+          "country": "Iran",
+          "latitude": 34.39055556,
+          "longitude": 47.43583333
+        }
+      },
+      {
+        "year": -521,
+        "sig": "minor",
+        "title": "Darius I Commissions the Old Persian Cuneiform Script",
+        "body": "Lacking a Persian writing system of their own, Darius I has scribes devise Old Persian cuneiform, a simplified 34-character script with word dividers, for the empire's monumental inscriptions.",
+        "tags": [
+          "science"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Old_Persian_cuneiform",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Tomb_of_Darius_I_DNa_inscription_part_II.jpg/330px-Tomb_of_Darius_I_DNa_inscription_part_II.jpg",
+        "imageAttribution": "Photo by Diego Delso, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "Old Persian cuneiform inscription from the tomb of Darius I.",
+        "wikidataId": "Q1471822"
+      },
+      {
+        "year": -519,
+        "sig": "minor",
+        "title": "Darius I Reorganizes the Empire into Satrapies",
+        "body": "Darius I restructures the Achaemenid Empire into thirty-six satrapies, each governed by a satrap under the watch of royal inspectors and independent financial and military officials, and fixes a standard annual tribute for every province.",
+        "tags": [
+          "governance"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Satrap",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Achaemenid_Satrap_Asia_Minor_end_of_6th_century_BCE.jpg",
+        "imageAttribution": "Photo by Georges Jansoone, CC BY 2.5, via Wikimedia Commons",
+        "imageDescription": "A relief depicting an Achaemenid satrap from Asia Minor, dated to the end of the 6th century BC.",
+        "wikidataId": "Q170305"
+      },
+      {
         "year": -518,
         "sig": "minor",
+        "title": "Construction Begins at Persepolis",
+        "body": "Darius I begins building a new ceremonial capital in the Persian heartland, whose terraces, columned halls, and reliefs will showcase the empire's reach from Egypt to the Indus Valley.",
         "tags": [
           "architecture"
         ],
-        "title": "Construction Begins at Persepolis",
-        "body": "Darius I begins building a new ceremonial capital in the Persian heartland, whose terraces, columned halls, and reliefs will showcase the empire's reach from Egypt to the Indus Valley.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Persepolis",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Gate_of_All_Nations%2C_Persepolis.jpg/500px-Gate_of_All_Nations%2C_Persepolis.jpg",
         "imageAttribution": "Photo by Alborzagros, CC BY-SA 3.0, via Wikimedia Commons",
@@ -989,13 +1039,56 @@
         }
       },
       {
+        "year": -515,
+        "sig": "minor",
+        "title": "The Apadana Reliefs Depict Delegations from across the Empire",
+        "body": "Sculptors carve the staircases of the Apadana at Persepolis with processions of tribute-bearing delegations from across the empire, from Lydia to Ethiopia, presenting a visual catalogue of Achaemenid rule.",
+        "tags": [
+          "art",
+          "architecture"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Apadana",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Bas-Relief_on_Apadana_Staircase_-_Persepolis_-_Central_Iran_-_04_%287427787384%29_%282%29.jpg",
+        "imageAttribution": "Photo by Adam Jones, CC BY-SA 2.0, via Wikimedia Commons",
+        "imageDescription": "A bas-relief of tribute bearers on the Apadana staircase at Persepolis.",
+        "wikidataId": "Q617256",
+        "location": {
+          "historicalName": "Persepolis",
+          "city": "Marvdasht",
+          "country": "Iran",
+          "latitude": 29.935,
+          "longitude": 52.89
+        }
+      },
+      {
+        "year": -499,
+        "sig": "minor",
+        "title": "The Ionian Revolt Challenges Persian Rule",
+        "body": "Aristagoras of Miletus incites the Greek cities of Ionia to rise against Persian rule; Persia spends six years reconquering the region, crushing the revolt decisively at the Battle of Lade and resettling Miletus's population.",
+        "tags": [
+          "rebellion"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Ionian_Revolt",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Ionian_Revolt_Campaign_Map-en.svg/330px-Ionian_Revolt_Campaign_Map-en.svg.png",
+        "imageAttribution": "Map by Eric Gaba and MinisterForBadTimes, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A campaign map of the military operations during the Ionian Revolt.",
+        "wikidataId": "Q208261",
+        "location": {
+          "historicalName": "Miletus",
+          "city": "Balat",
+          "country": "Turkey",
+          "latitude": 37.53027778,
+          "longitude": 27.27833333
+        }
+      },
+      {
         "year": -480,
         "sig": "major",
+        "title": "The Battle of Thermopylae",
+        "body": "Xerxes' invading army is delayed for three days at a narrow mountain pass by a small Greek force under the Spartan king Leonidas, whose stand becomes a lasting symbol of resistance even in defeat.",
         "tags": [
           "battle"
         ],
-        "title": "The Battle of Thermopylae",
-        "body": "Xerxes' invading army is delayed for three days at a narrow mountain pass by a small Greek force under the Spartan king Leonidas, whose stand becomes a lasting symbol of resistance even in defeat.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Thermopylae",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/L%C3%A9onidas_aux_Thermopyles_-_Jacques-Louis_David_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3690_%3B_L_3711.jpg/330px-L%C3%A9onidas_aux_Thermopyles_-_Jacques-Louis_David_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3690_%3B_L_3711.jpg",
         "imageAttribution": "Painting by Jacques-Louis David, Public domain, via Wikimedia Commons",
@@ -1012,12 +1105,12 @@
       {
         "year": -330,
         "sig": "major",
+        "title": "The Achaemenid Empire Falls to Alexander the Great",
+        "body": "Darius III, the last Achaemenid king, is killed by his own satraps while fleeing Alexander the Great's invasion, bringing the two-century-old empire to an end.",
         "tags": [
           "collapse",
           "battle"
         ],
-        "title": "The Achaemenid Empire Falls to Alexander the Great",
-        "body": "Darius III, the last Achaemenid king, is killed by his own satraps while fleeing Alexander the Great's invasion, bringing the two-century-old empire to an end.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Darius_III",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Darius_III_mosaic.jpg/500px-Darius_III_mosaic.jpg",
         "imageAttribution": "Photo by Carole Raddato, CC BY-SA 2.0, via Wikimedia Commons (detail of the Alexander Mosaic)",
@@ -1034,12 +1127,12 @@
       {
         "year": -247,
         "sig": "major",
+        "title": "The Parthian Empire Is Founded",
+        "body": "Arsaces I leads the Parni tribe in seizing the region of Parthia from the crumbling Seleucid Empire, founding a new Iranian dynasty that will rule for the next 470 years.",
         "tags": [
           "founding",
           "battle"
         ],
-        "title": "The Parthian Empire Is Founded",
-        "body": "Arsaces I leads the Parni tribe in seizing the region of Parthia from the crumbling Seleucid Empire, founding a new Iranian dynasty that will rule for the next 470 years.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Parthian_Empire",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Map_of_the_Parthian_Empire_under_Mithridates_II.svg/330px-Map_of_the_Parthian_Empire_under_Mithridates_II.svg.png",
         "imageAttribution": "Map by Ro4444 (edited), CC BY-SA 4.0, via Wikimedia Commons",
@@ -1054,13 +1147,48 @@
         }
       },
       {
+        "year": -150,
+        "sig": "minor",
+        "title": "The Nisa Helmeted Warrior Blends Hellenistic and Iranian Art",
+        "body": "At the Parthian royal residence of Nisa, sculptors model a monumental clay head of a helmeted warrior whose naturalistic Greek-trained modeling and Hellenistic armor sit alongside the frontal, restrained style that will come to define Parthian art.",
+        "tags": [
+          "art"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Nisa_helmeted_warrior",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Nisa_helmeted_warrior_%28black_background%29.jpg/330px-Nisa_helmeted_warrior_%28black_background%29.jpg",
+        "imageAttribution": "Photo by Bruce Allardice, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "The Nisa helmeted warrior, a clay head from a monumental statue found at Old Nisa.",
+        "wikidataId": "Q134469651",
+        "location": {
+          "historicalName": "Nisa",
+          "city": "Ashgabat",
+          "country": "Turkmenistan",
+          "latitude": 37.9667,
+          "longitude": 58.195
+        }
+      },
+      {
+        "year": -108,
+        "sig": "minor",
+        "title": "Mithridates II Adopts the Title King of Kings",
+        "body": "Mithridates II reorganizes newly won territories in Mesopotamia and the Caucasus as Parthian vassal states and, from around 109 BC, becomes the first Parthian ruler to regularly claim the title \"King of Kings\" in the Achaemenid imperial tradition.",
+        "tags": [
+          "governance"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Mithridates_II_of_Parthia",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Coin_of_Mithridates_II_of_Parthia%2C_Ray_mint.jpg/330px-Coin_of_Mithridates_II_of_Parthia%2C_Ray_mint.jpg",
+        "imageAttribution": "Photo by Classical Numismatic Group, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "Silver coin of Mithridates II of Parthia, minted at Rhages.",
+        "wikidataId": "Q297763"
+      },
+      {
         "year": -53,
         "sig": "major",
+        "title": "The Battle of Carrhae",
+        "body": "A Roman invasion force under Crassus is lured into open desert and destroyed by Parthian cavalry under the general Surena, in one of Rome's most catastrophic defeats.",
         "tags": [
           "battle"
         ],
-        "title": "The Battle of Carrhae",
-        "body": "A Roman invasion force under Crassus is lured into open desert and destroyed by Parthian cavalry under the general Surena, in one of Rome's most catastrophic defeats.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Carrhae",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Battle_of_Carrhae_%28Caesar%CB%90_A_History_Of_The_Art_Of_War_Among_The_Romans_Down_To_The_End%2C_vol._II%2C_1892%29.jpg/330px-Battle_of_Carrhae_%28Caesar%CB%90_A_History_Of_The_Art_Of_War_Among_The_Romans_Down_To_The_End%2C_vol._II%2C_1892%29.jpg",
         "imageAttribution": "Theodore Ayrault Dodge, Public domain, via Wikimedia Commons",
@@ -1075,14 +1203,28 @@
         }
       },
       {
+        "year": 60,
+        "sig": "minor",
+        "title": "Vologases I Preserves the Scattered Avesta Texts",
+        "body": "Vologases I orders his subjects to gather and safeguard the surviving Avestan scriptures and teachings, which had been scattered since Alexander's conquest more than two centuries earlier, laying groundwork for the Avesta's eventual compilation.",
+        "tags": [
+          "religion"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Vologases_I_of_Parthia",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Tetradrachm_of_Vologases_I%2C_minted_at_Seleucia.jpg/330px-Tetradrachm_of_Vologases_I%2C_minted_at_Seleucia.jpg",
+        "imageAttribution": "Photo by Classical Numismatic Group, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "Tetradrachm of Vologases I of Parthia, minted at Seleucia.",
+        "wikidataId": "Q312446"
+      },
+      {
         "year": 224,
         "sig": "minor",
+        "title": "The Sasanian Dynasty Rises",
+        "body": "Ardashir I defeats the last Parthian king and founds a new Persian empire under the House of Sasan, which will rival Rome and later Byzantium for over four centuries.",
         "tags": [
           "founding",
           "battle"
         ],
-        "title": "The Sasanian Dynasty Rises",
-        "body": "Ardashir I defeats the last Parthian king and founds a new Persian empire under the House of Sasan, which will rival Rome and later Byzantium for over four centuries.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Sasanian_Empire",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/The_Sasanian_Empire_at_its_apex_under_Khosrow_II.svg/330px-The_Sasanian_Empire_at_its_apex_under_Khosrow_II.svg.png",
         "imageAttribution": "Map by Ro4444 (edited), CC BY 4.0, via Wikimedia Commons",
@@ -1099,11 +1241,11 @@
       {
         "year": 260,
         "sig": "major",
+        "title": "Shapur I Captures the Roman Emperor Valerian",
+        "body": "Sasanian king Shapur I defeats a Roman army at Edessa and takes Emperor Valerian prisoner — the first time a reigning Roman emperor is ever captured in battle.",
         "tags": [
           "battle"
         ],
-        "title": "Shapur I Captures the Roman Emperor Valerian",
-        "body": "Sasanian king Shapur I defeats a Roman army at Edessa and takes Emperor Valerian prisoner — the first time a reigning Roman emperor is ever captured in battle.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Edessa",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Naghsh-e_rostam%2C_Ir%C3%A1n%2C_2016-09-24%2C_DD_12.jpg/330px-Naghsh-e_rostam%2C_Ir%C3%A1n%2C_2016-09-24%2C_DD_12.jpg",
         "imageAttribution": "Photo by Diego Delso, CC BY-SA 4.0, via Wikimedia Commons",
@@ -1118,14 +1260,164 @@
         }
       },
       {
+        "year": 266,
+        "sig": "minor",
+        "title": "Shapur I Founds Bishapur, Fusing Persian and Roman Art",
+        "body": "Shapur I founds the city of Bishapur using Roman engineers and craftsmen captured after his victories over Rome, and its palace floors are laid with mosaics of dancers and musicians that blend Sasanian subjects with Roman mosaic technique.",
+        "tags": [
+          "art",
+          "architecture"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Bishapur",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/The_mosaics_from_Bishapur%2C_Sassanid_period%2C_National_Museum_of_Iran%2C_Tehran%2C_Iran.jpg/500px-The_mosaics_from_Bishapur%2C_Sassanid_period%2C_National_Museum_of_Iran%2C_Tehran%2C_Iran.jpg",
+        "imageAttribution": "Photo by Carole Raddato, CC BY-SA 2.0, via Wikimedia Commons",
+        "imageDescription": "Sasanian-era mosaics from the palace of Shapur I at Bishapur, now in the National Museum of Iran.",
+        "wikidataId": "Q477898",
+        "location": {
+          "historicalName": "Bishapur",
+          "city": "Kazerun",
+          "country": "Iran",
+          "latitude": 29.7778,
+          "longitude": 51.5708
+        }
+      },
+      {
+        "year": 270,
+        "sig": "minor",
+        "title": "Shapur I Founds the Academy of Gondishapur",
+        "body": "Shapur I builds a new city in Khuzestan populated partly by Roman prisoners taken during his campaigns against Rome, founding an academy there that grows into a leading center for medicine, philosophy, and science, complete with a hospital and library.",
+        "tags": [
+          "science"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Academy_of_Gondishapur",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Ancient_City_of_Gandhi_Shapour_02.jpg/330px-Ancient_City_of_Gandhi_Shapour_02.jpg",
+        "imageAttribution": "Photo by Alireza.heydear, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "Ruins at the site of the ancient city of Gondishapur in Khuzestan, Iran.",
+        "wikidataId": "Q414464",
+        "location": {
+          "historicalName": "Gondishapur",
+          "city": "Dezful",
+          "country": "Iran",
+          "latitude": 32.28333333,
+          "longitude": 48.51666667
+        }
+      },
+      {
+        "year": 272,
+        "sig": "minor",
+        "title": "Kartir Lays the Foundations of a Zoroastrian State Church",
+        "body": "Under Bahram I, the high priest Kartir secures state backing for a centralized Zoroastrian priesthood, gains authority over judicial affairs, and claims to have suppressed rival faiths including Christians, Jews, Mandaeans, Manichaeans, and Buddhists across the empire.",
+        "tags": [
+          "religion"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Kartir",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Naqshe_Rajab_Darafsh_Ordibehesht_93_%281%29.jpg/330px-Naqshe_Rajab_Darafsh_Ordibehesht_93_%281%29.jpg",
+        "imageAttribution": "Photo by Darafsh Kaviyani, CC BY 3.0, via Wikimedia Commons",
+        "imageDescription": "Naqsh-e Rajab, site of a Sasanian rock relief and inscription associated with the priest Kartir.",
+        "wikidataId": "Q557619"
+      },
+      {
+        "year": 420,
+        "sig": "minor",
+        "title": "The Sacred Fire of Adur Gushnasp Is Enshrined at Takht-e Soleymān",
+        "body": "Zoroastrian priests establish one of the empire's three most sacred fires, Adur Gushnasp, at a mountaintop shrine in Media; Sasanian kings including Bahram V and Khosrow I make pilgrimages there for coronations, festivals, and blessings before military campaigns.",
+        "tags": [
+          "religion",
+          "architecture"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Adur_Gushnasp",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/%D8%AA%D8%AE%D8%AA_%D8%B3%D9%84%DB%8C%D9%85%D8%A7%D9%86_%D8%AE%D8%B1%D8%A7%D8%A8%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C_%D8%B4%D9%87%D8%B1_%D9%88_%D8%A2%D8%AA%D8%B4%DA%A9%D8%AF%D9%87_%282%29.jpg/500px-%D8%AA%D8%AE%D8%AA_%D8%B3%D9%84%DB%8C%D9%85%D8%A7%D9%86_%D8%AE%D8%B1%D8%A7%D8%A8%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C_%D8%B4%D9%87%D8%B1_%D9%88_%D8%A2%D8%AA%D8%B4%DA%A9%D8%AF%D9%87_%282%29.jpg",
+        "imageAttribution": "Photo by Salar Arkan, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "Ruins of the fire temple and city at Takht-e Soleymān, site of the Sasanian sacred fire Adur Gushnasp.",
+        "wikidataId": "Q6419581",
+        "location": {
+          "historicalName": "Adur Gushnasp",
+          "city": "Takht-e Soleyman",
+          "country": "Iran",
+          "latitude": 36.603171,
+          "longitude": 47.235949
+        }
+      },
+      {
+        "year": 540,
+        "sig": "major",
+        "title": "Khosrow I Builds the Grand Arch at Ctesiphon",
+        "body": "Khosrow I raises a vast brick vault at Ctesiphon, the Sasanian capital, as part of a palace complex whose archway becomes the largest free-standing vault built before the modern era, engineered without supporting scaffolding through angled courses of brick.",
+        "tags": [
+          "architecture"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Taq_Kasra",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/001125-TaqKasra-Iraq-IMG_7914-2.jpg/500px-001125-TaqKasra-Iraq-IMG_7914-2.jpg",
+        "imageAttribution": "Photo by Safa Daneshvar, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "The remains of Taq Kasra, the grand arched vault of the Sasanian palace at Ctesiphon.",
+        "wikidataId": "Q1486703",
+        "location": {
+          "historicalName": "Ctesiphon",
+          "city": "Salman Pak",
+          "country": "Iraq",
+          "latitude": 33.1,
+          "longitude": 44.58333333
+        }
+      },
+      {
+        "year": 550,
+        "sig": "minor",
+        "title": "Khosrow I Reforms Taxation and the Military",
+        "body": "Khosrow I replaces variable, yield-based taxes with a fixed land-survey tax and a poll tax paid directly into the royal treasury, and reorganizes the army into four regional commands, opening the cavalry to the newly empowered dehqan gentry.",
+        "tags": [
+          "governance"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Khosrow_I",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Khosrow_I_Anushirvan%2C_Gundeshapur_mint.jpg/500px-Khosrow_I_Anushirvan%2C_Gundeshapur_mint.jpg",
+        "imageAttribution": "Photo by Classical Numismatic Group, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "Coin of Khosrow I, minted at Gundeshapur.",
+        "wikidataId": "Q207381"
+      },
+      {
+        "year": 570,
+        "sig": "minor",
+        "title": "Borzuya Translates the Panchatantra into Pahlavi",
+        "body": "The physician Borzuya translates the Sanskrit fable collection Panchatantra into Pahlavi at the Sasanian court, a text that will later pass into Arabic as Kalila wa-Dimna and carry Indian storytelling across the Islamic world.",
+        "tags": [
+          "science"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Borzuya",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/BorzuyaArtwork.png/330px-BorzuyaArtwork.png",
+        "imageAttribution": "Woodcut by an unknown artist, Public domain, via Wikimedia Commons",
+        "imageDescription": "A woodcut depicting Borzuya, a Persian physician at the court of Khosrow I.",
+        "wikidataId": "Q1017211"
+      },
+      {
+        "year": 600,
+        "sig": "minor",
+        "title": "Khosrow II Commissions the Grand Reliefs at Taq-e Bostan",
+        "body": "Khosrow II has monumental rock reliefs carved into a cliff at Taq-e Bostan, depicting his investiture by the gods Ahura Mazda and Anahita alongside scenes of the king mounted in full armor and hunting, among the finest surviving examples of Sasanian sculpture.",
+        "tags": [
+          "art",
+          "religion"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Taq-e_Bostan",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Taq-e_Bostan-Khosro_Parviz.JPG/500px-Taq-e_Bostan-Khosro_Parviz.JPG",
+        "imageAttribution": "Photo by جواد, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A relief at Taq-e Bostan depicting the Sasanian king Khosrow II mounted on horseback in full armor.",
+        "wikidataId": "Q940045",
+        "location": {
+          "historicalName": "Taq-e Bostan",
+          "city": "Kermanshah",
+          "country": "Iran",
+          "latitude": 34.38752855,
+          "longitude": 47.13209565
+        }
+      },
+      {
         "year": 651,
         "sig": "major",
+        "title": "The Sasanian Empire Falls to Arab Conquest",
+        "body": "After the Rashidun Caliphate's forces overrun the empire, the last Sasanian king, Yazdegerd III, is murdered while fleeing near Merv, and Persia is absorbed into the expanding Islamic caliphate.",
         "tags": [
           "collapse",
           "battle"
         ],
-        "title": "The Sasanian Empire Falls to Arab Conquest",
-        "body": "After the Rashidun Caliphate's forces overrun the empire, the last Sasanian king, Yazdegerd III, is murdered while fleeing near Merv, and Persia is absorbed into the expanding Islamic caliphate.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Muslim_conquest_of_Persia",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/IslamicConquestsIroon.png/330px-IslamicConquestsIroon.png",
         "imageAttribution": "Map by Javierfv1212, edited by HistoryofIran, Public domain, via Wikimedia Commons",

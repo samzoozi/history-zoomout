@@ -3,11 +3,13 @@ name: wikipedia-research
 description: >
   Research a topic (civilization, country, sport, or any future category) from
   Wikipedia and produce a reviewed seed-data JSON file plus a tracking-doc entry,
-  in this project's Topic/Event/Location shape. Use when asked to pull, source,
+  in this project's Topic/Event/Location shape. Also handles enriching an
+  already-researched topic with more events targeting specific tags (e.g. "find
+  more art and governance events for Persia"). Use when asked to pull, source,
   research, or extract Wikipedia data for a topic -- e.g. "get data for Egypt",
   "source the Rome topic from Wikipedia", "do the same thing you did for Persia
-  but for basketball". Does NOT merge into the live seed file or database --
-  that's always a separate, explicit step.
+  but for basketball", "add more science-tagged events to Rome". Does NOT merge
+  into the live seed file or database -- that's always a separate, explicit step.
 ---
 
 # Wikipedia topic research
@@ -21,6 +23,12 @@ record). Neither is the live seed file (`backend/src/history_zoomout/db/seed_dat
 the database -- merging is a separate step the user asks for explicitly.
 
 ## Before starting
+
+If the user names specific tags to focus on for a topic that's already been researched
+(e.g. "find more art and governance events for Persia", "the science tag is thin for
+Rome, add some") -- that's **Tag-focused enrichment mode** below, not a full
+from-scratch pass. Skip the sub-period mapping and topic-level source steps in
+Process; jump straight to that section instead.
 
 **Always ask the user which category this topic belongs to** (`civilization`, `country`,
 `sport`, or any other) if it isn't already obvious/stated -- the category determines
@@ -60,9 +68,9 @@ are snake_case.
 Topic-level fields: `id`, `name`, `colorIndex`, `start`, `end`, `summary`, `sourceUrl`,
 `imageUrl`, `imageAttribution`, `imageDescription`, `wikidataId`, `events[]`.
 
-Each event: `year`, `sig` (`"major"` | `"minor"`), `title`, `body`, `sourceUrl`,
-`imageUrl`, `imageAttribution`, `imageDescription`, `wikidataId`, and optionally
-`location`.
+Each event: `year`, `sig` (`"major"` | `"minor"`), `title`, `body`, `tags` (string
+array -- see "Gather the existing tag vocabulary" below), `sourceUrl`, `imageUrl`,
+`imageAttribution`, `imageDescription`, `wikidataId`, and optionally `location`.
 
 Each `location`: `historicalName` (the place as known at the time, e.g. "Carrhae"),
 `city`/`country` (modern equivalents, e.g. "Harran", "Turkey" -- these often differ from
@@ -82,6 +90,11 @@ mentioned the Achaemenid Empire's own fall). List the major sub-periods first, *
 pick events so every one is represented -- don't let event selection cluster in whichever
 era has the most-famous Wikipedia articles.
 
+For each sub-period, also note what it's known for beyond politics/war -- a defining
+religious development, a major building program, a scientific or artistic achievement --
+so step 4 has real leads to chase instead of defaulting to whichever battle Wikipedia
+covers most thoroughly.
+
 ### 2. Topic-level source
 
 Prefer the Wikipedia article whose scope actually matches the topic's full date range,
@@ -99,14 +112,40 @@ WebFetch(
 )
 ```
 `wikibase_item` -> `wikidataId`. `content_urls.desktop.page` -> `sourceUrl`.
-`thumbnail.source` -> candidate `imageUrl` (get its attribution -- see step 4).
+`thumbnail.source` -> candidate `imageUrl` (get its attribution -- see step 5).
 Write `summary` yourself from the extract plus whatever event-level research turns up;
 don't just copy the extract verbatim (see Copyright below).
 
-### 3. Pick and research events
+### 3. Gather the existing tag vocabulary
 
-Aim for one event per major sub-period turning point (founding, a defining
-war/battle/crisis, and the fall/end, at minimum) rather than a fixed count. For each:
+Before assigning any tags, read `docs/wikipedia-tags.md` -- the canonical list of tags
+in use across every category, with a one-line description of what each is for. Tags are
+open/topic-defined, not a fixed enum in the schema (the frontend just lists whatever
+distinct values show up in the data, via `buildTagFilter` in `frontend/timeline.js`), but
+this file is the source of truth for research purposes so a pass doesn't need to scan
+every JSON under `data/` and `backend/src/history_zoomout/db/seed_data/` just to find
+out what already exists.
+
+Reuse an existing tag whenever an event genuinely fits one. Only introduce a new tag if
+none of the existing ones fit -- if you do, follow the "Adding a new tag" steps in
+`docs/wikipedia-tags.md` (add it to that file's table, and note the addition and why in
+the topic's tracking-doc section) so it's a visible decision, not a silent vocabulary
+drift.
+
+### 4. Pick and research events
+
+Every sub-period needs its political turning points (founding, a defining war/crisis,
+the fall/end) -- but that triad is a floor, not the target. Once it's covered, keep
+going: pull in the religious, artistic, scientific, architectural, and governance
+history that a knowledgeable reader would expect to see, for every sub-period, not just
+whichever one happens to be richest on Wikipedia. There is no fixed count and no cap --
+a sub-period that produced ten genuinely significant events should end up with ten
+events, not be trimmed to fit some notion of "already represented." Having a single
+event for a theme (one religion event, one architecture event) is a sign a period is
+under-covered, not evidence it's done -- don't stop pulling on a theme just because it
+already has one entry. The only real ceiling is that each event has to be a genuinely
+significant happening, independently verifiable on Wikipedia -- not padding for its own
+sake. For each:
 
 - Fetch the REST summary (same call as above) for the event's own article.
 - If the summary's `extract` doesn't have the specific fact you need (exact year,
@@ -124,9 +163,16 @@ war/battle/crisis, and the fall/end, at minimum) rather than a fixed count. For 
 - Assign `sig` by judgment -- Wikipedia doesn't rank event significance. Use `"major"`
   for foundings, falls, and famous decisive turning points; `"minor"` for supporting
   detail. Don't feel obliged to harmonize the rating of events you're not touching.
+- Assign `tags` from the vocabulary gathered in step 3, based on what the event actually
+  is (a battle, a founding, a religious event, an artistic/scientific/governance
+  milestone, etc.) -- same by-judgment spirit as `sig`. An event can carry more than one
+  tag (e.g. Cyrus founding the Achaemenid Empire is both `founding` and `battle`). In
+  this normal research mode tags describe events you've already picked for
+  period-coverage reasons -- don't let which tags exist steer which events you research;
+  that's what Tag-focused enrichment mode (below) is for.
 - Order the final list chronologically ascending (negative years = BC).
 
-### 4. Images and attribution
+### 5. Images and attribution
 
 Get a thumbnail either from the REST summary (`thumbnail.source`) or, if that's missing
 or generic, from the article's embedded images:
@@ -166,7 +212,7 @@ Don't hotlink raw Commons file pages or scrape them directly -- the URLs these t
 return (`thumbnail.source` and the `imageinfo` result) are Wikimedia's own
 externally-facing endpoints, built for exactly this kind of use.
 
-### 5. Locations
+### 6. Locations
 
 For each event with a natural single place, get coordinates:
 ```
@@ -188,7 +234,7 @@ failed.
 modern name -- Carrhae/Harran, Edessa/Şanlıurfa, Merv/Mary are all the same kind of
 same-place-different-name situation). `city`/`country` are today's.
 
-### 6. Write the output
+### 7. Write the output
 
 - `data/wikipedia-data/<category>/<slug>.json` -- the full topic object, in the shape
   above, in the subfolder matching this topic's category (create the subfolder if it's
@@ -205,7 +251,7 @@ same-place-different-name situation). `city`/`country` are today's.
   JSON lives, the id-prefixing rule, a pointer to the sibling category files) before
   adding the topic's own section.
 
-### 7. Validate before calling it done
+### 8. Validate before calling it done
 
 1. `python3 -c "import json; json.load(open(...))"` -- well-formed, and check years are
    ascending.
@@ -215,6 +261,43 @@ same-place-different-name situation). `city`/`country` are today's.
    expect. This has caught real bugs before (a missing `selectinload` on `Event.location`
    caused a 500 on the live API that the migration test alone didn't catch) -- if a live
    dev server is running, it's worth an actual API smoke-test too, not just the dry run.
+
+## Tag-focused enrichment mode
+
+Use this instead of the standard Process flow when the ask is to deepen an
+already-researched topic's coverage of one or more specific tags (e.g. "Persia is all
+battles, find more art/governance/science events") rather than to research a topic from
+scratch. The difference from normal research: here the tag *is* the research target,
+not something assigned after the fact to events picked for other reasons.
+
+1. **Load the existing topic and tally its tags.** Read
+   `data/wikipedia-data/<category>/<slug>.json` if it exists, otherwise pull the topic's
+   current events from the merged seed data
+   (`backend/src/history_zoomout/db/seed_data/`). Count events per tag so the gap is
+   concrete, not a guess.
+2. **Confirm scope** if it isn't already precise: which tag(s), and roughly how many
+   events to add. Don't assume "fill every under-represented tag" without checking --
+   the user may want just one theme.
+3. **Search by theme, across the full date range** -- not just turning points. For
+   `art`/`architecture`: monuments, artistic works, building programs. For `science`:
+   scholarly or technical achievements. For `governance`: administrative, legal, or
+   institutional reforms. For `rebellion`: revolts and succession crises. Good starting
+   points: the "History"/"Culture"/"Legacy" sections of the topic's broad article, and
+   the sub-period articles already identified during the topic's original research.
+   `"minor"` `sig` is expected and fine here -- this mode exists specifically to surface
+   texture a turning-points-only pass would skip.
+4. **Research and write each new event** the same way as Process step 4 -- verify facts,
+   paraphrase (never copy Wikipedia's prose, see Copyright below), and assign `sig` and
+   the full set of tags that fit, not just the one being targeted -- then steps 5 and 6
+   for images/attribution and locations.
+5. **Merge, don't overwrite.** Append the new events to the existing `events[]`, re-sort
+   chronologically ascending, and check for duplicates against what's already there
+   (same year + title, or same `wikidataId`) before adding.
+6. **Update the tracking doc** with a new dated subsection under the topic's existing
+   entry (not a full rewrite) -- which tag(s) were targeted, and an event-source table
+   for just the additions, same format as a full pass.
+7. **Validate** the same way as Process step 8 (well-formed JSON, ascending years, ORM
+   dry run).
 
 ## Copyright
 
@@ -231,5 +314,8 @@ This skill produces files under `data/` and `docs/` only. It does not:
   the `location`/image/citation fields all started as a separate ask before any topic
   research happened -- that's a schema change to raise with the user first, not something
   to add unilaterally mid-research)
-- Expand scope to additional topics beyond what was asked, or add extra events beyond
-  what's needed for reasonable sub-period coverage, without checking in first
+- Expand scope to additional topics beyond what was asked -- e.g. researching a
+  neighboring civilization mid-pass because it came up -- without checking in first.
+  This doesn't limit event count *within* the topic actually being researched: per
+  Process step 4, pull in every genuinely significant event for that topic, not a
+  trimmed subset
