@@ -15,11 +15,14 @@
       {
         "year": -3200,
         "sig": "major",
+        "tags": [
+          "science"
+        ],
         "title": "Cuneiform Emerges at Uruk",
         "body": "The world's earliest writing system develops from clay tokens used to record grain and livestock at the city of Uruk, becoming the first script for recording language and law.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Cuneiform",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Xerxes_Cuneiform_Van.JPG/330px-Xerxes_Cuneiform_Van.JPG",
-        "imageAttribution": "Photo by Bj\u00f8rn Christian T\u00f8rrissen, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageAttribution": "Photo by Bjørn Christian Tørrissen, CC BY-SA 3.0, via Wikimedia Commons",
         "imageDescription": "A monumental Achaemenid-era cuneiform inscription of Xerxes I, carved into the cliff at Van in eastern Turkey.",
         "wikidataId": "Q401",
         "location": {
@@ -33,6 +36,10 @@
       {
         "year": -2334,
         "sig": "minor",
+        "tags": [
+          "founding",
+          "battle"
+        ],
         "title": "Sargon Founds the Akkadian Empire",
         "body": "Sargon of Akkad conquers the Sumerian city-states and unites them under a single ruler, creating what many historians consider the world's first empire.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Sargon_of_Akkad",
@@ -51,11 +58,15 @@
       {
         "year": -2112,
         "sig": "major",
+        "tags": [
+          "founding",
+          "governance"
+        ],
         "title": "Ur-Nammu Founds the Third Dynasty of Ur",
         "body": "After centuries of Akkadian and Gutian rule, Ur-Nammu reunites southern Mesopotamia under the city of Ur and issues the Code of Ur-Nammu, the oldest law code known to survive.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Third_Dynasty_of_Ur",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ur_III.svg/330px-Ur_III.svg.png",
-        "imageAttribution": "Map by S\u00e9mhur and Zunkir, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageAttribution": "Map by Sémhur and Zunkir, CC BY-SA 3.0, via Wikimedia Commons",
         "imageDescription": "A map of the Third Dynasty of Ur's territorial extent under Ur-Nammu and Shulgi.",
         "wikidataId": "Q723587",
         "location": {
@@ -69,6 +80,9 @@
       {
         "year": -1754,
         "sig": "major",
+        "tags": [
+          "governance"
+        ],
         "title": "Hammurabi's Code Carved in Stone",
         "body": "Babylon's king publishes 282 laws on a black diorite stele, one of the earliest surviving law codes governing an entire society.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Code_of_Hammurabi",
@@ -87,6 +101,10 @@
       {
         "year": -630,
         "sig": "minor",
+        "tags": [
+          "architecture",
+          "science"
+        ],
         "title": "Ashurbanipal Builds the Library at Nineveh",
         "body": "Assyrian king Ashurbanipal assembles a vast collection of cuneiform tablets at his capital, creating the ancient world's most systematic library and preserving countless Mesopotamian texts for posterity.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Library_of_Ashurbanipal",
@@ -105,6 +123,9 @@
       {
         "year": -612,
         "sig": "minor",
+        "tags": [
+          "collapse"
+        ],
         "title": "Nineveh Falls",
         "body": "A coalition of Babylonians and Medes storms the Assyrian capital, ending the Neo-Assyrian Empire's centuries of dominance over the Near East.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Nineveh",
@@ -123,6 +144,9 @@
       {
         "year": -587,
         "sig": "major",
+        "tags": [
+          "battle"
+        ],
         "title": "Nebuchadnezzar II Conquers Jerusalem",
         "body": "After a lengthy siege, Babylonian forces breach Jerusalem's walls, destroy Solomon's Temple, and deport much of the population -- the start of the Babylonian captivity that Cyrus will later end.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Nebuchadnezzar_II",
@@ -141,6 +165,10 @@
       {
         "year": -539,
         "sig": "major",
+        "tags": [
+          "battle",
+          "collapse"
+        ],
         "title": "Cyrus the Great Takes Babylon",
         "body": "Cyrus of Persia captures Babylon without a major battle, ending the Neo-Babylonian Empire and folding Mesopotamia into the Achaemenid Empire.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Babylon",
@@ -174,6 +202,10 @@
       {
         "year": -3100,
         "sig": "major",
+        "tags": [
+          "founding",
+          "battle"
+        ],
         "title": "Narmer Unites Upper and Lower Egypt",
         "body": "King Narmer conquers or absorbs Lower Egypt, uniting the Nile valley under a single ruler for the first time and founding the line of pharaohs that will govern Egypt for the next three millennia.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Narmer",
@@ -192,6 +224,9 @@
       {
         "year": -2670,
         "sig": "minor",
+        "tags": [
+          "architecture"
+        ],
         "title": "Djoser Builds the Step Pyramid at Saqqara",
         "body": "Pharaoh Djoser's architect Imhotep builds Egypt's first monumental stone structure, a six-tiered pyramid that launches the Old Kingdom's age of pyramid-building.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Pyramid_of_Djoser",
@@ -210,6 +245,9 @@
       {
         "year": -2560,
         "sig": "major",
+        "tags": [
+          "architecture"
+        ],
         "title": "The Great Pyramid of Giza Is Completed",
         "body": "Pharaoh Khufu's tomb is finished after roughly two decades of construction, standing as the largest pyramid ever built and the last surviving Ancient Wonder of the World.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
@@ -228,6 +266,10 @@
       {
         "year": -2055,
         "sig": "major",
+        "tags": [
+          "founding",
+          "battle"
+        ],
         "title": "Mentuhotep II Reunifies Egypt, Begins the Middle Kingdom",
         "body": "After more than a century of division known as the First Intermediate Period, Mentuhotep II defeats his rivals and reunites Upper and Lower Egypt, founding the Middle Kingdom from his power base at Thebes.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Mentuhotep_II",
@@ -246,6 +288,10 @@
       {
         "year": -1550,
         "sig": "major",
+        "tags": [
+          "founding",
+          "battle"
+        ],
         "title": "Ahmose I Expels the Hyksos, Begins the New Kingdom",
         "body": "Ahmose I captures the Hyksos stronghold of Avaris, driving the foreign dynasty out of Egypt and founding the 18th Dynasty, which will carry Egypt to the height of its power and territorial reach.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Ahmose_I",
@@ -264,6 +310,9 @@
       {
         "year": -1353,
         "sig": "minor",
+        "tags": [
+          "religion"
+        ],
         "title": "Akhenaten Launches Egypt's Religious Revolution",
         "body": "Pharaoh Akhenaten abandons Egypt's traditional pantheon for the worship of a single sun-disc god, Aten, and builds a new capital at Amarna -- a radical break that his successors will reverse within a generation.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Akhenaten",
@@ -281,6 +330,9 @@
       {
         "year": -1274,
         "sig": "minor",
+        "tags": [
+          "battle"
+        ],
         "title": "The Battle of Kadesh",
         "body": "Ramesses II leads Egyptian forces against the Hittite army of Muwatalli II in one of history's largest chariot battles; both sides claim victory, and the standoff eventually produces the world's earliest surviving peace treaty.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Kadesh",
@@ -299,6 +351,10 @@
       {
         "year": -525,
         "sig": "major",
+        "tags": [
+          "battle",
+          "collapse"
+        ],
         "title": "Cambyses II Conquers Egypt for Persia",
         "body": "The Achaemenid king Cambyses II defeats Pharaoh Psamtik III at Pelusium and crowns himself pharaoh, ending Egypt's Late Period independence and folding it into the Persian Empire as a satrapy.",
         "sourceUrl": "https://en.wikipedia.org/wiki/First_Achaemenid_conquest_of_Egypt",
@@ -317,6 +373,11 @@
       {
         "year": -332,
         "sig": "major",
+        "tags": [
+          "battle",
+          "collapse",
+          "founding"
+        ],
         "title": "Alexander the Great Conquers Egypt",
         "body": "Alexander enters Egypt to a welcome as a liberator from Persian rule and is crowned pharaoh at Memphis, ending nearly two centuries of Achaemenid control and setting up the Macedonian Greek Ptolemaic dynasty that follows.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Alexander_the_Great",
@@ -335,6 +396,9 @@
       {
         "year": -30,
         "sig": "major",
+        "tags": [
+          "collapse"
+        ],
         "title": "Death of Cleopatra VII",
         "body": "Egypt's last active pharaoh dies by suicide after Rome's conquest of the Ptolemaic Kingdom, ending nearly three millennia of pharaonic rule and making Egypt a province of Rome.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Cleopatra",
@@ -368,6 +432,7 @@
       {
         "year": -3300,
         "sig": "major",
+        "tags": [],
         "title": "Early Farming Villages Rise at Kot Diji",
         "body": "Walled settlements at Kot Diji, on the Indus's east bank opposite the future site of Mohenjo-daro, adopt the fortification style and pottery traditions that mark the start of the Early Harappan period.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Kot_Diji",
@@ -383,6 +448,9 @@
       {
         "year": -2600,
         "sig": "major",
+        "tags": [
+          "architecture"
+        ],
         "title": "Harappa and Mohenjo-daro Rise",
         "body": "Harappa and Mohenjo-daro emerge as the Indus Valley's twin great cities, their grid-planned streets, standardized baked-brick sizes, and covered drains opening the seven-century Mature Harappan period.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Harappa",
@@ -401,6 +469,9 @@
       {
         "year": -2500,
         "sig": "minor",
+        "tags": [
+          "science"
+        ],
         "title": "A Standardized Script Appears on Seals",
         "body": "Thousands of carved steatite seals carry a symbol system used widely enough across Mature Harappan cities to suggest formal record-keeping, though without any known bilingual text, the script remains undeciphered today.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Indus_script",
@@ -412,17 +483,21 @@
       {
         "year": -2334,
         "sig": "minor",
+        "tags": [],
         "title": "Trade Networks Reach Mesopotamia",
         "body": "Sargon of Akkad's inscriptions describe ships arriving from Meluhha, most likely the Indus Valley, carrying carnelian beads, ivory, and timber to Mesopotamian ports in exchange for silver, wool, and grain.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Meluhha",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Moyen_Orient_3mil_aC.svg/330px-Moyen_Orient_3mil_aC.svg.png",
-        "imageAttribution": "Map by S\u00e9mhur (base) and Zunkir (derivative), CC BY-SA 3.0, via Wikimedia Commons",
+        "imageAttribution": "Map by Sémhur (base) and Zunkir (derivative), CC BY-SA 3.0, via Wikimedia Commons",
         "imageDescription": "A map of the Middle East in the second half of the 3rd millennium BC, spanning the Akkadian and Ur III periods.",
         "wikidataId": "Q483421"
       },
       {
         "year": -1900,
         "sig": "minor",
+        "tags": [
+          "collapse"
+        ],
         "title": "The Mature Harappan Cities Begin to Decline",
         "body": "Population and long-distance trade at Harappa and Mohenjo-daro start to contract as the seven-century Mature Harappan period ends, opening a slower slide into regional fragmentation.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Indus_Valley_Civilisation",
@@ -434,6 +509,7 @@
       {
         "year": -1700,
         "sig": "major",
+        "tags": [],
         "title": "Cemetery H Culture Marks a Late Harappan Shift",
         "body": "As Mohenjo-daro is abandoned, a new culture identified by cremation burials in painted urns appears at Harappa's \"Cemetery H,\" with settlement pushing eastward and rice farming replacing the old river-trade economy.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Cemetery_H_culture",
@@ -452,6 +528,9 @@
       {
         "year": -1300,
         "sig": "major",
+        "tags": [
+          "collapse"
+        ],
         "title": "The Civilization Fades",
         "body": "A prolonged drying of the region's rivers drains the water supply that sustained Indus cities, and the last Late Harappan successor cultures fade into isolated regional traditions, centuries before any written record explains their end.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Indus_Valley_Civilisation",
@@ -478,6 +557,9 @@
       {
         "year": -776,
         "sig": "major",
+        "tags": [
+          "religion"
+        ],
         "title": "The First Olympic Games",
         "body": "City-states across Greece send athletes to Olympia for a festival of competition held in honor of Zeus, beginning a tradition that will continue every four years for over a thousand years.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Ancient_Olympic_Games",
@@ -496,6 +578,9 @@
       {
         "year": -621,
         "sig": "minor",
+        "tags": [
+          "governance"
+        ],
         "title": "Draco's Harsh Laws Are Written Down",
         "body": "Athens gets its first written law code under the lawgiver Draco, whose penalties are so severe -- reportedly prescribing death for even minor offenses -- that his name gives us the word \"draconian.\"",
         "sourceUrl": "https://en.wikipedia.org/wiki/Draco_(legislator)",
@@ -514,6 +599,10 @@
       {
         "year": -508,
         "sig": "major",
+        "tags": [
+          "founding",
+          "governance"
+        ],
         "title": "Cleisthenes Founds Athenian Democracy",
         "body": "Cleisthenes reorganizes Athens' constitution around ten new tribes cutting across old aristocratic loyalties, laying the groundwork for direct democratic government by its citizens.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Cleisthenes",
@@ -532,6 +621,9 @@
       {
         "year": -490,
         "sig": "minor",
+        "tags": [
+          "battle"
+        ],
         "title": "Victory at Marathon",
         "body": "An outnumbered Athenian army routs the first Persian invasion force on the plain of Marathon, a victory that becomes a defining Athenian legend of citizen-soldiers defending their homeland.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Marathon",
@@ -550,6 +642,9 @@
       {
         "year": -480,
         "sig": "major",
+        "tags": [
+          "battle"
+        ],
         "title": "The Battle of Salamis",
         "body": "A Greek fleet under the Athenian Themistocles lures Xerxes' much larger Persian navy into the narrow straits of Salamis and destroys it, breaking Persia's second invasion of Greece.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Salamis",
@@ -568,6 +663,9 @@
       {
         "year": -431,
         "sig": "major",
+        "tags": [
+          "battle"
+        ],
         "title": "The Peloponnesian War Begins",
         "body": "Long-simmering rivalry between Athens and Sparta erupts into open war between their respective alliances, a 27-year conflict that will exhaust both sides and end Athens' golden age.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Peloponnesian_War",
@@ -586,6 +684,9 @@
       {
         "year": -334,
         "sig": "major",
+        "tags": [
+          "battle"
+        ],
         "title": "Alexander Invades the Persian Empire",
         "body": "Leading a mostly Macedonian and Greek army across the Hellespont, Alexander wins his first battle against Achaemenid forces at the Granicus River, opening a decade of conquest that will remake the Greek world.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_the_Granicus",
@@ -604,6 +705,10 @@
       {
         "year": -146,
         "sig": "major",
+        "tags": [
+          "battle",
+          "collapse"
+        ],
         "title": "Rome Conquers Greece",
         "body": "Roman forces defeat the Achaean League at Corinth and raze the city, ending Greek political independence and absorbing the Greek world into Rome's expanding Mediterranean empire.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Corinth_(146_BC)",
@@ -637,6 +742,9 @@
       {
         "year": -753,
         "sig": "major",
+        "tags": [
+          "founding"
+        ],
         "title": "Legendary Founding of Rome",
         "body": "Tradition holds that Romulus founds the city of Rome on the Palatine Hill after being raised by a she-wolf; archaeology instead points to a gradual merger of hilltop villages around the same period.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Founding_of_Rome",
@@ -655,6 +763,11 @@
       {
         "year": -509,
         "sig": "minor",
+        "tags": [
+          "founding",
+          "governance",
+          "rebellion"
+        ],
         "title": "The Roman Republic Is Established",
         "body": "Rome's last king is overthrown and replaced with elected magistrates and a Senate, beginning nearly five centuries of republican government before power concentrates again under the emperors.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Roman_Republic",
@@ -673,11 +786,14 @@
       {
         "year": -202,
         "sig": "major",
+        "tags": [
+          "battle"
+        ],
         "title": "Rome Defeats Hannibal at Zama",
         "body": "Scipio Africanus decisively defeats Hannibal's Carthaginian army in North Africa, ending the Second Punic War and breaking Carthage as a rival power in the Mediterranean for good.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Zama",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Hannibal_Slodtz_Louvre_MR2093.png/330px-Hannibal_Slodtz_Louvre_MR2093.png",
-        "imageAttribution": "Sculpture by S\u00e9bastien Slodtz, Public domain, via Wikimedia Commons",
+        "imageAttribution": "Sculpture by Sébastien Slodtz, Public domain, via Wikimedia Commons",
         "imageDescription": "An 18th-century marble sculpture of Hannibal Barca counting the rings taken from Roman knights killed at Cannae.",
         "wikidataId": "Q200056",
         "location": {
@@ -691,6 +807,7 @@
       {
         "year": -44,
         "sig": "major",
+        "tags": [],
         "title": "Assassination of Julius Caesar",
         "body": "A group of senators stab Caesar to death in the Theatre of Pompey on the Ides of March, hoping to save the Republic from his growing personal power -- instead triggering the civil wars that end it.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Julius_Caesar",
@@ -709,6 +826,9 @@
       {
         "year": -27,
         "sig": "major",
+        "tags": [
+          "founding"
+        ],
         "title": "Augustus Becomes Rome's First Emperor",
         "body": "Octavian, Caesar's adopted heir, takes the title Augustus after defeating his rivals in the civil wars, ending the Republic in all but name and founding the Roman Empire he will rule for over 40 years.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Augustus",
@@ -727,6 +847,9 @@
       {
         "year": 80,
         "sig": "minor",
+        "tags": [
+          "architecture"
+        ],
         "title": "The Colosseum Opens",
         "body": "Emperor Titus inaugurates Rome's great amphitheater with a hundred days of games, giving the Empire its most enduring symbol of public spectacle and engineering ambition.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Colosseum",
@@ -745,6 +868,10 @@
       {
         "year": 293,
         "sig": "minor",
+        "tags": [
+          "founding",
+          "governance"
+        ],
         "title": "Diocletian Splits the Empire Into the Tetrarchy",
         "body": "Facing an empire too vast for one ruler to defend, Diocletian institutes a four-way division of power between two senior and two junior emperors -- an arrangement that foreshadows the later permanent split between East and West.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Diocletian",
@@ -754,7 +881,7 @@
         "wikidataId": "Q43107",
         "location": {
           "historicalName": "Nicomedia",
-          "city": "\u0130zmit",
+          "city": "İzmit",
           "country": "Turkey",
           "latitude": 40.76,
           "longitude": 29.92
@@ -763,6 +890,9 @@
       {
         "year": 476,
         "sig": "major",
+        "tags": [
+          "collapse"
+        ],
         "title": "Fall of the Western Roman Empire",
         "body": "The Germanic general Odoacer deposes the last Western emperor, the teenage Romulus Augustulus, at Ravenna -- the traditional date marking the end of the Western Roman Empire, while the Eastern half endures as Byzantium.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Romulus_Augustulus",
@@ -796,6 +926,10 @@
       {
         "year": -550,
         "sig": "major",
+        "tags": [
+          "founding",
+          "battle"
+        ],
         "title": "Cyrus the Great Founds the Achaemenid Empire",
         "body": "Cyrus II defeats the Median Empire and unites the Medes and Persians under Achaemenid rule, founding what will become the largest empire the ancient world had yet seen.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Cyrus_the_Great",
@@ -814,8 +948,12 @@
       {
         "year": -539,
         "sig": "minor",
+        "tags": [
+          "battle",
+          "religion"
+        ],
         "title": "Cyrus Conquers Babylon, Frees the Jewish Captives",
-        "body": "Cyrus captures Babylon and issues the Cyrus Cylinder, a declaration recording his restoration of displaced peoples and local temples \u2014 including freeing the Jewish captives held there since the Babylonian conquest of Jerusalem.",
+        "body": "Cyrus captures Babylon and issues the Cyrus Cylinder, a declaration recording his restoration of displaced peoples and local temples — including freeing the Jewish captives held there since the Babylonian conquest of Jerusalem.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Cyrus_Cylinder",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Cyrus_Cylinder_front.jpg/330px-Cyrus_Cylinder_front.jpg",
         "imageAttribution": "Photo by Prioryman, CC BY-SA 3.0, via Wikimedia Commons",
@@ -832,6 +970,9 @@
       {
         "year": -518,
         "sig": "minor",
+        "tags": [
+          "architecture"
+        ],
         "title": "Construction Begins at Persepolis",
         "body": "Darius I begins building a new ceremonial capital in the Persian heartland, whose terraces, columned halls, and reliefs will showcase the empire's reach from Egypt to the Indus Valley.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Persepolis",
@@ -850,6 +991,9 @@
       {
         "year": -480,
         "sig": "major",
+        "tags": [
+          "battle"
+        ],
         "title": "The Battle of Thermopylae",
         "body": "Xerxes' invading army is delayed for three days at a narrow mountain pass by a small Greek force under the Spartan king Leonidas, whose stand becomes a lasting symbol of resistance even in defeat.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Thermopylae",
@@ -868,6 +1012,10 @@
       {
         "year": -330,
         "sig": "major",
+        "tags": [
+          "collapse",
+          "battle"
+        ],
         "title": "The Achaemenid Empire Falls to Alexander the Great",
         "body": "Darius III, the last Achaemenid king, is killed by his own satraps while fleeing Alexander the Great's invasion, bringing the two-century-old empire to an end.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Darius_III",
@@ -886,6 +1034,10 @@
       {
         "year": -247,
         "sig": "major",
+        "tags": [
+          "founding",
+          "battle"
+        ],
         "title": "The Parthian Empire Is Founded",
         "body": "Arsaces I leads the Parni tribe in seizing the region of Parthia from the crumbling Seleucid Empire, founding a new Iranian dynasty that will rule for the next 470 years.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Parthian_Empire",
@@ -904,6 +1056,9 @@
       {
         "year": -53,
         "sig": "major",
+        "tags": [
+          "battle"
+        ],
         "title": "The Battle of Carrhae",
         "body": "A Roman invasion force under Crassus is lured into open desert and destroyed by Parthian cavalry under the general Surena, in one of Rome's most catastrophic defeats.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Carrhae",
@@ -922,6 +1077,10 @@
       {
         "year": 224,
         "sig": "minor",
+        "tags": [
+          "founding",
+          "battle"
+        ],
         "title": "The Sasanian Dynasty Rises",
         "body": "Ardashir I defeats the last Parthian king and founds a new Persian empire under the House of Sasan, which will rival Rome and later Byzantium for over four centuries.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Sasanian_Empire",
@@ -940,8 +1099,11 @@
       {
         "year": 260,
         "sig": "major",
+        "tags": [
+          "battle"
+        ],
         "title": "Shapur I Captures the Roman Emperor Valerian",
-        "body": "Sasanian king Shapur I defeats a Roman army at Edessa and takes Emperor Valerian prisoner \u2014 the first time a reigning Roman emperor is ever captured in battle.",
+        "body": "Sasanian king Shapur I defeats a Roman army at Edessa and takes Emperor Valerian prisoner — the first time a reigning Roman emperor is ever captured in battle.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Edessa",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Naghsh-e_rostam%2C_Ir%C3%A1n%2C_2016-09-24%2C_DD_12.jpg/330px-Naghsh-e_rostam%2C_Ir%C3%A1n%2C_2016-09-24%2C_DD_12.jpg",
         "imageAttribution": "Photo by Diego Delso, CC BY-SA 4.0, via Wikimedia Commons",
@@ -949,7 +1111,7 @@
         "wikidataId": "Q1165502",
         "location": {
           "historicalName": "Edessa",
-          "city": "\u015eanl\u0131urfa",
+          "city": "Şanlıurfa",
           "country": "Turkey",
           "latitude": 37.15,
           "longitude": 38.8
@@ -958,6 +1120,10 @@
       {
         "year": 651,
         "sig": "major",
+        "tags": [
+          "collapse",
+          "battle"
+        ],
         "title": "The Sasanian Empire Falls to Arab Conquest",
         "body": "After the Rashidun Caliphate's forces overrun the empire, the last Sasanian king, Yazdegerd III, is murdered while fleeing near Merv, and Persia is absorbed into the expanding Islamic caliphate.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Muslim_conquest_of_Persia",
@@ -991,6 +1157,10 @@
       {
         "year": -221,
         "sig": "major",
+        "tags": [
+          "founding",
+          "battle"
+        ],
         "title": "Qin Shi Huang Unifies China",
         "body": "Qin Shi Huang conquers the last rival states and declares himself the first emperor of a unified China, standardizing writing, currency, and law across the new empire.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Qin_Shi_Huang",
@@ -1009,6 +1179,9 @@
       {
         "year": -214,
         "sig": "minor",
+        "tags": [
+          "architecture"
+        ],
         "title": "Construction Begins on the Great Wall",
         "body": "Qin Shi Huang orders existing defensive walls linked and extended into a single fortified line across China's northern frontier, the ancestor of the wall that stands today.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
@@ -1020,6 +1193,10 @@
       {
         "year": -202,
         "sig": "major",
+        "tags": [
+          "founding",
+          "battle"
+        ],
         "title": "Liu Bang Founds the Han Dynasty",
         "body": "After defeating his rival Xiang Yu in the Chu-Han Contention, Liu Bang founds the Han dynasty, which will rule China for four centuries and give the Han Chinese their name.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Emperor_Gaozu_of_Han",
@@ -1038,6 +1215,9 @@
       {
         "year": 105,
         "sig": "major",
+        "tags": [
+          "science"
+        ],
         "title": "Cai Lun Refines Papermaking",
         "body": "Han court official Cai Lun perfects a process for making paper from bark, hemp, and rags, a cheap and practical writing material that will eventually spread across the world.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Cai_Lun",
@@ -1056,6 +1236,9 @@
       {
         "year": 581,
         "sig": "major",
+        "tags": [
+          "founding"
+        ],
         "title": "Sui Wendi Reunifies China",
         "body": "Emperor Wen ends nearly four centuries of division following the Han collapse, reuniting China under the short-lived Sui dynasty and laying the groundwork for the Grand Canal and the Tang golden age that follows.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Emperor_Wen_of_Sui",
@@ -1074,6 +1257,9 @@
       {
         "year": 630,
         "sig": "minor",
+        "tags": [
+          "battle"
+        ],
         "title": "Tang Taizong Becomes 'Heavenly Khan'",
         "body": "Emperor Taizong's defeat of the Eastern Turkic Khaganate leads the steppe peoples to acclaim him 'Heavenly Khan,' a title recognizing Tang authority over both China and the nomadic frontier.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Emperor_Taizong_of_Tang",
@@ -1092,6 +1278,10 @@
       {
         "year": 755,
         "sig": "major",
+        "tags": [
+          "battle",
+          "rebellion"
+        ],
         "title": "An Lushan Rebellion Devastates Tang China",
         "body": "General An Lushan revolts against the Tang court, igniting an eight-year civil war so destructive that census records suggest China's population fell by tens of millions -- a blow the dynasty never fully recovers from.",
         "sourceUrl": "https://en.wikipedia.org/wiki/An_Lushan_rebellion",
@@ -1110,6 +1300,9 @@
       {
         "year": 960,
         "sig": "major",
+        "tags": [
+          "founding"
+        ],
         "title": "The Song Dynasty Is Founded",
         "body": "General Zhao Kuangyin is proclaimed emperor by his own troops and founds the Song dynasty, ushering in an era of economic growth, urbanization, and technological innovation like gunpowder and movable-type printing.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Emperor_Taizu_of_Song",
@@ -1128,11 +1321,15 @@
       {
         "year": 1279,
         "sig": "major",
+        "tags": [
+          "battle",
+          "collapse"
+        ],
         "title": "Mongols Conquer the Song Dynasty",
         "body": "Kublai Khan's fleet destroys the last Song loyalist forces at the naval Battle of Yamen, completing the Mongol conquest of China and founding the Yuan dynasty.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Yamen",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Jingmen002.jpg/500px-Jingmen002.jpg",
-        "imageAttribution": "Photo by \u957f\u591c\u65e0\u98ce, CC BY 3.0, via Wikimedia Commons",
+        "imageAttribution": "Photo by 长夜无风, CC BY 3.0, via Wikimedia Commons",
         "imageDescription": "The modern memorial site at Yamen, Guangdong, marking the naval battle that ended the Song dynasty.",
         "wikidataId": null,
         "location": {
@@ -1151,7 +1348,7 @@
     "colorIndex": 8,
     "start": -2000,
     "end": 1697,
-    "summary": "The Maya developed one of the ancient world's most sophisticated civilizations across the tropical lowlands of modern Mexico, Guatemala, Belize, and Honduras, without ever unifying into a single empire. Preclassic cities like Nakbe and El Mirador pioneered monumental pyramid-building by the first millennium BC; the Classic Period (c. 250-900 AD) saw rival city-states such as Tikal, Calakmul, Palenque, and Cop\u00e1n compete through warfare, dynastic marriage, and monumental art before a still-debated collapse depopulated the southern lowlands; and in the Postclassic era power shifted north to Chichen Itza and then Mayapan, whose fall in the 1440s fragmented the Yucat\u00e1n into small kingdoms that resisted Spanish conquest until the last one fell in 1697.",
+    "summary": "The Maya developed one of the ancient world's most sophisticated civilizations across the tropical lowlands of modern Mexico, Guatemala, Belize, and Honduras, without ever unifying into a single empire. Preclassic cities like Nakbe and El Mirador pioneered monumental pyramid-building by the first millennium BC; the Classic Period (c. 250-900 AD) saw rival city-states such as Tikal, Calakmul, Palenque, and Copán compete through warfare, dynastic marriage, and monumental art before a still-debated collapse depopulated the southern lowlands; and in the Postclassic era power shifted north to Chichen Itza and then Mayapan, whose fall in the 1440s fragmented the Yucatán into small kingdoms that resisted Spanish conquest until the last one fell in 1697.",
     "sourceUrl": "https://en.wikipedia.org/wiki/Maya_civilization",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Tikal_Temple1_2006_08_11.JPG/330px-Tikal_Temple1_2006_08_11.JPG",
     "imageAttribution": "Photo by Raymond Ostertag, CC BY-SA 2.5, via Wikimedia Commons",
@@ -1161,6 +1358,9 @@
       {
         "year": -750,
         "sig": "major",
+        "tags": [
+          "architecture"
+        ],
         "title": "Monumental Construction Begins at Nakbe",
         "body": "In the Mirador Basin, Nakbe becomes one of the first Maya settlements to raise large stone platforms and pyramids, marking the start of large-scale Maya monumental architecture.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Nakbe",
@@ -1179,6 +1379,9 @@
       {
         "year": -300,
         "sig": "major",
+        "tags": [
+          "architecture"
+        ],
         "title": "El Mirador Rises as the First Great Maya City",
         "body": "Nearby El Mirador eclipses Nakbe to become the largest Preclassic Maya city, its La Danta pyramid ranking among the largest structures built anywhere in the ancient world by volume.",
         "sourceUrl": "https://en.wikipedia.org/wiki/El_Mirador",
@@ -1197,6 +1400,9 @@
       {
         "year": 150,
         "sig": "major",
+        "tags": [
+          "collapse"
+        ],
         "title": "Preclassic Maya Cities Collapse",
         "body": "El Mirador and most other major Preclassic centers are abandoned amid drought and political breakdown, closing out the Preclassic period before power later shifts to cities like Tikal.",
         "sourceUrl": "https://en.wikipedia.org/wiki/El_Mirador",
@@ -1215,6 +1421,7 @@
       {
         "year": 250,
         "sig": "major",
+        "tags": [],
         "title": "The Classic Period Begins",
         "body": "Maya city-states like Tikal and Calakmul enter their peak era of monumental architecture, written history, and dynastic rivalry.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Tikal",
@@ -1226,6 +1433,9 @@
       {
         "year": 378,
         "sig": "major",
+        "tags": [
+          "battle"
+        ],
         "title": "Teotihuacan's Entrada Remakes Tikal",
         "body": "A Teotihuacan-backed general, Siyaj K'ak', arrives at Tikal the same day its king dies in battle; within a year a new Teotihuacan-aligned dynasty holds the throne and Tikal's power surges as the distant central Mexican city's proxy in the Maya lowlands.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Tikal",
@@ -1244,6 +1454,9 @@
       {
         "year": 615,
         "sig": "major",
+        "tags": [
+          "art"
+        ],
         "title": "Pakal Ascends the Throne at Palenque",
         "body": "Twelve-year-old K'inich Janaab' Pakal begins a 68-year reign that will make Palenque one of the Classic Period's greatest artistic centers.",
         "sourceUrl": "https://en.wikipedia.org/wiki/K%CA%BCinich_Janaab%CA%BC_Pakal",
@@ -1262,16 +1475,19 @@
       {
         "year": 738,
         "sig": "minor",
-        "title": "Quirigu\u00e1 Captures and Sacrifices Cop\u00e1n's King",
-        "body": "Vassal city Quirigu\u00e1 defeats its former overlord Cop\u00e1n in battle; king K'ak' Tiliw Chan Yopaat has Cop\u00e1n's ruler Waxaklajuun Ubaah K'awiil beheaded, upending the political order of the southeastern Maya lowlands.",
+        "tags": [
+          "battle"
+        ],
+        "title": "Quiriguá Captures and Sacrifices Copán's King",
+        "body": "Vassal city Quiriguá defeats its former overlord Copán in battle; king K'ak' Tiliw Chan Yopaat has Copán's ruler Waxaklajuun Ubaah K'awiil beheaded, upending the political order of the southeastern Maya lowlands.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Quirigu%C3%A1",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/GT_Quirigua_StelaE.JPG/330px-GT_Quirigua_StelaE.JPG",
         "imageAttribution": "Photo by Jan Pesula, CC BY 2.5, via Wikimedia Commons",
-        "imageDescription": "Stela E at Quirigu\u00e1, a 12-meter monument raised in 771 by K'ak' Tiliw Chan Yopaat, the king who conquered Cop\u00e1n.",
+        "imageDescription": "Stela E at Quiriguá, a 12-meter monument raised in 771 by K'ak' Tiliw Chan Yopaat, the king who conquered Copán.",
         "wikidataId": "Q318422",
         "location": {
-          "historicalName": "Quirigu\u00e1",
-          "city": "Quirigu\u00e1",
+          "historicalName": "Quiriguá",
+          "city": "Quiriguá",
           "country": "Guatemala",
           "latitude": 15.26944444,
           "longitude": -89.04027778
@@ -1280,16 +1496,19 @@
       {
         "year": 909,
         "sig": "major",
+        "tags": [
+          "science"
+        ],
         "title": "The Last Long Count Date Is Carved",
-        "body": "Monument 101 at Tonin\u00e1 records the final Classic Maya Long Count inscription, as southern lowland cities are abandoned in the following decades.",
+        "body": "Monument 101 at Toniná records the final Classic Maya Long Count inscription, as southern lowland cities are abandoned in the following decades.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Tonin%C3%A1",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Templo_Mayor_Tonin%C3%A1_1.jpg/330px-Templo_Mayor_Tonin%C3%A1_1.jpg",
         "imageAttribution": "Photo by J. Antonio Cruz Coutino, CC BY-SA 4.0, via Wikimedia Commons",
-        "imageDescription": "The Templo Mayor pyramid at Tonin\u00e1, the Chiapas hill-city where Maya scribes carved their last Long Count date in 909.",
+        "imageDescription": "The Templo Mayor pyramid at Toniná, the Chiapas hill-city where Maya scribes carved their last Long Count date in 909.",
         "wikidataId": "Q1042074",
         "location": {
-          "historicalName": "Tonin\u00e1",
-          "city": "Tonin\u00e1",
+          "historicalName": "Toniná",
+          "city": "Toniná",
           "country": "Mexico",
           "latitude": 16.90121944,
           "longitude": -92.009675
@@ -1298,7 +1517,10 @@
       {
         "year": 950,
         "sig": "major",
-        "title": "Chichen Itza Rises to Dominate the Yucat\u00e1n",
+        "tags": [
+          "architecture"
+        ],
+        "title": "Chichen Itza Rises to Dominate the Yucatán",
         "body": "Chichen Itza grows into the peninsula's dominant power, blending Maya and central Mexican Toltec architectural styles at monuments like El Castillo.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Chichen_Itza",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Chichen_Itza_3.jpg/330px-Chichen_Itza_3.jpg",
@@ -1316,12 +1538,16 @@
       {
         "year": 1220,
         "sig": "major",
-        "title": "Mayapan Becomes the Yucat\u00e1n's New Capital",
-        "body": "Mayapan, a walled city modeled on Chichen Itza, becomes the political and cultural capital of the Yucat\u00e1n Maya, eventually growing to more than 4,000 structures.",
+        "tags": [
+          "founding",
+          "architecture"
+        ],
+        "title": "Mayapan Becomes the Yucatán's New Capital",
+        "body": "Mayapan, a walled city modeled on Chichen Itza, becomes the political and cultural capital of the Yucatán Maya, eventually growing to more than 4,000 structures.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Mayapan",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Mayapan_%272010_-_31.JPG/330px-Mayapan_%272010_-_31.JPG",
         "imageAttribution": "Photo by SiMeCaIS, CC BY-SA 3.0, via Wikimedia Commons",
-        "imageDescription": "Ruins of Mayapan, walled capital of the Yucat\u00e1n Maya from the 1220s to the 1440s.",
+        "imageDescription": "Ruins of Mayapan, walled capital of the Yucatán Maya from the 1220s to the 1440s.",
         "wikidataId": "Q567966",
         "location": {
           "historicalName": "Mayapan",
@@ -1334,8 +1560,12 @@
       {
         "year": 1441,
         "sig": "major",
-        "title": "Mayapan Collapses, Fragmenting the Yucat\u00e1n",
-        "body": "Rebellion topples Mayapan's ruling Cocom dynasty, and the Yucat\u00e1n Maya splinter into rival, often warring city-states with no single dominant capital.",
+        "tags": [
+          "collapse",
+          "rebellion"
+        ],
+        "title": "Mayapan Collapses, Fragmenting the Yucatán",
+        "body": "Rebellion topples Mayapan's ruling Cocom dynasty, and the Yucatán Maya splinter into rival, often warring city-states with no single dominant capital.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Mayapan",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Mayapan_Panorama.JPG/330px-Mayapan_Panorama.JPG",
         "imageAttribution": "Photo by Pavel Vorobiev, CC BY-SA 3.0, via Wikimedia Commons",
@@ -1352,15 +1582,19 @@
       {
         "year": 1697,
         "sig": "major",
-        "title": "Nojpet\u00e9n Falls, Ending Independent Maya Rule",
-        "body": "Spanish forces under Mart\u00edn de Urs\u00faa storm Nojpet\u00e9n, the Itza capital on Lake Pet\u00e9n Itz\u00e1, ending the last independent Maya kingdom more than 175 years after the conquest of Mexico began.",
+        "tags": [
+          "collapse",
+          "battle"
+        ],
+        "title": "Nojpetén Falls, Ending Independent Maya Rule",
+        "body": "Spanish forces under Martín de Ursúa storm Nojpetén, the Itza capital on Lake Petén Itzá, ending the last independent Maya kingdom more than 175 years after the conquest of Mexico began.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Nojpet%C3%A9n",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Flores%2C_Pet%C3%A9n%2C_aerial_view_from_above_Santa_Elena.jpg/330px-Flores%2C_Pet%C3%A9n%2C_aerial_view_from_above_Santa_Elena.jpg",
         "imageAttribution": "Photo by Rafael Amado Deras, CC BY 2.0, via Wikimedia Commons",
-        "imageDescription": "Flores, Guatemala, the modern town built on the island that was once Nojpet\u00e9n, the Itza Maya capital.",
+        "imageDescription": "Flores, Guatemala, the modern town built on the island that was once Nojpetén, the Itza Maya capital.",
         "wikidataId": "Q1577053",
         "location": {
-          "historicalName": "Nojpet\u00e9n",
+          "historicalName": "Nojpetén",
           "city": "Flores",
           "country": "Guatemala",
           "latitude": 16.92972222,
@@ -1385,6 +1619,9 @@
       {
         "year": 330,
         "sig": "major",
+        "tags": [
+          "founding"
+        ],
         "title": "Constantinople Is Founded",
         "body": "Emperor Constantine dedicates his new capital on the site of the Greek city of Byzantium, a strategically located city that will anchor Roman power in the east for over a thousand years.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Constantinople",
@@ -1403,6 +1640,9 @@
       {
         "year": 529,
         "sig": "minor",
+        "tags": [
+          "governance"
+        ],
         "title": "Justinian's Code Is Compiled",
         "body": "Emperor Justinian I orders the compilation of centuries of Roman law into a single authoritative code, a work that will shape legal systems across Europe for centuries.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Code_of_Justinian",
@@ -1421,6 +1661,10 @@
       {
         "year": 537,
         "sig": "major",
+        "tags": [
+          "architecture",
+          "art"
+        ],
         "title": "The Hagia Sophia Is Completed",
         "body": "Justinian I dedicates a vast domed cathedral in Constantinople, an architectural triumph that remains the world's largest cathedral for nearly a thousand years.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Hagia_Sophia",
@@ -1439,6 +1683,10 @@
       {
         "year": 718,
         "sig": "major",
+        "tags": [
+          "battle",
+          "science"
+        ],
         "title": "Greek Fire Repels the Arab Siege of Constantinople",
         "body": "A year-long Umayyad siege of the Byzantine capital collapses after Byzantine ships destroy the Arab fleet with Greek fire, an incendiary weapon that burns even on water -- a defeat that halts the Islamic conquests' advance into Europe from the east.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Siege_of_Constantinople_(717%E2%80%93718)",
@@ -1457,6 +1705,9 @@
       {
         "year": 1014,
         "sig": "minor",
+        "tags": [
+          "battle"
+        ],
         "title": "Basil II Crushes Bulgaria at Kleidion",
         "body": "Byzantine emperor Basil II annihilates the Bulgarian army in a mountain pass, a victory so decisive -- and so brutally followed up -- that it earns him the epithet 'the Bulgar Slayer' and marks the empire's medieval territorial peak.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Kleidion",
@@ -1475,6 +1726,9 @@
       {
         "year": 1054,
         "sig": "minor",
+        "tags": [
+          "religion"
+        ],
         "title": "The Great Schism Divides the Church",
         "body": "Mutual excommunications between the Pope in Rome and the Patriarch of Constantinople formalize a centuries-old rift, splitting Christianity into Catholic and Orthodox branches that remain divided today.",
         "sourceUrl": "https://en.wikipedia.org/wiki/East%E2%80%93West_Schism",
@@ -1493,6 +1747,9 @@
       {
         "year": 1204,
         "sig": "major",
+        "tags": [
+          "battle"
+        ],
         "title": "The Fourth Crusade Sacks Constantinople",
         "body": "Crusader knights bound for the Holy Land instead storm and pillage Constantinople itself, installing a Latin emperor and shattering Byzantine power so thoroughly that the empire never fully recovers before its final fall two and a half centuries later.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Sack_of_Constantinople",
@@ -1510,12 +1767,16 @@
       {
         "year": 1453,
         "sig": "major",
+        "tags": [
+          "battle",
+          "collapse"
+        ],
         "title": "Constantinople Falls to the Ottomans",
         "body": "After a 53-day siege using massive cannon to breach the ancient walls, Ottoman sultan Mehmed II captures Constantinople, ending the Byzantine Empire and the last continuous link to ancient Rome.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Siege_of_Constantinople_fresco%2C_Moldovi%C8%9Ba_monastery%2C_Vatra_Moldovi%C8%9Bei%2C_2017.jpg/330px-Siege_of_Constantinople_fresco%2C_Moldovi%C8%9Ba_monastery%2C_Vatra_Moldovi%C8%9Bei%2C_2017.jpg",
-        "imageAttribution": "Fresco, Moldovi\u021ba Monastery, photo by DimiTalen, CC0, via Wikimedia Commons",
-        "imageDescription": "A modern fresco at Moldovi\u021ba Monastery in Romania depicting the siege of Constantinople.",
+        "imageAttribution": "Fresco, Moldovița Monastery, photo by DimiTalen, CC0, via Wikimedia Commons",
+        "imageDescription": "A modern fresco at Moldovița Monastery in Romania depicting the siege of Constantinople.",
         "wikidataId": "Q160077",
         "location": {
           "historicalName": "Constantinople",
@@ -1543,6 +1804,9 @@
       {
         "year": 622,
         "sig": "major",
+        "tags": [
+          "religion"
+        ],
         "title": "The Hijra Marks Year One",
         "body": "Muhammad and his followers migrate from Mecca to Medina to escape persecution, an event so pivotal to the Muslim community that it becomes year one of the Islamic calendar.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Hijrah",
@@ -1561,6 +1825,9 @@
       {
         "year": 632,
         "sig": "minor",
+        "tags": [
+          "founding"
+        ],
         "title": "The Rashidun Caliphate Begins",
         "body": "Following Muhammad's death, Abu Bakr is chosen as the first caliph, beginning three decades of rapid conquest that will carry Islamic rule from Arabia across Persia, the Levant, and North Africa.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Rashidun_Caliphate",
@@ -1579,6 +1846,10 @@
       {
         "year": 661,
         "sig": "major",
+        "tags": [
+          "founding",
+          "battle"
+        ],
         "title": "Muawiyah I Founds the Umayyad Caliphate",
         "body": "After a civil war among Muhammad's early followers, Muawiyah I establishes the Umayyad Caliphate from his power base in Damascus, shifting the seat of Islamic rule from Arabia to Syria and founding a dynasty that will expand from Spain to India.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Mu'awiya_I",
@@ -1597,6 +1868,9 @@
       {
         "year": 732,
         "sig": "major",
+        "tags": [
+          "battle"
+        ],
         "title": "The Battle of Tours Halts Umayyad Expansion",
         "body": "A Frankish army under Charles Martel defeats an Umayyad raiding force deep in what is now France, a battle later mythologized as the moment that stopped the Islamic conquests' advance into Western Europe.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Tours",
@@ -1615,6 +1889,10 @@
       {
         "year": 750,
         "sig": "major",
+        "tags": [
+          "founding",
+          "battle"
+        ],
         "title": "The Abbasid Caliphate Is Founded",
         "body": "Abu al-Abbas al-Saffah overthrows the Umayyad dynasty and founds the Abbasid Caliphate, which will soon move its capital to the newly built city of Baghdad and preside over an era of scientific and cultural flourishing.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Abbasid_Caliphate",
@@ -1633,6 +1911,9 @@
       {
         "year": 830,
         "sig": "minor",
+        "tags": [
+          "science"
+        ],
         "title": "The House of Wisdom Flourishes in Baghdad",
         "body": "Scholars in Baghdad translate and expand upon Greek, Persian, and Indian texts at a great library and translation center, driving advances in mathematics, astronomy, and medicine during the Islamic Golden Age.",
         "sourceUrl": "https://en.wikipedia.org/wiki/House_of_Wisdom",
@@ -1651,6 +1932,9 @@
       {
         "year": 1055,
         "sig": "minor",
+        "tags": [
+          "battle"
+        ],
         "title": "Seljuk Turks Take Control of Baghdad",
         "body": "Sultan Tughril leads Seljuk forces into Baghdad and ends Shia Buyid domination of the Abbasid court, reducing the caliph to a religious figurehead under Sunni Turkic military rule for the remainder of the caliphate's existence.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Tughril_I",
@@ -1669,6 +1953,10 @@
       {
         "year": 1258,
         "sig": "major",
+        "tags": [
+          "battle",
+          "collapse"
+        ],
         "title": "The Mongols Sack Baghdad",
         "body": "Hulagu Khan's Mongol army razes Baghdad and executes the last Abbasid caliph, destroying the city's libraries and irrigation works in a catastrophe that ends the Abbasid Caliphate and is remembered as a turning point in the Islamic world's fortunes.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Siege_of_Baghdad",
@@ -1702,6 +1990,10 @@
       {
         "year": 802,
         "sig": "major",
+        "tags": [
+          "founding",
+          "religion"
+        ],
         "title": "Jayavarman II Founds the Khmer Empire",
         "body": "Atop Mount Mahendraparvata, brahmin priests consecrate Jayavarman II as a chakravartin, or universal monarch, establishing the devaraja cult of divine kingship and unifying rival principalities into the new Khmer Empire.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Jayavarman_II",
@@ -1720,6 +2012,10 @@
       {
         "year": 900,
         "sig": "minor",
+        "tags": [
+          "religion",
+          "architecture"
+        ],
         "title": "Yasodharapura Becomes the Capital",
         "body": "King Yasovarman I moves his court to a new capital, Yasodharapura, anchored by the temple-mountain of Phnom Bakheng, dedicated to Shiva on a hill overlooking the site that becomes Angkor.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Yasovarman_I",
@@ -1738,11 +2034,15 @@
       {
         "year": 1113,
         "sig": "major",
+        "tags": [
+          "architecture",
+          "religion"
+        ],
         "title": "Construction of Angkor Wat Begins",
         "body": "Suryavarman II commissions the largest religious monument in the world as his state temple, originally dedicated to the Hindu god Vishnu.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Angkor_Wat",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Angkor_Wat.jpg/330px-Angkor_Wat.jpg",
-        "imageAttribution": "Photo by Bj\u00f8rn Christian T\u00f8rrissen, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageAttribution": "Photo by Bjørn Christian Tørrissen, CC BY-SA 4.0, via Wikimedia Commons",
         "imageDescription": "Angkor Wat, the front of the main temple complex, photographed in the late afternoon.",
         "wikidataId": "Q43473",
         "location": {
@@ -1756,12 +2056,15 @@
       {
         "year": 1177,
         "sig": "major",
+        "tags": [
+          "battle"
+        ],
         "title": "The Cham Sack Angkor",
-        "body": "A Cham fleet under Jaya Indravarman IV sails up the Tonl\u00e9 Sap, sacks the Khmer capital of Yasodharapura, and kills King Tribhuvanadityavarman, beginning a four-year occupation of the Khmer heartland.",
+        "body": "A Cham fleet under Jaya Indravarman IV sails up the Tonlé Sap, sacks the Khmer capital of Yasodharapura, and kills King Tribhuvanadityavarman, beginning a four-year occupation of the Khmer heartland.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Tonl%C3%A9_Sap",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Angkor_-_Bayon_-_032_Battle_Scenes_%288581861528%29.jpg/330px-Angkor_-_Bayon_-_032_Battle_Scenes_%288581861528%29.jpg",
         "imageAttribution": "Photo by Photo Dharma, CC BY 2.0, via Wikimedia Commons",
-        "imageDescription": "A bas-relief at the Bayon temple depicting the Khmer-Cham naval battles fought on the Tonl\u00e9 Sap.",
+        "imageDescription": "A bas-relief at the Bayon temple depicting the Khmer-Cham naval battles fought on the Tonlé Sap.",
         "wikidataId": "Q23719075",
         "location": {
           "historicalName": "Yasodharapura",
@@ -1774,12 +2077,17 @@
       {
         "year": 1181,
         "sig": "major",
+        "tags": [
+          "battle",
+          "architecture",
+          "founding"
+        ],
         "title": "Jayavarman VII Expels the Cham and Rebuilds Angkor",
         "body": "After a four-year campaign to drive out the Cham occupiers, Jayavarman VII is crowned king and launches the empire's largest building program, founding the walled capital of Angkor Thom around the Bayon, his state temple.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Jayavarman_VII",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/JayavarmanVII.jpg/330px-JayavarmanVII.jpg",
         "imageAttribution": "Sculpture photographed by Suzan Black, CC BY 3.0, via Wikimedia Commons",
-        "imageDescription": "A sandstone head presumed to depict King Jayavarman VII, in the Bayon style, now in the Mus\u00e9e Guimet, Paris.",
+        "imageDescription": "A sandstone head presumed to depict King Jayavarman VII, in the Bayon style, now in the Musée Guimet, Paris.",
         "wikidataId": "Q335273",
         "location": {
           "historicalName": "Angkor Thom",
@@ -1792,6 +2100,7 @@
       {
         "year": 1296,
         "sig": "minor",
+        "tags": [],
         "title": "A Chinese Envoy Records Daily Life",
         "body": "Zhou Daguan, an envoy of the Yuan dynasty, spends nearly a year at Angkor and later writes The Customs of Cambodia, the only detailed eyewitness account of the empire that survives.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Zhou_Daguan",
@@ -1810,6 +2119,10 @@
       {
         "year": 1431,
         "sig": "major",
+        "tags": [
+          "battle",
+          "collapse"
+        ],
         "title": "Ayutthaya Sacks Angkor",
         "body": "A Siamese army from Ayutthaya captures and loots the Khmer capital after a prolonged siege, prompting King Ponhea Yat to relocate the royal court south toward present-day Phnom Penh.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Angkor",
@@ -1833,7 +2146,7 @@
     "colorIndex": 4,
     "start": 1206,
     "end": 1368,
-    "summary": "Founded in 1206 when a kurultai of steppe chieftains proclaims Tem\u00fcjin as Genghis Khan, the Mongol Empire grows within two generations into the largest contiguous land empire ever assembled, stretching from the Sea of Japan to the edge of Central Europe. Mongol armies topple the Khwarazmian Empire, the Abbasid Caliphate, and the Song dynasty of China, while cavalry under Batu Khan and Subutai push as far west as Hungary and Poland before a Mamluk army halts their advance at Ain Jalut. A war of succession after M\u00f6ngke Khan's death splits the empire into four largely independent khanates by the 1260s; the largest, Kublai Khan's Yuan dynasty, rules China until Ming rebels drive the Mongols back to the steppe in 1368.",
+    "summary": "Founded in 1206 when a kurultai of steppe chieftains proclaims Temüjin as Genghis Khan, the Mongol Empire grows within two generations into the largest contiguous land empire ever assembled, stretching from the Sea of Japan to the edge of Central Europe. Mongol armies topple the Khwarazmian Empire, the Abbasid Caliphate, and the Song dynasty of China, while cavalry under Batu Khan and Subutai push as far west as Hungary and Poland before a Mamluk army halts their advance at Ain Jalut. A war of succession after Möngke Khan's death splits the empire into four largely independent khanates by the 1260s; the largest, Kublai Khan's Yuan dynasty, rules China until Ming rebels drive the Mongols back to the steppe in 1368.",
     "sourceUrl": "https://en.wikipedia.org/wiki/Mongol_Empire",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Asia_in_1335.svg",
     "imageAttribution": "Map by Wengier (derivative of a map by Teaandcrumpets), Public domain, via Wikimedia Commons",
@@ -1843,8 +2156,11 @@
       {
         "year": 1206,
         "sig": "major",
+        "tags": [
+          "founding"
+        ],
         "title": "Genghis Khan Unites the Mongol Tribes",
-        "body": "A kurultai of steppe chieftains gathers at the source of the Onon River and proclaims Tem\u00fcjin as Genghis Khan, \"universal ruler,\" ending decades of tribal warfare and setting off the fastest territorial expansion in history.",
+        "body": "A kurultai of steppe chieftains gathers at the source of the Onon River and proclaims Temüjin as Genghis Khan, \"universal ruler,\" ending decades of tribal warfare and setting off the fastest territorial expansion in history.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Genghis_Khan",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/YuanEmperorAlbumGenghisPortrait.jpg/330px-YuanEmperorAlbumGenghisPortrait.jpg",
         "imageAttribution": "Portrait by unknown artist, digitized by the National Palace Museum, Public domain, via Wikimedia Commons",
@@ -1861,6 +2177,9 @@
       {
         "year": 1219,
         "sig": "minor",
+        "tags": [
+          "battle"
+        ],
         "title": "The Invasion of Khwarazm Begins",
         "body": "After the governor of Otrar seizes a Mongol trade caravan and executes its merchants, Genghis Khan turns west and invades the Khwarazmian Empire, destroying its great Central Asian cities within two years.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Mongol_invasion_of_the_Khwarazmian_Empire",
@@ -1879,8 +2198,11 @@
       {
         "year": 1241,
         "sig": "minor",
+        "tags": [
+          "battle"
+        ],
         "title": "Mongol Cavalry Crush Hungary at Mohi",
-        "body": "Batu Khan and Subutai's twin invasion of Europe culminates on the Saj\u00f3 River, where a Mongol army annihilates the royal army of King B\u00e9la IV, opening the Hungarian plain to two years of occupation before the Mongols unexpectedly withdraw.",
+        "body": "Batu Khan and Subutai's twin invasion of Europe culminates on the Sajó River, where a Mongol army annihilates the royal army of King Béla IV, opening the Hungarian plain to two years of occupation before the Mongols unexpectedly withdraw.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Mohi",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Battle_of_Mohi_1241.PNG/330px-Battle_of_Mohi_1241.PNG",
         "imageAttribution": "Illumination from the Chronicon Pictum (Cod. 2623), Public domain, via Wikimedia Commons",
@@ -1897,6 +2219,10 @@
       {
         "year": 1258,
         "sig": "major",
+        "tags": [
+          "battle",
+          "collapse"
+        ],
         "title": "The Mongols Sack Baghdad",
         "body": "Hulagu Khan's army breaches Baghdad's walls, executes the caliph al-Musta'sim, and topples the five-century-old Abbasid Caliphate, extending Mongol power into the heart of the Islamic world.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Siege_of_Baghdad_(1258)",
@@ -1915,6 +2241,9 @@
       {
         "year": 1260,
         "sig": "major",
+        "tags": [
+          "battle"
+        ],
         "title": "Mamluks Halt the Mongols at Ain Jalut",
         "body": "A Mamluk army from Egypt defeats Hulagu's rearguard near the spring of Ain Jalut in Galilee, the first open-field defeat of a Mongol army and the effective limit of the empire's expansion into the Middle East.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Ain_Jalut",
@@ -1933,17 +2262,24 @@
       {
         "year": 1264,
         "sig": "major",
+        "tags": [
+          "battle",
+          "collapse"
+        ],
         "title": "The Toluid Civil War Splits the Empire",
-        "body": "Kublai Khan's younger brother Ariq B\u00f6ke surrenders after a four-year war of succession, but the fighting has already broken the unified Mongol Empire into four largely independent khanates: the Yuan, the Golden Horde, the Chagatai Khanate, and the Ilkhanate.",
+        "body": "Kublai Khan's younger brother Ariq Böke surrenders after a four-year war of succession, but the fighting has already broken the unified Mongol Empire into four largely independent khanates: the Yuan, the Golden Horde, the Chagatai Khanate, and the Ilkhanate.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Toluid_Civil_War",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Arik_Buka_defeats_Alghu-Rashid_al%27Din_Jami_al_Tavarikhs-large.jpg/330px-Arik_Buka_defeats_Alghu-Rashid_al%27Din_Jami_al_Tavarikhs-large.jpg",
         "imageAttribution": "Painting by Miskin, Public domain, via Wikimedia Commons",
-        "imageDescription": "A 1596 illustration from Rashid al-Din's Jami al-Tavarikh depicting Ariq B\u00f6ke's defeat by Kublai Khan's forces.",
+        "imageDescription": "A 1596 illustration from Rashid al-Din's Jami al-Tavarikh depicting Ariq Böke's defeat by Kublai Khan's forces.",
         "wikidataId": "Q16871984"
       },
       {
         "year": 1271,
         "sig": "major",
+        "tags": [
+          "founding"
+        ],
         "title": "Kublai Khan Founds the Yuan Dynasty",
         "body": "Genghis Khan's grandson declares a new Chinese dynasty from his capital at Dadu, ruling simultaneously as Great Khan of the Mongols and emperor of China.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Yuan_dynasty",
@@ -1962,6 +2298,10 @@
       {
         "year": 1279,
         "sig": "minor",
+        "tags": [
+          "battle",
+          "collapse"
+        ],
         "title": "The Yuan Complete the Conquest of Song China",
         "body": "A Yuan fleet destroys the last Song loyalist forces at the naval battle of Yamen, ending three centuries of Song rule and bringing all of China under Mongol control for the first time.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Yamen",
@@ -1977,6 +2317,10 @@
       {
         "year": 1368,
         "sig": "major",
+        "tags": [
+          "collapse",
+          "battle"
+        ],
         "title": "The Yuan Dynasty Falls",
         "body": "Ming rebels led by Zhu Yuanzhang capture the Yuan capital at Dadu, driving the Mongols back to the steppe and ending nearly a century of Mongol rule over China.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Yuan_dynasty",
@@ -2010,6 +2354,10 @@
       {
         "year": 1235,
         "sig": "major",
+        "tags": [
+          "founding",
+          "battle"
+        ],
         "title": "Sundiata Keita Founds the Mali Empire",
         "body": "Sundiata Keita leads the united Mandinka clans to victory over the Sosso king Sumanguru Kanté at the Battle of Kirina, is crowned Mansa, and builds the conquered Sosso territories into the new Mali Empire.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Kirina",
@@ -2028,6 +2376,9 @@
       {
         "year": 1285,
         "sig": "minor",
+        "tags": [
+          "battle"
+        ],
         "title": "Sakura Seizes the Throne and Expands Mali",
         "body": "Sakura, a former palace dependent from outside the ruling Keita line, seizes power and pushes Mali's borders west to the Atlantic coast and east toward Gao before being killed returning from his own pilgrimage to Mecca around 1300, after which the Keita dynasty is restored.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Mansa_Sakura",
@@ -2039,6 +2390,9 @@
       {
         "year": 1324,
         "sig": "major",
+        "tags": [
+          "religion"
+        ],
         "title": "Mansa Musa's Pilgrimage to Mecca",
         "body": "Mali's emperor travels to Mecca with a caravan reportedly carrying tons of gold, spending so freely in Cairo along the way that he depresses the region's gold prices for years afterward.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Mansa_Musa",
@@ -2057,6 +2411,10 @@
       {
         "year": 1327,
         "sig": "minor",
+        "tags": [
+          "architecture",
+          "religion"
+        ],
         "title": "Djinguereber Mosque Built in Timbuktu",
         "body": "Fresh from his pilgrimage, Mansa Musa commissions the Djinguereber Mosque in Timbuktu, part of a wave of building and scholarship that establishes the city as a center of Islamic learning under Mali's patronage.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Djinguereber_Mosque",
@@ -2075,6 +2433,10 @@
       {
         "year": 1468,
         "sig": "major",
+        "tags": [
+          "battle",
+          "collapse"
+        ],
         "title": "Songhai Captures Timbuktu",
         "body": "Sunni Ali's Songhai forces take Timbuktu, which Mali had already lost to Tuareg raiders decades earlier — a milestone in Mali's terminal decline as Songhai rises to become the region's dominant power.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Timbuktu",
@@ -2093,6 +2455,10 @@
       {
         "year": 1599,
         "sig": "major",
+        "tags": [
+          "battle",
+          "collapse"
+        ],
         "title": "Mali's Defeat at the Battle of Djenné",
         "body": "Seeking to exploit Songhai's collapse after Morocco's 1591 invasion, Mansa Mahmud Keita IV attacks the trade hub of Djenné but is routed by Moroccan musketeers stationed there, a defeat that shatters what remains of Mali's imperial prestige.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Mahmud_IV_(mansa)",
@@ -2111,6 +2477,9 @@
       {
         "year": 1610,
         "sig": "major",
+        "tags": [
+          "collapse"
+        ],
         "title": "Mali Empire Ends with the Death of Mahmud Keita IV",
         "body": "Mali's last reigning emperor, Mahmud Keita IV, dies after retreating to the fortress of Sorokuru; his three sons divide what remains of the realm among themselves, and no single Keita ruler ever governs a unified Mali again.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Mahmud_IV_(mansa)",
@@ -2127,7 +2496,7 @@
     "colorIndex": 6,
     "start": 1325,
     "end": 1521,
-    "summary": "Founded in 1325 when the wandering Mexica people build their capital, Tenochtitlan, on a marshy island in Lake Texcoco, the Aztec civilization becomes an empire in 1428 when Tenochtitlan joins Texcoco and Tlacopan in the Triple Alliance after defeating the Tepanecs of Azcapotzalco. Over the following century Mexica armies and tribute demands extend the alliance's reach across central Mexico, funding a religious capital whose Great Temple is consecrated in 1487 under the ruler Ahuitzotl. Hern\u00e1n Cort\u00e9s lands on the Gulf coast in 1519 and, allying with rivals of the Aztecs, marches on Tenochtitlan; after his men are driven out on La Noche Triste in 1520 he returns with a larger force and, aided by a smallpox epidemic that has already killed thousands, besieges and captures the city in 1521, ending Mexica rule.",
+    "summary": "Founded in 1325 when the wandering Mexica people build their capital, Tenochtitlan, on a marshy island in Lake Texcoco, the Aztec civilization becomes an empire in 1428 when Tenochtitlan joins Texcoco and Tlacopan in the Triple Alliance after defeating the Tepanecs of Azcapotzalco. Over the following century Mexica armies and tribute demands extend the alliance's reach across central Mexico, funding a religious capital whose Great Temple is consecrated in 1487 under the ruler Ahuitzotl. Hernán Cortés lands on the Gulf coast in 1519 and, allying with rivals of the Aztecs, marches on Tenochtitlan; after his men are driven out on La Noche Triste in 1520 he returns with a larger force and, aided by a smallpox epidemic that has already killed thousands, besieges and captures the city in 1521, ending Mexica rule.",
     "sourceUrl": "https://en.wikipedia.org/wiki/Aztecs",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Aztec_Empire.png/330px-Aztec_Empire.png",
     "imageAttribution": "Map by Aldan-2, CC BY-SA 4.0, via Wikimedia Commons",
@@ -2137,12 +2506,16 @@
       {
         "year": 1325,
         "sig": "major",
+        "tags": [
+          "founding",
+          "religion"
+        ],
         "title": "Tenochtitlan Is Founded",
-        "body": "According to legend, the Mexica see an eagle devouring a serpent atop a cactus \u2014 the sign their priests had foretold \u2014 and found their capital, Tenochtitlan, on a marshy island in Lake Texcoco.",
+        "body": "According to legend, the Mexica see an eagle devouring a serpent atop a cactus — the sign their priests had foretold — and found their capital, Tenochtitlan, on a marshy island in Lake Texcoco.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Tenochtitlan",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Fundacion_Tenochtitlan.jpg/500px-Fundacion_Tenochtitlan.jpg",
-        "imageAttribution": "Painting by Roberto Cueva del R\u00edo, CC BY-SA 3.0, via Wikimedia Commons",
-        "imageDescription": "A 20th-century mural, Fundaci\u00f3n de Tenochtitlan, by Roberto Cueva del R\u00edo, depicting the city's legendary founding.",
+        "imageAttribution": "Painting by Roberto Cueva del Río, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A 20th-century mural, Fundación de Tenochtitlan, by Roberto Cueva del Río, depicting the city's legendary founding.",
         "wikidataId": "Q13695",
         "location": {
           "historicalName": "Tenochtitlan",
@@ -2155,6 +2528,10 @@
       {
         "year": 1428,
         "sig": "major",
+        "tags": [
+          "founding",
+          "battle"
+        ],
         "title": "The Triple Alliance Forms",
         "body": "After the Tepanec usurper Maxtla besieges Tenochtitlan and drives the Acolhua ruler Nezahualcoyotl into exile, the Mexica join Texcoco and the breakaway city of Tlacopan to crush Azcapotzalco, forming the Triple Alliance that becomes the Aztec Empire.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Aztec_Empire",
@@ -2166,6 +2543,9 @@
       {
         "year": 1473,
         "sig": "minor",
+        "tags": [
+          "battle"
+        ],
         "title": "Axayacatl Conquers Tlatelolco",
         "body": "Tenochtitlan's tlatoani Axayacatl defeats Moquihuix, ruler of the rival twin city Tlatelolco, in battle and subjects it to Tenochtitlan, bringing the entire island and its great marketplace under unified Mexica rule.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Tlatelolco_(altepetl)",
@@ -2184,6 +2564,10 @@
       {
         "year": 1487,
         "sig": "major",
+        "tags": [
+          "architecture",
+          "religion"
+        ],
         "title": "The Great Temple Is Dedicated",
         "body": "Ruler Ahuitzotl consecrates the rebuilt Templo Mayor on the final day of the month of Panquetzaliztli, its twin shrines to Huitzilopochtli and Tlaloc marking the Mexica capital near the height of its power.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Templo_Mayor",
@@ -2202,12 +2586,13 @@
       {
         "year": 1502,
         "sig": "minor",
+        "tags": [],
         "title": "Moctezuma II Becomes Tlatoani",
         "body": "Moctezuma Xocoyotzin is crowned as the ninth tlatoani of Tenochtitlan, inheriting an empire near its greatest extent that he will rule for nearly two decades before the Spanish arrive.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Moctezuma_II",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Coronaci%C3%B3n_de_Moctezuma_II%2C_en_el_folio_152.png/330px-Coronaci%C3%B3n_de_Moctezuma_II%2C_en_el_folio_152.png",
-        "imageAttribution": "Illustration from the Codex Dur\u00e1n, Public domain, via Wikimedia Commons",
-        "imageDescription": "Moctezuma II receiving his crown during his 1502 coronation, illustrated in the 16th-century Codex Dur\u00e1n.",
+        "imageAttribution": "Illustration from the Codex Durán, Public domain, via Wikimedia Commons",
+        "imageDescription": "Moctezuma II receiving his crown during his 1502 coronation, illustrated in the 16th-century Codex Durán.",
         "wikidataId": "Q141791",
         "location": {
           "historicalName": "Tenochtitlan",
@@ -2220,12 +2605,15 @@
       {
         "year": 1519,
         "sig": "minor",
-        "title": "Cort\u00e9s Arrives on the Coast",
-        "body": "Hern\u00e1n Cort\u00e9s lands on the Gulf coast and founds Veracruz, then marches inland, defeating and then allying with the Tlaxcalans as he advances toward Tenochtitlan.",
+        "tags": [
+          "battle"
+        ],
+        "title": "Cortés Arrives on the Coast",
+        "body": "Hernán Cortés lands on the Gulf coast and founds Veracruz, then marches inland, defeating and then allying with the Tlaxcalans as he advances toward Tenochtitlan.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Hern%C3%A1n_Cort%C3%A9s",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Retrato_de_Hern%C3%A1n_Cort%C3%A9s.jpg/330px-Retrato_de_Hern%C3%A1n_Cort%C3%A9s.jpg",
-        "imageAttribution": "Portrait by unknown artist (Museo de Am\u00e9rica collection), Public domain, via Wikimedia Commons",
-        "imageDescription": "An anonymous portrait of Hern\u00e1n Cort\u00e9s, based on a likeness he sent to Paolo Giovio.",
+        "imageAttribution": "Portrait by unknown artist (Museo de América collection), Public domain, via Wikimedia Commons",
+        "imageDescription": "An anonymous portrait of Hernán Cortés, based on a likeness he sent to Paolo Giovio.",
         "wikidataId": "Q7326",
         "location": {
           "historicalName": "Veracruz",
@@ -2238,8 +2626,11 @@
       {
         "year": 1520,
         "sig": "major",
+        "tags": [
+          "battle"
+        ],
         "title": "The Spanish Are Driven Out on La Noche Triste",
-        "body": "After Moctezuma II is killed in rioting and Cort\u00e9s's men loot the palace treasury, the Mexica attack the retreating Spanish column on the causeway out of the city, inflicting heavy losses in what the Spanish call La Noche Triste, the Night of Sorrows.",
+        "body": "After Moctezuma II is killed in rioting and Cortés's men loot the palace treasury, the Mexica attack the retreating Spanish column on the causeway out of the city, inflicting heavy losses in what the Spanish call La Noche Triste, the Night of Sorrows.",
         "sourceUrl": "https://en.wikipedia.org/wiki/La_Noche_Triste",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/The_Sad_Night_%28Noche_Triste%29_%28Conquest_of_Mexico%29_Painting.jpg/330px-The_Sad_Night_%28Noche_Triste%29_%28Conquest_of_Mexico%29_Painting.jpg",
         "imageAttribution": "Anonymous 17th-century painting, Public domain, via Wikimedia Commons",
@@ -2256,12 +2647,16 @@
       {
         "year": 1521,
         "sig": "major",
+        "tags": [
+          "battle",
+          "collapse"
+        ],
         "title": "The Fall of Tenochtitlan",
-        "body": "After a three-month siege and a smallpox epidemic that has already killed thousands, including the previous emperor Cuitl\u00e1huac, Spanish forces and their Indigenous allies capture the last tlatoani, Cuauht\u00e9moc, and take Tenochtitlan.",
+        "body": "After a three-month siege and a smallpox epidemic that has already killed thousands, including the previous emperor Cuitláhuac, Spanish forces and their Indigenous allies capture the last tlatoani, Cuauhtémoc, and take Tenochtitlan.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Brigantines_in_the_Siege_of_Tenochtitlan.jpg/330px-Brigantines_in_the_Siege_of_Tenochtitlan.jpg",
-        "imageAttribution": "Illustration from the Florentine Codex by Bernardino de Sahag\u00fan, Public domain, via Wikimedia Commons",
-        "imageDescription": "Cort\u00e9s's brigantine fleet deployed on Lake Texcoco during the siege of Tenochtitlan.",
+        "imageAttribution": "Illustration from the Florentine Codex by Bernardino de Sahagún, Public domain, via Wikimedia Commons",
+        "imageDescription": "Cortés's brigantine fleet deployed on Lake Texcoco during the siege of Tenochtitlan.",
         "wikidataId": "Q593267",
         "location": {
           "historicalName": "Tenochtitlan",
@@ -2279,16 +2674,20 @@
     "colorIndex": 7,
     "start": 1438,
     "end": 1572,
-    "summary": "After repelling a Chanka invasion around 1438, Pachacuti Inca Yupanqui rebuilds Cusco into an imperial capital and launches the campaigns that grow the Inca Empire into the largest state in the pre-Columbian Americas, stretching along the Andes from Ecuador to Chile and bound together by the Qhapaq \u00d1an road network. Huayna Capac's death from a mysterious epidemic in 1527 leaves his sons Hu\u00e1scar and Atahualpa fighting a ruinous civil war that Atahualpa wins only months before Francisco Pizarro's small Spanish force ambushes and captures him at Cajamarca in 1532. Atahualpa's execution and the Spanish occupation of Cusco end organized imperial rule, but a rump Neo-Inca State holds out in the mountains at Vilcabamba until Spanish forces capture the stronghold and execute its last ruler, T\u00fapac Amaru, in 1572.",
+    "summary": "After repelling a Chanka invasion around 1438, Pachacuti Inca Yupanqui rebuilds Cusco into an imperial capital and launches the campaigns that grow the Inca Empire into the largest state in the pre-Columbian Americas, stretching along the Andes from Ecuador to Chile and bound together by the Qhapaq Ñan road network. Huayna Capac's death from a mysterious epidemic in 1527 leaves his sons Huáscar and Atahualpa fighting a ruinous civil war that Atahualpa wins only months before Francisco Pizarro's small Spanish force ambushes and captures him at Cajamarca in 1532. Atahualpa's execution and the Spanish occupation of Cusco end organized imperial rule, but a rump Neo-Inca State holds out in the mountains at Vilcabamba until Spanish forces capture the stronghold and execute its last ruler, Túpac Amaru, in 1572.",
     "sourceUrl": "https://en.wikipedia.org/wiki/Inca_Empire",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Tawantinsuyu_%28orthographic_projection%29.svg/330px-Tawantinsuyu_%28orthographic_projection%29.svg.png",
-    "imageAttribution": "Map by L'Am\u00e9ricain, CC BY-SA 3.0, via Wikimedia Commons",
+    "imageAttribution": "Map by L'Américain, CC BY-SA 3.0, via Wikimedia Commons",
     "imageDescription": "A modern orthographic map showing the extent of the Inca Empire, Tawantinsuyu, along the Andes.",
     "wikidataId": "Q28573",
     "events": [
       {
         "year": 1438,
         "sig": "major",
+        "tags": [
+          "founding",
+          "battle"
+        ],
         "title": "Pachacuti Begins the Inca Expansion",
         "body": "After repelling an invasion by the rival Chanka people, Pachacuti Inca Yupanqui takes the throne, rebuilds Cusco as an imperial capital, and launches the conquests that transform a small highland kingdom into the Inca Empire.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Pachacuti",
@@ -2307,8 +2706,11 @@
       {
         "year": 1450,
         "sig": "minor",
+        "tags": [
+          "architecture"
+        ],
         "title": "Machu Picchu Is Built",
-        "body": "Pachacuti commissions a royal estate high in the Andes at Machu Picchu, connected to the rest of the empire by the Qhapaq \u00d1an network of mountain roads and suspension bridges.",
+        "body": "Pachacuti commissions a royal estate high in the Andes at Machu Picchu, connected to the rest of the empire by the Qhapaq Ñan network of mountain roads and suspension bridges.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Machu_Picchu",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Machu_Picchu_Panorama_2025_%28cropped%29.jpg/330px-Machu_Picchu_Panorama_2025_%28cropped%29.jpg",
         "imageAttribution": "Photo by Jorge Castro Ruso, CC BY-SA 2.0, via Wikimedia Commons",
@@ -2325,8 +2727,9 @@
       {
         "year": 1527,
         "sig": "major",
+        "tags": [],
         "title": "Huayna Capac Dies, Triggering a Succession Crisis",
-        "body": "Emperor Huayna Capac dies at Quito of a mysterious epidemic, possibly a European disease that outran the Spanish themselves, leaving no clear heir and setting his sons Hu\u00e1scar and Atahualpa on a collision course over the throne.",
+        "body": "Emperor Huayna Capac dies at Quito of a mysterious epidemic, possibly a European disease that outran the Spanish themselves, leaving no clear heir and setting his sons Huáscar and Atahualpa on a collision course over the throne.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Huayna_Capac",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Hp_inka11.jpg/330px-Hp_inka11.jpg",
         "imageAttribution": "Illustration by Felipe Guaman Poma de Ayala, Public domain, via Wikimedia Commons",
@@ -2343,12 +2746,15 @@
       {
         "year": 1532,
         "sig": "minor",
+        "tags": [
+          "battle"
+        ],
         "title": "Atahualpa Wins the Inca Civil War",
-        "body": "At the Battle of Quipaipan near Cusco, Atahualpa's generals crush Hu\u00e1scar's army and capture him, ending years of civil war and leaving Atahualpa in control of the empire just as Spanish forces land on the coast.",
+        "body": "At the Battle of Quipaipan near Cusco, Atahualpa's generals crush Huáscar's army and capture him, ending years of civil war and leaving Atahualpa in control of the empire just as Spanish forces land on the coast.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Inca_Civil_War",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/John_Harris_Valda_-_Huscar_and_Atahualpa_fighting_over_the_Inca_Empire.jpg/330px-John_Harris_Valda_-_Huscar_and_Atahualpa_fighting_over_the_Inca_Empire.jpg",
         "imageAttribution": "Painting by John Harris Valda, Public domain, via Wikimedia Commons",
-        "imageDescription": "A painting depicting the civil war fought between the half-brothers Hu\u00e1scar and Atahualpa over the Inca throne.",
+        "imageDescription": "A painting depicting the civil war fought between the half-brothers Huáscar and Atahualpa over the Inca throne.",
         "wikidataId": "Q1763918",
         "location": {
           "historicalName": "Quipaipan",
@@ -2361,6 +2767,9 @@
       {
         "year": 1532,
         "sig": "major",
+        "tags": [
+          "battle"
+        ],
         "title": "Atahualpa Is Captured at Cajamarca",
         "body": "In the town square of Cajamarca, Francisco Pizarro's small Spanish force ambushes Atahualpa's unarmed escort, massacring thousands and capturing the emperor, exploiting the recent civil war and the shock of Spanish horses and firearms.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Cajamarca",
@@ -2379,8 +2788,9 @@
       {
         "year": 1533,
         "sig": "minor",
+        "tags": [],
         "title": "Atahualpa Is Executed",
-        "body": "Despite paying a legendary ransom in gold and silver for his release, Atahualpa is tried and garroted at Cajamarca on charges including treason and the murder of his brother Hu\u00e1scar, and Spanish forces install a puppet emperor in Cusco.",
+        "body": "Despite paying a legendary ransom in gold and silver for his release, Atahualpa is tried and garroted at Cajamarca on charges including treason and the murder of his brother Huáscar, and Spanish forces install a puppet emperor in Cusco.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Atahualpa",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Luis_Montero_-_The_Funerals_of_Inca_Atahualpa_-_Google_Art_Project.jpg/330px-Luis_Montero_-_The_Funerals_of_Inca_Atahualpa_-_Google_Art_Project.jpg",
         "imageAttribution": "Painting by Luis Montero, Public domain, via Wikimedia Commons",
@@ -2397,6 +2807,11 @@
       {
         "year": 1536,
         "sig": "major",
+        "tags": [
+          "battle",
+          "founding",
+          "rebellion"
+        ],
         "title": "Manco Inca's Rebellion Fails; the Neo-Inca State Is Founded",
         "body": "Manco Inca Yupanqui, installed by the Spanish as a puppet ruler, turns on his overseers and lays a ten-month siege to Cusco; when it fails, he retreats to the remote mountain refuge of Vilcabamba and founds the independent Neo-Inca State.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Siege_of_Cusco",
@@ -2415,12 +2830,16 @@
       {
         "year": 1572,
         "sig": "major",
+        "tags": [
+          "collapse",
+          "battle"
+        ],
         "title": "The Last Inca Stronghold Falls",
-        "body": "Spanish forces capture T\u00fapac Amaru in the forests west of Vilcabamba, march him to Cusco, and publicly behead him before thousands in the central square, ending organized Inca resistance four decades after Pizarro's first landing.",
+        "body": "Spanish forces capture Túpac Amaru in the forests west of Vilcabamba, march him to Cusco, and publicly behead him before thousands in the central square, ending organized Inca resistance four decades after Pizarro's first landing.",
         "sourceUrl": "https://en.wikipedia.org/wiki/T%C3%BApac_Amaru",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/TupacamaruI.JPG/330px-TupacamaruI.JPG",
         "imageAttribution": "Painting by an unidentified Cuzco School painter, Public domain, via Wikimedia Commons",
-        "imageDescription": "A Cuzco School portrait of T\u00fapac Amaru, the last Sapa Inca of the Neo-Inca State.",
+        "imageDescription": "A Cuzco School portrait of Túpac Amaru, the last Sapa Inca of the Neo-Inca State.",
         "wikidataId": "Q296269",
         "location": {
           "historicalName": "Vilcabamba",
@@ -2442,12 +2861,15 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/History_of_Japan",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Daibutsu-den_in_Todaiji_Nara01bs3200.jpg/330px-Daibutsu-den_in_Todaiji_Nara01bs3200.jpg",
     "imageAttribution": "Photo by 663highland, CC BY 2.5, via Wikimedia Commons",
-    "imageDescription": "The Great Buddha Hall of T\u014ddai-ji temple in Nara, one of Japan's most significant early Buddhist temples.",
+    "imageDescription": "The Great Buddha Hall of Tōdai-ji temple in Nara, one of Japan's most significant early Buddhist temples.",
     "wikidataId": "Q130436",
     "events": [
       {
         "year": 300,
         "sig": "major",
+        "tags": [
+          "founding"
+        ],
         "title": "Yamato Polity Unifies the Nara Basin",
         "body": "Chieftains of the Yamato clan consolidate power over the Nara Basin and neighboring regions, founding the imperial line that rules Japan, at least in name, to the present day.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Kofun_period",
@@ -2466,6 +2888,9 @@
       {
         "year": 552,
         "sig": "major",
+        "tags": [
+          "religion"
+        ],
         "title": "Buddhism Arrives from Baekje",
         "body": "King Seong of the Korean kingdom of Baekje sends Emperor Kinmei's court a Buddha image, sutras, and ritual banners, introducing Buddhism to Japan and beginning its long fusion with native Shinto practice.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Buddhism_in_Japan",
@@ -2484,12 +2909,16 @@
       {
         "year": 645,
         "sig": "major",
+        "tags": [
+          "founding",
+          "governance"
+        ],
         "title": "Isshi Incident Triggers the Taika Reform",
-        "body": "Prince Naka no \u014ce and Nakatomi no Kamatari assassinate the powerful minister Soga no Iruka at court, clearing the way for Emperor K\u014dtoku's Taika Reform, which recasts Japan's government along centralized Chinese Tang lines.",
+        "body": "Prince Naka no Ōe and Nakatomi no Kamatari assassinate the powerful minister Soga no Iruka at court, clearing the way for Emperor Kōtoku's Taika Reform, which recasts Japan's government along centralized Chinese Tang lines.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Taika_Reform",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Irukaansatsuzu.jpg/330px-Irukaansatsuzu.jpg",
         "imageAttribution": "Scroll painting by Gukei Sumiyoshi, public domain, via Wikimedia Commons",
-        "imageDescription": "A depiction of the assassination of Soga no Iruka from the T\u014dnomine Engi scroll, painted in the Edo period.",
+        "imageDescription": "A depiction of the assassination of Soga no Iruka from the Tōnomine Engi scroll, painted in the Edo period.",
         "wikidataId": "Q570140",
         "location": {
           "historicalName": "Asuka",
@@ -2502,15 +2931,19 @@
       {
         "year": 794,
         "sig": "major",
-        "title": "Capital Moves to Heian-ky\u014d",
-        "body": "Emperor Kanmu relocates the capital to Heian-ky\u014d, opening the four-century Heian period in which a hereditary court aristocracy presides over a golden age of Japanese literature and art.",
+        "tags": [
+          "founding",
+          "art"
+        ],
+        "title": "Capital Moves to Heian-kyō",
+        "body": "Emperor Kanmu relocates the capital to Heian-kyō, opening the four-century Heian period in which a hereditary court aristocracy presides over a golden age of Japanese literature and art.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Heian_period",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Genji_emaki_TAKEKAWA.jpg/330px-Genji_emaki_TAKEKAWA.jpg",
         "imageAttribution": "Illustrated scroll from The Tale of Genji, Imperial court in Kyoto, public domain, via Wikimedia Commons",
         "imageDescription": "A scene from the illustrated Tale of Genji handscroll (Genji Monogatari Emaki), an early 12th-century work depicting Heian court life.",
         "wikidataId": "Q193292",
         "location": {
-          "historicalName": "Heian-ky\u014d",
+          "historicalName": "Heian-kyō",
           "city": "Kyoto",
           "country": "Japan",
           "latitude": 35.01161,
@@ -2520,6 +2953,9 @@
       {
         "year": 1192,
         "sig": "major",
+        "tags": [
+          "founding"
+        ],
         "title": "Minamoto no Yoritomo Becomes Shogun",
         "body": "Minamoto no Yoritomo receives the title of shogun from the emperor, formalizing the military government he had already built at Kamakura and beginning nearly seven centuries of rule by warrior-class shoguns rather than the imperial court.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Kamakura_shogunate",
@@ -2538,6 +2974,9 @@
       {
         "year": 1281,
         "sig": "major",
+        "tags": [
+          "battle"
+        ],
         "title": "Kamikaze Repel the Second Mongol Invasion",
         "body": "A typhoon destroys Kublai Khan's invasion fleet off Kyushu for the second time in seven years, ending Mongol attempts to conquer Japan and giving rise to the legend of the kamikaze, or \"divine wind.\"",
         "sourceUrl": "https://en.wikipedia.org/wiki/Mongol_invasions_of_Japan",
@@ -2556,15 +2995,19 @@
       {
         "year": 1467,
         "sig": "major",
-        "title": "\u014cnin War Shatters Central Authority",
+        "tags": [
+          "battle",
+          "collapse"
+        ],
+        "title": "Ōnin War Shatters Central Authority",
         "body": "A succession dispute among the shogunate's leading families erupts into a decade of fighting centered on Kyoto, permanently weakening the Ashikaga shogunate and opening the Sengoku, or \"Warring States,\" era of rival regional daimyo.",
         "sourceUrl": "https://en.wikipedia.org/wiki/%C5%8Cnin_War",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Onin-War-1467-1477-The-Battle-of-Onin-by-Utagawa-Yoshitora.png/330px-Onin-War-1467-1477-The-Battle-of-Onin-by-Utagawa-Yoshitora.png",
         "imageAttribution": "Woodblock print by Utagawa Yoshitora, public domain, via Wikimedia Commons",
-        "imageDescription": "The Battle of \u014cnin during the \u014cnin War (1467-1477), depicted by Utagawa Yoshitora.",
+        "imageDescription": "The Battle of Ōnin during the Ōnin War (1467-1477), depicted by Utagawa Yoshitora.",
         "wikidataId": "Q385676",
         "location": {
-          "historicalName": "Heian-ky\u014d",
+          "historicalName": "Heian-kyō",
           "city": "Kyoto",
           "country": "Japan",
           "latitude": 35.01161,
@@ -2574,12 +3017,16 @@
       {
         "year": 1600,
         "sig": "major",
+        "tags": [
+          "battle",
+          "founding"
+        ],
         "title": "Tokugawa Ieyasu Wins at Sekigahara",
         "body": "Tokugawa Ieyasu's Eastern Army crushes the rival Western coalition at Sekigahara, a victory that ends over a century of civil war and, three years later, brings him the title of shogun, founding the Tokugawa shogunate that rules Japan for the next two and a half centuries.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Sekigahara",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Sekigaharascreen.jpg/330px-Sekigaharascreen.jpg",
         "imageAttribution": "Folding screen painting, Collection of the Town of Sekigahara Archive of History and Cultural Anthropology, public domain, via Wikimedia Commons",
-        "imageDescription": "A folding screen (by\u014dbu) depicting the Battle of Sekigahara, based on an early 17th-century original.",
+        "imageDescription": "A folding screen (byōbu) depicting the Battle of Sekigahara, based on an early 17th-century original.",
         "wikidataId": "Q234188",
         "location": {
           "historicalName": "Sekigahara",
@@ -2592,6 +3039,7 @@
       {
         "year": 1853,
         "sig": "major",
+        "tags": [],
         "title": "Commodore Perry Forces Japan Open",
         "body": "US Commodore Matthew Perry sails a squadron of warships into Uraga, forcing the Tokugawa shogunate to abandon over two centuries of sakoku isolation and open Japanese ports to American trade.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Perry_Expedition",
@@ -2610,6 +3058,10 @@
       {
         "year": 1868,
         "sig": "major",
+        "tags": [
+          "collapse",
+          "founding"
+        ],
         "title": "Meiji Restoration Ends the Shogunate",
         "body": "Emperor Meiji is restored to direct political power and the last shogun, Tokugawa Yoshinobu, surrenders his authority, ending nearly 700 years of shogunate rule and launching Japan's rapid modernization.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration",
@@ -2618,7 +3070,7 @@
         "imageDescription": "A portrait of Emperor Meiji by Takahashi Yuichi, held in the Imperial Collection.",
         "wikidataId": "Q8707",
         "location": {
-          "historicalName": "Heian-ky\u014d",
+          "historicalName": "Heian-kyō",
           "city": "Kyoto",
           "country": "Japan",
           "latitude": 35.01161,
@@ -2643,16 +3095,19 @@
       {
         "year": 1299,
         "sig": "major",
+        "tags": [
+          "founding"
+        ],
         "title": "Osman I Founds the Ottoman Beylik",
-        "body": "Osman I, a Turkoman frontier lord ruling from the small Anatolian town of S\u00f6\u011f\u00fct, breaks from Seljuk overlordship and founds the beylik that will grow into the Ottoman Empire.",
+        "body": "Osman I, a Turkoman frontier lord ruling from the small Anatolian town of Söğüt, breaks from Seljuk overlordship and founds the beylik that will grow into the Ottoman Empire.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Osman_I",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/I_Osman.jpg/330px-I_Osman.jpg",
         "imageAttribution": "Ottoman miniature painting, Public domain, via Wikimedia Commons",
         "imageDescription": "An Ottoman miniature portrait of Osman I, founder of the Ottoman Empire.",
         "wikidataId": "Q83100",
         "location": {
-          "historicalName": "S\u00f6\u011f\u00fct",
-          "city": "S\u00f6\u011f\u00fct",
+          "historicalName": "Söğüt",
+          "city": "Söğüt",
           "country": "Turkey",
           "latitude": 40.01861111,
           "longitude": 30.18138889
@@ -2661,6 +3116,10 @@
       {
         "year": 1453,
         "sig": "major",
+        "tags": [
+          "battle",
+          "collapse"
+        ],
         "title": "Mehmed II Conquers Constantinople",
         "body": "Sultan Mehmed II breaches Constantinople's ancient walls after a 53-day siege using massive cannon, ending the Byzantine Empire and transforming Ottoman rule from a regional power into an empire straddling Europe and Asia.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
@@ -2679,6 +3138,9 @@
       {
         "year": 1529,
         "sig": "major",
+        "tags": [
+          "battle"
+        ],
         "title": "Suleiman the Magnificent Besieges Vienna",
         "body": "Suleiman the Magnificent lays siege to the Habsburg capital of Vienna but withdraws after 18 days when rain, dwindling supplies, and the approaching winter make the walls unbreakable in time -- marking the deepest advance of Ottoman power into Central Europe.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Siege_of_Vienna_(1529)",
@@ -2697,6 +3159,9 @@
       {
         "year": 1571,
         "sig": "major",
+        "tags": [
+          "battle"
+        ],
         "title": "The Holy League Destroys the Ottoman Fleet at Lepanto",
         "body": "A Holy League fleet of Spanish, Venetian, and papal galleys crushes the Ottoman navy in the Gulf of Patras, ending decades of unchallenged Ottoman dominance at sea even as the empire rebuilds its fleet within a year.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Lepanto",
@@ -2715,6 +3180,9 @@
       {
         "year": 1683,
         "sig": "major",
+        "tags": [
+          "battle"
+        ],
         "title": "The Ottomans Are Routed at the Battle of Vienna",
         "body": "A relief army led by Polish king John III Sobieski smashes the two-month Ottoman siege of Vienna, halting the empire's westward expansion for good and touching off a sixteen-year war that steadily rolls back Ottoman territory in Europe.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Vienna",
@@ -2733,6 +3201,7 @@
       {
         "year": 1699,
         "sig": "minor",
+        "tags": [],
         "title": "The Treaty of Karlowitz Ends the Great Turkish War",
         "body": "Defeated in the Great Turkish War, the Ottoman Empire signs the Treaty of Karlowitz, ceding Hungary and other territories to the Habsburgs, Podolia to Poland-Lithuania, and Dalmatia and the Morea to Venice in its first major territorial retreat from a coalition of European powers.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Treaty_of_Karlowitz",
@@ -2751,12 +3220,15 @@
       {
         "year": 1839,
         "sig": "major",
-        "title": "The Edict of G\u00fclhane Launches the Tanzimat Reforms",
-        "body": "Sultan Abd\u00fclmecid I proclaims the Edict of G\u00fclhane at Topkap\u0131 Palace, launching the Tanzimat era of reforms that overhaul Ottoman law, education, and taxation in an attempt to modernize the empire and halt its long decline.",
+        "tags": [
+          "governance"
+        ],
+        "title": "The Edict of Gülhane Launches the Tanzimat Reforms",
+        "body": "Sultan Abdülmecid I proclaims the Edict of Gülhane at Topkapı Palace, launching the Tanzimat era of reforms that overhaul Ottoman law, education, and taxation in an attempt to modernize the empire and halt its long decline.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Tanzimat",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Sultan_Abd%C3%BClmecid_I.jpg/330px-Sultan_Abd%C3%BClmecid_I.jpg",
         "imageAttribution": "Painting by David Wilkie, Public domain, via Wikimedia Commons",
-        "imageDescription": "A portrait of Sultan Abd\u00fclmecid I, who proclaimed the Edict of G\u00fclhane.",
+        "imageDescription": "A portrait of Sultan Abdülmecid I, who proclaimed the Edict of Gülhane.",
         "wikidataId": "Q330961",
         "location": {
           "historicalName": "Constantinople",
@@ -2769,6 +3241,10 @@
       {
         "year": 1908,
         "sig": "minor",
+        "tags": [
+          "governance",
+          "rebellion"
+        ],
         "title": "The Young Turk Revolution Restores the Constitution",
         "body": "Army officers of the Committee of Union and Progress rise up in Ottoman Macedonia and force Sultan Abdul Hamid II to restore the suspended 1876 constitution, ending three decades of autocratic rule and opening the empire's final constitutional era.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Young_Turk_Revolution",
@@ -2787,12 +3263,15 @@
       {
         "year": 1922,
         "sig": "major",
+        "tags": [
+          "collapse"
+        ],
         "title": "The Grand National Assembly Abolishes the Sultanate",
         "body": "The Grand National Assembly in Ankara abolishes the Ottoman sultanate, stripping Sultan Mehmed VI of political power and formally ending over six centuries of Ottoman rule as the last sultan departs Constantinople into exile.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Abolition_of_the_Ottoman_sultanate",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Sultanvahideddin.jpg/330px-Sultanvahideddin.jpg",
         "imageAttribution": "Public domain, via Wikimedia Commons",
-        "imageDescription": "Sultan Mehmed VI departing Dolmabah\u00e7e Palace shortly before his exile in November 1922.",
+        "imageDescription": "Sultan Mehmed VI departing Dolmabahçe Palace shortly before his exile in November 1922.",
         "wikidataId": "Q3809270",
         "location": {
           "historicalName": "Constantinople",
@@ -2820,6 +3299,9 @@
       {
         "year": 793,
         "sig": "major",
+        "tags": [
+          "battle"
+        ],
         "title": "Vikings Raid the Monastery at Lindisfarne",
         "body": "Norse raiders sack the undefended monastery on the island of Lindisfarne, killing and enslaving monks and looting its treasures. The attack shocks Christian Europe and is conventionally treated as the opening event of the Viking Age.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Viking_raid_on_Lindisfarne",
@@ -2838,6 +3320,9 @@
       {
         "year": 841,
         "sig": "minor",
+        "tags": [
+          "founding"
+        ],
         "title": "Vikings Found a Longphort at Dublin",
         "body": "Norse raiders establish a fortified base, a longphort, on the River Liffey, giving them a permanent foothold in Ireland for the first time. The camp grows into Dublin, which becomes the leading Norse settlement in Ireland.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Dublin",
@@ -2856,11 +3341,14 @@
       {
         "year": 862,
         "sig": "major",
+        "tags": [
+          "founding"
+        ],
         "title": "Rurik Founds the Rus' State at Novgorod",
         "body": "The Varangian chieftain Rurik is invited to rule at Novgorod, founding the line of princes later credited with establishing the Rus' state. His successors carry the dynasty south to Kiev, laying the groundwork for medieval Russia and Ukraine.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Rurik",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/1000_Rurik.JPG/330px-1000_Rurik.JPG",
-        "imageAttribution": "Photo by \u0414\u0430\u0440 \u0412\u0435\u0442\u0435\u0440, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageAttribution": "Photo by Дар Ветер, CC BY-SA 3.0, via Wikimedia Commons",
         "imageDescription": "Rurik depicted on the Millennium of Russia monument in Veliky Novgorod.",
         "wikidataId": "Q7990",
         "location": {
@@ -2874,6 +3362,9 @@
       {
         "year": 865,
         "sig": "major",
+        "tags": [
+          "battle"
+        ],
         "title": "The Great Heathen Army Invades England",
         "body": "A large coalition of Scandinavian warriors lands in East Anglia and begins a sustained campaign of conquest, unlike the earlier hit-and-run raids. Within a decade it topples three of England's four Anglo-Saxon kingdoms and carves out the Danelaw.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Great_Heathen_Army",
@@ -2885,6 +3376,10 @@
       {
         "year": 872,
         "sig": "major",
+        "tags": [
+          "founding",
+          "battle"
+        ],
         "title": "Harald Fairhair Unifies Norway at Hafrsfjord",
         "body": "Harald defeats a coalition of rival chieftains at the Battle of Hafrsfjord near Stavanger, becoming the first king to rule all of Norway. Tradition holds that many defeated chieftains flee overseas, fueling the settlement of Iceland.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Hafrsfjord",
@@ -2903,16 +3398,19 @@
       {
         "year": 874,
         "sig": "minor",
-        "title": "Ing\u00f3lfr Arnarson Settles Iceland",
-        "body": "Ing\u00f3lfr Arnarson establishes the first permanent Norse settlement at Reykjav\u00edk, traditionally marking the start of Iceland's Age of Settlement. Within decades the island holds a Norse population governed by its own assembly, the Althing.",
+        "tags": [
+          "founding"
+        ],
+        "title": "Ingólfr Arnarson Settles Iceland",
+        "body": "Ingólfr Arnarson establishes the first permanent Norse settlement at Reykjavík, traditionally marking the start of Iceland's Age of Settlement. Within decades the island holds a Norse population governed by its own assembly, the Althing.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Settlement_of_Iceland",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/The_Norwegians_land_in_Iceland_year_872.jpg/330px-The_Norwegians_land_in_Iceland_year_872.jpg",
         "imageAttribution": "Painting by Oscar Wergeland, public domain, via Wikimedia Commons",
         "imageDescription": "A 19th-century painting imagining Norse settlers landing in Iceland.",
         "wikidataId": "Q2725768",
         "location": {
-          "historicalName": "Reykjarv\u00edk",
-          "city": "Reykjav\u00edk",
+          "historicalName": "Reykjarvík",
+          "city": "Reykjavík",
           "country": "Iceland",
           "latitude": 64.14583333,
           "longitude": -21.9425
@@ -2921,6 +3419,9 @@
       {
         "year": 911,
         "sig": "major",
+        "tags": [
+          "founding"
+        ],
         "title": "Rollo Founds the Duchy of Normandy",
         "body": "The West Frankish king cedes land around Rouen to the Viking leader Rollo in exchange for peace and nominal loyalty, founding the Duchy of Normandy. Rollo's Norse followers intermarry with the local population, and his descendants later conquer England as Normans.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Rollo",
@@ -2939,6 +3440,9 @@
       {
         "year": 965,
         "sig": "major",
+        "tags": [
+          "religion"
+        ],
         "title": "Harald Bluetooth Christianizes Denmark",
         "body": "King Harald Gormsson raises a runestone at Jelling proclaiming that he made the Danes Christian, formally converting his kingdom. The stone becomes an enduring symbol of Denmark's unification and religious transformation.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Harald_Bluetooth",
@@ -2957,6 +3461,7 @@
       {
         "year": 1000,
         "sig": "major",
+        "tags": [],
         "title": "Leif Erikson Reaches Vinland",
         "body": "Sailing west from Greenland, Leif Erikson becomes the first European known to reach North America, naming the land Vinland. A Norse camp excavated at L'Anse aux Meadows in Newfoundland, with wood tree-ring dated to the early 11th century, confirms Norse presence in the region.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Leif_Erikson",
@@ -2975,6 +3480,10 @@
       {
         "year": 1016,
         "sig": "major",
+        "tags": [
+          "battle",
+          "founding"
+        ],
         "title": "Cnut Becomes King of England",
         "body": "After defeating Edmund Ironside's army at the Battle of Assandun, Cnut is accepted as king of all England following Edmund's death weeks later. He goes on to rule Denmark and Norway as well, forging the short-lived North Sea Empire.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Cnut",
@@ -2993,6 +3502,10 @@
       {
         "year": 1066,
         "sig": "major",
+        "tags": [
+          "battle",
+          "collapse"
+        ],
         "title": "The Battle of Stamford Bridge Ends the Viking Age",
         "body": "King Harold Godwinson's army destroys an invading Norwegian force, killing King Harald Hardrada in the fighting. The defeat ends serious Scandinavian ambitions to conquer England and is conventionally treated as the close of the Viking Age.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Stamford_Bridge",
@@ -3026,6 +3539,10 @@
       {
         "year": 1526,
         "sig": "major",
+        "tags": [
+          "founding",
+          "battle"
+        ],
         "title": "Babur Founds the Mughal Empire at Panipat",
         "body": "Babur, a Timurid prince from Central Asia, defeats the Delhi Sultanate's Ibrahim Lodi at the First Battle of Panipat using cannon and matchlock muskets that Indian armies haven't yet faced, then takes Delhi and Agra to found the Mughal Empire.",
         "sourceUrl": "https://en.wikipedia.org/wiki/First_Battle_of_Panipat",
@@ -3044,6 +3561,9 @@
       {
         "year": 1540,
         "sig": "major",
+        "tags": [
+          "battle"
+        ],
         "title": "Sher Shah Suri Defeats Humayun, Launching the Sur Interregnum",
         "body": "Sher Shah Suri, an Afghan noble turned rebel, crushes Babur's son and successor Humayun at the Battle of Kannauj, driving him into 15 years of exile in Persia and replacing Mughal rule in Delhi with his own Sur Empire.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Kannauj",
@@ -3062,6 +3582,10 @@
       {
         "year": 1556,
         "sig": "major",
+        "tags": [
+          "battle",
+          "founding"
+        ],
         "title": "Akbar Wins the Second Battle of Panipat, Restoring Mughal Rule",
         "body": "A year after Humayun reclaims Delhi with Safavid Persian help and then dies in a fall, his 13-year-old son Akbar, guided by regent Bairam Khan, defeats the Hindu king Hemu at the Second Battle of Panipat, securing the throne and opening a 50-year reign that consolidates Mughal control over most of the subcontinent.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Second_Battle_of_Panipat",
@@ -3080,6 +3604,9 @@
       {
         "year": 1582,
         "sig": "minor",
+        "tags": [
+          "religion"
+        ],
         "title": "Akbar Promulgates the Din-i-Ilahi",
         "body": "At the height of his power, Akbar introduces the Din-i-Ilahi, a syncretic court order blending elements of Islam, Hinduism, Zoroastrianism, and Christianity, reflecting his broader policy of religious tolerance toward an empire whose subjects are overwhelmingly non-Muslim.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Din-i_Ilahi",
@@ -3098,6 +3625,7 @@
       {
         "year": 1615,
         "sig": "minor",
+        "tags": [],
         "title": "Thomas Roe's Embassy Gives the English a Foothold at Surat",
         "body": "English ambassador Sir Thomas Roe arrives at Jahangir's court, where he spends three years failing to win major trading privileges but does secure permission for an East India Company factory at Surat -- the toehold from which British commercial presence in India eventually grows.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Thomas_Roe",
@@ -3116,6 +3644,10 @@
       {
         "year": 1632,
         "sig": "major",
+        "tags": [
+          "architecture",
+          "art"
+        ],
         "title": "Shah Jahan Commissions the Taj Mahal",
         "body": "Grieving the death of his wife Mumtaz Mahal, Shah Jahan commissions an ivory-white marble mausoleum at Agra; the main structure is finished by 1648 and the surrounding complex by 1653, becoming the signature monument of the empire's cultural peak.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Taj_Mahal",
@@ -3134,6 +3666,9 @@
       {
         "year": 1687,
         "sig": "major",
+        "tags": [
+          "battle"
+        ],
         "title": "Aurangzeb Conquers Golconda, the Empire Reaches Its Greatest Extent",
         "body": "After an eight-month siege, Aurangzeb's army takes the fortress of Golconda from the Qutb Shahi dynasty, completing his conquest of the last independent Deccan sultanates -- Bijapur fell the year before -- and pushing Mughal borders across nearly the entire Indian subcontinent, the empire's largest territorial extent.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Siege_of_Golconda",
@@ -3152,6 +3687,9 @@
       {
         "year": 1739,
         "sig": "major",
+        "tags": [
+          "battle"
+        ],
         "title": "Nader Shah Sacks Delhi",
         "body": "The Persian conqueror Nader Shah crushes a much larger Mughal army and occupies Delhi, carrying off the imperial treasury including the jewel-encrusted Peacock Throne -- a blow so severe the empire never fully recovers its former wealth or authority.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Nader_Shah's_invasion_of_India",
@@ -3170,6 +3708,9 @@
       {
         "year": 1757,
         "sig": "major",
+        "tags": [
+          "battle"
+        ],
         "title": "The British Win Bengal at the Battle of Plassey",
         "body": "Robert Clive's East India Company force defeats the Nawab of Bengal after bribing his own commander into betrayal, giving the Company effective control of the empire's richest province and marking the start of British political dominance in India.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Plassey",
@@ -3188,6 +3729,11 @@
       {
         "year": 1857,
         "sig": "major",
+        "tags": [
+          "battle",
+          "collapse",
+          "rebellion"
+        ],
         "title": "The Mughal Empire Ends With the 1857 Rebellion",
         "body": "Indian soldiers rebelling against East India Company rule proclaim the aged Bahadur Shah II their symbolic leader in Delhi; after crushing the rebellion the British capture and depose him, later trying and exiling him to Rangoon, ending 331 years of Mughal dynastic rule.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Bahadur_Shah_Zafar",

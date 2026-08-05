@@ -826,6 +826,11 @@ button:focus-visible,
   flex-wrap: wrap;
   gap: 10px;
 }
+.detail-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
 .detail-tag {
   font-size: 11px;
   padding: 5px 10px;

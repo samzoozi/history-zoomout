@@ -26,6 +26,7 @@ class EventOut(BaseModel):
     sig: str
     title: str
     body: str
+    tags: list[str] = Field(default_factory=list)
     source_url: str | None = Field(default=None, serialization_alias="sourceUrl")
     image_url: str | None = Field(default=None, serialization_alias="imageUrl")
     image_attribution: str | None = Field(

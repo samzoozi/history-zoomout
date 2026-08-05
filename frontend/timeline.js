@@ -413,7 +413,14 @@
     document.getElementById("detailDate").textContent = "· " + yearLabel(ev.year);
     document.getElementById("detailTitle").textContent = ev.title;
     document.getElementById("detailBody").textContent = ev.body;
-    document.getElementById("detailTag").textContent = ev.sig === "major" ? "Major event" : "Related event";
+    var tagsContainer = document.getElementById("detailTags");
+    tagsContainer.innerHTML = "";
+    (ev.tags || []).forEach(function (tag) {
+      var tagEl = document.createElement("span");
+      tagEl.className = "detail-tag";
+      tagEl.textContent = tag.charAt(0).toUpperCase() + tag.slice(1);
+      tagsContainer.appendChild(tagEl);
+    });
 
     var figure = document.getElementById("detailFigure");
     if (ev.imageUrl) {

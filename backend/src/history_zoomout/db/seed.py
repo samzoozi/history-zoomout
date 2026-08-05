@@ -63,6 +63,7 @@ def seed() -> None:
                                 sig=ev["sig"],
                                 title=ev["title"],
                                 body=ev["body"],
+                                tags=ev.get("tags", []),
                                 source_url=ev.get("sourceUrl"),
                                 image_url=ev.get("imageUrl"),
                                 image_attribution=ev.get("imageAttribution"),
