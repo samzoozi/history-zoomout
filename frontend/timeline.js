@@ -84,7 +84,7 @@
     return ticks;
   }
 
-  var state = { sig: "all", zoom: 1, selectedTopics: null };
+  var state = { tags: new Set(), zoom: 1, selectedTopics: null };
 
   var lanesEl = document.getElementById("lanes");
   var axisTrack = document.getElementById("axisTrack");
@@ -106,6 +106,11 @@
   // once renderNavList builds that section.
   var topicFilterList = null;
   var topicFilterCountEl = null;
+  var tagFilterToggle = document.getElementById("tagFilterToggle");
+  var tagFilterPanel = document.getElementById("tagFilterPanel");
+  var tagFilterList = document.getElementById("tagFilterList");
+  var tagFilterLabelEl = document.getElementById("tagFilterLabel");
+  var tagFilterClearBtn = document.getElementById("tagFilterClearBtn");
   var navToggle = document.getElementById("navToggle");
   var navScrim = document.getElementById("navScrim");
   var navDrawer = document.getElementById("navDrawer");
@@ -214,7 +219,7 @@
       // push later markers apart just enough to keep a minimum gap, rather
       // than rendering them at their literal (possibly identical) pixel position.
       var positioned = topic.events
-        .filter(function (ev) { return !(state.sig === "major" && ev.sig !== "major"); })
+        .filter(function (ev) { return state.tags.size === 0 || (ev.tags || []).some(function (t) { return state.tags.has(t); }); })
         .map(function (ev) { return { ev: ev, x: yearToX(ev.year) }; })
         .sort(function (a, b) { return a.x - b.x; });
       for (var i = 1; i < positioned.length; i++) {
@@ -282,6 +287,79 @@
     });
     updateTopicFilterCount();
   }
+
+  function updateTagFilterLabel() {
+    tagFilterLabelEl.textContent = state.tags.size === 0 ? "Tags" : "Tags (" + state.tags.size + ")";
+  }
+
+  // Tags are whatever the loaded events actually carry (not a fixed list),
+  // so a future category with a different tag vocabulary just works.
+  function buildTagFilter() {
+    var allTags = new Set();
+    TOPICS.forEach(function (topic) {
+      topic.events.forEach(function (ev) {
+        (ev.tags || []).forEach(function (t) { allTags.add(t); });
+      });
+    });
+
+    tagFilterList.innerHTML = "";
+    Array.from(allTags).sort().forEach(function (tag) {
+      var item = document.createElement("label");
+      item.className = "topic-filter-item";
+
+      var checkbox = document.createElement("input");
+      checkbox.type = "checkbox";
+      checkbox.addEventListener("change", function () {
+        if (checkbox.checked) {
+          state.tags.add(tag);
+        } else {
+          state.tags.delete(tag);
+        }
+        updateTagFilterLabel();
+        renderLanes();
+      });
+
+      var name = document.createElement("span");
+      name.textContent = tag.charAt(0).toUpperCase() + tag.slice(1);
+
+      item.appendChild(checkbox);
+      item.appendChild(name);
+      tagFilterList.appendChild(item);
+    });
+
+    updateTagFilterLabel();
+  }
+
+  function openTagFilter() {
+    tagFilterPanel.hidden = false;
+    tagFilterToggle.setAttribute("aria-expanded", "true");
+  }
+  function closeTagFilter() {
+    tagFilterPanel.hidden = true;
+    tagFilterToggle.setAttribute("aria-expanded", "false");
+  }
+
+  tagFilterToggle.addEventListener("click", function (e) {
+    e.stopPropagation();
+    if (tagFilterPanel.hidden) openTagFilter(); else closeTagFilter();
+  });
+
+  tagFilterClearBtn.addEventListener("click", function () {
+    state.tags.clear();
+    tagFilterList.querySelectorAll("input[type=checkbox]").forEach(function (cb) { cb.checked = false; });
+    updateTagFilterLabel();
+    renderLanes();
+  });
+
+  document.addEventListener("click", function (e) {
+    if (tagFilterPanel.hidden) return;
+    if (e.target.closest(".tag-filter")) return;
+    closeTagFilter();
+  });
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && !tagFilterPanel.hidden) closeTagFilter();
+  });
 
   // The nav drawer is the single place to browse: each category is a row,
   // and the current category's row expands in place to show its topic
@@ -548,11 +626,6 @@
     closeDetailPanel();
   });
 
-  document.getElementById("landmarksToggle").addEventListener("change", function (e) {
-    state.sig = e.target.checked ? "major" : "all";
-    render();
-  });
-
   zoomInput.addEventListener("input", function () {
     state.zoom = parseFloat(zoomInput.value);
     updateZoomReadout();
@@ -719,6 +792,7 @@
     fitDomainToData();
     state.selectedTopics = new Set(TOPICS.map(function (t) { return t.id; }));
     buildTopicFilter();
+    buildTagFilter();
     render();
     loadWorldMap();
 
