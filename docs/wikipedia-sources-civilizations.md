@@ -333,6 +333,93 @@ Alexander's conquest founding the Ptolemaic period.
   (the Wikidata ID present is for the disambiguation page, not a specific battle item) —
   left `wikidataId` null rather than pointing at the wrong item.
 
+### Tag-focused enrichment — 2026-08-05
+
+Status: **merged into live seed data 2026-08-05** (replaced the `egypt` entry in
+`civilizations.json` wholesale, going from 10 to 26 events) and reseeded.
+
+Before this pass Egypt's 10 events carried zero `art`, `science`, `governance`, or
+`rebellion` tags, and only 2 `architecture` / 1 `religion` — everything clustered on
+`battle`/`founding`/`collapse`. Also fixed the underlying `data/wikipedia-data` file,
+which predated the tags field entirely (the live seed data had tags, this file didn't);
+synced tags onto the original 10 events from the merged seed data before appending the
+16 new ones below.
+
+Targeted all four zero-coverage tags plus bolstered `architecture`/`religion`, spanning
+Old Kingdom through Ptolemaic. Post-enrichment tally (26 events): battle 7, founding 5,
+collapse 4, architecture 4, religion 4, rebellion 4, governance 4, art 3, science 3.
+
+#### Event-level sources (16 new events)
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| Old Kingdom collapses into rival dynasties | c. 2181 BC | [First Intermediate Period of Egypt](https://en.wikipedia.org/wiki/First_Intermediate_Period_of_Egypt) | Q232211 | British Museum, CC BY-SA 4.0 |
+| Story of Sinuhe composed | c. 1971 BC | [Story of Sinuhe](https://en.wikipedia.org/wiki/Story_of_Sinuhe) | Q645904 | Olaf Tausch, CC BY 3.0 |
+| Senusret I founds Karnak | c. 1950 BC | [Karnak](https://en.wikipedia.org/wiki/Karnak) | Q522862 | Francis Frith, 1857, public domain (Rijksmuseum) |
+| Senusret III abolishes the nomarch system | c. 1850 BC | [Senusret III](https://en.wikipedia.org/wiki/Senusret_III) | Q19248 | ArchaiOptix, CC BY-SA 4.0 |
+| Edwin Smith Papyrus copied | c. 1600 BC | [Edwin Smith Papyrus](https://en.wikipedia.org/wiki/Edwin_Smith_Papyrus) | Q842363 | Public domain |
+| Seqenenre Tao rebels against the Hyksos | c. 1558 BC | [Seqenenre Tao](https://en.wikipedia.org/wiki/Seqenenre_Tao) | Q31526 | Flinders Petrie, public domain |
+| Nefertiti Bust sculpted | c. 1345 BC | [Nefertiti Bust](https://en.wikipedia.org/wiki/Nefertiti_Bust) | Q582172 | Philip Pikart, CC BY-SA 3.0 |
+| Tutankhamun restores traditional religion | c. 1330 BC | [Tutankhamun](https://en.wikipedia.org/wiki/Tutankhamun) | Q12154 | Roland Unger, public domain |
+| First recorded labor strike (Deir el-Medina) | c. 1156 BC | [Ramesses III](https://en.wikipedia.org/wiki/Ramesses_III) | Q1528 | Diego Delso, CC BY-SA 4.0 |
+| Psamtik I's artistic archaism | c. 650 BC | [Psamtik I](https://en.wikipedia.org/wiki/Psamtik_I) | Q328763 | CC0 (Metropolitan Museum of Art) |
+| Necho II's canal and circumnavigation | c. 609 BC | [Necho II](https://en.wikipedia.org/wiki/Necho_II) | Q125102 | Keith Schengili-Roberts, CC BY 2.5 |
+| Amyrtaeus ends Persian rule | 404 BC | [Amyrtaeus](https://en.wikipedia.org/wiki/Amyrtaeus) | Q318000 | Public domain |
+| Ptolemy I promotes the cult of Serapis | c. 286 BC | [Serapis](https://en.wikipedia.org/wiki/Serapis) | Q214554 | Public domain |
+| Library of Alexandria takes shape | c. 283 BC | [Library of Alexandria](https://en.wikipedia.org/wiki/Library_of_Alexandria) | Q435 | O. Von Corven, public domain |
+| Lighthouse of Alexandria completed | c. 280 BC | [Lighthouse of Alexandria](https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria) | Q43244 | Hermann Thiersch, 1909, public domain |
+| Rosetta Stone decree issued | 196 BC | [Rosetta Stone](https://en.wikipedia.org/wiki/Rosetta_Stone) | Q48584 | Hans Hillewaert, CC BY-SA 4.0 |
+
+#### New event locations
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Old Kingdom collapses | Herakleopolis Magna | Ihnasya el-Medina, Egypt | *(none found)* |
+| Senusret I founds Karnak | Ipet-Isut | Luxor, Egypt | 25.718, 32.658 |
+| Seqenenre Tao rebels | Thebes | Luxor, Egypt | 25.721, 32.610 |
+| Nefertiti Bust sculpted | Akhetaten | Amarna, Egypt | 27.645, 30.896 |
+| Tutankhamun restores religion | Thebes | Luxor, Egypt | 25.721, 32.610 |
+| Deir el-Medina strike | Set Maat | Deir el-Medina, Egypt | 25.728, 32.601 |
+| Amyrtaeus ends Persian rule | Sais | Sa el-Hagar, Egypt | 30.965, 30.768 |
+| Serapis cult promoted | Alexandria | Alexandria, Egypt | 31.198, 29.893 |
+| Library of Alexandria | Alexandria | Alexandria, Egypt | 31.198, 29.893 |
+| Lighthouse of Alexandria | Pharos | Alexandria, Egypt | 31.198, 29.893 |
+| Rosetta Stone decree | Memphis | Mit Rahina, Egypt | 29.849, 31.255 |
+
+Story of Sinuhe, Senusret III's reform, the Edwin Smith Papyrus, Necho II's canal, and
+Psamtik I's archaism have no natural single place (a literary work, an administrative
+reform, an artifact of uncertain origin, an incomplete route project, and a reign-long
+style trend, respectively) — `location` omitted rather than guessed.
+
+#### Corrections / decisions made in this pass
+
+- **Senusret III's nomarch reform**: the `Senusret_III` article itself only says his reign
+  "reduced the power of regional rulers" without mechanism or date; the specific fact
+  (replacing the nome system with three large administrative districts) came from the
+  `Twelfth_Dynasty_of_Egypt` article instead. Kept `sourceUrl` pointing at the person
+  article (matches the `wikidataId`) since that's the event's subject, but the
+  corroborating detail lives on the dynasty page.
+- **Psamtik I's archaism** dated to c. 650 BC as a reign-spanning cultural trend rather
+  than his 664 BC accession, to avoid clustering it on the same year as the 26th
+  Dynasty's founding (already implicit via the Amyrtaeus/Necho events bracketing it).
+  Considered a dedicated "Saite Renaissance" art event first, but couldn't verify it on
+  Wikipedia (`Twenty-sixth_Dynasty_of_Egypt`, `Late_Period_of_ancient_Egypt`, and
+  `Saite_period` — the last returned a 404 — none discuss an artistic revival); used
+  Psamtik I's colossal-statue archaism instead, which the `Psamtik_I` article does
+  document concretely.
+- **Library of Alexandria / Museum founding year**: genuinely disputed on Wikipedia
+  itself — traditionally credited to Ptolemy I, but `Musaeum` says it "more likely...
+  took shape under Ptolemy II." Used 283 BC (Ptolemy I's death / Ptolemy II's sole reign
+  beginning) as a reasonable anchor for "takes shape" rather than picking a side.
+- **Serapis cult founding year**: Wikipedia only gives "third century BC" / "on the
+  orders of" Ptolemy I, no specific year — used c. 286 BC, within Ptolemy I's later
+  reign, as an approximate placeholder rather than invented precision.
+- Cross-checked the "first labor strike" framing against the `Deir_el-Medina` article
+  (which hedges with "may have been") and the `Ramesses_III` article (which states it
+  more directly as "the first known labour strike in recorded history") — used the
+  latter's framing and cited it as `sourceUrl` since it also had the firm Year
+  29/c. 1156 BC date the `Deir_el-Medina` article lacked.
+
 ## Greece (topic id: `greece`) — pulled 2026-08-02
 
 Status: **merged into live seed data 2026-08-02** (replacing the old 5-event entry wholesale) and reseeded.
