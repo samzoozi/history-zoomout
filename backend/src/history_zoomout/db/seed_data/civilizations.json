@@ -1015,7 +1015,7 @@
       },
       {
         "year": -509,
-        "sig": "minor",
+        "sig": "major",
         "tags": [
           "founding",
           "governance",
@@ -1059,7 +1059,7 @@
       },
       {
         "year": -387,
-        "sig": "major",
+        "sig": "minor",
         "tags": [
           "battle"
         ],
@@ -1286,7 +1286,7 @@
       },
       {
         "year": 212,
-        "sig": "major",
+        "sig": "minor",
         "tags": [
           "governance"
         ],
@@ -1300,7 +1300,7 @@
       },
       {
         "year": 293,
-        "sig": "minor",
+        "sig": "major",
         "tags": [
           "founding",
           "governance"
@@ -1446,7 +1446,7 @@
       },
       {
         "year": -539,
-        "sig": "minor",
+        "sig": "major",
         "title": "Cyrus Conquers Babylon, Frees the Jewish Captives",
         "body": "Cyrus captures Babylon and issues the Cyrus Cylinder, a declaration recording his restoration of displaced peoples and local temples — including freeing the Jewish captives held there since the Babylonian conquest of Jerusalem.",
         "tags": [
@@ -1717,7 +1717,7 @@
       },
       {
         "year": 224,
-        "sig": "minor",
+        "sig": "major",
         "title": "The Sasanian Dynasty Rises",
         "body": "Ardashir I defeats the last Parthian king and founds a new Persian empire under the House of Sasan, which will rival Rome and later Byzantium for over four centuries.",
         "tags": [
@@ -1839,7 +1839,7 @@
       },
       {
         "year": 540,
-        "sig": "major",
+        "sig": "minor",
         "title": "Khosrow I Builds the Grand Arch at Ctesiphon",
         "body": "Khosrow I raises a vast brick vault at Ctesiphon, the Sasanian capital, as part of a palace complex whose archway becomes the largest free-standing vault built before the modern era, engineered without supporting scaffolding through angled courses of brick.",
         "tags": [

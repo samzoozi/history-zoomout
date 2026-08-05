@@ -253,6 +253,29 @@ Notes and judgment calls:
   and only foundings/falls/major battles are `major` — not because the events are
   individually less significant.
 
+### `sig` re-review — 2026-08-05
+
+Applied the same stricter bar used for Greece's and Rome's re-reviews (would a
+history-literate reader recognize this event by name as pivotal) across all 26 Persia
+events. Three changed:
+
+- **Upgraded** "Cyrus Conquers Babylon, Frees the Jewish Captives" (539 BC) from `minor`
+  to `major` -- one of the most widely cited events of the ancient Near East (the Cyrus
+  Cylinder, and Cyrus's role in the biblical account of the Jewish return from exile in
+  Ezra and Isaiah); under-rated relative to how broadly it's recognized outside
+  specialist ancient-history circles.
+- **Upgraded** "The Sasanian Dynasty Rises" (224 AD) from `minor` to `major` -- this is
+  the founding of the Sasanian Empire (Ardashir I's overthrow of the Parthians), and
+  founding-tier events are treated as `major` elsewhere in this dataset (Cyrus's
+  founding, the Parthian Empire's founding); it was inconsistent for this one alone to
+  sit at `minor`.
+- **Downgraded** "Khosrow I Builds the Grand Arch at Ctesiphon" (540 AD) from `major` to
+  `minor` -- a genuinely famous monument (Taq Kasra), but per the same "construction is
+  supporting detail, not a remembered turning point" logic applied to the Parthenon in
+  Greece and the Colosseum/Pantheon in Rome.
+
+Net effect: 9 major / 17 minor → 10 major / 16 minor.
+
 ## Egypt (topic id: `egypt`) — pulled 2026-08-02
 
 Status: **merged into live seed data 2026-08-02** (replacing the old 5-event entry wholesale) and reseeded.
@@ -565,6 +588,35 @@ Notes and judgment calls:
   tags on events outside this enrichment's target list wasn't part of the ask; flagging
   here in case a future pass wants to pick it up (`rebellion` would fit, as an elite
   succession crisis rather than a mass uprising).
+
+### `sig` re-review — 2026-08-05
+
+Applied the same stricter bar used for Greece's re-review (would a history-literate
+reader recognize this event by name as pivotal, not just "it supports the narrative")
+across all 20 Rome events, in both directions -- correcting under-rated events, not just
+over-rated ones. Four changed:
+
+- **Upgraded** "The Roman Republic Is Established" (509 BC) from `minor` to `major` --
+  the overthrow of the monarchy and founding of the Republic is at least as widely
+  recognized as any other founding-tier event in this dataset (on par with "Cyrus founds
+  the Achaemenid Empire" or "Augustus becomes Rome's first emperor"), and was originally
+  under-rated relative to its actual fame.
+- **Upgraded** "Diocletian Splits the Empire Into the Tetrarchy" (293 AD) from `minor` to
+  `major` -- this is the standard textbook origin of the later East/West Roman Empire
+  split, a genuinely recognized turning point, not merely an administrative detail.
+- **Downgraded** "Gauls Rout Rome at the Allia" (387 BC) from `major` to `minor` -- known
+  to Roman historians (dies Alliensis) but not a name a general history-literate reader
+  would recognize, unlike the Gallic sack of Rome it enabled.
+- **Downgraded** "Caracalla Grants Citizenship to All Free Subjects" (212 AD) from
+  `major` to `minor` -- a genuinely important legal reform, but specialist-level
+  administrative history rather than a widely-remembered landmark, consistent with how
+  Solon's reforms were treated in Greece's re-review.
+
+Net effect: still 13 major / 7 minor overall, but with a more defensible composition.
+"The Colosseum Opens" and "Hadrian Rebuilds the Pantheon" were considered for upgrade
+(both are famous landmarks) but kept `minor`, consistent with the Parthenon precedent in
+Greece -- a monument's fame doesn't make "construction began/was rebuilt in year X" a
+remembered turning point in the way a battle or founding is.
 
 ## Mesopotamia (topic id: `mesopotamia`) — pulled 2026-08-03
 
