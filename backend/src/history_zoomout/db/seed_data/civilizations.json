@@ -15,11 +15,11 @@
       {
         "year": -3200,
         "sig": "major",
+        "title": "Cuneiform Emerges at Uruk",
+        "body": "The world's earliest writing system develops from clay tokens used to record grain and livestock at the city of Uruk, becoming the first script for recording language and law.",
         "tags": [
           "science"
         ],
-        "title": "Cuneiform Emerges at Uruk",
-        "body": "The world's earliest writing system develops from clay tokens used to record grain and livestock at the city of Uruk, becoming the first script for recording language and law.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Cuneiform",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Xerxes_Cuneiform_Van.JPG/330px-Xerxes_Cuneiform_Van.JPG",
         "imageAttribution": "Photo by Bjørn Christian Tørrissen, CC BY-SA 3.0, via Wikimedia Commons",
@@ -36,12 +36,12 @@
       {
         "year": -2334,
         "sig": "minor",
+        "title": "Sargon Founds the Akkadian Empire",
+        "body": "Sargon of Akkad conquers the Sumerian city-states and unites them under a single ruler, creating what many historians consider the world's first empire.",
         "tags": [
           "founding",
           "battle"
         ],
-        "title": "Sargon Founds the Akkadian Empire",
-        "body": "Sargon of Akkad conquers the Sumerian city-states and unites them under a single ruler, creating what many historians consider the world's first empire.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Sargon_of_Akkad",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Sargon_of_Akkad_on_his_victory_stele.jpg/330px-Sargon_of_Akkad_on_his_victory_stele.jpg",
         "imageAttribution": "Photo by ALFGRN, CC BY-SA 2.0, via Wikimedia Commons",
@@ -56,14 +56,58 @@
         }
       },
       {
+        "year": -2285,
+        "sig": "minor",
+        "title": "Enheduanna Composes Sacred Hymns",
+        "body": "Enheduanna, high priestess of the moon god Nanna at Ur and daughter of Sargon of Akkad, writes hymns to the goddess Inanna that scribes keep copying for centuries, making her the first author in world history known by name.",
+        "tags": [
+          "art",
+          "religion"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Enheduanna",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Enheduanna%2C_daughter_of_Sargon_of_Akkad.jpg/330px-Enheduanna%2C_daughter_of_Sargon_of_Akkad.jpg",
+        "imageAttribution": "Photo by Mefman00, CC0, via Wikimedia Commons",
+        "imageDescription": "The alabaster Disk of Enheduanna, showing her performing a religious libation ceremony.",
+        "wikidataId": "Q232505",
+        "location": {
+          "historicalName": "Ur",
+          "city": "Nasiriyah",
+          "country": "Iraq",
+          "latitude": 30.9616529,
+          "longitude": 46.1051259
+        }
+      },
+      {
+        "year": -2154,
+        "sig": "major",
+        "title": "Gutian Invaders Topple the Akkadian Empire",
+        "body": "Raiders from the Gutian people overrun southern Mesopotamia and end Akkadian rule, plunging the region into roughly a century of fragmented, weakened kingship before Ur-Nammu's revival.",
+        "tags": [
+          "collapse",
+          "battle"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Gutian_rule_in_Mesopotamia",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Votive_mace_head_mentioning_the_name_of_La-arab%2C_king_of_Gutium%2C_c._2150_BCE%2C_from_Sippar%2C_Iraq._British_Museum.jpg/330px-Votive_mace_head_mentioning_the_name_of_La-arab%2C_king_of_Gutium%2C_c._2150_BCE%2C_from_Sippar%2C_Iraq._British_Museum.jpg",
+        "imageAttribution": "Photo by Osama Shukir Muhammed Amin FRCP(Glasg), CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "A votive mace head dedicated by La-arab, a Gutian king, now in the British Museum.",
+        "wikidataId": "Q1064034",
+        "location": {
+          "historicalName": "Akkad",
+          "city": null,
+          "country": "Iraq",
+          "latitude": null,
+          "longitude": null
+        }
+      },
+      {
         "year": -2112,
         "sig": "major",
+        "title": "Ur-Nammu Founds the Third Dynasty of Ur",
+        "body": "After centuries of Akkadian and Gutian rule, Ur-Nammu reunites southern Mesopotamia under the city of Ur and issues the Code of Ur-Nammu, the oldest law code known to survive.",
         "tags": [
           "founding",
           "governance"
         ],
-        "title": "Ur-Nammu Founds the Third Dynasty of Ur",
-        "body": "After centuries of Akkadian and Gutian rule, Ur-Nammu reunites southern Mesopotamia under the city of Ur and issues the Code of Ur-Nammu, the oldest law code known to survive.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Third_Dynasty_of_Ur",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ur_III.svg/330px-Ur_III.svg.png",
         "imageAttribution": "Map by Sémhur and Zunkir, CC BY-SA 3.0, via Wikimedia Commons",
@@ -78,13 +122,57 @@
         }
       },
       {
+        "year": -2100,
+        "sig": "minor",
+        "title": "Ur-Nammu Begins the Great Ziggurat of Ur",
+        "body": "Ur-Nammu breaks ground on a massive stepped temple platform dedicated to the moon god Nanna, a project his son Shulgi completes -- one of the best-preserved ziggurats surviving from ancient Mesopotamia.",
+        "tags": [
+          "architecture",
+          "religion"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Ziggurat_of_Ur",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Ziggarat_of_Ur_001.jpg/330px-Ziggarat_of_Ur_001.jpg",
+        "imageAttribution": "Photo by Tla2006, Public domain, via Wikimedia Commons",
+        "imageDescription": "The reconstructed ziggurat of Ur, built under Ur-Nammu and Shulgi.",
+        "wikidataId": "Q202927",
+        "location": {
+          "historicalName": "Ur",
+          "city": "Nasiriyah",
+          "country": "Iraq",
+          "latitude": 30.9616529,
+          "longitude": 46.1051259
+        }
+      },
+      {
+        "year": -2004,
+        "sig": "major",
+        "title": "Elamites Sack Ur, Ending the Third Dynasty",
+        "body": "An Elamite army captures Ur and its king Ibbi-Sin, extinguishing the Third Dynasty after two decades of territorial collapse and closing the last great flowering of Sumerian civilization.",
+        "tags": [
+          "collapse",
+          "battle"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Third_Dynasty_of_Ur",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Ibbi-Sin_enthroned.jpg",
+        "imageAttribution": "Photo via the Metropolitan Museum of Art, CC0, via Wikimedia Commons",
+        "imageDescription": "A depiction of Ibbi-Sin, the last king of the Third Dynasty of Ur, enthroned.",
+        "wikidataId": null,
+        "location": {
+          "historicalName": "Ur",
+          "city": "Nasiriyah",
+          "country": "Iraq",
+          "latitude": 30.9616529,
+          "longitude": 46.1051259
+        }
+      },
+      {
         "year": -1754,
         "sig": "major",
+        "title": "Hammurabi's Code Carved in Stone",
+        "body": "Babylon's king publishes 282 laws on a black diorite stele, one of the earliest surviving law codes governing an entire society.",
         "tags": [
           "governance"
         ],
-        "title": "Hammurabi's Code Carved in Stone",
-        "body": "Babylon's king publishes 282 laws on a black diorite stele, one of the earliest surviving law codes governing an entire society.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Code_of_Hammurabi",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/P1050763_Louvre_code_Hammurabi_face_rwk.JPG/330px-P1050763_Louvre_code_Hammurabi_face_rwk.JPG",
         "imageAttribution": "Photo by Mbzt, CC BY 3.0, via Wikimedia Commons",
@@ -99,14 +187,116 @@
         }
       },
       {
+        "year": -1595,
+        "sig": "major",
+        "title": "Hittites Sack Babylon, Ending Hammurabi's Dynasty",
+        "body": "Hittite king Mursili I raids deep into Mesopotamia and sacks Babylon, toppling the First Babylonian Dynasty founded by Hammurabi and opening the way for the Kassites to take the throne.",
+        "tags": [
+          "collapse",
+          "battle"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Mursili_I",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Kassite_Babylonia_EN.svg",
+        "imageAttribution": "Map by MapMaster, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "A map of Babylonia under the Kassite dynasty that succeeded Hammurabi's fallen dynasty.",
+        "wikidataId": "Q222536",
+        "location": {
+          "historicalName": "Babylon",
+          "city": "Al-Hillah",
+          "country": "Iraq",
+          "latitude": 32.5425,
+          "longitude": 44.42111111
+        }
+      },
+      {
+        "year": -1100,
+        "sig": "minor",
+        "title": "The Epic of Gilgamesh Reaches Its Standard Form",
+        "body": "Scholar-priest Sin-Leqi-Unninni compiles the definitive version of the Epic of Gilgamesh, weaving older Sumerian and Akkadian poems about the legendary king of Uruk into the work that survives today as the world's oldest known epic.",
+        "tags": [
+          "art",
+          "religion"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/British_Museum_Flood_Tablet.jpg/330px-British_Museum_Flood_Tablet.jpg",
+        "imageAttribution": "Photo by BabelStone, CC0, via Wikimedia Commons",
+        "imageDescription": "The Flood Tablet, the eleventh tablet of the Epic of Gilgamesh, from the Library of Ashurbanipal.",
+        "wikidataId": "Q8272"
+      },
+      {
+        "year": -911,
+        "sig": "major",
+        "title": "Adad-nirari II Founds the Neo-Assyrian Empire",
+        "body": "Adad-nirari II's accession launches a newly aggressive phase of Assyrian expansion that grows, over the next three centuries, into the largest empire the world had yet seen.",
+        "tags": [
+          "founding"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Neo-Assyrian_Empire",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Map_of_Assyria.png/330px-Map_of_Assyria.png",
+        "imageAttribution": "Map by Ningyou, Public domain, via Wikimedia Commons",
+        "imageDescription": "A map of the Assyrian Empire at its territorial extent.",
+        "wikidataId": "Q10914393",
+        "location": {
+          "historicalName": "Assur",
+          "city": "Qal'at Sherqat",
+          "country": "Iraq",
+          "latitude": 35.45666667,
+          "longitude": 43.2625
+        }
+      },
+      {
+        "year": -689,
+        "sig": "major",
+        "title": "Sennacherib Destroys Babylon",
+        "body": "After Babylon's king allies with Elam and Assyria's own crown prince is captured and executed, Sennacherib razes the rebellious city and diverts a canal to flood its ruins, declaring the land kingless.",
+        "tags": [
+          "battle",
+          "rebellion"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sennacherib",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Ancient_Assyria_Bas-Relief_of_Armed_Soldiers%2C_Palace_of_King_Sennacherib_%28704-689_BC%29_%28a%29.jpg",
+        "imageAttribution": "Photo by Gary Todd, CC0, via Wikimedia Commons",
+        "imageDescription": "An Assyrian bas-relief of armed soldiers from the palace of King Sennacherib.",
+        "wikidataId": "Q207140",
+        "location": {
+          "historicalName": "Babylon",
+          "city": "Al-Hillah",
+          "country": "Iraq",
+          "latitude": 32.5425,
+          "longitude": 44.42111111
+        }
+      },
+      {
+        "year": -680,
+        "sig": "minor",
+        "title": "Esarhaddon Rebuilds Babylon",
+        "body": "Esarhaddon reverses his father's destruction of Babylon, resettling its people and restoring the Esagila temple and Etemenanki ziggurat in a project his successors will need decades to finish.",
+        "tags": [
+          "architecture",
+          "religion"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Esarhaddon",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Detail._Sam%27al_stele_of_Esarhaddon%2C_671_BCE%2C_Pergamon_Museum.jpg/330px-Detail._Sam%27al_stele_of_Esarhaddon%2C_671_BCE%2C_Pergamon_Museum.jpg",
+        "imageAttribution": "Photo by Osama Shukir Muhammed Amin FRCP(Glasg), CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "The Assyrian king Esarhaddon depicted on a commemorative stele from Sam'al, now in the Pergamon Museum.",
+        "wikidataId": "Q193912",
+        "location": {
+          "historicalName": "Babylon",
+          "city": "Al-Hillah",
+          "country": "Iraq",
+          "latitude": 32.5425,
+          "longitude": 44.42111111
+        }
+      },
+      {
         "year": -630,
         "sig": "minor",
+        "title": "Ashurbanipal Builds the Library at Nineveh",
+        "body": "Assyrian king Ashurbanipal assembles a vast collection of cuneiform tablets at his capital, creating the ancient world's most systematic library and preserving countless Mesopotamian texts for posterity.",
         "tags": [
           "architecture",
           "science"
         ],
-        "title": "Ashurbanipal Builds the Library at Nineveh",
-        "body": "Assyrian king Ashurbanipal assembles a vast collection of cuneiform tablets at his capital, creating the ancient world's most systematic library and preserving countless Mesopotamian texts for posterity.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Library_of_Ashurbanipal",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/AshurbanipalKingOfAssyria.jpg/330px-AshurbanipalKingOfAssyria.jpg",
         "imageAttribution": "Photo by KeyolTranslater, CC BY-SA 4.0, via Wikimedia Commons",
@@ -121,13 +311,35 @@
         }
       },
       {
+        "year": -626,
+        "sig": "major",
+        "title": "Nabopolassar Founds the Neo-Babylonian Empire",
+        "body": "A former Assyrian official, Nabopolassar seizes Babylon amid Assyria's succession crisis and is crowned king, launching the revolt that destroys the Neo-Assyrian Empire within two decades.",
+        "tags": [
+          "founding",
+          "rebellion"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Nabopolassar",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Neo-Babylonian_Empire.png",
+        "imageAttribution": "Map by ܥܘܡܪܐ, Public domain, via Wikimedia Commons",
+        "imageDescription": "A map of the Neo-Babylonian Empire founded by Nabopolassar.",
+        "wikidataId": "Q273514",
+        "location": {
+          "historicalName": "Babylon",
+          "city": "Al-Hillah",
+          "country": "Iraq",
+          "latitude": 32.5425,
+          "longitude": 44.42111111
+        }
+      },
+      {
         "year": -612,
         "sig": "minor",
+        "title": "Nineveh Falls",
+        "body": "A coalition of Babylonians and Medes storms the Assyrian capital, ending the Neo-Assyrian Empire's centuries of dominance over the Near East.",
         "tags": [
           "collapse"
         ],
-        "title": "Nineveh Falls",
-        "body": "A coalition of Babylonians and Medes storms the Assyrian capital, ending the Neo-Assyrian Empire's centuries of dominance over the Near East.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Nineveh",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Fall_of_nineveh.jpg/330px-Fall_of_nineveh.jpg",
         "imageAttribution": "Illustration by Mu-tamajo, CC BY-SA 4.0, via Wikimedia Commons",
@@ -142,13 +354,35 @@
         }
       },
       {
+        "year": -600,
+        "sig": "minor",
+        "title": "Nebuchadnezzar II Rebuilds the Etemenanki Ziggurat",
+        "body": "Nebuchadnezzar II raises Babylon's great ziggurat to a scale later Greek and biblical writers mythologize as the Tower of Babel, cementing Babylon's reputation as the ancient world's most spectacular city.",
+        "tags": [
+          "architecture",
+          "religion"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Etemenanki",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Etemenanki_drawing.gif",
+        "imageAttribution": "Illustration by Jona Lendering, Public domain, via Wikimedia Commons",
+        "imageDescription": "A reconstruction drawing of the Etemenanki ziggurat, based on Hansjörg Schmid's research.",
+        "wikidataId": "Q285788",
+        "location": {
+          "historicalName": "Babylon",
+          "city": "Al-Hillah",
+          "country": "Iraq",
+          "latitude": 32.5425,
+          "longitude": 44.42111111
+        }
+      },
+      {
         "year": -587,
         "sig": "major",
+        "title": "Nebuchadnezzar II Conquers Jerusalem",
+        "body": "After a lengthy siege, Babylonian forces breach Jerusalem's walls, destroy Solomon's Temple, and deport much of the population -- the start of the Babylonian captivity that Cyrus will later end.",
         "tags": [
           "battle"
         ],
-        "title": "Nebuchadnezzar II Conquers Jerusalem",
-        "body": "After a lengthy siege, Babylonian forces breach Jerusalem's walls, destroy Solomon's Temple, and deport much of the population -- the start of the Babylonian captivity that Cyrus will later end.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Nebuchadnezzar_II",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Nebuchadnezzar_II_crop.png/330px-Nebuchadnezzar_II_crop.png",
         "imageAttribution": "Public domain, via Wikimedia Commons",
@@ -163,14 +397,35 @@
         }
       },
       {
+        "year": -552,
+        "sig": "minor",
+        "title": "Nabonidus Abandons Babylon for Tayma",
+        "body": "Devoted to the moon god Sin over Babylon's own patron deity Marduk, King Nabonidus withdraws to the Arabian oasis of Tayma for roughly a decade, leaving his son Belshazzar as regent and alienating Babylon's priesthood.",
+        "tags": [
+          "religion"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Nabonidus",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Detail%2C_stele_of_Nabonidus._Nabonidus_wears_the_traditional_dress_of_a_Babylonian_king%2C_holding_objects_symbolizing_justice_and_power.jpg/330px-Detail%2C_stele_of_Nabonidus._Nabonidus_wears_the_traditional_dress_of_a_Babylonian_king%2C_holding_objects_symbolizing_justice_and_power.jpg",
+        "imageAttribution": "Photo by Osama Shukir Muhammed Amin FRCP(Glasg), CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "A relief of King Nabonidus before the crescent symbol of the moon god Sin, to whom he was devoted.",
+        "wikidataId": "Q239414",
+        "location": {
+          "historicalName": "Tayma",
+          "city": "Tayma",
+          "country": "Saudi Arabia",
+          "latitude": 27.63,
+          "longitude": 38.54
+        }
+      },
+      {
         "year": -539,
         "sig": "major",
+        "title": "Cyrus the Great Takes Babylon",
+        "body": "Cyrus of Persia captures Babylon without a major battle, ending the Neo-Babylonian Empire and folding Mesopotamia into the Achaemenid Empire.",
         "tags": [
           "battle",
           "collapse"
         ],
-        "title": "Cyrus the Great Takes Babylon",
-        "body": "Cyrus of Persia captures Babylon without a major battle, ending the Neo-Babylonian Empire and folding Mesopotamia into the Achaemenid Empire.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Babylon",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/The_fall_of_Babylon%3B_Cyrus_the_Great_defeating_the_Chaldean_Wellcome_V0034440.jpg/330px-The_fall_of_Babylon%3B_Cyrus_the_Great_defeating_the_Chaldean_Wellcome_V0034440.jpg",
         "imageAttribution": "Mezzotint by J. Martin (1831), CC BY 4.0, via Wikimedia Commons / Wellcome Collection",

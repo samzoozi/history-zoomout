@@ -707,7 +707,7 @@ remembered turning point in the way a battle or founding is.
 
 ## Mesopotamia (topic id: `mesopotamia`) — pulled 2026-08-03
 
-Status: **merged into live seed data 2026-08-03** (replacing the old 5-event entry wholesale) and reseeded.
+Status: **merged into live seed data 2026-08-03** (replacing the old 5-event entry wholesale) and reseeded. Re-merged 2026-08-05 with the 12-event enrichment pass below (now 20 events total) and reseeded again.
 
 Old data (5 events) only showed the *fall* of both the Neo-Assyrian and Neo-Babylonian
 Empires ("Nineveh Falls," "Cyrus Takes Babylon") with no events for either one's rise --
@@ -756,6 +756,86 @@ Third Dynasty of Ur entirely.
 - No Wikidata item found specifically for the Library of Ashurbanipal as an event (only
   for Ashurbanipal himself, and the source URL cites the library-specific article) --
   left `wikidataId` null rather than pointing at a mismatched item.
+
+### Enrichment pass — 2026-08-05
+
+The 8-event set above only showed the *foundings* of the Akkadian Empire and Third
+Dynasty of Ur and the *falls* of the Neo-Assyrian and Neo-Babylonian Empires -- every
+other transition (Akkad's own collapse, Ur III's collapse, the Old Babylonian collapse,
+the Neo-Assyrian and Neo-Babylonian foundings) was unrepresented, and the tag set had
+zero `art`, zero `religion`, and zero `rebellion` events. Also note: the existing
+`data/wikipedia-data/civilization/mesopotamia.json` predates the `tags` field entirely
+(it was added to the live seed data in a later pass without being synced back to this
+file) -- this pass adds `tags` to all 8 pre-existing events too, copied from the current
+values in `backend/src/history_zoomout/db/seed_data/civilizations.json`, purely to bring
+the research file back in sync; none of those 8 events' facts, images, or locations
+changed.
+
+Twelve new events added, spanning every previously-missing sub-period:
+
+#### Event-level sources (new events only)
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| Enheduanna composes sacred hymns | c. 2285 BC | [Enheduanna](https://en.wikipedia.org/wiki/Enheduanna) | Q232505 | Mefman00, CC0 |
+| Gutian invaders topple the Akkadian Empire | 2154 BC | [Gutian rule in Mesopotamia](https://en.wikipedia.org/wiki/Gutian_rule_in_Mesopotamia) | Q1064034 | Osama Shukir Muhammed Amin FRCP(Glasg), CC BY-SA 4.0 |
+| Ur-Nammu begins the Great Ziggurat of Ur | c. 2100 BC | [Ziggurat of Ur](https://en.wikipedia.org/wiki/Ziggurat_of_Ur) | Q202927 | Tla2006, Public domain |
+| Elamites sack Ur, ending the Third Dynasty | 2004 BC | [Third Dynasty of Ur](https://en.wikipedia.org/wiki/Third_Dynasty_of_Ur) | *(none found)* | Metropolitan Museum of Art, CC0 |
+| Hittites sack Babylon, ending Hammurabi's dynasty | 1595 BC | [Mursili I](https://en.wikipedia.org/wiki/Mursili_I) | Q222536 | MapMaster, CC BY-SA 4.0 (map) |
+| The Epic of Gilgamesh reaches its standard form | c. 1100 BC | [Epic of Gilgamesh](https://en.wikipedia.org/wiki/Epic_of_Gilgamesh) | Q8272 | BabelStone, CC0 |
+| Adad-nirari II founds the Neo-Assyrian Empire | 911 BC | [Neo-Assyrian Empire](https://en.wikipedia.org/wiki/Neo-Assyrian_Empire) | Q10914393 | Ningyou, Public domain (map) |
+| Sennacherib destroys Babylon | 689 BC | [Sennacherib](https://en.wikipedia.org/wiki/Sennacherib) | Q207140 | Gary Todd, CC0 |
+| Esarhaddon rebuilds Babylon | 680 BC | [Esarhaddon](https://en.wikipedia.org/wiki/Esarhaddon) | Q193912 | Osama Shukir Muhammed Amin FRCP(Glasg), CC BY-SA 4.0 |
+| Nabopolassar founds the Neo-Babylonian Empire | 626 BC | [Nabopolassar](https://en.wikipedia.org/wiki/Nabopolassar) | Q273514 | ܥܘܡܪܐ, Public domain (map) |
+| Nebuchadnezzar II rebuilds the Etemenanki ziggurat | c. 600 BC | [Etemenanki](https://en.wikipedia.org/wiki/Etemenanki) | Q285788 | Jona Lendering, Public domain |
+| Nabonidus abandons Babylon for Tayma | 552 BC | [Nabonidus](https://en.wikipedia.org/wiki/Nabonidus) | Q239414 | Osama Shukir Muhammed Amin FRCP(Glasg), CC BY-SA 4.0 |
+
+#### Event locations (new events only)
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Enheduanna composes sacred hymns | Ur | Nasiriyah, Iraq | 30.962, 46.105 |
+| Gutian invaders topple the Akkadian Empire | Akkad | *(unlocated)*, Iraq | *(none found)* |
+| Ur-Nammu begins the Great Ziggurat of Ur | Ur | Nasiriyah, Iraq | 30.962, 46.105 |
+| Elamites sack Ur | Ur | Nasiriyah, Iraq | 30.962, 46.105 |
+| Hittites sack Babylon | Babylon | Al-Hillah, Iraq | 32.543, 44.421 |
+| The Epic of Gilgamesh reaches its standard form | — | *(no single place -- authorship/compilation site uncertain)* | — |
+| Adad-nirari II founds the Neo-Assyrian Empire | Assur | Qal'at Sherqat, Iraq | 35.457, 43.263 |
+| Sennacherib destroys Babylon | Babylon | Al-Hillah, Iraq | 32.543, 44.421 |
+| Esarhaddon rebuilds Babylon | Babylon | Al-Hillah, Iraq | 32.543, 44.421 |
+| Nabopolassar founds the Neo-Babylonian Empire | Babylon | Al-Hillah, Iraq | 32.543, 44.421 |
+| Nebuchadnezzar II rebuilds the Etemenanki ziggurat | Babylon | Al-Hillah, Iraq | 32.543, 44.421 |
+| Nabonidus abandons Babylon for Tayma | Tayma | Tayma, Saudi Arabia | 27.630, 38.540 |
+
+#### Corrections / decisions made in this pass
+
+- **Fall of Ur III has no dedicated Wikidata item or clean image**: the same
+  `Third_Dynasty_of_Ur` article covers both its founding (already in the dataset) and
+  its fall, and no event-specific Wikidata item exists -- left `wikidataId` null (same
+  reasoning as the existing Ashurbanipal-library decision) rather than reusing the
+  dynasty's own item (`Q723587`) across two different events. Image is a Met Museum
+  depiction of Ibbi-Sin, the dynasty's last king, rather than a generic dynasty map.
+- **"Nebuchadnezzar II Rebuilds the Etemenanki Ziggurat" vs. the Hanging Gardens**: the
+  Hanging Gardens of Babylon were the initial candidate for this slot, but their
+  historicity is genuinely disputed among scholars (some attribute the "hanging
+  gardens" descriptions to Sennacherib's gardens at Nineveh instead) -- Etemenanki is
+  the actual, archaeologically documented ziggurat Nebuchadnezzar II rebuilt, and is
+  independently notable as a likely inspiration for the Tower of Babel story. Chose the
+  well-attested structure over the legendary one.
+- **Epic of Gilgamesh's standard-version date**: Sin-Leqi-Unninni's own lifetime is only
+  bracketed to "sometime between 1300 and 1000 BCE" by the sources checked -- used 1100
+  BC as a midpoint placeholder, not a precise compilation date.
+- **No single location for the Epic of Gilgamesh event**: unlike most events in this
+  dataset, the compilation of the standard text isn't tied to one place in the sources
+  checked (Sin-Leqi-Unninni's own city isn't established) -- `location` omitted entirely
+  rather than guessing Uruk (Gilgamesh's legendary city, but not the compiler's).
+- **Adad-nirari II's Neo-Assyrian founding located at Assur, not Nineveh**: Nineveh only
+  became the Neo-Assyrian capital under Sennacherib, decades after 911 BC -- Assur
+  (modern Qal'at Sherqat) was still the capital at the founding date used here.
+- **Akkad reused as the Gutian-invasion event's location**: same open
+  archaeological-identification problem as the existing Sargon-founding event at this
+  site (no definitive site ID) -- reused the same `city: null` / country-only pattern
+  rather than treating it differently.
 
 ## China (topic id: `china`) — pulled 2026-08-03
 
