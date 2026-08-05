@@ -357,6 +357,87 @@ period (Alexander's conquests) before jumping straight to Rome's conquest in 146
   Asia) rather than 336 BC (when he became king of Macedon, sometimes loosely cited as
   when his campaigns "began") -- 334 BC is when the actual invasion started.
 
+### Tag enrichment — 2026-08-05
+
+Targeted every tag from `docs/wikipedia-tags.md`: `architecture`, `art`, `science`, and
+`rebellion` had zero events; `religion`, `founding`, and `collapse` had only 1 each
+against Greece's 654-year span. Twelve events added, merged into the existing `events[]`
+and re-sorted chronologically. The previously-merged events' `tags` (already live in
+`backend/src/history_zoomout/db/seed_data/civilizations.json` since the tags feature
+shipped, but missing from this file, which predates that merge) were also backfilled
+here so this file matches what's actually live.
+
+| Event | Year | Article | Wikidata | Tags | Image credit |
+|---|---|---|---|---|---|
+| Solon enacts sweeping reforms | 594 BC | [Solon](https://en.wikipedia.org/wiki/Solon) | Q133337 | governance | Sailko, CC BY-SA 3.0 (bust photo) |
+| The Ionian Revolt begins | 499 BC | [Ionian Revolt](https://en.wikipedia.org/wiki/Ionian_Revolt) | Q208261 | rebellion, battle | Eric Gaba & MinisterForBadTimes, CC BY-SA 3.0 (map) |
+| Construction begins on the Parthenon | 447 BC | [Parthenon](https://en.wikipedia.org/wiki/Parthenon) | Q10288 | architecture, religion | Steve Swayne, CC BY 2.0 |
+| Phidias completes the Statue of Zeus at Olympia | 435 BC | [Statue of Zeus at Olympia](https://en.wikipedia.org/wiki/Statue_of_Zeus_at_Olympia) | Q46239 | art, religion | Quatremère de Quincy, Public domain (illustration) |
+| Sparta installs the Thirty Tyrants | 404 BC | [Thirty Tyrants](https://en.wikipedia.org/wiki/Thirty_Tyrants) | Q643488 | governance | Guillaume Rouillé (publisher), Public domain (engraving) |
+| Thrasybulus restores democracy | 403 BC | [Thrasybulus](https://en.wikipedia.org/wiki/Thrasybulus) | Q354403 | rebellion, governance | Andrea Alciato's *Emblemata*, Public domain (woodcut) |
+| Athens puts Socrates on trial | 399 BC | [Trial of Socrates](https://en.wikipedia.org/wiki/Trial_of_Socrates) | Q3110066 | science | Jacques-Louis David, Public domain (painting) |
+| Philip II defeats the Greek alliance at Chaeronea | 338 BC | [Battle of Chaeronea (338 BC)](https://en.wikipedia.org/wiki/Battle_of_Chaeronea_(338_BC)) | Q200716 | battle, collapse | Kirill Lokshin & Dipa_1965, Public domain (map) |
+| Aristotle founds the Lyceum | 335 BC | [Lyceum (classical)](https://en.wikipedia.org/wiki/Lyceum_(classical)) | Q1160664 | science, founding | Raphael, Public domain (painting detail) |
+| The Wars of the Diadochi begin | 323 BC | [Wars of the Diadochi](https://en.wikipedia.org/wiki/Wars_of_the_Diadochi) | Q2912306 | battle, rebellion | Derived from Shepherd's 1911 Historical Atlas, CC BY-SA 3.0 (map) |
+| The Colossus of Rhodes is completed | 280 BC | [Colossus of Rhodes](https://en.wikipedia.org/wiki/Colossus_of_Rhodes) | Q41553 | architecture, art | Sidney Barclay, Public domain (engraving) |
+| Eratosthenes calculates the Earth's circumference | c. 240 BC | [Eratosthenes](https://en.wikipedia.org/wiki/Eratosthenes) | Q43182 | science | cmglee, David Monniaux & jimht, CC BY-SA 4.0 (diagram) |
+
+Locations:
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Solon's reforms | Athens | Athens, Greece | 37.98, 23.73 |
+| Ionian Revolt | Miletus | Balat, Turkey | 37.530, 27.278 |
+| Parthenon construction | Athens | Athens, Greece | 37.98, 23.73 |
+| Statue of Zeus at Olympia | Olympia | Olympia, Greece | 37.64, 21.63 |
+| Thirty Tyrants | Athens | Athens, Greece | 37.98, 23.73 |
+| Thrasybulus restores democracy | Munychia | Piraeus, Greece | 37.943, 23.647 |
+| Trial of Socrates | Athens | Athens, Greece | 37.98, 23.73 |
+| Battle of Chaeronea | Chaeronea | Chaeronea, Greece | 38.495, 22.848 |
+| Aristotle's Lyceum | Athens | Athens, Greece | 37.98, 23.73 |
+| Wars of the Diadochi | *(no location — see notes)* | -- | -- |
+| Colossus of Rhodes | Rhodes | Rhodes, Greece | 36.17, 27.92 |
+| Eratosthenes' measurement | Alexandria | Alexandria, Egypt | 31.198, 29.893 |
+
+Notes and judgment calls:
+
+- **Wars of the Diadochi**: no `location` set, same reasoning as Rome's Third Servile War
+  and Constitutio Antoniniana entries -- a multi-front succession war across Alexander's
+  former empire with no single defining site.
+- **Eratosthenes' measurement year**: Wikipedia's Eratosthenes article doesn't state a
+  specific year for the Earth-circumference calculation, only that it falls within his
+  tenure as Alexandria's chief librarian (from c. 246 BC until his death c. 194 BC); used
+  the commonly-cited approximate year of 240 BC, flagged here as an estimate rather than
+  a sourced date.
+- **Eratosthenes' location is Alexandria, Egypt, not mainland Greece**: kept in scope
+  since Eratosthenes was a Greek scholar working at a Greek-founded institution (the
+  Library of Alexandria, under the Macedonian Greek Ptolemaic dynasty) during the
+  Hellenistic period -- consistent with "Alexander invades the Persian Empire" already
+  anchoring an event in modern Turkey.
+- **Thirty Tyrants vs. Thrasybulus's restoration split into two events**: the oligarchy's
+  installation (404 BC) is tagged `governance` only -- it was a regime change imposed by
+  Sparta's military victory, not a bottom-up revolt, so `rebellion` didn't fit. The
+  democratic counter-uprising against it the following year (403 BC) is what earns the
+  `rebellion` tag, alongside `governance` for the constitutional restoration itself.
+- **Thrasybulus's image has no `Artist` field in Commons' extmetadata** (only a source
+  URL and description) -- used per the user's guidance mid-pass that a well-described,
+  clearly-licensed image without a machine-readable Artist field is still usable,
+  crediting it to the named historical work (Alciato's *Emblemata*) rather than omitting
+  the image.
+- **Solon's reform year**: 594 BC per Diogenes Laertius, the standard cited date, though
+  the article notes some ancient-source disagreement on the exact chronology.
+- **`sig` re-review, same day**: on reflection the initial pass over-used `major` --
+  applying it to any event that was narratively pivotal within this dataset rather than
+  reserving it for events a history-literate reader would actually recognize by name.
+  Downgraded four to `minor`: Solon's reforms (real, but overshadowed by Cleisthenes as
+  *the* founding-of-democracy event), the Ionian Revolt (matters mainly as the cause of
+  the more-remembered Marathon/Salamis), the Parthenon's construction start (the building
+  is iconic; "construction began in 447 BC" is a dating fact, not a remembered turning
+  point), and Thrasybulus's restoration of democracy (consequential but specialist
+  Athenian-history knowledge, not a textbook landmark). Kept `major` for Socrates' trial,
+  Chaeronea, and the Wars of the Diadochi -- each is the standard remembered answer to
+  "what happened next" in its era. Final split: 9 major / 11 minor across all 20 events.
+
 ## Rome (topic id: `rome`) — pulled 2026-08-02
 
 Status: **merged into live seed data 2026-08-02** (replacing the old 5-event entry wholesale) and reseeded.
@@ -412,6 +493,78 @@ Empire end up as separate topics in this dataset.
   requests after a transcription error was caught (a guessed Commons hash prefix that
   didn't match the real file path) -- worth doing this check rather than trusting
   fetched/retyped URLs by inspection alone.
+
+### Tag enrichment — 2026-08-05
+
+Targeted every tag from `docs/wikipedia-tags.md`: `art`, `religion`, and `science` had
+zero events; `architecture`, `battle`, `collapse`, `governance`, and `rebellion` had only
+1-2 each against Rome's 1,229-year span. Twelve events added, merged into the existing
+`events[]` and re-sorted chronologically. The previously-merged events' `tags` (already
+live in `backend/src/history_zoomout/db/seed_data/civilizations.json` since the tags
+feature shipped, but missing from this file, which predates that merge) were also
+backfilled here so this file matches what's actually live.
+
+| Event | Year | Article | Wikidata | Tags | Image credit |
+|---|---|---|---|---|---|
+| Rome codifies the Twelve Tables | 449 BC | [Twelve Tables](https://en.wikipedia.org/wiki/Twelve_Tables) | Q203686 | governance | Unknown author, Public domain (engraving) |
+| Gauls rout Rome at the Allia | 387 BC | [Battle of the Allia](https://en.wikipedia.org/wiki/Battle_of_the_Allia) | Q655777 | battle | Gustave Surand, Public domain (painting) |
+| Spartacus leads a slave revolt | 73 BC | [Third Servile War](https://en.wikipedia.org/wiki/Third_Servile_War) | Q194378 | rebellion, battle | Soerfm, CC BY-SA 3.0 (statue photo) |
+| Caesar reforms the calendar | 46 BC | [Julian calendar](https://en.wikipedia.org/wiki/Julian_calendar) | Q11184 | science, governance | Ángel M. Felicísimo, Public domain |
+| Octavian defeats Antony and Cleopatra at Actium | 31 BC | [Battle of Actium](https://en.wikipedia.org/wiki/Battle_of_Actium) | Q160387 | battle | Mark Landon, CC BY 4.0 (relief photo) |
+| The Ara Pacis is dedicated | 9 BC | [Ara Pacis](https://en.wikipedia.org/wiki/Ara_Pacis) | Q623612 | art, religion | Rabax63, CC BY-SA 4.0 |
+| Germanic tribes destroy three Roman legions | 9 AD | [Battle of the Teutoburg Forest](https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest) | Q87779 | battle | Agnete, Public domain |
+| Hadrian rebuilds the Pantheon | 126 AD | [Pantheon, Rome](https://en.wikipedia.org/wiki/Pantheon,_Rome) | Q99309 | architecture, science, religion | NikonZ7II, CC BY-SA 4.0 |
+| Caracalla grants citizenship to all free subjects | 212 AD | [Constitutio Antoniniana](https://en.wikipedia.org/wiki/Constitutio_Antoniniana) | Q312584 | governance | Unknown author, Public domain (papyrus) |
+| The Edict of Milan legalizes Christianity | 313 AD | [Edict of Milan](https://en.wikipedia.org/wiki/Edict_of_Milan) | Q180764 | religion, governance | Marie-Lan Nguyen, Public domain |
+| Goths crush the Eastern Roman army at Adrianople | 378 AD | [Battle of Adrianople](https://en.wikipedia.org/wiki/Battle_of_Adrianople) | Q192473 | battle, collapse | Elias84 & Dipa_1965, Public domain (map) |
+| Alaric's Visigoths sack Rome | 410 AD | [Sack of Rome (410)](https://en.wikipedia.org/wiki/Sack_of_Rome_(410)) | Q1463845 | battle, collapse | Joseph-Noël Sylvestre, Public domain (painting) |
+
+Locations:
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Twelve Tables | Rome | Rome, Italy | 41.89, 12.48 |
+| Battle of the Allia | River Allia | *(unconfirmed)*, Italy | 42.0175, 12.52 |
+| Third Servile War | *(no location — see notes)* | -- | -- |
+| Julian calendar reform | Rome | Rome, Italy | 41.89, 12.48 |
+| Battle of Actium | Actium | *(unconfirmed)*, Greece | 38.925, 20.725 |
+| Ara Pacis | Rome | Rome, Italy | 41.89, 12.48 |
+| Battle of the Teutoburg Forest | Teutoburg Forest | Kalkriese, Germany | 52.408, 8.129 |
+| Pantheon | Rome | Rome, Italy | 41.89, 12.48 |
+| Constitutio Antoniniana | *(no location — see notes)* | -- | -- |
+| Edict of Milan | Mediolanum | Milan, Italy | 45.46694, 9.19 |
+| Battle of Adrianople | Adrianople | Edirne, Turkey | 41.81, 26.5 |
+| Sack of Rome (410) | Rome | Rome, Italy | 41.89, 12.48 |
+
+Notes and judgment calls:
+
+- **Twelve Tables year**: used 449 BC, the tables' final promulgation, rather than 451 BC
+  when the decemviri were first appointed to draft them.
+- **Battle of the Allia year**: Wikipedia's infobox gives 387 BC as the modern scholarly
+  date (from Polybius's Greek chronology) ahead of the traditional Varronian 390 BC (from
+  Livy) -- used 387 BC as the primary date.
+- **Third Servile War / Spartacus**: used 73 BC, the year of the escape from the Capuan
+  gladiator school, over 71 BC (the final defeat at the Silarius) since the revolt itself
+  -- not its suppression -- is what earns it the `rebellion` tag. No `location` set: the
+  revolt ranged across most of Italy over two years with no single defining site, fitting
+  the "broad campaign" case for omitting the field entirely.
+- **Constitutio Antoniniana**: no `location` set for the same reason -- it's an
+  empire-wide edict with no single issuing site pinned down.
+- **Julian calendar image**: used a photo of a Caesar bust rather than a calendar diagram,
+  since Caesar-as-reformer reads more clearly at thumbnail size than a grid of month
+  names would.
+- **Teutoburg Forest location**: the battle article itself has no coordinates; used
+  Kalkriese, the archaeological site now most widely accepted as the battlefield, as the
+  modern equivalent.
+- **Spartacus statue attribution**: the file's extmetadata has no machine-readable
+  `Artist` field (Commons flags it as such); credited the photo to its uploader (Soerfm)
+  per the license's attribution requirement, consistent with how other uploader-only Rome
+  images in this file are credited (e.g. the Capitoline Wolf photo by Rabax63).
+- **Existing "Assassination of Julius Caesar" event** still carries an empty `tags: []`
+  in both this file and the live seed data -- left untouched since fixing pre-existing
+  tags on events outside this enrichment's target list wasn't part of the ask; flagging
+  here in case a future pass wants to pick it up (`rebellion` would fit, as an elite
+  succession crisis rather than a mass uprising).
 
 ## Mesopotamia (topic id: `mesopotamia`) — pulled 2026-08-03
 
