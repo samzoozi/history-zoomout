@@ -4039,6 +4039,64 @@
         }
       },
       {
+        "year": 636,
+        "sig": "major",
+        "tags": [
+          "battle"
+        ],
+        "title": "The Rashidun Army Shatters Byzantine Power at Yarmouk",
+        "body": "A Rashidun army under Khalid ibn al-Walid destroys a much larger Byzantine force near the Yarmouk River, ending Byzantine rule in Syria and opening the entire Levant to Islamic conquest within a few years.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_the_Yarmuk",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Hayton_BNF886_9v.jpg/330px-Hayton_BNF886_9v.jpg",
+        "imageAttribution": "Illustration by an anonymous Catalonian illustrator, Public domain, via Wikimedia Commons",
+        "imageDescription": "A 14th-century manuscript illustration of the Battle of Yarmouk, showing Muslim forces facing Byzantine troops.",
+        "wikidataId": "Q194226",
+        "location": {
+          "historicalName": "Yarmouk",
+          "city": "Yarmouk River",
+          "country": "Syria",
+          "latitude": 32.814,
+          "longitude": 35.955
+        }
+      },
+      {
+        "year": 636,
+        "sig": "major",
+        "tags": [
+          "battle"
+        ],
+        "title": "Qadisiyyah Breaks Sasanian Power in Iraq",
+        "body": "Rashidun forces under Sa'd ibn Abi Waqqas defeat the main Sasanian army near Qadisiyyah, a victory that opens Mesopotamia to Muslim rule and leads to the fall of the Sasanian capital Ctesiphon within months.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_al-Qadisiyyah",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Depiction_of_the_Battle_of_al-Q%C4%81disiyyah_from_a_manuscript_of_the_Persian_epic_Sh%C4%81h-n%C4%81meh._Source-_British_Library_%28MS._I.O.Islamic_3265_%281614%29_f._602r%29.jpg/330px-Depiction_of_the_Battle_of_al-Q%C4%81disiyyah_from_a_manuscript_of_the_Persian_epic_Sh%C4%81h-n%C4%81meh._Source-_British_Library_%28MS._I.O.Islamic_3265_%281614%29_f._602r%29.jpg",
+        "imageAttribution": "Illustration from a Shahnameh manuscript, Public domain, via Wikimedia Commons",
+        "imageDescription": "A Persian manuscript illustration of Sa'd ibn Abi Waqqas's forces defeating the Sasanian general Rostam Farrokhzad.",
+        "wikidataId": "Q836844",
+        "location": {
+          "historicalName": "Qadisiyyah",
+          "city": "Kufa",
+          "country": "Iraq",
+          "latitude": 32.03,
+          "longitude": 44.4
+        }
+      },
+      {
+        "year": 656,
+        "sig": "major",
+        "tags": [
+          "rebellion",
+          "battle",
+          "religion"
+        ],
+        "title": "The First Fitna Splits the Muslim Community",
+        "body": "The murder of Caliph Uthman triggers five years of civil war among Muhammad's early followers, pitting Ali against the Syrian governor Muawiyah and ending only with Ali's assassination -- a rupture that hardens into the lasting Sunni-Shia divide.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/First_Fitna",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/First_Fitna_Map%2C_Ali-Muawiya_Phase.png/330px-First_Fitna_Map%2C_Ali-Muawiya_Phase.png",
+        "imageAttribution": "Map by Al Ameer son, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "A map showing territory controlled by Caliph Ali and by the governor Muawiyah during the First Fitna.",
+        "wikidataId": "Q1417059"
+      },
+      {
         "year": 661,
         "sig": "major",
         "tags": [
@@ -4052,6 +4110,71 @@
         "imageAttribution": "Public domain, via Wikimedia Commons",
         "imageDescription": "An Arab-Sasanian silver coin of Caliph Muawiyah I, minted in the Umayyad Caliphate's early style.",
         "wikidataId": "Q181154",
+        "location": {
+          "historicalName": "Damascus",
+          "city": "Damascus",
+          "country": "Syria",
+          "latitude": 33.51305556,
+          "longitude": 36.30944444
+        }
+      },
+      {
+        "year": 680,
+        "sig": "major",
+        "tags": [
+          "religion",
+          "battle"
+        ],
+        "title": "Husayn Is Killed at Karbala",
+        "body": "Umayyad forces under Caliph Yazid I kill Husayn ibn Ali, the Prophet Muhammad's grandson, and most of his small band at Karbala, an act of martyrdom that becomes the defining trauma of Shia Islam and is commemorated annually on Ashura.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Karbala",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Brooklyn_Museum_-_Battle_of_Karbala_-_Abbas_Al-Musavi_-_cropped.jpg/330px-Brooklyn_Museum_-_Battle_of_Karbala_-_Abbas_Al-Musavi_-_cropped.jpg",
+        "imageAttribution": "Painting by Abbas Al-Musavi, Public domain, via Wikimedia Commons",
+        "imageDescription": "A Qajar-era painting depicting the Battle of Karbala.",
+        "wikidataId": "Q626058",
+        "location": {
+          "historicalName": "Karbala",
+          "city": "Karbala",
+          "country": "Iraq",
+          "latitude": 32.61666667,
+          "longitude": 44.03333333
+        }
+      },
+      {
+        "year": 691,
+        "sig": "major",
+        "tags": [
+          "architecture",
+          "religion"
+        ],
+        "title": "The Dome of the Rock Is Completed in Jerusalem",
+        "body": "Caliph Abd al-Malik completes the Dome of the Rock atop Jerusalem's Temple Mount, an octagonal shrine whose gold dome and Quranic inscriptions announce Islam's presence among the older faiths of the holy city.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Dome_of_the_Rock",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Jerusalem_DomeoftheRock_J65_%28cropped%29.JPG/330px-Jerusalem_DomeoftheRock_J65_%28cropped%29.JPG",
+        "imageAttribution": "Photo by Ludvig14, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "The Dome of the Rock in Jerusalem.",
+        "wikidataId": "Q172077",
+        "location": {
+          "historicalName": "Jerusalem",
+          "city": "Jerusalem",
+          "country": "Israel",
+          "latitude": 31.77888889,
+          "longitude": 35.22555556
+        }
+      },
+      {
+        "year": 697,
+        "sig": "minor",
+        "tags": [
+          "governance"
+        ],
+        "title": "Abd al-Malik Reforms Coinage and Administration",
+        "body": "Caliph Abd al-Malik replaces Byzantine- and Sasanian-style coins with a new Islamic currency bearing Quranic inscriptions instead of images, and begins converting the caliphate's Greek- and Persian-language bureaucracy to Arabic -- steps that forge a distinct Islamic state identity across the empire.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Abd_al-Malik_ibn_Marwan",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/First_Umayyad_gold_dinar%2C_Caliph_Abd_al-Malik%2C_695_CE.jpg/330px-First_Umayyad_gold_dinar%2C_Caliph_Abd_al-Malik%2C_695_CE.jpg",
+        "imageAttribution": "Photo by PHGCOM, Public domain, via Wikimedia Commons",
+        "imageDescription": "An early Umayyad gold dinar of Caliph Abd al-Malik, minted before the later aniconic redesign.",
+        "wikidataId": "Q36788",
         "location": {
           "historicalName": "Damascus",
           "city": "Damascus",
@@ -4104,6 +4227,48 @@
         }
       },
       {
+        "year": 756,
+        "sig": "major",
+        "tags": [
+          "founding"
+        ],
+        "title": "Abd al-Rahman I Founds the Emirate of Córdoba",
+        "body": "The last surviving Umayyad prince, having fled the Abbasid massacre of his family in Damascus, defeats the governor of al-Andalus and establishes an independent emirate at Córdoba -- preserving Umayyad rule in Spain for centuries after the dynasty's fall in the east.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Abd_al-Rahman_I",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Dirham_abd_al_rahman_i_21816.jpg/330px-Dirham_abd_al_rahman_i_21816.jpg",
+        "imageAttribution": "Photo by Numismática Pliego, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A silver dirham minted under Abd al-Rahman I, founder of the Emirate of Córdoba.",
+        "wikidataId": "Q29000",
+        "location": {
+          "historicalName": "Córdoba",
+          "city": "Córdoba",
+          "country": "Spain",
+          "latitude": 37.89,
+          "longitude": -4.78
+        }
+      },
+      {
+        "year": 820,
+        "sig": "minor",
+        "tags": [
+          "science"
+        ],
+        "title": "Al-Khwarizmi Writes the Book That Names Algebra",
+        "body": "Working at Baghdad's House of Wisdom, the mathematician al-Khwarizmi completes Al-Jabr, a treatise systematizing the solution of linear and quadratic equations that later gives algebra its name and becomes Europe's standard mathematics textbook for centuries after its Latin translation.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Al-Jabr",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Image-Al-Kit%C4%81b_al-mu%E1%B8%ABta%E1%B9%A3ar_f%C4%AB_%E1%B8%A5is%C4%81b_al-%C4%9Fabr_wa-l-muq%C4%81bala.jpg",
+        "imageAttribution": "Public domain, via Wikimedia Commons",
+        "imageDescription": "A page from a manuscript copy of al-Khwarizmi's Al-Jabr.",
+        "wikidataId": "Q8369",
+        "location": {
+          "historicalName": "Baghdad",
+          "city": "Baghdad",
+          "country": "Iraq",
+          "latitude": 33.31527778,
+          "longitude": 44.36611111
+        }
+      },
+      {
         "year": 830,
         "sig": "minor",
         "tags": [
@@ -4125,6 +4290,136 @@
         }
       },
       {
+        "year": 869,
+        "sig": "major",
+        "tags": [
+          "rebellion"
+        ],
+        "title": "The Zanj Rebellion Convulses Southern Iraq",
+        "body": "Enslaved and freed Africans led by Ali ibn Muhammad rise up near Basra, building fortresses and a navy that hold off Abbasid armies for fourteen years -- a revolt so costly that it lets provincial strongmen in Egypt and the east break away while the caliphate is consumed fighting it.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Zanj_Rebellion",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Zanj_Rebellion.svg/330px-Zanj_Rebellion.svg.png",
+        "imageAttribution": "Map by Ro4444, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A map of the Abbasid Caliphate showing the region affected by the Zanj Rebellion.",
+        "wikidataId": "Q759988",
+        "location": {
+          "historicalName": "Basra",
+          "city": "Basra",
+          "country": "Iraq",
+          "latitude": 30.515,
+          "longitude": 47.81
+        }
+      },
+      {
+        "year": 909,
+        "sig": "major",
+        "tags": [
+          "founding",
+          "religion"
+        ],
+        "title": "The Fatimid Caliphate Is Founded in North Africa",
+        "body": "Abdallah al-Mahdi Billah proclaims himself caliph at Raqqada in Ifriqiya, founding a rival Isma'ili Shia caliphate that rejects Abbasid authority and will go on to rule an empire stretching from North Africa to Egypt and the Hejaz.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Fatimid_Caliphate",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Fatimid_Caliphate.PNG/330px-Fatimid_Caliphate.PNG",
+        "imageAttribution": "Map by Omar-toons, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "A map of the Fatimid Caliphate's territory over the course of its history.",
+        "wikidataId": "Q160307",
+        "location": {
+          "historicalName": "Raqqada",
+          "city": "Raqqada",
+          "country": "Tunisia",
+          "latitude": 35.596243,
+          "longitude": 10.0569
+        }
+      },
+      {
+        "year": 929,
+        "sig": "major",
+        "tags": [
+          "founding",
+          "governance"
+        ],
+        "title": "Abd al-Rahman III Proclaims Himself Caliph",
+        "body": "Facing a challenge to Sunni legitimacy from the rival Fatimid caliphs in North Africa, the emir of Córdoba Abd al-Rahman III declares himself caliph, elevating his state into the Caliphate of Córdoba and asserting religious authority equal to Baghdad's.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Abd_al-Rahman_III",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Dirham_abd_al_rahman_iii_20386.jpg/330px-Dirham_abd_al_rahman_iii_20386.jpg",
+        "imageAttribution": "Photo by Numismática Pliego, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A silver dirham minted under Abd al-Rahman III, the first Caliph of Córdoba.",
+        "wikidataId": "Q190418",
+        "location": {
+          "historicalName": "Córdoba",
+          "city": "Córdoba",
+          "country": "Spain",
+          "latitude": 37.89,
+          "longitude": -4.78
+        }
+      },
+      {
+        "year": 945,
+        "sig": "minor",
+        "tags": [
+          "governance"
+        ],
+        "title": "The Buyids Take Control of Baghdad",
+        "body": "The Daylamite warlord Ahmad ibn Buya conquers Baghdad and takes the title Mu'izz al-Dawla, reducing the Abbasid caliph to a powerless figurehead under Shia Buyid military rule for the next century.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Buyid_dynasty",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Buyids_970.png/330px-Buyids_970.png",
+        "imageAttribution": "Map by Ro4444, Public domain, via Wikimedia Commons",
+        "imageDescription": "A map of the three Buyid emirates around 970.",
+        "wikidataId": "Q273874",
+        "location": {
+          "historicalName": "Baghdad",
+          "city": "Baghdad",
+          "country": "Iraq",
+          "latitude": 33.31527778,
+          "longitude": 44.36611111
+        }
+      },
+      {
+        "year": 969,
+        "sig": "major",
+        "tags": [
+          "architecture",
+          "religion",
+          "science"
+        ],
+        "title": "The Fatimids Found Cairo and al-Azhar",
+        "body": "After conquering Egypt, Fatimid general Jawhar al-Siqilli lays out a new fortified capital, al-Qahira (Cairo), and founds the mosque of al-Azhar beside it -- soon to grow into one of the Islamic world's foremost centers of learning.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Al-Azhar_Mosque",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Mosqu%C3%A9e_Al-Azhar.jpg/330px-Mosqu%C3%A9e_Al-Azhar.jpg",
+        "imageAttribution": "Photo by Wildoo78, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "The Al-Azhar Mosque in Cairo.",
+        "wikidataId": "Q312342",
+        "location": {
+          "historicalName": "al-Qahira",
+          "city": "Cairo",
+          "country": "Egypt",
+          "latitude": 30.04444444,
+          "longitude": 31.23583333
+        }
+      },
+      {
+        "year": 1031,
+        "sig": "major",
+        "tags": [
+          "collapse"
+        ],
+        "title": "The Caliphate of Córdoba Dissolves Into Taifa Kingdoms",
+        "body": "Two decades of civil war following the death of the military strongman al-Mansur splinter the Caliphate of Córdoba into dozens of competing Taifa kingdoms, ending unified Umayyad rule in al-Andalus for good.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Taifa",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Taifas2.gif/330px-Taifas2.gif",
+        "imageAttribution": "Map by Falconaumanni, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A map of the Taifa kingdoms that emerged from the Caliphate of Córdoba's collapse.",
+        "wikidataId": "Q217177",
+        "location": {
+          "historicalName": "Córdoba",
+          "city": "Córdoba",
+          "country": "Spain",
+          "latitude": 37.89,
+          "longitude": -4.78
+        }
+      },
+      {
         "year": 1055,
         "sig": "minor",
         "tags": [
@@ -4143,6 +4438,27 @@
           "country": "Iraq",
           "latitude": 33.31527778,
           "longitude": 44.36611111
+        }
+      },
+      {
+        "year": 1171,
+        "sig": "major",
+        "tags": [
+          "collapse"
+        ],
+        "title": "Saladin Ends Fatimid Rule in Egypt",
+        "body": "Saladin abolishes the Fatimid Caliphate on the death of its last caliph and restores nominal Abbasid authority over Egypt, founding the Ayyubid dynasty and closing out the two-century-old Shia caliphate centered on Cairo.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Saladin",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Al-Nasir_I_Salah_al-Din_Yusuf_%28Saladin%29._AH_564-589_%281169-1193_CE%29_%C3%86_Dirham_%2830.1mm%2C_13.28_g%2C_6h%29._Without_mint-name._Dated_AH_586_%28AD_1190-91%29._Sultan_sitting_facing%2C_cross-legged%2C_on_high-backed_throne_%28obverse%29.jpg/330px-thumbnail.jpg",
+        "imageAttribution": "Photo by Classical Numismatic Group, CC BY-SA 2.5, via Wikimedia Commons",
+        "imageDescription": "A silver dirham of Saladin, founder of the Ayyubid dynasty.",
+        "wikidataId": "Q8581",
+        "location": {
+          "historicalName": "Cairo",
+          "city": "Cairo",
+          "country": "Egypt",
+          "latitude": 30.04444444,
+          "longitude": 31.23583333
         }
       },
       {

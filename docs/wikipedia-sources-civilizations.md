@@ -1151,6 +1151,82 @@ Wisdom (830) and the Mongol sack of Baghdad (1258) with nothing in between.
   other topic -- fixed by re-querying the imageinfo API for the real thumbnail URL rather
   than trusting the guess.
 
+### Gap-filling enrichment — 2026-08-06
+
+Not yet re-merged into live seed data -- this is a research pass only; merging is a
+separate step.
+
+The original 8-event pass covered the Hijra, the Rashidun founding, the Umayyad and
+Abbasid foundings, Tours, the House of Wisdom, the Seljuk takeover, and the Mongol sack --
+but left the Rashidun conquests themselves unrepresented, skipped the entire First
+Fitna/Karbala rupture that founded the Sunni-Shia split, had no Umayyad-era architecture
+or administrative history, and never mentioned either of the caliphate's two great rival
+successor states: the Umayyad Emirate/Caliphate of Córdoba in al-Andalus or the Fatimid
+Caliphate in North Africa and Egypt. Fifteen events added to close these gaps, merged
+into the existing `events[]` and re-sorted chronologically (now 23 events total).
+
+| Event | Year | Article | Wikidata | Tags | Image credit |
+|---|---|---|---|---|---|
+| Rashidun army shatters Byzantine power at Yarmouk | 636 AD | [Battle of the Yarmuk](https://en.wikipedia.org/wiki/Battle_of_the_Yarmuk) | Q194226 | battle | Anonymous, 14th c. Catalonian manuscript, Public domain |
+| Qadisiyyah breaks Sasanian power in Iraq | 636 AD | [Battle of al-Qadisiyyah](https://en.wikipedia.org/wiki/Battle_of_al-Qadisiyyah) | Q836844 | battle | Shahnameh manuscript, Public domain |
+| The First Fitna splits the Muslim community | 656 AD | [First Fitna](https://en.wikipedia.org/wiki/First_Fitna) | Q1417059 | rebellion, battle, religion | Al Ameer son, CC BY-SA 4.0 (map) |
+| Husayn is killed at Karbala | 680 AD | [Battle of Karbala](https://en.wikipedia.org/wiki/Battle_of_Karbala) | Q626058 | religion, battle | Abbas Al-Musavi, Public domain (painting) |
+| The Dome of the Rock is completed in Jerusalem | 691 AD | [Dome of the Rock](https://en.wikipedia.org/wiki/Dome_of_the_Rock) | Q172077 | architecture, religion | Ludvig14, CC BY-SA 4.0 (photo) |
+| Abd al-Malik reforms coinage and administration | 697 AD | [Abd al-Malik ibn Marwan](https://en.wikipedia.org/wiki/Abd_al-Malik_ibn_Marwan) | Q36788 | governance | PHGCOM, Public domain (photo) |
+| Abd al-Rahman I founds the Emirate of Córdoba | 756 AD | [Abd al-Rahman I](https://en.wikipedia.org/wiki/Abd_al-Rahman_I) | Q29000 | founding | Numismática Pliego, CC BY-SA 3.0 (photo) |
+| Al-Khwarizmi writes the book that names algebra | 820 AD | [Al-Jabr](https://en.wikipedia.org/wiki/Al-Jabr) | Q8369 | science | Public domain (manuscript) |
+| The Zanj Rebellion convulses southern Iraq | 869 AD | [Zanj Rebellion](https://en.wikipedia.org/wiki/Zanj_Rebellion) | Q759988 | rebellion | Ro4444, CC BY-SA 3.0 (map) |
+| The Fatimid Caliphate is founded in North Africa | 909 AD | [Fatimid Caliphate](https://en.wikipedia.org/wiki/Fatimid_Caliphate) | Q160307 | founding, religion | Omar-toons, CC BY-SA 4.0 (map) |
+| Abd al-Rahman III proclaims himself caliph | 929 AD | [Abd al-Rahman III](https://en.wikipedia.org/wiki/Abd_al-Rahman_III) | Q190418 | founding, governance | Numismática Pliego, CC BY-SA 3.0 (photo) |
+| The Buyids take control of Baghdad | 945 AD | [Buyid dynasty](https://en.wikipedia.org/wiki/Buyid_dynasty) | Q273874 | governance | Ro4444, Public domain (map) |
+| The Fatimids found Cairo and al-Azhar | 969 AD | [Al-Azhar Mosque](https://en.wikipedia.org/wiki/Al-Azhar_Mosque) | Q312342 | architecture, religion, science | Wildoo78, CC BY-SA 4.0 (photo) |
+| The Caliphate of Córdoba dissolves into Taifa kingdoms | 1031 AD | [Taifa](https://en.wikipedia.org/wiki/Taifa) | Q217177 | collapse | Falconaumanni, CC BY-SA 3.0 (map) |
+| Saladin ends Fatimid rule in Egypt | 1171 AD | [Saladin](https://en.wikipedia.org/wiki/Saladin) | Q8581 | collapse | Classical Numismatic Group, CC BY-SA 2.5 (photo) |
+
+Locations:
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Battle of Yarmouk | Yarmouk | Yarmouk River, Syria | 32.814, 35.955 |
+| Battle of al-Qadisiyyah | Qadisiyyah | Kufa, Iraq | 32.03, 44.4 |
+| First Fitna | *(no single place -- multi-year civil war)* | -- | -- |
+| Battle of Karbala | Karbala | Karbala, Iraq | 32.617, 44.033 |
+| Dome of the Rock | Jerusalem | Jerusalem, Israel | 31.779, 35.226 |
+| Abd al-Malik's reforms | Damascus | Damascus, Syria | 33.513, 36.309 |
+| Founding of the Emirate of Córdoba | Córdoba | Córdoba, Spain | 37.89, -4.78 |
+| Al-Jabr | Baghdad | Baghdad, Iraq | 33.315, 44.366 |
+| Zanj Rebellion | Basra | Basra, Iraq | 30.515, 47.81 |
+| Fatimid Caliphate founded | Raqqada | Raqqada, Tunisia | 35.596, 10.057 |
+| Abd al-Rahman III's caliphate | Córdoba | Córdoba, Spain | 37.89, -4.78 |
+| Buyids take Baghdad | Baghdad | Baghdad, Iraq | 33.315, 44.366 |
+| Founding of Cairo and al-Azhar | al-Qahira | Cairo, Egypt | 30.044, 31.236 |
+| Taifa dissolution | Córdoba | Córdoba, Spain | 37.89, -4.78 |
+| Saladin ends Fatimid rule | Cairo | Cairo, Egypt | 30.044, 31.236 |
+
+Notes and judgment calls:
+
+- **Two rival successor caliphates now appear as real strands, not just the
+  Rashidun/Umayyad/Abbasid line**: the Umayyad Emirate of Córdoba (756), its elevation to
+  a full Caliphate under Abd al-Rahman III (929) explicitly in response to Fatimid
+  religious claims, and its 1031 dissolution into Taifa kingdoms; and the Fatimid
+  Caliphate's founding (909), its move to Cairo/al-Azhar (969), and its end under Saladin
+  (1171). These were previously invisible even though "Islamic Caliphates" as a topic
+  name implies more than one lineage.
+- **First Fitna has no `location`**: it's a multi-year civil war fought across several
+  named battles (Basra, Siffin, Nahrawan) rather than a single place, so the `location`
+  object is omitted entirely per the skill's guidance rather than picking one battle site
+  arbitrarily.
+- **Yarmouk (636) and Qadisiyyah (636) share a year but are kept as two separate
+  events**: they're different campaigns against different empires (Byzantine and Sasanian
+  respectively) fought roughly concurrently, both independently significant as the
+  conquests that opened the Levant and Iraq/Persia to Muslim rule.
+- **Karbala tagged `religion` and `battle`, not `rebellion`**: Husayn's small band was
+  making a stand rather than waging an uprising against an existing government it hoped
+  to overthrow: the lasting significance is doctrinal (the Sunni-Shia split and Ashura),
+  which the tags reflect.
+- **No new tags needed** -- everything added fit the existing vocabulary
+  (architecture/battle/collapse/founding/governance/rebellion/religion/science).
+
 ## Japan (topic id: `japan`) — pulled 2026-08-03
 
 Status: **merged into live seed data 2026-08-03** (`backend/src/history_zoomout/db/seed_data/civilizations.json`, new topic — not previously present) and reseeded. Re-merged 2026-08-06 with the 18-event enrichment pass below (now 28 events total) and reseeded again.
