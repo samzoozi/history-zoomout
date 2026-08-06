@@ -1153,9 +1153,7 @@ Wisdom (830) and the Mongol sack of Baghdad (1258) with nothing in between.
 
 ## Japan (topic id: `japan`) — pulled 2026-08-03
 
-Status: **new topic, not yet in `civilizations.json`** — file written to
-`data/wikipedia-data/japan.json` only; merging into the live seed and reseeding is a
-separate step.
+Status: **merged into live seed data 2026-08-03** (`backend/src/history_zoomout/db/seed_data/civilizations.json`, new topic — not previously present) and reseeded. Re-merged 2026-08-06 with the 18-event enrichment pass below (now 28 events total) and reseeded again.
 
 Unlike the other topics here, Japan has no fall/conquest/dissolution to end on --
 statehood continues to the present. Framed the topic as "pre-modern Japan," ending at
