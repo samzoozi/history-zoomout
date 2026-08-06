@@ -4,7 +4,7 @@ description: >
   Research a topic (civilization, country, sport, or any future category) from
   Wikipedia and produce a reviewed seed-data JSON file plus a tracking-doc entry,
   in this project's Topic/Event/Location shape. Also handles enriching an
-  already-researched topic with more events targeting specific tags (e.g. "find
+  already-researched topic with more events on an under-covered theme (e.g. "find
   more art and governance events for Persia"). Use when asked to pull, source,
   research, or extract Wikipedia data for a topic -- e.g. "get data for Egypt",
   "source the Rome topic from Wikipedia", "do the same thing you did for Persia
@@ -78,6 +78,20 @@ the historical name), `latitude`, `longitude`. Omit the whole `location` object 
 there's no natural single place for the event (e.g. a broad campaign or long institutional
 change); set individual fields `null` rather than guessing when a coordinate genuinely
 isn't findable but the city/country still is.
+
+## Research goal vs. tags
+
+The research target is always **events about the topic that are genuinely interesting
+and significant to readers** -- the kind of thing a knowledgeable, curious person would
+want to know about that topic. Tags are a filtering/organizational layer applied to
+whichever events clear that bar; they exist so readers can slice an already-good dataset
+by theme, not to define what counts as worth researching. This holds in both the
+full from-scratch Process below and Tag-focused enrichment mode -- when a pass is scoped
+to a theme (e.g. "find more art events for Persia"), the ask is still "find the
+genuinely interesting art-related events for this topic," not "produce N events that
+can be labeled `art`." If a theme turns up nothing that clears the significance bar,
+that's a legitimate outcome -- don't manufacture a marginal event just to give a tag
+another entry.
 
 ## Process
 
@@ -166,10 +180,11 @@ sake. For each:
 - Assign `tags` from the vocabulary gathered in step 3, based on what the event actually
   is (a battle, a founding, a religious event, an artistic/scientific/governance
   milestone, etc.) -- same by-judgment spirit as `sig`. An event can carry more than one
-  tag (e.g. Cyrus founding the Achaemenid Empire is both `founding` and `battle`). In
-  this normal research mode tags describe events you've already picked for
-  period-coverage reasons -- don't let which tags exist steer which events you research;
-  that's what Tag-focused enrichment mode (below) is for.
+  tag (e.g. Cyrus founding the Achaemenid Empire is both `founding` and `battle`). Tags
+  are always applied *after* an event is picked, describing what it already is -- never
+  the other way around. This holds in Tag-focused enrichment mode too (below): even
+  there, the research target is interesting events on a theme, and tags are how those
+  events get labeled once found.
 - Order the final list chronologically ascending (negative years = BC).
 
 ### 5. Images and attribution
@@ -265,17 +280,21 @@ same-place-different-name situation). `city`/`country` are today's.
 ## Tag-focused enrichment mode
 
 Use this instead of the standard Process flow when the ask is to deepen an
-already-researched topic's coverage of one or more specific tags (e.g. "Persia is all
-battles, find more art/governance/science events") rather than to research a topic from
-scratch. The difference from normal research: here the tag *is* the research target,
-not something assigned after the fact to events picked for other reasons.
+already-researched topic's coverage of one or more themes (e.g. "Persia is all battles,
+find more art/governance/science events") rather than to research a topic from scratch.
+The theme narrows *where* to look, same as it does in full research -- it is not a quota
+to fill. The research target is still genuinely interesting, significant events; tags
+are just how those events get labeled afterward so readers can filter by them (see
+"Research goal vs. tags" above). If a theme is genuinely thin for a topic -- there just
+isn't much art-related material for a given sub-period -- add what's real and stop
+there rather than stretching marginal events to hit a number.
 
 1. **Load the existing topic and tally its tags.** Read
    `data/wikipedia-data/<category>/<slug>.json` if it exists, otherwise pull the topic's
    current events from the merged seed data
    (`backend/src/history_zoomout/db/seed_data/`). Count events per tag so the gap is
    concrete, not a guess.
-2. **Confirm scope** if it isn't already precise: which tag(s), and roughly how many
+2. **Confirm scope** if it isn't already precise: which theme(s), and roughly how many
    events to add. Don't assume "fill every under-represented tag" without checking --
    the user may want just one theme.
 3. **Search by theme, across the full date range** -- not just turning points. For
@@ -285,7 +304,9 @@ not something assigned after the fact to events picked for other reasons.
    points: the "History"/"Culture"/"Legacy" sections of the topic's broad article, and
    the sub-period articles already identified during the topic's original research.
    `"minor"` `sig` is expected and fine here -- this mode exists specifically to surface
-   texture a turning-points-only pass would skip.
+   texture a turning-points-only pass would skip. Every event found still has to clear
+   the same bar as full research: a genuinely significant happening a reader would want
+   to know about, not a minor fact that merely happens to fit the theme.
 4. **Research and write each new event** the same way as Process step 4 -- verify facts,
    paraphrase (never copy Wikipedia's prose, see Copyright below), and assign `sig` and
    the full set of tags that fit, not just the one being targeted -- then steps 5 and 6

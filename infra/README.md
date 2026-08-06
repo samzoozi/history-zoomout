@@ -23,6 +23,24 @@ AWS CDK (Python) app defining History Zoomout's infrastructure.
     --secret-string "<neon connection string>" --region ca-central-1
   ```
 
+### Re-seeding production
+
+`history-zoomout-seed` (see `backend/README.md`) always seeds whatever `DATABASE_URL`
+points at. To reseed the live Neon database instead of local Postgres, pull the
+connection string out of Secrets Manager and export it first:
+
+```
+cd ../backend
+export DATABASE_URL=$(aws secretsmanager get-secret-value \
+  --secret-id history-zoomout/database-url \
+  --region ca-central-1 \
+  --query SecretString --output text)
+uv run history-zoomout-seed
+```
+
+This clears and reloads every topic/event/location from `civilizations.json` — same
+destructive-but-idempotent behavior as the local re-seed, just pointed at production.
+
 ## Usage
 
 Managed with [uv](https://docs.astral.sh/uv/); `cdk.json` invokes the app via `uv run python app.py`,
