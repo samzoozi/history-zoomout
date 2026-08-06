@@ -2040,6 +2040,67 @@ single site standing in for the whole invasion, unlike every other event in this
   painting of the battle -- was a stronger visual match than the Flateyjarbók
   manuscript page found via the person's article.
 
+### Enrichment pass — pulled 2026-08-06
+
+Status: **merged into live seed data 2026-08-06** (`backend/src/history_zoomout/db/seed_data/civilizations.json`) and reseeded (local dev database). The original 11-event pass
+was entirely political/military (foundings and battles, plus one religion event) with
+no governance, art, or trade/eastern-diaspora coverage -- the same skew the skill's
+process warns against. Added 6 events spanning governance, art, and the Rus'
+diaspora's eastward reach into Byzantium, taking the topic from 11 to 17 events. The
+existing `data/wikipedia-data/civilization/vikings.json` file was also brought back in
+sync with the live seed's `tags` field, which it had been missing entirely (a gap from
+before tags existed in this dataset -- carried the seed's existing tag assignments over
+unchanged rather than editorializing on them while doing an unrelated pass).
+
+**New events:**
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| The Oseberg ship burial | 834 | [Oseberg ship](https://en.wikipedia.org/wiki/Oseberg_ship) | Q832395 | Petter Ulleland (photo), CC BY-SA 4.0 |
+| Alfred the Great defeats Guthrum at Edington | 878 | [Battle of Edington](https://en.wikipedia.org/wiki/Battle_of_Edington) | Q2305651 | Trish Steel (photo, memorial stone), CC BY-SA 2.0 |
+| Icelandic settlers found the Althing at Þingvellir | 930 | [Althing](https://en.wikipedia.org/wiki/Althing) | Q131279 | W. G. Collingwood (painting), Public domain |
+| Byzantine emperor Basil II forms the Varangian Guard | 988 | [Varangian Guard](https://en.wikipedia.org/wiki/Varangian_Guard) | Q1464130 | Unknown (Piraeus Lion runestone photo), Public domain |
+| Iceland adopts Christianity by vote of the Althing | 1000 | [Christianization of Iceland](https://en.wikipedia.org/wiki/Christianization_of_Iceland) | Q2965816 | Andreas Tille (photo, Goðafoss), CC BY-SA 4.0 |
+| Brian Boru breaks Viking power at Clontarf | 1014 | [Battle of Clontarf](https://en.wikipedia.org/wiki/Battle_of_Clontarf) | Q868027 | Hugh Frazer (1826 painting), Public domain |
+
+**New event locations:**
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Oseberg ship burial | Oseberg | Tønsberg, Norway | 59.268, 10.408 |
+| Battle of Edington | Edington | Edington, United Kingdom | 51.277, -2.106 |
+| Althing founded | Þingvellir | Þingvellir, Iceland | 64.254, -21.037 |
+| Varangian Guard formed | Constantinople | Istanbul, Turkey | 41.013, 28.980 |
+| Iceland adopts Christianity | Þingvellir | Þingvellir, Iceland | 64.254, -21.037 |
+| Battle of Clontarf | Clontarf | Dublin, Ireland | 53.365, -6.210 |
+
+Oseberg has no coordinates on its own article -- used Tønsberg, the nearest named
+modern town, per the skill's fallback pattern.
+
+**Corrections / decisions made:**
+
+- **Piraeus Lion image has no `Artist` field in its Commons extmetadata.** Per this
+  project's relaxed image-attribution guidance, used it anyway since it carries a clear
+  license (public domain) and a real description (runic inscriptions naming the
+  Varangians/Swedish warriors who served as Byzantine mercenaries) -- credited the named
+  work ("Photo of the Piraeus Lion") in place of a missing artist.
+- **Iceland's Christianization (1000) and Leif Erikson's Vinland voyage (1000) share a
+  year** -- both are conventional/traditional dates rather than exactly-dated events, so
+  no ordering significance was implied between them; they're simply adjacent in the
+  chronological list.
+- **Christianization of Iceland's image is Goðafoss, not Þingvellir**, even though the
+  event's `location` is set to Þingvellir (where the Althing vote actually happened).
+  The waterfall illustrates the well-known legend, mentioned in the body, that lawspeaker
+  Thorgeir cast his pagan idols into it after the vote -- kept as the image since it's a
+  more visually distinctive and directly-cited detail than a generic site photo of
+  Þingvellir, which is already used for the Althing-founding event two entries earlier.
+- **Considered but not added:** the Siege of Paris (845) and Sweyn Forkbeard's 1013
+  conquest of England. Siege of Paris would be additive but Rollo's Normandy founding
+  (911) already covers the Viking-Francia thread; Sweyn's conquest is largely redundant
+  with his son Cnut's already-covered 1016 event one entry later, since the political
+  substance (a Danish king briefly holding the English throne) is the same beat told
+  twice three years apart.
+
 ## Mughal Empire (topic id: `mughal`) — pulled 2026-08-03
 
 Status: **merged into live seed data 2026-08-03** (`backend/src/history_zoomout/db/seed_data/civilizations.json`, new topic — not previously present) and reseeded. `colorIndex: 3` is the next unused value continuing the

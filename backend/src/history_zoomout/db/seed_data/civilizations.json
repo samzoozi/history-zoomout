@@ -6208,6 +6208,27 @@
         }
       },
       {
+        "year": 834,
+        "sig": "major",
+        "tags": [
+          "art"
+        ],
+        "title": "The Oseberg Ship Burial",
+        "body": "A richly furnished ship burial at Oseberg near Tønsberg interns two women, likely a high-status woman and a companion, alongside carved sleighs, a wagon, and textiles worked in the ornate Viking \"gripping beast\" style. Excavated in 1904, it remains the best-preserved trove of Viking Age art and craftsmanship yet found.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Oseberg_ship",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Osebergskipet_2016.jpg/330px-Osebergskipet_2016.jpg",
+        "imageAttribution": "Photo by Petter Ulleland, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "The excavated Oseberg ship on display at the Viking Ship Museum in Oslo.",
+        "wikidataId": "Q832395",
+        "location": {
+          "historicalName": "Oseberg",
+          "city": "Tønsberg",
+          "country": "Norway",
+          "latitude": 59.26753,
+          "longitude": 10.40763
+        }
+      },
+      {
         "year": 841,
         "sig": "minor",
         "tags": [
@@ -6307,6 +6328,27 @@
         }
       },
       {
+        "year": 878,
+        "sig": "major",
+        "tags": [
+          "battle"
+        ],
+        "title": "Alfred the Great Defeats Guthrum at Edington",
+        "body": "King Alfred of Wessex routs Guthrum's Great Heathen Army at Edington in Wiltshire, reversing years of Viking advances after months in hiding at Athelney. Guthrum accepts baptism and the Treaty of Wedmore, fixing the boundary that becomes the Danelaw and securing Wessex as the last independent Anglo-Saxon kingdom.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Edington",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Ethandunmem.jpg/330px-Ethandunmem.jpg",
+        "imageAttribution": "Photo by Trish Steel, CC BY-SA 2.0, via Wikimedia Commons",
+        "imageDescription": "A memorial stone marking the site of the Battle of Edington near Bratton Castle, Wiltshire.",
+        "wikidataId": "Q2305651",
+        "location": {
+          "historicalName": "Edington",
+          "city": "Edington",
+          "country": "United Kingdom",
+          "latitude": 51.277,
+          "longitude": -2.106
+        }
+      },
+      {
         "year": 911,
         "sig": "major",
         "tags": [
@@ -6325,6 +6367,28 @@
           "country": "France",
           "latitude": 49.44277778,
           "longitude": 1.08861111
+        }
+      },
+      {
+        "year": 930,
+        "sig": "major",
+        "tags": [
+          "founding",
+          "governance"
+        ],
+        "title": "Icelandic Settlers Found the Althing at Þingvellir",
+        "body": "Iceland's free settlers convene the first Althing at Þingvellir, adopting a law code carried back from Norway by Úlfljótr and establishing an annual assembly where chieftains legislate and settle disputes at the Lögberg, the Law Rock. The gathering is often cited as the world's oldest surviving parliament.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Althing",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Law_speaker.jpg",
+        "imageAttribution": "Painting by W. G. Collingwood, public domain, via Wikimedia Commons",
+        "imageDescription": "A romanticized depiction of the Althing in session at Þingvellir.",
+        "wikidataId": "Q131279",
+        "location": {
+          "historicalName": "Þingvellir",
+          "city": "Þingvellir",
+          "country": "Iceland",
+          "latitude": 64.25380556,
+          "longitude": -21.03725
         }
       },
       {
@@ -6349,6 +6413,27 @@
         }
       },
       {
+        "year": 988,
+        "sig": "major",
+        "tags": [
+          "founding"
+        ],
+        "title": "Byzantine Emperor Basil II Forms the Varangian Guard",
+        "body": "In exchange for military aid against rebellious generals, Byzantine emperor Basil II receives 6,000 Rus' warriors from Vladimir I of Kiev and forms them into an elite imperial bodyguard, the Varangian Guard. Recruited from Scandinavia and Rus' lands with no local political ties, the unit serves Byzantine emperors for over three centuries.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Varangian_Guard",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Pireuslejonet.jpg",
+        "imageAttribution": "Photo of the Piraeus Lion, public domain, via Wikimedia Commons",
+        "imageDescription": "The Piraeus Lion in Venice, carved with runes describing Swedish warriors, likely Varangians, serving the Byzantine emperor.",
+        "wikidataId": "Q1464130",
+        "location": {
+          "historicalName": "Constantinople",
+          "city": "Istanbul",
+          "country": "Turkey",
+          "latitude": 41.0125,
+          "longitude": 28.98
+        }
+      },
+      {
         "year": 1000,
         "sig": "major",
         "tags": [],
@@ -6365,6 +6450,50 @@
           "country": "Canada",
           "latitude": 51.59638889,
           "longitude": -55.53333333
+        }
+      },
+      {
+        "year": 1000,
+        "sig": "major",
+        "tags": [
+          "religion",
+          "governance"
+        ],
+        "title": "Iceland Adopts Christianity by Vote of the Althing",
+        "body": "Facing a split between Christian and pagan factions that threatens civil war, the lawspeaker Thorgeir Ljósvetningagoði persuades the Althing to accept Christianity as Iceland's official religion in exchange for tolerating private pagan worship. Tradition holds that Thorgeir casts his own idols into the Goðafoss waterfall afterward.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Christianization_of_Iceland",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/GothafossOverview.jpg/500px-GothafossOverview.jpg",
+        "imageAttribution": "Photo by Andreas Tille, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "Goðafoss, the waterfall where Thorgeir is said to have cast his pagan idols after Iceland's conversion.",
+        "wikidataId": "Q2965816",
+        "location": {
+          "historicalName": "Þingvellir",
+          "city": "Þingvellir",
+          "country": "Iceland",
+          "latitude": 64.25380556,
+          "longitude": -21.03725
+        }
+      },
+      {
+        "year": 1014,
+        "sig": "major",
+        "tags": [
+          "battle",
+          "collapse"
+        ],
+        "title": "Brian Boru Breaks Viking Power at Clontarf",
+        "body": "High King Brian Boru's army defeats a Dublin-Leinster alliance backed by Viking forces from Orkney and the Isle of Man near Dublin, though Brian is killed after the fighting ends. The battle shatters the political dominance of the Norse kingdom of Dublin, which never again rules as an independent power in Ireland.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Clontarf",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/%27Battle_of_Clontarf%27%2C_oil_on_canvas_painting_by_Hugh_Frazer%2C_1826.jpg/330px-%27Battle_of_Clontarf%27%2C_oil_on_canvas_painting_by_Hugh_Frazer%2C_1826.jpg",
+        "imageAttribution": "Painting by Hugh Frazer, public domain, via Wikimedia Commons",
+        "imageDescription": "An 1826 oil painting depicting the Battle of Clontarf.",
+        "wikidataId": "Q868027",
+        "location": {
+          "historicalName": "Clontarf",
+          "city": "Dublin",
+          "country": "Ireland",
+          "latitude": 53.365,
+          "longitude": -6.21
         }
       },
       {
