@@ -4491,7 +4491,7 @@
     "colorIndex": 3,
     "start": 802,
     "end": 1431,
-    "summary": "Founded in 802 when Jayavarman II is consecrated as a universal monarch on Phnom Kulen, the Khmer Empire grows into the dominant power of mainland Southeast Asia, centered on the temple-city of Angkor. Its kings build an unmatched sequence of monuments, from Angkor Wat under Suryavarman II to the fortified capital of Angkor Thom and the Bayon under Jayavarman VII, who rebuilds the empire after a Cham fleet sacks the capital in 1177. A Chinese envoy's eyewitness account of Angkor at the turn of the 14th century survives as one of the empire's only outside records, but repeated wars with the rising Siamese kingdom of Ayutthaya erode Khmer power until Angkor itself is captured and abandoned in 1431.",
+    "summary": "Founded in 802 when Jayavarman II is consecrated as a universal monarch on Phnom Kulen, the Khmer Empire grows into the dominant power of mainland Southeast Asia, centered on the temple-city of Angkor. Its kings build an unmatched sequence of monuments and hydraulic works, from Indravarman I's first sandstone temple-mountain to Angkor Wat under Suryavarman II and the fortified capital of Angkor Thom under Jayavarman VII, who rebuilds the empire after a Cham fleet sacks the capital in 1177 and endows it with hospitals and highways. The state religion swings between Hinduism and Buddhism more than once, settling permanently on Theravada Buddhism by the end of the 13th century, even as a Chinese envoy's eyewitness account of Angkor survives as one of the empire's only outside records. Repeated wars with the rising Siamese kingdom of Ayutthaya erode Khmer power over the empire's final century until Angkor itself is captured and abandoned in 1431.",
     "sourceUrl": "https://en.wikipedia.org/wiki/Khmer_Empire",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Map-of-southeast-asia_900_CE.svg/330px-Map-of-southeast-asia_900_CE.svg.png",
     "imageAttribution": "Map by Jembezmamy, CC0, via Wikimedia Commons",
@@ -4521,6 +4521,28 @@
         }
       },
       {
+        "year": 881,
+        "sig": "major",
+        "tags": [
+          "architecture",
+          "science"
+        ],
+        "title": "Indravarman I Builds Bakong and a New Reservoir",
+        "body": "At his capital of Hariharalaya, Indravarman I dedicates Bakong, the first Khmer temple-mountain built entirely of sandstone, and completes the Indratataka, a reservoir over three kilometers long that establishes the water-management system that will sustain Angkor for centuries.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Bakong",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Roulos_Group_-_005_Bakong_%288587796725%29.jpg/330px-Roulos_Group_-_005_Bakong_%288587796725%29.jpg",
+        "imageAttribution": "Photo by Photo Dharma, CC BY 2.0, via Wikimedia Commons",
+        "imageDescription": "Bakong, the sandstone temple-mountain Indravarman I built as his state temple at Hariharalaya.",
+        "wikidataId": "Q788982",
+        "location": {
+          "historicalName": "Hariharalaya",
+          "city": "Roluos",
+          "country": "Cambodia",
+          "latitude": 13.34,
+          "longitude": 103.97
+        }
+      },
+      {
         "year": 900,
         "sig": "minor",
         "tags": [
@@ -4534,6 +4556,73 @@
         "imageAttribution": "Photo by Satdeep Gill, CC BY-SA 4.0, via Wikimedia Commons",
         "imageDescription": "Phnom Bakheng, the Shiva temple-mountain at the center of Yasovarman I's new capital, Yasodharapura.",
         "wikidataId": "Q559810",
+        "location": {
+          "historicalName": "Yasodharapura",
+          "city": "Angkor",
+          "country": "Cambodia",
+          "latitude": 13.4125,
+          "longitude": 103.866667
+        }
+      },
+      {
+        "year": 900,
+        "sig": "minor",
+        "tags": [
+          "science",
+          "architecture"
+        ],
+        "title": "Yasovarman I Completes the East Baray",
+        "body": "King Yasovarman I finishes the East Baray, an artificial reservoir more than seven kilometers long holding over 36 million cubic meters of water, part of the hydraulic network that comes to define the city of Angkor.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/East_Baray",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Mebon_Oriental%2C_Angkor%2C_Camboya%2C_2013-08-17%2C_DD_05.JPG/330px-Mebon_Oriental%2C_Angkor%2C_Camboya%2C_2013-08-17%2C_DD_05.JPG",
+        "imageAttribution": "Photo by Diego Delso, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "The East Mebon temple, built on what was once an island at the center of the East Baray reservoir.",
+        "wikidataId": "Q307080",
+        "location": {
+          "historicalName": "Yasodharapura",
+          "city": "Angkor",
+          "country": "Cambodia",
+          "latitude": 13.45,
+          "longitude": 103.92
+        }
+      },
+      {
+        "year": 967,
+        "sig": "minor",
+        "tags": [
+          "art",
+          "religion",
+          "architecture"
+        ],
+        "title": "Courtiers Consecrate Banteay Srei",
+        "body": "Royal counsellors Yajnavaraha and Vishnukumara dedicate Banteay Srei, a Hindu temple whose pink sandstone reliefs are carved with a delicacy closer to goldsmithing than stonework, making it one of the empire's finest artistic achievements even though no king ever commissioned it.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Banteay_Srei",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Stone_bas_relief_at_Banteay_Srei_in_Cambodia_from_front.jpg/330px-Stone_bas_relief_at_Banteay_Srei_in_Cambodia_from_front.jpg",
+        "imageAttribution": "Photo of a Banteay Srei bas relief, public domain, via Wikipedia",
+        "imageDescription": "A carved sandstone relief at Banteay Srei, showing the temple's intricate ornamental style.",
+        "wikidataId": "Q790099",
+        "location": {
+          "historicalName": "Banteay Srei",
+          "city": "Angkor",
+          "country": "Cambodia",
+          "latitude": 13.6,
+          "longitude": 103.96
+        }
+      },
+      {
+        "year": 1010,
+        "sig": "major",
+        "tags": [
+          "governance",
+          "rebellion"
+        ],
+        "title": "Suryavarman I Ends a Civil War and Reforms the Bureaucracy",
+        "body": "After nearly a decade of war against rival claimant Jayavirahvarman, Suryavarman I secures undisputed control of Angkor and summons some 4,000 local officials to the royal palace to swear a personal oath of allegiance, binding the empire's administration directly to the throne.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Suryavarman_I",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Phimeanakas%2C_Angkor_Thom%2C_Camboya%2C_2013-08-16%2C_DD_09.jpg/330px-Phimeanakas%2C_Angkor_Thom%2C_Camboya%2C_2013-08-16%2C_DD_09.jpg",
+        "imageAttribution": "Photo by Diego Delso, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "Phimeanakas, the royal palace temple at Angkor associated with Suryavarman I's era.",
+        "wikidataId": "Q501356",
         "location": {
           "historicalName": "Yasodharapura",
           "city": "Angkor",
@@ -4609,6 +4698,84 @@
         }
       },
       {
+        "year": 1186,
+        "sig": "major",
+        "tags": [
+          "governance",
+          "science"
+        ],
+        "title": "Jayavarman VII Builds a Network of Hospitals",
+        "body": "As part of his reconstruction of the empire, Jayavarman VII endows 102 hospital chapels across the kingdom, among them Ta Prohm Kel near Angkor Thom, alongside a network of roads lined with rest houses every fifteen kilometers for travelers.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Ta_Prohm_Kel",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Ta_Prohm_Kel4.JPG/330px-Ta_Prohm_Kel4.JPG",
+        "imageAttribution": "Photo by Arabsalam, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "Ta Prohm Kel, one of the 102 hospital chapels built across the empire under Jayavarman VII.",
+        "wikidataId": "Q15530942",
+        "location": {
+          "historicalName": "Ta Prohm Kel",
+          "city": "Angkor",
+          "country": "Cambodia",
+          "latitude": 13.42,
+          "longitude": 103.86
+        }
+      },
+      {
+        "year": 1243,
+        "sig": "major",
+        "tags": [
+          "religion"
+        ],
+        "title": "Jayavarman VIII Reverses Course to Hinduism",
+        "body": "Breaking with three generations of royal Buddhist patronage, King Jayavarman VIII restores Shaivite Hinduism as the state religion, ordering Buddha images defaced or removed from temples across the empire, including the central Buddha at the Bayon, which is cast into a well.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Jayavarman_VIII",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Prasat_Bayon_2014.JPG/330px-Prasat_Bayon_2014.JPG",
+        "imageAttribution": "Photo by Dmitry A. Mottl, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "The Bayon at Angkor Thom, where Jayavarman VIII's iconoclasm reportedly cast the temple's central Buddha image into a well.",
+        "wikidataId": "Q879224",
+        "location": {
+          "historicalName": "Angkor Thom",
+          "city": "Angkor",
+          "country": "Cambodia",
+          "latitude": 13.4125,
+          "longitude": 103.866667
+        }
+      },
+      {
+        "year": 1285,
+        "sig": "minor",
+        "tags": [
+          "governance"
+        ],
+        "title": "Jayavarman VIII Buys Peace With the Mongol Yuan Court",
+        "body": "As Kublai Khan's Yuan fleet campaigns against neighboring Champa, Jayavarman VIII avoids the same fate by submitting Khmer tribute to the Mongol court, a relationship of gifts and missions that continues for years afterward and keeps the empire outside the Yuan conquests reshaping mainland Southeast Asia.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Jayavarman_VIII",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/YuanEmperorAlbumKhubilaiPortrait.jpg/330px-YuanEmperorAlbumKhubilaiPortrait.jpg",
+        "imageAttribution": "Painting by Araniko, public domain, via Wikimedia Commons",
+        "imageDescription": "A court portrait of Kublai Khan, the Yuan emperor whose fleet campaigned through mainland Southeast Asia in the 1280s."
+      },
+      {
+        "year": 1295,
+        "sig": "major",
+        "tags": [
+          "religion",
+          "rebellion"
+        ],
+        "title": "Indravarman III Makes Theravada Buddhism the State Religion",
+        "body": "Indravarman III deposes his father-in-law Jayavarman VIII and takes the throne as a devout follower of Theravada Buddhism, which he establishes as the state religion, a change that endures long after the empire itself collapses.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Indravarman_III",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Preah_Khan_Lokesvara.jpg/330px-Preah_Khan_Lokesvara.jpg",
+        "imageAttribution": "Photo by Cerie1914, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "A Buddhist statue of the bodhisattva Lokesvara from Preah Khan temple at Angkor.",
+        "wikidataId": "Q7495118",
+        "location": {
+          "historicalName": "Angkor Thom",
+          "city": "Angkor",
+          "country": "Cambodia",
+          "latitude": 13.4125,
+          "longitude": 103.866667
+        }
+      },
+      {
         "year": 1296,
         "sig": "minor",
         "tags": [],
@@ -4621,6 +4788,70 @@
         "wikidataId": "Q197958",
         "location": {
           "historicalName": "Angkor",
+          "city": "Angkor",
+          "country": "Cambodia",
+          "latitude": 13.4125,
+          "longitude": 103.866667
+        }
+      },
+      {
+        "year": 1353,
+        "sig": "major",
+        "tags": [
+          "battle"
+        ],
+        "title": "Ayutthaya Captures Angkor for the First Time",
+        "body": "After a siege of nearly a year and a half, King Uthong's Siamese army from the newly founded Ayutthaya Kingdom captures Angkor, installs his son as a puppet ruler over the Khmer, and carries prisoners and treasure back to the new Siamese capital.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Angkor",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Angkor_Thom_South_Gate%2C_Angkor_-_panoramio.jpg/330px-Angkor_Thom_South_Gate%2C_Angkor_-_panoramio.jpg",
+        "imageAttribution": "Photo by Colin W, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "The south gate of Angkor Thom, the fortified capital that Ayutthaya's army besieged and captured in 1353.",
+        "wikidataId": "Q24945556",
+        "location": {
+          "historicalName": "Angkor Thom",
+          "city": "Angkor",
+          "country": "Cambodia",
+          "latitude": 13.4125,
+          "longitude": 103.866667
+        }
+      },
+      {
+        "year": 1357,
+        "sig": "minor",
+        "tags": [
+          "battle"
+        ],
+        "title": "Khmer Forces Retake Angkor From Siamese Rule",
+        "body": "After years in exile, Prince Suryavamsa Rajadhiraja leads an army back to Angkor, drives out the Siamese garrison installed after the 1353 capture, and reclaims the throne, though the reprieve from Ayutthayan pressure proves temporary.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Angkor",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Angkor_Thom_east_gate_eastern_approach.jpg/330px-Angkor_Thom_east_gate_eastern_approach.jpg",
+        "imageAttribution": "Photo by Stephen Bain, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "The east gate of Angkor Thom, known as the Gate of the Dead.",
+        "wikidataId": "Q24945556",
+        "location": {
+          "historicalName": "Angkor Thom",
+          "city": "Angkor",
+          "country": "Cambodia",
+          "latitude": 13.4125,
+          "longitude": 103.866667
+        }
+      },
+      {
+        "year": 1393,
+        "sig": "major",
+        "tags": [
+          "battle",
+          "collapse"
+        ],
+        "title": "Ayutthaya Captures Angkor a Second Time",
+        "body": "Following the death of the Khmer king, Siamese King Ramesuan besieges and captures Angkor once more, installs a vassal ruler, and deports tens of thousands of Khmer captives to Ayutthaya, a blow the empire never fully recovers from before its final fall in 1431.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Angkor",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Wat_Phra_Sri_Sanphet%2C_Ayutthaya_Historical_Park%2C_Thailand.jpg/330px-Wat_Phra_Sri_Sanphet%2C_Ayutthaya_Historical_Park%2C_Thailand.jpg",
+        "imageAttribution": "Photo by Sabyk2001, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "Wat Phra Si Sanphet in Ayutthaya, the Siamese capital whose kings twice captured Angkor in the empire's final century.",
+        "wikidataId": "Q24945556",
+        "location": {
+          "historicalName": "Angkor Thom",
           "city": "Angkor",
           "country": "Cambodia",
           "latitude": 13.4125,

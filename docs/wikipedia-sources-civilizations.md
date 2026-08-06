@@ -2283,6 +2283,101 @@ coordinates).
   Angkor's abandonment, similar in spirit to Vikings' image swap to a directly-tied site
   photo over a more generic option.
 
+### Gap-filling enrichment — 2026-08-06
+
+Not yet re-merged into live seed data -- this is a research pass only; merging is a
+separate step. Note: the live-merged copy of this topic already carries `tags` on every
+event (added during the original 2026-08-03 merge, evidently by hand rather than by this
+skill), while the `data/wikipedia-data/civilization/khmer.json` file on disk before this
+pass did not. This pass pulled the live tags forward into the JSON file so it matches
+what's actually deployed, then added the eleven new events below with tags of their own,
+so the file is now the accurate superset going into any future merge.
+
+The original 7-event pass covered the founding, the move to Yasodharapura, Angkor Wat,
+the Cham sack, Jayavarman VII's recovery, Zhou Daguan's visit, and the 1431 fall -- but
+had zero events tagged `science`, `governance`, `art`, or `rebellion`, only one
+`collapse` event, and skipped entire reigns: Indravarman I's founding building program,
+the succession war that brought Suryavarman I to power, the two-century swing from
+Buddhism back to Hinduism and permanently to Theravada Buddhism under Jayavarman VII's
+13th-century successors, the Mongol Yuan threat, and two Ayutthaya captures of Angkor
+before the final one in 1431. Eleven events added to close these gaps, merged into the
+existing `events[]` and re-sorted chronologically (now 18 events total).
+
+| Event | Year | Article | Wikidata | Tags | Image credit |
+|---|---|---|---|---|---|
+| Indravarman I builds Bakong and a new reservoir | 881 | [Bakong](https://en.wikipedia.org/wiki/Bakong) | Q788982 | architecture, science | Photo Dharma, CC BY 2.0 (photo) |
+| Yasovarman I completes the East Baray | 900 | [East Baray](https://en.wikipedia.org/wiki/East_Baray) | Q307080 | science, architecture | Diego Delso, CC BY-SA 3.0 (photo of East Mebon) |
+| Courtiers consecrate Banteay Srei | 967 | [Banteay Srei](https://en.wikipedia.org/wiki/Banteay_Srei) | Q790099 | art, religion, architecture | Public domain (bas relief photo) |
+| Suryavarman I ends a civil war and reforms the bureaucracy | 1010 | [Suryavarman I](https://en.wikipedia.org/wiki/Suryavarman_I) | Q501356 | governance, rebellion | Diego Delso, CC BY-SA 3.0 (photo of Phimeanakas) |
+| Jayavarman VII builds a network of hospitals | 1186 | [Ta Prohm Kel](https://en.wikipedia.org/wiki/Ta_Prohm_Kel) | Q15530942 | governance, science | Arabsalam, CC BY-SA 3.0 (photo) |
+| Jayavarman VIII reverses course to Hinduism | 1243 | [Jayavarman VIII](https://en.wikipedia.org/wiki/Jayavarman_VIII) | Q879224 | religion | Dmitry A. Mottl, CC BY-SA 4.0 (photo of the Bayon) |
+| Jayavarman VIII buys peace with the Mongol Yuan court | 1285 | [Jayavarman VIII](https://en.wikipedia.org/wiki/Jayavarman_VIII) | Q879224 | governance | Araniko, public domain (portrait of Kublai Khan) |
+| Indravarman III makes Theravada Buddhism the state religion | 1295 | [Indravarman III](https://en.wikipedia.org/wiki/Indravarman_III) | Q7495118 | religion, rebellion | Cerie1914, CC BY-SA 4.0 (photo of a Preah Khan statue) |
+| Ayutthaya captures Angkor for the first time | 1353 | [Fall of Angkor](https://en.wikipedia.org/wiki/Fall_of_Angkor) | Q24945556 | battle | Colin W, CC BY-SA 3.0 (photo of Angkor Thom's south gate) |
+| Khmer forces retake Angkor from Siamese rule | 1357 | [Fall of Angkor](https://en.wikipedia.org/wiki/Fall_of_Angkor) | Q24945556 | battle | Stephen Bain, CC BY-SA 4.0 (photo of Angkor Thom's east gate) |
+| Ayutthaya captures Angkor a second time | 1393 | [Fall of Angkor](https://en.wikipedia.org/wiki/Fall_of_Angkor) | Q24945556 | battle, collapse | Sabyk2001, CC BY-SA 4.0 (photo of Wat Phra Si Sanphet) |
+
+Locations:
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Indravarman I's Bakong and reservoir | Hariharalaya | Roluos, Cambodia | 13.34, 103.97 |
+| East Baray | Yasodharapura | Angkor, Cambodia | 13.45, 103.92 |
+| Banteay Srei | Banteay Srei | Angkor, Cambodia | 13.60, 103.96 |
+| Suryavarman I's reforms | Yasodharapura | Angkor, Cambodia | 13.4125, 103.866667 |
+| Jayavarman VII's hospitals | Ta Prohm Kel | Angkor, Cambodia | 13.42, 103.86 |
+| Jayavarman VIII's reversal to Hinduism | Angkor Thom | Angkor, Cambodia | 13.4125, 103.866667 |
+| Mongol tribute | *(no single place -- empire-wide diplomatic decision)* | -- | -- |
+| Indravarman III's Theravada shift | Angkor Thom | Angkor, Cambodia | 13.4125, 103.866667 |
+| 1353 Ayutthaya capture | Angkor Thom | Angkor, Cambodia | 13.4125, 103.866667 |
+| 1357 Khmer recapture | Angkor Thom | Angkor, Cambodia | 13.4125, 103.866667 |
+| 1393 Ayutthaya capture | Angkor Thom | Angkor, Cambodia | 13.4125, 103.866667 |
+
+Notes and judgment calls:
+
+- **Dropped a claimed 1268 Mongol invasion of Cambodia.** The Jayavarman VIII article
+  states a "Mongol army of approximately 300,000" invaded and was repelled by "100,000"
+  Khmer war elephants -- these figures are wildly out of scale for any documented Mongol
+  or Khmer military force of the era and aren't corroborated by the Mongol invasions of
+  Southeast Asia literature, so this was treated as unreliable and left out. The 1283
+  naval campaign and 1285 tribute are kept: they're corroborated by the historically
+  well-documented Yuan campaign against neighboring Champa under general Sagatu, and the
+  1291 tribute mission is independently attested in Chinese records cited by the same
+  article.
+- **The 1285 tribute event carries no `battle` tag and no `location`.** No Mongol force
+  is documented as having engaged Khmer territory directly -- the empire avoided invasion
+  precisely by paying tribute while the Yuan fleet campaigned against Champa -- so this
+  reads as a diplomatic/administrative decision (`governance`), not a military one, and
+  has no single physical site.
+- **Also skipped a same-article claim that Rajendravarman II "drove back the Cholas" in
+  947 and "captured the capital of Srivijaya" in 952.** Neither claim is corroborated
+  elsewhere (Chola-Khmer contact is otherwise first documented around 1012, under
+  Suryavarman I, and a Khmer capture of Srivijaya's own overseas capital isn't attested
+  in the wider literature), so no event was built from this and Rajendravarman
+  II's reign otherwise remains uncovered by this pass.
+- **"Indravarman III" is the correct title, not "Srindravarman."** The REST summary for
+  `/wiki/Srindravarman` actually resolves to the "Indravarman III" article/title
+  (`Srindravarman` is a secondary regnal name); used the canonical title as `sourceUrl`.
+- **1353, 1357, and 1393 all reuse the "Fall of Angkor" article and its Wikidata ID
+  (`Q24945556`)**, same as the existing 1431 event -- that article's own scope already
+  covers the full sequence of Ayutthaya-Angkor conflicts from 1352 through 1431, so it's
+  the correct single source for all four entries in the series, not just the last one.
+- **No usable photo exists for the 1357 recapture or Mongol tribute events as standalone
+  subjects**, so both use thematically-tied substitutes (a second Angkor Thom gate for
+  the recapture, a Kublai Khan court portrait for the tribute) rather than a literal
+  depiction -- consistent with the precedent already set by this topic's original pass
+  (Phnom Kulen for Jayavarman II, a Bayon bas-relief for Zhou Daguan).
+- **The Banteay Srei bas-relief image is hosted on English Wikipedia itself, not
+  Wikimedia Commons** (`upload.wikimedia.org/wikipedia/en/...`), and carries no `Artist`
+  field -- verified directly on the file's description page that it's a genuine public-domain
+  release by the copyright holder rather than fair-use/non-free content before using it,
+  and attributed it "via Wikipedia" rather than "via Wikimedia Commons" to reflect where
+  it actually lives, credit going to the work rather than a named artist, consistent with
+  this project's relaxed-attribution approach for images that are properly licensed and
+  described but lack an artist name.
+- **No new tags needed** -- everything added fit the existing vocabulary
+  (architecture/art/battle/collapse/founding/governance/rebellion/religion/science).
+
 ## Inca (topic id: `inca`) — pulled 2026-08-03
 
 Status: **merged into live seed data 2026-08-03**
