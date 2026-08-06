@@ -1020,6 +1020,87 @@ Every event in this topic happens at Constantinople itself (Istanbul, Turkey, 41
   excommunication (at Hagia Sophia) -- used the same coordinates as the rest of the topic
   rather than omitting location entirely.
 
+### Gap-filling enrichment — 2026-08-05
+
+The original 8-event pass covered the founding, Justinian's legal/architectural legacy,
+the 718 siege, Basil II's peak, the Great Schism, the 1204 sack, and the 1453 fall -- but
+left three huge stretches of the 1,123-year span essentially empty: nothing between 537
+and 718 (Justinian's reconquest wars and the plague that undercut them, then the
+catastrophic loss of Syria and Egypt to the Arab conquests), nothing between 718 and 1014
+(nearly 300 years, spanning the entire Iconoclasm controversy and the Christianization of
+the Rus), and nothing between 1054 and 1204 (Manzikert -- arguably the single most
+consequential Byzantine defeat before 1204 -- and the Komnenian recovery that followed
+it). Also nothing at all between 1204 and 1453 covering the empire's actual restoration.
+Fourteen events added to close these gaps, merged into the existing `events[]` and
+re-sorted chronologically. The previously-existing 8 events' `tags` (already live in
+`backend/src/history_zoomout/db/seed_data/civilizations.json` since the tags feature
+shipped, but missing from this file, which predates that merge) were also backfilled here
+so this file matches what's actually live.
+
+| Event | Year | Article | Wikidata | Tags | Image credit |
+|---|---|---|---|---|---|
+| The Nika riots nearly topple Justinian | 532 AD | [Nika riots](https://en.wikipedia.org/wiki/Nika_riots) | Q162665 | rebellion | Dennis G. Jarvis, CC BY-SA 2.0 (photo) |
+| Belisarius retakes Carthage | 533 AD | [Vandalic War](https://en.wikipedia.org/wiki/Vandalic_War) | Q1136575 | battle | Cplakidas, CC BY-SA 3.0 (map) |
+| The Plague of Justinian strikes | 541 AD | [Plague of Justinian](https://en.wikipedia.org/wiki/Plague_of_Justinian) | Q821711 | *(none)* | Jniemenmaa, CC BY-SA 3.0 (map) |
+| The Byzantines lose Syria at Yarmouk | 636 AD | [Battle of the Yarmuk](https://en.wikipedia.org/wiki/Battle_of_the_Yarmuk) | Q194226 | battle | Anonymous, 14th c. Catalonian manuscript, Public domain |
+| Alexandria falls, ending Roman Egypt | 642 AD | [Arab conquest of Egypt](https://en.wikipedia.org/wiki/Arab_conquest_of_Egypt) | Q317519 | battle | Mohammad Adil, CC BY-SA 3.0 (map) |
+| Iconoclasm divides the church | 726 AD | [Byzantine Iconoclasm](https://en.wikipedia.org/wiki/Byzantine_Iconoclasm) | Q1018769 | religion | Unknown, 9th c. Chludov Psalter, Public domain |
+| The Second Council of Nicaea restores icons | 787 AD | [Second Council of Nicaea](https://en.wikipedia.org/wiki/Second_Council_of_Nicaea) | Q187201 | religion | Menologion of Basil II, Public domain |
+| Emperor Nikephoros I is killed at Pliska | 811 AD | [Battle of Pliska](https://en.wikipedia.org/wiki/Battle_of_Pliska) | Q403416 | battle | Manasses Chronicle, Public domain |
+| The Rus convert to Orthodox Christianity | 988 AD | [Christianization of Kievan Rus'](https://en.wikipedia.org/wiki/Christianization_of_Kievan_Rus%27) | Q573211 | religion | Klavdy Lebedev, Public domain (painting) |
+| The Byzantines are routed at Manzikert | 1071 AD | [Battle of Manzikert](https://en.wikipedia.org/wiki/Battle_of_Manzikert) | Q200032 | battle | O. Mustafin, Public domain (illustration) |
+| Byzantines recover Nicaea with crusader help | 1097 AD | [Siege of Nicaea](https://en.wikipedia.org/wiki/Siege_of_Nicaea) | Q642117 | battle | Anonymous, 13th c. French manuscript, Public domain |
+| The Byzantines recapture Constantinople | 1261 AD | [Reconquest of Constantinople](https://en.wikipedia.org/wiki/Reconquest_of_Constantinople) | Q1400402 | battle | Gatteri & Zanotto, Public domain (illustration) |
+| The Hesychast controversy is resolved | 1351 AD | [Hesychast controversy](https://en.wikipedia.org/wiki/Hesychast_controversy) | Q5746591 | religion | Public domain (icon) |
+| The Union of Florence attempts to reunite the churches | 1439 AD | [Council of Florence](https://en.wikipedia.org/wiki/Council_of_Florence) | Q321032 | religion | Wolgemut & Pleydenwurff, Public domain (woodcut) |
+
+Locations:
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Nika riots | Constantinople | Istanbul, Turkey | 41.014, 28.955 |
+| Belisarius retakes Carthage | Carthage | Tunis, Tunisia | 36.806, 10.182 |
+| Plague of Justinian | Constantinople | Istanbul, Turkey | 41.014, 28.955 |
+| Battle of Yarmouk | Yarmouk | Yarmouk River, Syria | 32.814, 35.955 |
+| Fall of Alexandria | Alexandria | Alexandria, Egypt | 31.198, 29.893 |
+| Iconoclasm begins | Constantinople | Istanbul, Turkey | 41.014, 28.955 |
+| Second Council of Nicaea | Nicaea | İznik, Turkey | 40.429, 29.721 |
+| Battle of Pliska | Pliska | Pliska, Bulgaria | 43.387, 27.132 |
+| Christianization of the Rus | Kiev | Kyiv, Ukraine | 50.450, 30.523 |
+| Battle of Manzikert | Manzikert | Malazgirt, Turkey | 39.148, 42.544 |
+| Siege of Nicaea | Nicaea | İznik, Turkey | 40.429, 29.721 |
+| Recapture of Constantinople | Constantinople | Istanbul, Turkey | 41.014, 28.955 |
+| Hesychast controversy | Constantinople | Istanbul, Turkey | 41.014, 28.955 |
+| Union of Florence | Florence | Florence, Italy | 43.771, 11.254 |
+
+Notes and judgment calls:
+
+- **Plague of Justinian has no tag**: none of the existing vocabulary
+  (architecture/art/battle/collapse/founding/governance/rebellion/religion/science) fits
+  a pandemic. Left `tags: []` rather than force-fitting one; per the tag vocabulary's own
+  rule, a new tag is only worth adding when it'll actually recur across topics, and a
+  one-off doesn't clear that bar.
+- **Plague of Justinian's image**: the article's own top thumbnail
+  (`Plaguet03.jpg`) turns out to depict a *different*, later outbreak (the 7th-century
+  Plague of Pavia) per its own Commons description -- using it would have been a factual
+  mismatch. Substituted a map of Byzantine territory circa 550 (`Byzantium550.png`) as
+  contextual illustration instead, and wrote `imageDescription` to describe the map
+  itself rather than implying it depicts the plague.
+- **Christianization of the Rus is anchored at Kyiv, not Chersonesus**: Vladimir's own
+  baptism happened at Byzantine Chersonesus (Crimea), but the event as commonly
+  understood -- and the one with lasting consequence for Byzantine-Rus relations -- is
+  the mass baptism of his people at Kyiv immediately after. Chersonesus is mentioned in
+  the event body for context.
+- **Siege of Nicaea (1097) kept `minor`, Manzikert (1071) kept `major`**: both are
+  battles in the same rough era, but Manzikert is the outcome a general reader would
+  recognize by name (the opening of Anatolia to Turkish settlement); the Nicaea siege is
+  a real but secondary episode of the Komnenian recovery, notable mainly as the First
+  Crusade's opening battle.
+- **The Fourth Crusade's sack of Constantinople (1204) and its recapture (1261) now
+  bracket a real narrative arc**: the empire's exile and restoration under the Nicaean
+  successor state, previously invisible in this dataset since the timeline jumped
+  straight from the sack to the final fall 249 years later.
+
 ## Islamic Caliphates (topic id: `islamic`) — pulled 2026-08-03
 
 Status: **merged into live seed data 2026-08-03** (replacing the old 5-event entry wholesale) and reseeded.
@@ -1135,6 +1216,97 @@ from its nearest neighbors on the timeline (maya=8, byzantine=1).
   Kyoto location as the Heian-kyō founding event -- reused the same coordinates rather
   than treating them as different places, since Kyoto has been continuously the same
   city under both names.
+
+### Enrichment pass — 2026-08-05
+
+The original 10-event set was turning-points-only -- foundings, battles, and the
+Perry/Meiji bookends. It also skipped the entire 84-year Nara period outright: the
+timeline jumped straight from Buddhism's arrival in 552 to the move to Heian-kyō in
+794, with nothing in between. This research file (`data/wikipedia-data/civilization/japan.json`)
+had no `tags` field on any event, unlike every other topic here -- but the live seed
+(`backend/src/history_zoomout/db/seed_data/civilizations.json`) already had tags on all
+10 events, added in a bulk tagging pass (`a29b5fc`) that this research file predates and
+never absorbed. Initially wrote fresh tags from scratch for those 10 without checking
+the seed first, which produced 4 mismatches (Isshi Incident, the Heian-kyō move, the
+Ōnin War, and Perry) against what's already live; caught this before merging and
+resynced the research file to the seed's existing tags verbatim, same as the China
+enrichment pass did. This pass adds eighteen new events spanning the full 300-1868
+range: the missing Nara period (capital move, the Kojiki, the Great Buddha's
+dedication), Heian court literature, the Genpei War's decisive battle, Zen Buddhism's
+introduction, the Kamakura shogunate's fall, the Ashikaga shogunate's founding and
+cultural high point, Christianity's arrival and later suppression, Oda Nobunaga and
+Toyotomi Hideyoshi's unification campaigns, early Edo governance and rebellion, and
+Rangaku scholarship under sakoku.
+
+#### Event-level sources (new events only)
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| Capital moves to Heijō-kyō | 710 AD | [Nara period](https://en.wikipedia.org/wiki/Nara_period) | Q189178 | Binabik155, CC BY 3.0 (map) |
+| The Kojiki records Japan's origin myths | 712 AD | [Kojiki](https://en.wikipedia.org/wiki/Kojiki) | Q813031 | Ken'yu / Koten Hozonkai, Public domain |
+| Great Buddha of Tōdai-ji is dedicated | 752 AD | [Tōdai-ji](https://en.wikipedia.org/wiki/T%C5%8Ddai-ji) | Q460367 | Anonymous (1930 rubbing), Public domain |
+| Murasaki Shikibu writes The Tale of Genji | 1008 AD | [The Tale of Genji](https://en.wikipedia.org/wiki/The_Tale_of_Genji) | Q8269 | Imperial court in Kyoto (Genji emaki), Public domain |
+| Battle of Dan-no-ura ends the Genpei War | 1185 AD | [Battle of Dan-no-ura](https://en.wikipedia.org/wiki/Battle_of_Dan-no-ura) | Q968676 | Tosa Mitsunobu (painting), Public domain |
+| Eisai introduces Zen Buddhism | 1191 AD | [Eisai](https://en.wikipedia.org/wiki/Eisai) | Q366128 | Unknown artist, Public domain |
+| Kenmu Restoration ends the Kamakura shogunate | 1333 AD | [Kenmu Restoration](https://en.wikipedia.org/wiki/Kenmu_Restoration) | Q826021 | Monkan-bō Kōshin (portrait), Public domain |
+| Ashikaga Takauji becomes shogun | 1338 AD | [Ashikaga Takauji](https://en.wikipedia.org/wiki/Ashikaga_Takauji) | Q297107 | Unknown artist, Public domain |
+| Kinkaku-ji rises as a symbol of Muromachi culture | 1397 AD | [Kinkaku-ji](https://en.wikipedia.org/wiki/Kinkaku-ji) | Q270983 | Nacaru, CC BY-SA 4.0 |
+| Francis Xavier introduces Christianity | 1549 AD | [Francis Xavier](https://en.wikipedia.org/wiki/Francis_Xavier) | Q163900 | Illustrated history volume, Public domain |
+| Oda Nobunaga topples the Ashikaga shogunate | 1573 AD | [Oda Nobunaga](https://en.wikipedia.org/wiki/Oda_Nobunaga) | Q171411 | Kanō Sōshū (portrait), Public domain |
+| Hideyoshi orders the sword hunt | 1588 AD | [Sword hunt](https://en.wikipedia.org/wiki/Sword_hunt) | Q1133763 | Kanō Mitsunobu (portrait), Public domain |
+| Japan invades Korea | 1592 AD | [Imjin War](https://en.wikipedia.org/wiki/Imjin_War) | Q576338 | Unknown artist, Public domain |
+| Izumo no Okuni originates kabuki | 1603 AD | [Izumo no Okuni](https://en.wikipedia.org/wiki/Izumo_no_Okuni) | Q1334304 | Unknown artist (screen painting), Public domain |
+| Shimabara Rebellion erupts | 1637 AD | [Shimabara Rebellion](https://en.wikipedia.org/wiki/Shimabara_Rebellion) | Q696217 | Unknown artist (map), Public domain |
+| Sakoku edict seals Japan's borders | 1639 AD | [Sakoku](https://en.wikipedia.org/wiki/Sakoku) | Q332075 | Isaac Titsingh, Public domain |
+| Kaitai Shinsho introduces Western medicine | 1774 AD | [Kaitai Shinsho](https://en.wikipedia.org/wiki/Kaitai_Shinsho) | Q1324350 | Babi Hijau, Public domain |
+| Ōshio Heihachirō's rebellion | 1837 AD | [Ōshio Heihachirō](https://en.wikipedia.org/wiki/%C5%8CShio_Heihachir%C5%8D) | Q1056715 | Kikuchi Yōsai (portrait), Public domain |
+
+#### Event locations (new events only)
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Capital moves to Heijō-kyō | Heijō-kyō | Nara, Japan | 34.691, 135.796 |
+| The Kojiki records Japan's origin myths | Heijō-kyō | Nara, Japan | 34.691, 135.796 |
+| Great Buddha of Tōdai-ji is dedicated | Heijō-kyō | Nara, Japan | 34.691, 135.796 |
+| Murasaki Shikibu writes The Tale of Genji | Heian-kyō | Kyoto, Japan | 35.012, 135.768 |
+| Battle of Dan-no-ura ends the Genpei War | Dan-no-ura | Shimonoseki, Japan | 33.965, 130.957 |
+| Eisai introduces Zen Buddhism | Hakata | Fukuoka, Japan | 33.597, 130.414 |
+| Kenmu Restoration ends the Kamakura shogunate | Heian-kyō | Kyoto, Japan | 35.012, 135.768 |
+| Ashikaga Takauji becomes shogun | Heian-kyō | Kyoto, Japan | 35.012, 135.768 |
+| Kinkaku-ji rises as a symbol of Muromachi culture | Kitayama | Kyoto, Japan | 35.040, 135.729 |
+| Francis Xavier introduces Christianity | Kagoshima | Kagoshima, Japan | 31.597, 130.557 |
+| Oda Nobunaga topples the Ashikaga shogunate | Heian-kyō | Kyoto, Japan | 35.012, 135.768 |
+| Hideyoshi orders the sword hunt | — | *(no single site -- nationwide edict)* | — |
+| Japan invades Korea | Busanjin | Busan, South Korea | 35.18, 129.075 |
+| Izumo no Okuni originates kabuki | Heian-kyō | Kyoto, Japan | 35.012, 135.768 |
+| Shimabara Rebellion erupts | Hara Castle | Minamishimabara, Japan | 32.660, 130.298 |
+| Sakoku edict seals Japan's borders | Dejima | Nagasaki, Japan | 32.745, 129.874 |
+| Kaitai Shinsho introduces Western medicine | Edo | Tokyo, Japan | 35.684, 139.774 |
+| Ōshio Heihachirō's rebellion | Osaka | Osaka, Japan | 34.694, 135.502 |
+
+#### Corrections / decisions made this pass
+
+- Tags on the 10 pre-existing events are copied verbatim from the live seed
+  (`civilizations.json`), not invented -- Japan was already merged and already tagged
+  there (via the `a29b5fc` bulk tagging pass); this research file was just out of sync
+  with it. Facts, images, and locations on those 10 are unchanged.
+- The Kamakura shogunate's collapse (Kenmu Restoration, 1333, Go-Daigo's restoration) is
+  unambiguous. Its successor, the Ashikaga shogunate, has the same disputed-founding
+  pattern as Yoritomo's Kamakura shogunate: Takauji is conventionally dated to power in
+  1336 (when he issued the Kenmu Code) or 1338 (when he received the shogun title). Went
+  with 1338 for the same reason as the original 1192 Yoritomo call -- the event is about
+  *becoming shogun* specifically, not the earlier de facto seizure of power.
+- Sakoku is usually cited as a series of edicts (1633-1639) rather than a single date;
+  used 1639, the final and most restrictive edict (expelling the Portuguese), as the
+  single representative year, matching Wikipedia's own framing of that year as when
+  "the most comprehensive measures" took effect.
+- The Sakoku edict's location is given as Nagasaki/Dejima rather than Edo (where the
+  shogunate actually issued it from) because Dejima is the tangible, enduring
+  manifestation of the policy -- Japan's sole surviving point of contact with the West
+  for the next two centuries -- and the chosen image depicts Dejima specifically.
+- Hideyoshi's sword hunt edict has no location field: it was a nationwide policy with no
+  single site of issuance, consistent with how the Yellow Turban Rebellion and Grand
+  Canal events were handled without locations in China's enrichment pass.
 
 ## Indus Valley (topic id: `indus`) — pulled 2026-08-03
 
