@@ -5086,7 +5086,7 @@
     "colorIndex": 5,
     "start": 1235,
     "end": 1610,
-    "summary": "The Mali Empire rises from the Mandinka heartland along the upper Niger River, founded by Sundiata Keita after his victory at Kirina in 1235. Under Mansa Musa, its ninth ruler, the empire reaches its greatest wealth and territorial extent, and his 1324 pilgrimage to Mecca makes Mali's gold famous across the Islamic world. Timbuktu flourishes as a hub of trade and Islamic scholarship under Mali's patronage, but a long, uneven decline follows Mansa Musa's death: rival Songhai seizes Timbuktu in 1468, and after a catastrophic defeat at Djenné in 1599, the empire fragments for good with the death of its last emperor, Mahmud Keita IV, around 1610.",
+    "summary": "The Mali Empire rises from the Mandinka heartland along the upper Niger River, founded by Sundiata Keita after his victory at Kirina in 1235. Under Mansa Musa, its ninth ruler, the empire reaches its greatest wealth and territorial extent, and his 1324 pilgrimage to Mecca makes Mali's gold famous across the Islamic world. Timbuktu flourishes as a hub of trade and Islamic scholarship under Mali's patronage, but a long, uneven decline follows Mansa Musa's death: a ruinous civil war and treasury mismanagement under Mari Djata II give way to the loss of Timbuktu to Tuareg raiders in 1433 and to rival Songhai in 1468, and after a catastrophic defeat at Djenné in 1599, the empire fragments for good with the death of its last emperor, Mahmud Keita IV, around 1610.",
     "sourceUrl": "https://en.wikipedia.org/wiki/Mali_Empire",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Map_of_the_Mali_Empire.png/330px-Map_of_the_Mali_Empire.png",
     "imageAttribution": "Map by HetmanTheResearcher, CC BY 4.0, via Wikimedia Commons",
@@ -5173,6 +5173,58 @@
         }
       },
       {
+        "year": 1352,
+        "sig": "minor",
+        "tags": [
+          "governance",
+          "science"
+        ],
+        "title": "Ibn Battuta Visits Mali and Documents Suleyman's Rule",
+        "body": "The Moroccan scholar Ibn Battuta arrives at Mansa Suleyman's court and later writes the first detailed outside account of the empire, praising the security of its roads even as he judges Suleyman himself far less generous than his predecessor Mansa Musa.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sulayman_of_Mali",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/MALI_empire_map.PNG/330px-MALI_empire_map.PNG",
+        "imageAttribution": "Map, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A historical map showing the territory of the Mali Empire.",
+        "wikidataId": "Q3028531"
+      },
+      {
+        "year": 1360,
+        "sig": "major",
+        "tags": [
+          "rebellion",
+          "governance"
+        ],
+        "title": "Mari Djata II Wins a Civil War and Squanders the Treasury",
+        "body": "Mari Djata II fights his way to the throne after a short, contested reign by his predecessor Qanba collapses into civil war, then spends the next fourteen years as a wasteful ruler who at one point sells off a twenty-qintar boulder of state gold for a fraction of its worth — a reign the historian Ibn Khaldun later marks as the start of Mali's decline.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Mari_Djata_II_of_Mali",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/The_Mali_Empire.jpg/500px-The_Mali_Empire.jpg",
+        "imageAttribution": "Map by Gabriel Moss, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "A map of the Mali Empire's territory at the end of Mansa Musa's reign, around 1337.",
+        "wikidataId": "Q947664"
+      },
+      {
+        "year": 1433,
+        "sig": "major",
+        "tags": [
+          "collapse",
+          "battle"
+        ],
+        "title": "Tuareg Forces Seize Timbuktu from Mali",
+        "body": "Tuareg raiders led by Akil Ag-Amalwal capture Timbuktu and the nearby trading town of Oualata, stripping Mali of its most famous city decades before Songhai's own conquest of the region.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/History_of_the_Mali_Empire",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/2007_Sankore_Mosque_Timbuktu_02.jpg/330px-2007_Sankore_Mosque_Timbuktu_02.jpg",
+        "imageAttribution": "Photo by Anne and David, Public domain, via Wikimedia Commons",
+        "imageDescription": "A mosque in Timbuktu, the city Mali lost to Tuareg raiders in 1433.",
+        "wikidataId": "Q130271155",
+        "location": {
+          "historicalName": "Timbuktu",
+          "city": "Timbuktu",
+          "country": "Mali",
+          "latitude": 16.77583333,
+          "longitude": -3.00944444
+        }
+      },
+      {
         "year": 1468,
         "sig": "major",
         "tags": [
@@ -5193,6 +5245,20 @@
           "latitude": 16.77583333,
           "longitude": -3.00944444
         }
+      },
+      {
+        "year": 1487,
+        "sig": "minor",
+        "tags": [
+          "governance"
+        ],
+        "title": "Mansa Mahmud Keita II Opens Relations with Portugal",
+        "body": "Seeking allies against mounting external threats, Mahmud Keita II receives Portuguese envoys Pêro d'Évora and Gonçalo Enes at the Malian court; a follow-up appeal in 1493 for an alliance against the warlord Tenguella comes to nothing.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Mahmud_II_(mansa)",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ruler_of_Mali_from_Behaim%27s_Erdapfel.png",
+        "imageAttribution": "Illustration from Martin Behaim's Erdapfel (1492), Public domain, via Wikimedia Commons",
+        "imageDescription": "A European depiction of a ruler of Mali, from Martin Behaim's 1492 globe.",
+        "wikidataId": "Q6734478"
       },
       {
         "year": 1599,

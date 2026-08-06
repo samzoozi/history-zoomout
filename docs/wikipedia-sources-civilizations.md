@@ -2569,3 +2569,81 @@ place, so both events omit the `location` object entirely rather than guessing.
 - `sig` ratings kept from the existing entry where events carried over (1235 major, 1285
   minor, 1324 major); assigned by judgment for the three new/replaced events, consistent
   with the pattern used elsewhere in this file.
+
+### Enrichment pass — pulled 2026-08-06
+
+Status: **merged into live seed data 2026-08-06** (`backend/src/history_zoomout/db/seed_data/civilizations.json`) and reseeded (local dev database). General "add more
+events" pass, not scoped to a specific tag. Went sub-period by sub-period across the
+empire's full 1235-1610 span looking for
+genuinely significant events beyond the founding/pilgrimage/collapse turning points
+already covered. The existing 7-event set had zero events tagged `governance`,
+`science`, or `rebellion` — all four new events land on at least one of those, plus one
+standalone event for the previously-undocumented 1433 loss of Timbuktu to the Tuareg
+(before now, that fact only existed as a parenthetical in the 1468 Songhai event's body).
+Also backfilled the `tags` array onto all 7 existing events in this JSON file, which
+predates that field — copied from what's already live in
+`backend/src/history_zoomout/db/seed_data/civilizations.json` (unchanged by this pass)
+rather than reassigned from scratch.
+
+Considered and rejected: a `science`/`architecture` event for the Sankoré Madrasah's
+rise as a center of Islamic scholarship. Per its own Wikipedia article, the madrasa's
+documented golden age was under the *Songhai* Empire in the 16th century — the same
+conclusion the original 2026-08-03 pass reached when it swapped this exact claim out for
+the Djinguereber Mosque event (see corrections above). Also considered an `art` event
+for Djenné-Djenno terracotta figurines (used as illustrations on two existing events),
+but per the Djenné-Djenno article that tradition predates the Mali Empire's founding and
+belongs to an earlier, separate culture — not a genuine Mali Empire event.
+
+#### New events
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| Ibn Battuta visits Mali and documents Suleyman's rule | 1352 | [Sulayman of Mali](https://en.wikipedia.org/wiki/Sulayman_of_Mali) | Q3028531 | Unattributed map, CC BY-SA 3.0 |
+| Mari Djata II wins a civil war and squanders the treasury | 1360 | [Mari Djata II of Mali](https://en.wikipedia.org/wiki/Mari_Djata_II_of_Mali) | Q947664 | Gabriel Moss, CC BY-SA 4.0 |
+| Tuareg forces seize Timbuktu from Mali | 1433 | [History of the Mali Empire](https://en.wikipedia.org/wiki/History_of_the_Mali_Empire) | Q130271155 | Anne and David, Public domain (Flickr) |
+| Mansa Mahmud Keita II opens relations with Portugal | 1487 | [Mahmud II (mansa)](https://en.wikipedia.org/wiki/Mahmud_II_(mansa)) | Q6734478 | Public domain (Behaim's 1492 Erdapfel globe) |
+
+Notes on sourcing:
+- **Ibn Battuta / Suleyman (1352)** — no dedicated Wikipedia article exists for this
+  specific visit; sourced to the Sulayman of Mali biography, which covers his reign
+  (c. 1341-1360) and Ibn Battuta's account of it, including the "no need to worry about
+  thieves" security assessment and his blunter judgment that Suleyman was "a miserly
+  king" compared to Mansa Musa. Tagged both `governance` (the security/administration
+  observation) and `science` (Ibn Battuta's own scholarly travel account, the first
+  detailed outside record of the empire).
+- **Mari Djata II (1360)** — dated to his accession after winning the civil war that
+  followed his predecessor Qanba's nine-month reign, though the event's body also covers
+  his fourteen-year record of financial mismanagement (selling a 20-qintar gold boulder
+  under value), since that's one continuous story rather than two separate events. No
+  dedicated article exists for Qanba (404 on Wikipedia) so his civil war is covered as
+  context within this event rather than its own entry. Ibn Khaldun's assessment that this
+  reign marks "the beginning of the decline of the Mali Empire" is paraphrased, not
+  quoted, into the body. Tagged `rebellion` (the civil war) and `governance` (the
+  treasury mismanagement) rather than `collapse`, since the empire continues for another
+  ~250 years — this is the onset of decline, not a fall.
+- **Tuareg capture of Timbuktu (1433)** — no dedicated article for the Tuareg leader
+  Akil Ag-Amalwal exists either, so this is sourced to *History of the Mali Empire*,
+  which gives the precise year and names both Timbuktu and Oualata as captured together.
+  This same fact was already implied in the existing 1468 Songhai event's body ("which
+  Mali had already lost to Tuareg raiders decades earlier") but had never had its own
+  entry; that 1468 body is left as-is since it's still accurate.
+- **Portugal relations (1487)** — no dedicated article exists for "Mahmud Keita II" by
+  that exact name; Wikipedia's article on this ruler is titled "Mahmud II (mansa)"
+  (reign 1481-1496), which matches. Sourced primarily via the main Mali Empire article,
+  which places the initial Portuguese-envoy reception in 1487 and a follow-up Malian
+  request for an alliance against the warlord Tenguella in 1493 (unsuccessful) as two
+  distinct contacts — both folded into one event since they're the same diplomatic
+  episode.
+
+#### New event locations
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Ibn Battuta visits Mali | — | — | *(no single site — an empire-wide account, not one place)* |
+| Mari Djata II's civil war | — | — | *(no single site — Mali's traditional capital, Niani, has no confirmed location)* |
+| Tuareg seize Timbuktu | Timbuktu | Timbuktu, Mali | 16.7758, -3.0094 |
+| Portugal relations opened | — | — | *(no single site — a cross-border diplomatic exchange)* |
+
+All new events validated: JSON well-formed, years ascending (1235→ 1610, 11 events
+total), and dry-run constructed against the real `Topic`/`Event`/`Location` ORM classes
+in `history_zoomout.db.models` without error.
