@@ -84,7 +84,7 @@
     return ticks;
   }
 
-  var state = { tags: new Set(), zoom: 1, selectedTopics: null };
+  var state = { tags: new Set(), zoom: 0.6, selectedTopics: null };
 
   var lanesEl = document.getElementById("lanes");
   var axisTrack = document.getElementById("axisTrack");
