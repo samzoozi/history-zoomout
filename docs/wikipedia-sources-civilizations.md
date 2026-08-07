@@ -2979,3 +2979,175 @@ Notes on sourcing:
 All new events validated: JSON well-formed, years ascending (1235→ 1610, 11 events
 total), and dry-run constructed against the real `Topic`/`Event`/`Location` ORM classes
 in `history_zoomout.db.models` without error.
+
+## Holy Roman Empire (topic id: `hre`) — pulled 2026-08-06
+
+Status: **merged into live seed data 2026-08-06** (`data/seed_data/civilizations.json`)
+and reseeded.
+
+Sourced JSON at `data/wikipedia-data/civilization/hre.json`. `id` (`hre`) and
+`colorIndex` (4, the next value in the current cycle after Ottoman=1/Vikings=2/Mughal=3)
+picked fresh, since this is a new topic.
+
+Covers the empire's full span, 800–1806 AD: Charlemagne's coronation (the traditional,
+popularly-cited founding date) through Francis II's dissolution under Napoleonic
+pressure. Historians differ on whether "the Holy Roman Empire" properly starts in 800
+(Charlemagne) or 962 (Otto I, after the Carolingian Empire's 843 split and an
+interregnum) — the user chose 800 explicitly when this topic was scoped, so the
+Carolingian founding era (800–843) is included as the empire's own predecessor phase
+rather than treated as a separate topic.
+
+### Sub-periods mapped before event selection
+
+1. Carolingian founding (800–843) — Charlemagne's coronation through the Treaty of
+   Verdun, which creates East Francia (the direct territorial predecessor of the German
+   kingdom the empire is built on).
+2. Ottonian dynasty (919–1024) — Otto I's coronation as the "true" founding per stricter
+   historiography, plus Ottonian art.
+3. Salian dynasty / Investiture Controversy (1024–1125) — the church–state conflict over
+   appointing bishops, from Canossa to the Concordat of Worms.
+4. Hohenstaufen dynasty (1138–1254) — Barbarossa and Frederick II, ending in the dynasty's
+   collapse and the Great Interregnum.
+5. Late medieval / early Habsburg rise (1273–1437) — Rudolf I's election, the Golden
+   Bull's constitutional settlement.
+6. Habsburg Renaissance era (1438–1517) — Gutenberg's press, Maximilian I's Imperial
+   Reform.
+7. Reformation era (1517–1555) — Luther, the Peasants' War, Dürer, ending at the Peace of
+   Augsburg.
+8. Thirty Years' War era (1609–1648) — Kepler's Prague years bracketed by the
+   Defenestration of Prague, White Mountain, and the Peace of Westphalia.
+9. Late Baroque / Enlightenment / dissolution (1713–1806) — the Pragmatic Sanction,
+   Josephine reform, ending at Francis II's 1806 abdication.
+
+### Topic-level source
+
+- **Holy Roman Empire** — https://en.wikipedia.org/wiki/Holy_Roman_Empire — Wikidata
+  Q12548. The article's own default thumbnail is a heraldic banner SVG, not very
+  illustrative as a topic image — swapped in `HRR 1648.png` (a territorial map at the end
+  of the Thirty Years' War, showing the empire's characteristic fragmentation into
+  hundreds of states) from the same article's embedded images instead.
+
+### Event-level sources
+
+| Event | Year | Article | Wikidata | Tags | Image credit |
+|---|---|---|---|---|---|
+| Charlemagne Is Crowned Emperor | 800 | [Charlemagne](https://en.wikipedia.org/wiki/Charlemagne) | Q3044 | founding | Unknown artist, Public domain |
+| The Palatine Chapel at Aachen Is Consecrated | 805 | [Palatine Chapel, Aachen](https://en.wikipedia.org/wiki/Palatine_Chapel,_Aachen) | Q2458522 | architecture | Lokilech, CC BY-SA 3.0 |
+| The Treaty of Verdun Creates East Francia | 843 | [Treaty of Verdun](https://en.wikipedia.org/wiki/Treaty_of_Verdun) | Q134840 | governance | Unknown artist, Public domain |
+| Otto I Crushes the Magyars at Lechfeld | 955 | [Battle of Lechfeld](https://en.wikipedia.org/wiki/Battle_of_Lechfeld) | Q273069 | battle | Hektor Mülich, Public domain |
+| Otto I Is Crowned Holy Roman Emperor | 962 | [Otto I, Holy Roman Emperor](https://en.wikipedia.org/wiki/Otto_I,_Holy_Roman_Emperor) | Q43915 | founding | Otto Posse, Public domain |
+| Archbishop Gero Commissions the Gero Cross | c. 970 | [Gero Cross](https://en.wikipedia.org/wiki/Gero_Cross) | Q653601 | art, religion | Elya, CC BY-SA 3.0 |
+| Henry IV Walks to Canossa | 1077 | [Road to Canossa](https://en.wikipedia.org/wiki/Road_to_Canossa) | Q325656 | religion, governance | Eduard Schwoiser, Public domain |
+| The Concordat of Worms Ends the Investiture Controversy | 1122 | [Concordat of Worms](https://en.wikipedia.org/wiki/Concordat_of_Worms) | Q154439 | governance, religion | Unknown, Public domain |
+| Frederick Barbarossa Is Crowned Emperor | 1155 | [Frederick Barbarossa](https://en.wikipedia.org/wiki/Frederick_Barbarossa) | Q79789 | governance | Montecappio, Public domain |
+| The Lombard League Defeats Barbarossa at Legnano | 1176 | [Battle of Legnano](https://en.wikipedia.org/wiki/Battle_of_Legnano) | Q283364 | battle | Amos Cassioli, Public domain |
+| Frederick II Founds the University of Naples | 1224 | [University of Naples Federico II](https://en.wikipedia.org/wiki/University_of_Naples_Federico_II) | Q691851 | science, governance | Unknown artist, Public domain |
+| Construction Begins on Cologne Cathedral | 1248 | [Cologne Cathedral](https://en.wikipedia.org/wiki/Cologne_Cathedral) | Q4176 | architecture | Raimond Spekking, CC BY-SA 4.0 |
+| Frederick II's Death Begins the Great Interregnum | 1250 | [Interregnum (Holy Roman Empire)](https://en.wikipedia.org/wiki/Interregnum_(Holy_Roman_Empire)) | Q5884356 | collapse | Unknown (Diebold Lauber workshop), Public domain |
+| Rudolf I of Habsburg Is Elected King, Ending the Interregnum | 1273 | [Rudolf I of Germany](https://en.wikipedia.org/wiki/Rudolf_I_of_Germany) | Q76956 | founding, governance | Wolfgang Sauber, Public domain |
+| Charles IV Founds Charles University in Prague | 1347 | [Charles University](https://en.wikipedia.org/wiki/Charles_University) | Q31519 | science | Packare, CC BY-SA 4.0 |
+| The Golden Bull Fixes the Empire's Constitution | 1356 | [Golden Bull of 1356](https://en.wikipedia.org/wiki/Golden_Bull_of_1356) | Q567601 | governance | Unknown, Public domain |
+| Gutenberg Completes the Printed Bible at Mainz | 1455 | [Gutenberg Bible](https://en.wikipedia.org/wiki/Gutenberg_Bible) | Q158075 | science | NYC Wanderer (Kevin Eng), CC BY-SA 2.0 |
+| The Diet of Worms Enacts the Imperial Reform | 1495 | [Imperial Reform](https://en.wikipedia.org/wiki/Imperial_Reform) | Q565476 | governance | Deutsche Bundespost, Public domain |
+| Martin Luther Publishes the Ninety-five Theses | 1517 | [Ninety-five Theses](https://en.wikipedia.org/wiki/Ninety-five_Theses) | Q157506 | religion | Martin Luther, Public domain |
+| The Diet of Worms Outlaws Martin Luther | 1521 | [Diet of Worms](https://en.wikipedia.org/wiki/Diet_of_Worms) | Q536822 | religion, governance | Anton von Werner, Public domain |
+| Peasant Armies Are Crushed at Frankenhausen | 1525 | [Battle of Frankenhausen](https://en.wikipedia.org/wiki/Battle_of_Frankenhausen) | Q703363 | rebellion | Unknown artist, Public domain |
+| Dürer Paints The Four Apostles | 1526 | [The Four Apostles](https://en.wikipedia.org/wiki/The_Four_Apostles) | Q829270 | art, religion | Albrecht Dürer, Public domain |
+| The Peace of Augsburg Divides the Empire's Faiths | 1555 | [Peace of Augsburg](https://en.wikipedia.org/wiki/Peace_of_Augsburg) | Q154577 | religion, governance | User:Michail, Public domain |
+| Kepler Publishes His Laws of Planetary Motion in Prague | 1609 | [Astronomia nova](https://en.wikipedia.org/wiki/Astronomia_nova) | Q779311 | science | Johannes Kepler, Public domain |
+| The Defenestration of Prague Ignites the Thirty Years' War | 1618 | [Defenestrations of Prague](https://en.wikipedia.org/wiki/Defenestrations_of_Prague) | Q374696 | rebellion, religion | Unknown artist, Public domain |
+| Catholic Forces Crush the Bohemian Revolt at White Mountain | 1620 | [Battle of White Mountain](https://en.wikipedia.org/wiki/Battle_of_White_Mountain) | Q4373 | battle, rebellion | Peter Snayers, Public domain |
+| The Peace of Westphalia Ends the Thirty Years' War | 1648 | [Peace of Westphalia](https://en.wikipedia.org/wiki/Peace_of_Westphalia) | Q150995 | governance, religion | Unknown, Public domain |
+| The Pragmatic Sanction Secures Maria Theresa's Succession | 1713 | [Pragmatic Sanction of 1713](https://en.wikipedia.org/wiki/Pragmatic_Sanction_of_1713) | Q313102 | governance | User:Magellan, Public domain |
+| Charles VI Commissions the Karlskirche | 1716 | [Karlskirche](https://en.wikipedia.org/wiki/Karlskirche) | Q408847 | architecture, religion | Thomas Ledl, CC BY-SA 4.0 |
+| Joseph II Issues the Patent of Toleration | 1781 | [Patent of Toleration](https://en.wikipedia.org/wiki/Patent_of_Toleration) | Q262654 | religion, governance | Joseph II, Public domain |
+| Francis II Dissolves the Holy Roman Empire | 1806 | [Dissolution of the Holy Roman Empire](https://en.wikipedia.org/wiki/Dissolution_of_the_Holy_Roman_Empire) | Q19902208 | collapse | Alphathon, CC0 |
+
+### Event locations
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Charlemagne crowned | Old St. Peter's Basilica | Rome, Italy | 41.893, 12.483 |
+| Aachen Chapel consecrated | Aachen | Aachen, Germany | 50.776, 6.084 |
+| Treaty of Verdun | Verdun | Verdun, France | 49.162, 5.388 |
+| Battle of Lechfeld | Lechfeld | Augsburg, Germany | 48.35, 10.92 |
+| Otto I crowned | Old St. Peter's Basilica | Rome, Italy | 41.893, 12.483 |
+| Gero Cross commissioned | Cologne | Cologne, Germany | 50.936, 6.953 |
+| Canossa | Canossa | Canossa, Italy | 44.576, 10.456 |
+| Concordat of Worms | Worms | Worms, Germany | 49.632, 8.365 |
+| Barbarossa crowned | Old St. Peter's Basilica | Rome, Italy | 41.893, 12.483 |
+| Battle of Legnano | Legnano | Legnano, Italy | 45.578, 8.918 |
+| University of Naples founded | Naples | Naples, Italy | 40.836, 14.249 |
+| Cologne Cathedral begun | Cologne | Cologne, Germany | 50.936, 6.953 |
+| Interregnum begins | Castel Fiorentino | Torremaggiore, Italy | *(none found)* |
+| Rudolf I elected | Frankfurt | Frankfurt, Germany | 50.111, 8.682 |
+| Charles University founded | Prague | Prague, Czech Republic | 50.088, 14.421 |
+| Golden Bull issued | Nuremberg | Nuremberg, Germany | 49.454, 11.078 |
+| Gutenberg Bible completed | Mainz | Mainz, Germany | 49.999, 8.274 |
+| Diet of Worms (Imperial Reform) | Worms | Worms, Germany | 49.632, 8.365 |
+| Ninety-five Theses | Wittenberg | Wittenberg, Germany | 51.867, 12.648 |
+| Diet of Worms (Luther outlawed) | Worms | Worms, Germany | 49.632, 8.365 |
+| Battle of Frankenhausen | Frankenhausen | Bad Frankenhausen, Germany | 51.356, 11.101 |
+| The Four Apostles painted | Nuremberg | Nuremberg, Germany | 49.454, 11.078 |
+| Peace of Augsburg | Augsburg | Augsburg, Germany | 48.37, 10.90 |
+| Kepler's Astronomia Nova | Prague | Prague, Czech Republic | 50.088, 14.421 |
+| Defenestration of Prague | Prague Castle | Prague, Czech Republic | 50.09, 14.40 |
+| Battle of White Mountain | Bílá Hora | Prague, Czech Republic | *(none found)* |
+| Peace of Westphalia | Osnabrück | Osnabrück, Germany | 52.283, 8.05 |
+| Pragmatic Sanction | Vienna | Vienna, Austria | 48.208, 16.373 |
+| Karlskirche commissioned | Vienna | Vienna, Austria | 48.208, 16.373 |
+| Patent of Toleration | Vienna | Vienna, Austria | 48.208, 16.373 |
+| Empire dissolved | Vienna | Vienna, Austria | 48.208, 16.373 |
+
+### Corrections / decisions made
+
+- **Start date (800 vs. 962)**: confirmed explicitly with the user before researching —
+  800 (Charlemagne) chosen over 962 (Otto I) as the more recognizable, popularly-cited
+  start. The Carolingian era (800–843) is included as the empire's own predecessor phase
+  rather than excluded for being technically pre-"Holy Roman."
+- **Otto I's title**: the name "Holy Roman Empire" and the "Holy" qualifier are later
+  additions (the "of the German Nation" suffix dates to 1512) — Otto I's own title was
+  simply "Emperor." Kept the modern retrospective name in event titles/bodies for
+  readability, consistent with how this dataset already handles other anachronistic
+  naming (e.g. the Mongol topic's own note on this).
+- **Ninety-five Theses posting**: Wikipedia's own article flags real historical doubt
+  about whether Luther actually nailed the theses to the Wittenberg church door on 31
+  October 1517, versus circulating them privately by letter — the popular "door-nailing"
+  image is now considered likely a later dramatization. Body text says Luther
+  "circulates" the theses rather than asserting the door-nailing happened.
+- **Peace of Westphalia framing**: the popular claim that Westphalia "ended" or
+  "dismantled" imperial authority is now contested by modern scholarship (Ferdinand III's
+  actual loss of power is considered overstated in older literature). Body text describes
+  the emperor's authority as "increasingly nominal" rather than ended outright, and the
+  event is tagged `governance`/`religion` rather than `collapse` — `collapse` is reserved
+  for the empire's actual 1806 dissolution.
+- **Schönbrunn Palace considered and dropped**: initially planned as the late-Baroque
+  architecture entry, but Wikipedia doesn't give a precise start year for the palace's
+  present form (only "the 1740s–1750s," under Maria Theresa) and doesn't name an
+  architect for that phase — swapped for the Karlskirche (1716), which has a specific,
+  well-sourced start year, architect, and founding story (a 1713 plague vow).
+  Interregnum image swapped similarly: the first candidate (a falconry-manuscript image
+  of Frederick II) was reassigned to the University of Naples event instead, since it fits
+  that event's science/governance framing better than the political-collapse Interregnum
+  event; the Interregnum event uses a period manuscript illustration titled "The
+  Interregnum: Three Men at the Grave of an Emperor" instead, found via the Interregnum
+  article's own thumbnail.
+- **Document-photo attributions** (Concordat of Worms, Golden Bull, Peace of Westphalia):
+  these three images are photographs of the original physical documents, where Commons'
+  metadata either has no photographer on record or lists the medieval document's issuer
+  (e.g. "Karl IV") rather than a photographer. Attributed as "Unknown, Public domain"
+  rather than asserting an incorrect artist.
+- **`sig` assignment**: foundings, the two Diets of Worms, the Investiture Controversy's
+  two turning points, the Reformation's core events, and both world-ending-scale wars
+  (Thirty Years' War start/end) rated `major`; individual coronations of non-founding
+  emperors (Barbarossa) and all architecture/art/science entries rated `minor`, following
+  the same "supporting detail vs. remembered turning point" logic used elsewhere in this
+  dataset (e.g. Persia's Taq Kasra downgrade) — the exception is Gutenberg's press and
+  Kepler's laws of planetary motion, rated `major` despite being science/technology
+  entries, given their exceptional long-run historical significance relative to the
+  dataset's other science events.
+
+All events validated: JSON well-formed (31 events), years ascending (800 → 1806), and
+dry-run constructed against the real `Topic`/`Event`/`Location` ORM classes in
+`history_zoomout.db.models` without error. All 32 image URLs (topic-level + per-event)
+fetched directly and confirmed HTTP 200, one request at a time with a 1-second gap.
