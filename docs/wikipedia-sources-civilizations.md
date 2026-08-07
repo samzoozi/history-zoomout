@@ -1691,6 +1691,66 @@ separate city-states (Tenochtitlan, Texcoco, Tlacopan), not a single-site event.
   phrasing ("a smallpox epidemic that devastates the city") implied alongside the siege.
   Reworded to describe the epidemic as having already happened by the time of capture.
 
+### Enrichment pass — 2026-08-06
+
+The original 8-event pass covered founding/battle/collapse turning points well but had
+no `religion` beyond the single Great Temple dedication, no `architecture`/`science`
+beyond that same event, and no `governance` events besides Moctezuma II's coronation —
+also notably, unlike every other civilization topic researched since, this file had no
+`tags` field at all. Backfilled `tags` on all 8 original events (matching what each
+event already is — e.g. `founding`/`battle` for the Triple Alliance, `religion`/
+`architecture` for the Great Temple) and researched 6 new events spanning the empire's
+under-covered mid-imperial period (1431-1507), filling out `governance`, `architecture`,
+`science`, and `religion` while adding one more `battle` (an Aztec defeat, not just
+victories) and a `collapse`-adjacent succession event bridging La Noche Triste and the
+final siege. Expanded from 8 to 14 events.
+
+| Event | Year | Article | Wikidata | Tags | Image credit |
+|---|---|---|---|---|---|
+| Nezahualcoyotl Is Restored to the Throne of Texcoco | 1431 | [Nezahualcoyotl (tlatoani)](https://en.wikipedia.org/wiki/Nezahualcoyotl_(tlatoani)) | Q379964 | governance | Codex Ixtlilxochitl folio, Public domain |
+| A Flood Destroys Tenochtitlan's Aqueduct | 1449 | [Chapultepec aqueduct](https://en.wikipedia.org/wiki/Chapultepec_aqueduct) | Q5073555 | architecture, science | Diana du Vent (photo), CC BY-SA 3.0 |
+| The Flower Wars Begin | 1454 | [Flower war](https://en.wikipedia.org/wiki/Flower_war) | Q886263 | battle, religion | Mabarlabin (collage), CC BY-SA 3.0 |
+| Axayacatl Is Defeated by the Tarascans | 1476 | [Axayacatl](https://en.wikipedia.org/wiki/Axayacatl) | Q351751 | battle | Codex Azcatitlan illustration, Public domain |
+| The New Fire Ceremony Renews the Aztec World | 1507 | [New Fire ceremony](https://en.wikipedia.org/wiki/New_Fire_ceremony) | Q685639 | religion | AlejandroLinaresGarcia (photo), CC BY-SA 4.0 |
+| Cuitláhuac's Brief Reign Ends in Epidemic | 1520 | [Cuitláhuac](https://en.wikipedia.org/wiki/Cuitl%C3%A1huac) | Q315628 | collapse, governance | Primeros Memoriales illustration, Public domain |
+
+**Locations added:** Nezahualcoyotl's restoration → Texcoco de Mora, Mexico (19.52,
+-98.88, no coordinates on the historical Texcoco article itself so the modern city's
+were used); the aqueduct flood → Chapultepec, Mexico City (19.413, -99.198); the New
+Fire ceremony → the hill of Huixachtlan, identified with modern Iztapalapa, Mexico City
+(19.358, -99.093). The Flower Wars and Axayacatl's Tarascan defeat both omit `location`
+— the former was fought intermittently across the Tlaxcala-Puebla valley over decades,
+not at one site, and the latter was a border campaign into Michoacán with no single
+named battle site on Wikipedia (no dedicated "Battle of Tlaximaloyan" article exists,
+contrary to what a first search suggested).
+
+**Corrections / judgment calls:**
+- **Dropped a planned "Moctezuma II commissions the Chapultepec aqueduct, 1506" event**
+  sourced initially from the Moctezuma II article, which credits him with commissioning
+  the aqueduct in 1506. The dedicated Chapultepec aqueduct article gives a fuller,
+  more specific account that contradicts this: the original aqueduct was built in 1418,
+  destroyed by a 1449 flood, and rebuilt by Texcoco's Nezahualcoyotl (not Moctezuma II)
+  with sturdier stone-and-mortar construction along the same route. Used the more
+  specific and better-sourced 1449 flood/rebuild event instead of the vaguer 1506 claim.
+- **Considered and dropped "Itzcoatl orders the old histories burned"** (often cited as
+  a foundational Mexica act of rewriting history to legitimize the Triple Alliance) —
+  Wikipedia's own Itzcoatl and Tlacaelel articles give no specific year, and flag real
+  scholarly uncertainty about whether Itzcoatl or his advisor Tlacaelel actually
+  instigated it ("despite lack of specific historical evidence"). Too shaky to date and
+  assert as a standalone event.
+- **Considered and dropped Tizoc's 1486 death** as a `rebellion`/succession-crisis
+  candidate — Wikipedia is explicit that the poisoning-by-nobles theory is one of two
+  competing, unconfirmed explanations (the other being illness), so it doesn't clear the
+  bar of an independently verifiable fact.
+- **Considered and dropped the Aztec sun stone** as an `art` event — Wikipedia dates its
+  carving only to "sometime during Moctezuma II's reign, 1502-1520," an 18-year window
+  too wide to place as a single dated event, and no more specific year is given.
+- The Chapultepec aqueduct event's image is a modern photograph of the colonial-era
+  aqueduct's surviving arches (built by the Spanish along the same route after
+  destroying the Aztec-built version) — no depiction of the original Aztec structure
+  survives, so this is the closest available illustration of the same water route; noted
+  here per the "History of X" broad-article precedent for image mismatches.
+
 ## Ottoman Empire (topic id: `ottoman`) — pulled 2026-08-03
 
 Status: **merged into live seed data 2026-08-03** (`backend/src/history_zoomout/db/seed_data/civilizations.json`, new topic — not previously present) and reseeded. `colorIndex: 1` continues the color cycle (16 existing topics run through indices 1–8 twice; this is the first entry of a third cycle).

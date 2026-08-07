@@ -5314,10 +5314,6 @@
       {
         "year": 1325,
         "sig": "major",
-        "tags": [
-          "founding",
-          "religion"
-        ],
         "title": "Tenochtitlan Is Founded",
         "body": "According to legend, the Mexica see an eagle devouring a serpent atop a cactus — the sign their priests had foretold — and found their capital, Tenochtitlan, on a marshy island in Lake Texcoco.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Tenochtitlan",
@@ -5325,6 +5321,9 @@
         "imageAttribution": "Painting by Roberto Cueva del Río, CC BY-SA 3.0, via Wikimedia Commons",
         "imageDescription": "A 20th-century mural, Fundación de Tenochtitlan, by Roberto Cueva del Río, depicting the city's legendary founding.",
         "wikidataId": "Q13695",
+        "tags": [
+          "founding"
+        ],
         "location": {
           "historicalName": "Tenochtitlan",
           "city": "Mexico City",
@@ -5336,24 +5335,79 @@
       {
         "year": 1428,
         "sig": "major",
-        "tags": [
-          "founding",
-          "battle"
-        ],
         "title": "The Triple Alliance Forms",
         "body": "After the Tepanec usurper Maxtla besieges Tenochtitlan and drives the Acolhua ruler Nezahualcoyotl into exile, the Mexica join Texcoco and the breakaway city of Tlacopan to crush Azcapotzalco, forming the Triple Alliance that becomes the Aztec Empire.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Aztec_Empire",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Aztec_Triple_Alliance.png/500px-Aztec_Triple_Alliance.png",
         "imageAttribution": "Aztec glyphs for the Triple Alliance's member states by XcepticZP and Goldenbrook, Public domain, via Wikimedia Commons",
         "imageDescription": "Aztec glyphs representing the three Triple Alliance city-states: Texcoco, Tenochtitlan, and Tlacopan.",
-        "wikidataId": "Q2608489"
+        "wikidataId": "Q2608489",
+        "tags": [
+          "founding",
+          "battle"
+        ]
+      },
+      {
+        "year": 1431,
+        "sig": "minor",
+        "title": "Nezahualcoyotl Is Restored to the Throne of Texcoco",
+        "body": "With military backing from Tenochtitlan's Itzcoatl, the exiled Acolhua prince Nezahualcoyotl retakes Texcoco's throne after the fall of the Tepanecs, beginning a reign in which he becomes the Triple Alliance's most celebrated lawgiver and poet.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Nezahualcoyotl_(tlatoani)",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Codex_Ixtlilxochitl_-_folio_106r.png/330px-Codex_Ixtlilxochitl_-_folio_106r.png",
+        "imageAttribution": "Illustration from the Codex Ixtlilxochitl, Public domain, via Wikimedia Commons",
+        "imageDescription": "A folio from the 16th-century Codex Ixtlilxochitl depicting Nezahualcoyotl, tlatoani of Texcoco.",
+        "wikidataId": "Q379964",
+        "tags": [
+          "governance"
+        ],
+        "location": {
+          "historicalName": "Texcoco",
+          "city": "Texcoco de Mora",
+          "country": "Mexico",
+          "latitude": 19.52,
+          "longitude": -98.88
+        }
+      },
+      {
+        "year": 1449,
+        "sig": "minor",
+        "title": "A Flood Destroys Tenochtitlan's Aqueduct",
+        "body": "Torrential rains destroy the wooden aqueduct carrying fresh water from the Chapultepec springs, cutting off Tenochtitlan's supply for weeks; Texcoco's king Nezahualcoyotl responds by engineering a sturdier stone-and-mortar replacement along the same route.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Chapultepec_aqueduct",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Acueducto_de_Chapultepec_02.JPG/330px-Acueducto_de_Chapultepec_02.JPG",
+        "imageAttribution": "Photo by Diana du Vent, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "Surviving arches of the Chapultepec aqueduct, rebuilt along the same route in the colonial era after the original Aztec structures were lost.",
+        "wikidataId": "Q5073555",
+        "tags": [
+          "architecture",
+          "science"
+        ],
+        "location": {
+          "historicalName": "Chapultepec",
+          "city": "Mexico City",
+          "country": "Mexico",
+          "latitude": 19.41305556,
+          "longitude": -99.19777778
+        }
+      },
+      {
+        "year": 1454,
+        "sig": "minor",
+        "title": "The Flower Wars Begin",
+        "body": "In the wake of a catastrophic four-year drought and famine, priests declare that the gods demand more captives for sacrifice, and the Triple Alliance institutes the xochiyaoyotl — ritualized \"flower wars\" against Tlaxcala, Huejotzingo, and Cholula that continue for decades.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Flower_war",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flower_War_Collage.jpg/330px-Flower_War_Collage.jpg",
+        "imageAttribution": "Collage by Mabarlabin, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "Imagery representing the flower wars fought between the Aztecs, Tlaxcalans, and neighboring city-states.",
+        "wikidataId": "Q886263",
+        "tags": [
+          "battle",
+          "religion"
+        ]
       },
       {
         "year": 1473,
         "sig": "minor",
-        "tags": [
-          "battle"
-        ],
         "title": "Axayacatl Conquers Tlatelolco",
         "body": "Tenochtitlan's tlatoani Axayacatl defeats Moquihuix, ruler of the rival twin city Tlatelolco, in battle and subjects it to Tenochtitlan, bringing the entire island and its great marketplace under unified Mexica rule.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Tlatelolco_(altepetl)",
@@ -5361,6 +5415,9 @@
         "imageAttribution": "Illustration of Moquihuix from the Codex Mendoza, Public domain, via Wikimedia Commons",
         "imageDescription": "A depiction of Moquihuix, the defeated ruler of Tlatelolco, from the Codex Mendoza.",
         "wikidataId": "Q796925",
+        "tags": [
+          "battle"
+        ],
         "location": {
           "historicalName": "Tlatelolco",
           "city": "Mexico City",
@@ -5370,12 +5427,22 @@
         }
       },
       {
+        "year": 1476,
+        "sig": "minor",
+        "title": "Axayacatl Is Defeated by the Tarascans",
+        "body": "Pushing west into Michoacán, Tenochtitlan's armies under Axayacatl are routed by the Tarascan (Purépecha) state — the first major Aztec military defeat, and one that permanently checks the empire's westward expansion.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Axayacatl",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Axayacatl.jpg/330px-Axayacatl.jpg",
+        "imageAttribution": "Illustration of Axayacatl from the Codex Azcatitlan, Public domain, via Wikimedia Commons",
+        "imageDescription": "A depiction of Axayacatl, sixth tlatoani of Tenochtitlan, from the Codex Azcatitlan.",
+        "wikidataId": "Q351751",
+        "tags": [
+          "battle"
+        ]
+      },
+      {
         "year": 1487,
         "sig": "major",
-        "tags": [
-          "architecture",
-          "religion"
-        ],
         "title": "The Great Temple Is Dedicated",
         "body": "Ruler Ahuitzotl consecrates the rebuilt Templo Mayor on the final day of the month of Panquetzaliztli, its twin shrines to Huitzilopochtli and Tlaloc marking the Mexica capital near the height of its power.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Templo_Mayor",
@@ -5383,6 +5450,10 @@
         "imageAttribution": "Photo by GAED, CC BY-SA 3.0, via Wikimedia Commons",
         "imageDescription": "A photograph of the excavated ruins of the Templo Mayor, Tenochtitlan's Great Temple.",
         "wikidataId": "Q774021",
+        "tags": [
+          "religion",
+          "architecture"
+        ],
         "location": {
           "historicalName": "Templo Mayor, Tenochtitlan",
           "city": "Mexico City",
@@ -5394,7 +5465,6 @@
       {
         "year": 1502,
         "sig": "minor",
-        "tags": [],
         "title": "Moctezuma II Becomes Tlatoani",
         "body": "Moctezuma Xocoyotzin is crowned as the ninth tlatoani of Tenochtitlan, inheriting an empire near its greatest extent that he will rule for nearly two decades before the Spanish arrive.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Moctezuma_II",
@@ -5402,6 +5472,9 @@
         "imageAttribution": "Illustration from the Codex Durán, Public domain, via Wikimedia Commons",
         "imageDescription": "Moctezuma II receiving his crown during his 1502 coronation, illustrated in the 16th-century Codex Durán.",
         "wikidataId": "Q141791",
+        "tags": [
+          "governance"
+        ],
         "location": {
           "historicalName": "Tenochtitlan",
           "city": "Mexico City",
@@ -5411,11 +5484,29 @@
         }
       },
       {
+        "year": 1507,
+        "sig": "minor",
+        "title": "The New Fire Ceremony Renews the Aztec World",
+        "body": "As the 52-year calendar cycle ends, Moctezuma II leads priests in procession to the hill of Huixachtlan, where a captive is sacrificed and a new flame kindled on his chest as the \"fire drill\" constellation rises — a ritual the Aztecs believe keeps the sun returning each day.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/New_Fire_ceremony",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/NewFirePalacioCV.JPG/330px-NewFirePalacioCV.JPG",
+        "imageAttribution": "Photo by AlejandroLinaresGarcia, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "A carved stone marking the \"new fire\" that begins a 52-year cycle on the Aztec calendar, inscribed with the dates One Rabbit and Two Reed.",
+        "wikidataId": "Q685639",
+        "tags": [
+          "religion"
+        ],
+        "location": {
+          "historicalName": "Huixachtlan",
+          "city": "Mexico City",
+          "country": "Mexico",
+          "latitude": 19.35833333,
+          "longitude": -99.09305556
+        }
+      },
+      {
         "year": 1519,
         "sig": "minor",
-        "tags": [
-          "battle"
-        ],
         "title": "Cortés Arrives on the Coast",
         "body": "Hernán Cortés lands on the Gulf coast and founds Veracruz, then marches inland, defeating and then allying with the Tlaxcalans as he advances toward Tenochtitlan.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Hern%C3%A1n_Cort%C3%A9s",
@@ -5423,6 +5514,9 @@
         "imageAttribution": "Portrait by unknown artist (Museo de América collection), Public domain, via Wikimedia Commons",
         "imageDescription": "An anonymous portrait of Hernán Cortés, based on a likeness he sent to Paolo Giovio.",
         "wikidataId": "Q7326",
+        "tags": [
+          "battle"
+        ],
         "location": {
           "historicalName": "Veracruz",
           "city": "Veracruz",
@@ -5434,9 +5528,6 @@
       {
         "year": 1520,
         "sig": "major",
-        "tags": [
-          "battle"
-        ],
         "title": "The Spanish Are Driven Out on La Noche Triste",
         "body": "After Moctezuma II is killed in rioting and Cortés's men loot the palace treasury, the Mexica attack the retreating Spanish column on the causeway out of the city, inflicting heavy losses in what the Spanish call La Noche Triste, the Night of Sorrows.",
         "sourceUrl": "https://en.wikipedia.org/wiki/La_Noche_Triste",
@@ -5444,6 +5535,9 @@
         "imageAttribution": "Anonymous 17th-century painting, Public domain, via Wikimedia Commons",
         "imageDescription": "A 17th-century oil painting depicting the Spanish retreat from Tenochtitlan under Mexica attack, known as La Noche Triste.",
         "wikidataId": "Q1308854",
+        "tags": [
+          "battle"
+        ],
         "location": {
           "historicalName": "Tenochtitlan (the Tacuba causeway)",
           "city": "Mexico City",
@@ -5453,12 +5547,30 @@
         }
       },
       {
+        "year": 1520,
+        "sig": "minor",
+        "title": "Cuitláhuac's Brief Reign Ends in Epidemic",
+        "body": "Elected tlatoani after the Spanish are driven from the city, Cuitláhuac organizes Tenochtitlan's defense for just 80 days before dying, likely of the smallpox epidemic sweeping the valley, and is succeeded by his nephew Cuauhtémoc.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Cuitl%C3%A1huac",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Cuitlahuac2.jpg",
+        "imageAttribution": "Illustration of Cuitláhuac from Bernardino de Sahagún's Primeros Memoriales, Public domain, via Wikimedia Commons",
+        "imageDescription": "A depiction of Cuitláhuac, the tenth tlatoani of Tenochtitlan, from the 16th-century Primeros Memoriales.",
+        "wikidataId": "Q315628",
+        "tags": [
+          "collapse",
+          "governance"
+        ],
+        "location": {
+          "historicalName": "Tenochtitlan",
+          "city": "Mexico City",
+          "country": "Mexico",
+          "latitude": 19.43333333,
+          "longitude": -99.13333333
+        }
+      },
+      {
         "year": 1521,
         "sig": "major",
-        "tags": [
-          "battle",
-          "collapse"
-        ],
         "title": "The Fall of Tenochtitlan",
         "body": "After a three-month siege and a smallpox epidemic that has already killed thousands, including the previous emperor Cuitláhuac, Spanish forces and their Indigenous allies capture the last tlatoani, Cuauhtémoc, and take Tenochtitlan.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan",
@@ -5466,6 +5578,10 @@
         "imageAttribution": "Illustration from the Florentine Codex by Bernardino de Sahagún, Public domain, via Wikimedia Commons",
         "imageDescription": "Cortés's brigantine fleet deployed on Lake Texcoco during the siege of Tenochtitlan.",
         "wikidataId": "Q593267",
+        "tags": [
+          "collapse",
+          "battle"
+        ],
         "location": {
           "historicalName": "Tenochtitlan",
           "city": "Mexico City",
