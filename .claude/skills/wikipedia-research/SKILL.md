@@ -19,8 +19,9 @@ built the same way the Persia pilot was: real Wikipedia sources, verified facts,
 images, geocoded event locations, and a paper trail. The JSON output lands in `data/`
 (gitignored -- fetched/generated, not committed) and the tracking-doc entry in
 `docs/wikipedia-sources-<category>s.md` (committed -- it's the durable, human-curated
-record). Neither is the live seed file (`backend/src/history_zoomout/db/seed_data/`) or
-the database -- merging is a separate step the user asks for explicitly.
+record). Neither is the live seed file (`data/seed_data/`, also committed despite living
+under `data/` -- see the `!/data/seed_data/` exceptions in `.gitignore`) or the database --
+merging is a separate step the user asks for explicitly.
 
 ## Before starting
 
@@ -137,8 +138,8 @@ in use across every category, with a one-line description of what each is for. T
 open/topic-defined, not a fixed enum in the schema (the frontend just lists whatever
 distinct values show up in the data, via `buildTagFilter` in `frontend/timeline.js`), but
 this file is the source of truth for research purposes so a pass doesn't need to scan
-every JSON under `data/` and `backend/src/history_zoomout/db/seed_data/` just to find
-out what already exists.
+every JSON under `data/` (including `data/seed_data/`) just to find out what already
+exists.
 
 Reuse an existing tag whenever an event genuinely fits one. Only introduce a new tag if
 none of the existing ones fit -- if you do, follow the "Adding a new tag" steps in
@@ -326,9 +327,8 @@ there rather than stretching marginal events to hit a number.
 
 1. **Load the existing topic and tally its tags.** Read
    `data/wikipedia-data/<category>/<slug>.json` if it exists, otherwise pull the topic's
-   current events from the merged seed data
-   (`backend/src/history_zoomout/db/seed_data/`). Count events per tag so the gap is
-   concrete, not a guess.
+   current events from the merged seed data (`data/seed_data/`). Count events per tag so
+   the gap is concrete, not a guess.
 2. **Confirm scope** if it isn't already precise: which theme(s), and roughly how many
    events to add. Don't assume "fill every under-represented tag" without checking --
    the user may want just one theme.
@@ -364,8 +364,8 @@ extract/article text into `summary` or `body`.
 
 ## Scope discipline
 
-This skill produces files under `data/` and `docs/` only. It does not:
-- Edit any file under `backend/src/history_zoomout/db/seed_data/` or run `history-zoomout-seed`
+This skill produces files under `data/wikipedia-data/` and `docs/` only. It does not:
+- Edit any file under `data/seed_data/` or run `history-zoomout-seed`
 - Change the database schema (if a topic needs a field that doesn't exist yet -- e.g.
   the `location`/image/citation fields all started as a separate ask before any topic
   research happened -- that's a schema change to raise with the user first, not something

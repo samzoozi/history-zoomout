@@ -36,4 +36,4 @@ uv run alembic upgrade head
 ## Re-seeding
 
 `history-zoomout-seed` clears and reloads all civilizations/events from
-`history_zoomout/db/seed_data/civilizations.json` — safe to re-run.
+`data/seed_data/civilizations.json` (repo root) — safe to re-run.

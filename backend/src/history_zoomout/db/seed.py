@@ -1,19 +1,23 @@
 import json
-from importlib import resources
+from pathlib import Path
 
 from . import Base, SessionLocal, engine
 from .models import Event, Location, Topic
 
+# Repo root, e.g. backend/src/history_zoomout/db/seed.py -> repo/
+REPO_ROOT = Path(__file__).resolve().parents[4]
+SEED_DATA_DIR = REPO_ROOT / "data" / "seed_data"
+
 # (category, seed_data filename) pairs. Add an entry here once a new
-# category's seed file lands under seed_data/ -- seeding logic itself doesn't
-# need to change.
+# category's seed file lands under data/seed_data/ -- seeding logic itself
+# doesn't need to change.
 SEED_FILES = [
     ("civilization", "civilizations.json"),
 ]
 
 
 def load_seed_data(filename: str) -> list[dict]:
-    path = resources.files("history_zoomout.db.seed_data").joinpath(filename)
+    path = SEED_DATA_DIR / filename
     return json.loads(path.read_text())
 
 

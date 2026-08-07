@@ -4,8 +4,8 @@ Canonical tag vocabulary for `Event.tags` across every category (`civilization`,
 `country`, `sport`, and any future one). Tags are open/topic-defined in the schema --
 the frontend just lists whatever distinct values show up in the data (`buildTagFilter`
 in `frontend/timeline.js`) -- but the `wikipedia-research` skill treats this file as the
-source of truth so a research pass doesn't need to scan every JSON under `data/` and
-`backend/src/history_zoomout/db/seed_data/` just to find out what tags already exist.
+source of truth so a research pass doesn't need to scan every JSON under `data/` (including
+`data/seed_data/`) just to find out what tags already exist.
 
 | Tag | Use for |
 |-----|---------|

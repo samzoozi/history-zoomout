@@ -21,7 +21,7 @@ topics keep their original unprefixed ids for backward compatibility — only ne
 need the prefix.
 
 Sourced JSON files live in `data/wikipedia-data/country/` — reviewed there before being
-merged into the live seed data (a new `backend/src/history_zoomout/db/seed_data/countries.json`
+merged into the live seed data (a new `data/seed_data/countries.json`
 file plus a `("country", "countries.json")` entry in `seed.py`'s `SEED_FILES` — not created
 yet as of this writing).
 
