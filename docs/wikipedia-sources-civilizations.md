@@ -1765,6 +1765,105 @@ Ottoman period, not just before 1453.
   `Şanlıurfa`, rome's `İzmit`, japan's `Tōdai-ji`/`Ōnin`) rather than transliterating to
   ASCII.
 
+### Enrichment pass — 2026-08-06
+
+The original 9-event pass was entirely political/military (foundings, sieges, battles,
+one treaty, two reform/constitutional moments) and covered only the empire's rise,
+classical-age peak, and final collapse. Missing entirely: `architecture`, `art`,
+`science`, `religion`, and every sub-period between 1571 and 1839 except the 1699
+treaty. This pass fills those gaps across the full 1299–1922 span rather than targeting
+a single tag, adding 14 events and roughly doubling the topic's coverage.
+
+New events by theme/sub-period:
+- **Classical-age religion/architecture/science**: Selim I's 1517 conquest of the
+  Mamluk Sultanate and assumption of the caliphate; the 1557 completion of the
+  Süleymaniye Mosque; Taqi al-Din's 1577 Istanbul observatory.
+- **18th-century Tulip Era arc**: its 1718 opening (art/architecture), the 1727
+  founding of the first Ottoman printing press (science), and the 1730 Patrona Halil
+  revolt that ended it (rebellion/governance) — three events covering one coherent
+  cultural period from three different angles, rather than one flat entry.
+- **18th–19th century retreat**: the 1774 Treaty of Küçük Kaynarca (first major
+  territorial/diplomatic retreat, distinct from and earlier than the 1699 Karlowitz
+  entry already in the dataset); the 1826 Auspicious Incident (Mahmud II abolishes the
+  janissary corps); the 1830 London Protocol recognizing Greek independence (the
+  empire's first loss of a subject nation to nationalist revolution); the 1876 first
+  Ottoman constitution; the 1878 Congress of Berlin.
+- **WWI-era end**: the 1913 Treaty of London/Balkan Wars (loss of nearly all remaining
+  European territory); the 1915 Gallipoli campaign (a rare late Ottoman military
+  success); the 1915 Armenian genocide.
+
+#### Event-level sources
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| Selim I conquers the Mamluk Sultanate, claims the caliphate | 1517 | [Ottoman–Mamluk War (1516–1517)](https://en.wikipedia.org/wiki/Ottoman%E2%80%93Mamluk_War_(1516%E2%80%931517)) | Q4338038 | 1518 Basel news pamphlet, Public domain |
+| Mimar Sinan completes the Süleymaniye Mosque | 1557 | [Süleymaniye Mosque](https://en.wikipedia.org/wiki/S%C3%BCleymaniye_Mosque) | Q178643 | Hunanuk, CC0 |
+| Taqi al-Din founds the Istanbul Observatory | 1577 | [Constantinople observatory of Taqi ad-Din](https://en.wikipedia.org/wiki/Constantinople_observatory_of_Taqi_ad-Din) | Q3348357 | Ala ad-Din Mansur-Shirazi (Şehinşahname miniature), Public domain |
+| The Tulip Era begins | 1718 | [Tulip Period](https://en.wikipedia.org/wiki/Tulip_Period) | Q1343901 | Julien Maury, Public domain |
+| İbrahim Müteferrika opens the first Ottoman printing press | 1727 | [Ibrahim Muteferrika](https://en.wikipedia.org/wiki/Ibrahim_Muteferrika) | Q561445 | Ogodej (statue photo), CC BY-SA 3.0 |
+| Patrona Halil Revolt ends the Tulip Era | 1730 | [Patrona Halil](https://en.wikipedia.org/wiki/Patrona_Halil) | Q2305326 | Jean Baptiste Vanmour, Public domain |
+| Treaty of Küçük Kaynarca | 1774 | [Treaty of Küçük Kaynarca](https://en.wikipedia.org/wiki/Treaty_of_K%C3%BC%C3%A7%C3%BCk_Kaynarca) | Q123227 | 18th-c. allegorical engraving, Cabinet of Engravings of the Romanian Academy, Public domain |
+| Auspicious Incident (abolition of the janissaries) | 1826 | [Auspicious Incident](https://en.wikipedia.org/wiki/Auspicious_Incident) | Q2665576 | Christoph Weigel the Elder / Caspar Luyken, Public domain |
+| London Protocol recognizes Greek independence | 1830 | [London Protocol (1830)](https://en.wikipedia.org/wiki/London_Protocol_(1830)) | Q839396 | Ludwig Michael von Schwanthaler (fresco), Public domain |
+| First Ottoman constitution | 1876 | [First Constitutional Era](https://en.wikipedia.org/wiki/First_Constitutional_Era) | Q3545916 | The Graphic (1877), Public domain |
+| Congress of Berlin | 1878 | [Congress of Berlin](https://en.wikipedia.org/wiki/Congress_of_Berlin) | Q151423 | Anton von Werner, Public domain |
+| Balkan Wars / Treaty of London | 1913 | [Treaty of London (1913)](https://en.wikipedia.org/wiki/Treaty_of_London_(1913)) | Q584617 | Public domain (self-scanned) |
+| Gallipoli campaign | 1915 | [Gallipoli campaign](https://en.wikipedia.org/wiki/Gallipoli_campaign) | Q164983 | George Washington Lambert, Public domain |
+| Armenian genocide | 1915 | [Armenian genocide](https://en.wikipedia.org/wiki/Armenian_genocide) | Q80034 | *Ravished Armenia* (1918), Public domain |
+
+#### Event locations
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Selim I / Mamluk conquest | Cairo | Cairo, Egypt | 30.040, 31.240 |
+| Süleymaniye Mosque | Constantinople | Istanbul, Turkey | 41.014, 28.955 |
+| Taqi al-Din observatory | Constantinople | Istanbul, Turkey | 41.014, 28.955 |
+| Tulip Era | Constantinople | Istanbul, Turkey | 41.014, 28.955 |
+| Müteferrika printing press | Constantinople | Istanbul, Turkey | 41.014, 28.955 |
+| Patrona Halil Revolt | Constantinople | Istanbul, Turkey | 41.014, 28.955 |
+| Treaty of Küçük Kaynarca | Küçük Kaynarca | Kaynardzha, Bulgaria | 43.983, 27.500 |
+| Auspicious Incident | Constantinople | Istanbul, Turkey | 41.014, 28.955 |
+| London Protocol | London | London, United Kingdom | 51.510, -0.130 |
+| First Ottoman constitution | Constantinople | Istanbul, Turkey | 41.014, 28.955 |
+| Congress of Berlin | Berlin | Berlin, Germany | 52.520, 13.405 |
+| Balkan Wars / Treaty of London | London | London, United Kingdom | 51.510, -0.130 |
+| Gallipoli campaign | Gallipoli | Gelibolu, Turkey | 40.410, 26.670 |
+| Armenian genocide | Constantinople | Istanbul, Turkey | 41.014, 28.955 |
+
+#### Decisions / judgment calls
+
+- **Backfilled `tags` on the original 9 events.** The source JSON (`data/wikipedia-data/civilization/ottoman.json`)
+  was missing the `tags` field on every event from the first pass, even though the live
+  merged seed (`backend/.../civilizations.json`) already has them — an inconsistency
+  predating this pass, not introduced by it. Restored the tags from the live seed
+  (`founding`, `battle`/`collapse`, etc.) so this source file is now internally complete
+  and a future merge from it won't silently drop the existing tags.
+- **No new tag added for the Armenian genocide**, even though none of the existing nine
+  tags (`architecture`, `art`, `battle`, `collapse`, `founding`, `governance`,
+  `rebellion`, `religion`, `science`) describes it precisely. Tagged it `collapse` as
+  the closest fit (it's part of the empire's terminal wartime unraveling) rather than
+  inventing a dedicated tag for a single event across the whole dataset.
+- **Treaty of Küçük Kaynarca (1774) kept distinct from Karlowitz (1699).** Both are
+  Ottoman treaty losses, but 75 years apart and different in kind: Karlowitz ends a
+  war after the 1683 Vienna defeat (already captured by that `major` entry per the
+  original pass's reasoning), while Küçük Kaynarca is the empire's first loss of a
+  Muslim vassal state's sovereignty and the origin of Russia's claimed protector role
+  over Ottoman Orthodox Christians — a distinct, longer-running precedent, not a
+  restatement of the 1699 retreat.
+- **Balkan Wars represented via the Treaty of London (1913)** rather than the war
+  itself, since the topic already has several `battle`-tagged sieges and the treaty is
+  what fixes the war's actual consequence for the empire (loss of nearly all European
+  territory) in a single dated, sourceable event.
+- **Location for the London Protocol and Treaty of London events set to London**, not a
+  Balkan/Greek location, since both are diplomatic instruments signed there and neither
+  war has one natural single battlefield to anchor the entry to.
+- **Two 1915 events (Gallipoli, Armenian genocide) both present.** They're unrelated in
+  substance (a military campaign vs. a civilian atrocity) and both independently
+  significant to the empire's final years, so neither is redundant with the other.
+- Kept full diacritics for non-English names introduced in this pass (İbrahim
+  Müteferrika, Küçük Kaynarca, Kaynardzha), consistent with the original pass's
+  approach.
+
 ## Maya (topic id: `maya`) — pulled 2026-08-03
 
 Status: **merged into live seed data 2026-08-03** (`backend/src/history_zoomout/db/seed_data/civilizations.json`, replacing the old 5-event entry wholesale) and reseeded. The
