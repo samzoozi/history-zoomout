@@ -5628,6 +5628,28 @@
         }
       },
       {
+        "year": 1440,
+        "sig": "major",
+        "tags": [
+          "religion",
+          "architecture"
+        ],
+        "title": "Pachacuti Rebuilds the Coricancha as the Empire's Sun Temple",
+        "body": "Pachacuti rebuilds Cusco's Coricancha, plating its walls in gold and dedicating it to Inti, the sun god; it becomes the empire's most sacred shrine and doubles as an observatory for tracking solstices and Inca constellations.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Coricancha",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Coricancha%2C_Cusco%2C_Per%C3%BA%2C_2015-07-31%2C_DD_68.JPG/330px-Coricancha%2C_Cusco%2C_Per%C3%BA%2C_2015-07-31%2C_DD_68.JPG",
+        "imageAttribution": "Photo by Diego Delso, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "The excavated stone walls of the Coricancha, the Inca Empire's principal sun temple in Cusco.",
+        "wikidataId": "Q817594",
+        "location": {
+          "historicalName": "Coricancha",
+          "city": "Cusco",
+          "country": "Peru",
+          "latitude": -13.52,
+          "longitude": -71.9756
+        }
+      },
+      {
         "year": 1450,
         "sig": "minor",
         "tags": [
@@ -5649,9 +5671,53 @@
         }
       },
       {
+        "year": 1460,
+        "sig": "minor",
+        "tags": [
+          "architecture"
+        ],
+        "title": "Construction Begins on the Sacsayhuamán Fortress",
+        "body": "Pachacuti begins building the massive stone fortress of Sacsayhuamán above Cusco, a project his son Topa Inca Yupanqui and grandson Huayna Capac continue for decades using enormous interlocking limestone blocks.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sacsayhuam%C3%A1n",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Sacsayhuam%C3%A1n%2C_Cusco%2C_Per%C3%BA%2C_2015-07-31%2C_DD_27.JPG/330px-Sacsayhuam%C3%A1n%2C_Cusco%2C_Per%C3%BA%2C_2015-07-31%2C_DD_27.JPG",
+        "imageAttribution": "Photo by Diego Delso, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "The massive interlocking stone walls of Sacsayhuamán, the Inca fortress overlooking Cusco.",
+        "wikidataId": "Q828336",
+        "location": {
+          "historicalName": "Sacsayhuamán",
+          "city": "Cusco",
+          "country": "Peru",
+          "latitude": -13.5078,
+          "longitude": -71.9822
+        }
+      },
+      {
+        "year": 1470,
+        "sig": "major",
+        "tags": [
+          "battle"
+        ],
+        "title": "Topa Inca Yupanqui Conquers the Chimú Kingdom",
+        "body": "Topa Inca Yupanqui, Pachacuti's son and successor, defeats King Minchançaman and conquers the Chimú Kingdom, the last independent state capable of rivaling the Inca on the Peruvian coast, deporting its ruler to Cusco.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Kingdom_of_Chimor",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Tupac-inca-yupanqui-small.png/330px-Tupac-inca-yupanqui-small.png",
+        "imageAttribution": "Illustration by Felipe Guaman Poma de Ayala, Public domain, via Wikimedia Commons",
+        "imageDescription": "A period illustration of Topa Inca Yupanqui, the tenth Sapa Inca, from Guaman Poma de Ayala's chronicle.",
+        "wikidataId": "Q581741",
+        "location": {
+          "historicalName": "Chan Chan",
+          "city": "Trujillo",
+          "country": "Peru",
+          "latitude": -8.1058,
+          "longitude": -79.0744
+        }
+      },
+      {
         "year": 1527,
         "sig": "major",
-        "tags": [],
+        "tags": [
+          "rebellion"
+        ],
         "title": "Huayna Capac Dies, Triggering a Succession Crisis",
         "body": "Emperor Huayna Capac dies at Quito of a mysterious epidemic, possibly a European disease that outran the Spanish themselves, leaving no clear heir and setting his sons Huáscar and Atahualpa on a collision course over the throne.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Huayna_Capac",
@@ -5665,6 +5731,27 @@
           "country": "Ecuador",
           "latitude": -0.22,
           "longitude": -78.5125
+        }
+      },
+      {
+        "year": 1528,
+        "sig": "major",
+        "tags": [
+          "battle"
+        ],
+        "title": "Pizarro's Expedition Makes First Contact With the Inca Empire at Tumbes",
+        "body": "On his second voyage south, Francisco Pizarro lands at the Inca outpost of Tumbes, gathering firsthand evidence of a wealthy, organized empire that convinces the Spanish crown to authorize the conquest expedition he leads four years later.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Inca_Empire",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Henry_Perronet_Briggs_%281791-1793-1844%29_-_The_First_Interview_between_the_Spaniards_and_the_Peruvians_-_N00375_-_National_Gallery.jpg/330px-Henry_Perronet_Briggs_%281791-1793-1844%29_-_The_First_Interview_between_the_Spaniards_and_the_Peruvians_-_N00375_-_National_Gallery.jpg",
+        "imageAttribution": "Painting by Henry Perronet Briggs, Public domain, via Wikimedia Commons",
+        "imageDescription": null,
+        "wikidataId": "Q636771",
+        "location": {
+          "historicalName": "Tumbes",
+          "city": "Tumbes",
+          "country": "Peru",
+          "latitude": -3.5708,
+          "longitude": -80.4597
         }
       },
       {
@@ -5726,6 +5813,28 @@
           "country": "Peru",
           "latitude": -7.1575,
           "longitude": -78.5175
+        }
+      },
+      {
+        "year": 1535,
+        "sig": "major",
+        "tags": [
+          "religion",
+          "collapse"
+        ],
+        "title": "The Last Inti Raymi With an Inca Emperor Is Held, Then Banned",
+        "body": "Manco Inca, the Spanish-installed puppet emperor, presides over the last Inti Raymi sun festival held with a reigning Inca before Spanish colonial authorities and Catholic priests ban the ceremony and other Inca state religious practices.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Inti_Raymi",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Inca_carried_on_his_throne_during_the_Inti_Raymi_2011.jpg/330px-Inca_carried_on_his_throne_during_the_Inti_Raymi_2011.jpg",
+        "imageAttribution": "Photo by jack_g, CC BY-SA 2.0, via Wikimedia Commons",
+        "imageDescription": "A modern reenactment of the Inti Raymi sun festival in Cusco, with the Inca figure carried on a ceremonial throne.",
+        "wikidataId": "Q1165988",
+        "location": {
+          "historicalName": "Cusco",
+          "city": "Cusco",
+          "country": "Peru",
+          "latitude": -13.5169,
+          "longitude": -71.9786
         }
       },
       {

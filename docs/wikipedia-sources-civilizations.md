@@ -2537,12 +2537,12 @@ Notes and judgment calls:
 - **No new tags needed** -- everything added fit the existing vocabulary
   (architecture/art/battle/collapse/founding/governance/rebellion/religion/science).
 
-## Inca (topic id: `inca`) — pulled 2026-08-03
+## Inca (topic id: `inca`) — pulled 2026-08-03, enriched 2026-08-06
 
-Status: **merged into live seed data 2026-08-03**
-(`backend/src/history_zoomout/db/seed_data/civilizations.json`, replacing the old 5-event
-entry wholesale). Kept the existing `id` (`inca`), `colorIndex` (7), and date range
-(1438-1572). Not yet reseeded into the database.
+Status: **merged into live seed data and reseeded 2026-08-06**
+(`backend/src/history_zoomout/db/seed_data/civilizations.json`). Kept the existing `id`
+(`inca`), `colorIndex` (7), and date range (1438-1572). Now at 13 events after the
+2026-08-06 enrichment pass (see below).
 
 The original 5-event seed entry covered the founding (1438), Machu Picchu (1450),
 Cajamarca (1532), Atahualpa's execution (1533), and the fall of Vilcabamba (1572), but
@@ -2633,6 +2633,71 @@ reused rather than left null, same approach as Khmer's Angkor Thom.
   or painted portraits of Huayna Capac or documentary scenes of the Cusco siege were found
   on Commons, and Guaman Poma's chronicle is the standard period-illustration source for
   this era, same role Bayon bas-reliefs played for Khmer's harder-to-photograph events.
+
+### Enrichment pass — 2026-08-06
+
+The original 8-event entry was almost entirely political/military and clustered at the
+empire's founding (1438) and collapse (1527-1572), with a 90-year gap covering Topa Inca
+Yupanqui's and early Huayna Capac's reigns (1471-1527) and zero events on religion,
+science, or architecture beyond Machu Picchu. Added 5 events: 2 architecture/religion
+events from Pachacuti's building program, the Chimú conquest that fills the reign gap,
+an earlier and better-documented "first contact" event than the existing 1532 Cajamarca
+capture, and the end of open Inca religious practice. Expanded from 8 to 13 events.
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| Pachacuti rebuilds the Coricancha as the empire's sun temple | 1440 | [Coricancha](https://en.wikipedia.org/wiki/Coricancha) | Q817594 | Diego Delso, CC BY-SA 4.0 |
+| Construction begins on the Sacsayhuamán fortress | 1460 | [Sacsayhuamán](https://en.wikipedia.org/wiki/Sacsayhuam%C3%A1n) | Q828336 | Diego Delso, CC BY-SA 4.0 |
+| Topa Inca Yupanqui conquers the Chimú Kingdom | 1470 | [Kingdom of Chimor](https://en.wikipedia.org/wiki/Kingdom_of_Chimor) | Q581741 | Felipe Guaman Poma de Ayala, Public domain |
+| Pizarro's expedition makes first contact with the Inca Empire at Tumbes | 1528 | [Spanish conquest of the Inca Empire](https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Inca_Empire) | Q636771 | Henry Perronet Briggs, Public domain (Art UK) |
+| The last Inti Raymi with an Inca emperor is held, then banned | 1535 | [Inti Raymi](https://en.wikipedia.org/wiki/Inti_Raymi) | Q1165988 | jack_g (Flickr), CC BY-SA 2.0 |
+
+**Locations:**
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Coricancha rebuilt | Coricancha | Cusco, Peru | -13.5200, -71.9756 |
+| Sacsayhuamán construction begins | Sacsayhuamán | Cusco, Peru | -13.5078, -71.9822 |
+| Chimú Kingdom conquered | Chan Chan | Trujillo, Peru | -8.1058, -79.0744 |
+| Pizarro reaches Tumbes | Tumbes | Tumbes, Peru | -3.5708, -80.4597 |
+| Last Inti Raymi with an emperor | Cusco | Cusco, Peru | -13.5169, -71.9786 |
+
+**Decisions and corrections:**
+
+- **No exact single year exists on Wikipedia for the Coricancha rebuild or the start of
+  Sacsayhuamán's construction** — both are described only as happening "during Pachacuti's
+  reign" (1438-1471). Placed them at 1440 and 1460 respectively, spaced out from the
+  existing 1438 founding and 1450 Machu Picchu events, following the same
+  reasonably-approximate-dating precedent the original entry already set for Machu Picchu
+  (also undated on Wikipedia beyond "Pachacuti's reign"). Noted here rather than treated
+  as precise findings.
+- **Considered a governance event** (the mit'a labor system, quipu census records, the
+  four-suyu administrative division, or the mitmaqkuna resettlement program) but none of
+  the relevant Wikipedia articles (Mit'a, Quipu, Tawantinsuyu, Mitma) give a specific year
+  for their establishment beyond "during the empire" or conflate it with the 1438
+  founding — added nothing rather than fabricate a date for a systemic reform.
+- **Considered a capacocha (child-sacrifice ritual) event**, since Wikipedia's Capacocha
+  article credits Pachacuti as "the first Sapa Inca to do this sacrifice." Skipped it: the
+  only available Commons images are photos of an actual mummy and a mummy replica, and
+  this dataset avoids showing human remains for sacrifice-themed events elsewhere (see the
+  Aztec entry's Flower Wars, illustrated with a symbolic collage rather than any body).
+- **"Pizarro's expedition makes first contact... at Tumbes" (1528) predates the existing
+  1532 Cajamarca capture** as the actual first Spanish-Inca contact — Pizarro's second
+  voyage reached Tumbes in 1528 gathering intelligence that led the Spanish crown to
+  authorize the 1531-32 conquest voyage. The existing "Last Inca Stronghold Falls" (1572)
+  body's phrase "four decades after Pizarro's first landing" was left as-is since "four
+  decades" reads consistently whether measured from 1528 (44 years) or 1532 (40 years).
+- **The 1526 Bartolomé Ruiz raft encounter** (often cited in secondary sources as the
+  actual first sighting of Inca wealth) was considered but dropped — no Wikipedia article
+  gives it a clear date or confirms the year, unlike the 1528 Tumbes landing which
+  "Spanish conquest of the Inca Empire" dates explicitly ("c. 1528... first contact with
+  the Inca Empire at Tumbes").
+- **Fixed a tag gap on the existing 1527 event** ("Huayna Capac Dies, Triggering a
+  Succession Crisis"), which had an empty `tags: []` — added `rebellion`, which the tag
+  vocabulary doc explicitly defines as covering "succession crises." Left 1533
+  ("Atahualpa Is Executed") with empty tags rather than force a poor fit.
+- **No new tags needed** — everything added fit the existing vocabulary
+  (architecture/battle/collapse/founding/religion).
 
 ## Mali Empire (topic id: `mali`) — pulled 2026-08-03
 
