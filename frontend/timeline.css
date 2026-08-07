@@ -456,6 +456,9 @@ button:focus-visible,
   grid-template-columns: 1fr;
   min-height: 0;
   position: relative;
+  /* Shared with .detail-panel's width below so the two stay in sync -- see
+     the panel-open scroller-shrink rule near .detail-panel. */
+  --panel-w: clamp(300px, 34vw, 400px);
 }
 .stage[hidden] { display: none; }
 
@@ -483,6 +486,16 @@ button:focus-visible,
      withheld (by omission) so a two-finger pinch here drives the custom zoom
      logic in timeline.js instead of the browser's native page zoom. */
   touch-action: pan-x pan-y;
+  transition: width 0.28s cubic-bezier(.2,.8,.2,1);
+}
+@media (min-width: 901px) {
+  /* Without this, .detail-panel (absolute, right:0) floats on top of the
+     scroller's full width -- covering any markers that happen to be
+     scrolled into its rightmost --panel-w strip, which for events late in
+     history is exactly where they land. Shrinking the scroller to make room
+     instead of overlaying it means every marker stays reachable while the
+     panel is open, instead of requiring a close-then-click round trip. */
+  .stage.panel-open .scroller { width: calc(100% - var(--panel-w)); }
 }
 .scroller.grabbing { cursor: grabbing; }
 .scroller::-webkit-scrollbar { height: 10px; width: 10px; }
@@ -679,8 +692,9 @@ button:focus-visible,
   /* Proportional instead of a flat 348px so it doesn't dominate mid-size
      windows (e.g. ~40% of a ~1024px viewport) -- scales with the window
      between a readable floor and a cap that keeps it from sprawling on
-     very wide screens. */
-  width: clamp(300px, 34vw, 400px);
+     very wide screens. Shared with .stage's --panel-w so the scroller-shrink
+     rule (see .stage.panel-open .scroller) stays in sync with this. */
+  width: var(--panel-w);
   max-width: 92vw;
   border-left: 1px solid var(--hairline);
   background: var(--surface);

@@ -534,6 +534,10 @@
     var panel = document.getElementById("detailPanel");
     panel.scrollTop = 0;
     panel.classList.add("open");
+    // Shrinks the scroller (desktop only, see .stage.panel-open .scroller in
+    // timeline.css) so the panel never overlays -- and hides -- markers that
+    // happen to be scrolled into its strip on the right.
+    document.getElementById("stage").classList.add("panel-open");
     detailScrollFadeDismissed = false;
     updateDetailScrollFade();
   }
@@ -609,6 +613,7 @@
 
   function closeDetailPanel() {
     detailPanelEl.classList.remove("open");
+    document.getElementById("stage").classList.remove("panel-open");
   }
 
   document.getElementById("detailClose").addEventListener("click", closeDetailPanel);
