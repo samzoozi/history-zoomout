@@ -1,5 +1,7 @@
 # History Zoomout
 
+Website link: [historyzoomout.com](https://historyzoomout.com/)
+
 An interactive timeline of world civilizations — see the defining moments of Mesopotamia,
 Egypt, Rome, China, and more laid out side by side, zoomable from the Bronze Age to the
 Age of Contact.
