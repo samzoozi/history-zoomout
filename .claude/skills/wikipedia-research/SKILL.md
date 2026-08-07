@@ -200,6 +200,27 @@ WebFetch(
 Pick something illustrative (a photo of the actual place/artifact, a period-appropriate
 map, a relevant painting) over the first result in the list.
 
+**Never construct or guess a Commons thumbnail URL -- always fetch the real one.**
+Commons thumbnail paths use an MD5-hash directory prefix (e.g. `.../thumb/a/a2/<file>/330px-<file>`)
+that has no relationship to the filename and cannot be inferred from a similar URL seen
+elsewhere (including the file's own full-res `File:` page URL). This has caused real,
+silent breakage: several `imageUrl`s in a past pass were fabricated by pattern-matching
+a hash seen in a different file's URL, and every one 404'd. `thumbnail.source` from the
+REST summary call is always a real, fetched URL and is safe to use directly. But the
+moment you swap in a *different* image -- found via the images-list step above, or any
+other route -- fetch its actual URL explicitly, in the same call as the attribution
+fetch below, by adding `iiprop=url` (alongside `iiprop=extmetadata`) or by requesting
+the `url`/`thumburl` fields directly:
+```
+WebFetch(
+  url: "https://en.wikipedia.org/w/api.php?action=query&titles=File:<Filename>&prop=imageinfo&iiprop=extmetadata|url&iiurlwidth=330&format=json",
+  prompt: "From this JSON, return extmetadata fields: Artist, LicenseShortName, Credit,
+           ImageDescription (plain text, strip HTML tags). Also return imageinfo url
+           and thumburl."
+)
+```
+Use the returned `thumburl` verbatim as `imageUrl` -- don't hand-edit or re-derive it.
+
 **Every image needs attribution before it's usable -- this is not optional.** Wikimedia
 Commons images are openly licensed but almost all require attribution under their
 license terms; showing one without credit is a license violation, not a style choice.
@@ -276,6 +297,20 @@ same-place-different-name situation). `city`/`country` are today's.
    expect. This has caught real bugs before (a missing `selectinload` on `Event.location`
    caused a 500 on the live API that the migration test alone didn't catch) -- if a live
    dev server is running, it's worth an actual API smoke-test too, not just the dry run.
+3. Actually fetch every `imageUrl` in the topic (topic-level and per-event) and confirm
+   it returns 200, not just visual-check the JSON. A bad Commons hash path (see the
+   "never construct or guess" note in step 5) looks completely plausible sitting in the
+   JSON and won't be caught by the JSON/ORM checks above -- it only shows up as a broken
+   `<img>` in the actual app. A one-line loop is enough:
+   ```
+   python3 -c "import json; [print(u) for u in
+     [json.load(open('<path>'))['imageUrl']] +
+     [e['imageUrl'] for e in json.load(open('<path>'))['events']]]" \
+   | while read -r url; do curl -s -o /dev/null -w "%{http_code}  $url\n" "$url"; sleep 1; done
+   ```
+   Space requests out (~1s apart) -- Commons rate-limits (429) a tight burst of HEAD/GET
+   calls, and a 429 is easy to misread as a real failure. Anything not 200 needs a
+   re-fetched URL, not a guessed fix.
 
 ## Tag-focused enrichment mode
 
