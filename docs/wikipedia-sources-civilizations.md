@@ -3151,3 +3151,313 @@ All events validated: JSON well-formed (31 events), years ascending (800 → 180
 dry-run constructed against the real `Topic`/`Event`/`Location` ORM classes in
 `history_zoomout.db.models` without error. All 32 image URLs (topic-level + per-event)
 fetched directly and confirmed HTTP 200, one request at a time with a 1-second gap.
+
+## Celts (topic id: `celtic`) — pulled 2026-08-07
+
+Status: **merged into live seed data 2026-08-07** (`data/seed_data/civilizations.json`)
+and reseeded.
+
+Sourced JSON at `data/wikipedia-data/civilization/celtic.json`. New topic — `id` (`celtic`)
+and `colorIndex` (3) picked fresh. `colorIndex` 3 was chosen deliberately: since this
+topic's -800–1066 range overlaps the full span of every other civilization's date range
+at some point, no color index is fully conflict-free, but 3 has the least overlap of any
+slot (Indus Valley, index 3, ends at -1300, before this topic starts; Khmer, also index 3,
+only overlaps a short 802–1066 window at the very end).
+
+Scope confirmed with the user via a two-option question before research began: the full
+Celtic world (-800–1066 AD, Hallstatt/La Tène origins through Insular Celtic Christianity
+and kingdoms up to the Norman Conquest) rather than the narrower Continental-only option
+(-800–50 BC, ending at Gaul's conquest by Rome).
+
+### Sub-periods mapped before event selection
+
+1. Hallstatt culture (c. 800–450 BC) — earliest Iron Age Celtic culture, centered on the
+   Alpine salt-mining region.
+2. La Tène culture and Celtic expansion (450–277 BC) — the classic Celtic art style, plus
+   the sack of Rome, the invasion of Greece, and settlement of Galatia in Anatolia.
+3. Gaulish civilization (3rd–1st century BC) — oppida urbanization, the vergobret
+   magistracy, La Tène-style metalwork found across Britain and Scandinavia.
+4. Roman conquest of Gaul (58–50 BC) — Caesar's Gallic Wars, ending at Alesia.
+5. Roman Britain (43–61 AD) — the Claudian invasion, the druid stronghold's destruction at
+   Mona, Boudica's revolt.
+6. Celtic Christianity in Ireland and Scotland (5th–9th century AD) — Patrick's mission,
+   Columba and Iona, Ogham, Brehon law, the Book of Kells.
+7. Insular Celtic kingdoms (9th–11th century AD) — the union of Picts and Scots under
+   Kenneth MacAlpin, the Battle of Clontarf, Gruffudd ap Llywelyn's unification and loss of
+   Wales, ending just before the Norman Conquest reshapes Britain in 1066.
+
+### Topic-level source
+
+- **Celts** — https://en.wikipedia.org/wiki/Celts — Wikidata Q35966. Used the article's
+  own default thumbnail, a map of Celtic territorial extent (Hallstatt core, greatest
+  expansion c. 275 BC, and modern Celtic-speaking areas) — appropriate for a topic this
+  geographically dispersed, similar to how Persia's topic image is also a map.
+
+### Event-level sources
+
+| Event | Year | Article | Wikidata | Tags | Image credit |
+|---|---|---|---|---|---|
+| The Hallstatt Culture Emerges in Central Europe | -800 | [Hallstatt culture](https://en.wikipedia.org/wiki/Hallstatt_culture) | Q202165 | founding | Joanbanjo, CC BY-SA 3.0 |
+| The La Tène Style Redefines Celtic Art | -450 | [La Tène culture](https://en.wikipedia.org/wiki/La_T%C3%A8ne_culture) | Q208247 | art | CC0 (no named photographer) |
+| Brennus and the Senones Sack Rome | -387 | [Sack of Rome (390 BC)](https://en.wikipedia.org/wiki/Sack_of_Rome_(390_BC)) | Q3460799 | battle | Paul Joseph Jamin, Public domain |
+| The Battersea Shield Is Deposited in the Thames | -300 | [Battersea Shield](https://en.wikipedia.org/wiki/Battersea_Shield) | Q810944 | art | Geni, CC BY-SA 4.0 |
+| Gauls Invade Greece, Turned Back at Thermopylae | -279 | [Battle of Thermopylae (279 BC)](https://en.wikipedia.org/wiki/Battle_of_Thermopylae_(279_BC)) | Q3636302 | battle | antmoose, CC BY 2.0 |
+| Celtic Settlers Found Galatia in Anatolia | -277 | [Galatia](https://en.wikipedia.org/wiki/Galatia) | Q26847 | founding | Caliniuc, CC BY-SA 4.0 |
+| Bibracte Rises as a Fortified Gaulish Oppidum | -220 | [Bibracte](https://en.wikipedia.org/wiki/Bibracte) | Q650053 | architecture | Iijjccoo, CC BY-SA 3.0 |
+| The Gundestrup Cauldron Depicts Celtic Deities | -100 | [Gundestrup cauldron](https://en.wikipedia.org/wiki/Gundestrup_cauldron) | Q721657 | art, religion | Rosemania, CC BY 2.0 |
+| Caesar Defeats the Helvetii at Bibracte, Opening the Gallic Wars | -58 | [Battle of Bibracte](https://en.wikipedia.org/wiki/Battle_of_Bibracte) | Q635028 | battle | Karl Jauslin, Public domain |
+| The Aedui Uphold the Vergobret Magistracy | -58 | [Vergobret](https://en.wikipedia.org/wiki/Vergobret) | Q645926 | governance | Lexovii issuing authority, Public domain |
+| Vercingetorix Is Proclaimed Leader of the United Gallic Tribes | -52 | [Vercingetorix](https://en.wikipedia.org/wiki/Vercingetorix) | Q178953 | founding, rebellion | Unknown author, Public domain |
+| The Battle of Alesia Ends Gallic Independence | -52 | [Battle of Alesia](https://en.wikipedia.org/wiki/Battle_of_Alesia) | Q131386 | battle, collapse | Benjamin Smith, CC BY-SA 4.0 |
+| Rome Begins the Conquest of Britain | 43 | [Roman conquest of Britain](https://en.wikipedia.org/wiki/Roman_conquest_of_Britain) | Q1258062 | battle | Own work (uploader), CC BY-SA 3.0 |
+| Suetonius Paulinus Destroys the Druid Stronghold on Mona | 60 | [Suetonius Paulinus](https://en.wikipedia.org/wiki/Suetonius_Paulinus) | Q326600 | religion, battle | Bernard de Montfaucon (18th c. engraving), Public domain |
+| Boudica Leads the Iceni in Revolt | 60 | [Boudica](https://en.wikipedia.org/wiki/Boudica) | Q184634 | rebellion, battle | John Opie, Public domain |
+| Ogham Script Emerges to Write Early Irish | 400 | [Ogham](https://en.wikipedia.org/wiki/Ogham) | Q184661 | science | Jaqian, CC BY-SA 3.0 |
+| Saint Patrick Begins His Mission to Ireland | 432 | [Saint Patrick](https://en.wikipedia.org/wiki/Saint_Patrick) | Q165479 | religion, founding | Andreas F. Borchert, CC BY-SA 4.0 |
+| Columba Founds Iona Abbey | 563 | [Iona Abbey](https://en.wikipedia.org/wiki/Iona_Abbey) | Q198409 | religion, founding | J. R. Skelton (1906 illustration), Public domain |
+| The Senchas Már Codifies Irish Brehon Law | 700 | [Senchas Már](https://en.wikipedia.org/wiki/Senchas_M%C3%A1r) | Q2269916 | governance | Andreas F. Borchert, CC BY-SA 4.0 |
+| The Book of Kells Is Illuminated | 800 | [Book of Kells](https://en.wikipedia.org/wiki/Book_of_Kells) | Q204221 | art, religion | Unattributed, Public domain |
+| Kenneth MacAlpin Unites Picts and Scots as King of Alba | 843 | [Kenneth MacAlpin](https://en.wikipedia.org/wiki/Kenneth_MacAlpin) | Q298263 | founding | Anonymous 19th c. engraver, Public domain |
+| The Battle of Clontarf | 1014 | [Battle of Clontarf](https://en.wikipedia.org/wiki/Battle_of_Clontarf) | Q868027 | battle | Hugh Frazer (1826 painting), Public domain |
+| Gruffudd ap Llywelyn Unites Wales | 1057 | [Gruffudd ap Llywelyn](https://en.wikipedia.org/wiki/Gruffudd_ap_Llywelyn) | Q727897 | founding | David Powel/Humphrey Lloyd (1584 engraving), Public domain |
+| Gruffudd ap Llywelyn Is Killed and Wales Fragments | 1063 | [Gruffudd ap Llywelyn](https://en.wikipedia.org/wiki/Gruffudd_ap_Llywelyn) | Q727897 | collapse | David Powel/Humphrey Lloyd (1584 engraving), Public domain |
+
+### Event locations
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Hallstatt culture emerges | Hallstatt | Hallstatt, Austria | 47.56, 13.65 |
+| La Tène style emerges | La Tène | Marin-Epagnier, Switzerland | 47.017, 7.017 |
+| Sack of Rome | Rome | Rome, Italy | 41.89, 12.48 |
+| Battersea Shield deposited | Battersea | London, England | 51.47, -0.16 |
+| Battle of Thermopylae (279 BC) | Thermopylae | Thermopylae, Greece | 38.796, 22.537 |
+| Galatia founded | Galatia | Ankara, Turkey | 39.93, 32.85 |
+| Bibracte rises as oppidum | Bibracte | Autun, France | 46.952, 4.299 |
+| Gundestrup cauldron made | Gundestrup | Aars, Denmark | 56.803, 9.518 |
+| Battle of Bibracte | Bibracte | Autun, France | 46.952, 4.299 |
+| Vergobret magistracy | *(institution, no single site — omitted)* | | |
+| Vercingetorix proclaimed leader | Bibracte | Autun, France | 46.952, 4.299 |
+| Battle of Alesia | Alesia | Alise-Sainte-Reine, France | 47.539, 4.501 |
+| Roman conquest of Britain begins | Rutupiae | Richborough, England | 51.294, 1.332 |
+| Mona/druid stronghold destroyed | Mona | Anglesey, Wales | 53.283, -4.333 |
+| Boudica's revolt | Camulodunum | Colchester, England | 51.89, 0.90 |
+| Ogham emerges | *(no single site — omitted)* | | |
+| Patrick's mission begins | *(conflicting landing traditions — omitted)* | | |
+| Iona Abbey founded | Iona | Iona, Scotland | 56.33, -6.41 |
+| Senchas Már codified | *("north midlands," too vague — omitted)* | | |
+| Book of Kells illuminated | Kells | Kells, Ireland | 53.73, -6.88 |
+| Kenneth MacAlpin unites Alba | Scone | Scone, Scotland | 56.423, -3.438 |
+| Battle of Clontarf | Clontarf | Dublin, Ireland | 53.37, -6.21 |
+| Gruffudd unites Wales | Rhuddlan | Rhuddlan, Wales | 53.294, -3.464 |
+| Gruffudd killed | Eryri | Snowdonia, Wales | 52.90, -3.85 |
+
+### Corrections / decisions made
+
+- **Sack of Rome date (390 vs. 387 BC)**: Roman tradition (Varronian chronology) dates the
+  battle to 390 BC, but the Battle of the Allia article notes modern historians consider
+  c. 387 BC more probable based on Greek dating sources. Used -387 as the `year` field,
+  with the traditional 390 BC date mentioned in the body text for readers familiar with it.
+- **Two different men named Brennus**: the leader who sacked Rome in 387 BC and the leader
+  of the 279 BC invasion of Greece are distinct historical figures who happen to share a
+  name (likely a title rather than a personal name). The body text for the second event
+  flags this explicitly to avoid implying one long-lived leader did both.
+- **No standalone "founding" event for the Celts as a whole**: unlike topics with a single
+  founder (Cyrus for Persia, Romulus for Rome), Celtic culture has no founding figure or
+  moment — the Hallstatt culture's emergence (an archaeological transition, not an event
+  with an actor) is used as the earliest `founding`-tagged entry instead, consistent with
+  how gradual cultural transitions are handled elsewhere when no single founding act
+  exists.
+- **`country` field for UK constituent nations**: used "England," "Wales," and "Scotland"
+  rather than "United Kingdom" for events located in Great Britain, since these are the
+  historically and popularly meaningful units for events centuries before the UK existed
+  in its current form (e.g. Boudica's revolt long predates England; Kenneth MacAlpin's
+  unification predates the UK by centuries). Ireland is given as "Ireland" throughout for
+  the same reason.
+- **Vercingetorix stater coin image**: Commons' extmetadata lists no named artist (an
+  ancient coin, not a modern work) and credits the Bibliothèque nationale de France as the
+  digitizing institution — attributed as "Photo via Bibliothèque nationale de France,
+  Public domain" rather than inventing an artist. Same approach for the Lexovii vergobret
+  coin (credited to "the Lexovii" as the issuing authority) and the Book of Kells folio
+  (credited as "Illuminated page from the Book of Kells" since the individual scribes/
+  artists are anonymous).
+- **La Tène culture and Basse Yutz Flagons image**: the REST summary's default thumbnail
+  for "La Tène culture" is the same generic Hallstatt/La Tène distribution map already
+  used contextually elsewhere, so swapped in the Basse Yutz Flagons (c. 450 BC, British
+  Museum) from the article's embedded images instead — a widely reproduced, visually
+  distinctive example of the earliest La Tène decorative style. Its Commons file is a
+  CC0 derivative with no individual photographer credited; attributed as "Photo of the
+  Basse Yutz Flagons, CC0" per the named-work convention above.
+- **Battle of Thermopylae (279 BC) image**: default thumbnail was a generic Thracian
+  tribes map; swapped for "The Dying Gaul" (a Roman marble copy of a Hellenistic bronze
+  commemorating a Greek victory over Gallic invaders), found via the article's own
+  embedded images and thematically on point despite not depicting Thermopylae itself.
+- **Brehon law / Senchas Már image**: the Early Irish law article's default thumbnail
+  (Redwood Castle) has no real connection to Brehon law; swapped for a photo of
+  Cahermacnaghten, ruins of the 17th-century O'Davoren law school in the Burren — a real
+  Brehon-law-tradition site, though centuries later than the 8th-century Senchas Már
+  compilation itself. Flagged here since the image postdates the specific event it
+  illustrates by roughly 900 years; used anyway since it's the only genuinely on-topic
+  Commons image available and the event/image mismatch is clear from the image
+  description.
+- **Ogham and Patrick's landing site omitted**: Ogham's origin isn't tied to one place, and
+  Patrick's landing/first-mission site has two conflicting ancient traditions (Muirchú's
+  Inber Dea/Arklow vs. Tírechán's Brega) with no clear resolution in the source article —
+  per the skill's guidance, `location` is omitted entirely for both rather than guessing.
+- **Gruffudd ap Llywelyn's two events share one image**: no second Commons image exists
+  specifically for his 1063 death; the same 1584 engraving portrait is reused for both the
+  1057 unification and 1063 death/collapse events, since it depicts the same person
+  central to both.
+- **`colorIndex` overlap**: unlike every prior topic in this file, Celtic's 1,866-year span
+  makes a fully non-overlapping color index impossible given the other 19 civilizations
+  already seeded — see the note under the topic heading above for the reasoning behind
+  picking index 3.
+
+All events validated: JSON well-formed (24 events), years ascending (-800 → 1063), and
+dry-run constructed against the real `Topic`/`Event`/`Location` ORM classes in
+`history_zoomout.db.models` without error. All 25 image URLs (topic-level + per-event,
+including one deliberately reused image) fetched directly and confirmed HTTP 200, one
+request at a time with a 1-second gap.
+
+## Kingdom of Kush (topic id: `kush`) — pulled 2026-08-07
+
+Status: **merged into live seed data 2026-08-07** (`data/seed_data/civilizations.json`)
+and reseeded.
+
+Sourced JSON at `data/wikipedia-data/civilization/kush.json`. New topic — `id` (`kush`)
+and `colorIndex` (5) picked fresh. `colorIndex` 5 is the next unused value in the third
+color-rotation
+cycle (ottoman=1, vikings=2, mughal=3, hre=4; celtic=3 was a deliberate overlap reuse, not
+a new cycle position — see the Celts entry above), so this is the cycle's fifth slot.
+
+Category confirmed as `civilization`: this topic was already scoped that way in
+`data/civilization-candidates.md` ("pairs naturally with the existing Egypt topic"), and
+its arc — rise, conquest of a neighbor, apex, and eventual fall — matches this project's
+`civilization` framing rather than `country`'s origin-to-present arc.
+
+### Sub-periods mapped before event selection
+
+1. Formation (c. 1070–754 BC) — Kush re-emerges as an independent kingdom centered on
+   Napata after Egypt's New Kingdom withdraws from Nubia; Alara and Kashta build the
+   Napatan royal line and extend peaceful influence into Thebes.
+2. 25th Dynasty / rule over Egypt (754–656 BC) — Piye, Shabaka, and Taharqa unite Egypt
+   and Nubia under Kushite pharaohs, until Assyrian invasions under Esarhaddon and
+   Ashurbanipal drive the dynasty back to Nubia.
+3. Napatan period after Egypt (656–c. 270 BC) — Egyptian retaliation (Psamtik II's sack of
+   Napata) pushes the capital south to Meroe under Aspelta; royal burials fully shift south
+   by c. 300 BC.
+4. Meroitic period (c. 270 BC – 4th century AD) — the Meroitic script emerges, Kush fights
+   Rome to a favorable standstill under Amanirenas, and rulers like Natakamani and
+   Amanitore build major temples at Naqa.
+5. Fall (mid-4th century AD) — internal rebellion, Noba raids, and Aksumite military
+   pressure under Ezana bring the kingdom to its end around 350 AD.
+
+### Topic-level source
+
+- **Kingdom of Kush** — https://en.wikipedia.org/wiki/Kingdom_of_Kush — Wikidata Q241790.
+  Used the article's own default thumbnail, a map of the Kushite heartland and the empire's
+  extent during the 25th Dynasty (c. 700 BCE) — directly relevant and more informative than
+  a single-ruler portrait would be, similar to how Persia and the Celts use maps as their
+  topic image.
+
+### Event sources
+
+| Event | Year | Article | Wikidata | Tags | Image credit |
+|---|---|---|---|---|---|
+| Kush Regains Independence After Egyptian Withdrawal | -1070 | [Kingdom of Kush](https://en.wikipedia.org/wiki/Kingdom_of_Kush) | Q241790 | founding | LassiHU, CC BY-SA 4.0 |
+| Alara Founds the Napatan Ruling Dynasty | -770 | [Alara of Kush](https://en.wikipedia.org/wiki/Alara_of_Kush) | Q533610 | founding | Karl Richard Lepsius, Public domain |
+| Kashta Extends Kushite Influence into Thebes | -750 | [Kashta](https://en.wikipedia.org/wiki/Kashta) | Q546639 | governance, religion | Unknown Egyptian artist, Public domain |
+| Piye Conquers Lower Egypt and Founds the 25th Dynasty | -727 | [Piye](https://en.wikipedia.org/wiki/Piye) | Q315695 | battle, founding | Auguste Mariette, Public domain |
+| Shabaka Reunifies Egypt Under Kushite Rule | -705 | [Shabaka](https://en.wikipedia.org/wiki/Shabaka) | Q365929 | battle | woodsboy2011, CC BY-SA 2.0 |
+| Kushite Forces Aid Judah Against an Assyrian Siege | -701 | [Taharqa](https://en.wikipedia.org/wiki/Taharqa) | Q315714 | battle | Tangopaso, Public domain |
+| The Shabaka Stone Preserves the Memphite Theology | -700 | [Shabaka Stone](https://en.wikipedia.org/wiki/Shabaka_Stone) | Q1188062 | religion, science | Sanjay ach, CC BY-SA 4.0 |
+| Taharqa's Building Program Reshapes Napata and Karnak | -680 | [Nuri](https://en.wikipedia.org/wiki/Nuri) | Q2119839 | architecture | Hans Birger Nilsen, CC BY-SA 2.0 |
+| Esarhaddon's Assyrians Sack Memphis | -671 | [Taharqa](https://en.wikipedia.org/wiki/Taharqa) | Q315714 | battle, collapse | Osama Shukir Muhammed Amin FRCP(Glasg), CC BY-SA 4.0 |
+| The Sack of Thebes Ends Kushite Rule in Egypt | -663 | [Sack of Thebes](https://en.wikipedia.org/wiki/Sack_of_Thebes) | Q55643354 | battle, collapse | tobeytravels, CC BY-SA 2.0 |
+| Psamtik II Sacks Napata | -592 | [Psamtik II](https://en.wikipedia.org/wiki/Psamtik_II) | Q373521 | battle | OliBac, CC BY 2.0 |
+| Aspelta Relocates the Capital to Meroe | -591 | [Aspelta](https://en.wikipedia.org/wiki/Aspelta) | Q258949 | founding, governance | Jean-Pierre Dalbéra, CC BY 2.0 |
+| Royal Burials Complete the Shift to Meroe | -300 | [Kingdom of Kush](https://en.wikipedia.org/wiki/Kingdom_of_Kush) | Q241790 | governance | Wufei07, Public domain |
+| The Meroitic Script Appears in Writing | -175 | [Meroitic script](https://en.wikipedia.org/wiki/Meroitic_script) | Q1164926 | science | Unattributed (chart), Public domain |
+| Amanirenas Leads Kush to War Against Rome | -25 | [Amanirenas](https://en.wikipedia.org/wiki/Amanirenas) | Q175784 | battle, governance | Karl Richard Lepsius, Public domain |
+| Kushites Bury a Trophy Head of Augustus | -24 | [Meroë Head](https://en.wikipedia.org/wiki/Mero%C3%AB_Head) | Q16933444 | art | Aiwok, CC BY-SA 3.0 |
+| Natakamani and Amanitore Build the Lion Temple at Naqa | 50 | [Naqa](https://en.wikipedia.org/wiki/Naqa) | Q1760360 | architecture, religion | LassiHU, CC BY-SA 4.0 |
+| Aksumite Pressure and Internal Strife End the Kingdom of Kush | 350 | [Ezana of Axum](https://en.wikipedia.org/wiki/Ezana_of_Axum) | Q379898 | collapse, rebellion | CNG Coins, CC BY-SA 3.0 |
+
+### Event locations
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Kush regains independence | Napata | Karima, Sudan | 18.54, 31.83 |
+| Alara founds dynasty | Napata | Karima, Sudan | 18.54, 31.83 |
+| Kashta extends influence into Thebes | Thebes | Luxor, Egypt | 25.72, 32.61 |
+| Piye conquers Lower Egypt | Memphis | Mit Rahina, Egypt | 29.85, 31.26 |
+| Shabaka reunifies Egypt | Memphis | Mit Rahina, Egypt | 29.85, 31.26 |
+| Aid to Judah against Assyria | Eltekeh | *(exact site disputed — coordinates omitted)*, Israel | |
+| Shabaka Stone | Memphis | Mit Rahina, Egypt | 29.85, 31.26 |
+| Taharqa's building program | Nuri | Karima, Sudan | 18.56, 31.92 |
+| Esarhaddon sacks Memphis | Memphis | Mit Rahina, Egypt | 29.85, 31.26 |
+| Sack of Thebes | Thebes | Luxor, Egypt | 25.72, 32.61 |
+| Psamtik II sacks Napata | Napata | Karima, Sudan | 18.54, 31.83 |
+| Aspelta relocates capital | Meroe | Shendi, Sudan | 16.93, 33.73 |
+| Royal burials shift to Meroe | Meroe | Shendi, Sudan | 16.93, 33.73 |
+| Meroitic script appears | Meroe | Shendi, Sudan | 16.93, 33.73 |
+| Amanirenas's war with Rome | Syene | Aswan, Egypt | 24.09, 32.90 |
+| Meroë Head buried | Meroe | Shendi, Sudan | 16.93, 33.73 |
+| Lion Temple at Naqa | Naqa | *(no established modern town)*, Sudan | 16.27, 33.28 |
+| Fall of the Kingdom of Kush | Meroe | Shendi, Sudan | 16.93, 33.73 |
+
+### Corrections / decisions made
+
+- **Piye's conquest year (727 vs. 724 BC)**: the topic-level "Kingdom of Kush" article
+  gives c. 727 BC for Piye's seizure of Lower Egypt, while the dedicated Piye article ties
+  it to "regnal year 20," which lands closer to 724 BC given his reign start (c. 744 BC).
+  Used -727 BC, the more commonly cited year in the secondary literature, and left the
+  discrepancy noted here rather than silently picking one.
+- **Shabaka's reign dates revised**: some older scholarship (reflected loosely in the
+  topic-level article's "Shabaka/Shabataka defeated Saite kings between 711-710 BC")
+  predates a chronological revision; the dedicated Shabaka article gives 705–690 BC, which
+  is used here for both the "Shabaka reunifies Egypt" (705 BC) and Shabaka Stone (c. 700
+  BC) events.
+- **Battle of Eltekeh's Taharqa attribution**: Wikipedia's Taharqa article flags that
+  Taharqa did not formally become pharaoh until 690 BC, roughly a decade after the 701 BC
+  Eltekeh campaign traditionally credited to him — he may have commanded as a prince under
+  Shabaka, or the biblical account (2 Kings 19) may use his later royal title
+  anachronistically. The event body notes the campaign is "later credited to Taharqa"
+  rather than asserting he held the throne at the time. `location` coordinates are omitted
+  for Eltekeh itself since its exact site is disputed among historians (candidates include
+  Tell esh-Shallaf); `country` is set to modern Israel as the closest well-established
+  regional label.
+- **Aksumite role in the fall of Kush (contested)**: Wikipedia is explicit that whether
+  Aksum "destroyed" Meroe, whether the kingdom instead suffered an independent economic and
+  political decline around 300 AD, or whether the Aksumite stela actually records military
+  *aid* to Kush against a Nuba rebellion, is unresolved among historians. The event body
+  reflects this by naming multiple contributing causes (Noba raids, internal rebellion,
+  Aksumite pressure) rather than asserting Aksum alone ended the kingdom; King Ezana is
+  used as the source/image anchor since he's the best-documented Aksumite ruler tied to the
+  relevant stela, even though the article itself entertains a predecessor (Ousanas) as an
+  alternative.
+- **No dedicated article for two governance-only events**: "Kush Regains Independence"
+  (-1070) and "Royal Burials Complete the Shift to Meroe" (-300) are both broad
+  historiographical statements from the topic-level "Kingdom of Kush" article rather than
+  events with their own Wikipedia page — both are cited back to that article directly, as
+  precedent set for similar cases in other topics in this file.
+- **Meroitic script image has no named artist**: the alphabet-comparison chart
+  (`File:Meroitic.png`) carries a Public domain license in its extmetadata but no `Artist`
+  field; attributed as "Meroitic alphabet chart, Public domain" per the same
+  no-named-artist convention used for ancient/anonymous works elsewhere in this file (see
+  the Celts entry's Vercingetorix coin and Book of Kells precedent).
+- **Iron industry considered and dropped**: Meroe's ironworking industry (sometimes called
+  "the Birmingham of Africa," per Archibald Sayce, though modern scholarship debates the
+  claim) was considered as its own `science`-tagged event, but no Commons image specific to
+  Meroitic ironworking, slag, or furnaces could be found — only unrelated pyramid/site
+  photos already used elsewhere. Per this skill's guidance against manufacturing a marginal
+  event, and to avoid attaching a misleading image, this was dropped rather than force-fit.
+- **`country` field for Eltekeh and Syene events**: Syene is given as modern Aswan, Egypt
+  (well-established); Eltekeh is given as modern Israel despite the disputed exact site, on
+  the same reasoning as the Celts entry's UK-constituent-nation handling — using the
+  historically/popularly meaningful modern label even when precise coordinates aren't
+  available.
+
+All events validated: JSON well-formed (18 events), years ascending (-1070 → 350), and
+dry-run constructed against the real `Topic`/`Event`/`Location` ORM classes in
+`history_zoomout.db.models` without error. All 19 image URLs (topic-level + per-event)
+fetched directly and confirmed HTTP 200, one request at a time with a 1-second gap.
