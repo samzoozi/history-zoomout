@@ -84,7 +84,7 @@
     return ticks;
   }
 
-  var state = { tags: new Set(), zoom: 0.6, selectedTopics: null };
+  var state = { tags: new Set(), zoom: 1, selectedTopics: null };
 
   var lanesEl = document.getElementById("lanes");
   var axisTrack = document.getElementById("axisTrack");
@@ -632,10 +632,41 @@
     closeDetailPanel();
   });
 
-  zoomInput.addEventListener("input", function () {
-    state.zoom = parseFloat(zoomInput.value);
+  // yearToX()/pxPerYear() are relative to the flexible track area, which
+  // starts labelWidth() px into the (horizontally scrolling) content -- the
+  // sticky lane-label column sits in front of it. Converting between a
+  // screen x (e.g. a pointer position) and the year under it has to route
+  // through that offset plus the current scroll position.
+  function screenXToYear(clientX) {
+    var rect = scroller.getBoundingClientRect();
+    var screenX = clientX - rect.left;
+    return DOMAIN_START + (scroller.scrollLeft + screenX - labelWidth()) / pxPerYear();
+  }
+  function scrollLeftToPinYear(year, clientX) {
+    var rect = scroller.getBoundingClientRect();
+    var screenX = clientX - rect.left;
+    return labelWidth() + yearToX(year) - screenX;
+  }
+
+  // Re-renders at the new zoom, then corrects scrollLeft so `year` lands
+  // back under `clientX` -- otherwise every zoom step would recenter on
+  // the domain start instead of staying anchored under the gesture (or,
+  // for the slider, under the viewport's center).
+  function applyZoom(newZoom, year, clientX) {
+    var clamped = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, newZoom));
+    if (clamped === state.zoom) return;
+    state.zoom = clamped;
+    zoomInput.value = clamped;
     updateZoomReadout();
     render();
+    scroller.scrollLeft = scrollLeftToPinYear(year, clientX);
+  }
+
+  zoomInput.addEventListener("input", function () {
+    var rect = scroller.getBoundingClientRect();
+    var centerX = rect.left + rect.width / 2;
+    var year = screenXToYear(centerX);
+    applyZoom(parseFloat(zoomInput.value), year, centerX);
   });
 
   // Pan (1 pointer) + pinch-zoom (2 pointers) over the timeline only, via
@@ -651,35 +682,6 @@
     var mode = null; // "pan" | "pinch"
     var panStart = null; // {x, y, scrollX, scrollY}
     var lastPinchDistance = 0;
-
-    // yearToX()/pxPerYear() are relative to the flexible track area, which
-    // starts labelWidth() px into the (horizontally scrolling) content --
-    // the sticky lane-label column sits in front of it. Converting between a
-    // screen x (e.g. a pointer position) and the year under it has to route
-    // through that offset plus the current scroll position.
-    function screenXToYear(clientX) {
-      var rect = scroller.getBoundingClientRect();
-      var screenX = clientX - rect.left;
-      return DOMAIN_START + (scroller.scrollLeft + screenX - labelWidth()) / pxPerYear();
-    }
-    function scrollLeftToPinYear(year, clientX) {
-      var rect = scroller.getBoundingClientRect();
-      var screenX = clientX - rect.left;
-      return labelWidth() + yearToX(year) - screenX;
-    }
-
-    // Re-renders at the new zoom, then corrects scrollLeft so `year` lands
-    // back under `clientX` -- otherwise every zoom step would recenter on
-    // the domain start instead of staying anchored under the gesture.
-    function applyZoom(newZoom, year, clientX) {
-      var clamped = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, newZoom));
-      if (clamped === state.zoom) return;
-      state.zoom = clamped;
-      zoomInput.value = clamped;
-      updateZoomReadout();
-      render();
-      scroller.scrollLeft = scrollLeftToPinYear(year, clientX);
-    }
 
     function distance(a, b) { return Math.hypot(a.x - b.x, a.y - b.y); }
     function midpoint(a, b) { return { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 }; }
@@ -799,6 +801,7 @@
     state.selectedTopics = new Set(TOPICS.map(function (t) { return t.id; }));
     buildTopicFilter();
     buildTagFilter();
+    updateZoomReadout();
     render();
     loadWorldMap();
 
