@@ -962,6 +962,63 @@ footer.note {
   flex-shrink: 0;
 }
 
+.nav-drawer-footer {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--hairline);
+}
+.nav-drawer-about-link {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: var(--ink-muted);
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+.nav-drawer-about-link:hover { background: var(--surface); color: var(--ink-primary); }
+
+/* ---------- About page ---------- */
+.about-main {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px clamp(20px, 4vw, 44px);
+  overflow-y: auto;
+}
+.about-card { max-width: 560px; width: 100%; }
+.about-title {
+  font-family: 'Marcellus', serif;
+  font-size: 28px;
+  color: var(--ink-primary);
+  margin: 0 0 18px;
+}
+.about-body {
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: var(--ink-secondary);
+  margin: 0 0 16px;
+}
+.about-links {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--hairline);
+}
+.about-link {
+  font-size: 13px;
+  color: var(--brass);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+.about-link:hover { text-decoration: underline; }
+
 @media (prefers-reduced-motion: reduce) {
   * { transition-duration: 0.001ms !important; scroll-behavior: auto !important; }
 }

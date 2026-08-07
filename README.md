@@ -4,6 +4,8 @@ An interactive timeline of world civilizations — see the defining moments of M
 Egypt, Rome, China, and more laid out side by side, zoomable from the Bronze Age to the
 Age of Contact.
 
+![History Zoomout timeline](docs/images/timeline.png)
+
 ## Structure
 
 ```
