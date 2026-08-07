@@ -689,7 +689,15 @@ button:focus-visible,
 }
 .marker.major .dot { position: relative; }
 .marker:hover .dot, .marker:focus-visible .dot { transform: scale(1.28); }
-.marker[aria-pressed="true"] .dot { transform: scale(1.28); box-shadow: 0 0 0 3px var(--page), 0 0 0 5px var(--civ-color); }
+
+/* Selection is a single thin brass outline, drawn outside whatever
+   box-shadow rings the dot already has (plain or .major's halo) rather than
+   adding more of them -- so it reads as "this one" via a color that isn't
+   any lane's civ-color, without turning .major markers into a bullseye. */
+.marker[aria-pressed="true"] .dot {
+  outline: 1.5px solid var(--brass);
+  outline-offset: 2.5px;
+}
 
 .marker .tip {
   position: absolute;
