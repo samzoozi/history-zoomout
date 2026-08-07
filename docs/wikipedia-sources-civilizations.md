@@ -1605,6 +1605,114 @@ not a single-site event.
 - Added `location` to every event except the Toluid Civil War (see above), where the
   original seed data had none.
 
+### Enrichment pass — pulled 2026-08-06
+
+Status: **existing topic, enriched** — file updated at
+`data/wikipedia-data/civilization/mongol.json`; merging into the live seed and reseeding
+is a separate step.
+
+The 9-event set from the 2026-08-03 pass was entirely `battle`/`founding`/`collapse` --
+zero events tagged `architecture`, `art`, `governance`, `religion`, `science`, or
+`rebellion`, despite the empire's well-documented institutional and cultural history
+(a fixed capital, a state postal network, the world's first nationwide paper currency,
+religious pluralism policy, and one of history's first world histories). This pass adds
+8 events across the empire's full date range and every sub-period (the united empire
+under Ögedei and Möngke, Kublai's Yuan, and the western Ilkhanate) to close that gap,
+without touching the wording of the existing 9. Also backfilled `tags` onto all 9
+existing events in this file -- the 2026-08-03 pass had written them with no `tags` key
+at all, even though the live seed's merged copy already carries `founding`/`battle`/
+`collapse` tags for those same events; copied the live seed's tags in so the research
+file and the seed no longer disagree.
+
+#### Event-level sources (new events only)
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| Ögedei Khan is elected Great Khan at kurultai | 1229 | [Ögedei Khan](https://en.wikipedia.org/wiki/%C3%96gedei_Khan) | Q7519 | Unknown Yuan-era artist, digitized by the National Palace Museum, Public domain |
+| Ögedei builds Karakorum as a fixed capital | 1235 | [Karakorum](https://en.wikipedia.org/wiki/Karakorum) | Q62677 | Brücke-Osteuropa (photo of museum model), Public domain |
+| Möngke Khan hosts a debate between faiths at Karakorum | 1254 | [William of Rubruck](https://en.wikipedia.org/wiki/William_of_Rubruck) | Q7521 | Atelier of Abdullah Sultan, Shiraz, CC0 |
+| Kublai raises the summer capital at Shangdu | 1256 | [Shangdu](https://en.wikipedia.org/wiki/Shangdu) | Q471765 | Flaumfeder (photo of ruins), CC BY-SA 4.0 |
+| Kublai Khan issues an empire-wide paper currency | 1260 | [Jiaochao](https://en.wikipedia.org/wiki/Jiaochao) | Q2665794 | PHGCOM (photo of an original 1287 banknote and printing plate), CC BY-SA 3.0 |
+| Kublai Khan crushes Nayan's rebellion | 1287 | [Nayan (Mongol prince)](https://en.wikipedia.org/wiki/Nayan_(Mongol_prince)) | Q19901654 | Unknown artist (Mongol cavalry illustration), Public domain |
+| Ghazan converts the Ilkhanate to Islam | 1295 | [Ghazan](https://en.wikipedia.org/wiki/Ghazan) | Q334496 | Unknown Mongol artist, Public domain |
+| Rashid al-Din completes the Jami al-Tawarikh | 1307 | [Jami' al-tawarikh](https://en.wikipedia.org/wiki/Jami%27_al-tawarikh) | Q1262004 | Rashid al-Din's workshop (illustrated folio), Public domain |
+
+#### Event locations (new events only)
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Ögedei Khan is elected Great Khan at kurultai | Khödöö Aral, on the Kherlen River | (no city), Mongolia | 48.73, 117.08 (approximate -- see note) |
+| Ögedei builds Karakorum as a fixed capital | Karakorum | Kharkhorin, Mongolia | 47.197, 102.824 |
+| Möngke Khan hosts a debate between faiths at Karakorum | Karakorum | Kharkhorin, Mongolia | 47.197, 102.824 |
+| Kublai raises the summer capital at Shangdu | Shangdu | Zhenglan Banner, China | *(no coordinates found)* |
+| Kublai Khan issues an empire-wide paper currency | *(no single place -- empire-wide policy, first mint's location uncertain)* | -- | -- |
+| Kublai Khan crushes Nayan's rebellion | the Liao River | (no city), China | 40.67, 122.15 (approximate -- see note) |
+| Ghazan converts the Ilkhanate to Islam | *(site of the conversion itself not specified in sourcing)* | -- | -- |
+| Rashid al-Din completes the Jami al-Tawarikh | Rab'-e Rashidi | Tabriz, Iran | 38.079, 46.329 |
+
+#### Corrections / decisions made in this pass
+
+- No dedicated Wikipedia article exists for the 1254 interfaith debate itself -- sourced
+  it from the *William of Rubruck* article, which documents the event (May 1254, three
+  judges, one per faith) in detail as an eyewitness account.
+- *Jami al-Tawarikh*'s completion date is inconsistently cited across Wikipedia --
+  Rashid al-Din's own article gives "completed between 1307 and 1316" while the work's
+  own article gives "finally completed sometime between 1306 and 1311." Used 1307, the
+  one year both ranges agree on, rather than picking either endpoint.
+- A first pass at sourcing the Jami al-Tawarikh's production site returned "Qazvin,"
+  but that came from a sentence about an unrelated military buildup near Qazvin, not
+  the scriptorium. Cross-checked against the dedicated *Rab'-e Rashidi* article, which
+  places it firmly in Tabriz -- used Tabriz.
+- Two coordinate pairs (Ögedei's kurultai at Khödöö Aral, and Nayan's rebellion at "the
+  Liao River") are river coordinates from Wikipedia's own infobox for the Kherlen River
+  and the Liao River respectively, not coordinates for the specific historical sites --
+  neither river article gives a precise point for the site in question. Used them as
+  regional approximations rather than leaving the whole location out, per the skill's
+  guidance to fill in what's reasonably known rather than nulling the entire location
+  over one missing field; flagged here so a future pass can tighten them if a more
+  specific source turns up.
+- Left `location` off "Kublai Khan issues an empire-wide paper currency" and "Ghazan
+  converts the Ilkhanate to Islam" -- the first mint's site is only sourced as
+  "probably Yanjing," and the conversion ceremony's site isn't named at all in the
+  sourcing found, distinct from Ghazan's later victory declaration at Tabriz.
+- Rated Nayan's rebellion `minor` rather than `major` -- unlike the Toluid Civil War, it
+  didn't permanently split imperial territory; it was a serious but ultimately contained
+  challenge to Kublai's rule.
+- Tagged Nayan's rebellion with both `rebellion` and `battle` (it was resolved militarily
+  along the Liao River) and the Jami al-Tawarikh with both `science` (scholarship) and
+  `art` (Ilkhanid book art) rather than picking one, since both fit what each event
+  actually is.
+
+**Tally after this pass**: `architecture` 2, `art` 1, `battle` 8, `collapse` 4,
+`founding` 3, `governance` 2, `religion` 2, `rebellion` 1, `science` 1.
+
+### Density trim — 2026-08-06
+
+The 17-event set above was judged too dense for this topic's short (1206-1368) date
+range once actually reviewed. Trimmed to 11: kept all 7 `major` events plus the 4
+strongest/most distinctive `minor` events (Khwarazm, Mohi, the Karakorum interfaith
+debate, and Shangdu/Xanadu), and cut the 6 that were weaker or redundant with a kept
+event:
+
+- Ögedei elected Great Khan at kurultai (1229) -- administrative, lower reader interest
+- Ögedei builds Karakorum as a fixed capital (1235) -- redundant with the interfaith
+  debate event, which is also set at Karakorum and is the more distinctive of the two
+- Kublai issues an empire-wide paper currency (1260) -- also landed on the same year as
+  Ain Jalut, doubling up a year
+- The Yuan complete the conquest of Song China (1279) -- redundant follow-on to the 1271
+  Yuan founding
+- Kublai crushes Nayan's rebellion (1287) -- less widely known than the kept events
+- Rashid al-Din completes the Jami al-Tawarikh (1307)
+
+Also trimmed the topic-level `summary` to drop references to the cut events (the fixed
+capital, the paper currency, and "history's first world history") and added a mention of
+Shangdu/Xanadu, which was under-represented in the prose relative to its kept status.
+
+**Tally after this trim**: `architecture` 1, `battle` 6, `collapse` 3, `founding` 2,
+`religion` 2. (`art`, `governance`, `rebellion`, and `science` dropped out entirely with
+the cut events -- a future enrichment pass could reintroduce a light-footprint event for
+any of these if the topic's density budget allows it later.)
+
 ## Aztec (Mexica) (topic id: `aztec`) — pulled 2026-08-03
 
 Status: **existing topic, replaces current seed data** — file written to

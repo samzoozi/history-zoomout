@@ -4888,7 +4888,7 @@
     "colorIndex": 4,
     "start": 1206,
     "end": 1368,
-    "summary": "Founded in 1206 when a kurultai of steppe chieftains proclaims Temüjin as Genghis Khan, the Mongol Empire grows within two generations into the largest contiguous land empire ever assembled, stretching from the Sea of Japan to the edge of Central Europe. Mongol armies topple the Khwarazmian Empire, the Abbasid Caliphate, and the Song dynasty of China, while cavalry under Batu Khan and Subutai push as far west as Hungary and Poland before a Mamluk army halts their advance at Ain Jalut. A war of succession after Möngke Khan's death splits the empire into four largely independent khanates by the 1260s; the largest, Kublai Khan's Yuan dynasty, rules China until Ming rebels drive the Mongols back to the steppe in 1368.",
+    "summary": "Founded in 1206 when a kurultai of steppe chieftains proclaims Temüjin as Genghis Khan, the Mongol Empire grows within two generations into the largest contiguous land empire ever assembled, stretching from the Sea of Japan to the edge of Central Europe. Mongol armies topple the Khwarazmian Empire and the Abbasid Caliphate, while cavalry under Batu Khan and Subutai push as far west as Hungary and Poland before a Mamluk army halts their advance at Ain Jalut. Beyond conquest, the empire hosts a formal debate between Christian, Buddhist, and Muslim envoys at its capital, Karakorum, and Kublai Khan raises a legendary summer palace at Shangdu (Xanadu), before a war of succession after Möngke Khan's death splits the realm into four largely independent khanates by the 1260s; the largest, Kublai Khan's Yuan dynasty, rules China until Ming rebels drive the Mongols back to the steppe in 1368.",
     "sourceUrl": "https://en.wikipedia.org/wiki/Mongol_Empire",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Asia_in_1335.svg",
     "imageAttribution": "Map by Wengier (derivative of a map by Teaandcrumpets), Public domain, via Wikimedia Commons",
@@ -4898,11 +4898,11 @@
       {
         "year": 1206,
         "sig": "major",
+        "title": "Genghis Khan Unites the Mongol Tribes",
+        "body": "A kurultai of steppe chieftains gathers at the source of the Onon River and proclaims Temüjin as Genghis Khan, \"universal ruler,\" ending decades of tribal warfare and setting off the fastest territorial expansion in history.",
         "tags": [
           "founding"
         ],
-        "title": "Genghis Khan Unites the Mongol Tribes",
-        "body": "A kurultai of steppe chieftains gathers at the source of the Onon River and proclaims Temüjin as Genghis Khan, \"universal ruler,\" ending decades of tribal warfare and setting off the fastest territorial expansion in history.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Genghis_Khan",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/YuanEmperorAlbumGenghisPortrait.jpg/330px-YuanEmperorAlbumGenghisPortrait.jpg",
         "imageAttribution": "Portrait by unknown artist, digitized by the National Palace Museum, Public domain, via Wikimedia Commons",
@@ -4919,11 +4919,11 @@
       {
         "year": 1219,
         "sig": "minor",
+        "title": "The Invasion of Khwarazm Begins",
+        "body": "After the governor of Otrar seizes a Mongol trade caravan and executes its merchants, Genghis Khan turns west and invades the Khwarazmian Empire, destroying its great Central Asian cities within two years.",
         "tags": [
           "battle"
         ],
-        "title": "The Invasion of Khwarazm Begins",
-        "body": "After the governor of Otrar seizes a Mongol trade caravan and executes its merchants, Genghis Khan turns west and invades the Khwarazmian Empire, destroying its great Central Asian cities within two years.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Mongol_invasion_of_the_Khwarazmian_Empire",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%B8%D1%89%D0%B5_%D0%9E%D1%82%D1%8B%D1%80%D0%B0%D1%80_%D1%81_%D0%B2%D0%BE%D0%B7%D0%B4%D1%83%D1%85%D0%B0.jpg",
         "imageAttribution": "Photo by Coopypasted, CC BY-SA 4.0, via Wikimedia Commons",
@@ -4940,11 +4940,11 @@
       {
         "year": 1241,
         "sig": "minor",
+        "title": "Mongol Cavalry Crush Hungary at Mohi",
+        "body": "Batu Khan and Subutai's twin invasion of Europe culminates on the Sajó River, where a Mongol army annihilates the royal army of King Béla IV, opening the Hungarian plain to two years of occupation before the Mongols unexpectedly withdraw.",
         "tags": [
           "battle"
         ],
-        "title": "Mongol Cavalry Crush Hungary at Mohi",
-        "body": "Batu Khan and Subutai's twin invasion of Europe culminates on the Sajó River, where a Mongol army annihilates the royal army of King Béla IV, opening the Hungarian plain to two years of occupation before the Mongols unexpectedly withdraw.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Mohi",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Battle_of_Mohi_1241.PNG/330px-Battle_of_Mohi_1241.PNG",
         "imageAttribution": "Illumination from the Chronicon Pictum (Cod. 2623), Public domain, via Wikimedia Commons",
@@ -4959,14 +4959,56 @@
         }
       },
       {
+        "year": 1254,
+        "sig": "minor",
+        "title": "Möngke Khan Hosts a Debate Between Faiths at Karakorum",
+        "body": "At his court in Karakorum, Möngke Khan stages a formal debate between Christian, Buddhist, and Muslim representatives, each judged by a delegate from their own faith. Franciscan friar William of Rubruck, an envoy from French king Louis IX, takes part and later records the proceedings.",
+        "tags": [
+          "religion"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/William_of_Rubruck",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/M%C3%B6ngke_Khan.jpg",
+        "imageAttribution": "Painting attributed to the atelier of Abdullah Sultan, Shiraz, CC0, via Wikimedia Commons",
+        "imageDescription": "Portrait of Möngke Khan, the fourth Great Khan of the Mongol Empire.",
+        "wikidataId": "Q7521",
+        "location": {
+          "historicalName": "Karakorum",
+          "city": "Kharkhorin",
+          "country": "Mongolia",
+          "latitude": 47.19722222,
+          "longitude": 102.82388889
+        }
+      },
+      {
+        "year": 1256,
+        "sig": "minor",
+        "title": "Kublai Raises the Summer Capital at Shangdu",
+        "body": "Architect Liu Bingzhong completes Shangdu, later immortalized in the West as Xanadu, blending Mongolian steppe tradition with Chinese urban planning. Kublai Khan formally makes it his summer capital in 1264, splitting his court between it and Dadu each year.",
+        "tags": [
+          "architecture"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Shangdu",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Yuan_Shangdu.jpg/330px-Yuan_Shangdu.jpg",
+        "imageAttribution": "Photo by Flaumfeder, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "The ruins of Shangdu, the former summer capital of the Yuan dynasty.",
+        "wikidataId": "Q471765",
+        "location": {
+          "historicalName": "Shangdu",
+          "city": "Zhenglan Banner",
+          "country": "China",
+          "latitude": null,
+          "longitude": null
+        }
+      },
+      {
         "year": 1258,
         "sig": "major",
+        "title": "The Mongols Sack Baghdad",
+        "body": "Hulagu Khan's army breaches Baghdad's walls, executes the caliph al-Musta'sim, and topples the five-century-old Abbasid Caliphate, extending Mongol power into the heart of the Islamic world.",
         "tags": [
           "battle",
           "collapse"
         ],
-        "title": "The Mongols Sack Baghdad",
-        "body": "Hulagu Khan's army breaches Baghdad's walls, executes the caliph al-Musta'sim, and topples the five-century-old Abbasid Caliphate, extending Mongol power into the heart of the Islamic world.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Siege_of_Baghdad_(1258)",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Bagdad1258.jpg/330px-Bagdad1258.jpg",
         "imageAttribution": "Painting from Rashid al-Din's Jami al-tawarikh, Public domain, via Wikimedia Commons",
@@ -4983,11 +5025,11 @@
       {
         "year": 1260,
         "sig": "major",
+        "title": "Mamluks Halt the Mongols at Ain Jalut",
+        "body": "A Mamluk army from Egypt defeats Hulagu's rearguard near the spring of Ain Jalut in Galilee, the first open-field defeat of a Mongol army and the effective limit of the empire's expansion into the Middle East.",
         "tags": [
           "battle"
         ],
-        "title": "Mamluks Halt the Mongols at Ain Jalut",
-        "body": "A Mamluk army from Egypt defeats Hulagu's rearguard near the spring of Ain Jalut in Galilee, the first open-field defeat of a Mongol army and the effective limit of the empire's expansion into the Middle East.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Ain_Jalut",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Campaign_of_the_Battle_of_Ain_Jalut_1260.svg/330px-Campaign_of_the_Battle_of_Ain_Jalut_1260.svg.png",
         "imageAttribution": "Map by MapMaster, CC BY 3.0, via Wikimedia Commons",
@@ -5004,12 +5046,12 @@
       {
         "year": 1264,
         "sig": "major",
+        "title": "The Toluid Civil War Splits the Empire",
+        "body": "Kublai Khan's younger brother Ariq Böke surrenders after a four-year war of succession, but the fighting has already broken the unified Mongol Empire into four largely independent khanates: the Yuan, the Golden Horde, the Chagatai Khanate, and the Ilkhanate.",
         "tags": [
           "battle",
           "collapse"
         ],
-        "title": "The Toluid Civil War Splits the Empire",
-        "body": "Kublai Khan's younger brother Ariq Böke surrenders after a four-year war of succession, but the fighting has already broken the unified Mongol Empire into four largely independent khanates: the Yuan, the Golden Horde, the Chagatai Khanate, and the Ilkhanate.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Toluid_Civil_War",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Arik_Buka_defeats_Alghu-Rashid_al%27Din_Jami_al_Tavarikhs-large.jpg/330px-Arik_Buka_defeats_Alghu-Rashid_al%27Din_Jami_al_Tavarikhs-large.jpg",
         "imageAttribution": "Painting by Miskin, Public domain, via Wikimedia Commons",
@@ -5019,11 +5061,11 @@
       {
         "year": 1271,
         "sig": "major",
+        "title": "Kublai Khan Founds the Yuan Dynasty",
+        "body": "Genghis Khan's grandson declares a new Chinese dynasty from his capital at Dadu, ruling simultaneously as Great Khan of the Mongols and emperor of China.",
         "tags": [
           "founding"
         ],
-        "title": "Kublai Khan Founds the Yuan Dynasty",
-        "body": "Genghis Khan's grandson declares a new Chinese dynasty from his capital at Dadu, ruling simultaneously as Great Khan of the Mongols and emperor of China.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Yuan_dynasty",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/YuanEmperorAlbumKhubilaiPortrait.jpg/330px-YuanEmperorAlbumKhubilaiPortrait.jpg",
         "imageAttribution": "Portrait by Araniko, Public domain, via Wikimedia Commons",
@@ -5038,33 +5080,28 @@
         }
       },
       {
-        "year": 1279,
-        "sig": "minor",
+        "year": 1295,
+        "sig": "major",
+        "title": "Ghazan Converts the Ilkhanate to Islam",
+        "body": "On seizing power in the Ilkhanate, Ghazan publicly converts from Buddhism to Islam, and much of the Mongol military elite in Iran and Iraq follows him. The conversion permanently realigns the westernmost khanate, cementing Islam as the dominant faith of Mongol-ruled Iran.",
         "tags": [
-          "battle",
-          "collapse"
+          "religion"
         ],
-        "title": "The Yuan Complete the Conquest of Song China",
-        "body": "A Yuan fleet destroys the last Song loyalist forces at the naval battle of Yamen, ending three centuries of Song rule and bringing all of China under Mongol control for the first time.",
-        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Yamen",
-        "wikidataId": "Q1078359",
-        "location": {
-          "historicalName": "Yamen",
-          "city": "Jiangmen",
-          "country": "China",
-          "latitude": 22.27,
-          "longitude": 113.08
-        }
+        "sourceUrl": "https://en.wikipedia.org/wiki/Ghazan",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Ghazan_with_wife_at_his_court.jpg/330px-Ghazan_with_wife_at_his_court.jpg",
+        "imageAttribution": "Illustration by an unknown Mongol artist, Public domain, via Wikimedia Commons",
+        "imageDescription": "Ghazan and his wife pictured at court in a late-13th-century Mongol manuscript.",
+        "wikidataId": "Q334496"
       },
       {
         "year": 1368,
         "sig": "major",
+        "title": "The Yuan Dynasty Falls",
+        "body": "Ming rebels led by Zhu Yuanzhang capture the Yuan capital at Dadu, driving the Mongols back to the steppe and ending nearly a century of Mongol rule over China.",
         "tags": [
           "collapse",
           "battle"
         ],
-        "title": "The Yuan Dynasty Falls",
-        "body": "Ming rebels led by Zhu Yuanzhang capture the Yuan capital at Dadu, driving the Mongols back to the steppe and ending nearly a century of Mongol rule over China.",
         "sourceUrl": "https://en.wikipedia.org/wiki/Yuan_dynasty",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Portrait_assis_de_l%27empereur_Ming_Taizu.jpg/330px-Portrait_assis_de_l%27empereur_Ming_Taizu.jpg",
         "imageAttribution": "Portrait of the Hongwu Emperor (Zhu Yuanzhang), digitized by the National Palace Museum, Public domain, via Wikimedia Commons",
