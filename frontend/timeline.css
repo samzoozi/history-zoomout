@@ -502,6 +502,38 @@ button:focus-visible,
 .scroller::-webkit-scrollbar-thumb { background: var(--hairline-strong); border-radius: 6px; }
 .scroller::-webkit-scrollbar-track { background: transparent; }
 
+/* Hints that the timeline scrolls horizontally -- shown on load and faded
+   out on first scroll/drag so first-time users don't miss content sitting
+   off to the right. See showScrollHintIfNeeded in timeline.js. */
+.scroll-hint {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 16px;
+  background: linear-gradient(to right, transparent, var(--page) 75%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: 5;
+}
+.scroll-hint.visible { opacity: 1; }
+.scroll-hint-arrow {
+  font-size: 24px;
+  line-height: 1;
+  color: var(--ink-muted);
+  animation: scroll-hint-nudge 1.6s ease-in-out infinite;
+}
+@keyframes scroll-hint-nudge {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(6px); }
+}
+.stage.panel-open .scroll-hint { opacity: 0; }
+
 .track { position: relative; padding-bottom: 28px; }
 
 .era-overlay {

@@ -100,6 +100,7 @@
   var topicCountEl = document.getElementById("topicCount");
   var stageEl = document.getElementById("stage");
   var loadStateEl = document.getElementById("loadState");
+  var scrollHintEl = document.getElementById("scrollHint");
   // The topic checklist for the current category lives nested inside the nav
   // drawer (see renderNavList) rather than as static markup, since it has to
   // render under whichever category row is "current" -- these get assigned
@@ -804,6 +805,25 @@
     loadStateEl.hidden = true;
     stageEl.hidden = false;
     initialized = true;
+
+    showScrollHintIfNeeded();
+  }
+
+  // Nudges first-time users toward the fact that the timeline scrolls
+  // horizontally: shown only if there's actually overflow to scroll into,
+  // dismissed permanently on the first scroll/drag/wheel interaction.
+  function showScrollHintIfNeeded() {
+    if (scroller.scrollWidth <= scroller.clientWidth + 1) return;
+    scrollHintEl.classList.add("visible");
+    var dismiss = function () {
+      scrollHintEl.classList.remove("visible");
+      scroller.removeEventListener("scroll", dismiss);
+      scroller.removeEventListener("pointerdown", dismiss);
+      scroller.removeEventListener("wheel", dismiss);
+    };
+    scroller.addEventListener("scroll", dismiss, { passive: true });
+    scroller.addEventListener("pointerdown", dismiss);
+    scroller.addEventListener("wheel", dismiss, { passive: true });
   }
 
   function fetchTimelineData() {
