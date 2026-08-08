@@ -3762,3 +3762,182 @@ All events validated: JSON well-formed (22 events), years ascending (-322 → 55
 dry-run constructed against the real `Topic`/`Event`/`Location` ORM classes in
 `history_zoomout.db.models` without error. All 23 image URLs (topic-level + 22 events)
 fetched directly and confirmed HTTP 200, one request at a time with a ~1-second gap.
+
+## Israel and Judah (topic id: `israel`) — pulled 2026-08-08
+
+Status: **merged into live seed data 2026-08-08** (`data/seed_data/civilizations.json`,
+new topic — not previously present) and reseeded. Verified live via the running dev API
+(`GET /topics?category=civilization`) — topic present with `colorIndex` 7, range
+-1047..-539, and all 28 events.
+
+Sourced JSON at `data/wikipedia-data/civilization/israel.json`. New topic — `id`
+(`israel`) and `colorIndex` (7) picked fresh. `colorIndex` 7 is the next unused value in
+the third color-rotation cycle (ottoman=1, vikings=2, mughal=3, hre=4, kush=5,
+phoenicia=6 — celtic=3 was a deliberate overlap reuse, not a new cycle position; see the
+Celts entry above), so this is the cycle's seventh slot.
+
+Category confirmed as `civilization`: the topic covers the Iron Age kingdoms of Israel
+and Judah as a rise-and-fall arc (unification, split, and the fall of each kingdom to a
+different empire) rather than a continuous nation-state carried to the present, matching
+how this project already treats Rome, Persia, and Egypt rather than the `country`
+category. Date range (1047–539 BCE) confirmed with the user: the United Monarchy through
+the end of the Babylonian Exile, stopping short of the Persian-period restoration/Second
+Temple period and the Hasmonean revival, which would stretch the topic well past what
+"Israel and Judah" as political kingdoms actually cover.
+
+### Sub-periods mapped before event selection
+
+1. United Monarchy (c. 1047–931 BCE) — Saul, David, and Solomon unite the Israelite
+   tribes under a single throne; David captures Jerusalem, Solomon builds the First
+   Temple and fortifies key cities.
+2. Divided Monarchy — Kingdom of Israel, north (931–720 BCE) — capital at Samaria after
+   Omri; rival religious sites at Bethel and Dan; entangled in Assyrian power politics
+   (Qarqar, Jehu's tribute) until Assyria conquers Samaria and deports the population.
+3. Divided Monarchy — Kingdom of Judah, south (931–587 BCE) — capital continuously at
+   Jerusalem under the Davidic line; survives Shishak's raid, Athaliah's usurpation, and
+   Sennacherib's siege; cycles between religious reform (Hezekiah, Josiah) and vassalage
+   (Assyria, then Egypt, then Babylon) until Nebuchadnezzar destroys Jerusalem and the
+   Temple.
+4. Babylonian Exile (587–539 BCE) — Gedaliah's brief, murdered governorship; life in
+   Babylonian captivity; ends with Cyrus's edict permitting return.
+
+### Topic-level source
+
+- **Ancient Israel and Judah** — https://en.wikipedia.org/wiki/Ancient_Israel_and_Judah —
+  Wikidata Q193748. This is the article whose scope actually matches the topic (as
+  opposed to narrower articles like "Kingdom of Israel (united monarchy)" or "Kingdom of
+  Judah"). Its own thumbnail — a 19th-century map by Edward Weller of the two kingdoms —
+  is directly relevant and was used as-is, consistent with how Persia, the Celts,
+  Phoenicia, and Kush all use maps as their topic image.
+
+### Event sources
+
+| Event | Year | Article | Wikidata | Tags | Image credit |
+|---|---|---|---|---|---|
+| Saul Becomes the First King of Israel | -1047 | [Saul](https://en.wikipedia.org/wiki/Saul) | Q28730 | founding | Ernst Josephson, Public domain |
+| David Captures Jerusalem and Makes It His Capital | -1010 | [David](https://en.wikipedia.org/wiki/David) | Q41370 | battle, founding, religion | Gerard van Honthorst, Public domain |
+| Solomon Succeeds David as King | -970 | [Solomon](https://en.wikipedia.org/wiki/Solomon) | Q37085 | governance | Simeon Solomon, CC0 |
+| Solomon Completes the First Temple in Jerusalem | -961 | [Solomon's Temple](https://en.wikipedia.org/wiki/Solomon's_Temple) | Q223644 | architecture, religion | François Vatable (16th-c. engraving), Public domain |
+| Solomon Fortifies Megiddo, Hazor, and Gezer | -955 | [United Monarchy](https://en.wikipedia.org/wiki/United_Monarchy) | — | architecture, governance | Golf Bravo, CC BY-SA 3.0 |
+| The Queen of Sheba Visits Solomon's Court | -950 | [Queen of Sheba](https://en.wikipedia.org/wiki/Queen_of_Sheba) | Q159888 | governance | Edward Slocombe (1907), Public domain |
+| The United Monarchy Splits into Israel and Judah | -931 | [Kingdom of Judah](https://en.wikipedia.org/wiki/Kingdom_of_Judah) | Q48685 | collapse, founding | Tobias Schäfer 87, CC BY 4.0 |
+| Jeroboam Sets Up Rival Shrines at Bethel and Dan | -930 | [Jeroboam](https://en.wikipedia.org/wiki/Jeroboam) | Q313219 | religion, governance | Jean-Honoré Fragonard, Public domain |
+| Pharaoh Shoshenq I Raids Israel and Judah | -925 | [Shoshenq I](https://en.wikipedia.org/wiki/Shoshenq_I) | Q311811 | battle | Markh, CC BY-SA 3.0 |
+| Omri Founds Samaria as Israel's New Capital | -880 | [Samaria (ancient city)](https://en.wikipedia.org/wiki/Samaria_(ancient_city)) | Q313221 | founding, architecture | Guillaume Roullié, Public domain |
+| Ahab Joins the Coalition Against Assyria at Qarqar | -853 | [Battle of Qarqar](https://en.wikipedia.org/wiki/Battle_of_Qarqar) | Q849474 | battle | Yuber, Public domain |
+| Elijah Confronts the Prophets of Baal at Mount Carmel | -850 | [Elijah](https://en.wikipedia.org/wiki/Elijah) | Q133507 | religion | Giovanni Girolamo Savoldo, CC0 |
+| Jehu Purges the House of Ahab and Pays Tribute to Assyria | -841 | [Jehu](https://en.wikipedia.org/wiki/Jehu) | Q313225 | rebellion, art | Steven G. Johnson, CC BY-SA 3.0 |
+| The Priest Jehoiada Overthrows Queen Athaliah | -835 | [Athaliah](https://en.wikipedia.org/wiki/Athaliah) | Q463934 | rebellion, religion | Guillaume Roullié, Public domain |
+| Ahaz Buys Assyrian Help Against the Syro-Ephraimite Coalition | -734 | [Syro-Ephraimite War](https://en.wikipedia.org/wiki/Syro-Ephraimite_War) | Q30914 | battle, governance | Guillaume Roullié, Public domain |
+| Assyria Conquers Samaria and Ends the Kingdom of Israel | -720 | [Assyrian captivity](https://en.wikipedia.org/wiki/Assyrian_captivity) | — | collapse, battle | Joelholdsworth, CC BY-SA 3.0 |
+| Hezekiah Centralizes Worship at the Jerusalem Temple | -715 | [Hezekiah](https://en.wikipedia.org/wiki/Hezekiah) | Q244912 | religion, governance | David Castor (17th-c. painting), Public domain |
+| Hezekiah Carves the Siloam Tunnel to Secure Jerusalem's Water | -701 | [Siloam tunnel](https://en.wikipedia.org/wiki/Siloam_tunnel) | Q1620682 | science, architecture | Wikikati, Public domain |
+| Sennacherib Besieges Jerusalem but Fails to Take It | -701 | [Assyrian siege of Jerusalem](https://en.wikipedia.org/wiki/Assyrian_siege_of_Jerusalem) | Q1267122 | battle | Lior Golgher, CC BY-SA 2.5 |
+| Manasseh Supplies Forced Labor to Assyria's Building Projects | -676 | [Manasseh of Judah](https://en.wikipedia.org/wiki/Manasseh_of_Judah) | Q156328 | governance | Guillaume Roullié, Public domain |
+| Josiah's Reforms Follow the Discovery of the Book of the Law | -622 | [Josiah](https://en.wikipedia.org/wiki/Josiah) | Q313228 | religion, governance | David Castor (17th-c. painting), Public domain |
+| Josiah Dies Opposing Egypt at the Battle of Megiddo | -609 | [Battle of Megiddo (609 BC)](https://en.wikipedia.org/wiki/Battle_of_Megiddo_(609_BC)) | Q913818 | battle | Keith Schengili-Roberts, CC BY 2.5 |
+| Babylon Defeats Egypt at Carchemish | -605 | [Battle of Carchemish](https://en.wikipedia.org/wiki/Battle_of_Carchemish) | Q633560 | battle | Egisto C. (Hutchinson's History of the Nations, 1915), Public domain |
+| Nebuchadnezzar Deports King Jehoiachin to Babylon | -597 | [Jeconiah](https://en.wikipedia.org/wiki/Jeconiah) | Q319049 | battle, collapse | James Tissot, Public domain |
+| Nebuchadnezzar Destroys Jerusalem and the First Temple | -587 | [Siege of Jerusalem (587 BC)](https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(587_BC)) | Q1290590 | collapse, battle, religion | Wolgemut & Pleydenwurff (Nuremberg Chronicle, 1493), Public domain |
+| The Assassination of Gedaliah Ends Local Judean Rule | -582 | [Gedaliah](https://en.wikipedia.org/wiki/Gedaliah) | Q1497453 | rebellion, governance | Gebhard Fugel, Public domain |
+| Babylon Releases Jehoiachin from Prison | -561 | [Jeconiah](https://en.wikipedia.org/wiki/Jeconiah) | Q319049 | governance | Scallaham, CC BY-SA 4.0 |
+| Cyrus's Edict Ends the Babylonian Exile | -539 | [Edict of Cyrus](https://en.wikipedia.org/wiki/Edict_of_Cyrus) | Q12770033 | religion, governance, founding | Prioryman, CC BY-SA 3.0 |
+
+### Event locations
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| David captures Jerusalem | Jerusalem | Jerusalem, Israel | 31.78, 35.23 |
+| Solomon's Temple completed | Jerusalem | Jerusalem, Israel | 31.78, 35.23 |
+| Solomon fortifies Megiddo | Megiddo | Tel Megiddo, Israel | 32.59, 35.18 |
+| Queen of Sheba's visit | Jerusalem | Jerusalem, Israel | 31.78, 35.23 |
+| Jeroboam's shrines | Bethel | Beitin, West Bank | 31.93, 35.24 |
+| Omri founds Samaria | Samaria | Sebastia, West Bank | 32.28, 35.20 |
+| Battle of Qarqar | Qarqar | Qarqar, Syria | 35.74, 36.33 |
+| Elijah at Mount Carmel | Mount Carmel | Haifa, Israel | 32.73, 35.05 |
+| Jehu's purge | Jezreel | Jezreel, Israel | *(coordinates unavailable)* |
+| Fall of Samaria | Samaria | Sebastia, West Bank | 32.28, 35.20 |
+| Shoshenq I's raid | Karnak | Luxor, Egypt | 25.72, 32.66 |
+| Athaliah overthrown | Jerusalem | Jerusalem, Israel | 31.78, 35.23 |
+| Ahaz / Syro-Ephraimite crisis | Jerusalem | Jerusalem, Israel | 31.78, 35.23 |
+| Hezekiah's reforms | Jerusalem | Jerusalem, Israel | 31.78, 35.23 |
+| Siloam Tunnel | Jerusalem | Jerusalem, Israel | 31.78, 35.23 |
+| Sennacherib's siege | Jerusalem | Jerusalem, Israel | 31.78, 35.23 |
+| Manasseh's vassalage | Jerusalem | Jerusalem, Israel | 31.78, 35.23 |
+| Josiah's reforms | Jerusalem | Jerusalem, Israel | 31.78, 35.23 |
+| Battle of Megiddo (609 BC) | Megiddo | Tel Megiddo, Israel | 32.59, 35.18 |
+| Battle of Carchemish | Carchemish | Karkamış, Turkey | 36.83, 38.02 |
+| Jehoiachin deported | Jerusalem | Jerusalem, Israel | 31.78, 35.23 |
+| Fall of Jerusalem / Temple destroyed | Jerusalem | Jerusalem, Israel | 31.78, 35.23 |
+| Gedaliah assassinated | Mizpah | (Tell en-Nasbeh area), West Bank | 31.89, 35.22 |
+| Jehoiachin released | Babylon | Hillah, Iraq | 32.54, 44.42 |
+| Cyrus's edict | Babylon | Hillah, Iraq | 32.54, 44.42 |
+
+### Corrections / decisions made
+
+- **Fall-of-Jerusalem year (587 vs. 586 BCE)**: Wikipedia's own dedicated article is
+  titled "Siege of Jerusalem (587 BC)" and dates the city's fall to "summer 587 BC,"
+  which was used here — this also matches the `-587` year the existing Mesopotamia topic
+  already uses for its own "Nebuchadnezzar II Conquers Jerusalem" event, keeping the two
+  topics' dating consistent even though 586 BCE is also commonly cited elsewhere.
+- **Solomon's Temple completion year is approximate (-961)**: no Wikipedia source gives a
+  firm absolute year — 1 Kings dates construction to Solomon's 4th–11th regnal years
+  (seven years of building), and Josephus's Phoenician-derived figure is 958/9 BCE, while
+  rabbinic chronology puts it roughly 165 years earlier. Used -961, seven years after an
+  assumed -968 construction start, to land after (not duplicate) the existing Phoenicia
+  topic's "Hiram I and Solomon Raise the Temple of Jerusalem" event, which is dated -968
+  there (construction *beginning*, from Hiram's side of the joint project) — these are
+  two ends of the same seven-year project, told from each kingdom's own topic.
+- **David's capture of Jerusalem has no firm consensus year**: individual REST-summary
+  fetches of "David" and "City of David" gave no date; a broader "Timeline of Jerusalem"
+  article supplied "c. 1010 BCE," which was used, but this figure varies by several years
+  across sources depending on which regnal chronology (Thiele, Albright, etc.) is
+  followed.
+- **Queen of Sheba kept despite semi-legendary status**: Wikipedia itself describes her
+  story as having "undergone extensive elaborations" across Jewish, Christian, and
+  Islamic tradition beyond its biblical core, with no independent corroboration. Kept
+  because it's one of the most consequential and widely-known episodes associated with
+  Solomon's reign and is treated the same way this project already treats other
+  founding-legend events (e.g. Romulus and Remus for Rome); the event body frames it
+  explicitly as "according to the biblical narrative" rather than asserting it as settled
+  fact.
+- **"Solomon Fortifies Megiddo, Hazor, and Gezer" has no `wikidataId`**: this event
+  describes a general building program attested across several sites rather than a single
+  Wikidata entity, so the field is left `null` rather than forcing a mismatched id (e.g.
+  Megiddo's own item, which is a place, not this specific event).
+- **Elijah's Mount Carmel event reuses the general "Elijah" article thumbnail**: no
+  Commons image specifically depicts the Mount Carmel contest with the prophets of Baal;
+  the closest available option (Savoldo's "Elijah Fed by the Raven") is a different
+  episode from the same prophet's story. Used it anyway as the best available portrait of
+  Elijah himself, rather than an unrelated stock image, and noted the mismatch here.
+- **"Assyria Conquers Samaria" sourced to the "Assyrian captivity" article, not "Fall of
+  Samaria"**: no article exists at that exact title; "Assyrian captivity" covers the
+  siege, conquest, and subsequent deportation in one continuous account and was used
+  instead. It also has no distinct Wikidata item of its own beyond the general Assyrian
+  captivity concept, so `wikidataId` is `null` for this event.
+- **Gedaliah's assassination image is thematic, not event-specific**: no Commons image
+  depicts Gedaliah or his assassination at Mizpah directly. Used Gebhard Fugel's "An den
+  Wassern Babylons" (evoking Psalm 137's Babylonian-exile lament) as a thematically
+  appropriate stand-in for the moment Judah's last local government ends and full exile
+  begins, rather than reusing an unrelated portrait.
+- **Samaria and Bethel's `country` set to "West Bank," not "Israel"**: both ancient sites
+  (modern Sebastia and Beitin) sit inside the West Bank rather than within Israel's
+  internationally recognized 1967 borders. Wikipedia's own "Samaria (ancient city)"
+  article explicitly places it "in the West Bank," so that geographic label was used
+  rather than defaulting to "Israel" the way Jerusalem-area events do.
+- **Jehu's purge (Jezreel) and Gedaliah's assassination (Mizpah) have partial locations**:
+  neither "Tel Jezreel" nor "Mizpah in Benjamin" returned usable coordinates from
+  Wikipedia's coordinates API. Per this skill's guidance, `city`/`country` were kept and
+  only `latitude`/`longitude` set to `null` rather than omitting the whole `location`
+  object.
+- **Manasseh's reign event uses -676, not a range**: Assyrian records place him among
+  vassals supplying Esarhaddon's building projects without a precise year beyond
+  Esarhaddon's reign (681–669 BCE); -676 was picked as a reasonable midpoint rather than
+  asserting false precision at either end of that range.
+
+All events validated: JSON well-formed (28 events), years ascending (-1047 → -539), and
+dry-run constructed against the real `Topic`/`Event`/`Location` ORM classes in
+`history_zoomout.db.models` without error (using `category="civilization"`,
+`start_year`/`end_year` field names, confirming those against the current model
+definitions since it had been a while). All 29 image URLs (topic-level + 28 events)
+fetched directly and confirmed HTTP 200, one request at a time with a ~1-second gap.
