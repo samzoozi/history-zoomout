@@ -3941,3 +3941,110 @@ dry-run constructed against the real `Topic`/`Event`/`Location` ORM classes in
 `start_year`/`end_year` field names, confirming those against the current model
 definitions since it had been a while). All 29 image URLs (topic-level + 28 events)
 fetched directly and confirmed HTTP 200, one request at a time with a ~1-second gap.
+
+## Minoan & Mycenaean (topic id: `minoan_mycenaean`) — pulled 2026-08-08
+
+Status: **researched, not yet merged into live seed data.**
+
+New topic, not a replacement of an existing one. Covers both civilizations as a single
+topic (3000 BC – 1100 BC): Minoan Crete's Old and New Palace periods through their
+takeover by the Mycenaeans, and Mycenaean Greece's rise, palatial height, and collapse.
+Chosen as one combined topic (not two) after checking with the user, on the same
+precedent as "Israel and Judah" — two related-but-distinct polities folded into one
+timeline rather than split into separate topics. `colorIndex: 4` was picked because
+nothing else with time overlap in the -3000 to -1100 range already uses it (Greece also
+uses 4 but doesn't start until -800, after this topic ends) — worth double-checking at
+merge time the way Israel/Judah's colorIndex was revisited after the fact.
+
+Sits chronologically before, and does not overlap, the existing `greece` topic (-800 to
+-146), which covers Archaic/Classical/Hellenistic Greece — the end of this topic (-1100,
+the start of the Greek Dark Ages) is the natural handoff point to where `greece` begins.
+
+### Topic-level source
+
+- **Aegean civilization** — https://en.wikipedia.org/wiki/Aegean_civilization — Wikidata
+  Q192530. Chosen over "Minoan civilization" or "Mycenaean Greece" alone since it's the
+  one article whose scope actually spans both civilizations across the full -3000 to
+  -1100 range.
+  - Image sourced from the Mycenae article instead (`Lion_Gate_-_Mycenae_by_Joy_of_Museums.jpg`
+    — Joyofmuseums, CC BY-SA 4.0) since Aegean civilization's own lead image is a generic
+    18th-century map, the same issue noted for Persia/History of Iran. The Lion Gate is
+    the more recognizable, illustrative choice for the topic as a whole.
+
+### Event-level sources
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| Bronze Age settlement begins on Crete | c. 3100 BC | [Minoan civilization](https://en.wikipedia.org/wiki/Minoan_civilization) | Q134178 | Bibi Saint-Pol (map), CC BY-SA 3.0 |
+| First Minoan palaces built at Knossos, Phaistos, Malia | c. 1900 BC | [Knossos](https://en.wikipedia.org/wiki/Knossos) | Q173527 | Dougal96, CC BY-SA 4.0 |
+| Earthquake destroys the Old Palaces; Knossos rebuilt | c. 1700 BC | [Knossos](https://en.wikipedia.org/wiki/Knossos) | Q173527 | Frederic Boissonnas, Public domain |
+| Grave Circle A marks the rise of Mycenae's warrior elite | c. 1600 BC | [Grave Circle A, Mycenae](https://en.wikipedia.org/wiki/Grave_Circle_A,_Mycenae) | Q5597783 | Andreas Trepte, CC BY-SA 2.5 |
+| Snake Goddess figurines placed in Knossos's Temple Repositories | c. 1600 BC | [Minoan snake goddess figurines](https://en.wikipedia.org/wiki/Minoan_snake_goddess_figurines) | Q1125985 | C messier, CC BY-SA 4.0 |
+| Thera eruption devastates Akrotiri | c. 1600 BC | [Minoan eruption](https://en.wikipedia.org/wiki/Minoan_eruption) | Q1144693 | NASA (satellite photo), Public domain |
+| Bull-Leaping Fresco painted at Knossos | c. 1450 BC | [Bull-Leaping Fresco](https://en.wikipedia.org/wiki/Bull-Leaping_Fresco) | Q3566545 | Gleb Simonov, Public domain |
+| Mycenaeans take control of Knossos | c. 1450 BC | [Knossos](https://en.wikipedia.org/wiki/Knossos) | Q173527 | Chris 73, CC BY-SA 3.0 |
+| Fire destroys Knossos, ending Minoan palatial rule | c. 1350 BC | [Knossos](https://en.wikipedia.org/wiki/Knossos) | Q173527 | Lapplaender, CC BY-SA 3.0 DE |
+| Uluburun shipwreck | c. 1320 BC | [Uluburun shipwreck](https://en.wikipedia.org/wiki/Uluburun_shipwreck) | Q573852 | Martin Bahmann, CC BY-SA 3.0 |
+| Treasury of Atreus built at Mycenae | c. 1250 BC | [Treasury of Atreus](https://en.wikipedia.org/wiki/Treasury_of_Atreus) | Q1262524 | Ken Russell Salvador, CC BY 2.0 |
+| Bronze Age Collapse reaches the Mycenaean mainland | c. 1200 BC | [Late Bronze Age collapse](https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse) | Q1059758 | Alexikoua (map), CC BY-SA 3.0 |
+| Legendary fall of Troy | 1184 BC | [Trojan War](https://en.wikipedia.org/wiki/Trojan_War) | Q42937 | Attributed to the Sosias Painter, Public domain |
+| Palace of Nestor burns, preserving Pylos's Linear B archive | c. 1180 BC | [Palace of Nestor](https://en.wikipedia.org/wiki/Palace_of_Nestor) | Q2047396 | Alun Salt, CC BY-SA 2.0 |
+| Mycenaean civilization ends | c. 1100 BC | [Greek Dark Ages](https://en.wikipedia.org/wiki/Greek_Dark_Ages) | Q210443 | David Monniaux, CC BY-SA 3.0 |
+
+### Event locations
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Bronze Age settlement begins on Crete | Crete | Crete, Greece | 35.21, 24.91 |
+| First Minoan palaces built | Knossos | Heraklion, Greece | 35.298, 25.163 |
+| Old Palaces destroyed; Knossos rebuilt | Knossos | Heraklion, Greece | 35.298, 25.163 |
+| Grave Circle A | Mycenae | Mycenae, Greece | 37.730, 22.758 |
+| Snake Goddess figurines | Knossos | Heraklion, Greece | 35.298, 25.163 |
+| Thera eruption | Thera | Santorini, Greece | 36.415, 25.433 |
+| Bull-Leaping Fresco | Knossos | Heraklion, Greece | 35.298, 25.163 |
+| Mycenaeans take Knossos | Knossos | Heraklion, Greece | 35.298, 25.163 |
+| Knossos final destruction | Knossos | Heraklion, Greece | 35.298, 25.163 |
+| Uluburun shipwreck | Uluburun | Kaş, Turkey | 36.2, 29.642 |
+| Treasury of Atreus | Mycenae | Mycenae, Greece | 37.730, 22.758 |
+| Bronze Age Collapse (mainland) | *(none — broad, multi-site event)* | | |
+| Legendary fall of Troy | Troy | Hisarlık, Turkey | 39.958, 26.239 |
+| Palace of Nestor burns | Pylos | Pylos, Greece | 36.914, 21.696 |
+| Mycenaean civilization ends | *(none — broad, civilization-wide event)* | | |
+
+Two events (the mainland Bronze Age Collapse and the end of Mycenaean civilization) have
+no `location` — both are broad, multi-site/civilization-wide happenings rather than
+single-place events, per the skill's guidance on when to omit `location` entirely.
+
+### Corrections / decisions made
+
+- **Combined-topic scope decision**: confirmed with the user up front that this would be
+  one topic rather than two (see above) — this drove sub-period mapping (Minoan Old/New
+  Palace periods, Mycenaean rise/palatial height, shared Bronze Age Collapse) as a single
+  timeline instead of two independent passes.
+- **Thera eruption dating**: left at "c. 1600 BC" — the round figure most commonly cited
+  — despite genuine scientific disagreement in the sources (radiocarbon points to the
+  1619–1596 BC range; archaeological/pottery cross-dating with Egypt suggests as late as
+  1550–1480 BC). Noted here rather than picking a false-precision year.
+- **Trojan War treated as legendary/traditional**, not a confirmed historical event: the
+  1184 BC date is Eratosthenes' ancient chronographic estimate, not a modern
+  archaeological date. Body text is worded to reflect that (the archaeological Troy VIIa
+  destruction layer aligns with, but does not prove, the legend).
+- **Two events left with no theme tag** (`Thera eruption`, empty `tags: []`): none of the
+  existing tags (architecture, art, battle, collapse, founding, governance, rebellion,
+  religion, science) accurately describe a natural disaster that isn't itself a state's
+  collapse. Left untagged rather than forcing a mismatched tag, following the precedent
+  set by the Byzantine topic's "Plague of Justinian Strikes" event.
+- **No new tags introduced** — the existing vocabulary in `docs/wikipedia-tags.md`
+  covered every event, including the multi-tag `collapse`/`governance`/`religion` Palace
+  of Nestor event (its Linear B archive is simultaneously evidence of the palace's
+  administrative bureaucracy and of early Greek religion).
+
+### Validation
+
+JSON parses and years are ascending (`-3100` through `-1100`, with three events sharing
+`-1600` and two sharing `-1450` — expected, not a bug, since multiple things happened in
+the same rough year across Crete and the mainland). Dry-run constructed against the real
+`Topic`/`Event`/`Location` ORM classes in `history_zoomout.db.models` without error
+(`category="civilization"`, `start_year`/`end_year` field names). All 16 image URLs
+(topic-level + 15 events) fetched directly and confirmed HTTP 200, one request at a time
+with a ~1-second gap.
