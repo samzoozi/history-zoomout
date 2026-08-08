@@ -2618,7 +2618,7 @@
   {
     "id": "china",
     "name": "China",
-    "colorIndex": 7,
+    "colorIndex": 2,
     "start": -221,
     "end": 1279,
     "summary": "China was unified for the first time by the Qin in 221 BC, and passed through the Han, a long period of division ended by the Sui, the cosmopolitan Tang, and the innovative Song dynasty before the Mongols completed their conquest of the country in 1279 AD.",
@@ -7035,7 +7035,7 @@
   {
     "id": "vikings",
     "name": "Vikings (Norse)",
-    "colorIndex": 2,
+    "colorIndex": 6,
     "start": 793,
     "end": 1066,
     "summary": "Norse seafarers from Scandinavia erupt onto the European stage with the 793 raid on Lindisfarne, launching two and a half centuries of raiding, trading, and settlement that reaches from North America to the Caspian Sea. Along the way Norsemen found or seize territory as far apart as Dublin, Normandy, and Novgorod, unify Norway and Denmark into lasting kingdoms, and briefly rule an English throne, before the Battle of Stamford Bridge in 1066 marks the traditional close of the Viking Age.",
