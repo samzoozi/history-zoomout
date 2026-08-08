@@ -3461,3 +3461,304 @@ All events validated: JSON well-formed (18 events), years ascending (-1070 → 3
 dry-run constructed against the real `Topic`/`Event`/`Location` ORM classes in
 `history_zoomout.db.models` without error. All 19 image URLs (topic-level + per-event)
 fetched directly and confirmed HTTP 200, one request at a time with a 1-second gap.
+
+## Phoenicia (topic id: `phoenicia`) — pulled 2026-08-07
+
+Status: **merged into live seed data 2026-08-07** (`data/seed_data/civilizations.json`,
+new topic — not previously present) and reseeded.
+
+Sourced JSON at `data/wikipedia-data/civilization/phoenicia.json`. New topic — `id`
+(`phoenicia`) and `colorIndex` (6) picked fresh. `colorIndex` 6 is the next unused value
+in the third color-rotation cycle (ottoman=1, vikings=2, mughal=3, hre=4, kush=5 — celtic=3
+was a deliberate overlap reuse, not a new cycle position; see the Celts entry above), so
+this is the cycle's sixth slot.
+
+Category confirmed as `civilization`: the user considered a broad "Levant" topic first,
+but the Levant hosted several culturally distinct peoples (Canaanites, Israelites,
+Arameans, Phoenicians) rather than one continuous throughline, so Phoenicia specifically
+was chosen as the coherent rise-and-fall arc — a network of city-states, the alphabet, and
+Mediterranean colonization culminating in Carthage — comparable to how this project already
+treats Rome, Persia, and Egypt.
+
+### Sub-periods mapped before event selection
+
+1. Bronze Age origins / Iron Age rise (c. 1200–900 BC) — Canaanite coastal cities survive
+   the Late Bronze Age collapse and emerge as independent city-states; the Phoenician
+   alphabet reaches maturity; Tyre rises to dominance under Hiram I and allies with Solomon.
+2. Mediterranean colonization (900–700 BC) — Tyrian settlers found Kition on Cyprus and,
+   traditionally in 814 BC, Carthage in North Africa; the Greeks adapt the Phoenician
+   alphabet into their own.
+3. Imperial domination of the homeland (740–332 BC) — Assyria, then Babylon, then Persia
+   extract tribute and vassalage from Tyre, Sidon, and Byblos, punctuated by Nebuchadnezzar's
+   13-year siege of Tyre and the Persian-era destruction of Sidon after Tennes' revolt.
+4. Alexander ends homeland independence (332 BC) — the siege of Tyre.
+5. Carthage as successor power (550–146 BC) — the Magonid dynasty turns Carthage into the
+   dominant western Mediterranean power, clashing with Greek Sicily and then Rome through
+   three Punic Wars, ending with Carthage's destruction in 146 BC.
+
+### Topic-level source
+
+- **Phoenicia** — https://en.wikipedia.org/wiki/Phoenicia — Wikidata Q41642. Used the
+  article's own default thumbnail, a map of the Phoenician city-states, directly relevant
+  and consistent with how Persia, the Celts, and Kush all use maps as their topic image.
+
+### Event sources
+
+| Event | Year | Article | Wikidata | Tags | Image credit |
+|---|---|---|---|---|---|
+| Phoenician City-States Rise from the Bronze Age Collapse | -1200 | [Phoenicia](https://en.wikipedia.org/wiki/Phoenicia) | Q41642 | founding | Orient (de.wikipedia), CC BY-SA 2.0 de |
+| Ahiram's Sarcophagus Preserves the Mature Phoenician Alphabet | -1000 | [Ahiram sarcophagus](https://en.wikipedia.org/wiki/Ahiram_sarcophagus) | Q1972397 | science, art | Matson Photo Service (1936), Public domain |
+| Hiram I Unites Tyre's Twin Islands | -969 | [Hiram I](https://en.wikipedia.org/wiki/Hiram_I) | Q467115 | architecture, governance | Eyewatchlebanon, CC BY-SA 3.0 |
+| Hiram I and Solomon Raise the Temple of Jerusalem | -968 | [Hiram I](https://en.wikipedia.org/wiki/Hiram_I) | Q467115 | architecture, religion | Unattributed illustration, CC BY-SA 3.0 |
+| Tyrian Settlers Found Kition on Cyprus | -900 | [Kition](https://en.wikipedia.org/wiki/Kition) | Q1743884 | founding | Rjdeadly, CC BY-SA 4.0 |
+| Dido Founds Carthage | -814 | [Carthage](https://en.wikipedia.org/wiki/Carthage) | Q6343 | founding | J. M. W. Turner, Public domain |
+| Greeks Adapt the Phoenician Alphabet | -800 | [Phoenician alphabet](https://en.wikipedia.org/wiki/Phoenician_alphabet) | Q26752 | science | Durutomo, CC BY-SA 4.0 |
+| Assyria Extracts Tribute from Tyre and Byblos | -740 | [Tiglath-Pileser III](https://en.wikipedia.org/wiki/Tiglath-Pileser_III) | Q210074 | governance | Jastrow (2005), Public domain |
+| Nebuchadnezzar's 13-Year Siege of Tyre Ends in Vassalage | -573 | [Siege of Tyre (586–573 BC)](https://en.wikipedia.org/wiki/Siege_of_Tyre_(586%E2%80%93573_BC)) | Q11794916 | battle | Stanley Llewelyn Wood, Public domain |
+| Mago I Founds Carthage's Magonid Dynasty | -550 | [Magonid dynasty](https://en.wikipedia.org/wiki/Magonid_dynasty) | Q972337 | governance, founding | Javierfv1212, Public domain |
+| Carthage and the Etruscans Halt Greek Expansion at Alalia | -540 | [Battle of Alalia](https://en.wikipedia.org/wiki/Battle_of_Alalia) | Q764673 | battle | Unattributed map, CC BY-SA 3.0 |
+| Eshmunazar II Builds the Temple of Eshmun | -525 | [Temple of Eshmun](https://en.wikipedia.org/wiki/Temple_of_Eshmun) | Q1367140 | architecture, religion | Elie+, Public domain |
+| The Phoenician Fleet Anchors Persia's Navy at Salamis | -480 | [Battle of Salamis](https://en.wikipedia.org/wiki/Battle_of_Salamis) | Q178850 | battle | Wilhelm von Kaulbach, Public domain |
+| Carthage's Bid for Sicily Collapses at Himera | -480 | [Battle of Himera (480 BC)](https://en.wikipedia.org/wiki/Battle_of_Himera_(480_BC)) | Q1138660 | battle | Giuseppe Sciuti, Public domain |
+| Tennes' Revolt Ends in the Burning of Sidon | -345 | [Tennes](https://en.wikipedia.org/wiki/Tennes) | Q716043 | rebellion, collapse, battle | Bibliothèque nationale de France, CC0 |
+| Alexander Storms Tyre After a Seven-Month Siege | -332 | [Siege of Tyre (332 BC)](https://en.wikipedia.org/wiki/Siege_of_Tyre_(332_BC)) | Q815233 | battle, collapse | André Castaigne, Public domain |
+| Rome Wins the Battle of the Aegates, Ending the First Punic War | -241 | [Battle of the Aegates](https://en.wikipedia.org/wiki/Battle_of_the_Aegates) | Q1134649 | battle | Sb2s3, CC BY-SA 4.0 |
+| Hannibal Crosses the Alps to Invade Italy | -218 | [Hannibal's crossing of the Alps](https://en.wikipedia.org/wiki/Hannibal%27s_crossing_of_the_Alps) | Q1337302 | battle | Heinrich Leutemann, Public domain |
+| Rome Destroys Carthage, Ending Phoenician Civilization | -146 | [Third Punic War](https://en.wikipedia.org/wiki/Third_Punic_War) | Q6334 | battle, collapse | Harrias, CC BY-SA 4.0 |
+
+### Event locations
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Bronze Age collapse / rise | Byblos | Byblos, Lebanon | 34.12, 35.65 |
+| Ahiram sarcophagus | Byblos | Byblos, Lebanon | 34.12, 35.65 |
+| Hiram I unites Tyre | Tyre | Tyre, Lebanon | 33.27, 35.20 |
+| Temple of Jerusalem | Jerusalem | Jerusalem, Israel | 31.78, 35.23 |
+| Kition founded | Kition | Larnaca, Cyprus | 34.92, 33.63 |
+| Dido founds Carthage | Carthage | Tunis, Tunisia | 36.81, 10.18 |
+| Greek alphabet adaptation | Athens | Athens, Greece | 37.98, 23.73 |
+| Assyrian tribute | Tyre | Tyre, Lebanon | 33.27, 35.20 |
+| Nebuchadnezzar's siege | Tyre | Tyre, Lebanon | 33.27, 35.20 |
+| Mago I / Magonid dynasty | Carthage | Tunis, Tunisia | 36.81, 10.18 |
+| Battle of Alalia | Alalia | Aléria, France | 42.10, 9.51 |
+| Temple of Eshmun | Bustan esh-Sheikh, near Sidon | Sidon, Lebanon | 33.5856, 35.3981 |
+| Battle of Salamis | Salamis | Salamina, Greece | 37.93, 23.50 |
+| Battle of Himera | Himera | Termini Imerese, Italy | 37.99, 13.70 |
+| Burning of Sidon | Sidon | Sidon, Lebanon | 33.56, 35.38 |
+| Alexander's siege of Tyre | Tyre | Tyre, Lebanon | 33.27, 35.20 |
+| Battle of the Aegates | Aegates Islands | Favignana, Italy | 37.97, 12.20 |
+| Hannibal crosses the Alps | *(no single site — exact pass debated)* | | |
+| Destruction of Carthage | Carthage | Tunis, Tunisia | 36.81, 10.18 |
+
+### Corrections / decisions made
+
+- **Carthage's founding date (814 BC)**: not stated on the main "Carthage" article itself;
+  pulled from the "Dido" article, which attributes 814 BC to the Greek historian Timaeus
+  (the most commonly preferred date among modern scholars) and notes Pompeius Trogus's
+  alternative "72 years before Rome's founding" (~825 BC) as a secondary tradition.
+- **Cadiz (Gadir) and Utica considered and dropped**: both are traditionally dated to
+  c. 1100 BC by ancient authors, but archaeology finds no occupation before the 9th–8th
+  century BC at either site — a two-to-three-century gap the sources themselves call
+  "controversial." Rather than assert either date, or duplicate a third near-identical
+  "founding of a colony" event alongside Kition and Carthage, both were left out; Kition (a
+  tighter, better-sourced "beginning of the 10th century BC" window) and Carthage (an
+  explicit traditional date) carry the colonization theme instead.
+- **Story of Wenamun considered and dropped**: this c. 1075 BC Egyptian text, showing
+  Byblos's King Zakar-Baal refusing Egypt's traditional cedar-wood tribute, would have been
+  an ideal early "Phoenician independence" event — but Egyptological literary analysis since
+  the 1980s has shifted the scholarly consensus to treat it as historical fiction rather
+  than a genuine diplomatic account. Dropped as not independently verifiable as an actual
+  happening, per this skill's standard for what counts as a researchable event.
+- **Tophet / child sacrifice considered and dropped**: Carthage's "Tophet of Salammbô" is
+  a genuinely significant and well-known aspect of Punic religion, but (a) whether it
+  represents systematic child sacrifice, stillbirth burial, or something else entirely is
+  "deeply contested" among current scholars per Wikipedia's own account, and (b) the only
+  clean anchor date available is the tophet's 1921 AD excavation, centuries after the
+  civilization itself ended. Rather than assert a contested ritual practice as settled fact
+  or misdate it, this was left out; the topic summary does not assert it either way.
+- **Carthaginian government/constitution considered and dropped**: Aristotle's *Politics*
+  praises Carthage's mixed oligarchic constitution, and it's a real and interesting
+  governance topic, but no Wikipedia article ties it to a specific founding year — it's
+  described only as an established, ongoing system by the time Aristotle (384–322 BC)
+  writes about it. Per this skill's guidance against fabricating a date for a systemic
+  reform, this was dropped in favor of Mago I's dynasty (550 BC), which does have a
+  concrete governance-founding date.
+- **Nimrud ivories considered and dropped**: Phoenician-made ivory carvings found at
+  Nimrud are strong evidence of Phoenician artistic export and craftsmanship, but Wikipedia
+  only dates their production to a broad "9th–7th century BC" window with no narrower event
+  to anchor a single year; the closest dated event is Nimrud's own destruction in 612 BC
+  (an Assyrian, not Phoenician, event). Dropped rather than force an imprecise date; the
+  Ahiram sarcophagus (art + science) and Eshmun temple reliefs (architecture + religion)
+  carry the art/craft theme instead.
+- **First Punic War replaced with the Battle of the Aegates**: initially planned as a
+  generic "First Punic War" event, but the war itself has no single place, while the
+  decisive Battle of the Aegates (241 BC) that actually ended it does — Sicily's Aegadian
+  Islands — and has its own well-documented Commons image (a bronze naval ram recovered
+  from the battle site). Switched to the more specific, better-located event.
+- **Hannibal's Alps crossing has no `location`**: the exact pass Hannibal used is still
+  debated among historians (candidates include Col de la Traversette and others), so no
+  single coordinate pair would be honest; `location` is omitted entirely for this event
+  rather than guessing a pass, per this skill's guidance for events without one natural
+  place.
+- **"Up to 750,000 killed" figure not used**: the Third Punic War article's infobox cites
+  this figure for Carthage's destruction, but it's implausibly high relative to serious
+  modern population estimates for the city and is likely an inflated ancient claim. The
+  event body instead states plainly that "most were killed" and cites only the better-attested
+  figure of 50,000 enslaved survivors.
+- **Solomon's Temple image has no named artist**: `File:SolomonsTemple.png` carries a
+  CC BY-SA 3.0 license in its extmetadata but no `Artist` field; attributed as
+  "Unattributed illustration, CC BY-SA 3.0" per the same no-named-artist convention used
+  for ancient/anonymous works elsewhere in this file (see the Kush entry's Meroitic script
+  chart and the Celts entry's Vercingetorix coin).
+- **Battle of Alalia map image has no named artist**: similarly attributed to "Unattributed
+  map, CC BY-SA 3.0" — the extmetadata credits a transfer from Italian Wikipedia with an
+  uploader handle (MM) rather than a named cartographer.
+
+All events validated: JSON well-formed (19 events), years ascending (-1200 → -146), and
+dry-run constructed against the real `Topic`/`Event`/`Location` ORM classes in
+`history_zoomout.db.models` without error (using `category="civilization"`, `start_year`/
+`end_year` — the model's actual field names, which `seed.py` maps the JSON's `start`/`end`
+onto). All 20 image URLs (topic-level + 19 events) fetched directly and confirmed HTTP 200,
+one request at a time with a 1-second gap.
+
+## Ancient India (topic id: `india`) — pulled 2026-08-07
+
+Status: **researched, not yet merged**. New topic — no existing seed data to compare
+against or replace.
+
+Covers Chandragupta Maurya's founding of the Maurya Empire through the Gupta Empire's
+fall (c. 322 BC – 550 AD): Maurya (founding through Ashoka's reign and collapse), the
+~250-year post-Mauryan interregnum (Shunga, Indo-Greek, Satavahana, Kushan), and the
+Gupta golden age. This is a "civilization" topic (rise-and-fall framing spanning several
+successor states), distinct from a hypothetical future "country" topic for India, which
+would instead need to run origin-to-present per this skill's country-vs-civilization
+scoping convention.
+
+### Topic-level source
+
+- **History of India** — https://en.wikipedia.org/wiki/History_of_India — Wikidata
+  Q133136. No single Wikipedia article scopes exactly to 322 BC – 550 AD (candidates
+  considered and rejected: "Middle kingdoms of India" runs 230 BC – 1206 AD, well past
+  this topic's end date and starting after Maurya's founding rather than at it; "Maurya
+  Empire" and "Gupta Empire" each cover only one end of the span). Used the broad
+  national-history article instead, same choice the Persia entry made for the same
+  reason ("History of Iran" over "Achaemenid Empire").
+  - Image switched from History of India's own lead image to the North Gateway of the
+    Great Stupa at Sanchi (Biswarup Ganguly, CC BY 3.0) — a Maurya-era Buddhist monument
+    that's a much more recognizable/on-topic visual than a generic lead image would be.
+
+### Event-level sources
+
+| Event | Year | Article | Wikidata | Tags | Image credit |
+|---|---|---|---|---|---|
+| Chandragupta Maurya founds the Maurya Empire | 322 BC | [Chandragupta Maurya](https://en.wikipedia.org/wiki/Chandragupta_Maurya) | Q188541 | founding, battle | Garudam (2001 Indian stamp), GODL-India |
+| The Kalinga War | 261 BC | [Kalinga War](https://en.wikipedia.org/wiki/Kalinga_War) | Q714557 | battle | Bhajish Bharathan, CC BY-SA 4.0 |
+| Ashoka converts to Buddhism and issues his edicts | c. 260 BC | [Edicts of Ashoka](https://en.wikipedia.org/wiki/Edicts_of_Ashoka) | Q779933 | religion, governance | Sachin kumar tiwary, CC BY-SA 3.0 |
+| Ashoka commissions the Great Stupa at Sanchi | c. 250 BC | [Sanchi Stupa](https://en.wikipedia.org/wiki/Sanchi_Stupa) | Q181123 | architecture, religion | Biswarup Ganguly, CC BY 3.0 |
+| Pushyamitra Shunga overthrows the Maurya Empire | 185 BC | [Shunga Empire](https://en.wikipedia.org/wiki/Shunga_Empire) | Q651377 | collapse, founding, rebellion | Public domain (Dhanadeva-Ayodhya inscription) |
+| Menander I converts to Buddhism | c. 150 BC | [Menander I](https://en.wikipedia.org/wiki/Menander_I) | Q347878 | religion | CNG Coins, CC BY-SA 3.0 |
+| The Satavahana dynasty is founded | c. 100 BC | [Satavahana dynasty](https://en.wikipedia.org/wiki/Satavahana_dynasty) | Q5257 | founding | Uploadalt, CC BY-SA 3.0 |
+| Ornamental gateways rise at the Sanchi Stupa | c. 50 BC | [Sanchi Stupa](https://en.wikipedia.org/wiki/Sanchi_Stupa) | Q181123 | architecture | Biswarup Ganguly, CC BY 3.0 |
+| Kujula Kadphises unifies the Kushan Empire | c. 30 AD | [Kujula Kadphises](https://en.wikipedia.org/wiki/Kujula_Kadphises) | Q560157 | founding | Classical Numismatic Group, CC BY-SA 3.0 |
+| Kanishka becomes Kushan emperor | 127 AD | [Kanishka](https://en.wikipedia.org/wiki/Kanishka) | Q312544 | governance | Public domain (British Museum) |
+| Kanishka convenes a great Buddhist council in Kashmir | c. 130 AD | [Fourth Buddhist council](https://en.wikipedia.org/wiki/Fourth_Buddhist_council) | Q752404 | religion | Public domain (Peshawar Museum, 1930) |
+| The Gandhara school of Greco-Buddhist art flourishes | c. 150 AD | [Greco-Buddhist art](https://en.wikipedia.org/wiki/Greco-Buddhist_art) | Q1008014 | art | World Imaging, public domain |
+| Chandragupta I founds the Gupta Empire | 320 AD | [Chandragupta I](https://en.wikipedia.org/wiki/Chandragupta_I) | Q849802 | founding | Uploadalt, CC BY-SA 3.0 |
+| Samudragupta expands the Gupta Empire | c. 350 AD | [Samudragupta](https://en.wikipedia.org/wiki/Samudragupta) | Q1133363 | battle, governance | PHGCOM, CC BY-SA 3.0 |
+| Chandragupta II defeats the Western Kshatrapas | c. 399 AD | [Chandragupta II](https://en.wikipedia.org/wiki/Chandragupta_II) | Q844536 | battle, governance | PHGCOM, CC BY-SA 3.0 |
+| Sanskrit literature flourishes under Chandragupta II | c. 400 AD | [Kalidasa](https://en.wikipedia.org/wiki/Kalidasa) | Q7011 | art | William Douglas Almond, public domain |
+| The Iron Pillar is forged under Chandragupta II | c. 402 AD | [Iron pillar of Delhi](https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi) | Q543419 | architecture, science | Mark A. Wilson, public domain |
+| Kumaragupta I founds Nalanda | 427 AD | [Nalanda mahavihara](https://en.wikipedia.org/wiki/Nalanda_mahavihara) | Q216243 | science, religion | Odantapuribs, CC BY-SA 4.0 |
+| Skandagupta repels a Hunnic invasion | c. 455 AD | [Skandagupta](https://en.wikipedia.org/wiki/Skandagupta) | Q1275876 | battle | CNG Coins, CC BY-SA 3.0 |
+| Aryabhata completes the Aryabhatiya | 499 AD | [Aryabhata](https://en.wikipedia.org/wiki/Aryabhata) | Q11359 | science | Cpjha13, CC BY-SA 4.0 |
+| Mihirakula's Huna forces overrun Gupta's northwest | c. 520 AD | [Mihirakula](https://en.wikipedia.org/wiki/Mihirakula) | Q2573564 | battle, rebellion | CNG Coins, CC BY-SA 3.0 |
+| The Gupta Empire fragments and falls | c. 550 AD | [Gupta Empire](https://en.wikipedia.org/wiki/Gupta_Empire) | Q11774 | collapse | Koba-chan, CC BY-SA 3.0 |
+
+### Event locations
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Chandragupta Maurya founds the Maurya Empire | Pataliputra | Patna, India | 25.59, 85.14 |
+| The Kalinga War | Kalinga | Bhubaneswar, India | 20.19, 85.84 (Dhauli) |
+| Ashoka converts to Buddhism and issues his edicts | — | — | *(no single site — omitted)* |
+| Ashoka commissions the Great Stupa at Sanchi | Sanchi | Sanchi, India | 23.480656, 77.7363 |
+| Pushyamitra Shunga overthrows the Maurya Empire | Pataliputra | Patna, India | 25.59, 85.14 |
+| Menander I converts to Buddhism | Sagala | Sialkot, Pakistan | 32.49, 74.53 |
+| The Satavahana dynasty is founded | Pratishthana | Paithan, India | 19.48, 75.38 |
+| Ornamental gateways rise at the Sanchi Stupa | Sanchi | Sanchi, India | 23.480656, 77.7363 |
+| Kujula Kadphises unifies the Kushan Empire | Kapisa | Bagram, Afghanistan | 34.9403, 69.255 |
+| Kanishka becomes Kushan emperor | Purushapura | Peshawar, Pakistan | 34.01, 71.57 |
+| Kanishka convenes a great Buddhist council in Kashmir | Kundalavana | Srinagar, India | 34.09, 74.79 |
+| The Gandhara school of Greco-Buddhist art flourishes | Gandhara | Taxila, Pakistan | 33.75, 72.79 |
+| Chandragupta I founds the Gupta Empire | Pataliputra | Patna, India | 25.59, 85.14 |
+| Samudragupta expands the Gupta Empire | Prayaga | Prayagraj, India | 25.436, 81.846 |
+| Chandragupta II defeats the Western Kshatrapas | — | — | *(broad territorial conquest, no single site — omitted)* |
+| Sanskrit literature flourishes under Chandragupta II | Ujjayini | Ujjain, India | 23.17, 75.79 |
+| The Iron Pillar is forged under Chandragupta II | Vishnupadagiri | Udayagiri, India | 23.536, 77.772 |
+| Kumaragupta I founds Nalanda | Nalanda | Nalanda, India | 25.2, 85.52 (district-level, nearest available) |
+| Skandagupta repels a Hunnic invasion | — | — | *(no specific site documented — omitted)* |
+| Aryabhata completes the Aryabhatiya | Kusumapura | Patna, India | 25.59, 85.14 |
+| Mihirakula's Huna forces overrun Gupta's northwest | Sagala | Sialkot, Pakistan | 32.49, 74.53 |
+| The Gupta Empire fragments and falls | — | — | *(fragmentation, no single site — omitted)* |
+
+### Corrections / decisions made
+
+- **Chandragupta Maurya's founding year**: Wikipedia gives two competing chronologies
+  (c. 322–319 BC vs. an alternative c. 311–305 BC). Used 322 BC, the more commonly cited
+  figure and the one given first in the article.
+- **Maurya collapse date discrepancy**: the Maurya Empire article's infobox gives 185 BC
+  as Brihadratha's reign-end, but its own narrative text says the assassination happened
+  "in 180 BC" — used the infobox's 185 BC as the more likely-authoritative figure.
+- **Third Buddhist Council dropped as a separate event**: extensively verified (summary,
+  full article, and the Moggaliputta-Tissa article) but no source gives it a specific
+  year — only "during Ashoka's reign." Rather than fabricate a year (a past mistake this
+  skill's instructions specifically warn against), this was left out; Ashoka's Buddhism
+  conversion/edicts event already carries the `religion` tag for this period.
+- **Fourth Buddhist Council — kept, with a caveat**: also has no Wikipedia-sourced exact
+  year, but unlike the Third Council it has a clean, singular claim ("convened by Kanishka
+  I") from both the Kanishka article and the Buddhist councils article, letting it be
+  anchored approximately within Kanishka's own dated reign (127–150 AD) rather than
+  invented outright. One real complication found and avoided: the *Sarvastivada* article
+  separately attributes a similar Kashmir synod to a different, later ruler ("Kanishka
+  II," c. 158–176 AD) — a possible source conflation similar to the kind the Persia pilot
+  caught. Sourced this event to the Kanishka/Fourth Buddhist council articles' attribution
+  to Kanishka I specifically, not the Sarvastivada article's, and used year c. 130 AD
+  (within Kanishka I's reign) rather than asserting false precision.
+- **Satavahana founding year**: Wikipedia calls Simuka's own dating uncertain (theories
+  range 271–30 BC), but notes the earliest dated Satavahana inscription is c. 110 BC,
+  referencing his 16th regnal year — implying an accession around 125 BC. Used c. 100 BC
+  as a round approximation within that range rather than the more specific but shakier
+  125 BC figure.
+- **Satavahana dynasty's event image is not Simuka**: no image of Simuka (the founder)
+  exists on Commons; used a coin of the later king Vashishtiputra Sri Satakarni instead,
+  as a representative Satavahana artifact. Noted here rather than left silent.
+- **Skandagupta's opponents were the Kidarites, not the Alchon Huns**: the Skandagupta
+  article specifically identifies his repelled invaders as "probably the Kidarites," a
+  distinct, earlier Hunnic group from the Alchon Huns under Toramana/Mihirakula who broke
+  through decades later. Kept these as two separate events (455 AD and 520 AD) rather
+  than conflating "the Huna invasions" into one, since they're different groups with
+  different outcomes (Skandagupta succeeded; the later Alchon push did not).
+- **Aryabhata did not have a symbol for zero**: the Aryabhatiya article explicitly states
+  his decimal place-value system "did not use a symbol for zero," despite the popular
+  "India invented zero" framing often attached to him. The event body says "decimal
+  place-value number system" and does not claim he originated a zero symbol.
+- **Navaratna ("nine jewels") court legend not asserted as fact**: Wikipedia's
+  Chandragupta II article notes the tradition of Kalidasa belonging to a "nine jewels"
+  court is likely a later literary forgery with no evidence the nine were contemporaries.
+  The event body says Kalidasa "is thought to have" written during his reign, without
+  repeating the Navaratna claim.
+- **Chandragupta Maurya founding-event image has no CC license**: `File:Chandragupta_
+  Maurya_stamp.jpg` (a 2001 Indian government postage stamp) is licensed GODL-India
+  (Government Open Data License – India), not a Creative Commons license, but it is an
+  explicit open license with a named creator/uploader (Garudam) and is usable per the
+  same standard applied to CC-licensed images elsewhere in this file.
+- **Pushyamitra Shunga event image's Artist field is malformed**: `File:Pushyamitra_
+  epigraph.jpg`'s extmetadata `Artist` field contains a description string ("Dhanadeva
+  Ayodhya inscription, 1st century BCE") rather than a person's name — treated as having
+  no usable named artist (reasonable for an ancient, unsigned inscription) and attributed
+  as "Public domain" per the no-named-artist convention used elsewhere in this file.
+
+All events validated: JSON well-formed (22 events), years ascending (-322 → 550), and
+dry-run constructed against the real `Topic`/`Event`/`Location` ORM classes in
+`history_zoomout.db.models` without error. All 23 image URLs (topic-level + 22 events)
+fetched directly and confirmed HTTP 200, one request at a time with a ~1-second gap.

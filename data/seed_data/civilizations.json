@@ -9208,5 +9208,880 @@
         }
       }
     ]
+  },
+  {
+    "id": "phoenicia",
+    "name": "Phoenicia",
+    "colorIndex": 6,
+    "start": -1200,
+    "end": -146,
+    "summary": "The Phoenicians were a network of independent Semitic city-states along the Levantine coast, rising to prominence after the Late Bronze Age collapse and led first by Byblos and then by Tyre, whose alliance with Solomon and expansion under Hiram I mark a golden age. Their invention of the alphabet -- adapted by the Greeks into their own -- and their colonization of the Mediterranean, culminating in the founding of Carthage in 814 BC, spread Phoenician trade and culture from Cyprus to Spain even as the homeland cities passed through Assyrian, Babylonian, and Persian vassalage before Alexander stormed Tyre in 332 BC. Carthage carried the Phoenician (Punic) tradition forward as the dominant power of the western Mediterranean until Rome destroyed it in 146 BC, ending the civilization for good.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Phoenicia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Phoenicia_map-en.svg/330px-Phoenicia_map-en.svg.png",
+    "imageAttribution": "Map by Kordas, based on Alvaro's work, CC BY 3.0, via Wikimedia Commons",
+    "imageDescription": "Map showing the ancient Phoenician city-states along the Levantine coast.",
+    "wikidataId": "Q41642",
+    "events": [
+      {
+        "year": -1200,
+        "sig": "minor",
+        "title": "Phoenician City-States Rise from the Bronze Age Collapse",
+        "body": "As Egyptian and Hittite power recede amid the chaos of the Late Bronze Age collapse, the Canaanite coastal cities of Byblos, Sidon, and Tyre emerge as independent, prosperous city-states -- the beginning of what later writers call Phoenicia.",
+        "tags": [
+          "founding"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Phoenicia",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Byblos_Libanon_2003.JPG/330px-Byblos_Libanon_2003.JPG",
+        "imageAttribution": "Photo by Orient (de.wikipedia), CC BY-SA 2.0 de, via Wikimedia Commons",
+        "imageDescription": "Byblos, one of the oldest continuously inhabited Phoenician cities.",
+        "wikidataId": "Q41642",
+        "location": {
+          "historicalName": "Byblos",
+          "city": "Byblos",
+          "country": "Lebanon",
+          "latitude": 34.12,
+          "longitude": 35.65
+        }
+      },
+      {
+        "year": -1000,
+        "sig": "minor",
+        "title": "Ahiram's Sarcophagus Preserves the Mature Phoenician Alphabet",
+        "body": "The inscribed sarcophagus of Byblos's King Ahiram carries the earliest lengthy example of the fully developed Phoenician alphabet, a 22-letter consonantal script that becomes the ancestor of the Greek, Latin, and Hebrew writing systems.",
+        "tags": [
+          "science",
+          "art"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Ahiram_sarcophagus",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Ahiram_sarcophag_from_Biblos_XIII-XBC.jpg/330px-Ahiram_sarcophag_from_Biblos_XIII-XBC.jpg",
+        "imageAttribution": "Photo by Matson Photo Service (1936), public domain, via Wikimedia Commons",
+        "imageDescription": "The sarcophagus of Ahiram, King of Byblos, now in the Beirut National Museum.",
+        "wikidataId": "Q1972397",
+        "location": {
+          "historicalName": "Byblos",
+          "city": "Byblos",
+          "country": "Lebanon",
+          "latitude": 34.12,
+          "longitude": 35.65
+        }
+      },
+      {
+        "year": -969,
+        "sig": "major",
+        "title": "Hiram I Unites Tyre's Twin Islands",
+        "body": "King Hiram I joins Tyre's two islands with landfill, extends its harbor, and builds a royal palace and a temple to the god Melqart, launching roughly three decades of prosperity historians call Tyre's golden age.",
+        "tags": [
+          "architecture",
+          "governance"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Hiram_I",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/KingHiramTombTyreLebanon.jpg/330px-KingHiramTombTyreLebanon.jpg",
+        "imageAttribution": "Photo by Eyewatchlebanon, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "The traditional tomb of Hiram, King of Tyre, near Tyre in southern Lebanon.",
+        "wikidataId": "Q467115",
+        "location": {
+          "historicalName": "Tyre",
+          "city": "Tyre",
+          "country": "Lebanon",
+          "latitude": 33.27,
+          "longitude": 35.2
+        }
+      },
+      {
+        "year": -968,
+        "sig": "minor",
+        "title": "Hiram I and Solomon Raise the Temple of Jerusalem",
+        "body": "Hiram sends Tyrian architects, craftsmen, and cedar wood to help Solomon build the First Temple in Jerusalem, while the two kings jointly open a Red Sea trade route to the distant land of Ophir.",
+        "tags": [
+          "architecture",
+          "religion"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Hiram_I",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/SolomonsTemple.png/330px-SolomonsTemple.png",
+        "imageAttribution": "Illustration, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A reconstruction of the floor plan of Solomon's Temple in Jerusalem.",
+        "wikidataId": "Q467115",
+        "location": {
+          "historicalName": "Jerusalem",
+          "city": "Jerusalem",
+          "country": "Israel",
+          "latitude": 31.78,
+          "longitude": 35.23
+        }
+      },
+      {
+        "year": -900,
+        "sig": "minor",
+        "title": "Tyrian Settlers Found Kition on Cyprus",
+        "body": "Colonists from Tyre establish Kition on Cyprus's southern coast, an early foothold that gives Phoenician traders access to the island's copper and a base for expansion further into the Mediterranean.",
+        "tags": [
+          "founding"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Kition",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Kition_shipyard.jpg/330px-Kition_shipyard.jpg",
+        "imageAttribution": "Photo by Rjdeadly, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "Remains of the Phoenician shipyard at Kition, on Cyprus.",
+        "wikidataId": "Q1743884",
+        "location": {
+          "historicalName": "Kition",
+          "city": "Larnaca",
+          "country": "Cyprus",
+          "latitude": 34.92,
+          "longitude": 33.63
+        }
+      },
+      {
+        "year": -814,
+        "sig": "major",
+        "title": "Dido Founds Carthage",
+        "body": "Fleeing her brother Pygmalion's tyranny in Tyre, the legendary queen Dido leads a band of settlers to the coast of North Africa and founds Carthage on land she buys by an oxhide's width, a trading post that grows into the greatest Phoenician city in the west.",
+        "tags": [
+          "founding"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Carthage",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Turner_Dido_Building_Carthage.jpg/330px-Turner_Dido_Building_Carthage.jpg",
+        "imageAttribution": "Painting by J. M. W. Turner, public domain, via Wikimedia Commons",
+        "imageDescription": "\"Dido Building Carthage,\" Turner's 1815 painting of the legendary founding of the city.",
+        "wikidataId": "Q6343",
+        "location": {
+          "historicalName": "Carthage",
+          "city": "Tunis",
+          "country": "Tunisia",
+          "latitude": 36.81,
+          "longitude": 10.18
+        }
+      },
+      {
+        "year": -800,
+        "sig": "major",
+        "title": "Greeks Adapt the Phoenician Alphabet",
+        "body": "Greek traders in close contact with Phoenician merchants borrow the Phoenician consonantal script and add vowel letters to fit their own language, a transformation that produces the Greek alphabet and, through it, the ancestor of most European writing systems.",
+        "tags": [
+          "science"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Phoenician_alphabet",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Dipylon_Inscription.JPG/330px-Dipylon_Inscription.JPG",
+        "imageAttribution": "Photo by Durutomo, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "The Dipylon inscription, one of the earliest known examples of the Greek alphabet.",
+        "wikidataId": "Q26752",
+        "location": {
+          "historicalName": "Athens",
+          "city": "Athens",
+          "country": "Greece",
+          "latitude": 37.98,
+          "longitude": 23.73
+        }
+      },
+      {
+        "year": -740,
+        "sig": "minor",
+        "title": "Assyria Extracts Tribute from Tyre and Byblos",
+        "body": "Alarmed by Tiglath-Pileser III's crushing victory at Arpad, Tyre and Byblos begin paying tribute to Assyria rather than risk invasion, the start of two centuries in which Phoenicia's homeland cities keep their kings and trade but answer to a succession of foreign empires.",
+        "tags": [
+          "governance"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Tiglath-Pileser_III",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Tiglath-Pileser_III_Nimrud_Louvre_AO19853.jpg/330px-Tiglath-Pileser_III_Nimrud_Louvre_AO19853.jpg",
+        "imageAttribution": "Photo by Jastrow (2005), public domain, via Wikimedia Commons",
+        "imageDescription": "Gypsum alabaster relief of Tiglath-Pileser III from his palace at Nimrud.",
+        "wikidataId": "Q210074",
+        "location": {
+          "historicalName": "Tyre",
+          "city": "Tyre",
+          "country": "Lebanon",
+          "latitude": 33.27,
+          "longitude": 35.2
+        }
+      },
+      {
+        "year": -573,
+        "sig": "major",
+        "title": "Nebuchadnezzar's 13-Year Siege of Tyre Ends in Vassalage",
+        "body": "After besieging Tyre for thirteen years without ever storming the city, Nebuchadnezzar II settles for a negotiated surrender that replaces its king with a Babylonian appointee, leaving Tyre intact but stripped of independence.",
+        "tags": [
+          "battle"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Siege_of_Tyre_(586%E2%80%93573_BC)",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Siege_of_Tyre_by_Nebuchadnezzar_II.jpg/330px-Siege_of_Tyre_by_Nebuchadnezzar_II.jpg",
+        "imageAttribution": "Illustration by Stanley Llewelyn Wood, public domain, via Wikimedia Commons",
+        "imageDescription": "A historical illustration of Tyre under siege by Nebuchadnezzar II of Babylon.",
+        "wikidataId": "Q11794916",
+        "location": {
+          "historicalName": "Tyre",
+          "city": "Tyre",
+          "country": "Lebanon",
+          "latitude": 33.27,
+          "longitude": 35.2
+        }
+      },
+      {
+        "year": -550,
+        "sig": "major",
+        "title": "Mago I Founds Carthage's Magonid Dynasty",
+        "body": "Chosen as general after his predecessor is deposed for grasping at kingship, Mago I begins a dynasty of elected military leaders that transforms Carthage from a modest colony into the dominant Phoenician power of the western Mediterranean.",
+        "tags": [
+          "governance",
+          "founding"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Magonid_dynasty",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Carthaginianempire.PNG/330px-Carthaginianempire.PNG",
+        "imageAttribution": "Map by Javierfv1212, public domain, via Wikimedia Commons",
+        "imageDescription": "The extent of the Carthaginian empire through the Punic Wars.",
+        "wikidataId": "Q972337",
+        "location": {
+          "historicalName": "Carthage",
+          "city": "Tunis",
+          "country": "Tunisia",
+          "latitude": 36.81,
+          "longitude": 10.18
+        }
+      },
+      {
+        "year": -540,
+        "sig": "major",
+        "title": "Carthage and the Etruscans Halt Greek Expansion at Alalia",
+        "body": "An allied Carthaginian and Etruscan fleet fights Greek Phocaean colonists to a costly draw off Corsica, and though the Greeks win the immediate engagement, the battle stops their westward expansion and secures Carthaginian control of the western Mediterranean's trade routes.",
+        "tags": [
+          "battle"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Alalia",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Battle_of_Alalia_map.jpg/330px-Battle_of_Alalia_map.jpg",
+        "imageAttribution": "Map, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "Map of the Tyrrhenian Sea showing the site of the Battle of Alalia off Corsica.",
+        "wikidataId": "Q764673",
+        "location": {
+          "historicalName": "Alalia",
+          "city": "Aléria",
+          "country": "France",
+          "latitude": 42.1,
+          "longitude": 9.51
+        }
+      },
+      {
+        "year": -525,
+        "sig": "minor",
+        "title": "Eshmunazar II Builds the Temple of Eshmun",
+        "body": "Sidon's King Eshmunazar II begins the sanctuary of Eshmun, the Phoenician god of healing, on a terrace above the Awali river; later kings expand it into what is today the best-preserved Phoenician religious site in Lebanon.",
+        "tags": [
+          "architecture",
+          "religion"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Temple_of_Eshmun",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Throne_of_Ashtart.jpg/330px-Throne_of_Ashtart.jpg",
+        "imageAttribution": "Photo by Elie+, public domain, via Wikimedia Commons",
+        "imageDescription": "The Throne of Astarte at the Temple of Eshmun, near Sidon.",
+        "wikidataId": "Q1367140",
+        "location": {
+          "historicalName": "Bustan esh-Sheikh, near Sidon",
+          "city": "Sidon",
+          "country": "Lebanon",
+          "latitude": 33.5856,
+          "longitude": 35.3981
+        }
+      },
+      {
+        "year": -480,
+        "sig": "major",
+        "title": "The Phoenician Fleet Anchors Persia's Navy at Salamis",
+        "body": "Phoenician ships make up the largest single contingent of Xerxes's fleet at the Battle of Salamis, and after the Greeks rout the crowded Persian line, Xerxes has several Phoenician captains beheaded for blaming the defeat on others.",
+        "tags": [
+          "battle"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Salamis",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Battle_of_Salamis_by_Wilhelm_von_Kaulbach.jpg/330px-Battle_of_Salamis_by_Wilhelm_von_Kaulbach.jpg",
+        "imageAttribution": "Painting by Wilhelm von Kaulbach, public domain, via Wikimedia Commons",
+        "imageDescription": "A 19th-century painting of the Battle of Salamis.",
+        "wikidataId": "Q178850",
+        "location": {
+          "historicalName": "Salamis",
+          "city": "Salamina",
+          "country": "Greece",
+          "latitude": 37.93,
+          "longitude": 23.5
+        }
+      },
+      {
+        "year": -480,
+        "sig": "minor",
+        "title": "Carthage's Bid for Sicily Collapses at Himera",
+        "body": "Carthaginian general Hamilcar lands a large army in Sicily to restore an ousted ally as tyrant of Himera, but Syracuse's Gelon and Agrigentum's Theron crush the invasion, crippling Carthaginian ambitions on the island for decades.",
+        "tags": [
+          "battle"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Himera_(480_BC)",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/The_Battle_of_Himera_by_Giuseppe_Sciuti.jpg/330px-The_Battle_of_Himera_by_Giuseppe_Sciuti.jpg",
+        "imageAttribution": "Painting by Giuseppe Sciuti, public domain, via Wikimedia Commons",
+        "imageDescription": "A 19th-century painting of the Battle of Himera.",
+        "wikidataId": "Q1138660",
+        "location": {
+          "historicalName": "Himera",
+          "city": "Termini Imerese",
+          "country": "Italy",
+          "latitude": 37.99,
+          "longitude": 13.7
+        }
+      },
+      {
+        "year": -345,
+        "sig": "major",
+        "title": "Tennes' Revolt Ends in the Burning of Sidon",
+        "body": "King Tennes leads Sidon in revolt against Persian rule, then betrays the city to Artaxerxes III to save himself; Artaxerxes executes him anyway, and Sidon burns with, by ancient accounts, tens of thousands of its people trapped inside.",
+        "tags": [
+          "rebellion",
+          "collapse",
+          "battle"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Tennes",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Tennes_coin_from_Sidon.jpg/330px-Tennes_coin_from_Sidon.jpg",
+        "imageAttribution": "Photo from the Bibliothèque nationale de France, CC0, via Wikimedia Commons",
+        "imageDescription": "An ancient coin from Sidon minted under Tennes.",
+        "wikidataId": "Q716043",
+        "location": {
+          "historicalName": "Sidon",
+          "city": "Sidon",
+          "country": "Lebanon",
+          "latitude": 33.56,
+          "longitude": 35.38
+        }
+      },
+      {
+        "year": -332,
+        "sig": "major",
+        "title": "Alexander Storms Tyre After a Seven-Month Siege",
+        "body": "Alexander the Great builds a causeway out to island Tyre, breaches its walls after a seven-month siege, and in his fury has thousands of defenders killed or crucified and tens of thousands more sold into slavery, ending Phoenician political independence in the homeland for good.",
+        "tags": [
+          "battle",
+          "collapse"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Siege_of_Tyre_(332_BC)",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/A_naval_action_during_the_siege_of_Tyre_by_Andre_Castaigne_%281898-1899%29.jpg/330px-A_naval_action_during_the_siege_of_Tyre_by_Andre_Castaigne_%281898-1899%29.jpg",
+        "imageAttribution": "Illustration by André Castaigne, public domain, via Wikimedia Commons",
+        "imageDescription": "A naval action during Alexander's siege of Tyre, illustrated by André Castaigne.",
+        "wikidataId": "Q815233",
+        "location": {
+          "historicalName": "Tyre",
+          "city": "Tyre",
+          "country": "Lebanon",
+          "latitude": 33.27,
+          "longitude": 35.2
+        }
+      },
+      {
+        "year": -241,
+        "sig": "major",
+        "title": "Rome Wins the Battle of the Aegates, Ending the First Punic War",
+        "body": "A Roman fleet destroys Carthage's last relief force off Sicily's Aegadian Islands, forcing Carthage to sue for peace, abandon Sicily, and pay a heavy war indemnity after 23 years of fighting.",
+        "tags": [
+          "battle"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_the_Aegates",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Carthaginian_naval_ram.jpg/330px-Carthaginian_naval_ram.jpg",
+        "imageAttribution": "Photo by Sb2s3, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "A bronze warship ram recovered from the site of the Battle of the Aegates.",
+        "wikidataId": "Q1134649",
+        "location": {
+          "historicalName": "Aegates Islands",
+          "city": "Favignana",
+          "country": "Italy",
+          "latitude": 37.97,
+          "longitude": 12.2
+        }
+      },
+      {
+        "year": -218,
+        "sig": "major",
+        "title": "Hannibal Crosses the Alps to Invade Italy",
+        "body": "Carthaginian general Hannibal marches an army with war elephants over the Alps into Italy, opening the Second Punic War with a campaign of victories that keeps Roman legions on the defensive in Italy for over a decade.",
+        "tags": [
+          "battle"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Hannibal%27s_crossing_of_the_Alps",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Heinrich_Leutemann_-_Hannibals_%C3%9Cbergang_%C3%BCber_die_Alpen_%28cropped%29.jpg/330px-Heinrich_Leutemann_-_Hannibals_%C3%9Cbergang_%C3%BCber_die_Alpen_%28cropped%29.jpg",
+        "imageAttribution": "Illustration by Heinrich Leutemann, public domain, via Wikimedia Commons",
+        "imageDescription": "A 19th-century illustration of Hannibal's army crossing the Alps.",
+        "wikidataId": "Q1337302"
+      },
+      {
+        "year": -146,
+        "sig": "major",
+        "title": "Rome Destroys Carthage, Ending Phoenician Civilization",
+        "body": "After a brutal six-day final assault, Roman soldiers burn Carthage to the ground and kill most of its population, selling the roughly 50,000 survivors into slavery -- extinguishing the last independent Phoenician state and, with it, Phoenician civilization itself.",
+        "tags": [
+          "battle",
+          "collapse"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Third_Punic_War",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/City_of_Carthage_circa_149_BC.png/330px-City_of_Carthage_circa_149_BC.png",
+        "imageAttribution": "Map by Harrias, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "A map of Carthage as it stood around 149 BC, on the eve of its destruction.",
+        "wikidataId": "Q6334",
+        "location": {
+          "historicalName": "Carthage",
+          "city": "Tunis",
+          "country": "Tunisia",
+          "latitude": 36.81,
+          "longitude": 10.18
+        }
+      }
+    ]
+  },
+  {
+    "id": "india",
+    "name": "Ancient India",
+    "colorIndex": 7,
+    "start": -322,
+    "end": 550,
+    "summary": "Beginning with Chandragupta Maurya's conquest of Magadha and Ashoka's embrace of Buddhism after the brutal Kalinga War, ancient India's classical age unfolds through nearly five centuries of shifting successor kingdoms -- Shunga, Satavahana, Indo-Greek, and Kushan -- before the Gupta dynasty ushers in a golden age of Sanskrit literature, mathematics, and monumental architecture, ending amid Hunnic invasions and fragmentation around 550 CE.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/History_of_India",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/North_Gateway_-_Rear_Side_-_Stupa_1_-_Sanchi_Hill_2013-02-21_4480-4481.JPG/330px-North_Gateway_-_Rear_Side_-_Stupa_1_-_Sanchi_Hill_2013-02-21_4480-4481.JPG",
+    "imageAttribution": "Photo by Biswarup Ganguly, CC BY 3.0, via Wikimedia Commons",
+    "imageDescription": "The North Gateway of the Great Stupa at Sanchi, a Buddhist monument begun under the Maurya Empire.",
+    "wikidataId": "Q133136",
+    "events": [
+      {
+        "year": -322,
+        "sig": "major",
+        "title": "Chandragupta Maurya founds the Maurya Empire",
+        "body": "Chandragupta Maurya overthrows the Nanda Empire and seizes Magadha, founding the Maurya Empire, which grows into the first empire to unify most of the Indian subcontinent.",
+        "tags": [
+          "founding",
+          "battle"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Chandragupta_Maurya",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Chandragupta_Maurya_stamp.jpg/330px-Chandragupta_Maurya_stamp.jpg",
+        "imageAttribution": "Stamp design by Garudam, GODL-India, via Wikimedia Commons",
+        "imageDescription": "A 2001 Indian postage stamp depicting Chandragupta Maurya, founder of the Maurya Empire.",
+        "wikidataId": "Q188541",
+        "location": {
+          "historicalName": "Pataliputra",
+          "city": "Patna",
+          "country": "India",
+          "latitude": 25.59,
+          "longitude": 85.14
+        }
+      },
+      {
+        "year": -261,
+        "sig": "major",
+        "title": "The Kalinga War",
+        "body": "Ashoka's Maurya army conquers the independent kingdom of Kalinga in a brutal war; the scale of the bloodshed later drives Ashoka toward Buddhism and nonviolence.",
+        "tags": [
+          "battle"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Kalinga_War",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Rock_edicts_of_Ashoka_at_Dhauli.jpg/330px-Rock_edicts_of_Ashoka_at_Dhauli.jpg",
+        "imageAttribution": "Photo by Bhajish Bharathan, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "Ashoka's rock edicts at Dhauli, inscribed near the site of the Kalinga War.",
+        "wikidataId": "Q714557",
+        "location": {
+          "historicalName": "Kalinga",
+          "city": "Bhubaneswar",
+          "country": "India",
+          "latitude": 20.19,
+          "longitude": 85.84
+        }
+      },
+      {
+        "year": -260,
+        "sig": "major",
+        "title": "Ashoka converts to Buddhism and issues his edicts",
+        "body": "Remorseful after Kalinga, Ashoka embraces Buddhism and begins inscribing edicts of dharma on rocks and pillars across the empire, promoting nonviolence, religious tolerance, and public welfare.",
+        "tags": [
+          "religion",
+          "governance"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Edicts_of_Ashoka",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ashoka_Lauriya_Areraj_inscription.jpg/330px-Ashoka_Lauriya_Areraj_inscription.jpg",
+        "imageAttribution": "Photo by Sachin kumar tiwary, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "One of Ashoka's pillar edicts, at Lauriya Areraj in Bihar.",
+        "wikidataId": "Q779933"
+      },
+      {
+        "year": -250,
+        "sig": "minor",
+        "title": "Ashoka commissions the Great Stupa at Sanchi",
+        "body": "Ashoka has a hemispherical brick stupa built at Sanchi to house relics of the Buddha, the first monument on a hilltop site that grows into one of Buddhism's great architectural complexes.",
+        "tags": [
+          "architecture",
+          "religion"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sanchi_Stupa",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Ashokan_Pillar_-_Stupa_1_-_Sanchi_Hill_2013-02-21_4361.JPG/330px-Ashokan_Pillar_-_Stupa_1_-_Sanchi_Hill_2013-02-21_4361.JPG",
+        "imageAttribution": "Photo by Biswarup Ganguly, CC BY 3.0, via Wikimedia Commons",
+        "imageDescription": "An Ashokan-era pillar standing at the Great Stupa site in Sanchi.",
+        "wikidataId": "Q181123",
+        "location": {
+          "historicalName": "Sanchi",
+          "city": "Sanchi",
+          "country": "India",
+          "latitude": 23.480656,
+          "longitude": 77.7363
+        }
+      },
+      {
+        "year": -185,
+        "sig": "major",
+        "title": "Pushyamitra Shunga overthrows the Maurya Empire",
+        "body": "Pushyamitra Shunga, a Mauryan military commander, assassinates the last Mauryan emperor Brihadratha during a troop review and founds the Shunga Empire in Magadha, ending a century of Mauryan rule.",
+        "tags": [
+          "collapse",
+          "founding",
+          "rebellion"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Shunga_Empire",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Pushyamitra_epigraph.jpg/330px-Pushyamitra_epigraph.jpg",
+        "imageAttribution": "Public domain, via Wikimedia Commons",
+        "imageDescription": "The Dhanadeva-Ayodhya inscription, a 1st-century BCE epigraph naming the Shunga dynasty.",
+        "wikidataId": "Q651377",
+        "location": {
+          "historicalName": "Pataliputra",
+          "city": "Patna",
+          "country": "India",
+          "latitude": 25.59,
+          "longitude": 85.14
+        }
+      },
+      {
+        "year": -150,
+        "sig": "minor",
+        "title": "Menander I converts to Buddhism",
+        "body": "The Indo-Greek king Menander I, ruling from Sagala in the Punjab, embraces Buddhism after a recorded dialogue with the monk Nagasena, becoming a celebrated patron of the faith in the Hellenistic-influenced northwest.",
+        "tags": [
+          "religion"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Menander_I",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Menander_I%2C_portrait_from_coinage.jpg/330px-Menander_I%2C_portrait_from_coinage.jpg",
+        "imageAttribution": "Coin photo by CNG Coins, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A coin portrait of the Indo-Greek king Menander I.",
+        "wikidataId": "Q347878",
+        "location": {
+          "historicalName": "Sagala",
+          "city": "Sialkot",
+          "country": "Pakistan",
+          "latitude": 32.49,
+          "longitude": 74.53
+        }
+      },
+      {
+        "year": -100,
+        "sig": "minor",
+        "title": "The Satavahana dynasty is founded",
+        "body": "Simuka establishes the Satavahana dynasty in the Deccan, filling the power vacuum left by Maurya collapse and building a long-lived kingdom that dominates central and southern India for over three centuries.",
+        "tags": [
+          "founding"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Satavahana_dynasty",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Vashishtiputra_Sri_Satakarni.jpg/330px-Vashishtiputra_Sri_Satakarni.jpg",
+        "imageAttribution": "Photo by Uploadalt, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A coin of the later Satavahana king Vashishtiputra Sri Satakarni, photographed at the British Museum.",
+        "wikidataId": "Q5257",
+        "location": {
+          "historicalName": "Pratishthana",
+          "city": "Paithan",
+          "country": "India",
+          "latitude": 19.48,
+          "longitude": 75.38
+        }
+      },
+      {
+        "year": -50,
+        "sig": "minor",
+        "title": "Ornamental gateways rise at the Sanchi Stupa",
+        "body": "Under Satavahana patronage, elaborately carved stone gateways depicting scenes from the Buddha's life are added to the Great Stupa at Sanchi, replacing its simpler earlier entrances.",
+        "tags": [
+          "architecture"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sanchi_Stupa",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/East_Gateway_-_Stupa_1_-_Sanchi_Hill_2013-02-21_4398.JPG/330px-East_Gateway_-_Stupa_1_-_Sanchi_Hill_2013-02-21_4398.JPG",
+        "imageAttribution": "Photo by Biswarup Ganguly, CC BY 3.0, via Wikimedia Commons",
+        "imageDescription": "The carved Eastern Gateway of the Great Stupa at Sanchi.",
+        "wikidataId": "Q181123",
+        "location": {
+          "historicalName": "Sanchi",
+          "city": "Sanchi",
+          "country": "India",
+          "latitude": 23.480656,
+          "longitude": 77.7363
+        }
+      },
+      {
+        "year": 30,
+        "sig": "minor",
+        "title": "Kujula Kadphises unifies the Kushan Empire",
+        "body": "Kujula Kadphises unites the five Yuezhi tribes of Bactria under his rule, founding the Kushan Empire, which soon expands south across the Hindu Kush into the Indian subcontinent.",
+        "tags": [
+          "founding"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Kujula_Kadphises",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Coin_of_the_Kushan_king_Kujula_Kadphises.jpg/330px-Coin_of_the_Kushan_king_Kujula_Kadphises.jpg",
+        "imageAttribution": "Coin photo by Classical Numismatic Group, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A tetradrachm coin of the Kushan king Kujula Kadphises.",
+        "wikidataId": "Q560157",
+        "location": {
+          "historicalName": "Kapisa",
+          "city": "Bagram",
+          "country": "Afghanistan",
+          "latitude": 34.9403,
+          "longitude": 69.255
+        }
+      },
+      {
+        "year": 127,
+        "sig": "major",
+        "title": "Kanishka becomes Kushan emperor",
+        "body": "Kanishka takes the Kushan throne and rules from twin capitals at Purushapura and Mathura, presiding over the empire's territorial and commercial peak along the Silk Road.",
+        "tags": [
+          "governance"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Kanishka",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/KanishkaCoin3.JPG/330px-KanishkaCoin3.JPG",
+        "imageAttribution": "Public domain, via Wikimedia Commons",
+        "imageDescription": "A gold coin of Kanishka, held at the British Museum.",
+        "wikidataId": "Q312544",
+        "location": {
+          "historicalName": "Purushapura",
+          "city": "Peshawar",
+          "country": "Pakistan",
+          "latitude": 34.01,
+          "longitude": 71.57
+        }
+      },
+      {
+        "year": 130,
+        "sig": "minor",
+        "title": "Kanishka convenes a great Buddhist council in Kashmir",
+        "body": "Kanishka sponsors a gathering of Buddhist scholars in Kashmir, remembered in tradition as the Fourth Buddhist Council, that produces authoritative commentaries on Buddhist scripture and helps carry Buddhism along Central Asian trade routes.",
+        "tags": [
+          "religion"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Fourth_Buddhist_council",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Buddhist_Triad_Peshawar_Museum.jpg/330px-Buddhist_Triad_Peshawar_Museum.jpg",
+        "imageAttribution": "Public domain (Peshawar Museum, 1930), via Wikimedia Commons",
+        "imageDescription": "A Buddhist sculptural group from the Peshawar Museum, from the Gandhara region patronized under Kanishka.",
+        "wikidataId": "Q752404",
+        "location": {
+          "historicalName": "Kundalavana",
+          "city": "Srinagar",
+          "country": "India",
+          "latitude": 34.09,
+          "longitude": 74.79
+        }
+      },
+      {
+        "year": 150,
+        "sig": "minor",
+        "title": "The Gandhara school of Greco-Buddhist art flourishes",
+        "body": "Sculptors in Gandhara, working under Kushan patronage, blend Hellenistic artistic technique inherited from the region's Greek-ruled past with Buddhist subject matter, producing some of the first anthropomorphic images of the Buddha.",
+        "tags": [
+          "art"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Greco-Buddhist_art",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Gandhara_Buddha_%28tnm%29.jpeg/330px-Gandhara_Buddha_%28tnm%29.jpeg",
+        "imageAttribution": "Photo by World Imaging, public domain, via Wikimedia Commons",
+        "imageDescription": "A 1st-century Gandharan sculpture of the Buddha in Greco-Buddhist style.",
+        "wikidataId": "Q1008014",
+        "location": {
+          "historicalName": "Gandhara",
+          "city": "Taxila",
+          "country": "Pakistan",
+          "latitude": 33.75,
+          "longitude": 72.79
+        }
+      },
+      {
+        "year": 320,
+        "sig": "major",
+        "title": "Chandragupta I founds the Gupta Empire",
+        "body": "Chandragupta I is crowned Maharajadhiraja, marking the start of the Gupta Empire and the Gupta calendar era; his marriage to the Licchavi princess Kumaradevi strengthens the new dynasty's standing in Magadha.",
+        "tags": [
+          "founding"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Chandragupta_I",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Queen_Kumaradevi_and_King_Chandragupta_I_on_a_coin.jpg/330px-Queen_Kumaradevi_and_King_Chandragupta_I_on_a_coin.jpg",
+        "imageAttribution": "Photo by Uploadalt, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A gold coin depicting Chandragupta I and Queen Kumaradevi.",
+        "wikidataId": "Q849802",
+        "location": {
+          "historicalName": "Pataliputra",
+          "city": "Patna",
+          "country": "India",
+          "latitude": 25.59,
+          "longitude": 85.14
+        }
+      },
+      {
+        "year": 350,
+        "sig": "major",
+        "title": "Samudragupta expands the Gupta Empire",
+        "body": "Samudragupta campaigns across northern and southern India, uprooting rival kings and extending Gupta authority from the Himalayas toward the Deccan; his conquests are recorded on the Allahabad Pillar inscription.",
+        "tags": [
+          "battle",
+          "governance"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Samudragupta",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/SamudraguptaCoin.png/330px-SamudraguptaCoin.png",
+        "imageAttribution": "Photo by PHGCOM, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A coin of the Gupta emperor Samudragupta.",
+        "wikidataId": "Q1133363",
+        "location": {
+          "historicalName": "Prayaga",
+          "city": "Prayagraj",
+          "country": "India",
+          "latitude": 25.436,
+          "longitude": 81.846
+        }
+      },
+      {
+        "year": 399,
+        "sig": "minor",
+        "title": "Chandragupta II defeats the Western Kshatrapas",
+        "body": "Chandragupta II conquers the Saka Western Kshatrapas of Gujarat and Malwa, giving the Gupta Empire access to the western coast's sea trade and bringing it to its greatest territorial extent.",
+        "tags": [
+          "battle",
+          "governance"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Chandragupta_II",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/ChandraguptaIIOnHorse.jpg/330px-ChandraguptaIIOnHorse.jpg",
+        "imageAttribution": "Photo by PHGCOM, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A coin of Chandragupta II depicted on horseback.",
+        "wikidataId": "Q844536"
+      },
+      {
+        "year": 400,
+        "sig": "minor",
+        "title": "Sanskrit literature flourishes under Chandragupta II",
+        "body": "The poet-playwright Kalidasa, widely regarded as ancient India's greatest Sanskrit writer, is thought to have composed his major works during Chandragupta II's reign, part of a broader flowering of Sanskrit literature and drama under Gupta patronage.",
+        "tags": [
+          "art"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Kalidasa",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Kalidasa_inditing_the_cloud_Messenger%2C_A.D._375.jpg/330px-Kalidasa_inditing_the_cloud_Messenger%2C_A.D._375.jpg",
+        "imageAttribution": "Illustration by William Douglas Almond, public domain, via Wikimedia Commons",
+        "imageDescription": "An early-20th-century illustration imagining Kalidasa composing verse.",
+        "wikidataId": "Q7011",
+        "location": {
+          "historicalName": "Ujjayini",
+          "city": "Ujjain",
+          "country": "India",
+          "latitude": 23.17,
+          "longitude": 75.79
+        }
+      },
+      {
+        "year": 402,
+        "sig": "minor",
+        "title": "The Iron Pillar is forged under Chandragupta II",
+        "body": "Metalworkers cast a 7-metre iron pillar honoring Chandragupta II, using a corrosion-resistant alloy that keeps the column virtually rust-free some sixteen centuries later -- a landmark of Gupta-era metallurgy.",
+        "tags": [
+          "architecture",
+          "science"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Iron_Pillar%2C_Delhi%2C_May_2008.jpg/330px-Iron_Pillar%2C_Delhi%2C_May_2008.jpg",
+        "imageAttribution": "Photo by Mark A. Wilson, public domain, via Wikimedia Commons",
+        "imageDescription": "The Iron Pillar, now standing in the Qutb complex in Delhi.",
+        "wikidataId": "Q543419",
+        "location": {
+          "historicalName": "Vishnupadagiri",
+          "city": "Udayagiri",
+          "country": "India",
+          "latitude": 23.536,
+          "longitude": 77.772
+        }
+      },
+      {
+        "year": 427,
+        "sig": "major",
+        "title": "Kumaragupta I founds Nalanda",
+        "body": "Kumaragupta I endows a monastery at Nalanda that grows into the ancient world's foremost center of learning, drawing students and scholars from across Asia to study Buddhist philosophy alongside grammar, medicine, and logic.",
+        "tags": [
+          "science",
+          "religion"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Nalanda_mahavihara",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Temple_No.-_3%2C_Nalanda_Archaeological_Site.jpg/330px-Temple_No.-_3%2C_Nalanda_Archaeological_Site.jpg",
+        "imageAttribution": "Photo by Odantapuribs, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "The ruins of Temple No. 3 at the Nalanda archaeological site.",
+        "wikidataId": "Q216243",
+        "location": {
+          "historicalName": "Nalanda",
+          "city": "Nalanda",
+          "country": "India",
+          "latitude": 25.2,
+          "longitude": 85.52
+        }
+      },
+      {
+        "year": 455,
+        "sig": "minor",
+        "title": "Skandagupta repels a Hunnic invasion",
+        "body": "Skandagupta defeats an invasion by Hunnic raiders, probably the Kidarites, restoring Gupta military prestige at the start of his reign even as the empire's northwestern frontier comes under growing pressure.",
+        "tags": [
+          "battle"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Skandagupta",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Skandagupta_Circa_455-480_CE.jpg/330px-Skandagupta_Circa_455-480_CE.jpg",
+        "imageAttribution": "Coin photo by CNG Coins, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A coin of Skandagupta, shown holding a bow and arrow.",
+        "wikidataId": "Q1275876"
+      },
+      {
+        "year": 499,
+        "sig": "major",
+        "title": "Aryabhata completes the Aryabhatiya",
+        "body": "Working at Kusumapura, Aryabhata completes the Aryabhatiya, a landmark treatise that lays out a decimal place-value number system, calculates pi to four decimal places, and explains solar and lunar eclipses through the Earth's rotation.",
+        "tags": [
+          "science"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Aryabhata",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Aryabhatta_of_Bihar.jpg/330px-Aryabhatta_of_Bihar.jpg",
+        "imageAttribution": "Photo by Cpjha13, CC BY-SA 4.0, via Wikimedia Commons",
+        "imageDescription": "A modern statue of Aryabhata in Bihar.",
+        "wikidataId": "Q11359",
+        "location": {
+          "historicalName": "Kusumapura",
+          "city": "Patna",
+          "country": "India",
+          "latitude": 25.59,
+          "longitude": 85.14
+        }
+      },
+      {
+        "year": 520,
+        "sig": "minor",
+        "title": "Mihirakula's Huna forces overrun Gupta's northwest",
+        "body": "The Alchon Hun king Mihirakula conquers Sindh and pushes into Punjab and Kashmir, breaking Gupta control over the subcontinent's northwest and accelerating the empire's fragmentation.",
+        "tags": [
+          "battle",
+          "rebellion"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Mihirakula",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mihirakula_portrait.jpg/330px-Mihirakula_portrait.jpg",
+        "imageAttribution": "Coin photo by CNG Coins, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A numismatic portrait of the Alchon Hun king Mihirakula.",
+        "wikidataId": "Q2573564",
+        "location": {
+          "historicalName": "Sagala",
+          "city": "Sialkot",
+          "country": "Pakistan",
+          "latitude": 32.49,
+          "longitude": 74.53
+        }
+      },
+      {
+        "year": 550,
+        "sig": "major",
+        "title": "The Gupta Empire fragments and falls",
+        "body": "Weakened by decades of Hunnic incursions and the rise of regional rivals such as Yashodharman, the Gupta Empire fades into a scatter of successor kingdoms; Vishnugupta, the last recognized ruler of the main line, issues his final inscription around this time.",
+        "tags": [
+          "collapse"
+        ],
+        "sourceUrl": "https://en.wikipedia.org/wiki/Gupta_Empire",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Map_of_the_Gupta_Empire.png/330px-Map_of_the_Gupta_Empire.png",
+        "imageAttribution": "Map by Koba-chan, CC BY-SA 3.0, via Wikimedia Commons",
+        "imageDescription": "A map showing the Gupta Empire's extent around 420 CE, before its later fragmentation.",
+        "wikidataId": "Q11774"
+      }
+    ]
   }
 ]
