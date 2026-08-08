@@ -168,6 +168,7 @@ button:focus-visible,
 }
 .brand-row { display: flex; align-items: center; gap: 12px; }
 .brand-block { display: flex; flex-direction: column; gap: 4px; }
+.wordmark-heading { margin: 0; font: inherit; font-weight: inherit; }
 .wordmark {
   font-family: 'Marcellus', serif;
   font-size: clamp(26px, 3vw, 34px);
