@@ -3767,14 +3767,14 @@ fetched directly and confirmed HTTP 200, one request at a time with a ~1-second 
 
 Status: **merged into live seed data 2026-08-08** (`data/seed_data/civilizations.json`,
 new topic — not previously present) and reseeded. Verified live via the running dev API
-(`GET /topics?category=civilization`) — topic present with `colorIndex` 8, range
+(`GET /topics?category=civilization`) — topic present with `colorIndex` 7, range
 -1047..-539, and all 28 events.
 
 Sourced JSON at `data/wikipedia-data/civilization/israel.json`. New topic — `id`
-(`israel`) and `colorIndex` (8) picked fresh. `colorIndex` 8 is the next unused value in
-the third color-rotation cycle (ottoman=1, vikings=2, mughal=3, hre=4, kush=5,
-phoenicia=6, india=7 — celtic=3 was a deliberate overlap reuse, not a new cycle position;
-see the Celts entry above), so this is the cycle's eighth slot.
+(`israel`) and `colorIndex` (7) picked. `colorIndex` 7 overlaps with India's slot in the
+third color-rotation cycle (ottoman=1, vikings=2, mughal=3, hre=4, kush=5, phoenicia=6,
+india=7); kept as a deliberate reuse for the preferred blue-teal shade, same precedent as
+celtic=3 (see the Celts entry above) rather than taking the next unused slot (8).
 
 Category confirmed as `civilization`: the topic covers the Iron Age kingdoms of Israel
 and Judah as a rise-and-fall arc (unification, split, and the fall of each kingdom to a
