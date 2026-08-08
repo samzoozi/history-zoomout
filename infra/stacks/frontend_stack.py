@@ -39,6 +39,28 @@ class FrontendStack(Stack):
             auto_delete_objects=True,
         )
 
+        # Gives each timeline category a clean, crawlable path (e.g. /country) at
+        # the edge instead of only the query-string form, without needing a
+        # separate build step -- the underlying files stay plain .html so S3/CDK
+        # infer the right content-type. Add an entry here whenever a category
+        # gets its own static HTML file in frontend/.
+        category_url_rewrite_function = cloudfront.Function(
+            self, "CategoryUrlRewrite",
+            code=cloudfront.FunctionCode.from_inline(
+                "function handler(event) {\n"
+                "  var request = event.request;\n"
+                "  var rewrites = {\n"
+                "    '/civilization': '/timeline.html',\n"
+                "    '/country': '/country.html'\n"
+                "  };\n"
+                "  if (rewrites[request.uri]) {\n"
+                "    request.uri = rewrites[request.uri];\n"
+                "  }\n"
+                "  return request;\n"
+                "}"
+            ),
+        )
+
         distribution = cloudfront.Distribution(
             self, "SiteDistribution",
             domain_names=[DOMAIN_NAME, WWW_DOMAIN_NAME],
@@ -47,6 +69,12 @@ class FrontendStack(Stack):
             default_behavior=cloudfront.BehaviorOptions(
                 origin=origins.S3BucketOrigin.with_origin_access_control(site_bucket),
                 viewer_protocol_policy=cloudfront.ViewerProtocolPolicy.REDIRECT_TO_HTTPS,
+                function_associations=[
+                    cloudfront.FunctionAssociation(
+                        function=category_url_rewrite_function,
+                        event_type=cloudfront.FunctionEventType.VIEWER_REQUEST,
+                    ),
+                ],
             ),
         )
 
