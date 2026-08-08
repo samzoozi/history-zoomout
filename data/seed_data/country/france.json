@@ -1,0 +1,460 @@
+{
+  "id": "country-france",
+  "name": "France",
+  "colorIndex": 1,
+  "start": 843,
+  "end": 2026,
+  "summary": "The Treaty of Verdun splits Charlemagne's empire in 843, creating West Francia as the direct territorial ancestor of the Kingdom of France. Capetian kings slowly extend royal authority over the following centuries, then fight off English claims to the French throne in the Hundred Years' War before Bourbon monarchs build an absolutist state centered on the Palace of Versailles. The Revolution of 1789 sweeps that monarchy away, and the century that follows cycles through empire, restoration, and republic before the Third Republic takes hold in 1870. Two world wars and German occupation batter France in the twentieth century, and a constitutional crisis over the Algerian War finally gives rise to the Fifth Republic in 1958. That republic outlasts the loss of Algeria and the upheaval of May 1968, anchors itself in a united Europe through the Maastricht Treaty and the euro, and endures fresh crises -- Islamist terrorism, the Notre-Dame fire, the collapse of its traditional party system -- into the present day.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/History_of_France",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg/330px-La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg",
+  "imageAttribution": "Painting by Eugène Delacroix, public domain, via Wikimedia Commons",
+  "imageDescription": "Eugène Delacroix's 1830 painting Liberty Leading the People, a lasting symbol of the French Republic.",
+  "wikidataId": "Q7778",
+  "events": [
+    {
+      "year": 843,
+      "sig": "major",
+      "title": "Treaty of Verdun Creates West Francia",
+      "body": "Charlemagne's three surviving grandsons split the Carolingian Empire into three kingdoms after years of civil war, and the westernmost share, West Francia, becomes the direct territorial ancestor of the Kingdom of France.",
+      "tags": ["founding"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Treaty_of_Verdun",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Louis_the_Pious_blessing_the_division_of_the_Carolingian_Empire_in_843_into_West_Francia%2C_Lotharingia%2C_and_East_Francia.jpg/330px-Louis_the_Pious_blessing_the_division_of_the_Carolingian_Empire_in_843_into_West_Francia%2C_Lotharingia%2C_and_East_Francia.jpg",
+      "imageAttribution": "Illustration, artist unknown, public domain, via Wikimedia Commons",
+      "imageDescription": "A 15th-century chronicle illustration of Louis the Pious blessing the division of the Carolingian Empire in 843.",
+      "wikidataId": "Q134840",
+      "location": {
+        "historicalName": "Verdun",
+        "city": "Verdun",
+        "country": "France",
+        "latitude": 49.162,
+        "longitude": 5.3876
+      }
+    },
+    {
+      "year": 987,
+      "sig": "major",
+      "title": "Hugh Capet Crowned King",
+      "body": "With the Carolingian royal line extinct, the assembled nobles elect Hugh Capet, count of Paris, and he is crowned king at Noyon, founding the Capetian dynasty whose branches rule France for the next eight centuries.",
+      "tags": ["founding"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hugh_Capet",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/SceauHuguesCapet_%28cropped%29.PNG",
+      "imageAttribution": "Photo by LeThéodorus, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "The seal of Hugh Capet, documented in the late 17th century from a royal diploma.",
+      "wikidataId": "Q159575",
+      "location": {
+        "historicalName": "Noyon",
+        "city": "Noyon",
+        "country": "France",
+        "latitude": 49.5817,
+        "longitude": 2.9997
+      }
+    },
+    {
+      "year": 1214,
+      "sig": "minor",
+      "title": "Battle of Bouvines",
+      "body": "Philip II routs a coalition of the Holy Roman Emperor, the Count of Flanders, and King John of England at Bouvines, breaking English ambitions on the continent and confirming the Capetian monarchy as the strongest power in Western Europe.",
+      "tags": ["battle"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Bouvines",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Bataille_de_Bouvines_gagnee_par_Philippe_Auguste.jpg/330px-Bataille_de_Bouvines_gagnee_par_Philippe_Auguste.jpg",
+      "imageAttribution": "Painting by Horace Vernet, public domain, via Wikimedia Commons",
+      "imageDescription": "An 1827 painting of the Battle of Bouvines by Horace Vernet.",
+      "wikidataId": "Q830626",
+      "location": {
+        "historicalName": "Bouvines",
+        "city": "Bouvines",
+        "country": "France",
+        "latitude": 50.583,
+        "longitude": 3.183
+      }
+    },
+    {
+      "year": 1337,
+      "sig": "minor",
+      "title": "Hundred Years' War Begins",
+      "body": "Edward III of England presses a claim to the French throne through his mother, opening a conflict with the Valois kings of France that, punctuated by long truces, drags on for more than a century.",
+      "tags": ["battle"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/BattleofSluys.jpeg/330px-BattleofSluys.jpeg",
+      "imageAttribution": "Illustration by Loyset Liédet, public domain, via Wikimedia Commons",
+      "imageDescription": "A 15th-century manuscript illustration of the Battle of Sluys, an early English naval victory in 1340.",
+      "wikidataId": "Q12551"
+    },
+    {
+      "year": 1429,
+      "sig": "major",
+      "title": "Joan of Arc Relieves the Siege of Orléans",
+      "body": "Joan of Arc leads French troops to break the English siege of Orléans, reversing the war's momentum at its lowest point for France and clearing the way for Charles VII's coronation later that same year.",
+      "tags": ["battle"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Siege_of_Orl%C3%A9ans_(1428%E2%80%931429)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Lenepveu%2C_Jeanne_d%27Arc_au_si%C3%A8ge_d%27Orl%C3%A9ans.jpg/330px-Lenepveu%2C_Jeanne_d%27Arc_au_si%C3%A8ge_d%27Orl%C3%A9ans.jpg",
+      "imageAttribution": "Painting by Eugène Lenepveu, public domain, via Wikimedia Commons",
+      "imageDescription": "A late 19th-century romanticized portrait of Joan of Arc in armor before Orléans.",
+      "wikidataId": "Q392213",
+      "location": {
+        "historicalName": "Orléans",
+        "city": "Orléans",
+        "country": "France",
+        "latitude": 47.9025,
+        "longitude": 1.909
+      }
+    },
+    {
+      "year": 1453,
+      "sig": "major",
+      "title": "Battle of Castillon Ends the Hundred Years' War",
+      "body": "French artillery destroys an English relief force at Castillon, killing the English commander John Talbot in what becomes the war's last major battle and leaves Calais as England's only remaining foothold in France.",
+      "tags": ["battle"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Castillon",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Fran%C3%A7ais_5054%2C_fol._229v%2C_Bataille_de_Castillon_1453_-_d%C3%A9tail.jpg/330px-Fran%C3%A7ais_5054%2C_fol._229v%2C_Bataille_de_Castillon_1453_-_d%C3%A9tail.jpg",
+      "imageAttribution": "Illumination, artist unknown, public domain, via Wikimedia Commons",
+      "imageDescription": "A late 15th-century manuscript illumination depicting the death of John Talbot at the Battle of Castillon.",
+      "wikidataId": "Q932613",
+      "location": {
+        "historicalName": "Castillon",
+        "city": "Castillon-la-Bataille",
+        "country": "France",
+        "latitude": 44.854,
+        "longitude": -0.043
+      }
+    },
+    {
+      "year": 1598,
+      "sig": "major",
+      "title": "Edict of Nantes",
+      "body": "Henry IV, having converted to Catholicism to secure his throne, grants France's Protestant Huguenots substantial civil rights and freedom of worship, ending decades of religious civil war between Catholics and Protestants.",
+      "tags": ["religion", "governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Edict_of_Nantes",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Edit_de_nantes.jpg/330px-Edit_de_nantes.jpg",
+      "imageAttribution": "Document photo, public domain, via Wikimedia Commons",
+      "imageDescription": "The original text of the Edict of Nantes, signed by Henry IV in April 1598.",
+      "wikidataId": "Q179788",
+      "location": {
+        "historicalName": "Nantes",
+        "city": "Nantes",
+        "country": "France",
+        "latitude": 47.2181,
+        "longitude": -1.5528
+      }
+    },
+    {
+      "year": 1682,
+      "sig": "minor",
+      "title": "Court Moves to Versailles",
+      "body": "Louis XIV relocates the royal court and government permanently to his newly expanded Palace of Versailles, formalizing his absolute rule by drawing the nobility into a tightly controlled orbit around his person.",
+      "tags": ["architecture", "governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Palace_of_Versailles",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue_a%C3%A9rienne_du_domaine_de_Versailles_par_ToucanWings_-_Creative_Commons_By_Sa_3.0_-_081_%28cropped%29.jpg/330px-Vue_a%C3%A9rienne_du_domaine_de_Versailles_par_ToucanWings_-_Creative_Commons_By_Sa_3.0_-_081_%28cropped%29.jpg",
+      "imageAttribution": "Photo by ToucanWings, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "An aerial view of the Palace of Versailles and its gardens.",
+      "wikidataId": "Q2946",
+      "location": {
+        "historicalName": "Versailles",
+        "city": "Versailles",
+        "country": "France",
+        "latitude": 48.8047,
+        "longitude": 2.1203
+      }
+    },
+    {
+      "year": 1789,
+      "sig": "major",
+      "title": "Storming of the Bastille",
+      "body": "Parisian crowds seize the Bastille fortress in search of arms and gunpowder, and the fall of this hated symbol of royal authority becomes the opening act of the French Revolution.",
+      "tags": ["rebellion"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Storming_of_the_Bastille",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Anonymous_-_Prise_de_la_Bastille.jpg/330px-Anonymous_-_Prise_de_la_Bastille.jpg",
+      "imageAttribution": "Painting by an unidentified artist, public domain, via Wikimedia Commons",
+      "imageDescription": "A contemporary depiction of the storming of the Bastille and the arrest of its governor on 14 July 1789.",
+      "wikidataId": "Q6539",
+      "location": {
+        "historicalName": "Paris",
+        "city": "Paris",
+        "country": "France",
+        "latitude": 48.8567,
+        "longitude": 2.3522
+      }
+    },
+    {
+      "year": 1804,
+      "sig": "major",
+      "title": "Napoleon Crowned Emperor",
+      "body": "Napoleon Bonaparte crowns himself Emperor of the French at Notre-Dame in the presence of Pope Pius VII, converting the post-revolutionary Republic into an empire and himself into a hereditary monarch.",
+      "tags": ["founding", "governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Coronation_of_Napoleon",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg/330px-Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg",
+      "imageAttribution": "Painting by Jacques-Louis David, public domain, via Wikimedia Commons",
+      "imageDescription": "David's depiction of Napoleon crowning Empress Joséphine at Notre-Dame de Paris, with Pope Pius VII seated behind him.",
+      "wikidataId": "Q973118",
+      "location": {
+        "historicalName": "Notre-Dame de Paris",
+        "city": "Paris",
+        "country": "France",
+        "latitude": 48.85305556,
+        "longitude": 2.35
+      }
+    },
+    {
+      "year": 1815,
+      "sig": "major",
+      "title": "Battle of Waterloo",
+      "body": "A coalition of British, Dutch, and Prussian forces under Wellington and Blücher crushes Napoleon's army at Waterloo, ending the Hundred Days and closing out his rule of France for good.",
+      "tags": ["battle"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Battle_of_Waterloo_1815.PNG/330px-Battle_of_Waterloo_1815.PNG",
+      "imageAttribution": "Painting by William Sadler, public domain, via Wikimedia Commons",
+      "imageDescription": "William Sadler's depiction of the Battle of Waterloo, fought in June 1815.",
+      "wikidataId": "Q48314",
+      "location": {
+        "historicalName": "Waterloo",
+        "city": "Waterloo",
+        "country": "Belgium",
+        "latitude": 50.71746944,
+        "longitude": 4.39791111
+      }
+    },
+    {
+      "year": 1852,
+      "sig": "minor",
+      "title": "Second French Empire Proclaimed",
+      "body": "A year after seizing power in a coup, President Louis-Napoléon Bonaparte proclaims himself Emperor Napoleon III, replacing the short-lived Second Republic with an authoritarian empire that lasts until 1870.",
+      "tags": ["founding", "governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Second_French_Empire",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Adolphe_Yvon_-_Portrait_of_Napoleon_III_-_Walters_3795.jpg/330px-Adolphe_Yvon_-_Portrait_of_Napoleon_III_-_Walters_3795.jpg",
+      "imageAttribution": "Painting by Adolphe Yvon, public domain, via Wikimedia Commons",
+      "imageDescription": "A formal portrait of Napoleon III, painted two years before the Franco-Prussian War.",
+      "wikidataId": "Q71092",
+      "location": {
+        "historicalName": "Paris",
+        "city": "Paris",
+        "country": "France",
+        "latitude": 48.8567,
+        "longitude": 2.3522
+      }
+    },
+    {
+      "year": 1870,
+      "sig": "major",
+      "title": "Third Republic Proclaimed",
+      "body": "Word of Napoleon III's capture at Sedan reaches Paris, and republican deputies declare the fall of the Second Empire and the birth of the Third Republic, a government that endures for the next seventy years.",
+      "tags": ["founding", "governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/French_Third_Republic",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/France_Chambre_des_deputes_1871.png/330px-France_Chambre_des_deputes_1871.png",
+      "imageAttribution": "Map by @lankazame, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "The results of the 1871 elections to the new Third Republic's Chamber of Deputies.",
+      "wikidataId": "Q70802",
+      "location": {
+        "historicalName": "Paris",
+        "city": "Paris",
+        "country": "France",
+        "latitude": 48.8567,
+        "longitude": 2.3522
+      }
+    },
+    {
+      "year": 1918,
+      "sig": "major",
+      "title": "Armistice Ends World War I",
+      "body": "Germany signs an armistice with the Allies in a railway carriage in the Compiègne Forest, ending four years of fighting that killed over a million French soldiers and left much of northeastern France devastated.",
+      "tags": ["battle"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Armistice_of_11_November_1918",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Armisticetrain_%28slight_crop%29.jpg/330px-Armisticetrain_%28slight_crop%29.jpg",
+      "imageAttribution": "Photo, photographer unknown, public domain, via Wikimedia Commons",
+      "imageDescription": "The railway carriage in Compiègne Forest where the armistice ending World War I was signed.",
+      "wikidataId": "Q253224",
+      "location": {
+        "historicalName": "Compiègne Forest",
+        "city": "Compiègne",
+        "country": "France",
+        "latitude": 49.4149,
+        "longitude": 2.8231
+      }
+    },
+    {
+      "year": 1940,
+      "sig": "major",
+      "title": "Fall of France",
+      "body": "German forces overrun French and Allied armies in six weeks, forcing France's surrender and splitting the country between a German-occupied north and the collaborationist Vichy regime in the south.",
+      "tags": ["battle", "collapse"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_France",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bundesarchiv_Bild_101I-126-0350-26A%2C_Paris%2C_Einmarsch%2C_Parade_deutscher_Truppen.jpg/330px-Bundesarchiv_Bild_101I-126-0350-26A%2C_Paris%2C_Einmarsch%2C_Parade_deutscher_Truppen.jpg",
+      "imageAttribution": "Photo by Heinz Fremke, CC BY-SA 3.0 (Bundesarchiv), via Wikimedia Commons",
+      "imageDescription": "German troops parade past the Arc de Triomphe after occupying Paris in June 1940.",
+      "wikidataId": "Q151340"
+    },
+    {
+      "year": 1944,
+      "sig": "major",
+      "title": "Liberation of Paris",
+      "body": "Free French and American forces, backed by a citywide uprising, liberate Paris after four years of German occupation, and General de Gaulle walks into the city to a jubilant crowd.",
+      "tags": ["battle"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Liberation_of_Paris",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Crowds_of_French_patriots_line_the_Champs_Elysees-edit2.jpg/330px-Crowds_of_French_patriots_line_the_Champs_Elysees-edit2.jpg",
+      "imageAttribution": "Photo by Jack Downey, US Office of War Information, public domain, via Wikimedia Commons",
+      "imageDescription": "Crowds line the Champs-Élysées to watch Free French tanks pass after the liberation of Paris in August 1944.",
+      "wikidataId": "Q696835",
+      "location": {
+        "historicalName": "Paris",
+        "city": "Paris",
+        "country": "France",
+        "latitude": 48.8567,
+        "longitude": 2.3522
+      }
+    },
+    {
+      "year": 1958,
+      "sig": "major",
+      "title": "Fifth Republic Established",
+      "body": "Amid a constitutional crisis over the Algerian War, Charles de Gaulle returns to power and pushes through a new constitution creating the Fifth Republic, with a strengthened presidency that remains France's system of government today.",
+      "tags": ["founding", "governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/French_Fifth_Republic",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/De_Gaulle_1961_%28cropped%29.jpg",
+      "imageAttribution": "Photo by Egon Steiner, CC BY-SA 3.0 (Bundesarchiv), via Wikimedia Commons",
+      "imageDescription": "Charles de Gaulle arriving for a state visit in 1961, three years after founding the Fifth Republic.",
+      "wikidataId": "Q200686",
+      "location": {
+        "historicalName": "Paris",
+        "city": "Paris",
+        "country": "France",
+        "latitude": 48.8567,
+        "longitude": 2.3522
+      }
+    },
+    {
+      "year": 1962,
+      "sig": "major",
+      "title": "Évian Accords End the Algerian War",
+      "body": "French and Algerian nationalist negotiators sign the Évian Accords at the Alpine resort town of Évian-les-Bains, agreeing to a cease-fire and a referendum on independence that ends eight years of war and closes the last major chapter of French colonial rule in North Africa.",
+      "tags": ["governance", "rebellion"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/%C3%89vian_Accords",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/%C3%89vian_Accords.jpg/330px-%C3%89vian_Accords.jpg",
+      "imageAttribution": "Photo by UtCon Collection, public domain, via Wikimedia Commons",
+      "imageDescription": "The FLN delegation that negotiated the 1962 Évian Accords ending the Algerian War.",
+      "wikidataId": "Q1471139",
+      "location": {
+        "historicalName": "Évian-les-Bains",
+        "city": "Évian-les-Bains",
+        "country": "France",
+        "latitude": 46.3833,
+        "longitude": 6.5833
+      }
+    },
+    {
+      "year": 1968,
+      "sig": "major",
+      "title": "May 1968 Protests Paralyze France",
+      "body": "Student protests over university reform escalate into the largest general strike in French history, paralyzing the country for weeks and forcing de Gaulle's government into major concessions on wages and workers' rights.",
+      "tags": ["rebellion"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/May_68",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/11-12.06.68_Mai_68._Nuit_d%27%C3%A9meutes._Manif._Barricades.D%C3%A9g%C3%A2ts_%281968%29_-_53Fi1037.jpg/330px-11-12.06.68_Mai_68._Nuit_d%27%C3%A9meutes._Manif._Barricades.D%C3%A9g%C3%A2ts_%281968%29_-_53Fi1037.jpg",
+      "imageAttribution": "Photo by André Cros, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "An overhead view of protesters gathered in a city square during the May 1968 unrest.",
+      "wikidataId": "Q6743",
+      "location": {
+        "historicalName": "Paris",
+        "city": "Paris",
+        "country": "France",
+        "latitude": 48.8567,
+        "longitude": 2.3522
+      }
+    },
+    {
+      "year": 1969,
+      "sig": "major",
+      "title": "De Gaulle Resigns After Referendum Defeat",
+      "body": "Voters narrowly reject Charles de Gaulle's referendum on regional and Senate reform, and he resigns the presidency the next day, ending eleven years in power and closing the founding chapter of the Fifth Republic.",
+      "tags": ["governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/1969_French_constitutional_referendum",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Referendum_France_1969.svg/330px-Referendum_France_1969.svg.png",
+      "imageAttribution": "Map by Petrovic-Njegos, Stefan4, and Master Uegly, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "Results of the 1969 French constitutional referendum by department.",
+      "wikidataId": "Q2327782"
+    },
+    {
+      "year": 1981,
+      "sig": "major",
+      "title": "Mitterrand Elected President",
+      "body": "François Mitterrand defeats incumbent Valéry Giscard d'Estaing to become the Fifth Republic's first Socialist president, and his government goes on to abolish the death penalty and nationalize major banks and industries.",
+      "tags": ["governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/1981_French_presidential_election",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/President_Fran%C3%A7ois_Mitterrand_in_1983_%28cropped%29.jpg/330px-President_Fran%C3%A7ois_Mitterrand_in_1983_%28cropped%29.jpg",
+      "imageAttribution": "Photo by Comet Photo AG (Zürich), CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "François Mitterrand during an official state visit to Switzerland in 1983.",
+      "wikidataId": "Q930869"
+    },
+    {
+      "year": 1992,
+      "sig": "major",
+      "title": "France Ratifies the Maastricht Treaty",
+      "body": "French voters narrowly approve the Maastricht Treaty in a referendum, committing France to the newly created European Union and setting the country on the path toward a single European currency.",
+      "tags": ["governance", "founding"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/1992_French_Maastricht_Treaty_referendum",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/GER_%E2%80%94_BY_%E2%80%94_Regensburg_-_Donaumarkt_1_%28Museum_der_Bayerischen_Geschichte%3B_Vertrag_von_Maastricht%29_%28cropped%29.JPG/330px-GER_%E2%80%94_BY_%E2%80%94_Regensburg_-_Donaumarkt_1_%28Museum_der_Bayerischen_Geschichte%3B_Vertrag_von_Maastricht%29_%28cropped%29.JPG",
+      "imageAttribution": "Photo by User:Mateus2019, CC BY 2.0 de, via Wikimedia Commons",
+      "imageDescription": "A copy of the Maastricht Treaty on display in a German history museum.",
+      "wikidataId": "Q2319164"
+    },
+    {
+      "year": 2002,
+      "sig": "major",
+      "title": "Euro Replaces the French Franc",
+      "body": "France retires the franc, a currency with roots stretching back centuries, and adopts the euro as its sole legal tender alongside the rest of the eurozone.",
+      "tags": ["governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Euro",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Euro_coins_%2816%29.jpg/330px-Euro_coins_%2816%29.jpg",
+      "imageAttribution": "Photo by Lukasz Kobus, European Commission, CC BY 4.0, via Wikimedia Commons",
+      "imageDescription": "A set of euro coins, the currency France adopted in 2002.",
+      "wikidataId": "Q4916"
+    },
+    {
+      "year": 2015,
+      "sig": "major",
+      "title": "November 2015 Paris Attacks",
+      "body": "Coordinated Islamist gunmen and suicide bombers attack the Bataclan theatre, café terraces, and the Stade de France in a single night, killing 130 people in France's deadliest attack since World War II and prompting a two-year state of emergency.",
+      "tags": ["governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/November_2015_Paris_attacks",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/13_November_2015_Paris_attacks_-_montage.jpg/330px-13_November_2015_Paris_attacks_-_montage.jpg",
+      "imageAttribution": "Photo montage by Eric Salard, Chris93, Maya-Anaïs Yataghène, Mstyslav Chernov, and Fugitron, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "A montage of scenes from the November 2015 Paris and Saint-Denis attacks, including memorials and the affected sites.",
+      "wikidataId": "Q21479779",
+      "location": {
+        "historicalName": "Paris",
+        "city": "Paris",
+        "country": "France",
+        "latitude": 48.8567,
+        "longitude": 2.3522
+      }
+    },
+    {
+      "year": 2017,
+      "sig": "major",
+      "title": "Macron Elected, Breaking the Traditional Party System",
+      "body": "Emmanuel Macron, running as a political outsider with his year-old En Marche movement, defeats far-right leader Marine Le Pen to become France's youngest president and ends the postwar dominance of the traditional Socialist and Republican parties.",
+      "tags": ["governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/2017_French_presidential_election",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/%C3%89lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2017_T1_carte_d%C3%A9partements_%26_r%C3%A9gions.svg/330px-%C3%89lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2017_T1_carte_d%C3%A9partements_%26_r%C3%A9gions.svg.png",
+      "imageAttribution": "Map by Jules Rohault, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "Results by department and region from the first round of the 2017 French presidential election.",
+      "wikidataId": "Q7020999"
+    },
+    {
+      "year": 2019,
+      "sig": "major",
+      "title": "Notre-Dame de Paris Catches Fire",
+      "body": "A fire tears through the roof and spire of Notre-Dame de Paris during restoration work, collapsing the medieval timber frame and prompting a five-year, globally funded reconstruction that reopens the cathedral in December 2024.",
+      "tags": ["architecture"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Notre-Dame_fire",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Incendie_Notre_Dame_de_Paris.jpg/330px-Incendie_Notre_Dame_de_Paris.jpg",
+      "imageAttribution": "Photo by LeLaisserPasserA38, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "Notre-Dame de Paris ablaze, photographed from Square René-Viviani on the evening of 15 April 2019.",
+      "wikidataId": "Q63167656",
+      "location": {
+        "historicalName": "Notre-Dame de Paris",
+        "city": "Paris",
+        "country": "France",
+        "latitude": 48.85305556,
+        "longitude": 2.35
+      }
+    }
+  ]
+}

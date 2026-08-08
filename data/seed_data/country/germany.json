@@ -1,0 +1,759 @@
+{
+  "id": "country-germany",
+  "name": "Germany",
+  "colorIndex": 2,
+  "start": 962,
+  "end": 2026,
+  "summary": "Otto I's coronation as Holy Roman Emperor in 962 marks the emergence of a distinct East Frankish/German kingdom, which spends the next eight centuries as a loose patchwork of imperial states reshaped by the Reformation, the Thirty Years' War, and the rise of Prussia. Bismarck unifies the German states into an empire in 1871, but the 20th century brings two world wars, the collapse of the Weimar Republic into Nazi dictatorship and the Holocaust, and a postwar split into a Western and Soviet-aligned state during the Cold War, before reunification in 1990 restores a single German nation.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/History_of_Germany",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Brandenburger_Tor_abends.jpg/330px-Brandenburger_Tor_abends.jpg",
+  "imageAttribution": "Photo by Thomas Wolf (www.foto-tw.de), CC BY-SA 3.0, via Wikimedia Commons",
+  "imageDescription": "The Brandenburg Gate in Berlin, one of Germany's most recognizable landmarks.",
+  "wikidataId": "Q122131",
+  "events": [
+    {
+      "year": 962,
+      "sig": "major",
+      "title": "Otto I Crowned Holy Roman Emperor",
+      "body": "Pope John XII crowns the East Frankish king Otto I as Holy Roman Emperor in Rome, establishing the imperial title that binds the German kingdom to Rome for the next eight centuries.",
+      "tags": ["founding"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Otto_the_Great",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Siegel_Otto_I_Posse.JPG/330px-Siegel_Otto_I_Posse.JPG",
+      "imageAttribution": "Illustration by Otto Posse, Public domain, via Wikimedia Commons",
+      "imageDescription": "The seal of Otto I, from a catalog of the seals of German emperors and kings.",
+      "wikidataId": "Q43915",
+      "location": {
+        "historicalName": "Rome",
+        "city": "Rome",
+        "country": "Italy",
+        "latitude": 41.9028,
+        "longitude": 12.4964
+      }
+    },
+    {
+      "year": 1077,
+      "sig": "minor",
+      "title": "Henry IV's Walk to Canossa",
+      "body": "Holy Roman Emperor Henry IV travels to Canossa Castle and stands in penance for three days to win Pope Gregory VII's forgiveness during the Investiture Controversy, a dramatic low point in the long power struggle between German emperors and the papacy.",
+      "tags": ["religion", "governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Road_to_Canossa",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Schwoiser_Heinrich_vor_Canossa.jpg/330px-Schwoiser_Heinrich_vor_Canossa.jpg",
+      "imageAttribution": "Painting by Eduard Schwoiser, Public domain, via Wikimedia Commons",
+      "imageDescription": "A 19th-century painting depicting Henry IV's penance before Canossa Castle.",
+      "wikidataId": "Q325656",
+      "location": {
+        "historicalName": "Canossa",
+        "city": "Canossa",
+        "country": "Italy",
+        "latitude": 44.58,
+        "longitude": 10.46
+      }
+    },
+    {
+      "year": 1356,
+      "sig": "minor",
+      "title": "Golden Bull of 1356 Issued",
+      "body": "Emperor Charles IV issues the Golden Bull, a decree that formalizes how the Holy Roman Emperor is elected by seven prince-electors and fixes the empire's constitutional structure for the next four centuries.",
+      "tags": ["governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Golden_Bull_of_1356",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Goldene_Bulle_Nahaufnahme.jpg/330px-Goldene_Bulle_Nahaufnahme.jpg",
+      "imageAttribution": "Document photo, Public domain, via Wikimedia Commons",
+      "imageDescription": "A close-up of the Trier copy of the Golden Bull, held in the Main State Archive of Stuttgart.",
+      "wikidataId": "Q567601",
+      "location": {
+        "historicalName": "Nuremberg",
+        "city": "Nuremberg",
+        "country": "Germany",
+        "latitude": 49.4521,
+        "longitude": 11.0767
+      }
+    },
+    {
+      "year": 1450,
+      "sig": "major",
+      "title": "Gutenberg Invents the Printing Press",
+      "body": "Johannes Gutenberg develops the movable-type printing press in Mainz, an invention that transforms the spread of knowledge and later helps fuel the Reformation by making texts like Luther's writings cheap and easy to distribute.",
+      "tags": ["science"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Johannes_Gutenberg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mainz_Gutenbergdenkmal_2016_%28cropped%29.jpg/330px-Mainz_Gutenbergdenkmal_2016_%28cropped%29.jpg",
+      "imageAttribution": "Photo by Kenneth C. Zirkel, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "The Gutenberg Monument in Mainz, Germany.",
+      "wikidataId": "Q8958",
+      "location": {
+        "historicalName": "Mainz",
+        "city": "Mainz",
+        "country": "Germany",
+        "latitude": 50.0,
+        "longitude": 8.2711
+      }
+    },
+    {
+      "year": 1517,
+      "sig": "major",
+      "title": "Luther Posts the Ninety-Five Theses",
+      "body": "Martin Luther, a theology professor at the University of Wittenberg, publishes his Ninety-Five Theses attacking the sale of indulgences, sparking the Protestant Reformation that splits German Christendom for generations.",
+      "tags": ["religion"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ninety-five_Theses",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Luther_95_Thesen.png/330px-Luther_95_Thesen.png",
+      "imageAttribution": "Document image, Public domain, via Wikimedia Commons",
+      "imageDescription": "A printed copy of Martin Luther's Ninety-Five Theses.",
+      "wikidataId": "Q157506",
+      "location": {
+        "historicalName": "Wittenberg",
+        "city": "Lutherstadt Wittenberg",
+        "country": "Germany",
+        "latitude": 51.8671,
+        "longitude": 12.6484
+      }
+    },
+    {
+      "year": 1555,
+      "sig": "minor",
+      "title": "Peace of Augsburg",
+      "body": "Emperor Charles V and the Schmalkaldic League sign the Peace of Augsburg, letting each German prince determine whether their territory follows Catholicism or Lutheranism and temporarily halting decades of religious conflict.",
+      "tags": ["religion", "governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Peace_of_Augsburg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Druck_Augsburger_Reichsfrieden.jpg/330px-Druck_Augsburger_Reichsfrieden.jpg",
+      "imageAttribution": "Document photo, Public domain, via Wikimedia Commons",
+      "imageDescription": "The title page of a 1555 print of the Augsburg religious peace settlement.",
+      "wikidataId": "Q154577",
+      "location": {
+        "historicalName": "Augsburg",
+        "city": "Augsburg",
+        "country": "Germany",
+        "latitude": 48.37,
+        "longitude": 10.9
+      }
+    },
+    {
+      "year": 1618,
+      "sig": "major",
+      "title": "Thirty Years' War Begins",
+      "body": "A revolt by Bohemian Protestants against Habsburg rule ignites the Thirty Years' War, a continent-spanning conflict fought largely on German soil that kills an estimated 4.5 to 8 million people and leaves parts of the German lands with population losses over 50 percent.",
+      "tags": ["battle"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Thirty_Years%27_War",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Carl_Friedrich_Lessing_-_The_Siege_%28Defense_of_a_Church_Courtyard_During_the_Thirty_Years%E2%80%99_War%29_-_Google_Art_Project.jpg/330px-Carl_Friedrich_Lessing_-_The_Siege_%28Defense_of_a_Church_Courtyard_During_the_Thirty_Years%E2%80%99_War%29_-_Google_Art_Project.jpg",
+      "imageAttribution": "Painting by Carl Friedrich Lessing, Public domain, via Wikimedia Commons",
+      "imageDescription": "A depiction of a church courtyard defended during the Thirty Years' War.",
+      "wikidataId": "Q2487"
+    },
+    {
+      "year": 1648,
+      "sig": "major",
+      "title": "Peace of Westphalia Ends the Thirty Years' War",
+      "body": "The treaties of Münster and Osnabrück end the Thirty Years' War and grant the empire's hundreds of individual states effective sovereignty over their own religious and political affairs, permanently weakening central imperial authority.",
+      "tags": ["governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Peace_of_Westphalia",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/M%C3%BCnster%2C_Historisches_Rathaus_--_2014_--_6855.jpg/330px-M%C3%BCnster%2C_Historisches_Rathaus_--_2014_--_6855.jpg",
+      "imageAttribution": "Photo by Dietmar Rabich, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "The historic city hall in Münster, where the peace negotiations concluded.",
+      "wikidataId": "Q150995",
+      "location": {
+        "historicalName": "Münster",
+        "city": "Münster",
+        "country": "Germany",
+        "latitude": 51.96,
+        "longitude": 7.63
+      }
+    },
+    {
+      "year": 1740,
+      "sig": "major",
+      "title": "Frederick the Great Ascends the Prussian Throne",
+      "body": "Frederick II becomes King of Prussia and transforms it through military reform and territorial conquest into a European great power, laying the groundwork for Prussia's later leadership of German unification.",
+      "tags": ["governance", "battle"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Frederick_the_Great",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Friedrich_der_Gro%C3%9Fe_-_Johann_Georg_Ziesenis_-_Google_Cultural_Institute_%28cropped_2%29.jpg/330px-Friedrich_der_Gro%C3%9Fe_-_Johann_Georg_Ziesenis_-_Google_Cultural_Institute_%28cropped_2%29.jpg",
+      "imageAttribution": "Painting by Johann Georg Ziesenis, Public domain, via Wikimedia Commons",
+      "imageDescription": "Portrait of Frederick II of Prussia, painted in 1763.",
+      "wikidataId": "Q33550",
+      "location": {
+        "historicalName": "Berlin",
+        "city": "Berlin",
+        "country": "Germany",
+        "latitude": 52.52,
+        "longitude": 13.41
+      }
+    },
+    {
+      "year": 1806,
+      "sig": "major",
+      "title": "Holy Roman Empire Dissolved",
+      "body": "Facing pressure from Napoleon, Emperor Francis II abdicates the imperial throne and dissolves the Holy Roman Empire, ending an institution that had loosely governed the German lands for over 800 years.",
+      "tags": ["collapse"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dissolution_of_the_Holy_Roman_Empire",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Map_of_Holy_Roman_Empire_1789.svg/330px-Map_of_Holy_Roman_Empire_1789.svg.png",
+      "imageAttribution": "Map by Alphathon, CC0 Public Domain, via Wikimedia Commons",
+      "imageDescription": "A map of the Holy Roman Empire's territories in 1789.",
+      "wikidataId": "Q19902208",
+      "location": {
+        "historicalName": "Vienna",
+        "city": "Vienna",
+        "country": "Austria",
+        "latitude": 48.21,
+        "longitude": 16.37
+      }
+    },
+    {
+      "year": 1815,
+      "sig": "major",
+      "title": "German Confederation Formed",
+      "body": "The Congress of Vienna creates the German Confederation, a loose association of 39 sovereign German states replacing the defunct Holy Roman Empire, with Austria and Prussia as its dominant powers.",
+      "tags": ["founding", "governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/German_Confederation",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/German_Confederation_%281815%29.svg/330px-German_Confederation_%281815%29.svg.png",
+      "imageAttribution": "Map by TRAJAN 117, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A map of the German Confederation's member states in 1815.",
+      "wikidataId": "Q151624",
+      "location": {
+        "historicalName": "Vienna",
+        "city": "Vienna",
+        "country": "Austria",
+        "latitude": 48.21,
+        "longitude": 16.37
+      }
+    },
+    {
+      "year": 1834,
+      "sig": "minor",
+      "title": "Zollverein Customs Union Established",
+      "body": "Prussia leads the formation of the Zollverein, a customs union that removes tariff barriers between most German states and knits their economies together decades before political unification follows.",
+      "tags": ["governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Zollverein",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Map-GermanConfederation.svg/330px-Map-GermanConfederation.svg.png",
+      "imageAttribution": "Map by 52 Pickup, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A map of the German Confederation states around 1820.",
+      "wikidataId": "Q155707"
+    },
+    {
+      "year": 1848,
+      "sig": "major",
+      "title": "Revolutions of 1848 Sweep the German States",
+      "body": "Liberal and nationalist uprisings spread across the German states demanding constitutional government and unification; the Frankfurt Parliament drafts a constitution for a unified Germany, but the revolution ultimately fails as monarchs reassert control.",
+      "tags": ["rebellion", "governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/German_revolutions_of_1848%E2%80%931849",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Ereignisblatt_aus_den_revolution%C3%A4ren_M%C3%A4rztagen_18.-19._M%C3%A4rz_1848_mit_einer_Barrikadenszene_aus_der_Breiten_Strasse%2C_Berlin_01.jpg/330px-Ereignisblatt_aus_den_revolution%C3%A4ren_M%C3%A4rztagen_18.-19._M%C3%A4rz_1848_mit_einer_Barrikadenszene_aus_der_Breiten_Strasse%2C_Berlin_01.jpg",
+      "imageAttribution": "Illustration, Public domain, via Wikimedia Commons",
+      "imageDescription": "A contemporary print depicting a barricade clash during the March 1848 uprising in Berlin.",
+      "wikidataId": "Q3699",
+      "location": {
+        "historicalName": "Berlin",
+        "city": "Berlin",
+        "country": "Germany",
+        "latitude": 52.52,
+        "longitude": 13.41
+      }
+    },
+    {
+      "year": 1866,
+      "sig": "major",
+      "title": "Austro-Prussian War",
+      "body": "Prussia defeats Austria at the decisive Battle of Königgrätz, ending Austrian influence over the German states and clearing the way for Prussia to unify Germany on its own terms.",
+      "tags": ["battle"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Austro-Prussian_War",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Schlacht-bei-koeniggraetz-von-georg-bleibtreu.jpg/330px-Schlacht-bei-koeniggraetz-von-georg-bleibtreu.jpg",
+      "imageAttribution": "Painting by Georg Bleibtreu, Public domain, via Wikimedia Commons",
+      "imageDescription": "A painting of the Battle of Königgrätz, fought on 3 July 1866.",
+      "wikidataId": "Q153650",
+      "location": {
+        "historicalName": "Königgrätz",
+        "city": "Hradec Králové",
+        "country": "Czech Republic",
+        "latitude": 50.2092,
+        "longitude": 15.8322
+      }
+    },
+    {
+      "year": 1871,
+      "sig": "major",
+      "title": "German Empire Proclaimed at Versailles",
+      "body": "Following Prussia's victory in the Franco-Prussian War, King Wilhelm I of Prussia is proclaimed German Emperor in the Hall of Mirrors at Versailles, completing German unification under Prussian leadership and Otto von Bismarck's direction.",
+      "tags": ["founding"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Proclamation_of_the_German_Empire",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/A_v_Werner_-_Kaiserproklamation_am_18_Januar_1871_%283._Fassung_1885%29.jpg/330px-A_v_Werner_-_Kaiserproklamation_am_18_Januar_1871_%283._Fassung_1885%29.jpg",
+      "imageAttribution": "Painting by Anton von Werner, Public domain, via Wikimedia Commons",
+      "imageDescription": "The proclamation of Wilhelm I as German Emperor at the Palace of Versailles.",
+      "wikidataId": "Q10354157",
+      "location": {
+        "historicalName": "Versailles",
+        "city": "Versailles",
+        "country": "France",
+        "latitude": 48.8047,
+        "longitude": 2.1203
+      }
+    },
+    {
+      "year": 1880,
+      "sig": "minor",
+      "title": "Cologne Cathedral Completed",
+      "body": "Cologne Cathedral's construction, begun in 1248 and abandoned for centuries, is finally finished with Prussian state support, and its completion is celebrated as a national event symbolizing the new German Empire's cultural ambitions.",
+      "tags": ["architecture"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cologne_Cathedral",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/K%C3%B6lner_Dom_-_Westfassade_2022_ohne_Ger%C3%BCst-0968_b.jpg/330px-K%C3%B6lner_Dom_-_Westfassade_2022_ohne_Ger%C3%BCst-0968_b.jpg",
+      "imageAttribution": "Photo by Raimond Spekking, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "The western façade of Cologne Cathedral.",
+      "wikidataId": "Q4176",
+      "location": {
+        "historicalName": "Cologne",
+        "city": "Cologne",
+        "country": "Germany",
+        "latitude": 50.9364,
+        "longitude": 6.9528
+      }
+    },
+    {
+      "year": 1883,
+      "sig": "minor",
+      "title": "Bismarck Enacts Social Insurance Laws",
+      "body": "Chancellor Otto von Bismarck pushes through Europe's first compulsory health insurance law, followed by accident and old-age insurance in the following years, laying the foundation of the modern welfare state partly to undercut support for socialism.",
+      "tags": ["governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Otto_von_Bismarck",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Otto_von_Bismarck_1885_%28cropped%29.jpg/330px-Otto_von_Bismarck_1885_%28cropped%29.jpg",
+      "imageAttribution": "Portrait, Public domain, via Wikimedia Commons",
+      "imageDescription": "Portrait of Chancellor Otto von Bismarck, 1885.",
+      "wikidataId": "Q8442",
+      "location": {
+        "historicalName": "Berlin",
+        "city": "Berlin",
+        "country": "Germany",
+        "latitude": 52.52,
+        "longitude": 13.41
+      }
+    },
+    {
+      "year": 1886,
+      "sig": "major",
+      "title": "Carl Benz Patents the Automobile",
+      "body": "Mannheim engineer Carl Benz patents the Benz Patent-Motorwagen, widely regarded as the first practical automobile, launching Germany's globally influential automotive industry.",
+      "tags": ["science"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Carl_Benz",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/1888_Benz_Patent-Motorwagen_Model_2.JPG",
+      "imageAttribution": "Photo by Bahnfrend, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "A Benz Patent-Motorwagen from 1888, on display at the Automuseum Dr. Carl Benz in Ladenburg.",
+      "wikidataId": "Q40224",
+      "location": {
+        "historicalName": "Mannheim",
+        "city": "Mannheim",
+        "country": "Germany",
+        "latitude": 49.4878,
+        "longitude": 8.4661
+      }
+    },
+    {
+      "year": 1914,
+      "sig": "major",
+      "title": "World War I Begins",
+      "body": "Germany declares war on Russia and France and invades Belgium under the Schlieffen Plan, plunging the continent into a war that kills roughly two million German soldiers and reshapes the country's political future.",
+      "tags": ["battle"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/World_War_I",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Bataille_de_Verdun_1916.jpg/330px-Bataille_de_Verdun_1916.jpg",
+      "imageAttribution": "Photo, Public domain, via Wikimedia Commons",
+      "imageDescription": "French soldiers attacking from their trench during the Battle of Verdun, 1916.",
+      "wikidataId": "Q361"
+    },
+    {
+      "year": 1918,
+      "sig": "major",
+      "title": "German Revolution Ends the Kaiserreich",
+      "body": "Sailors' mutinies and worker strikes spread into a nationwide revolution; Kaiser Wilhelm II abdicates and flees to the Netherlands as Philipp Scheidemann proclaims a German republic from the Reichstag, ending the monarchy just before the World War I armistice takes effect.",
+      "tags": ["collapse", "rebellion"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/German_revolution_of_1918%E2%80%931919",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Proclamation_of_Weimar_Republic_by_Philipp_Scheidemann%2C_9_November_1918_%28cropped%29.jpg/330px-Proclamation_of_Weimar_Republic_by_Philipp_Scheidemann%2C_9_November_1918_%28cropped%29.jpg",
+      "imageAttribution": "Photo, Public domain, via Wikimedia Commons",
+      "imageDescription": "Philipp Scheidemann proclaims the German republic from a Reichstag window, 9 November 1918.",
+      "wikidataId": "Q170306",
+      "location": {
+        "historicalName": "Berlin",
+        "city": "Berlin",
+        "country": "Germany",
+        "latitude": 52.52,
+        "longitude": 13.41
+      }
+    },
+    {
+      "year": 1919,
+      "sig": "minor",
+      "title": "Bauhaus School Founded",
+      "body": "Architect Walter Gropius founds the Bauhaus in Weimar, merging fine art, craft, and design in a school whose modernist principles go on to influence architecture and design worldwide.",
+      "tags": ["art", "architecture"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bauhaus",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/6265_Dessau.JPG/330px-6265_Dessau.JPG",
+      "imageAttribution": "Photo by Spyrosdrakopoulos, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "The Bauhaus school building in Dessau, to which the school relocated in 1925.",
+      "wikidataId": "Q124354",
+      "location": {
+        "historicalName": "Weimar",
+        "city": "Weimar",
+        "country": "Germany",
+        "latitude": 50.9811,
+        "longitude": 11.3294
+      }
+    },
+    {
+      "year": 1919,
+      "sig": "major",
+      "title": "Weimar Constitution Adopted",
+      "body": "The National Assembly meeting in Weimar adopts a new constitution establishing Germany's first democratic republic, with a president, an elected Reichstag, and broad civil liberties, though its proportional representation system and emergency powers later prove fragile.",
+      "tags": ["founding", "governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Weimar_Constitution",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Weimar_Constitution.jpg/330px-Weimar_Constitution.jpg",
+      "imageAttribution": "Document photo, Public domain, via Wikimedia Commons",
+      "imageDescription": "A printed booklet of the 1919 Weimar Constitution.",
+      "wikidataId": "Q156003",
+      "location": {
+        "historicalName": "Weimar",
+        "city": "Weimar",
+        "country": "Germany",
+        "latitude": 50.9811,
+        "longitude": 11.3294
+      }
+    },
+    {
+      "year": 1923,
+      "sig": "major",
+      "title": "Hyperinflation Devastates the German Economy",
+      "body": "The German mark collapses into hyperinflation as the Weimar government prints money to cover war reparations and the occupation of the Ruhr, wiping out middle-class savings and badly damaging public faith in the young republic.",
+      "tags": ["governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bundesarchiv_Bild_183-R1215-506%2C_Berlin%2C_Reichsbank%2C_Geldauflieferungsstelle.jpg/330px-Bundesarchiv_Bild_183-R1215-506%2C_Berlin%2C_Reichsbank%2C_Geldauflieferungsstelle.jpg",
+      "imageAttribution": "Photo, Bundesarchiv, CC BY-SA 3.0 DE, via Wikimedia Commons",
+      "imageDescription": "A Reichsbank currency delivery station in Berlin during the 1923 hyperinflation.",
+      "wikidataId": "Q695052",
+      "location": {
+        "historicalName": "Berlin",
+        "city": "Berlin",
+        "country": "Germany",
+        "latitude": 52.52,
+        "longitude": 13.41
+      }
+    },
+    {
+      "year": 1933,
+      "sig": "major",
+      "title": "Hitler Appointed Chancellor",
+      "body": "President Paul von Hindenburg appoints Adolf Hitler as Chancellor of Germany, giving the Nazi Party control of the government it uses within weeks to dismantle German democracy.",
+      "tags": ["governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Adolf_Hitler%27s_rise_to_power",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Bundesarchiv_Bild_183-1987-0703-506%2C_Adolf_Hitler_vor_Rundfunk-Mikrofon.jpg/330px-Bundesarchiv_Bild_183-1987-0703-506%2C_Adolf_Hitler_vor_Rundfunk-Mikrofon.jpg",
+      "imageAttribution": "Photo, Bundesarchiv, CC BY-SA 3.0 DE, via Wikimedia Commons",
+      "imageDescription": "Hitler addresses the nation by radio on 1 February 1933, two days after being appointed Chancellor.",
+      "wikidataId": "Q4684105",
+      "location": {
+        "historicalName": "Berlin",
+        "city": "Berlin",
+        "country": "Germany",
+        "latitude": 52.52,
+        "longitude": 13.41
+      }
+    },
+    {
+      "year": 1933,
+      "sig": "major",
+      "title": "Enabling Act Passed",
+      "body": "The Reichstag passes the Enabling Act, granting Hitler's cabinet the power to enact laws without parliamentary approval and effectively ending Weimar democracy just weeks after his appointment.",
+      "tags": ["governance", "collapse"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Enabling_Act_of_1933",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Bundesarchiv_Bild_102-14439%2C_Rede_Adolf_Hitlers_zum_Erm%C3%A4chtigungsgesetz.jpg/330px-Bundesarchiv_Bild_102-14439%2C_Rede_Adolf_Hitlers_zum_Erm%C3%A4chtigungsgesetz.jpg",
+      "imageAttribution": "Photo by Georg Pahl, Bundesarchiv, CC BY-SA 3.0 DE, via Wikimedia Commons",
+      "imageDescription": "Hitler addresses the Reichstag at the Kroll Opera House in support of the Enabling Act, 23 March 1933.",
+      "wikidataId": "Q310218",
+      "location": {
+        "historicalName": "Berlin",
+        "city": "Berlin",
+        "country": "Germany",
+        "latitude": 52.52,
+        "longitude": 13.41
+      }
+    },
+    {
+      "year": 1935,
+      "sig": "major",
+      "title": "Nuremberg Laws Enacted",
+      "body": "The Nazi regime enacts the Nuremberg Laws, stripping German Jews of citizenship and criminalizing marriage or sexual relations between Jews and non-Jews, formalizing the legal persecution that precedes the Holocaust.",
+      "tags": ["governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nuremberg_Laws",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/RGBL_I_1935_S_1145.jpg/330px-RGBL_I_1935_S_1145.jpg",
+      "imageAttribution": "Document photo, Public domain, via Wikimedia Commons",
+      "imageDescription": "The Reich Law Gazette page publishing the Nuremberg Laws, September 1935.",
+      "wikidataId": "Q27906",
+      "location": {
+        "historicalName": "Nuremberg",
+        "city": "Nuremberg",
+        "country": "Germany",
+        "latitude": 49.4521,
+        "longitude": 11.0767
+      }
+    },
+    {
+      "year": 1938,
+      "sig": "major",
+      "title": "Kristallnacht Pogrom",
+      "body": "Nazi paramilitaries and civilians attack Jewish synagogues, homes, and businesses across Germany and Austria over two nights, killing dozens and marking a decisive escalation from legal persecution toward organized violence against Jews.",
+      "tags": ["religion"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kristallnacht",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Interior_view_of_the_destroyed_Fasanenstrasse_Synagogue%2C_Berlin.jpg/330px-Interior_view_of_the_destroyed_Fasanenstrasse_Synagogue%2C_Berlin.jpg",
+      "imageAttribution": "Photo, Public domain, via Wikimedia Commons",
+      "imageDescription": "The gutted interior of the Fasanenstrasse Synagogue in Berlin after Kristallnacht.",
+      "wikidataId": "Q36756"
+    },
+    {
+      "year": 1939,
+      "sig": "major",
+      "title": "Invasion of Poland Starts World War II",
+      "body": "Germany invades Poland without a declaration of war, prompting Britain and France to declare war on Germany two days later and beginning the Second World War in Europe.",
+      "tags": ["battle"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Invasion_of_Poland",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Battle_of_Poland.png/330px-Battle_of_Poland.png",
+      "imageAttribution": "Photo montage by Ai6z83xl3g, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A composite of photographs documenting the September 1939 invasion of Poland.",
+      "wikidataId": "Q150812",
+      "location": {
+        "historicalName": "Westerplatte",
+        "city": "Gdańsk",
+        "country": "Poland",
+        "latitude": 54.4075,
+        "longitude": 18.6714
+      }
+    },
+    {
+      "year": 1942,
+      "sig": "major",
+      "title": "Wannsee Conference Plans the Holocaust",
+      "body": "Senior Nazi officials meet at a villa in Wannsee to coordinate the logistics of the 'Final Solution,' the systematic deportation and murder of Europe's Jewish population, which by war's end kills approximately six million Jews.",
+      "tags": ["governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Wannsee_Conference",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Haus_der_Wannsee-Konferenz_02-2014.jpg/330px-Haus_der_Wannsee-Konferenz_02-2014.jpg",
+      "imageAttribution": "Photo by A.Savin, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "The villa in Berlin-Wannsee where the January 1942 conference was held.",
+      "wikidataId": "Q152120",
+      "location": {
+        "historicalName": "Wannsee",
+        "city": "Berlin",
+        "country": "Germany",
+        "latitude": 52.52,
+        "longitude": 13.41
+      }
+    },
+    {
+      "year": 1945,
+      "sig": "major",
+      "title": "Germany Surrenders, Ending World War II in Europe",
+      "body": "Field Marshal Wilhelm Keitel signs Germany's unconditional surrender in Berlin, ending the Second World War in Europe after a conflict that kills tens of millions and leaves the country occupied and divided among the Allied powers.",
+      "tags": ["collapse", "battle"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/German_Instrument_of_Surrender",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Field_Marshal_Keitel_signs_German_surrender_terms_in_Berlin_8_May_1945_-_Restoration.jpg/330px-Field_Marshal_Keitel_signs_German_surrender_terms_in_Berlin_8_May_1945_-_Restoration.jpg",
+      "imageAttribution": "Photo, National Archives, restored by Adam Cuerden, Public domain, via Wikimedia Commons",
+      "imageDescription": "Field Marshal Wilhelm Keitel signs Germany's unconditional surrender in Berlin-Karlshorst, 8 May 1945.",
+      "wikidataId": "Q700983",
+      "location": {
+        "historicalName": "Berlin-Karlshorst",
+        "city": "Berlin",
+        "country": "Germany",
+        "latitude": 52.52,
+        "longitude": 13.41
+      }
+    },
+    {
+      "year": 1945,
+      "sig": "major",
+      "title": "Potsdam Conference Divides Germany",
+      "body": "Allied leaders Truman, Stalin, and Churchill (succeeded mid-conference by Attlee) meet at Potsdam to plan postwar Germany, dividing it into four occupation zones and setting the stage for the country's Cold War split.",
+      "tags": ["governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Potsdam_Conference",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Attlee%2C_Truman_and_Stalin_at_Potsdam.jpg/330px-Attlee%2C_Truman_and_Stalin_at_Potsdam.jpg",
+      "imageAttribution": "Photo, US Department of Energy, Public domain, via Wikimedia Commons",
+      "imageDescription": "Allied leaders at the Potsdam Conference, July 1945.",
+      "wikidataId": "Q151187",
+      "location": {
+        "historicalName": "Potsdam",
+        "city": "Potsdam",
+        "country": "Germany",
+        "latitude": 52.4006,
+        "longitude": 13.0592
+      }
+    },
+    {
+      "year": 1948,
+      "sig": "major",
+      "title": "Berlin Blockade and Airlift",
+      "body": "The Soviet Union blockades West Berlin's land access in an attempt to force the Western Allies out, who respond with an eleven-month airlift flying in food and fuel and defeating the blockade without direct military conflict.",
+      "tags": ["governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Berlin_Blockade",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/C-54_landing_at_Tempelhof.jpg/330px-C-54_landing_at_Tempelhof.jpg",
+      "imageAttribution": "Photo by Henry Ries, Library of Congress, Public domain, via Wikimedia Commons",
+      "imageDescription": "German children watch a US military aircraft during the 1948 Berlin Airlift.",
+      "wikidataId": "Q151349",
+      "location": {
+        "historicalName": "Berlin",
+        "city": "Berlin",
+        "country": "Germany",
+        "latitude": 52.52,
+        "longitude": 13.41
+      }
+    },
+    {
+      "year": 1949,
+      "sig": "major",
+      "title": "Federal Republic of Germany Founded",
+      "body": "The Western Allies' occupation zones merge into the Federal Republic of Germany, a parliamentary democracy with its capital at Bonn and Konrad Adenauer as its first chancellor.",
+      "tags": ["founding"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/West_Germany",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Konrad_Adenauer_1952_Portrait_%28cropped%29.jpg",
+      "imageAttribution": "Photo by Katherine Young, Bundesarchiv, CC BY-SA 3.0 DE, via Wikimedia Commons",
+      "imageDescription": "Chancellor Konrad Adenauer, photographed in 1952.",
+      "wikidataId": "Q713750",
+      "location": {
+        "historicalName": "Bonn",
+        "city": "Bonn",
+        "country": "Germany",
+        "latitude": 50.7353,
+        "longitude": 7.1022
+      }
+    },
+    {
+      "year": 1949,
+      "sig": "major",
+      "title": "German Democratic Republic Founded",
+      "body": "The Soviet occupation zone becomes the German Democratic Republic, a one-party socialist state aligned with Moscow, with Wilhelm Pieck as president and Otto Grotewohl as prime minister.",
+      "tags": ["founding"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/East_Germany",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Bundesarchiv_Bild_183-19000-3301%2C_Berlin%2C_DDR-Gr%C3%BCndung%2C_Wahl_Pieck%2C_Grotewohl.jpg",
+      "imageAttribution": "Photo by Züchlsdorf, Bundesarchiv, CC BY-SA 3.0 DE, via Wikimedia Commons",
+      "imageDescription": "Wilhelm Pieck and Otto Grotewohl at the founding of the German Democratic Republic, October 1949.",
+      "wikidataId": "Q16957",
+      "location": {
+        "historicalName": "East Berlin",
+        "city": "Berlin",
+        "country": "Germany",
+        "latitude": 52.52,
+        "longitude": 13.41
+      }
+    },
+    {
+      "year": 1961,
+      "sig": "major",
+      "title": "Berlin Wall Built",
+      "body": "East Germany erects a heavily guarded wall through Berlin overnight to stop the mass exodus of its citizens to the West, physically dividing the city for the next 28 years.",
+      "tags": ["governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Berlin_Wall",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Berlinermauer.jpg/330px-Berlinermauer.jpg",
+      "imageAttribution": "Photo by Noir (Thierry Noir), CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A graffiti-covered section of the Berlin Wall, photographed in 1986.",
+      "wikidataId": "Q5086",
+      "location": {
+        "historicalName": "Berlin",
+        "city": "Berlin",
+        "country": "Germany",
+        "latitude": 52.52,
+        "longitude": 13.41
+      }
+    },
+    {
+      "year": 1972,
+      "sig": "minor",
+      "title": "Basic Treaty Normalizes Inter-German Relations",
+      "body": "West Germany and East Germany sign the Basic Treaty under Chancellor Willy Brandt's Ostpolitik, formally recognizing each other's existence and establishing diplomatic missions despite continuing to view unification as an open question.",
+      "tags": ["governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Basic_Treaty,_1972",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Bundesarchiv_B_145_Bild-F057884-0009%2C_Willy_Brandt.jpg/330px-Bundesarchiv_B_145_Bild-F057884-0009%2C_Willy_Brandt.jpg",
+      "imageAttribution": "Photo by Engelbert Reineke, Bundesarchiv, CC BY-SA 3.0 DE, via Wikimedia Commons",
+      "imageDescription": "Willy Brandt, West German Chancellor and architect of Ostpolitik, photographed in 1980.",
+      "wikidataId": "Q672112",
+      "location": {
+        "historicalName": "East Berlin",
+        "city": "Berlin",
+        "country": "Germany",
+        "latitude": 52.52,
+        "longitude": 13.41
+      }
+    },
+    {
+      "year": 1989,
+      "sig": "major",
+      "title": "Fall of the Berlin Wall",
+      "body": "Following weeks of mass protests across East Germany, confused East German officials open the border crossings and jubilant crowds tear down the Berlin Wall, effectively ending the Cold War division of the city.",
+      "tags": ["rebellion", "collapse"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg/330px-West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg",
+      "imageAttribution": "Photo, reproduction by Lear 21, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "East and West Germans gather at the Brandenburg Gate as the Berlin Wall falls, November 1989.",
+      "wikidataId": "Q69163529",
+      "location": {
+        "historicalName": "Berlin",
+        "city": "Berlin",
+        "country": "Germany",
+        "latitude": 52.52,
+        "longitude": 13.41
+      }
+    },
+    {
+      "year": 1990,
+      "sig": "major",
+      "title": "German Reunification",
+      "body": "East and West Germany formally reunite as a single sovereign state under the Federal Republic's constitution, less than a year after the Berlin Wall's fall, ending 41 years of Cold War division.",
+      "tags": ["founding"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/German_reunification",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Bundesarchiv_Bild_183-1990-1003-008%2C_Berlin%2C_Brandenburger_Tor%2C_Vereinigungsfeier%2C_Feuerwerk.jpg",
+      "imageAttribution": "Photo by Thomas Uhlemann, Bundesarchiv, CC BY-SA 3.0 DE, via Wikimedia Commons",
+      "imageDescription": "Fireworks over the Brandenburg Gate celebrate German reunification, 3 October 1990.",
+      "wikidataId": "Q56039",
+      "location": {
+        "historicalName": "Berlin",
+        "city": "Berlin",
+        "country": "Germany",
+        "latitude": 52.52,
+        "longitude": 13.41
+      }
+    },
+    {
+      "year": 2002,
+      "sig": "minor",
+      "title": "Euro Replaces the Deutsche Mark",
+      "body": "Germany introduces euro banknotes and coins, retiring the Deutsche Mark after more than 50 years as one of postwar Germany's most powerful national symbols and tying the country's currency to the wider eurozone.",
+      "tags": ["governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Euro",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Euro_Series_Banknotes_%282019%29_-_centered.png/330px-Euro_Series_Banknotes_%282019%29_-_centered.png",
+      "imageAttribution": "Photo by The RedBurn, via Wikimedia Commons",
+      "imageDescription": "The Europa series of euro banknotes, as of 2019.",
+      "wikidataId": "Q4916"
+    },
+    {
+      "year": 2005,
+      "sig": "minor",
+      "title": "Angela Merkel Becomes Chancellor",
+      "body": "Angela Merkel is elected Chancellor of Germany, becoming the country's first female head of government and, having grown up in East Germany, the first chancellor from the former GDR.",
+      "tags": ["governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Angela_Merkel",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Angela_Merkel_2019_cropped.jpg/330px-Angela_Merkel_2019_cropped.jpg",
+      "imageAttribution": "Photo by Raimond Spekking, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "Chancellor Angela Merkel during a visit to Cologne, 2019.",
+      "wikidataId": "Q567",
+      "location": {
+        "historicalName": "Berlin",
+        "city": "Berlin",
+        "country": "Germany",
+        "latitude": 52.52,
+        "longitude": 13.41
+      }
+    },
+    {
+      "year": 2022,
+      "sig": "minor",
+      "title": "Zeitenwende Speech Marks Defense Policy Shift",
+      "body": "Days after Russia's invasion of Ukraine, Chancellor Olaf Scholz declares a Zeitenwende, or historic turning point, announcing a major increase in German defense spending and a sharp break from decades of postwar military restraint.",
+      "tags": ["governance"],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Zeitenwende_speech",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/2021-12-07_Unterzeichnung_des_Koalitionsvertrages_der_20._Wahlperiode_des_Bundestages_by_Sandro_Halank%E2%80%93062.jpg/330px-2021-12-07_Unterzeichnung_des_Koalitionsvertrages_der_20._Wahlperiode_des_Bundestages_by_Sandro_Halank%E2%80%93062.jpg",
+      "imageAttribution": "Photo by Sandro Halank, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "Chancellor Olaf Scholz at the signing of the 2021 coalition agreement.",
+      "wikidataId": "Q113649169",
+      "location": {
+        "historicalName": "Berlin",
+        "city": "Berlin",
+        "country": "Germany",
+        "latitude": 52.52,
+        "longitude": 13.41
+      }
+    }
+  ]
+}

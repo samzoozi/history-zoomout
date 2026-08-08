@@ -150,6 +150,82 @@ civilizations doc).
   Japan would collide with it. Every `country` topic id is prefixed `country-` to avoid
   this; the JSON's `name` field ("France") is unaffected and still displays normally.
 
+### Extension to the present day — pulled 2026-08-08
+
+Status: **existing topic, extended** — same file, `data/wikipedia-data/country/france.json`,
+already mirrored into `data/seed_data/country/france.json` (both untracked as of this
+writing; committing either is still a separate step from research).
+
+The original 2026-08-03 pass topped out at 1958 (the Fifth Republic's founding) despite
+the topic's `end` already being set to 2026, leaving a 68-year gap with zero events. This
+pass fills that gap with nine new events running from the end of the Algerian War through
+2019, so the timeline actually reaches the present day the topic was scoped to cover.
+`summary` was also rewritten to mention the post-1958 era instead of stopping its
+narrative at the Fifth Republic's founding.
+
+**Also retrofitted `tags` onto all 17 original events**, which had none — an oversight
+from the first pass (the Germany topic, pulled the same day, has tags throughout, so this
+wasn't a schema gap, just a miss). Tags assigned by the same by-judgment method as the
+skill's Process step 4: `founding` for the Verdun/Capet/Napoleon/Second-Empire/Third-
+Republic/Fifth-Republic events, `battle` for the six military engagements, `religion` +
+`governance` for the Edict of Nantes, `architecture` + `governance` for the move to
+Versailles, and `rebellion` for the Bastille.
+
+#### New events (1962–2019)
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| Évian Accords end the Algerian War | 1962 | [Évian Accords](https://en.wikipedia.org/wiki/%C3%89vian_Accords) | Q1471139 | UtCon Collection, Public domain |
+| May 1968 protests paralyze France | 1968 | [May 68](https://en.wikipedia.org/wiki/May_68) | Q6743 | André Cros, CC BY-SA 4.0 |
+| De Gaulle resigns after referendum defeat | 1969 | [1969 French constitutional referendum](https://en.wikipedia.org/wiki/1969_French_constitutional_referendum) | Q2327782 | Petrovic-Njegos / Stefan4 / Master Uegly (map), CC BY-SA 3.0 |
+| Mitterrand elected president | 1981 | [1981 French presidential election](https://en.wikipedia.org/wiki/1981_French_presidential_election) | Q930869 | Comet Photo AG (Zürich), CC BY-SA 4.0 |
+| France ratifies the Maastricht Treaty | 1992 | [1992 French Maastricht Treaty referendum](https://en.wikipedia.org/wiki/1992_French_Maastricht_Treaty_referendum) | Q2319164 | User:Mateus2019, CC BY 2.0 de |
+| Euro replaces the French franc | 2002 | [Euro](https://en.wikipedia.org/wiki/Euro) | Q4916 | Lukasz Kobus / European Commission, CC BY 4.0 |
+| November 2015 Paris attacks | 2015 | [November 2015 Paris attacks](https://en.wikipedia.org/wiki/November_2015_Paris_attacks) | Q21479779 | Eric Salard et al. (montage), CC BY-SA 4.0 |
+| Macron elected, breaking the traditional party system | 2017 | [2017 French presidential election](https://en.wikipedia.org/wiki/2017_French_presidential_election) | Q7020999 | Jules Rohault (map), CC BY-SA 4.0 |
+| Notre-Dame de Paris catches fire | 2019 | [Notre-Dame fire](https://en.wikipedia.org/wiki/Notre-Dame_fire) | Q63167656 | LeLaisserPasserA38, CC BY-SA 4.0 |
+
+#### Locations (new events)
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Évian Accords | Évian-les-Bains | Évian-les-Bains, France | 46.3833, 6.5833 |
+| May 1968 protests | Paris | Paris, France | 48.8567, 2.3522 |
+| De Gaulle resigns | — | (nationwide referendum/resignation, no single site) | — |
+| Mitterrand elected | — | (nationwide election, no single site) | — |
+| Maastricht Treaty ratified | — | (nationwide referendum, no single site) | — |
+| Euro replaces the franc | — | (nationwide currency change, no single site) | — |
+| November 2015 Paris attacks | Paris | Paris, France | 48.8567, 2.3522 |
+| Macron elected | — | (nationwide election, no single site) | — |
+| Notre-Dame fire | Notre-Dame de Paris | Paris, France | 48.85306, 2.35 (reusing the Napoleon coronation event's cathedral coordinates) |
+
+#### Corrections / decisions made
+
+- **Swapped the Euro event's image away from the article's own thumbnail.** The `Euro`
+  REST summary's `thumbnail.source` is a Europa-series banknote composite licensed under
+  "ECB decisions ECB/2003/4 and ECB/2003/5" — not a standard Commons CC/PD license, so
+  per the skill's "no usable artist/license info, don't use it" rule it was replaced with
+  a European Commission coin photo (`Euro_coins_(16).jpg`, CC BY 4.0, clean attribution).
+- **1992 event is anchored on the French ratification referendum, not the treaty
+  signing.** The Maastricht Treaty itself was signed in the Netherlands; since this is a
+  France topic, the dedicated `1992 French Maastricht Treaty referendum` article (the
+  French "petit oui" vote) is the more relevant source/Wikidata id, even though its
+  illustrative image (a photo of the treaty document in a German museum) comes from the
+  general `Maastricht Treaty` article's image list rather than the referendum article
+  itself.
+- **1969 and 2017 events use department-level election/referendum result maps** rather
+  than portraits — consistent with the existing 1870 Third Republic event's map, and
+  because no cleanly-licensed (non-fair-use) portrait from the relevant year turned up
+  for either figure. Mitterrand's 1981 event uses an actual CC BY-SA portrait since one
+  was available.
+- **November 2015 Paris attacks, not January 2015 Charlie Hebdo attack**, was chosen as
+  the single terrorism-related entry for this stretch — larger in scale (130 dead vs. 12)
+  and the direct trigger for the two-year state of emergency that reshaped French
+  anti-terror law, so more consequential to include if only one entry from that year is
+  added.
+- **All nine new image URLs were spot-checked with a direct HTTP request** (not just
+  inspected from the fetched JSON) and returned 200.
+
 ## Germany (topic id: `country-germany`) — pulled 2026-08-08
 
 Status: **new topic** — file written to `data/wikipedia-data/country/germany.json` only;
