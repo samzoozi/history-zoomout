@@ -50,7 +50,7 @@ class FrontendStack(Stack):
                 "function handler(event) {\n"
                 "  var request = event.request;\n"
                 "  var rewrites = {\n"
-                "    '/civilization': '/timeline.html',\n"
+                "    '/civilization': '/civilization.html',\n"
                 "    '/country': '/country.html'\n"
                 "  };\n"
                 "  if (rewrites[request.uri]) {\n"
@@ -65,7 +65,7 @@ class FrontendStack(Stack):
             self, "SiteDistribution",
             domain_names=[DOMAIN_NAME, WWW_DOMAIN_NAME],
             certificate=certificate,
-            default_root_object="timeline.html",
+            default_root_object="civilization.html",
             default_behavior=cloudfront.BehaviorOptions(
                 origin=origins.S3BucketOrigin.with_origin_access_control(site_bucket),
                 viewer_protocol_policy=cloudfront.ViewerProtocolPolicy.REDIRECT_TO_HTTPS,

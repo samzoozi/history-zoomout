@@ -52,9 +52,14 @@
   // Categories with a dedicated static path (see CATEGORY_LINK_PATHS below) are
   // detected from the URL path itself so each gets its own crawlable,
   // title/meta-bearing page. Categories without one yet fall back to the
-  // ?category= query param on timeline.html.
-  var PATH_CATEGORIES = { "/country": "country", "/country.html": "country" };
-  var CATEGORY_LINK_PATHS = { civilization: "timeline.html", country: "country.html" };
+  // ?category= query param on civilization.html.
+  var PATH_CATEGORIES = {
+    "/civilization": "civilization",
+    "/civilization.html": "civilization",
+    "/country": "country",
+    "/country.html": "country"
+  };
+  var CATEGORY_LINK_PATHS = { civilization: "civilization.html", country: "country.html" };
 
   function getCategory() {
     var pathCategory = PATH_CATEGORIES[window.location.pathname];
@@ -538,7 +543,7 @@
         row.type = "button";
         row.setAttribute("aria-expanded", soleCategory ? "true" : "false");
       } else {
-        row.href = CATEGORY_LINK_PATHS[cat.id] || ("timeline.html?category=" + encodeURIComponent(cat.id));
+        row.href = CATEGORY_LINK_PATHS[cat.id] || ("civilization.html?category=" + encodeURIComponent(cat.id));
       }
 
       var name = document.createElement("span");
