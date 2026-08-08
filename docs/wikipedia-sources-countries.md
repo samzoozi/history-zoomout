@@ -21,9 +21,9 @@ topics keep their original unprefixed ids for backward compatibility — only ne
 need the prefix.
 
 Sourced JSON files live in `data/wikipedia-data/country/` — reviewed there before being
-merged into the live seed data (a new `data/seed_data/countries.json`
-file plus a `("country", "countries.json")` entry in `seed.py`'s `SEED_FILES` — not created
-yet as of this writing).
+merged into the live seed data (a new `data/seed_data/country/` subfolder, one file per
+topic, matching the layout `data/seed_data/civilization/` already uses — not created yet
+as of this writing).
 
 Body text is written from scratch based on the facts in these articles, not copied from
 Wikipedia's prose (Wikipedia's text is CC BY-SA and requires attribution/share-alike if

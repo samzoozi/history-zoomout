@@ -38,7 +38,7 @@ export DATABASE_URL=$(aws secretsmanager get-secret-value \
 uv run history-zoomout-seed
 ```
 
-This clears and reloads every topic/event/location from `civilizations.json` — same
+This clears and reloads every topic/event/location from `data/seed_data/` — same
 destructive-but-idempotent behavior as the local re-seed, just pointed at production.
 
 ## Usage

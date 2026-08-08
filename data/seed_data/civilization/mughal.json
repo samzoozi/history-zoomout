@@ -1,0 +1,228 @@
+{
+  "id": "mughal",
+  "name": "Mughal Empire",
+  "colorIndex": 3,
+  "start": 1526,
+  "end": 1857,
+  "summary": "The Mughal Empire ruled most of the Indian subcontinent from 1526 to 1857, beginning when the Central Asian conqueror Babur toppled the Delhi Sultanate at Panipat. It reached its cultural and territorial peak under Akbar, Shah Jahan, and Aurangzeb, leaving behind monuments like the Taj Mahal, before Persian invasion and British expansion reduced its later emperors to figureheads and ended the dynasty after the 1857 rebellion.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Mughal_Empire",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Joppen1907India1700a.jpg/330px-Joppen1907India1700a.jpg",
+  "imageAttribution": "Map by Charles Joppen, from A Historical Atlas of India (1907), PD-US, via Wikimedia Commons",
+  "imageDescription": "Map of India circa 1700 showing the Mughal Empire's extent alongside European trading posts.",
+  "wikidataId": "Q33296",
+  "events": [
+    {
+      "year": 1526,
+      "sig": "major",
+      "tags": [
+        "founding",
+        "battle"
+      ],
+      "title": "Babur Founds the Mughal Empire at Panipat",
+      "body": "Babur, a Timurid prince from Central Asia, defeats the Delhi Sultanate's Ibrahim Lodi at the First Battle of Panipat using cannon and matchlock muskets that Indian armies haven't yet faced, then takes Delhi and Agra to found the Mughal Empire.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/First_Battle_of_Panipat",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/The_battle_of_Panipat_and_the_death_of_Sultan_Ibr%C4%81h%C4%ABm%2C_the_last_of_the_L%C5%8Dd%C4%AB_Sultans_of_Delhi.jpg/330px-The_battle_of_Panipat_and_the_death_of_Sultan_Ibr%C4%81h%C4%ABm%2C_the_last_of_the_L%C5%8Dd%C4%AB_Sultans_of_Delhi.jpg",
+      "imageAttribution": "Painting from the Baburnama, artist unknown, Public domain, via Wikimedia Commons",
+      "imageDescription": "Illustration from Babur's memoirs depicting the First Battle of Panipat and the death of Sultan Ibrahim Lodi.",
+      "wikidataId": "Q605321",
+      "location": {
+        "historicalName": "Panipat",
+        "city": "Panipat",
+        "country": "India",
+        "latitude": 29.388,
+        "longitude": 76.97
+      }
+    },
+    {
+      "year": 1540,
+      "sig": "major",
+      "tags": [
+        "battle"
+      ],
+      "title": "Sher Shah Suri Defeats Humayun, Launching the Sur Interregnum",
+      "body": "Sher Shah Suri, an Afghan noble turned rebel, crushes Babur's son and successor Humayun at the Battle of Kannauj, driving him into 15 years of exile in Persia and replacing Mughal rule in Delhi with his own Sur Empire.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Kannauj",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/46/Painting_of_Sher_Shah_Suri_%28colored%29_from_a_manuscript_of_Tarikh-i-Khandan-i-Timuriya%2C_prepared_by_the_court_painters_of_Mughal_emperor_Akbar%2C_circa_16th_century_%28Detailed%29.jpg",
+      "imageAttribution": "Mughal-era manuscript painting from the Tarikh-i-Khandan-i-Timuriya, artist unknown, Public domain, via Wikimedia Commons",
+      "imageDescription": null,
+      "wikidataId": "Q108485662",
+      "location": {
+        "historicalName": "Kannauj",
+        "city": "Kannauj",
+        "country": "India",
+        "latitude": 27.07,
+        "longitude": 79.92
+      }
+    },
+    {
+      "year": 1556,
+      "sig": "major",
+      "tags": [
+        "battle",
+        "founding"
+      ],
+      "title": "Akbar Wins the Second Battle of Panipat, Restoring Mughal Rule",
+      "body": "A year after Humayun reclaims Delhi with Safavid Persian help and then dies in a fall, his 13-year-old son Akbar, guided by regent Bairam Khan, defeats the Hindu king Hemu at the Second Battle of Panipat, securing the throne and opening a 50-year reign that consolidates Mughal control over most of the subcontinent.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Second_Battle_of_Panipat",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/The_defeat_of_Hemu%2C_Akbarnama.jpg/330px-The_defeat_of_Hemu%2C_Akbarnama.jpg",
+      "imageAttribution": "Painting by Kankar from the Akbarnama, c. 1590s, National Gallery of Victoria, Public domain, via Wikimedia Commons",
+      "imageDescription": "The defeat of Hemu at the Second Battle of Panipat, depicted in a painting from the Akbarnama.",
+      "wikidataId": "Q233414",
+      "location": {
+        "historicalName": "Panipat",
+        "city": "Panipat",
+        "country": "India",
+        "latitude": 29.388,
+        "longitude": 76.97
+      }
+    },
+    {
+      "year": 1582,
+      "sig": "minor",
+      "tags": [
+        "religion"
+      ],
+      "title": "Akbar Promulgates the Din-i-Ilahi",
+      "body": "At the height of his power, Akbar introduces the Din-i-Ilahi, a syncretic court order blending elements of Islam, Hinduism, Zoroastrianism, and Christianity, reflecting his broader policy of religious tolerance toward an empire whose subjects are overwhelmingly non-Muslim.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Din-i_Ilahi",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Emperor_Akbar.png/330px-Emperor_Akbar.png",
+      "imageAttribution": "Portrait of Akbar, artist unknown, Museum of Fine Arts Boston, Public domain, via Wikimedia Commons",
+      "imageDescription": "Emperor Akbar holding a falcon.",
+      "wikidataId": "Q2347558",
+      "location": {
+        "historicalName": "Fatehpur Sikri",
+        "city": "Fatehpur Sikri",
+        "country": "India",
+        "latitude": 27.091,
+        "longitude": 77.661
+      }
+    },
+    {
+      "year": 1615,
+      "sig": "minor",
+      "tags": [],
+      "title": "Thomas Roe's Embassy Gives the English a Foothold at Surat",
+      "body": "English ambassador Sir Thomas Roe arrives at Jahangir's court, where he spends three years failing to win major trading privileges but does secure permission for an East India Company factory at Surat -- the toehold from which British commercial presence in India eventually grows.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Thomas_Roe",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/SirThomasRoe.jpg/330px-SirThomasRoe.jpg",
+      "imageAttribution": "Portrait of Thomas Roe, after Michiel Jansz. van Mierevelt, National Portrait Gallery, Public domain, via Wikimedia Commons",
+      "imageDescription": "Portrait of Thomas Roe, English ambassador to the Mughal court.",
+      "wikidataId": "Q983131",
+      "location": {
+        "historicalName": "Agra",
+        "city": "Agra",
+        "country": "India",
+        "latitude": 27.18,
+        "longitude": 78.02
+      }
+    },
+    {
+      "year": 1632,
+      "sig": "major",
+      "tags": [
+        "architecture",
+        "art"
+      ],
+      "title": "Shah Jahan Commissions the Taj Mahal",
+      "body": "Grieving the death of his wife Mumtaz Mahal, Shah Jahan commissions an ivory-white marble mausoleum at Agra; the main structure is finished by 1648 and the surrounding complex by 1653, becoming the signature monument of the empire's cultural peak.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Taj_Mahal",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/330px-Taj_Mahal_%28Edited%29.jpeg",
+      "imageAttribution": "Photo by Yann Forget, edited by Jim Carter, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "The Taj Mahal at Agra.",
+      "wikidataId": "Q9141",
+      "location": {
+        "historicalName": "Agra",
+        "city": "Agra",
+        "country": "India",
+        "latitude": 27.18,
+        "longitude": 78.02
+      }
+    },
+    {
+      "year": 1687,
+      "sig": "major",
+      "tags": [
+        "battle"
+      ],
+      "title": "Aurangzeb Conquers Golconda, the Empire Reaches Its Greatest Extent",
+      "body": "After an eight-month siege, Aurangzeb's army takes the fortress of Golconda from the Qutb Shahi dynasty, completing his conquest of the last independent Deccan sultanates -- Bijapur fell the year before -- and pushing Mughal borders across nearly the entire Indian subcontinent, the empire's largest territorial extent.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Siege_of_Golconda",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Emperor_Aurangzebe_at_the_siege_of_Golconda%2C_1687.jpeg/330px-Emperor_Aurangzebe_at_the_siege_of_Golconda%2C_1687.jpeg",
+      "imageAttribution": "Gouache painting from the Anne S.K. Brown Military Collection, artist unknown, Public domain, via Wikimedia Commons",
+      "imageDescription": "Emperor Aurangzeb, carried on a litter, directs the siege of Golconda in 1687.",
+      "wikidataId": "Q16931432",
+      "location": {
+        "historicalName": "Golconda",
+        "city": "Hyderabad",
+        "country": "India",
+        "latitude": 17.383,
+        "longitude": 78.401
+      }
+    },
+    {
+      "year": 1739,
+      "sig": "major",
+      "tags": [
+        "battle"
+      ],
+      "title": "Nader Shah Sacks Delhi",
+      "body": "The Persian conqueror Nader Shah crushes a much larger Mughal army and occupies Delhi, carrying off the imperial treasury including the jewel-encrusted Peacock Throne -- a blow so severe the empire never fully recovers its former wealth or authority.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nader_Shah's_invasion_of_India",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Painting_of_a_nimbate_Nader_Shah_in_the_Red_Fort_as_a_Mughal_emperor._Delhi%2C_ca.1739.jpg/960px-Painting_of_a_nimbate_Nader_Shah_in_the_Red_Fort_as_a_Mughal_emperor._Delhi%2C_ca.1739.jpg",
+      "imageAttribution": "Painting of Nader Shah in the Red Fort, artist unknown, c. 1739, Public domain, via Wikimedia Commons",
+      "imageDescription": "Nader Shah depicted enthroned in Delhi's Red Fort as a Mughal-style emperor, circa 1739.",
+      "wikidataId": "Q6957844",
+      "location": {
+        "historicalName": "Delhi",
+        "city": "Delhi",
+        "country": "India",
+        "latitude": 28.61,
+        "longitude": 77.23
+      }
+    },
+    {
+      "year": 1757,
+      "sig": "major",
+      "tags": [
+        "battle"
+      ],
+      "title": "The British Win Bengal at the Battle of Plassey",
+      "body": "Robert Clive's East India Company force defeats the Nawab of Bengal after bribing his own commander into betrayal, giving the Company effective control of the empire's richest province and marking the start of British political dominance in India.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Plassey",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Lord_Clive_meeting_with_Mir_Jafar_after_the_Battle_of_Plassey.jpg/960px-Lord_Clive_meeting_with_Mir_Jafar_after_the_Battle_of_Plassey.jpg",
+      "imageAttribution": "Painting by Francis Hayman, Public domain, via Wikimedia Commons",
+      "imageDescription": null,
+      "wikidataId": "Q203233",
+      "location": {
+        "historicalName": "Palashi",
+        "city": "Palashi",
+        "country": "India",
+        "latitude": 23.8,
+        "longitude": 88.25
+      }
+    },
+    {
+      "year": 1857,
+      "sig": "major",
+      "tags": [
+        "battle",
+        "collapse",
+        "rebellion"
+      ],
+      "title": "The Mughal Empire Ends With the 1857 Rebellion",
+      "body": "Indian soldiers rebelling against East India Company rule proclaim the aged Bahadur Shah II their symbolic leader in Delhi; after crushing the rebellion the British capture and depose him, later trying and exiling him to Rangoon, ending 331 years of Mughal dynastic rule.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bahadur_Shah_Zafar",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Bahadur_Shah_II_of_India.jpg/330px-Bahadur_Shah_II_of_India.jpg",
+      "imageAttribution": "Photograph of Bahadur Shah II, photographer unknown, Public domain, via Wikimedia Commons",
+      "imageDescription": "Portrait of Bahadur Shah II, the last Mughal emperor.",
+      "wikidataId": "Q127369",
+      "location": {
+        "historicalName": "Delhi",
+        "city": "Delhi",
+        "country": "India",
+        "latitude": 28.61,
+        "longitude": 77.23
+      }
+    }
+  ]
+}

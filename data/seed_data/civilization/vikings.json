@@ -1,0 +1,369 @@
+{
+  "id": "vikings",
+  "name": "Vikings (Norse)",
+  "colorIndex": 6,
+  "start": 793,
+  "end": 1066,
+  "summary": "Norse seafarers from Scandinavia erupt onto the European stage with the 793 raid on Lindisfarne, launching two and a half centuries of raiding, trading, and settlement that reaches from North America to the Caspian Sea. Along the way Norsemen found or seize territory as far apart as Dublin, Normandy, and Novgorod, unify Norway and Denmark into lasting kingdoms, and briefly rule an English throne, before the Battle of Stamford Bridge in 1066 marks the traditional close of the Viking Age.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Viking_Age",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Bildsten_fr%C3%A5n_Smiss%2C_Gotland.jpg/330px-Bildsten_fr%C3%A5n_Smiss%2C_Gotland.jpg",
+  "imageAttribution": "Photo by the Swedish History Museum, CC BY 2.5, via Wikimedia Commons",
+  "imageDescription": "A Viking-age picture stone from Smiss on the island of Gotland, Sweden, carved with scenes typical of Norse art.",
+  "wikidataId": "Q213649",
+  "events": [
+    {
+      "year": 793,
+      "sig": "major",
+      "tags": [
+        "battle"
+      ],
+      "title": "Vikings Raid the Monastery at Lindisfarne",
+      "body": "Norse raiders sack the undefended monastery on the island of Lindisfarne, killing and enslaving monks and looting its treasures. The attack shocks Christian Europe and is conventionally treated as the opening event of the Viking Age.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Viking_raid_on_Lindisfarne",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/LindisfarneFol27rIncipitMatt.jpg/500px-LindisfarneFol27rIncipitMatt.jpg",
+      "imageAttribution": "Illuminated manuscript page attributed to Eadfrith of Lindisfarne, public domain, via Wikimedia Commons",
+      "imageDescription": "A page from the Lindisfarne Gospels, the monastery's most famous surviving work, produced not long before the raid.",
+      "wikidataId": null,
+      "location": {
+        "historicalName": "Lindisfarne",
+        "city": "Holy Island",
+        "country": "United Kingdom",
+        "latitude": 55.68,
+        "longitude": -1.8025
+      }
+    },
+    {
+      "year": 834,
+      "sig": "major",
+      "tags": [
+        "art"
+      ],
+      "title": "The Oseberg Ship Burial",
+      "body": "A richly furnished ship burial at Oseberg near Tønsberg interns two women, likely a high-status woman and a companion, alongside carved sleighs, a wagon, and textiles worked in the ornate Viking \"gripping beast\" style. Excavated in 1904, it remains the best-preserved trove of Viking Age art and craftsmanship yet found.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Oseberg_ship",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Osebergskipet_2016.jpg/330px-Osebergskipet_2016.jpg",
+      "imageAttribution": "Photo by Petter Ulleland, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "The excavated Oseberg ship on display at the Viking Ship Museum in Oslo.",
+      "wikidataId": "Q832395",
+      "location": {
+        "historicalName": "Oseberg",
+        "city": "Tønsberg",
+        "country": "Norway",
+        "latitude": 59.26753,
+        "longitude": 10.40763
+      }
+    },
+    {
+      "year": 841,
+      "sig": "minor",
+      "tags": [
+        "founding"
+      ],
+      "title": "Vikings Found a Longphort at Dublin",
+      "body": "Norse raiders establish a fortified base, a longphort, on the River Liffey, giving them a permanent foothold in Ireland for the first time. The camp grows into Dublin, which becomes the leading Norse settlement in Ireland.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dublin",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Viking_Ireland.png",
+      "imageAttribution": "Map by Yorkshirian, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A map of Viking-era settlements and raid sites in Ireland.",
+      "wikidataId": null,
+      "location": {
+        "historicalName": "Dyflin",
+        "city": "Dublin",
+        "country": "Ireland",
+        "latitude": 53.35,
+        "longitude": -6.26027778
+      }
+    },
+    {
+      "year": 862,
+      "sig": "major",
+      "tags": [
+        "founding"
+      ],
+      "title": "Rurik Founds the Rus' State at Novgorod",
+      "body": "The Varangian chieftain Rurik is invited to rule at Novgorod, founding the line of princes later credited with establishing the Rus' state. His successors carry the dynasty south to Kiev, laying the groundwork for medieval Russia and Ukraine.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rurik",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/1000_Rurik.JPG/330px-1000_Rurik.JPG",
+      "imageAttribution": "Photo by Дар Ветер, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "Rurik depicted on the Millennium of Russia monument in Veliky Novgorod.",
+      "wikidataId": "Q7990",
+      "location": {
+        "historicalName": "Novgorod",
+        "city": "Veliky Novgorod",
+        "country": "Russia",
+        "latitude": 58.55,
+        "longitude": 31.26666667
+      }
+    },
+    {
+      "year": 865,
+      "sig": "major",
+      "tags": [
+        "battle"
+      ],
+      "title": "The Great Heathen Army Invades England",
+      "body": "A large coalition of Scandinavian warriors lands in East Anglia and begins a sustained campaign of conquest, unlike the earlier hit-and-run raids. Within a decade it topples three of England's four Anglo-Saxon kingdoms and carves out the Danelaw.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Great_Heathen_Army",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/England_Great_Army_map.svg/330px-England_Great_Army_map.svg.png",
+      "imageAttribution": "Map by Hel-hama, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A map of the Great Heathen Army's campaign routes across Anglo-Saxon England.",
+      "wikidataId": "Q1419965"
+    },
+    {
+      "year": 872,
+      "sig": "major",
+      "tags": [
+        "founding",
+        "battle"
+      ],
+      "title": "Harald Fairhair Unifies Norway at Hafrsfjord",
+      "body": "Harald defeats a coalition of rival chieftains at the Battle of Hafrsfjord near Stavanger, becoming the first king to rule all of Norway. Tradition holds that many defeated chieftains flee overseas, fueling the settlement of Iceland.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Hafrsfjord",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Ole_Peter_Hansen_Balling_Harald_H%C3%A5rfagre_i_slaget_ved_Hafrsfjord.jpg/330px-Ole_Peter_Hansen_Balling_Harald_H%C3%A5rfagre_i_slaget_ved_Hafrsfjord.jpg",
+      "imageAttribution": "Painting by Ole Peter Hansen Balling, public domain, via Wikimedia Commons",
+      "imageDescription": "A 19th-century painting of Harald Fairhair at the Battle of Hafrsfjord.",
+      "wikidataId": "Q515561",
+      "location": {
+        "historicalName": "Hafrsfjord",
+        "city": "Stavanger",
+        "country": "Norway",
+        "latitude": 58.97,
+        "longitude": 5.73138889
+      }
+    },
+    {
+      "year": 874,
+      "sig": "minor",
+      "tags": [
+        "founding"
+      ],
+      "title": "Ingólfr Arnarson Settles Iceland",
+      "body": "Ingólfr Arnarson establishes the first permanent Norse settlement at Reykjavík, traditionally marking the start of Iceland's Age of Settlement. Within decades the island holds a Norse population governed by its own assembly, the Althing.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Settlement_of_Iceland",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/The_Norwegians_land_in_Iceland_year_872.jpg/330px-The_Norwegians_land_in_Iceland_year_872.jpg",
+      "imageAttribution": "Painting by Oscar Wergeland, public domain, via Wikimedia Commons",
+      "imageDescription": "A 19th-century painting imagining Norse settlers landing in Iceland.",
+      "wikidataId": "Q2725768",
+      "location": {
+        "historicalName": "Reykjarvík",
+        "city": "Reykjavík",
+        "country": "Iceland",
+        "latitude": 64.14583333,
+        "longitude": -21.9425
+      }
+    },
+    {
+      "year": 878,
+      "sig": "major",
+      "tags": [
+        "battle"
+      ],
+      "title": "Alfred the Great Defeats Guthrum at Edington",
+      "body": "King Alfred of Wessex routs Guthrum's Great Heathen Army at Edington in Wiltshire, reversing years of Viking advances after months in hiding at Athelney. Guthrum accepts baptism and the Treaty of Wedmore, fixing the boundary that becomes the Danelaw and securing Wessex as the last independent Anglo-Saxon kingdom.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Edington",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Ethandunmem.jpg/330px-Ethandunmem.jpg",
+      "imageAttribution": "Photo by Trish Steel, CC BY-SA 2.0, via Wikimedia Commons",
+      "imageDescription": "A memorial stone marking the site of the Battle of Edington near Bratton Castle, Wiltshire.",
+      "wikidataId": "Q2305651",
+      "location": {
+        "historicalName": "Edington",
+        "city": "Edington",
+        "country": "United Kingdom",
+        "latitude": 51.277,
+        "longitude": -2.106
+      }
+    },
+    {
+      "year": 911,
+      "sig": "major",
+      "tags": [
+        "founding"
+      ],
+      "title": "Rollo Founds the Duchy of Normandy",
+      "body": "The West Frankish king cedes land around Rouen to the Viking leader Rollo in exchange for peace and nominal loyalty, founding the Duchy of Normandy. Rollo's Norse followers intermarry with the local population, and his descendants later conquer England as Normans.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rollo",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/RolloA.jpg/330px-RolloA.jpg",
+      "imageAttribution": "Illustration, artist unknown, public domain, via Wikimedia Commons",
+      "imageDescription": "Rollo, Duke of Normandy, depicted on a medieval roll of the dukes of Normandy.",
+      "wikidataId": "Q273773",
+      "location": {
+        "historicalName": "Rouen",
+        "city": "Rouen",
+        "country": "France",
+        "latitude": 49.44277778,
+        "longitude": 1.08861111
+      }
+    },
+    {
+      "year": 930,
+      "sig": "major",
+      "tags": [
+        "founding",
+        "governance"
+      ],
+      "title": "Icelandic Settlers Found the Althing at Þingvellir",
+      "body": "Iceland's free settlers convene the first Althing at Þingvellir, adopting a law code carried back from Norway by Úlfljótr and establishing an annual assembly where chieftains legislate and settle disputes at the Lögberg, the Law Rock. The gathering is often cited as the world's oldest surviving parliament.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Althing",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Law_speaker.jpg",
+      "imageAttribution": "Painting by W. G. Collingwood, public domain, via Wikimedia Commons",
+      "imageDescription": "A romanticized depiction of the Althing in session at Þingvellir.",
+      "wikidataId": "Q131279",
+      "location": {
+        "historicalName": "Þingvellir",
+        "city": "Þingvellir",
+        "country": "Iceland",
+        "latitude": 64.25380556,
+        "longitude": -21.03725
+      }
+    },
+    {
+      "year": 965,
+      "sig": "major",
+      "tags": [
+        "religion"
+      ],
+      "title": "Harald Bluetooth Christianizes Denmark",
+      "body": "King Harald Gormsson raises a runestone at Jelling proclaiming that he made the Danes Christian, formally converting his kingdom. The stone becomes an enduring symbol of Denmark's unification and religious transformation.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Harald_Bluetooth",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Runesten_i_Jelling.jpg/500px-Runesten_i_Jelling.jpg",
+      "imageAttribution": "Photo by Alicudi, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "The Jelling stones, raised by Harald Bluetooth to commemorate his parents and Denmark's conversion to Christianity.",
+      "wikidataId": "Q201041",
+      "location": {
+        "historicalName": "Jelling",
+        "city": "Jelling",
+        "country": "Denmark",
+        "latitude": 55.75361111,
+        "longitude": 9.415
+      }
+    },
+    {
+      "year": 988,
+      "sig": "major",
+      "tags": [
+        "founding"
+      ],
+      "title": "Byzantine Emperor Basil II Forms the Varangian Guard",
+      "body": "In exchange for military aid against rebellious generals, Byzantine emperor Basil II receives 6,000 Rus' warriors from Vladimir I of Kiev and forms them into an elite imperial bodyguard, the Varangian Guard. Recruited from Scandinavia and Rus' lands with no local political ties, the unit serves Byzantine emperors for over three centuries.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Varangian_Guard",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Pireuslejonet.jpg",
+      "imageAttribution": "Photo of the Piraeus Lion, public domain, via Wikimedia Commons",
+      "imageDescription": "The Piraeus Lion in Venice, carved with runes describing Swedish warriors, likely Varangians, serving the Byzantine emperor.",
+      "wikidataId": "Q1464130",
+      "location": {
+        "historicalName": "Constantinople",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "latitude": 41.0125,
+        "longitude": 28.98
+      }
+    },
+    {
+      "year": 1000,
+      "sig": "major",
+      "tags": [],
+      "title": "Leif Erikson Reaches Vinland",
+      "body": "Sailing west from Greenland, Leif Erikson becomes the first European known to reach North America, naming the land Vinland. A Norse camp excavated at L'Anse aux Meadows in Newfoundland, with wood tree-ring dated to the early 11th century, confirms Norse presence in the region.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Leif_Erikson",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Authentic_Viking_recreation.jpg/500px-Authentic_Viking_recreation.jpg",
+      "imageAttribution": "Photo by Dylan Kereluk, CC BY 2.0, via Wikimedia Commons",
+      "imageDescription": "A reconstructed Norse longhouse at the L'Anse aux Meadows site in Newfoundland, Canada.",
+      "wikidataId": "Q42838",
+      "location": {
+        "historicalName": "Vinland",
+        "city": "L'Anse aux Meadows",
+        "country": "Canada",
+        "latitude": 51.59638889,
+        "longitude": -55.53333333
+      }
+    },
+    {
+      "year": 1000,
+      "sig": "major",
+      "tags": [
+        "religion",
+        "governance"
+      ],
+      "title": "Iceland Adopts Christianity by Vote of the Althing",
+      "body": "Facing a split between Christian and pagan factions that threatens civil war, the lawspeaker Thorgeir Ljósvetningagoði persuades the Althing to accept Christianity as Iceland's official religion in exchange for tolerating private pagan worship. Tradition holds that Thorgeir casts his own idols into the Goðafoss waterfall afterward.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Christianization_of_Iceland",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/GothafossOverview.jpg/500px-GothafossOverview.jpg",
+      "imageAttribution": "Photo by Andreas Tille, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "Goðafoss, the waterfall where Thorgeir is said to have cast his pagan idols after Iceland's conversion.",
+      "wikidataId": "Q2965816",
+      "location": {
+        "historicalName": "Þingvellir",
+        "city": "Þingvellir",
+        "country": "Iceland",
+        "latitude": 64.25380556,
+        "longitude": -21.03725
+      }
+    },
+    {
+      "year": 1014,
+      "sig": "major",
+      "tags": [
+        "battle",
+        "collapse"
+      ],
+      "title": "Brian Boru Breaks Viking Power at Clontarf",
+      "body": "High King Brian Boru's army defeats a Dublin-Leinster alliance backed by Viking forces from Orkney and the Isle of Man near Dublin, though Brian is killed after the fighting ends. The battle shatters the political dominance of the Norse kingdom of Dublin, which never again rules as an independent power in Ireland.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Clontarf",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/%27Battle_of_Clontarf%27%2C_oil_on_canvas_painting_by_Hugh_Frazer%2C_1826.jpg/330px-%27Battle_of_Clontarf%27%2C_oil_on_canvas_painting_by_Hugh_Frazer%2C_1826.jpg",
+      "imageAttribution": "Painting by Hugh Frazer, public domain, via Wikimedia Commons",
+      "imageDescription": "An 1826 oil painting depicting the Battle of Clontarf.",
+      "wikidataId": "Q868027",
+      "location": {
+        "historicalName": "Clontarf",
+        "city": "Dublin",
+        "country": "Ireland",
+        "latitude": 53.365,
+        "longitude": -6.21
+      }
+    },
+    {
+      "year": 1016,
+      "sig": "major",
+      "tags": [
+        "battle",
+        "founding"
+      ],
+      "title": "Cnut Becomes King of England",
+      "body": "After defeating Edmund Ironside's army at the Battle of Assandun, Cnut is accepted as king of all England following Edmund's death weeks later. He goes on to rule Denmark and Norway as well, forging the short-lived North Sea Empire.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cnut",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Canute_and_%C3%86lfgifu_cropped_%28Canute%29.jpg",
+      "imageAttribution": "Illuminated manuscript, artist unknown, public domain, via Wikimedia Commons",
+      "imageDescription": "Cnut depicted in the Liber Vitae of New Minster, Winchester, 1031.",
+      "wikidataId": "Q134128",
+      "location": {
+        "historicalName": "London",
+        "city": "London",
+        "country": "United Kingdom",
+        "latitude": 51.50722222,
+        "longitude": -0.1275
+      }
+    },
+    {
+      "year": 1066,
+      "sig": "major",
+      "tags": [
+        "battle",
+        "collapse"
+      ],
+      "title": "The Battle of Stamford Bridge Ends the Viking Age",
+      "body": "King Harold Godwinson's army destroys an invading Norwegian force, killing King Harald Hardrada in the fighting. The defeat ends serious Scandinavian ambitions to conquer England and is conventionally treated as the close of the Viking Age.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Stamford_Bridge",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Battle_of_Stamford_Bridge%2C_full.png/330px-Battle_of_Stamford_Bridge%2C_full.png",
+      "imageAttribution": "Illustration by Matthew Paris, public domain, via Wikimedia Commons",
+      "imageDescription": "A 13th-century depiction of the Battle of Stamford Bridge from Matthew Paris's Life of King Edward the Confessor.",
+      "wikidataId": "Q203225",
+      "location": {
+        "historicalName": "Stamford Bridge",
+        "city": "Stamford Bridge",
+        "country": "United Kingdom",
+        "latitude": 53.9925,
+        "longitude": -0.9125
+      }
+    }
+  ]
+}

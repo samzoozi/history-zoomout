@@ -1,0 +1,499 @@
+{
+  "id": "celtic",
+  "name": "Celts",
+  "colorIndex": 3,
+  "start": -800,
+  "end": 1066,
+  "summary": "The Celts were a family of Iron Age peoples who shared related languages and a distinctive art style, spreading from a Central European heartland to dominate territory from Ireland to Anatolia at their height. Gaulish and British Celtic power was broken by Rome between the 1st century BC and 1st century AD, but Celtic culture endured and transformed in Ireland, Scotland, Wales, and Brittany, producing a golden age of Christian monasticism and manuscript art before Viking pressure and Anglo-Norman expansion reshaped the Celtic-speaking world by the 11th century.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Celts",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Celts_in_Europe.png/330px-Celts_in_Europe.png",
+  "imageAttribution": "Map by QuartierLatin1968, The Ogre, and Dbachmann, CC BY-SA 3.0, via Wikimedia Commons",
+  "imageDescription": "A map showing the Hallstatt-era Celtic homeland, the greatest extent of Celtic settlement around 275 BC, and areas where Celtic languages are still spoken today.",
+  "wikidataId": "Q35966",
+  "events": [
+    {
+      "year": -800,
+      "sig": "major",
+      "title": "The Hallstatt Culture Emerges in Central Europe",
+      "body": "Salt-mining elites in the Alpine region around Hallstatt, Austria develop a shared culture of ironworking, wagon burials, and richly decorated bronze and iron goods — the archaeological horizon historians now recognize as the earliest identifiable Celtic culture.",
+      "tags": [
+        "founding"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hallstatt_culture",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Destral_decorada_de_bronze%2C_800_-_750_aC%2C_Hallstatt_%28cropped%29.JPG/330px-Destral_decorada_de_bronze%2C_800_-_750_aC%2C_Hallstatt_%28cropped%29.JPG",
+      "imageAttribution": "Photo by Joanbanjo, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A decorated bronze ceremonial axe from grave 504 at Hallstatt, Austria, dated to 800-750 BC.",
+      "wikidataId": "Q202165",
+      "location": {
+        "historicalName": "Hallstatt",
+        "city": "Hallstatt",
+        "country": "Austria",
+        "latitude": 47.56,
+        "longitude": 13.65
+      }
+    },
+    {
+      "year": -450,
+      "sig": "major",
+      "title": "The La Tène Style Redefines Celtic Art",
+      "body": "Near Lake Neuchâtel, Celtic craftsmen begin fusing Mediterranean motifs with native curvilinear and animal-form designs into a new decorative style — later named for the La Tène site — that becomes the visual signature of Celtic art for the next four centuries.",
+      "tags": [
+        "art"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/La_T%C3%A8ne_culture",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/British_Museum_Basse_Yutz_flagons_%281%29.jpg/330px-British_Museum_Basse_Yutz_flagons_%281%29.jpg",
+      "imageAttribution": "Photo of the Basse Yutz Flagons, CC0, via Wikimedia Commons",
+      "imageDescription": "The Basse-Yutz Flagons, a pair of bronze wine vessels from Lorraine, France, made around 450 BC in the earliest La Tène style.",
+      "wikidataId": "Q208247",
+      "location": {
+        "historicalName": "La Tène",
+        "city": "Marin-Epagnier",
+        "country": "Switzerland",
+        "latitude": 47.01666667,
+        "longitude": 7.01666667
+      }
+    },
+    {
+      "year": -387,
+      "sig": "major",
+      "title": "Brennus and the Senones Sack Rome",
+      "body": "A Senone war band under the chieftain Brennus annihilates a Roman army at the Allia River, then occupies and ransoms Rome itself — a humiliation traditionally dated to 390 BC in Roman sources, though modern scholarship places it closer to 387 BC.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sack_of_Rome_(390_BC)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Le_Brenn_et_sa_part_de_butin_%28Paul_Jamin%29.jpg/330px-Le_Brenn_et_sa_part_de_butin_%28Paul_Jamin%29.jpg",
+      "imageAttribution": "Painting by Paul Joseph Jamin, Public domain, via Wikimedia Commons",
+      "imageDescription": "Brenn et sa part du butin (1893), a painting by Paul Jamin imagining Brennus dividing the spoils taken from Rome.",
+      "wikidataId": "Q3460799",
+      "location": {
+        "historicalName": "Rome",
+        "city": "Rome",
+        "country": "Italy",
+        "latitude": 41.89,
+        "longitude": 12.48
+      }
+    },
+    {
+      "year": -300,
+      "sig": "minor",
+      "title": "The Battersea Shield Is Deposited in the Thames",
+      "body": "Someone lowers a bronze parade shield decorated in flowing La Tène style into the River Thames near Battersea, likely as a votive offering — one of the finest surviving examples of British Celtic metalwork.",
+      "tags": [
+        "art"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battersea_Shield",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Battersea_Shield_2026.JPG/330px-Battersea_Shield_2026.JPG",
+      "imageAttribution": "Photo by Geni, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "The Battersea Shield, a bronze-faced parade shield in La Tène style recovered from the River Thames.",
+      "wikidataId": "Q810944",
+      "location": {
+        "historicalName": "Battersea",
+        "city": "London",
+        "country": "England",
+        "latitude": 51.47,
+        "longitude": -0.16
+      }
+    },
+    {
+      "year": -279,
+      "sig": "major",
+      "title": "Gauls Invade Greece, Turned Back at Thermopylae",
+      "body": "A large Gallic army under another chieftain also named Brennus invades Greece and forces the same mountain pass where Leonidas once stood two centuries earlier, but a coalition of Greek states holds Thermopylae and the invaders are ultimately repelled short of their goal of plundering Delphi.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Thermopylae_(279_BC)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Dying_gaul.jpg/330px-Dying_gaul.jpg",
+      "imageAttribution": "Photo by antmoose, CC BY 2.0, via Wikimedia Commons",
+      "imageDescription": "The Dying Gaul, a Roman marble copy of a Hellenistic bronze commemorating a Greek victory over Gallic invaders.",
+      "wikidataId": "Q3636302",
+      "location": {
+        "historicalName": "Thermopylae",
+        "city": "Thermopylae",
+        "country": "Greece",
+        "latitude": 38.79583333,
+        "longitude": 22.53694444
+      }
+    },
+    {
+      "year": -277,
+      "sig": "major",
+      "title": "Celtic Settlers Found Galatia in Anatolia",
+      "body": "After their defeat in Greece, surviving Gallic war bands cross into Anatolia at the invitation of a local king and, within two years, settle permanently in the highlands around modern Ankara, founding Galatia — a Celtic-speaking enclave that endures for centuries deep in Asia Minor.",
+      "tags": [
+        "founding"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Galatia",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Asia_Minor_in_the_Greco-Roman_period_-_general_map_-_regions_and_main_settlements.jpg/330px-Asia_Minor_in_the_Greco-Roman_period_-_general_map_-_regions_and_main_settlements.jpg",
+      "imageAttribution": "Map by Caliniuc, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "A map of Asia Minor's regions and settlements in the Greco-Roman period, showing Galatia in central Anatolia.",
+      "wikidataId": "Q26847",
+      "location": {
+        "historicalName": "Galatia",
+        "city": "Ankara",
+        "country": "Turkey",
+        "latitude": 39.93,
+        "longitude": 32.85
+      }
+    },
+    {
+      "year": -220,
+      "sig": "minor",
+      "title": "Bibracte Rises as a Fortified Gaulish Oppidum",
+      "body": "The Aedui tribe fortifies a 200-hectare hilltop at Mont Beuvray with massive earthen ramparts, establishing Bibracte as one of Gaul's great oppida — the fortified proto-urban centers that anchor Gaulish political and economic life in the centuries before Roman conquest.",
+      "tags": [
+        "architecture"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bibracte",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Bibracte333.JPG/330px-Bibracte333.JPG",
+      "imageAttribution": "Photo by Iijjccoo, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A surviving section of the fortification wall of Bibracte, the Aedui oppidum at Mont Beuvray.",
+      "wikidataId": "Q650053",
+      "location": {
+        "historicalName": "Bibracte",
+        "city": "Autun",
+        "country": "France",
+        "latitude": 46.9517,
+        "longitude": 4.2994
+      }
+    },
+    {
+      "year": -100,
+      "sig": "minor",
+      "title": "The Gundestrup Cauldron Depicts Celtic Deities",
+      "body": "Silversmiths craft an elaborately decorated ritual cauldron whose panels depict horned gods, warriors, and mythological beasts in Celtic style, before it is dismantled and buried in a Danish bog — the largest known surviving work of European Iron Age silverwork.",
+      "tags": [
+        "art",
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gundestrup_cauldron",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Silver_cauldron.jpg/330px-Silver_cauldron.jpg",
+      "imageAttribution": "Photo by Rosemania, CC BY 2.0, via Wikimedia Commons",
+      "imageDescription": "The Gundestrup Cauldron, a richly decorated silver ritual vessel found in a Danish bog.",
+      "wikidataId": "Q721657",
+      "location": {
+        "historicalName": "Gundestrup",
+        "city": "Aars",
+        "country": "Denmark",
+        "latitude": 56.80325,
+        "longitude": 9.51775
+      }
+    },
+    {
+      "year": -58,
+      "sig": "major",
+      "title": "Caesar Defeats the Helvetii at Bibracte, Opening the Gallic Wars",
+      "body": "When the Helvetii attempt to migrate through Gaul, Julius Caesar intercepts and crushes them near Bibracte in his first major battle in Gaul, a victory that draws him deeper into Gallic affairs and begins eight years of conquest.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Bibracte",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Divico_und_Caesar.jpg/330px-Divico_und_Caesar.jpg",
+      "imageAttribution": "Illustration by Karl Jauslin, Public domain, via Wikimedia Commons",
+      "imageDescription": "A 19th-century illustration imagining the Helvetii chieftain Divico negotiating with Julius Caesar after the Battle of Bibracte.",
+      "wikidataId": "Q635028",
+      "location": {
+        "historicalName": "Bibracte",
+        "city": "Autun",
+        "country": "France",
+        "latitude": 46.9517,
+        "longitude": 4.2994
+      }
+    },
+    {
+      "year": -58,
+      "sig": "minor",
+      "title": "The Aedui Uphold the Vergobret Magistracy",
+      "body": "Among the Aedui and several neighboring tribes, a single annually elected chief magistrate called the vergobret holds executive and judicial power — barred by law from holding the office in consecutive years or serving alongside a relative, a built-in check against any one family seizing lasting control.",
+      "tags": [
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Vergobret",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Monnaie_-_Bronze%2C_fonds_celtique%2C_Lexoviens_-_btv1b11289265h_%281_of_2%29.jpg/330px-Monnaie_-_Bronze%2C_fonds_celtique%2C_Lexoviens_-_btv1b11289265h_%281_of_2%29.jpg",
+      "imageAttribution": "Coin issued by the Lexovii, Public domain, via Wikimedia Commons, via Bibliothèque nationale de France",
+      "imageDescription": "A bronze coin of the Lexovii tribe naming the magistrate Cisiambos as vergobret.",
+      "wikidataId": "Q645926"
+    },
+    {
+      "year": -52,
+      "sig": "major",
+      "title": "Vercingetorix Is Proclaimed Leader of the United Gallic Tribes",
+      "body": "After defeating Caesar at Gergovia, the Arverni noble Vercingetorix wins over the wavering Aedui and is acclaimed supreme commander of a pan-Gallic coalition at an assembly in Bibracte — the first time so many Gallic peoples unite under a single leader against Rome.",
+      "tags": [
+        "founding",
+        "rebellion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Vercingetorix",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Vercing%C3%A9torix_stat%C3%A8re_Gallica_avers.jpg/330px-Vercing%C3%A9torix_stat%C3%A8re_Gallica_avers.jpg",
+      "imageAttribution": "Photo via Bibliothèque nationale de France, Public domain, via Wikimedia Commons",
+      "imageDescription": "An electrum coin bearing a stylized portrait believed to depict Vercingetorix.",
+      "wikidataId": "Q178953",
+      "location": {
+        "historicalName": "Bibracte",
+        "city": "Autun",
+        "country": "France",
+        "latitude": 46.9517,
+        "longitude": 4.2994
+      }
+    },
+    {
+      "year": -52,
+      "sig": "major",
+      "title": "The Battle of Alesia Ends Gallic Independence",
+      "body": "Caesar besieges Vercingetorix's army inside the hilltop oppidum of Alesia, building a double ring of fortifications to hold off both the trapped Gauls and a massive relief force, then starves the defenders into surrender — the last major battle of the Gallic Wars and the effective end of independent Gaul.",
+      "tags": [
+        "battle",
+        "collapse"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Alesia",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Alise-Sainte-Reine_-_Contrevallation.jpg/330px-Alise-Sainte-Reine_-_Contrevallation.jpg",
+      "imageAttribution": "Photo by Benjamin Smith, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "A reconstruction of the Roman siege fortifications built around Alesia during the battle.",
+      "wikidataId": "Q131386",
+      "location": {
+        "historicalName": "Alesia",
+        "city": "Alise-Sainte-Reine",
+        "country": "France",
+        "latitude": 47.53916667,
+        "longitude": 4.50055556
+      }
+    },
+    {
+      "year": 43,
+      "sig": "major",
+      "title": "Rome Begins the Conquest of Britain",
+      "body": "Emperor Claudius sends four legions across the Channel under Aulus Plautius, landing in Kent and beginning a campaign that brings most of southern Britain's Celtic tribes under Roman rule within a few decades.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Roman_conquest_of_Britain",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Roman.Britain.campaigns.43.to.84.jpg/330px-Roman.Britain.campaigns.43.to.84.jpg",
+      "imageAttribution": "Map, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A map of Roman military campaigns in Britain from AD 43 to 84.",
+      "wikidataId": "Q1258062",
+      "location": {
+        "historicalName": "Rutupiae",
+        "city": "Richborough",
+        "country": "England",
+        "latitude": 51.294,
+        "longitude": 1.332
+      }
+    },
+    {
+      "year": 60,
+      "sig": "minor",
+      "title": "Suetonius Paulinus Destroys the Druid Stronghold on Mona",
+      "body": "While the Iceni and Trinovantes prepare to revolt, the Roman governor Suetonius Paulinus leads his legions against the island of Mona (Anglesey), a refuge for British rebels and a center of druidic religion, and destroys its defenders and sacred groves in a deliberate blow against Druidic influence in Britain.",
+      "tags": [
+        "religion",
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Suetonius_Paulinus",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Two_Druids.PNG/330px-Two_Druids.PNG",
+      "imageAttribution": "Engraving by Bernard de Montfaucon, Public domain, via Wikimedia Commons",
+      "imageDescription": "An 18th-century engraving reproducing a Gallo-Roman relief at Autun depicting two druids.",
+      "wikidataId": "Q326600",
+      "location": {
+        "historicalName": "Mona",
+        "city": "Anglesey",
+        "country": "Wales",
+        "latitude": 53.28333333,
+        "longitude": -4.33333333
+      }
+    },
+    {
+      "year": 60,
+      "sig": "major",
+      "title": "Boudica Leads the Iceni in Revolt",
+      "body": "Enraged after Roman officials seize her kingdom, flog her, and assault her daughters following her husband's death, the Iceni queen Boudica leads the Iceni and Trinovantes in revolt, burning Camulodunum, Londinium, and Verulamium before the returning legions of Suetonius Paulinus crush her army in a decisive battle.",
+      "tags": [
+        "rebellion",
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Boudica",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Queen_Boudica_by_John_Opie.jpg/330px-Queen_Boudica_by_John_Opie.jpg",
+      "imageAttribution": "Painting by John Opie, Public domain, via Wikimedia Commons",
+      "imageDescription": "Boadicea Haranguing the Britons (1793), a painting by John Opie imagining Boudica rallying her forces.",
+      "wikidataId": "Q184634",
+      "location": {
+        "historicalName": "Camulodunum",
+        "city": "Colchester",
+        "country": "England",
+        "latitude": 51.89,
+        "longitude": 0.9
+      }
+    },
+    {
+      "year": 400,
+      "sig": "minor",
+      "title": "Ogham Script Emerges to Write Early Irish",
+      "body": "Irish speakers devise Ogham, a distinctive alphabet of notches and lines carved along the edges of standing stones, to inscribe personal names and lineages — the earliest known written form of the Irish language.",
+      "tags": [
+        "science"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ogham",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Ogham_Stone_Rathass_Church_Tralee_Kerry.jpg/330px-Ogham_Stone_Rathass_Church_Tralee_Kerry.jpg",
+      "imageAttribution": "Photo by Jaqian, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "An ogham stone from Rathass Church, Tralee, County Kerry, inscribed with notch-and-line script.",
+      "wikidataId": "Q184661"
+    },
+    {
+      "year": 432,
+      "sig": "major",
+      "title": "Saint Patrick Begins His Mission to Ireland",
+      "body": "Patrick, a Romano-British former slave turned bishop, returns to Ireland as a missionary and spends decades founding churches across the island, becoming the central figure in Ireland's conversion to Christianity.",
+      "tags": [
+        "religion",
+        "founding"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Saint_Patrick",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Our_Lady%27s_Island_Church_of_the_Assumption_East_Aisle_Window_Saint_Patrick_2010_09_26.jpg/330px-Our_Lady%27s_Island_Church_of_the_Assumption_East_Aisle_Window_Saint_Patrick_2010_09_26.jpg",
+      "imageAttribution": "Photo by Andreas F. Borchert, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "A stained-glass window depicting Saint Patrick at Our Lady's Island, County Wexford.",
+      "wikidataId": "Q165479"
+    },
+    {
+      "year": 563,
+      "sig": "major",
+      "title": "Columba Founds Iona Abbey",
+      "body": "The Irish monk Columba sails into exile with twelve companions and founds a monastery on the Scottish island of Iona, which grows into the launching point for Christian missions across Pictish and Scottish territory for centuries to come.",
+      "tags": [
+        "religion",
+        "founding"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Iona_Abbey",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Columba_at_Bridei%27s_fort.jpg",
+      "imageAttribution": "Illustration by J. R. Skelton, Public domain, via Wikimedia Commons",
+      "imageDescription": "An illustration of Columba confronting Bridei, King of the Picts, from a 1906 history of Scotland.",
+      "wikidataId": "Q198409",
+      "location": {
+        "historicalName": "Iona",
+        "city": "Iona",
+        "country": "Scotland",
+        "latitude": 56.33,
+        "longitude": -6.41
+      }
+    },
+    {
+      "year": 700,
+      "sig": "minor",
+      "title": "The Senchas Már Codifies Irish Brehon Law",
+      "body": "Legal scholars compile the Senchas Már, a sprawling collection of forty-seven tracts covering everything from contracts and marriage to injury and beekeeping, into the single most authoritative text of Ireland's native Brehon legal tradition.",
+      "tags": [
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Senchas_M%C3%A1r",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Cahermacnaghten_O_Davoren_Law_School_Burren_County_Clare_1997_09_02.jpg/330px-Cahermacnaghten_O_Davoren_Law_School_Burren_County_Clare_1997_09_02.jpg",
+      "imageAttribution": "Photo by Andreas F. Borchert, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "The ruins of Cahermacnaghten in the Burren, County Clare, later home to a hereditary school of Brehon law.",
+      "wikidataId": "Q2269916"
+    },
+    {
+      "year": 800,
+      "sig": "major",
+      "title": "The Book of Kells Is Illuminated",
+      "body": "Columban monks, likely working across Iona and Kells, produce an elaborately illuminated Gospel book whose intricate interlace, spirals, and figural art represent the height of Insular Celtic manuscript art.",
+      "tags": [
+        "art",
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Book_of_Kells",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/KellsFol032vChristEnthroned.jpg/330px-KellsFol032vChristEnthroned.jpg",
+      "imageAttribution": "Illuminated page from the Book of Kells, Public domain, via Wikimedia Commons",
+      "imageDescription": "Folio 32v of the Book of Kells, showing Christ Enthroned.",
+      "wikidataId": "Q204221",
+      "location": {
+        "historicalName": "Kells",
+        "city": "Kells",
+        "country": "Ireland",
+        "latitude": 53.73,
+        "longitude": -6.88
+      }
+    },
+    {
+      "year": 843,
+      "sig": "major",
+      "title": "Kenneth MacAlpin Unites Picts and Scots as King of Alba",
+      "body": "Kenneth MacAlpin, already king of Dál Riata, becomes king of the Picts as well, merging the two peoples into a single kingdom that Scottish tradition regards as the founding of Scotland, later cementing the union by moving Iona's relics and the coronation stone to the new royal centers of Dunkeld and Scone.",
+      "tags": [
+        "founding"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kenneth_MacAlpin",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Coronation_Chair_and_Stone_of_Scone.jpg/330px-Coronation_Chair_and_Stone_of_Scone.jpg",
+      "imageAttribution": "Engraving, Public domain, via Wikimedia Commons",
+      "imageDescription": "The Stone of Scone set into the Coronation Chair at Westminster Abbey, the relic tied to the royal center Kenneth MacAlpin established at Scone.",
+      "wikidataId": "Q298263",
+      "location": {
+        "historicalName": "Scone",
+        "city": "Scone",
+        "country": "Scotland",
+        "latitude": 56.4228,
+        "longitude": -3.4383
+      }
+    },
+    {
+      "year": 1014,
+      "sig": "major",
+      "title": "The Battle of Clontarf",
+      "body": "Brian Boru, High King of Ireland, defeats a coalition of the King of Leinster, the Norse-Irish King of Dublin, and Viking allies from Orkney and the Isle of Man near Dublin, breaking Norse political power in Ireland even as Brian himself is killed in the fighting.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Clontarf",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/%27Battle_of_Clontarf%27%2C_oil_on_canvas_painting_by_Hugh_Frazer%2C_1826.jpg/330px-%27Battle_of_Clontarf%27%2C_oil_on_canvas_painting_by_Hugh_Frazer%2C_1826.jpg",
+      "imageAttribution": "Painting by Hugh Frazer, Public domain, via Wikimedia Commons",
+      "imageDescription": "The Battle of Clontarf (1826), an oil painting by Hugh Frazer depicting the 1014 battle.",
+      "wikidataId": "Q868027",
+      "location": {
+        "historicalName": "Clontarf",
+        "city": "Dublin",
+        "country": "Ireland",
+        "latitude": 53.37,
+        "longitude": -6.21
+      }
+    },
+    {
+      "year": 1057,
+      "sig": "major",
+      "title": "Gruffudd ap Llywelyn Unites Wales",
+      "body": "After decades of campaigning, Gruffudd ap Llywelyn becomes the only king in recorded history to bring the whole of Wales under a single ruler, governing from his court at Rhuddlan until English intervention ends his reign a few years later.",
+      "tags": [
+        "founding"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gruffudd_ap_Llywelyn",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/GruffuddapLlywelyn_historieofcambria.png/330px-GruffuddapLlywelyn_historieofcambria.png",
+      "imageAttribution": "Engraving, Public domain, via Wikimedia Commons",
+      "imageDescription": "A 16th-century engraving of Gruffudd ap Llywelyn from David Powel's Historie of Cambria.",
+      "wikidataId": "Q727897",
+      "location": {
+        "historicalName": "Rhuddlan",
+        "city": "Rhuddlan",
+        "country": "Wales",
+        "latitude": 53.294,
+        "longitude": -3.464
+      }
+    },
+    {
+      "year": 1063,
+      "sig": "major",
+      "title": "Gruffudd ap Llywelyn Is Killed and Wales Fragments",
+      "body": "Facing a joint English land and sea assault, Gruffudd is forced into retreat in Snowdonia, where his own men kill him and send his head to Harold Godwinson — ending the only period of unified Welsh rule and leaving Wales divided among rival princes just three years before the Norman Conquest reshapes power across Britain.",
+      "tags": [
+        "collapse"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gruffudd_ap_Llywelyn",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/GruffuddapLlywelyn_historieofcambria.png/330px-GruffuddapLlywelyn_historieofcambria.png",
+      "imageAttribution": "Engraving, Public domain, via Wikimedia Commons",
+      "imageDescription": "A 16th-century engraving of Gruffudd ap Llywelyn from David Powel's Historie of Cambria.",
+      "wikidataId": "Q727897",
+      "location": {
+        "historicalName": "Eryri",
+        "city": "Snowdonia",
+        "country": "Wales",
+        "latitude": 52.9,
+        "longitude": -3.85
+      }
+    }
+  ]
+}

@@ -1,0 +1,430 @@
+{
+  "id": "rome",
+  "name": "Rome",
+  "colorIndex": 5,
+  "start": -753,
+  "end": 476,
+  "summary": "Rome grew from a legendary founding in 753 BC through a Republic that conquered the Mediterranean, into an Empire under Augustus in 27 BC that split its administration under Diocletian in 293 AD -- the Western half finally collapsing in 476 AD while the Eastern half continued for another millennium as the Byzantine Empire.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Ancient_Rome",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Roman_Republic_Empire_map.gif/330px-Roman_Republic_Empire_map.gif",
+  "imageAttribution": "Map by Roke, CC BY-SA 3.0, via Wikimedia Commons",
+  "imageDescription": "A map tracing Roman territory from the early Republic through the Empire's height and eventual east-west division.",
+  "wikidataId": "Q1747689",
+  "events": [
+    {
+      "year": -753,
+      "sig": "major",
+      "tags": [
+        "founding"
+      ],
+      "title": "Legendary Founding of Rome",
+      "body": "Tradition holds that Romulus founds the city of Rome on the Palatine Hill after being raised by a she-wolf; archaeology instead points to a gradual merger of hilltop villages around the same period.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Founding_of_Rome",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Kapitolinische_W%C3%B6lfin_Museum_Capitolini.jpg/330px-Kapitolinische_W%C3%B6lfin_Museum_Capitolini.jpg",
+      "imageAttribution": "Photo by Rabax63, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "The Capitoline Wolf, a bronze sculpture of a she-wolf suckling Romulus and Remus, Rome's legendary founders.",
+      "wikidataId": "Q1247524",
+      "location": {
+        "historicalName": "Rome",
+        "city": "Rome",
+        "country": "Italy",
+        "latitude": 41.89,
+        "longitude": 12.48
+      }
+    },
+    {
+      "year": -509,
+      "sig": "major",
+      "tags": [
+        "founding",
+        "governance",
+        "rebellion"
+      ],
+      "title": "The Roman Republic Is Established",
+      "body": "Rome's last king is overthrown and replaced with elected magistrates and a Senate, beginning nearly five centuries of republican government before power concentrates again under the emperors.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Roman_Republic",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Roman_republic%2C_territory_44_BC.svg/330px-Roman_republic%2C_territory_44_BC.svg.png",
+      "imageAttribution": "Map by Ifly6, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "A map of Roman Republic territory in 44 BC, near the end of the Republican era.",
+      "wikidataId": "Q17167",
+      "location": {
+        "historicalName": "Rome",
+        "city": "Rome",
+        "country": "Italy",
+        "latitude": 41.89,
+        "longitude": 12.48
+      }
+    },
+    {
+      "year": -449,
+      "sig": "minor",
+      "tags": [
+        "governance"
+      ],
+      "title": "Rome Codifies the Twelve Tables",
+      "body": "Plebeian pressure for written law leads to the inscription of the Twelve Tables in the Roman Forum, giving ordinary citizens a public reference for legal rights that had previously been interpreted only by patrician judges.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Twelve_Tables",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Twelve_Tables_Engraving.jpg/330px-Twelve_Tables_Engraving.jpg",
+      "imageAttribution": "Engraving, artist unknown, Public domain, via Wikimedia Commons",
+      "imageDescription": "A period engraving depicting the Twelve Tables, the earliest codification of Roman law.",
+      "wikidataId": "Q203686",
+      "location": {
+        "historicalName": "Rome",
+        "city": "Rome",
+        "country": "Italy",
+        "latitude": 41.89,
+        "longitude": 12.48
+      }
+    },
+    {
+      "year": -387,
+      "sig": "minor",
+      "tags": [
+        "battle"
+      ],
+      "title": "Gauls Rout Rome at the Allia",
+      "body": "A Gallic army led by Brennus crushes the Roman legions at the Allia River and marches on to sack the city itself, a catastrophe so severe that Romans later mark the date as one to avoid for any new undertaking.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_the_Allia",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/La_Bataille_de_l%27allia_-_G.Surand.jpg",
+      "imageAttribution": "Painting by Gustave Surand, Public domain, via Wikimedia Commons",
+      "imageDescription": "A 19th-century painting imagining the Roman rout at the Battle of the Allia.",
+      "wikidataId": "Q655777",
+      "location": {
+        "historicalName": "River Allia",
+        "city": null,
+        "country": "Italy",
+        "latitude": 42.0175,
+        "longitude": 12.52
+      }
+    },
+    {
+      "year": -202,
+      "sig": "major",
+      "tags": [
+        "battle"
+      ],
+      "title": "Rome Defeats Hannibal at Zama",
+      "body": "Scipio Africanus decisively defeats Hannibal's Carthaginian army in North Africa, ending the Second Punic War and breaking Carthage as a rival power in the Mediterranean for good.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Zama",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Hannibal_Slodtz_Louvre_MR2093.png/330px-Hannibal_Slodtz_Louvre_MR2093.png",
+      "imageAttribution": "Sculpture by Sébastien Slodtz, Public domain, via Wikimedia Commons",
+      "imageDescription": "An 18th-century marble sculpture of Hannibal Barca counting the rings taken from Roman knights killed at Cannae.",
+      "wikidataId": "Q200056",
+      "location": {
+        "historicalName": "Zama",
+        "city": null,
+        "country": "Tunisia",
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    {
+      "year": -73,
+      "sig": "major",
+      "tags": [
+        "rebellion",
+        "battle"
+      ],
+      "title": "Spartacus Leads a Slave Revolt",
+      "body": "Spartacus and a band of fellow gladiators break out of a training school at Capua and rally tens of thousands of enslaved people into an army that defeats several Roman forces before being crushed two years later.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Third_Servile_War",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Spartacus_statue_by_Denis_Foyatier.jpg/330px-Spartacus_statue_by_Denis_Foyatier.jpg",
+      "imageAttribution": "Photo by Soerfm, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "Denis Foyatier's 1830 marble statue of Spartacus breaking his chains, now in the Louvre.",
+      "wikidataId": "Q194378"
+    },
+    {
+      "year": -46,
+      "sig": "minor",
+      "tags": [
+        "science",
+        "governance"
+      ],
+      "title": "Caesar Reforms the Calendar",
+      "body": "Julius Caesar overhauls Rome's chronically manipulated lunar calendar into a 365-day solar year with a leap day every fourth year, a system that keeps the seasons aligned without priestly intervention and remains the basis of the modern calendar.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Julian_calendar",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg/330px-Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg",
+      "imageAttribution": "Photo by Ángel M. Felicísimo, Public domain, via Wikimedia Commons",
+      "imageDescription": "A modern photograph of a bust portraying Julius Caesar.",
+      "wikidataId": "Q11184",
+      "location": {
+        "historicalName": "Rome",
+        "city": "Rome",
+        "country": "Italy",
+        "latitude": 41.89,
+        "longitude": 12.48
+      }
+    },
+    {
+      "year": -44,
+      "sig": "major",
+      "tags": [],
+      "title": "Assassination of Julius Caesar",
+      "body": "A group of senators stab Caesar to death in the Theatre of Pompey on the Ides of March, hoping to save the Republic from his growing personal power -- instead triggering the civil wars that end it.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Julius_Caesar",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Vincenzo_Camuccini_-_La_morte_di_Cesare_%28cropped_3-2%29.jpg/330px-Vincenzo_Camuccini_-_La_morte_di_Cesare_%28cropped_3-2%29.jpg",
+      "imageAttribution": "Painting by Vincenzo Camuccini, Public domain, via Wikimedia Commons",
+      "imageDescription": "Vincenzo Camuccini's early 19th-century painting La morte di Cesare (The Death of Caesar), depicting the assassination in the Senate.",
+      "wikidataId": "Q1025466",
+      "location": {
+        "historicalName": "Rome",
+        "city": "Rome",
+        "country": "Italy",
+        "latitude": 41.89,
+        "longitude": 12.48
+      }
+    },
+    {
+      "year": -31,
+      "sig": "major",
+      "tags": [
+        "battle"
+      ],
+      "title": "Octavian Defeats Antony and Cleopatra at Actium",
+      "body": "Octavian's fleet under Marcus Agrippa destroys the combined navy of Mark Antony and Cleopatra off the coast of western Greece, leaving Octavian the unchallenged master of the Roman world four years before he takes the name Augustus.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Actium",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Medinaceli_Actium_reliefs_06.jpg/330px-Medinaceli_Actium_reliefs_06.jpg",
+      "imageAttribution": "Photo by Mark Landon, CC BY 4.0, via Wikimedia Commons",
+      "imageDescription": "A carved relief depicting the naval Battle of Actium.",
+      "wikidataId": "Q160387",
+      "location": {
+        "historicalName": "Actium",
+        "city": null,
+        "country": "Greece",
+        "latitude": 38.925,
+        "longitude": 20.725
+      }
+    },
+    {
+      "year": -27,
+      "sig": "major",
+      "tags": [
+        "founding"
+      ],
+      "title": "Augustus Becomes Rome's First Emperor",
+      "body": "Octavian, Caesar's adopted heir, takes the title Augustus after defeating his rivals in the civil wars, ending the Republic in all but name and founding the Roman Empire he will rule for over 40 years.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Augustus",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Augustus_of_Prima_Porta.jpg/330px-Augustus_of_Prima_Porta.jpg",
+      "imageAttribution": "Photo by Justin Benttinen, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "The Augustus of Prima Porta, a marble statue of Augustus in military dress and one of the best-known portraits of the emperor.",
+      "wikidataId": "Q1405",
+      "location": {
+        "historicalName": "Rome",
+        "city": "Rome",
+        "country": "Italy",
+        "latitude": 41.89,
+        "longitude": 12.48
+      }
+    },
+    {
+      "year": -9,
+      "sig": "minor",
+      "tags": [
+        "art",
+        "religion"
+      ],
+      "title": "The Ara Pacis Is Dedicated",
+      "body": "The Roman Senate consecrates the Ara Pacis Augustae, an altar carved with processions of the imperial family and allegories of peace and abundance, celebrating the stability Augustus has brought after decades of civil war.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ara_Pacis",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Ara_Pacis_%28SW%29.jpg/330px-Ara_Pacis_%28SW%29.jpg",
+      "imageAttribution": "Photo by Rabax63, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "The front facade of the Ara Pacis Augustae, Augustus's altar of peace.",
+      "wikidataId": "Q623612",
+      "location": {
+        "historicalName": "Rome",
+        "city": "Rome",
+        "country": "Italy",
+        "latitude": 41.89,
+        "longitude": 12.48
+      }
+    },
+    {
+      "year": 9,
+      "sig": "major",
+      "tags": [
+        "battle"
+      ],
+      "title": "Germanic Tribes Destroy Three Roman Legions",
+      "body": "An alliance of Germanic tribes led by Arminius ambushes and annihilates three Roman legions under Varus in a forest north of the Rhine, a defeat so severe that Rome abandons its ambitions to conquer Germania east of the river.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Epitaph_des_Marcus_Caelius.JPG/330px-Epitaph_des_Marcus_Caelius.JPG",
+      "imageAttribution": "Photo by Agnete, Public domain, via Wikimedia Commons",
+      "imageDescription": "The epitaph of centurion Marcus Caelius, who died in the battle against Arminius's forces.",
+      "wikidataId": "Q87779",
+      "location": {
+        "historicalName": "Teutoburg Forest",
+        "city": "Kalkriese",
+        "country": "Germany",
+        "latitude": 52.408,
+        "longitude": 8.129
+      }
+    },
+    {
+      "year": 80,
+      "sig": "minor",
+      "tags": [
+        "architecture"
+      ],
+      "title": "The Colosseum Opens",
+      "body": "Emperor Titus inaugurates Rome's great amphitheater with a hundred days of games, giving the Empire its most enduring symbol of public spectacle and engineering ambition.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Colosseum",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/330px-Colosseo_2020.jpg",
+      "imageAttribution": "Photo by FeaturedPics, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "A modern photograph of the Colosseum, Rome's great amphitheater, still standing today.",
+      "wikidataId": "Q10285",
+      "location": {
+        "historicalName": "Rome",
+        "city": "Rome",
+        "country": "Italy",
+        "latitude": 41.89,
+        "longitude": 12.48
+      }
+    },
+    {
+      "year": 126,
+      "sig": "minor",
+      "tags": [
+        "architecture",
+        "science",
+        "religion"
+      ],
+      "title": "Hadrian Rebuilds the Pantheon",
+      "body": "Hadrian replaces Agrippa's fire-damaged temple with a new Pantheon crowned by a vast unreinforced concrete dome and open oculus, an engineering feat that still stands as the largest structure of its kind in the world.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pantheon%2C_Rome",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Pantheon_%28Rome%29_-_Right_side_and_front.jpg/330px-Pantheon_%28Rome%29_-_Right_side_and_front.jpg",
+      "imageAttribution": "Photo by NikonZ7II, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "A modern photograph of the Pantheon's exterior in Rome.",
+      "wikidataId": "Q99309",
+      "location": {
+        "historicalName": "Rome",
+        "city": "Rome",
+        "country": "Italy",
+        "latitude": 41.89,
+        "longitude": 12.48
+      }
+    },
+    {
+      "year": 212,
+      "sig": "minor",
+      "tags": [
+        "governance"
+      ],
+      "title": "Caracalla Grants Citizenship to All Free Subjects",
+      "body": "Emperor Caracalla's edict extends full Roman citizenship to nearly every free inhabitant of the Empire, ending the old distinction between citizens and provincial subjects and reshaping who counts as Roman.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Constitutio_Antoniniana",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Gie%C3%9Fen%2C_MS_Papyrus_Gissensis_40_Constitutio_Antoniniana_crop.jpg/330px-Gie%C3%9Fen%2C_MS_Papyrus_Gissensis_40_Constitutio_Antoniniana_crop.jpg",
+      "imageAttribution": "Photo of papyrus, artist unknown, Public domain, via Wikimedia Commons",
+      "imageDescription": "A fragment of a papyrus copy of Caracalla's Constitutio Antoniniana.",
+      "wikidataId": "Q312584"
+    },
+    {
+      "year": 293,
+      "sig": "major",
+      "tags": [
+        "founding",
+        "governance"
+      ],
+      "title": "Diocletian Splits the Empire Into the Tetrarchy",
+      "body": "Facing an empire too vast for one ruler to defend, Diocletian institutes a four-way division of power between two senior and two junior emperors -- an arrangement that foreshadows the later permanent split between East and West.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Diocletian",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Istanbul_Archaeology_Museum_Bust_of_Diocletian%2C_from_Nikomedia%2C_Izmit%2C_end_3rd_century_AD_1536.jpg/330px-Istanbul_Archaeology_Museum_Bust_of_Diocletian%2C_from_Nikomedia%2C_Izmit%2C_end_3rd_century_AD_1536.jpg",
+      "imageAttribution": "Photo by Dosseman, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "A late 3rd-century bust of Emperor Diocletian from Nikomedia, modern Izmit, Turkey.",
+      "wikidataId": "Q43107",
+      "location": {
+        "historicalName": "Nicomedia",
+        "city": "İzmit",
+        "country": "Turkey",
+        "latitude": 40.76,
+        "longitude": 29.92
+      }
+    },
+    {
+      "year": 313,
+      "sig": "major",
+      "tags": [
+        "religion",
+        "governance"
+      ],
+      "title": "The Edict of Milan Legalizes Christianity",
+      "body": "Emperors Constantine and Licinius agree at Milan to grant religious toleration throughout the Empire, ending the persecution of Christians and setting Rome on a path toward becoming a Christian state within the century.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Edict_of_Milan",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Constantine_Chiaramonti_Inv1749.jpg/330px-Constantine_Chiaramonti_Inv1749.jpg",
+      "imageAttribution": "Photo by Marie-Lan Nguyen, Public domain, via Wikimedia Commons",
+      "imageDescription": "A colossal 4th-century marble portrait head of Emperor Constantine.",
+      "wikidataId": "Q180764",
+      "location": {
+        "historicalName": "Mediolanum",
+        "city": "Milan",
+        "country": "Italy",
+        "latitude": 45.46694444,
+        "longitude": 9.19
+      }
+    },
+    {
+      "year": 378,
+      "sig": "major",
+      "tags": [
+        "battle",
+        "collapse"
+      ],
+      "title": "Goths Crush the Eastern Roman Army at Adrianople",
+      "body": "Gothic rebels led by Fritigern annihilate the Eastern Roman field army and kill Emperor Valens outside Adrianople, a disaster that shatters confidence in Roman arms and opens the door to the barbarian settlements that will eventually break up the Western Empire.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Adrianople",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Battle_of_Adrianople_378_en.svg/330px-Battle_of_Adrianople_378_en.svg.png",
+      "imageAttribution": "Map by Elias84 and Dipa_1965, Public domain, via Wikimedia Commons",
+      "imageDescription": "A map showing troop movements at the Battle of Adrianople in 378 AD.",
+      "wikidataId": "Q192473",
+      "location": {
+        "historicalName": "Adrianople",
+        "city": "Edirne",
+        "country": "Turkey",
+        "latitude": 41.81,
+        "longitude": 26.5
+      }
+    },
+    {
+      "year": 410,
+      "sig": "major",
+      "tags": [
+        "battle",
+        "collapse"
+      ],
+      "title": "Alaric's Visigoths Sack Rome",
+      "body": "Alaric and his Visigothic army breach Rome's walls and plunder the city for three days, the first time in nearly eight centuries that Rome itself has fallen to a foreign enemy -- a shock that reverberates across the Empire even though Rome is no longer its capital.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sack_of_Rome_(410)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Visigoths_sack_Rome.jpg/330px-Visigoths_sack_Rome.jpg",
+      "imageAttribution": "Painting by Joseph-Noël Sylvestre, Public domain, via Wikimedia Commons",
+      "imageDescription": "Joseph-Noël Sylvestre's 19th-century painting depicting the Visigothic sack of Rome in 410.",
+      "wikidataId": "Q1463845",
+      "location": {
+        "historicalName": "Rome",
+        "city": "Rome",
+        "country": "Italy",
+        "latitude": 41.89,
+        "longitude": 12.48
+      }
+    },
+    {
+      "year": 476,
+      "sig": "major",
+      "tags": [
+        "collapse"
+      ],
+      "title": "Fall of the Western Roman Empire",
+      "body": "The Germanic general Odoacer deposes the last Western emperor, the teenage Romulus Augustulus, at Ravenna -- the traditional date marking the end of the Western Roman Empire, while the Eastern half endures as Byzantium.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Romulus_Augustulus",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Gold_Solidus_of_Romulus_Augustulus.jpg/500px-Gold_Solidus_of_Romulus_Augustulus.jpg",
+      "imageAttribution": "American Numismatic Society, CC0, via Wikimedia Commons",
+      "imageDescription": "A gold solidus coin minted for Romulus Augustulus, the last Western Roman emperor.",
+      "wikidataId": "Q608613",
+      "location": {
+        "historicalName": "Ravenna",
+        "city": "Ravenna",
+        "country": "Italy",
+        "latitude": 44.42,
+        "longitude": 12.2
+      }
+    }
+  ]
+}

@@ -1,0 +1,477 @@
+{
+  "id": "byzantine",
+  "name": "Byzantine Empire",
+  "colorIndex": 1,
+  "start": 330,
+  "end": 1453,
+  "summary": "The Byzantine Empire carried Roman rule forward in the east for over a thousand years after Constantine founded Constantinople in 330 -- surviving Arab sieges, reaching a medieval peak under Basil II, and enduring the Fourth Crusade's sack of its own capital in 1204 -- before finally falling to the Ottomans in 1453.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Byzantine_Empire",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Eastern_Roman_Empire_565_CE.svg/330px-Eastern_Roman_Empire_565_CE.svg.png",
+  "imageAttribution": "Map by Mnohohrishnyi, CC0, via Wikimedia Commons",
+  "imageDescription": "A map of the Eastern Roman (Byzantine) Empire at the end of Justinian I's reign in 565.",
+  "wikidataId": "Q12544",
+  "events": [
+    {
+      "year": 330,
+      "sig": "major",
+      "title": "Constantinople Is Founded",
+      "body": "Emperor Constantine dedicates his new capital on the site of the Greek city of Byzantium, a strategically located city that will anchor Roman power in the east for over a thousand years.",
+      "tags": [
+        "founding"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Constantinople",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Byzantine_Constantinople-en.png/330px-Byzantine_Constantinople-en.png",
+      "imageAttribution": "Map by Cplakidas, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A topographical map of Constantinople during the Byzantine period.",
+      "wikidataId": "Q16869",
+      "location": {
+        "historicalName": "Constantinople",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "latitude": 41.01361111,
+        "longitude": 28.955
+      }
+    },
+    {
+      "year": 529,
+      "sig": "minor",
+      "title": "Justinian's Code Is Compiled",
+      "body": "Emperor Justinian I orders the compilation of centuries of Roman law into a single authoritative code, a work that will shape legal systems across Europe for centuries.",
+      "tags": [
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Code_of_Justinian",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ghent%2C_Ghent_University_Library_MS_Bibliotheek_Letteren_en_Wijsbegeerte-Handschriften_0021_fol._24v-25r_Code_of_Justinian.jpg/330px-Ghent%2C_Ghent_University_Library_MS_Bibliotheek_Letteren_en_Wijsbegeerte-Handschriften_0021_fol._24v-25r_Code_of_Justinian.jpg",
+      "imageAttribution": "Public domain, via Wikimedia Commons",
+      "imageDescription": "A 13th-century manuscript excerpt of the Code of Justinian with medieval legal commentary in the margins.",
+      "wikidataId": "Q735763",
+      "location": {
+        "historicalName": "Constantinople",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "latitude": 41.01361111,
+        "longitude": 28.955
+      }
+    },
+    {
+      "year": 532,
+      "sig": "major",
+      "title": "The Nika Riots Nearly Topple Justinian",
+      "body": "A week of chariot-racing riots erupts into a full revolt against Justinian I, killing an estimated 30,000 people and burning much of Constantinople -- including the original Hagia Sophia -- before Belisarius crushes the uprising in the Hippodrome.",
+      "tags": [
+        "rebellion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nika_riots",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Turkey-03228_-_Hippodrome_of_Constantinople_%2811312626353%29.jpg/330px-Turkey-03228_-_Hippodrome_of_Constantinople_%2811312626353%29.jpg",
+      "imageAttribution": "Photo by Dennis G. Jarvis, CC BY-SA 2.0, via Wikimedia Commons",
+      "imageDescription": "The Obelisk of Theodosius in Constantinople's Hippodrome, site of the Nika riots' suppression.",
+      "wikidataId": "Q162665",
+      "location": {
+        "historicalName": "Constantinople",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "latitude": 41.01361111,
+        "longitude": 28.955
+      }
+    },
+    {
+      "year": 533,
+      "sig": "major",
+      "title": "Belisarius Retakes Carthage",
+      "body": "Justinian's general Belisarius destroys the Vandal Kingdom and enters Carthage, restoring Roman rule over North Africa and opening the emperor's campaign to reclaim the lost provinces of the Western Empire.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Vandalic_War",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Vandalic_War_campaign_map.png/330px-Vandalic_War_campaign_map.png",
+      "imageAttribution": "Map by Cplakidas, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A map of Byzantine military operations during the Vandalic War of 533-534.",
+      "wikidataId": "Q1136575",
+      "location": {
+        "historicalName": "Carthage",
+        "city": "Tunis",
+        "country": "Tunisia",
+        "latitude": 36.80638889,
+        "longitude": 10.18166667
+      }
+    },
+    {
+      "year": 537,
+      "sig": "major",
+      "title": "The Hagia Sophia Is Completed",
+      "body": "Justinian I dedicates a vast domed cathedral in Constantinople, an architectural triumph that remains the world's largest cathedral for nearly a thousand years.",
+      "tags": [
+        "architecture",
+        "art"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hagia_Sophia",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Hagia_Sophia_%28228968325%29.jpeg/330px-Hagia_Sophia_%28228968325%29.jpeg",
+      "imageAttribution": "Photo by Adli Wahid, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A photograph of the Hagia Sophia, the great domed cathedral Justinian I built in Constantinople.",
+      "wikidataId": "Q12506",
+      "location": {
+        "historicalName": "Constantinople",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "latitude": 41.01361111,
+        "longitude": 28.955
+      }
+    },
+    {
+      "year": 541,
+      "sig": "major",
+      "title": "The Plague of Justinian Strikes",
+      "body": "A pandemic later identified with bubonic plague spreads from Egypt into Constantinople, killing as much as two-fifths of the capital's population at its height and crippling the manpower and finances behind Justinian's wars of reconquest.",
+      "tags": [],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Plague_of_Justinian",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Byzantium550.png/330px-Byzantium550.png",
+      "imageAttribution": "Map by Jniemenmaa, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A map of the Byzantine Empire around 550, near the plague's height, showing Justinian I's reconquests in green.",
+      "wikidataId": "Q821711",
+      "location": {
+        "historicalName": "Constantinople",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "latitude": 41.01361111,
+        "longitude": 28.955
+      }
+    },
+    {
+      "year": 636,
+      "sig": "major",
+      "title": "The Byzantines Lose Syria at Yarmouk",
+      "body": "Arab forces under Khalid ibn al-Walid rout the Byzantine army over six days of fighting along the Yarmouk River, a defeat that ends Byzantine rule in Syria and opens the Levant to the Rashidun conquest.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_the_Yarmuk",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Hayton_BNF886_9v.jpg/330px-Hayton_BNF886_9v.jpg",
+      "imageAttribution": "Illustration from a 14th-century Catalonian manuscript, Public domain, via Wikimedia Commons",
+      "imageDescription": "A manuscript illustration of the Battle of Yarmouk showing Byzantine and Rashidun forces in combat.",
+      "wikidataId": "Q194226",
+      "location": {
+        "historicalName": "Yarmouk",
+        "city": "Yarmouk River",
+        "country": "Syria",
+        "latitude": 32.8141,
+        "longitude": 35.9548
+      }
+    },
+    {
+      "year": 642,
+      "sig": "major",
+      "title": "Alexandria Falls, Ending Roman Egypt",
+      "body": "Arab general Amr ibn al-As enters Alexandria under a negotiated surrender, closing out a three-year campaign that strips the empire of Egypt -- one of its wealthiest provinces and a grain source it had held for nearly 700 years.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Arab_conquest_of_Egypt",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Mohammad_adil-Muslim_conquest_of_Egypt.PNG/330px-Mohammad_adil-Muslim_conquest_of_Egypt.PNG",
+      "imageAttribution": "Map by Mohammad Adil, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A map of the Rashidun conquest of Byzantine Egypt in the 7th century.",
+      "wikidataId": "Q317519",
+      "location": {
+        "historicalName": "Alexandria",
+        "city": "Alexandria",
+        "country": "Egypt",
+        "latitude": 31.1975,
+        "longitude": 29.8925
+      }
+    },
+    {
+      "year": 718,
+      "sig": "major",
+      "title": "Greek Fire Repels the Arab Siege of Constantinople",
+      "body": "A year-long Umayyad siege of the Byzantine capital collapses after Byzantine ships destroy the Arab fleet with Greek fire, an incendiary weapon that burns even on water -- a defeat that halts the Islamic conquests' advance into Europe from the east.",
+      "tags": [
+        "battle",
+        "science"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Siege_of_Constantinople_(717%E2%80%93718)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/47-cropped-manasses-chronicle.jpg/330px-47-cropped-manasses-chronicle.jpg",
+      "imageAttribution": "Illustration from the Manasses Chronicle, Public domain, via Wikimedia Commons",
+      "imageDescription": "A 14th-century miniature from the Constantine Manasses Chronicle depicting the Arab siege of Constantinople.",
+      "wikidataId": "Q27900",
+      "location": {
+        "historicalName": "Constantinople",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "latitude": 41.01361111,
+        "longitude": 28.955
+      }
+    },
+    {
+      "year": 726,
+      "sig": "major",
+      "title": "Iconoclasm Divides the Church",
+      "body": "Emperor Leo III orders the removal of a revered image of Christ from the palace's Chalke Gate, opening a decades-long imperial campaign against religious icons that splits the church and populace.",
+      "tags": [
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Byzantine_Iconoclasm",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Clasm_Chludov.jpg/330px-Clasm_Chludov.jpg",
+      "imageAttribution": "Miniature from the Chludov Psalter, Public domain, via Wikimedia Commons",
+      "imageDescription": "A 9th-century manuscript miniature depicting iconoclasts whitewashing an image of Christ.",
+      "wikidataId": "Q1018769",
+      "location": {
+        "historicalName": "Constantinople",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "latitude": 41.01361111,
+        "longitude": 28.955
+      }
+    },
+    {
+      "year": 787,
+      "sig": "minor",
+      "title": "The Second Council of Nicaea Restores Icons",
+      "body": "Empress Irene convenes a church council that reverses decades of imperial policy, ruling that venerating icons honors the figures they depict rather than the images themselves and ending the first period of Iconoclasm.",
+      "tags": [
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Second_Council_of_Nicaea",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Menologion_of_Basil_024.jpg/330px-Menologion_of_Basil_024.jpg",
+      "imageAttribution": "Illustration from the Menologion of Basil II, Public domain, via Wikimedia Commons",
+      "imageDescription": "An 11th-century manuscript depiction of the Second Council of Nicaea.",
+      "wikidataId": "Q187201",
+      "location": {
+        "historicalName": "Nicaea",
+        "city": "İznik",
+        "country": "Turkey",
+        "latitude": 40.42916667,
+        "longitude": 29.72111111
+      }
+    },
+    {
+      "year": 811,
+      "sig": "major",
+      "title": "Emperor Nikephoros I Is Killed at Pliska",
+      "body": "Bulgar forces under Khan Krum ambush the retreating Byzantine army in a mountain pass, annihilating it and killing Emperor Nikephoros I, whose skull Krum has mounted in silver as a drinking cup.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Pliska",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/52-manasses-chronicle.jpg/330px-52-manasses-chronicle.jpg",
+      "imageAttribution": "Illustration from the Manasses Chronicle, Public domain, via Wikimedia Commons",
+      "imageDescription": "A manuscript illustration of Khan Krum's forces attacking the Byzantine army.",
+      "wikidataId": "Q403416",
+      "location": {
+        "historicalName": "Pliska",
+        "city": "Pliska",
+        "country": "Bulgaria",
+        "latitude": 43.387,
+        "longitude": 27.132
+      }
+    },
+    {
+      "year": 988,
+      "sig": "major",
+      "title": "The Rus Convert to Orthodox Christianity",
+      "body": "Grand Prince Vladimir of Kiev is baptized at Byzantine Chersonesus and marries the emperor's sister Anna, then brings Orthodox Christianity to his people -- binding the Rus to Byzantine religious and cultural influence for centuries.",
+      "tags": [
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Christianization_of_Kievan_Rus%27",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Lebedev_baptism.jpg/330px-Lebedev_baptism.jpg",
+      "imageAttribution": "Painting by Klavdy Lebedev, Public domain, via Wikimedia Commons",
+      "imageDescription": "A late 19th-century painting depicting the mass baptism of the people of Rus.",
+      "wikidataId": "Q573211",
+      "location": {
+        "historicalName": "Kiev",
+        "city": "Kyiv",
+        "country": "Ukraine",
+        "latitude": 50.45,
+        "longitude": 30.52333333
+      }
+    },
+    {
+      "year": 1014,
+      "sig": "minor",
+      "title": "Basil II Crushes Bulgaria at Kleidion",
+      "body": "Byzantine emperor Basil II annihilates the Bulgarian army in a mountain pass, a victory so decisive -- and so brutally followed up -- that it earns him the epithet 'the Bulgar Slayer' and marks the empire's medieval territorial peak.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Kleidion",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/SamuilsDeathBGhistory.jpg/330px-SamuilsDeathBGhistory.jpg",
+      "imageAttribution": "Illustration from the Manasses Chronicle, Public domain, via Wikimedia Commons",
+      "imageDescription": "A manuscript illustration showing Basil II's victory over the Bulgarians and the death of Tsar Samuel.",
+      "wikidataId": "Q584047",
+      "location": {
+        "historicalName": "Kleidion",
+        "city": "Klyuch",
+        "country": "Bulgaria",
+        "latitude": 41.3625,
+        "longitude": 23.0175
+      }
+    },
+    {
+      "year": 1054,
+      "sig": "minor",
+      "title": "The Great Schism Divides the Church",
+      "body": "Mutual excommunications between the Pope in Rome and the Patriarch of Constantinople formalize a centuries-old rift, splitting Christianity into Catholic and Orthodox branches that remain divided today.",
+      "tags": [
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/East%E2%80%93West_Schism",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Great_Schism_with_former_borders_%281054%29.png/330px-Great_Schism_with_former_borders_%281054%29.png",
+      "imageAttribution": "Map by Barrikader, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A map of Christianity's eastern and western allegiances following the 1054 schism.",
+      "wikidataId": "Q51648",
+      "location": {
+        "historicalName": "Constantinople",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "latitude": 41.01361111,
+        "longitude": 28.955
+      }
+    },
+    {
+      "year": 1071,
+      "sig": "major",
+      "title": "The Byzantines Are Routed at Manzikert",
+      "body": "Seljuk forces rout the Byzantine army and capture Emperor Romanos IV Diogenes near Lake Van, a defeat that opens Anatolia -- the empire's core recruiting ground -- to Turkish settlement.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Manzikert",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Battle_of_Manzikert_%281071%29.webp/330px-Battle_of_Manzikert_%281071%29.webp.png",
+      "imageAttribution": "Illustration by O. Mustafin, Public domain, via Wikimedia Commons",
+      "imageDescription": "An illustration of the Battle of Manzikert between Byzantine and Seljuk forces.",
+      "wikidataId": "Q200032",
+      "location": {
+        "historicalName": "Manzikert",
+        "city": "Malazgirt",
+        "country": "Turkey",
+        "latitude": 39.14777778,
+        "longitude": 42.54416667
+      }
+    },
+    {
+      "year": 1097,
+      "sig": "minor",
+      "title": "Byzantines Recover Nicaea with Crusader Help",
+      "body": "Byzantine forces accompanying the First Crusade negotiate the surrender of Nicaea from its Seljuk garrison, the crusade's first major victory and a rare moment of Byzantine territorial recovery under Alexios I Komnenos.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Siege_of_Nicaea",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Nik%C3%A1ja3.jpg/330px-Nik%C3%A1ja3.jpg",
+      "imageAttribution": "Illustration from a 13th-century French manuscript, Public domain, via Wikimedia Commons",
+      "imageDescription": "A medieval manuscript illustration of the siege of Nicaea during the First Crusade.",
+      "wikidataId": "Q642117",
+      "location": {
+        "historicalName": "Nicaea",
+        "city": "İznik",
+        "country": "Turkey",
+        "latitude": 40.42916667,
+        "longitude": 29.72111111
+      }
+    },
+    {
+      "year": 1204,
+      "sig": "major",
+      "title": "The Fourth Crusade Sacks Constantinople",
+      "body": "Crusader knights bound for the Holy Land instead storm and pillage Constantinople itself, installing a Latin emperor and shattering Byzantine power so thoroughly that the empire never fully recovers before its final fall two and a half centuries later.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sack_of_Constantinople",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Frammenti_di_mosaico_pavimentale_del_1213%2C_09.JPG/330px-Frammenti_di_mosaico_pavimentale_del_1213%2C_09.JPG",
+      "imageAttribution": "Photo by Sailko, CC BY-SA 3.0, via Wikimedia Commons",
+      "wikidataId": "Q1750892",
+      "location": {
+        "historicalName": "Constantinople",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "latitude": 41.01361111,
+        "longitude": 28.955
+      }
+    },
+    {
+      "year": 1261,
+      "sig": "major",
+      "title": "The Byzantines Recapture Constantinople",
+      "body": "Nicaean general Alexios Strategopoulos slips a small force into Constantinople while its Latin garrison is away, ending the Latin Empire and restoring Byzantine rule under Michael VIII Palaiologos after 57 years of exile.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Reconquest_of_Constantinople",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/39._La_flotta_Veneziana_raccoglie_gli_abitanti_Latini_fuggenti_da_Costantinopoli_ripreso_da_Greci%2C_25_Luglio_1261.jpg/330px-39._La_flotta_Veneziana_raccoglie_gli_abitanti_Latini_fuggenti_da_Costantinopoli_ripreso_da_Greci%2C_25_Luglio_1261.jpg",
+      "imageAttribution": "Illustration by Giuseppe Lorenzo Gatteri and Francesco Zanotto, Public domain, via Wikimedia Commons",
+      "imageDescription": "A 19th-century illustration of the Venetian fleet evacuating Latin residents fleeing Constantinople in 1261.",
+      "wikidataId": "Q1400402",
+      "location": {
+        "historicalName": "Constantinople",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "latitude": 41.01361111,
+        "longitude": 28.955
+      }
+    },
+    {
+      "year": 1351,
+      "sig": "minor",
+      "title": "The Hesychast Controversy Is Resolved",
+      "body": "A Constantinople synod under Emperor John VI Kantakouzenos rules in favor of the monk Gregory Palamas, enshrining his mystical Hesychast theology as Orthodox doctrine after a decade of church dispute.",
+      "tags": [
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hesychast_controversy",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Gregor_Palamas.jpg/330px-Gregor_Palamas.jpg",
+      "imageAttribution": "Icon, Public domain, via Wikimedia Commons",
+      "imageDescription": "An icon depicting Gregory Palamas, whose theology was upheld at the 1351 synod.",
+      "wikidataId": "Q5746591",
+      "location": {
+        "historicalName": "Constantinople",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "latitude": 41.01361111,
+        "longitude": 28.955
+      }
+    },
+    {
+      "year": 1439,
+      "sig": "major",
+      "title": "The Union of Florence Attempts to Reunite the Churches",
+      "body": "Byzantine and Catholic bishops sign an agreement reuniting the Eastern and Western churches in a last bid for Western military aid against the Ottomans -- a union the Constantinople clergy and public reject on the delegation's return, and one that produces no meaningful help before the empire's fall.",
+      "tags": [
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Council_of_Florence",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Nuremberg_chronicles_f_244v_2_Concilium_florentinum.jpg/330px-Nuremberg_chronicles_f_244v_2_Concilium_florentinum.jpg",
+      "imageAttribution": "Woodcut by Michel Wolgemut and Wilhelm Pleydenwurff, Public domain, via Wikimedia Commons",
+      "imageDescription": "A 1493 Nuremberg Chronicle woodcut depicting the Council of Florence.",
+      "wikidataId": "Q321032",
+      "location": {
+        "historicalName": "Florence",
+        "city": "Florence",
+        "country": "Italy",
+        "latitude": 43.77138889,
+        "longitude": 11.25416667
+      }
+    },
+    {
+      "year": 1453,
+      "sig": "major",
+      "title": "Constantinople Falls to the Ottomans",
+      "body": "After a 53-day siege using massive cannon to breach the ancient walls, Ottoman sultan Mehmed II captures Constantinople, ending the Byzantine Empire and the last continuous link to ancient Rome.",
+      "tags": [
+        "battle",
+        "collapse"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Siege_of_Constantinople_fresco%2C_Moldovi%C8%9Ba_monastery%2C_Vatra_Moldovi%C8%9Bei%2C_2017.jpg/330px-Siege_of_Constantinople_fresco%2C_Moldovi%C8%9Ba_monastery%2C_Vatra_Moldovi%C8%9Bei%2C_2017.jpg",
+      "imageAttribution": "Fresco, Moldovița Monastery, photo by DimiTalen, CC0, via Wikimedia Commons",
+      "imageDescription": "A modern fresco at Moldovița Monastery in Romania depicting the siege of Constantinople.",
+      "wikidataId": "Q160077",
+      "location": {
+        "historicalName": "Constantinople",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "latitude": 41.01361111,
+        "longitude": 28.955
+      }
+    }
+  ]
+}

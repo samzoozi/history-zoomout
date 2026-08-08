@@ -1,0 +1,501 @@
+{
+  "id": "china",
+  "name": "China",
+  "colorIndex": 2,
+  "start": -221,
+  "end": 1279,
+  "summary": "China was unified for the first time by the Qin in 221 BC, and passed through the Han, a long period of division ended by the Sui, the cosmopolitan Tang, and the innovative Song dynasty before the Mongols completed their conquest of the country in 1279 AD.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/History_of_China",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/330px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
+  "imageAttribution": "Photo by Severin.stalder, CC BY-SA 3.0, via Wikimedia Commons",
+  "imageDescription": "The Great Wall of China at Jinshanling, one of its best-preserved sections.",
+  "wikidataId": "Q82972",
+  "events": [
+    {
+      "year": -221,
+      "sig": "major",
+      "tags": [
+        "founding",
+        "battle"
+      ],
+      "title": "Qin Shi Huang Unifies China",
+      "body": "Qin Shi Huang conquers the last rival states and declares himself the first emperor of a unified China, standardizing writing, currency, and law across the new empire.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Qin_Shi_Huang",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/QinShiHuang19century.jpg/330px-QinShiHuang19century.jpg",
+      "imageAttribution": "Public domain, via Wikimedia Commons",
+      "imageDescription": "A 19th-century portrait of Qin Shi Huang, copied from a 1609 Chinese original.",
+      "wikidataId": "Q7192",
+      "location": {
+        "historicalName": "Xianyang",
+        "city": "Xianyang",
+        "country": "China",
+        "latitude": 34.33,
+        "longitude": 108.71
+      }
+    },
+    {
+      "year": -214,
+      "sig": "minor",
+      "tags": [
+        "architecture"
+      ],
+      "title": "Construction Begins on the Great Wall",
+      "body": "Qin Shi Huang orders existing defensive walls linked and extended into a single fortified line across China's northern frontier, the ancestor of the wall that stands today.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/330px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
+      "imageAttribution": "Photo by Severin.stalder, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "The Great Wall of China at Jinshanling, part of the fortifications linked under Qin Shi Huang.",
+      "wikidataId": "Q12501"
+    },
+    {
+      "year": -202,
+      "sig": "major",
+      "tags": [
+        "founding",
+        "battle"
+      ],
+      "title": "Liu Bang Founds the Han Dynasty",
+      "body": "After defeating his rival Xiang Yu in the Chu-Han Contention, Liu Bang founds the Han dynasty, which will rule China for four centuries and give the Han Chinese their name.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Emperor_Gaozu_of_Han",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Liu-bang.jpg/330px-Liu-bang.jpg",
+      "imageAttribution": "Public domain, via Wikimedia Commons",
+      "imageDescription": "A Ming-dynasty portrait of Liu Bang, posthumously honored as Emperor Gaozu, founder of the Han dynasty.",
+      "wikidataId": "Q7210",
+      "location": {
+        "historicalName": "Chang'an",
+        "city": "Xi'an",
+        "country": "China",
+        "latitude": 34.26,
+        "longitude": 108.94
+      }
+    },
+    {
+      "year": 105,
+      "sig": "major",
+      "tags": [
+        "science"
+      ],
+      "title": "Cai Lun Refines Papermaking",
+      "body": "Han court official Cai Lun perfects a process for making paper from bark, hemp, and rags, a cheap and practical writing material that will eventually spread across the world.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cai_Lun",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Cai-lun.jpg/330px-Cai-lun.jpg",
+      "imageAttribution": "Public domain, via Wikimedia Commons",
+      "imageDescription": "A portrait of Cai Lun, the Han court official credited with refining papermaking.",
+      "wikidataId": "Q229235",
+      "location": {
+        "historicalName": "Luoyang",
+        "city": "Luoyang",
+        "country": "China",
+        "latitude": 34.62,
+        "longitude": 112.45
+      }
+    },
+    {
+      "year": 184,
+      "sig": "major",
+      "title": "The Yellow Turban Rebellion Erupts",
+      "body": "A Daoist-inspired peasant uprising erupts across eastern China in 184, as followers of the Way of Supreme Peace rise against Han rule amid famine and official corruption. The Han court crushes the main revolt within months, but the regional militias raised to suppress it outlast it and fracture imperial authority for good.",
+      "tags": [
+        "rebellion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Yellow_Turban_Rebellion",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Yellow_Turban_Rebellion.jpg/330px-Yellow_Turban_Rebellion.jpg",
+      "imageAttribution": "Map by SY (Seasonsinthesun), CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "A map showing the extent of the Yellow Turban Rebellion in the Eastern Han dynasty.",
+      "wikidataId": "Q751743"
+    },
+    {
+      "year": 208,
+      "sig": "major",
+      "title": "The Battle of Red Cliffs",
+      "body": "An outnumbered alliance of Liu Bei and Sun Quan destroys Cao Cao's fleet on the Yangtze River using fire ships, routing his much larger army. The defeat ends Cao Cao's bid to reunify China under his own rule and sets up the three-way split of the Three Kingdoms period.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Red_Cliffs",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Chibi.jpg/330px-Chibi.jpg",
+      "imageAttribution": "Photo by User Jie, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "The traditional site of the Battle of Red Cliffs on the Yangtze River, photographed in 2003.",
+      "wikidataId": "Q830059",
+      "location": {
+        "historicalName": "Chibi",
+        "city": "Chibi",
+        "country": "China",
+        "latitude": 29.72,
+        "longitude": 113.9
+      }
+    },
+    {
+      "year": 220,
+      "sig": "major",
+      "title": "Cao Pi Ends the Han Dynasty",
+      "body": "Cao Pi forces the last Han emperor, Xian, to abdicate in his favor, formally ending four centuries of Han rule and founding the state of Cao Wei. Rival claimants Liu Bei and Sun Quan soon proclaim their own empires, opening the Three Kingdoms period.",
+      "tags": [
+        "collapse",
+        "founding"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cao_Pi",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Cao_Pi_Tang.jpg/330px-Cao_Pi_Tang.jpg",
+      "imageAttribution": "Painting by Yan Liben, Public domain, via Wikimedia Commons",
+      "imageDescription": "A detail of Cao Pi from the Thirteen Emperors Scroll, attributed to the Tang-dynasty painter Yan Liben.",
+      "wikidataId": "Q313333",
+      "location": {
+        "historicalName": "Luoyang",
+        "city": "Luoyang",
+        "country": "China",
+        "latitude": 34.62,
+        "longitude": 112.45
+      }
+    },
+    {
+      "year": 280,
+      "sig": "major",
+      "title": "The Jin Dynasty Reunifies China",
+      "body": "Jin forces conquer the southern state of Eastern Wu, ending the Three Kingdoms period and reuniting China under a single ruler for the first time since the Han collapse six decades earlier. The reunification proves short-lived, as succession wars and nomadic invasions fracture the Jin within a generation.",
+      "tags": [
+        "founding"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jin_dynasty_(266%E2%80%93420)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Western_Jeun_Dynasty_280_CE.png/330px-Western_Jeun_Dynasty_280_CE.png",
+      "imageAttribution": "Map by Ian Kiu, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "Map of the Western Jin dynasty's territory around 280 CE, after its reunification of China.",
+      "wikidataId": "Q7352",
+      "location": {
+        "historicalName": "Luoyang",
+        "city": "Luoyang",
+        "country": "China",
+        "latitude": 34.62,
+        "longitude": 112.45
+      }
+    },
+    {
+      "year": 460,
+      "sig": "minor",
+      "title": "The Yungang Grottoes Are Carved",
+      "body": "Northern Wei monks begin carving the Yungang Grottoes into a cliff face near the capital Pingcheng, eventually completing dozens of Buddhist cave shrines filled with monumental stone Buddhas under imperial and private patronage. The site becomes one of the great showcases of early Chinese Buddhist sculpture.",
+      "tags": [
+        "art",
+        "religion",
+        "architecture"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Yungang_Grottoes",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/61292-Yungang-Grottoes_%2828498548881%29.jpg/330px-61292-Yungang-Grottoes_%2828498548881%29.jpg",
+      "imageAttribution": "Photo by xiquinhosilva, CC BY 2.0, via Wikimedia Commons",
+      "imageDescription": "Buddhist cave shrines at the Yungang Grottoes near Datong.",
+      "wikidataId": "Q308805",
+      "location": {
+        "historicalName": "Pingcheng",
+        "city": "Datong",
+        "country": "China",
+        "latitude": 40.1,
+        "longitude": 113.37
+      }
+    },
+    {
+      "year": 494,
+      "sig": "major",
+      "title": "Northern Wei Moves Its Capital and Adopts Han Customs",
+      "body": "Emperor Xiaowen relocates the Northern Wei capital from Pingcheng to Luoyang and orders the ruling Xianbei elite to adopt Han Chinese dress, language, and surnames. The sinicization campaign accelerates the fusion of nomadic and Chinese elites that shapes the reunified empires to follow.",
+      "tags": [
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Emperor_Xiaowen_of_Northern_Wei",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Emperor_Xiaowen_of_Northern_Wei.jpg/330px-Emperor_Xiaowen_of_Northern_Wei.jpg",
+      "imageAttribution": "Public domain, via Wikimedia Commons",
+      "imageDescription": "A traditional portrait of Emperor Xiaowen of Northern Wei.",
+      "wikidataId": "Q1327614",
+      "location": {
+        "historicalName": "Luoyang",
+        "city": "Luoyang",
+        "country": "China",
+        "latitude": 34.62,
+        "longitude": 112.45
+      }
+    },
+    {
+      "year": 581,
+      "sig": "major",
+      "tags": [
+        "founding"
+      ],
+      "title": "Sui Wendi Reunifies China",
+      "body": "Emperor Wen ends nearly four centuries of division following the Han collapse, reuniting China under the short-lived Sui dynasty and laying the groundwork for the Grand Canal and the Tang golden age that follows.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Emperor_Wen_of_Sui",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Sui_Wendi_Tang.jpg/330px-Sui_Wendi_Tang.jpg",
+      "imageAttribution": "Painting by Yan Liben, Public domain, via Wikimedia Commons",
+      "imageDescription": "A traditional Chinese portrait of Emperor Wen of Sui, founder of the short-lived Sui dynasty.",
+      "wikidataId": "Q7418",
+      "location": {
+        "historicalName": "Chang'an",
+        "city": "Xi'an",
+        "country": "China",
+        "latitude": 34.26,
+        "longitude": 108.94
+      }
+    },
+    {
+      "year": 609,
+      "sig": "minor",
+      "title": "The Grand Canal Is Completed",
+      "body": "Emperor Yang of Sui completes a system of canals linking the Yellow and Yangtze river basins, creating a single waterway that lets grain and goods move between north and south China. The canal becomes the backbone of the empire's economy for the next thousand years, even as the labor demands used to build it help provoke revolt against the Sui.",
+      "tags": [
+        "architecture"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Canal_(China)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Wanning_Bridge_1.jpg/330px-Wanning_Bridge_1.jpg",
+      "imageAttribution": "Photo by EditQ, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "Wanning Bridge, spanning a section of the Grand Canal.",
+      "wikidataId": "Q31347"
+    },
+    {
+      "year": 618,
+      "sig": "major",
+      "title": "The Sui Dynasty Falls",
+      "body": "Years of failed campaigns against Goguryeo and crushing conscription for canal and wall projects trigger rebellions across the empire, and Emperor Yang is assassinated by his own guards at Jiangdu. The Sui collapses after only 37 years, clearing the way for the Tang dynasty.",
+      "tags": [
+        "collapse"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Emperor_Yang_of_Sui",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sui_Yangdi_Tang.jpg/330px-Sui_Yangdi_Tang.jpg",
+      "imageAttribution": "Painting by Yan Liben, Public domain, via Wikimedia Commons",
+      "imageDescription": "A detail of Emperor Yang of Sui from the Thirteen Emperors Scroll, attributed to Yan Liben.",
+      "wikidataId": "Q7419",
+      "location": {
+        "historicalName": "Jiangdu",
+        "city": "Yangzhou",
+        "country": "China",
+        "latitude": 32.39,
+        "longitude": 119.41
+      }
+    },
+    {
+      "year": 630,
+      "sig": "minor",
+      "tags": [
+        "battle"
+      ],
+      "title": "Tang Taizong Becomes 'Heavenly Khan'",
+      "body": "Emperor Taizong's defeat of the Eastern Turkic Khaganate leads the steppe peoples to acclaim him 'Heavenly Khan,' a title recognizing Tang authority over both China and the nomadic frontier.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Emperor_Taizong_of_Tang",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/TangTaizong.jpg/330px-TangTaizong.jpg",
+      "imageAttribution": "Public domain, via Wikimedia Commons",
+      "imageDescription": "A traditional portrait of Emperor Taizong of Tang.",
+      "wikidataId": "Q9701",
+      "location": {
+        "historicalName": "Chang'an",
+        "city": "Xi'an",
+        "country": "China",
+        "latitude": 34.26,
+        "longitude": 108.94
+      }
+    },
+    {
+      "year": 645,
+      "sig": "minor",
+      "title": "Xuanzang Returns from His Pilgrimage to India",
+      "body": "The monk Xuanzang returns to Chang'an after a seventeen-year overland pilgrimage to India, bringing back hundreds of Buddhist texts to resolve contradictions in the scriptures then circulating in China. His translations and travel account reshape Chinese Buddhism and become a major historical source on Central Asia and India.",
+      "tags": [
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Xuanzang",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Xuanzang_w.jpg/330px-Xuanzang_w.jpg",
+      "imageAttribution": "Public domain, via Wikimedia Commons",
+      "imageDescription": "A traditional depiction of the monk Xuanzang on his journey to India.",
+      "wikidataId": "Q42063",
+      "location": {
+        "historicalName": "Chang'an",
+        "city": "Xi'an",
+        "country": "China",
+        "latitude": 34.26,
+        "longitude": 108.94
+      }
+    },
+    {
+      "year": 690,
+      "sig": "major",
+      "title": "Wu Zetian Becomes Emperor",
+      "body": "Wu Zetian deposes her own son and proclaims herself huangdi, founding the short-lived Zhou dynasty and becoming the only woman to rule China in her own right rather than as a regent or consort. She governs from Luoyang for fifteen years before being forced to abdicate and restore the Tang.",
+      "tags": [
+        "governance",
+        "founding"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Wu_Zetian",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Gilded_Statue_of_Wu_Zetian_in_Huangze_Temple.jpg/330px-Gilded_Statue_of_Wu_Zetian_in_Huangze_Temple.jpg",
+      "imageAttribution": "Photo by wanghongliu, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A gilded statue of Wu Zetian at Huangze Temple.",
+      "wikidataId": "Q9738",
+      "location": {
+        "historicalName": "Luoyang",
+        "city": "Luoyang",
+        "country": "China",
+        "latitude": 34.62,
+        "longitude": 112.45
+      }
+    },
+    {
+      "year": 755,
+      "sig": "major",
+      "tags": [
+        "battle",
+        "rebellion"
+      ],
+      "title": "An Lushan Rebellion Devastates Tang China",
+      "body": "General An Lushan revolts against the Tang court, igniting an eight-year civil war so destructive that census records suggest China's population fell by tens of millions -- a blow the dynasty never fully recovers from.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/An_Lushan_rebellion",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/An_Lushan_Rebellion.png/330px-An_Lushan_Rebellion.png",
+      "imageAttribution": "Map by SY, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "A map of the territory affected by the An Lushan Rebellion.",
+      "wikidataId": "Q253774",
+      "location": {
+        "historicalName": "Fanyang",
+        "city": "Beijing",
+        "country": "China",
+        "latitude": 39.91,
+        "longitude": 116.4
+      }
+    },
+    {
+      "year": 868,
+      "sig": "minor",
+      "title": "The Diamond Sutra Is Printed",
+      "body": "A woodblock-printed copy of the Diamond Sutra is produced for free distribution, its colophon dating it precisely to 868. Discovered centuries later at the Mogao Caves near Dunhuang, it survives as the world's oldest complete dated printed book.",
+      "tags": [
+        "science",
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Diamond_Sutra",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Jingangjing.jpg/330px-Jingangjing.jpg",
+      "imageAttribution": "Public domain, via Wikimedia Commons",
+      "imageDescription": "A page from the 868 CE printed copy of the Diamond Sutra, now in the British Library.",
+      "wikidataId": "Q494235",
+      "location": {
+        "historicalName": "Dunhuang",
+        "city": "Dunhuang",
+        "country": "China",
+        "latitude": 40.14,
+        "longitude": 94.66
+      }
+    },
+    {
+      "year": 907,
+      "sig": "major",
+      "title": "The Tang Dynasty Falls",
+      "body": "The warlord Zhu Wen forces the last Tang emperor to abdicate, ending nearly 300 years of Tang rule and founding the Later Liang dynasty. His act opens the fractured Five Dynasties and Ten Kingdoms period that lasts until the Song reunification in 960.",
+      "tags": [
+        "collapse"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Zhu_Wen",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Zhu_Wen_%28Liang_Taizu%29.jpg/330px-Zhu_Wen_%28Liang_Taizu%29.jpg",
+      "imageAttribution": "Public domain, via Wikimedia Commons",
+      "imageDescription": "A traditional portrait of Zhu Wen, Emperor Taizu of Later Liang.",
+      "wikidataId": "Q1275305",
+      "location": {
+        "historicalName": "Luoyang",
+        "city": "Luoyang",
+        "country": "China",
+        "latitude": 34.62,
+        "longitude": 112.45
+      }
+    },
+    {
+      "year": 960,
+      "sig": "major",
+      "tags": [
+        "founding"
+      ],
+      "title": "The Song Dynasty Is Founded",
+      "body": "General Zhao Kuangyin is proclaimed emperor by his own troops and founds the Song dynasty, ushering in an era of economic growth, urbanization, and technological innovation like gunpowder and movable-type printing.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Emperor_Taizu_of_Song",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Song_Taizu.jpg/330px-Song_Taizu.jpg",
+      "imageAttribution": "Public domain, via Wikimedia Commons",
+      "imageDescription": "A traditional portrait of Song Taizu (Zhao Kuangyin), founder of the Song dynasty, from a scroll later remounted in the Qing dynasty.",
+      "wikidataId": "Q7471",
+      "location": {
+        "historicalName": "Bianjing",
+        "city": "Kaifeng",
+        "country": "China",
+        "latitude": 34.8,
+        "longitude": 114.35
+      }
+    },
+    {
+      "year": 1041,
+      "sig": "minor",
+      "title": "Bi Sheng Invents Movable Type Printing",
+      "body": "The artisan Bi Sheng develops the world's first movable type system, using individually carved and fired clay characters that can be arranged and reused for different texts. Wood and metal type later prove more durable, but his invention anticipates print technology that will not reach Europe for another four centuries.",
+      "tags": [
+        "science"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bi_Sheng",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Beijing.Musee_imprimerie.caracteres_mobiles.Bisheng.jpg/330px-Beijing.Musee_imprimerie.caracteres_mobiles.Bisheng.jpg",
+      "imageAttribution": "Photo by Popolon, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "A reconstruction of Bi Sheng's movable clay type printing tools at the China Printing Museum.",
+      "wikidataId": "Q200662"
+    },
+    {
+      "year": 1069,
+      "sig": "major",
+      "title": "Wang Anshi Launches the New Policies",
+      "body": "Chancellor Wang Anshi launches a sweeping program of economic and administrative reforms, including state loans to farmers, a reorganized tax system, and a merit-based military draft, aiming to strengthen the Song state's finances and defenses. The New Policies split the court into bitter reformist and conservative factions and are repeatedly overturned and revived for decades after his death.",
+      "tags": [
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Wang_Anshi",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Wang_Anshi.jpg/330px-Wang_Anshi.jpg",
+      "imageAttribution": "Public domain, via Wikimedia Commons",
+      "imageDescription": "A traditional portrait of the Song-dynasty chancellor Wang Anshi.",
+      "wikidataId": "Q319618",
+      "location": {
+        "historicalName": "Bianjing",
+        "city": "Kaifeng",
+        "country": "China",
+        "latitude": 34.8,
+        "longitude": 114.35
+      }
+    },
+    {
+      "year": 1127,
+      "sig": "major",
+      "title": "The Jingkang Incident Ends the Northern Song",
+      "body": "Jurchen Jin forces storm the Song capital Bianjing, capturing Emperor Huizong, his son Emperor Qinzong, and thousands of the imperial court. A surviving prince flees south and re-establishes the dynasty as the Southern Song, but the north is lost to the Jin for good.",
+      "tags": [
+        "battle",
+        "collapse"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jingkang_incident",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Huizong.jpg/330px-Huizong.jpg",
+      "imageAttribution": "Public domain, via Wikimedia Commons",
+      "imageDescription": "A portrait of Emperor Huizong of Song, captured during the Jingkang Incident.",
+      "wikidataId": "Q1326831",
+      "location": {
+        "historicalName": "Bianjing",
+        "city": "Kaifeng",
+        "country": "China",
+        "latitude": 34.8,
+        "longitude": 114.35
+      }
+    },
+    {
+      "year": 1279,
+      "sig": "major",
+      "tags": [
+        "battle",
+        "collapse"
+      ],
+      "title": "Mongols Conquer the Song Dynasty",
+      "body": "Kublai Khan's fleet destroys the last Song loyalist forces at the naval Battle of Yamen, completing the Mongol conquest of China and founding the Yuan dynasty.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Yamen",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Jingmen002.jpg/500px-Jingmen002.jpg",
+      "imageAttribution": "Photo by 长夜无风, CC BY 3.0, via Wikimedia Commons",
+      "imageDescription": "The modern memorial site at Yamen, Guangdong, marking the naval battle that ended the Song dynasty.",
+      "wikidataId": null,
+      "location": {
+        "historicalName": "Yamen",
+        "city": "Jiangmen",
+        "country": "China",
+        "latitude": 22.27,
+        "longitude": 113.08
+      }
+    }
+  ]
+}

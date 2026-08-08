@@ -1,0 +1,607 @@
+{
+  "id": "japan",
+  "name": "Japan",
+  "colorIndex": 8,
+  "start": 300,
+  "end": 1868,
+  "summary": "The Yamato clan's chieftains unify much of Japan from the Nara Basin around 300 AD, and over the next millennium the country moves through waves of continental influence -- Buddhism, Chinese-style law codes, and courtly aristocracy -- before military governments led by shoguns take real power from 1192 onward. Centuries of feudal warfare give way to Tokugawa unification and two and a half centuries of enforced isolation, which ends when American warships force Japan open in 1853 and the shogunate collapses in the 1868 Meiji Restoration.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/History_of_Japan",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Daibutsu-den_in_Todaiji_Nara01bs3200.jpg/330px-Daibutsu-den_in_Todaiji_Nara01bs3200.jpg",
+  "imageAttribution": "Photo by 663highland, CC BY 2.5, via Wikimedia Commons",
+  "imageDescription": "The Great Buddha Hall of Tōdai-ji temple in Nara, one of Japan's most significant early Buddhist temples.",
+  "wikidataId": "Q130436",
+  "events": [
+    {
+      "year": 300,
+      "sig": "major",
+      "tags": [
+        "founding"
+      ],
+      "title": "Yamato Polity Unifies the Nara Basin",
+      "body": "Chieftains of the Yamato clan consolidate power over the Nara Basin and neighboring regions, founding the imperial line that rules Japan, at least in name, to the present day.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kofun_period",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Yamato_Kingship_ethnic_groups.svg/330px-Yamato_Kingship_ethnic_groups.svg.png",
+      "imageAttribution": "Map by Immanuelle, CC BY 4.0, via Wikimedia Commons",
+      "imageDescription": "A map of ethnic groups within the early Yamato polity.",
+      "wikidataId": "Q459939",
+      "location": {
+        "historicalName": "Yamato",
+        "city": "Nara",
+        "country": "Japan",
+        "latitude": 34.68444444,
+        "longitude": 135.805
+      }
+    },
+    {
+      "year": 552,
+      "sig": "major",
+      "tags": [
+        "religion"
+      ],
+      "title": "Buddhism Arrives from Baekje",
+      "body": "King Seong of the Korean kingdom of Baekje sends Emperor Kinmei's court a Buddha image, sutras, and ritual banners, introducing Buddhism to Japan and beginning its long fusion with native Shinto practice.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Buddhism_in_Japan",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Asuka_dera_daibutsu.jpg/330px-Asuka_dera_daibutsu.jpg",
+      "imageAttribution": "Photo by Chris 73, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "The Asuka Great Buddha at Asuka-dera, Japan's oldest Buddhist temple, founded soon after Buddhism's introduction.",
+      "wikidataId": "Q736311",
+      "location": {
+        "historicalName": "Asuka",
+        "city": "Asuka",
+        "country": "Japan",
+        "latitude": 34.47130556,
+        "longitude": 135.82072222
+      }
+    },
+    {
+      "year": 645,
+      "sig": "major",
+      "tags": [
+        "founding",
+        "governance"
+      ],
+      "title": "Isshi Incident Triggers the Taika Reform",
+      "body": "Prince Naka no Ōe and Nakatomi no Kamatari assassinate the powerful minister Soga no Iruka at court, clearing the way for Emperor Kōtoku's Taika Reform, which recasts Japan's government along centralized Chinese Tang lines.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Taika_Reform",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Irukaansatsuzu.jpg/330px-Irukaansatsuzu.jpg",
+      "imageAttribution": "Scroll painting by Gukei Sumiyoshi, public domain, via Wikimedia Commons",
+      "imageDescription": "A depiction of the assassination of Soga no Iruka from the Tōnomine Engi scroll, painted in the Edo period.",
+      "wikidataId": "Q570140",
+      "location": {
+        "historicalName": "Asuka",
+        "city": "Asuka",
+        "country": "Japan",
+        "latitude": 34.47130556,
+        "longitude": 135.82072222
+      }
+    },
+    {
+      "year": 710,
+      "sig": "major",
+      "tags": [
+        "founding",
+        "architecture"
+      ],
+      "title": "Capital Moves to Heijō-kyō",
+      "body": "Empress Genmei relocates Japan's capital to Heijō-kyō, a grid-planned city modeled on the Tang Chinese capital, opening the Nara period and giving Japan its first stable, permanent seat of government.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nara_period",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Heijokyo_-_Map_of_major_buildings.png/330px-Heijokyo_-_Map_of_major_buildings.png",
+      "imageAttribution": "Map by Binabik155, CC BY 3.0, via Wikimedia Commons",
+      "imageDescription": "A map of the major buildings of Heijō-kyō, Japan's 8th-century capital, as it stood by the end of that century.",
+      "wikidataId": "Q189178",
+      "location": {
+        "historicalName": "Heijō-kyō",
+        "city": "Nara",
+        "country": "Japan",
+        "latitude": 34.69111111,
+        "longitude": 135.79555556
+      }
+    },
+    {
+      "year": 712,
+      "sig": "minor",
+      "tags": [
+        "science"
+      ],
+      "title": "The Kojiki Records Japan's Origin Myths",
+      "body": "Court scribe Ō no Yasumaro completes the Kojiki, Japan's oldest surviving chronicle, setting down the imperial line's mythic origins and oral traditions at Empress Genmei's request.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kojiki",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Shinpukuji-bon_Kojiki_%28%E7%9C%9F%E7%A6%8F%E5%AF%BA%E6%9C%AC%E5%8F%A4%E4%BA%8B%E8%A8%98%29.png/330px-Shinpukuji-bon_Kojiki_%28%E7%9C%9F%E7%A6%8F%E5%AF%BA%E6%9C%AC%E5%8F%A4%E4%BA%8B%E8%A8%98%29.png",
+      "imageAttribution": "Manuscript facsimile by Ken'yu and Koten Hozonkai, public domain, via Wikimedia Commons",
+      "imageDescription": "A page from a 1920s facsimile of the 14th-century Shinpukuji manuscript of the Kojiki.",
+      "wikidataId": "Q813031",
+      "location": {
+        "historicalName": "Heijō-kyō",
+        "city": "Nara",
+        "country": "Japan",
+        "latitude": 34.69111111,
+        "longitude": 135.79555556
+      }
+    },
+    {
+      "year": 752,
+      "sig": "major",
+      "tags": [
+        "religion",
+        "architecture",
+        "art"
+      ],
+      "title": "Great Buddha of Tōdai-ji Is Dedicated",
+      "body": "Emperor Shōmu presides over the eye-opening ceremony for Tōdai-ji's Great Buddha, a colossal bronze statue built to anchor a nationwide network of Buddhist temples and project imperial authority through faith.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/T%C5%8Ddai-ji",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/NaraTodaijiDaibutsu_Incised_Images0.JPG/330px-NaraTodaijiDaibutsu_Incised_Images0.JPG",
+      "imageAttribution": "Rubbing by an anonymous artist, public domain, via Wikimedia Commons",
+      "imageDescription": "A 1930-published rubbing of an incised bronze lotus petal from the Great Buddha's original 752 pedestal.",
+      "wikidataId": "Q460367",
+      "location": {
+        "historicalName": "Heijō-kyō",
+        "city": "Nara",
+        "country": "Japan",
+        "latitude": 34.69111111,
+        "longitude": 135.79555556
+      }
+    },
+    {
+      "year": 794,
+      "sig": "major",
+      "tags": [
+        "founding",
+        "art"
+      ],
+      "title": "Capital Moves to Heian-kyō",
+      "body": "Emperor Kanmu relocates the capital to Heian-kyō, opening the four-century Heian period in which a hereditary court aristocracy presides over a golden age of Japanese literature and art.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Heian_period",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Genji_emaki_TAKEKAWA.jpg/330px-Genji_emaki_TAKEKAWA.jpg",
+      "imageAttribution": "Illustrated scroll from The Tale of Genji, Imperial court in Kyoto, public domain, via Wikimedia Commons",
+      "imageDescription": "A scene from the illustrated Tale of Genji handscroll (Genji Monogatari Emaki), an early 12th-century work depicting Heian court life.",
+      "wikidataId": "Q193292",
+      "location": {
+        "historicalName": "Heian-kyō",
+        "city": "Kyoto",
+        "country": "Japan",
+        "latitude": 35.01161,
+        "longitude": 135.76811
+      }
+    },
+    {
+      "year": 1008,
+      "sig": "minor",
+      "tags": [
+        "art"
+      ],
+      "title": "Murasaki Shikibu Writes The Tale of Genji",
+      "body": "Court lady-in-waiting Murasaki Shikibu completes The Tale of Genji around the height of the Heian period, a sweeping court romance widely regarded as the world's first novel and a landmark of Japanese prose.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Tale_of_Genji",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Genji_emaki_01003_002.jpg/330px-Genji_emaki_01003_002.jpg",
+      "imageAttribution": "Scroll fragment, artist likely Fujiwara Takachika or Takayoshi, public domain, via Wikimedia Commons",
+      "imageDescription": "A 12th-century illustrated scroll fragment (Genji Monogatari Emaki) depicting a scene from The Tale of Genji, held at the Gotoh Museum.",
+      "wikidataId": "Q8269",
+      "location": {
+        "historicalName": "Heian-kyō",
+        "city": "Kyoto",
+        "country": "Japan",
+        "latitude": 35.01161,
+        "longitude": 135.76811
+      }
+    },
+    {
+      "year": 1185,
+      "sig": "major",
+      "tags": [
+        "battle",
+        "collapse"
+      ],
+      "title": "Battle of Dan-no-ura Ends the Genpei War",
+      "body": "The Minamoto fleet annihilates the Taira clan's navy in the Kanmon Strait, drowning the child emperor Antoku with it and ending the five-year Genpei War that clears Minamoto no Yoritomo's path to founding the Kamakura shogunate.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Dan-no-ura",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/AntokuTennou_Engi.7%268_Dannoura_Kassen.jpg/330px-AntokuTennou_Engi.7%268_Dannoura_Kassen.jpg",
+      "imageAttribution": "Painting by Tosa Mitsunobu, public domain, via Wikimedia Commons",
+      "imageDescription": "A scroll painting depicting the naval Battle of Dan-no-ura, from the illustrated biography of Emperor Antoku.",
+      "wikidataId": "Q968676",
+      "location": {
+        "historicalName": "Dan-no-ura",
+        "city": "Shimonoseki",
+        "country": "Japan",
+        "latitude": 33.96508,
+        "longitude": 130.95664
+      }
+    },
+    {
+      "year": 1191,
+      "sig": "minor",
+      "tags": [
+        "religion"
+      ],
+      "title": "Eisai Introduces Zen Buddhism",
+      "body": "The monk Myōan Eisai returns from studying in China and founds Shōfuku-ji, Japan's first Zen temple, introducing the Rinzai school that becomes deeply entwined with the later samurai class.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Eisai",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Myoan-Eisai-Kennin-ji-Portrait.png/330px-Myoan-Eisai-Kennin-ji-Portrait.png",
+      "imageAttribution": "Portrait, artist unknown, public domain, via Wikimedia Commons",
+      "imageDescription": "A traditional portrait of the Zen monk Eisai, founder of Japan's Rinzai school.",
+      "wikidataId": "Q366128",
+      "location": {
+        "historicalName": "Hakata",
+        "city": "Fukuoka",
+        "country": "Japan",
+        "latitude": 33.59702778,
+        "longitude": 130.41411111
+      }
+    },
+    {
+      "year": 1192,
+      "sig": "major",
+      "tags": [
+        "founding"
+      ],
+      "title": "Minamoto no Yoritomo Becomes Shogun",
+      "body": "Minamoto no Yoritomo receives the title of shogun from the emperor, formalizing the military government he had already built at Kamakura and beginning nearly seven centuries of rule by warrior-class shoguns rather than the imperial court.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kamakura_shogunate",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Procession-of-Minamoto-no-Yoritomo-visits-Kyoto-1190-Utagawa-Sadahide.png/330px-Procession-of-Minamoto-no-Yoritomo-visits-Kyoto-1190-Utagawa-Sadahide.png",
+      "imageAttribution": "Woodblock print by Utagawa Sadahide, public domain, via Wikimedia Commons",
+      "imageDescription": "An 1862 print depicting Minamoto no Yoritomo's procession into Kyoto, around 1190.",
+      "wikidataId": "Q736839",
+      "location": {
+        "historicalName": "Kamakura",
+        "city": "Kamakura",
+        "country": "Japan",
+        "latitude": 35.31972222,
+        "longitude": 139.5525
+      }
+    },
+    {
+      "year": 1281,
+      "sig": "major",
+      "tags": [
+        "battle"
+      ],
+      "title": "Kamikaze Repel the Second Mongol Invasion",
+      "body": "A typhoon destroys Kublai Khan's invasion fleet off Kyushu for the second time in seven years, ending Mongol attempts to conquer Japan and giving rise to the legend of the kamikaze, or \"divine wind.\"",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mongol_invasions_of_Japan",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Mongol_invasions_of_Japan_1274%2C_1281.jpg/330px-Mongol_invasions_of_Japan_1274%2C_1281.jpg",
+      "imageAttribution": "Illustration by Qiushufang, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "A map of the two Mongol invasion routes into Japan in 1274 and 1281.",
+      "wikidataId": "Q208156",
+      "location": {
+        "historicalName": "Hakata Bay",
+        "city": "Fukuoka",
+        "country": "Japan",
+        "latitude": 33.59,
+        "longitude": 130.40166667
+      }
+    },
+    {
+      "year": 1333,
+      "sig": "major",
+      "tags": [
+        "collapse",
+        "rebellion"
+      ],
+      "title": "Kenmu Restoration Ends the Kamakura Shogunate",
+      "body": "Emperor Go-Daigo, backed by defecting warlords Ashikaga Takauji and Nitta Yoshisada, topples the Kamakura shogunate and briefly restores direct imperial rule, an arrangement that collapses within three years into renewed civil war.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kenmu_Restoration",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Emperor_Godaigo_by_Monkan-b%C5%8D_K%C5%8Dshin.jpg/330px-Emperor_Godaigo_by_Monkan-b%C5%8D_K%C5%8Dshin.jpg",
+      "imageAttribution": "Portrait by Monkan-bō Kōshin, public domain, via Wikimedia Commons",
+      "imageDescription": "A portrait of Emperor Go-Daigo, who led the Kenmu Restoration against the Kamakura shogunate.",
+      "wikidataId": "Q826021",
+      "location": {
+        "historicalName": "Heian-kyō",
+        "city": "Kyoto",
+        "country": "Japan",
+        "latitude": 35.01161,
+        "longitude": 135.76811
+      }
+    },
+    {
+      "year": 1338,
+      "sig": "major",
+      "tags": [
+        "founding"
+      ],
+      "title": "Ashikaga Takauji Becomes Shogun",
+      "body": "Ashikaga Takauji, having turned on Emperor Go-Daigo and installed a rival imperial line, receives the title of shogun and founds the Ashikaga shogunate, opening the Muromachi period.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ashikaga_Takauji",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Ashikaga_Takauji_J%C5%8Ddo-ji.jpg/330px-Ashikaga_Takauji_J%C5%8Ddo-ji.jpg",
+      "imageAttribution": "Portrait, artist unknown, public domain, via Wikimedia Commons",
+      "imageDescription": "A portrait traditionally identified as Ashikaga Takauji, founder of the Ashikaga shogunate.",
+      "wikidataId": "Q297107",
+      "location": {
+        "historicalName": "Heian-kyō",
+        "city": "Kyoto",
+        "country": "Japan",
+        "latitude": 35.01161,
+        "longitude": 135.76811
+      }
+    },
+    {
+      "year": 1397,
+      "sig": "minor",
+      "tags": [
+        "architecture",
+        "art"
+      ],
+      "title": "Kinkaku-ji Rises as a Symbol of Muromachi Culture",
+      "body": "Shogun Ashikaga Yoshimitsu converts a Kyoto villa into Kinkaku-ji, the gold-leafed Golden Pavilion, embodying the refined Kitayama culture that flourishes under Ashikaga patronage.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kinkaku-ji",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Golden_Pavilion_Kinkaku-ji_water_mirror_2024.jpg/330px-Golden_Pavilion_Kinkaku-ji_water_mirror_2024.jpg",
+      "imageAttribution": "Photo by Nacaru, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "The Golden Pavilion of Kinkaku-ji in Kyoto, reflected in its surrounding pond.",
+      "wikidataId": "Q270983",
+      "location": {
+        "historicalName": "Kitayama",
+        "city": "Kyoto",
+        "country": "Japan",
+        "latitude": 35.0395,
+        "longitude": 135.7285
+      }
+    },
+    {
+      "year": 1467,
+      "sig": "major",
+      "tags": [
+        "battle",
+        "collapse"
+      ],
+      "title": "Ōnin War Shatters Central Authority",
+      "body": "A succession dispute among the shogunate's leading families erupts into a decade of fighting centered on Kyoto, permanently weakening the Ashikaga shogunate and opening the Sengoku, or \"Warring States,\" era of rival regional daimyo.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/%C5%8Cnin_War",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Onin-War-1467-1477-The-Battle-of-Onin-by-Utagawa-Yoshitora.png/330px-Onin-War-1467-1477-The-Battle-of-Onin-by-Utagawa-Yoshitora.png",
+      "imageAttribution": "Woodblock print by Utagawa Yoshitora, public domain, via Wikimedia Commons",
+      "imageDescription": "The Battle of Ōnin during the Ōnin War (1467-1477), depicted by Utagawa Yoshitora.",
+      "wikidataId": "Q385676",
+      "location": {
+        "historicalName": "Heian-kyō",
+        "city": "Kyoto",
+        "country": "Japan",
+        "latitude": 35.01161,
+        "longitude": 135.76811
+      }
+    },
+    {
+      "year": 1549,
+      "sig": "major",
+      "tags": [
+        "religion"
+      ],
+      "title": "Francis Xavier Introduces Christianity",
+      "body": "Jesuit missionary Francis Xavier lands at Kagoshima to open the first Christian mission in Japan, beginning nearly a century of missionary activity that Tokugawa rulers later move to suppress.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Francis_Xavier",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Franciscus_de_Xabier.jpg/330px-Franciscus_de_Xabier.jpg",
+      "imageAttribution": "Illustration from a Japanese history volume covering the Kamakura through Sengoku periods, public domain, via Wikimedia Commons",
+      "imageDescription": "A traditional portrait of the Jesuit missionary Francis Xavier.",
+      "wikidataId": "Q163900",
+      "location": {
+        "historicalName": "Kagoshima",
+        "city": "Kagoshima",
+        "country": "Japan",
+        "latitude": 31.59694444,
+        "longitude": 130.55722222
+      }
+    },
+    {
+      "year": 1573,
+      "sig": "major",
+      "tags": [
+        "collapse",
+        "battle"
+      ],
+      "title": "Oda Nobunaga Topples the Ashikaga Shogunate",
+      "body": "Oda Nobunaga expels shogun Ashikaga Yoshiaki from Kyoto, ending the 237-year Ashikaga shogunate and launching his campaign of forcible reunification that Toyotomi Hideyoshi and Tokugawa Ieyasu later complete.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Oda_Nobunaga",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Odanobunaga.jpg/330px-Odanobunaga.jpg",
+      "imageAttribution": "Portrait by Kanō Sōshū, public domain, via Wikimedia Commons",
+      "imageDescription": "A portrait of the warlord Oda Nobunaga.",
+      "wikidataId": "Q171411",
+      "location": {
+        "historicalName": "Heian-kyō",
+        "city": "Kyoto",
+        "country": "Japan",
+        "latitude": 35.01161,
+        "longitude": 135.76811
+      }
+    },
+    {
+      "year": 1588,
+      "sig": "minor",
+      "tags": [
+        "governance"
+      ],
+      "title": "Hideyoshi Orders the Sword Hunt",
+      "body": "Toyotomi Hideyoshi decrees a nationwide sword hunt disarming the peasantry, a foundational step in fixing a rigid separation between the warrior and farming classes that endures through the Edo period.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sword_hunt",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Toyotomi_Hideyoshi_c1598_Kodai-ji_Temple.png/330px-Toyotomi_Hideyoshi_c1598_Kodai-ji_Temple.png",
+      "imageAttribution": "Portrait by Kanō Mitsunobu, public domain, via Wikimedia Commons",
+      "imageDescription": "A 1598 portrait of Toyotomi Hideyoshi, held at Kōdai-ji Temple in Kyoto.",
+      "wikidataId": "Q1133763"
+    },
+    {
+      "year": 1592,
+      "sig": "major",
+      "tags": [
+        "battle"
+      ],
+      "title": "Japan Invades Korea",
+      "body": "Toyotomi Hideyoshi launches a massive invasion of Korea aimed ultimately at conquering Ming China, opening six years of brutal warfare across the peninsula before ending in Japanese withdrawal.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Imjin_War",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Siege-of-Busanjin-1592.jpg/330px-Siege-of-Busanjin-1592.jpg",
+      "imageAttribution": "Painting, artist unknown, public domain, via Wikimedia Commons",
+      "imageDescription": "A depiction of the Japanese siege of Busanjin fortress, the opening battle of the 1592 invasion.",
+      "wikidataId": "Q576338",
+      "location": {
+        "historicalName": "Busanjin",
+        "city": "Busan",
+        "country": "South Korea",
+        "latitude": 35.18,
+        "longitude": 129.075
+      }
+    },
+    {
+      "year": 1600,
+      "sig": "major",
+      "tags": [
+        "battle",
+        "founding"
+      ],
+      "title": "Tokugawa Ieyasu Wins at Sekigahara",
+      "body": "Tokugawa Ieyasu's Eastern Army crushes the rival Western coalition at Sekigahara, a victory that ends over a century of civil war and, three years later, brings him the title of shogun, founding the Tokugawa shogunate that rules Japan for the next two and a half centuries.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Sekigahara",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Sekigaharascreen.jpg/330px-Sekigaharascreen.jpg",
+      "imageAttribution": "Folding screen painting, Collection of the Town of Sekigahara Archive of History and Cultural Anthropology, public domain, via Wikimedia Commons",
+      "imageDescription": "A folding screen (byōbu) depicting the Battle of Sekigahara, based on an early 17th-century original.",
+      "wikidataId": "Q234188",
+      "location": {
+        "historicalName": "Sekigahara",
+        "city": "Sekigahara",
+        "country": "Japan",
+        "latitude": 35.3655,
+        "longitude": 136.46694444
+      }
+    },
+    {
+      "year": 1603,
+      "sig": "minor",
+      "tags": [
+        "art"
+      ],
+      "title": "Izumo no Okuni Originates Kabuki",
+      "body": "The performer Izumo no Okuni stages a new style of dance-drama on the dry bed of Kyoto's Kamo River, giving rise to kabuki theater the same year Tokugawa Ieyasu establishes his shogunate.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Izumo_no_Okuni",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Okuni_kabuki_byobu-zu_cropped_and_enhanced.jpg/330px-Okuni_kabuki_byobu-zu_cropped_and_enhanced.jpg",
+      "imageAttribution": "Screen painting, artist unknown, public domain, via Wikimedia Commons",
+      "imageDescription": "A depiction of Izumo no Okuni from the six-panel Okuni Kabuki-zu Byōbu screen, held at the Kyoto National Museum.",
+      "wikidataId": "Q1334304",
+      "location": {
+        "historicalName": "Heian-kyō",
+        "city": "Kyoto",
+        "country": "Japan",
+        "latitude": 35.01161,
+        "longitude": 135.76811
+      }
+    },
+    {
+      "year": 1637,
+      "sig": "major",
+      "tags": [
+        "rebellion",
+        "religion"
+      ],
+      "title": "Shimabara Rebellion Erupts",
+      "body": "Persecuted Christian and peasant rebels seize Hara Castle in a months-long uprising against crushing taxation and religious suppression, the largest civil conflict of the Edo period and the last major armed rebellion before centuries of Tokugawa peace.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shimabara_Rebellion",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Shimabara-Battle-Map-c17th-century.png/330px-Shimabara-Battle-Map-c17th-century.png",
+      "imageAttribution": "Map, artist unknown, public domain, via Wikimedia Commons",
+      "imageDescription": "A 17th-century map depicting the siege of Hara Castle during the Shimabara Rebellion.",
+      "wikidataId": "Q696217",
+      "location": {
+        "historicalName": "Hara Castle",
+        "city": "Minamishimabara",
+        "country": "Japan",
+        "latitude": 32.65972222,
+        "longitude": 130.29777778
+      }
+    },
+    {
+      "year": 1639,
+      "sig": "major",
+      "tags": [
+        "governance"
+      ],
+      "title": "Sakoku Edict Seals Japan's Borders",
+      "body": "The Tokugawa shogunate issues its final seclusion edict, expelling the Portuguese and confining nearly all foreign trade to a single Dutch outpost, closing Japan to the outside world for more than two centuries.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sakoku",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Plattegrond_van_Deshima.jpg/330px-Plattegrond_van_Deshima.jpg",
+      "imageAttribution": "Illustration by Isaac Titsingh, public domain, via Wikimedia Commons",
+      "imageDescription": "A ground plan of Dejima, the artificial island in Nagasaki harbor that became Japan's sole window to the West under sakoku.",
+      "wikidataId": "Q332075",
+      "location": {
+        "historicalName": "Dejima",
+        "city": "Nagasaki",
+        "country": "Japan",
+        "latitude": 32.74472222,
+        "longitude": 129.87361111
+      }
+    },
+    {
+      "year": 1774,
+      "sig": "minor",
+      "tags": [
+        "science"
+      ],
+      "title": "Kaitai Shinsho Introduces Western Medicine",
+      "body": "Physician Sugita Genpaku publishes Kaitai Shinsho, a translation of a Dutch anatomical text, launching Rangaku -- the study of Western science smuggled in through Japan's single open port at Nagasaki.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kaitai_Shinsho",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Kaitai_shinsyo01.jpg/330px-Kaitai_shinsyo01.jpg",
+      "imageAttribution": "Photo by Babi Hijau, public domain, via Wikimedia Commons",
+      "imageDescription": null,
+      "wikidataId": "Q1324350",
+      "location": {
+        "historicalName": "Edo",
+        "city": "Tokyo",
+        "country": "Japan",
+        "latitude": 35.68388889,
+        "longitude": 139.77444444
+      }
+    },
+    {
+      "year": 1837,
+      "sig": "minor",
+      "tags": [
+        "rebellion"
+      ],
+      "title": "Ōshio Heihachirō's Rebellion",
+      "body": "Former police official and Confucian scholar Ōshio Heihachirō leads an uprising in Osaka to protest the shogunate's failure to relieve famine, briefly setting the merchant district ablaze before being crushed within a day.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/%C5%8Cshio_Heihachir%C5%8D",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Oshio_Heihachiro.jpg/330px-Oshio_Heihachiro.jpg",
+      "imageAttribution": "Portrait by Kikuchi Yōsai, public domain, via Wikimedia Commons",
+      "imageDescription": "A portrait of Ōshio Heihachirō, held in the Osaka Castle Museum collection.",
+      "wikidataId": "Q1056715",
+      "location": {
+        "historicalName": "Osaka",
+        "city": "Osaka",
+        "country": "Japan",
+        "latitude": 34.69388889,
+        "longitude": 135.50222222
+      }
+    },
+    {
+      "year": 1853,
+      "sig": "major",
+      "tags": [],
+      "title": "Commodore Perry Forces Japan Open",
+      "body": "US Commodore Matthew Perry sails a squadron of warships into Uraga, forcing the Tokugawa shogunate to abandon over two centuries of sakoku isolation and open Japanese ports to American trade.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Perry_Expedition",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Japanese_1854_print_Commodore_Perry.jpg/330px-Japanese_1854_print_Commodore_Perry.jpg",
+      "imageAttribution": "Japanese print, artist unknown, public domain, via Wikimedia Commons",
+      "imageDescription": "An 1854 Japanese print of Commodore Perry's fleet, showing one of the two paddlewheel steamers on his visit.",
+      "wikidataId": "Q7169780",
+      "location": {
+        "historicalName": "Uraga",
+        "city": "Yokosuka",
+        "country": "Japan",
+        "latitude": 35.23333333,
+        "longitude": 139.71666667
+      }
+    },
+    {
+      "year": 1868,
+      "sig": "major",
+      "tags": [
+        "collapse",
+        "founding"
+      ],
+      "title": "Meiji Restoration Ends the Shogunate",
+      "body": "Emperor Meiji is restored to direct political power and the last shogun, Tokugawa Yoshinobu, surrenders his authority, ending nearly 700 years of shogunate rule and launching Japan's rapid modernization.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Emperor_Meiji_by_Takahashi_Yuichi.jpg/330px-Emperor_Meiji_by_Takahashi_Yuichi.jpg",
+      "imageAttribution": "Painting by Takahashi Yuichi, public domain, via Wikimedia Commons",
+      "imageDescription": "A portrait of Emperor Meiji by Takahashi Yuichi, held in the Imperial Collection.",
+      "wikidataId": "Q8707",
+      "location": {
+        "historicalName": "Heian-kyō",
+        "city": "Kyoto",
+        "country": "Japan",
+        "latitude": 35.01161,
+        "longitude": 135.76811
+      }
+    }
+  ]
+}

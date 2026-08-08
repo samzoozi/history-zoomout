@@ -14,7 +14,7 @@ Then, from this directory:
 
 ```
 uv run alembic upgrade head    # create/update tables
-uv run history-zoomout-seed    # load civilizations.json into Postgres
+uv run history-zoomout-seed    # load data/seed_data/ into Postgres
 uv run uvicorn history_zoomout.main:app --reload --port 8000
 ```
 
@@ -35,5 +35,5 @@ uv run alembic upgrade head
 
 ## Re-seeding
 
-`history-zoomout-seed` clears and reloads all civilizations/events from
-`data/seed_data/civilizations.json` (repo root) — safe to re-run.
+`history-zoomout-seed` clears and reloads all topics/events from every category
+subfolder under `data/seed_data/` (repo root, one JSON file per topic) — safe to re-run.

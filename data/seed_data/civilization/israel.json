@@ -1,0 +1,602 @@
+{
+  "id": "israel",
+  "name": "Israel and Judah",
+  "colorIndex": 7,
+  "start": -1047,
+  "end": -539,
+  "summary": "The Israelite kingdoms rise from a loose tribal confederation into a united monarchy under Saul, David, and Solomon, then split into a northern Kingdom of Israel and a southern Kingdom of Judah. Israel falls to Assyria in 720 BCE and Judah falls to Babylon in 587 BCE, ending in exile until Cyrus's edict permits the Jewish captives to return.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Ancient_Israel_and_Judah",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Edward_Weller%2C_The_Kingdoms_of_Judah_and_Israel_%28FL36012236_3897579%29_%28cropped%29.jpg/330px-Edward_Weller%2C_The_Kingdoms_of_Judah_and_Israel_%28FL36012236_3897579%29_%28cropped%29.jpg",
+  "imageAttribution": "Map by Edward Weller, public domain, via Wikimedia Commons",
+  "imageDescription": "A 19th-century map depicting the ancient kingdoms of Judah and Israel.",
+  "wikidataId": "Q193748",
+  "events": [
+    {
+      "year": -1047,
+      "sig": "major",
+      "title": "Saul Becomes the First King of Israel",
+      "body": "The tribal confederation of Israel unites under a single monarch for the first time as Saul is anointed king, traditionally placed in the late 11th century BCE and ending the era of the judges.",
+      "tags": [
+        "founding"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Saul",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Saul_1878.jpg/330px-Saul_1878.jpg",
+      "imageAttribution": "Painting by Ernst Josephson, public domain, via Wikimedia Commons",
+      "imageDescription": "An 1878 oil painting depicting King Saul.",
+      "wikidataId": "Q28730"
+    },
+    {
+      "year": -1010,
+      "sig": "major",
+      "title": "David Captures Jerusalem and Makes It His Capital",
+      "body": "David storms the Jebusite stronghold of Jerusalem and installs it as his new capital, then brings the Ark of the Covenant into the city, binding Israelite kingship to Jerusalem for the rest of its history.",
+      "tags": [
+        "battle",
+        "founding",
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/David",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/King_David%2C_the_King_of_Israel.jpg/330px-King_David%2C_the_King_of_Israel.jpg",
+      "imageAttribution": "Painting by Gerard van Honthorst, public domain, via Wikimedia Commons",
+      "imageDescription": "A 1622 painting of King David playing the harp.",
+      "wikidataId": "Q41370",
+      "location": {
+        "historicalName": "Jerusalem",
+        "city": "Jerusalem",
+        "country": "Israel",
+        "latitude": 31.77888889,
+        "longitude": 35.22555556
+      }
+    },
+    {
+      "year": -970,
+      "sig": "minor",
+      "title": "Solomon Succeeds David as King",
+      "body": "Solomon inherits the throne from his father David and consolidates the united kingdom's wealth and influence, presiding over what tradition remembers as Israel's golden age.",
+      "tags": [
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Solomon",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Simeon_Solomon%2C_King_Solomon%2C_1872_or_1874%2C_NGA_76152_%28cropped%29.jpg/330px-Simeon_Solomon%2C_King_Solomon%2C_1872_or_1874%2C_NGA_76152_%28cropped%29.jpg",
+      "imageAttribution": "Painting by Simeon Solomon, CC0, via Wikimedia Commons",
+      "imageDescription": "An 1872–1874 painting portraying King Solomon.",
+      "wikidataId": "Q37085"
+    },
+    {
+      "year": -961,
+      "sig": "major",
+      "title": "Solomon Completes the First Temple in Jerusalem",
+      "body": "After seven years of construction using cedar and craftsmen supplied by Hiram I of Tyre, Solomon dedicates the First Temple in Jerusalem as the central sanctuary of Israelite worship, housing the Ark of the Covenant.",
+      "tags": [
+        "architecture",
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Solomon's_Temple",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Francois_Vatable%2C_reconstructie_van_de_tempel_van_Salomo_%28detail%29.jpg/330px-Francois_Vatable%2C_reconstructie_van_de_tempel_van_Salomo_%28detail%29.jpg",
+      "imageAttribution": "Engraving by François Vatable, public domain, via Wikimedia Commons",
+      "imageDescription": "A 16th-century engraving reconstructing the appearance of Solomon's Temple.",
+      "wikidataId": "Q223644",
+      "location": {
+        "historicalName": "Jerusalem",
+        "city": "Jerusalem",
+        "country": "Israel",
+        "latitude": 31.77888889,
+        "longitude": 35.22555556
+      }
+    },
+    {
+      "year": -955,
+      "sig": "minor",
+      "title": "Solomon Fortifies Megiddo, Hazor, and Gezer",
+      "body": "Solomon rebuilds and fortifies a chain of administrative and military cities across the kingdom, including Megiddo, Hazor, and Gezer, while dividing the realm into twelve districts to supply his court.",
+      "tags": [
+        "architecture",
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/United_Monarchy",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Megido_City_Gate1.jpg/330px-Megido_City_Gate1.jpg",
+      "imageAttribution": "Photo by Golf Bravo, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "The ancient six-chambered city gate at Tel Megiddo.",
+      "wikidataId": null,
+      "location": {
+        "historicalName": "Megiddo",
+        "city": "Tel Megiddo",
+        "country": "Israel",
+        "latitude": 32.58527778,
+        "longitude": 35.18444444
+      }
+    },
+    {
+      "year": -950,
+      "sig": "minor",
+      "title": "The Queen of Sheba Visits Solomon's Court",
+      "body": "According to the biblical narrative, the Queen of Sheba travels to Jerusalem to test Solomon's wisdom with hard questions and returns south laden with gifts, a story later retold across Jewish, Christian, Islamic, and Ethiopian tradition.",
+      "tags": [
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Queen_of_Sheba",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Queen_of_Sheba_%281907%29%2C_by_Edward_Slocombe.jpg/330px-Queen_of_Sheba_%281907%29%2C_by_Edward_Slocombe.jpg",
+      "imageAttribution": "Painting by Edward Slocombe, public domain, via Wikimedia Commons",
+      "imageDescription": "A 1907 painting of the Queen of Sheba.",
+      "wikidataId": "Q159888",
+      "location": {
+        "historicalName": "Jerusalem",
+        "city": "Jerusalem",
+        "country": "Israel",
+        "latitude": 31.77888889,
+        "longitude": 35.22555556
+      }
+    },
+    {
+      "year": -931,
+      "sig": "major",
+      "title": "The United Monarchy Splits into Israel and Judah",
+      "body": "After Solomon's death, his son Rehoboam's harsh rule triggers a revolt led by Jeroboam; ten northern tribes break away to form the Kingdom of Israel under Jeroboam, leaving Rehoboam with the southern Kingdom of Judah centered on Jerusalem.",
+      "tags": [
+        "collapse",
+        "founding"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kingdom_of_Judah",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Kingdoms_of_Israel_and_Judah_%288th_century_BCE%29.svg/330px-Kingdoms_of_Israel_and_Judah_%288th_century_BCE%29.svg.png",
+      "imageAttribution": "Map by Tobias Schäfer 87, CC BY 4.0, via Wikimedia Commons",
+      "imageDescription": "A map showing the kingdoms of Israel and Judah after their division.",
+      "wikidataId": "Q48685"
+    },
+    {
+      "year": -930,
+      "sig": "major",
+      "title": "Jeroboam Sets Up Rival Shrines at Bethel and Dan",
+      "body": "To keep his new subjects from making pilgrimage to Jerusalem's temple, Jeroboam I erects golden calf shrines at Bethel and Dan, establishing rival cult centers that mark the religious break between Israel and Judah.",
+      "tags": [
+        "religion",
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jeroboam",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Jean-Honor%C3%A9_Fragonard_-_Jeroboam_Offering_Sacrifice_for_the_Idol_-_WGA08049_%28cropped%29.jpg/330px-Jean-Honor%C3%A9_Fragonard_-_Jeroboam_Offering_Sacrifice_for_the_Idol_-_WGA08049_%28cropped%29.jpg",
+      "imageAttribution": "Painting by Jean-Honoré Fragonard, public domain, via Wikimedia Commons",
+      "imageDescription": "An 18th-century painting of Jeroboam offering sacrifice to an idol.",
+      "wikidataId": "Q313219",
+      "location": {
+        "historicalName": "Bethel",
+        "city": "Beitin",
+        "country": "West Bank",
+        "latitude": 31.92833333,
+        "longitude": 35.23833333
+      }
+    },
+    {
+      "year": -925,
+      "sig": "major",
+      "title": "Pharaoh Shoshenq I Raids Israel and Judah",
+      "body": "Egyptian Pharaoh Shoshenq I campaigns through the Levant and records dozens of captured towns in Israel and Judah on the Bubastite Portal at Karnak, the earliest Egyptian inscription to corroborate the biblical account of the two kingdoms.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shoshenq_I",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Bubastis_portal_at_Karnak.jpg/330px-Bubastis_portal_at_Karnak.jpg",
+      "imageAttribution": "Photo by Markh, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "The Bubastite Portal at Karnak, inscribed with Shoshenq I's list of conquered towns.",
+      "wikidataId": "Q311811",
+      "location": {
+        "historicalName": "Karnak",
+        "city": "Luxor",
+        "country": "Egypt",
+        "latitude": 25.7183,
+        "longitude": 32.6583
+      }
+    },
+    {
+      "year": -880,
+      "sig": "major",
+      "title": "Omri Founds Samaria as Israel's New Capital",
+      "body": "King Omri purchases a hill in the central highlands and builds Samaria, a fortified new capital that becomes the political and cultural center of the northern Kingdom of Israel for over a century and a half.",
+      "tags": [
+        "founding",
+        "architecture"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samaria_(ancient_city)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Omri_King.png/330px-Omri_King.png",
+      "imageAttribution": "Illustration by Guillaume Roullié, public domain, via Wikimedia Commons",
+      "imageDescription": "A 16th-century printed portrait of King Omri.",
+      "wikidataId": "Q313221",
+      "location": {
+        "historicalName": "Samaria",
+        "city": "Sebastia",
+        "country": "West Bank",
+        "latitude": 32.27638889,
+        "longitude": 35.195
+      }
+    },
+    {
+      "year": -853,
+      "sig": "major",
+      "title": "Ahab Joins the Coalition Against Assyria at Qarqar",
+      "body": "King Ahab of Israel contributes chariots and infantry to an eleven-king Levantine coalition that halts Shalmaneser III's advance at Qarqar, an engagement recorded on Shalmaneser's own monument rather than in the Bible.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Qarqar",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Karkar.jpg",
+      "imageAttribution": "Photo by Yuber, public domain, via Wikimedia Commons",
+      "imageDescription": "The Kurkh stela of Shalmaneser III recording the Battle of Qarqar.",
+      "wikidataId": "Q849474",
+      "location": {
+        "historicalName": "Qarqar",
+        "city": "Qarqar",
+        "country": "Syria",
+        "latitude": 35.742646,
+        "longitude": 36.330543
+      }
+    },
+    {
+      "year": -850,
+      "sig": "major",
+      "title": "Elijah Confronts the Prophets of Baal at Mount Carmel",
+      "body": "During Ahab's reign, the prophet Elijah challenges 450 prophets of Baal to a sacrifice contest on Mount Carmel; when fire falls only on his own altar, the assembled Israelites affirm Yahweh as their God and Elijah has the Baal prophets put to death.",
+      "tags": [
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Elijah",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Giovanni_Girolamo_Savoldo%2C_Elijah_Fed_by_the_Raven%2C_c._1510%2C_NGA_46134.jpg/330px-Giovanni_Girolamo_Savoldo%2C_Elijah_Fed_by_the_Raven%2C_c._1510%2C_NGA_46134.jpg",
+      "imageAttribution": "Painting by Giovanni Girolamo Savoldo, CC0, via Wikimedia Commons",
+      "imageDescription": "A 16th-century painting of the prophet Elijah fed by a raven.",
+      "wikidataId": "Q133507",
+      "location": {
+        "historicalName": "Mount Carmel",
+        "city": "Haifa",
+        "country": "Israel",
+        "latitude": 32.7333,
+        "longitude": 35.05
+      }
+    },
+    {
+      "year": -841,
+      "sig": "major",
+      "title": "Jehu Purges the House of Ahab and Pays Tribute to Assyria",
+      "body": "Jehu seizes the throne of Israel by killing King Jehoram and the rest of Ahab's dynasty, then submits to Assyrian power; Shalmaneser III commemorates his tribute on the Black Obelisk, the only surviving portrait of an Israelite king.",
+      "tags": [
+        "rebellion",
+        "art"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jehu",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Jehu_on_the_Black_Obelisk_of_Shalmaneser_III.jpg/330px-Jehu_on_the_Black_Obelisk_of_Shalmaneser_III.jpg",
+      "imageAttribution": "Photo by Steven G. Johnson, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "Jehu of Israel depicted bowing before Shalmaneser III on the Black Obelisk.",
+      "wikidataId": "Q313225",
+      "location": {
+        "historicalName": "Jezreel",
+        "city": "Jezreel",
+        "country": "Israel",
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    {
+      "year": -835,
+      "sig": "minor",
+      "title": "The Priest Jehoiada Overthrows Queen Athaliah",
+      "body": "Six years after Athaliah seized Judah's throne and promoted Baal worship following her son's death, the priest Jehoiada leads a coup that kills her and crowns the boy king Joash, restoring the Davidic line.",
+      "tags": [
+        "rebellion",
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Athaliah",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Athalia.png/330px-Athalia.png",
+      "imageAttribution": "Illustration by Guillaume Roullié, public domain, via Wikimedia Commons",
+      "imageDescription": "A 16th-century printed portrait of Queen Athaliah.",
+      "wikidataId": "Q463934",
+      "location": {
+        "historicalName": "Jerusalem",
+        "city": "Jerusalem",
+        "country": "Israel",
+        "latitude": 31.77888889,
+        "longitude": 35.22555556
+      }
+    },
+    {
+      "year": -734,
+      "sig": "major",
+      "title": "Ahaz Buys Assyrian Help Against the Syro-Ephraimite Coalition",
+      "body": "When Israel and Aram-Damascus besiege Jerusalem to force Judah into an anti-Assyrian alliance, King Ahaz instead pays homage to Tiglath-Pileser III with treasure from the Temple, turning back the invasion but making Judah an Assyrian tributary.",
+      "tags": [
+        "battle",
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Syro-Ephraimite_War",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Ahaz.png/330px-Ahaz.png",
+      "imageAttribution": "Illustration by Guillaume Roullié, public domain, via Wikimedia Commons",
+      "imageDescription": "A 16th-century printed portrait of King Ahaz.",
+      "wikidataId": "Q30914",
+      "location": {
+        "historicalName": "Jerusalem",
+        "city": "Jerusalem",
+        "country": "Israel",
+        "latitude": 31.77888889,
+        "longitude": 35.22555556
+      }
+    },
+    {
+      "year": -720,
+      "sig": "major",
+      "title": "Assyria Conquers Samaria and Ends the Kingdom of Israel",
+      "body": "After a three-year siege begun by Shalmaneser V and completed by Sargon II, Samaria falls and the Assyrians deport thousands of Israelites to Mesopotamia and Media, dispersing the ten northern tribes and ending the Kingdom of Israel.",
+      "tags": [
+        "collapse",
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Assyrian_captivity",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Deportation_of_Jews_by_Assyrians.svg/330px-Deportation_of_Jews_by_Assyrians.svg.png",
+      "imageAttribution": "Map by Joelholdsworth, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A map showing the Assyrian deportation of Israelites from the conquered Kingdom of Israel.",
+      "wikidataId": null,
+      "location": {
+        "historicalName": "Samaria",
+        "city": "Sebastia",
+        "country": "West Bank",
+        "latitude": 32.27638889,
+        "longitude": 35.195
+      }
+    },
+    {
+      "year": -715,
+      "sig": "major",
+      "title": "Hezekiah Centralizes Worship at the Jerusalem Temple",
+      "body": "Hezekiah purges the Temple of idols, tears down the high places used for sacrifice across Judah, and destroys the bronze serpent Nehushtan, concentrating Yahwistic worship at Jerusalem in the wake of Israel's fall to Assyria.",
+      "tags": [
+        "religion",
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hezekiah",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/%C3%85hus_kyrka-10.jpg/330px-%C3%85hus_kyrka-10.jpg",
+      "imageAttribution": "Photo by David Castor of a 17th-century painting, public domain, via Wikimedia Commons",
+      "imageDescription": "A 17th-century painting of King Hezekiah in Sankta Maria kyrka, Åhus, Sweden.",
+      "wikidataId": "Q244912",
+      "location": {
+        "historicalName": "Jerusalem",
+        "city": "Jerusalem",
+        "country": "Israel",
+        "latitude": 31.77888889,
+        "longitude": 35.22555556
+      }
+    },
+    {
+      "year": -701,
+      "sig": "major",
+      "title": "Hezekiah Carves the Siloam Tunnel to Secure Jerusalem's Water",
+      "body": "Anticipating an Assyrian siege, Hezekiah has workers cut a 533-meter tunnel through bedrock to channel the Gihon Spring into the city, and the two crews who dug from opposite ends leave a Hebrew inscription describing the moment they met in the middle.",
+      "tags": [
+        "science",
+        "architecture"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Siloam_tunnel",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Siloam_Inscription_2.jpg/330px-Siloam_Inscription_2.jpg",
+      "imageAttribution": "Photo by Wikikati, public domain, via Wikimedia Commons",
+      "imageDescription": "A replica of the Siloam inscription describing the tunnel's construction.",
+      "wikidataId": "Q1620682",
+      "location": {
+        "historicalName": "Jerusalem",
+        "city": "Jerusalem",
+        "country": "Israel",
+        "latitude": 31.77888889,
+        "longitude": 35.22555556
+      }
+    },
+    {
+      "year": -701,
+      "sig": "major",
+      "title": "Sennacherib Besieges Jerusalem but Fails to Take It",
+      "body": "Assyrian king Sennacherib overruns Judah's fortified cities and traps Hezekiah 'like a bird in a cage' in Jerusalem, but withdraws without capturing the city, an outcome the Bible credits to divine intervention and one that Assyrian records omit entirely.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Assyrian_siege_of_Jerusalem",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Biblical_Jerusalem_Wall_Remnants.jpg/330px-Biblical_Jerusalem_Wall_Remnants.jpg",
+      "imageAttribution": "Photo by Lior Golgher, CC BY-SA 2.5, via Wikimedia Commons",
+      "imageDescription": "Remains of the broad wall Hezekiah built in Jerusalem to defend against Sennacherib's siege.",
+      "wikidataId": "Q1267122",
+      "location": {
+        "historicalName": "Jerusalem",
+        "city": "Jerusalem",
+        "country": "Israel",
+        "latitude": 31.77888889,
+        "longitude": 35.22555556
+      }
+    },
+    {
+      "year": -676,
+      "sig": "minor",
+      "title": "Manasseh Supplies Forced Labor to Assyria's Building Projects",
+      "body": "As a loyal Assyrian vassal, Manasseh of Judah is listed among twenty-two kings required to furnish materials and labor for Esarhaddon's construction projects, and later assists Ashurbanipal's campaign against Egypt.",
+      "tags": [
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Manasseh_of_Judah",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Manases-Manasseh.png/330px-Manases-Manasseh.png",
+      "imageAttribution": "Illustration by Guillaume Roullié, public domain, via Wikimedia Commons",
+      "imageDescription": "A 16th-century printed portrait of King Manasseh.",
+      "wikidataId": "Q156328",
+      "location": {
+        "historicalName": "Jerusalem",
+        "city": "Jerusalem",
+        "country": "Israel",
+        "latitude": 31.77888889,
+        "longitude": 35.22555556
+      }
+    },
+    {
+      "year": -622,
+      "sig": "major",
+      "title": "Josiah's Reforms Follow the Discovery of the Book of the Law",
+      "body": "While renovating the Temple, high priest Hilkiah finds a scroll of the Law; after having it authenticated, Josiah purges Baal worship, destroys shrines from Beersheba to Bethel, and restores the Passover, the most sweeping religious reform in Judah's history.",
+      "tags": [
+        "religion",
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Josiah",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/%C3%85hus_kyrka-12.jpg/330px-%C3%85hus_kyrka-12.jpg",
+      "imageAttribution": "Photo by David Castor of a 17th-century painting, public domain, via Wikimedia Commons",
+      "imageDescription": "A 17th-century painting of King Josiah in Sankta Maria kyrka, Åhus, Sweden.",
+      "wikidataId": "Q313228",
+      "location": {
+        "historicalName": "Jerusalem",
+        "city": "Jerusalem",
+        "country": "Israel",
+        "latitude": 31.77888889,
+        "longitude": 35.22555556
+      }
+    },
+    {
+      "year": -609,
+      "sig": "major",
+      "title": "Josiah Dies Opposing Egypt at the Battle of Megiddo",
+      "body": "When Pharaoh Necho II marches north to aid the last Assyrian remnants against Babylon, Josiah blocks his passage at Megiddo and is killed in the battle, ending Judah's brief independence and reducing it to an Egyptian vassal.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Megiddo_(609_BC)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Necho-KnellingStatue_BrooklynMuseum.png/330px-Necho-KnellingStatue_BrooklynMuseum.png",
+      "imageAttribution": "Photo by Keith Schengili-Roberts, CC BY 2.5, via Wikimedia Commons",
+      "imageDescription": "A bronze kneeling statuette of Pharaoh Necho.",
+      "wikidataId": "Q913818",
+      "location": {
+        "historicalName": "Megiddo",
+        "city": "Tel Megiddo",
+        "country": "Israel",
+        "latitude": 32.58527778,
+        "longitude": 35.18444444
+      }
+    },
+    {
+      "year": -605,
+      "sig": "major",
+      "title": "Babylon Defeats Egypt at Carchemish",
+      "body": "Nebuchadnezzar II crushes the Egyptian army and its remaining Assyrian allies at Carchemish, ending Egyptian power in the Levant and bringing Judah, recently Necho's vassal, under Babylonian domination instead.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Carchemish",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/The_Battle_of_Carchemish.png/330px-The_Battle_of_Carchemish.png",
+      "imageAttribution": "Illustration from Hutchinson's History of the Nations, public domain, via Wikimedia Commons",
+      "imageDescription": "A 1915 illustration depicting the Battle of Carchemish.",
+      "wikidataId": "Q633560",
+      "location": {
+        "historicalName": "Carchemish",
+        "city": "Karkamış",
+        "country": "Turkey",
+        "latitude": 36.82944444,
+        "longitude": 38.01638889
+      }
+    },
+    {
+      "year": -597,
+      "sig": "major",
+      "title": "Nebuchadnezzar Deports King Jehoiachin to Babylon",
+      "body": "Nebuchadnezzar II besieges Jerusalem after Jehoiakim's rebellion, and when the young Jehoiachin surrenders, deports him along with 3,000 Judeans to Babylon, installing his uncle Zedekiah as a puppet king in his place.",
+      "tags": [
+        "battle",
+        "collapse"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jeconiah",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Tissot_The_Flight_of_the_Prisoners.jpg/330px-Tissot_The_Flight_of_the_Prisoners.jpg",
+      "imageAttribution": "Painting by James Tissot, public domain, via Wikimedia Commons",
+      "imageDescription": "A painting depicting Judean captives being marched into exile.",
+      "wikidataId": "Q319049",
+      "location": {
+        "historicalName": "Jerusalem",
+        "city": "Jerusalem",
+        "country": "Israel",
+        "latitude": 31.77888889,
+        "longitude": 35.22555556
+      }
+    },
+    {
+      "year": -587,
+      "sig": "major",
+      "title": "Nebuchadnezzar Destroys Jerusalem and the First Temple",
+      "body": "After a 30-month siege breaks Zedekiah's revolt, Babylonian forces raze Jerusalem's walls, burn the First Temple, and deport most of the remaining population, ending the Kingdom of Judah's four centuries of independence.",
+      "tags": [
+        "collapse",
+        "battle",
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(587_BC)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Nuremberg_chronicles_f_63v_1.png/330px-Nuremberg_chronicles_f_63v_1.png",
+      "imageAttribution": "Illustration by Michel Wolgemut and Wilhelm Pleydenwurff, public domain, via Wikimedia Commons",
+      "imageDescription": "A woodcut from the 1493 Nuremberg Chronicle depicting the destruction of Jerusalem.",
+      "wikidataId": "Q1290590",
+      "location": {
+        "historicalName": "Jerusalem",
+        "city": "Jerusalem",
+        "country": "Israel",
+        "latitude": 31.77888889,
+        "longitude": 35.22555556
+      }
+    },
+    {
+      "year": -582,
+      "sig": "minor",
+      "title": "The Assassination of Gedaliah Ends Local Judean Rule",
+      "body": "Babylon's appointed governor Gedaliah is murdered at Mizpah by a rival claimant to the Davidic throne; fearing reprisal, the remaining Judeans flee to Egypt, extinguishing the last local government in the land and leading later Jews to mark the date with the Fast of Gedaliah.",
+      "tags": [
+        "rebellion",
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gedaliah",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Gebhard_Fugel_An_den_Wassern_Babylons.jpg/330px-Gebhard_Fugel_An_den_Wassern_Babylons.jpg",
+      "imageAttribution": "Painting by Gebhard Fugel, public domain, via Wikimedia Commons",
+      "imageDescription": "A painting evoking the Judean exiles' lament in Babylon.",
+      "wikidataId": "Q1497453",
+      "location": {
+        "historicalName": "Mizpah",
+        "city": null,
+        "country": "West Bank",
+        "latitude": 31.88527778,
+        "longitude": 35.21638889
+      }
+    },
+    {
+      "year": -561,
+      "sig": "minor",
+      "title": "Babylon Releases Jehoiachin from Prison",
+      "body": "On ascending the Babylonian throne, Evil-Merodach frees the exiled Jehoiachin after 37 years of captivity, seats him above the other exiled kings, and grants him a regular allowance, a small easing of conditions recorded both in the Bible and on Babylonian ration tablets.",
+      "tags": [
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jeconiah",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Jehoiachin_Ration_Tablet.JPG/330px-Jehoiachin_Ration_Tablet.JPG",
+      "imageAttribution": "Photo by Scallaham, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "A Babylonian ration tablet listing provisions for Jehoiachin and his sons.",
+      "wikidataId": "Q319049",
+      "location": {
+        "historicalName": "Babylon",
+        "city": "Hillah",
+        "country": "Iraq",
+        "latitude": 32.5425,
+        "longitude": 44.42111111
+      }
+    },
+    {
+      "year": -539,
+      "sig": "major",
+      "title": "Cyrus's Edict Ends the Babylonian Exile",
+      "body": "After conquering Babylon, Cyrus the Great issues an edict permitting the exiled Jews to return to Jerusalem and rebuild the Temple, closing the Babylonian captivity and opening the Second Temple period.",
+      "tags": [
+        "religion",
+        "governance",
+        "founding"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Edict_of_Cyrus",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Cyrus_Cylinder_front.jpg/330px-Cyrus_Cylinder_front.jpg",
+      "imageAttribution": "Photo by Prioryman, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "The Cyrus Cylinder, recording Cyrus's policy of restoring displaced peoples and temples.",
+      "wikidataId": "Q12770033",
+      "location": {
+        "historicalName": "Babylon",
+        "city": "Hillah",
+        "country": "Iraq",
+        "latitude": 32.5425,
+        "longitude": 44.42111111
+      }
+    }
+  ]
+}

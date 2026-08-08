@@ -1,0 +1,218 @@
+{
+  "id": "mali",
+  "name": "Mali Empire",
+  "colorIndex": 5,
+  "start": 1235,
+  "end": 1610,
+  "summary": "The Mali Empire rises from the Mandinka heartland along the upper Niger River, founded by Sundiata Keita after his victory at Kirina in 1235. Under Mansa Musa, its ninth ruler, the empire reaches its greatest wealth and territorial extent, and his 1324 pilgrimage to Mecca makes Mali's gold famous across the Islamic world. Timbuktu flourishes as a hub of trade and Islamic scholarship under Mali's patronage, but a long, uneven decline follows Mansa Musa's death: a ruinous civil war and treasury mismanagement under Mari Djata II give way to the loss of Timbuktu to Tuareg raiders in 1433 and to rival Songhai in 1468, and after a catastrophic defeat at Djenné in 1599, the empire fragments for good with the death of its last emperor, Mahmud Keita IV, around 1610.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Mali_Empire",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Map_of_the_Mali_Empire.png/330px-Map_of_the_Mali_Empire.png",
+  "imageAttribution": "Map by HetmanTheResearcher, CC BY 4.0, via Wikimedia Commons",
+  "imageDescription": "A map showing the territorial extent of the Mali Empire near its height.",
+  "wikidataId": "Q184536",
+  "events": [
+    {
+      "year": 1235,
+      "sig": "major",
+      "tags": [
+        "founding",
+        "battle"
+      ],
+      "title": "Sundiata Keita Founds the Mali Empire",
+      "body": "Sundiata Keita leads the united Mandinka clans to victory over the Sosso king Sumanguru Kanté at the Battle of Kirina, is crowned Mansa, and builds the conquered Sosso territories into the new Mali Empire.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Kirina",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Djenne_Terracotta_Equestrian_%2813th-15th_cent%29.jpg",
+      "imageAttribution": "Photo by Franko Khoury, Public domain, via Wikimedia Commons",
+      "imageDescription": "A 13th- to 15th-century terracotta equestrian figure from Mali, now in the National Museum of African Art.",
+      "wikidataId": "Q1319855",
+      "location": {
+        "historicalName": "Kirina",
+        "city": "Koulikoro",
+        "country": "Mali",
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    {
+      "year": 1285,
+      "sig": "minor",
+      "tags": [
+        "battle"
+      ],
+      "title": "Sakura Seizes the Throne and Expands Mali",
+      "body": "Sakura, a former palace dependent from outside the ruling Keita line, seizes power and pushes Mali's borders west to the Atlantic coast and east toward Gao before being killed returning from his own pilgrimage to Mecca around 1300, after which the Keita dynasty is restored.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mansa_Sakura",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Djenne_Terracotta_Archer_%2813th-15th_cent%29.jpg",
+      "imageAttribution": "Photo by Franko Khoury, Public domain, via Wikimedia Commons",
+      "imageDescription": "A 13th- to 15th-century terracotta archer figure from Mali.",
+      "wikidataId": "Q3025939"
+    },
+    {
+      "year": 1324,
+      "sig": "major",
+      "tags": [
+        "religion"
+      ],
+      "title": "Mansa Musa's Pilgrimage to Mecca",
+      "body": "Mali's emperor travels to Mecca with a caravan reportedly carrying tons of gold, spending so freely in Cairo along the way that he depresses the region's gold prices for years afterward.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mansa_Musa",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Catalan_Atlas_BNF_Sheet_6_Mansa_Musa_%28cropped%29.jpg/330px-Catalan_Atlas_BNF_Sheet_6_Mansa_Musa_%28cropped%29.jpg",
+      "imageAttribution": "Illustration attributed to Abraham Cresques, Public domain, via Wikimedia Commons",
+      "imageDescription": "A depiction of Mansa Musa enthroned and holding a gold coin, from the 1375 Catalan Atlas.",
+      "wikidataId": "Q309333",
+      "location": {
+        "historicalName": "Mecca",
+        "city": "Mecca",
+        "country": "Saudi Arabia",
+        "latitude": 21.4225,
+        "longitude": 39.82333333
+      }
+    },
+    {
+      "year": 1327,
+      "sig": "minor",
+      "tags": [
+        "architecture",
+        "religion"
+      ],
+      "title": "Djinguereber Mosque Built in Timbuktu",
+      "body": "Fresh from his pilgrimage, Mansa Musa commissions the Djinguereber Mosque in Timbuktu, part of a wave of building and scholarship that establishes the city as a center of Islamic learning under Mali's patronage.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Djinguereber_Mosque",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Djingareiber_cour.jpg/330px-Djingareiber_cour.jpg",
+      "imageAttribution": "Photo by KaTeznik, CC BY-SA 2.0 FR, via Wikimedia Commons",
+      "imageDescription": "The courtyard of the Djinguereber Mosque in Timbuktu.",
+      "wikidataId": "Q2480949",
+      "location": {
+        "historicalName": "Timbuktu",
+        "city": "Timbuktu",
+        "country": "Mali",
+        "latitude": 16.77583333,
+        "longitude": -3.00944444
+      }
+    },
+    {
+      "year": 1352,
+      "sig": "minor",
+      "tags": [
+        "governance",
+        "science"
+      ],
+      "title": "Ibn Battuta Visits Mali and Documents Suleyman's Rule",
+      "body": "The Moroccan scholar Ibn Battuta arrives at Mansa Suleyman's court and later writes the first detailed outside account of the empire, praising the security of its roads even as he judges Suleyman himself far less generous than his predecessor Mansa Musa.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sulayman_of_Mali",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/MALI_empire_map.PNG/330px-MALI_empire_map.PNG",
+      "imageAttribution": "Map, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A historical map showing the territory of the Mali Empire.",
+      "wikidataId": "Q3028531"
+    },
+    {
+      "year": 1360,
+      "sig": "major",
+      "tags": [
+        "rebellion",
+        "governance"
+      ],
+      "title": "Mari Djata II Wins a Civil War and Squanders the Treasury",
+      "body": "Mari Djata II fights his way to the throne after a short, contested reign by his predecessor Qanba collapses into civil war, then spends the next fourteen years as a wasteful ruler who at one point sells off a twenty-qintar boulder of state gold for a fraction of its worth — a reign the historian Ibn Khaldun later marks as the start of Mali's decline.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mari_Djata_II_of_Mali",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/The_Mali_Empire.jpg/500px-The_Mali_Empire.jpg",
+      "imageAttribution": "Map by Gabriel Moss, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "A map of the Mali Empire's territory at the end of Mansa Musa's reign, around 1337.",
+      "wikidataId": "Q947664"
+    },
+    {
+      "year": 1433,
+      "sig": "major",
+      "tags": [
+        "collapse",
+        "battle"
+      ],
+      "title": "Tuareg Forces Seize Timbuktu from Mali",
+      "body": "Tuareg raiders led by Akil Ag-Amalwal capture Timbuktu and the nearby trading town of Oualata, stripping Mali of its most famous city decades before Songhai's own conquest of the region.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/History_of_the_Mali_Empire",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/2007_Sankore_Mosque_Timbuktu_02.jpg/330px-2007_Sankore_Mosque_Timbuktu_02.jpg",
+      "imageAttribution": "Photo by Anne and David, Public domain, via Wikimedia Commons",
+      "imageDescription": "A mosque in Timbuktu, the city Mali lost to Tuareg raiders in 1433.",
+      "wikidataId": "Q130271155",
+      "location": {
+        "historicalName": "Timbuktu",
+        "city": "Timbuktu",
+        "country": "Mali",
+        "latitude": 16.77583333,
+        "longitude": -3.00944444
+      }
+    },
+    {
+      "year": 1468,
+      "sig": "major",
+      "tags": [
+        "battle",
+        "collapse"
+      ],
+      "title": "Songhai Captures Timbuktu",
+      "body": "Sunni Ali's Songhai forces take Timbuktu, which Mali had already lost to Tuareg raiders decades earlier — a milestone in Mali's terminal decline as Songhai rises to become the region's dominant power.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Timbuktu",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Map_of_the_Songhay_Empire.png/500px-Map_of_the_Songhay_Empire.png",
+      "imageAttribution": "Map by HetmanTheResearcher, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "A map showing the territorial extent of the Songhai Empire.",
+      "wikidataId": "Q9427",
+      "location": {
+        "historicalName": "Timbuktu",
+        "city": "Timbuktu",
+        "country": "Mali",
+        "latitude": 16.77583333,
+        "longitude": -3.00944444
+      }
+    },
+    {
+      "year": 1487,
+      "sig": "minor",
+      "tags": [
+        "governance"
+      ],
+      "title": "Mansa Mahmud Keita II Opens Relations with Portugal",
+      "body": "Seeking allies against mounting external threats, Mahmud Keita II receives Portuguese envoys Pêro d'Évora and Gonçalo Enes at the Malian court; a follow-up appeal in 1493 for an alliance against the warlord Tenguella comes to nothing.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mahmud_II_(mansa)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ruler_of_Mali_from_Behaim%27s_Erdapfel.png",
+      "imageAttribution": "Illustration from Martin Behaim's Erdapfel (1492), Public domain, via Wikimedia Commons",
+      "imageDescription": "A European depiction of a ruler of Mali, from Martin Behaim's 1492 globe.",
+      "wikidataId": "Q6734478"
+    },
+    {
+      "year": 1599,
+      "sig": "major",
+      "tags": [
+        "battle",
+        "collapse"
+      ],
+      "title": "Mali's Defeat at the Battle of Djenné",
+      "body": "Seeking to exploit Songhai's collapse after Morocco's 1591 invasion, Mansa Mahmud Keita IV attacks the trade hub of Djenné but is routed by Moroccan musketeers stationed there, a defeat that shatters what remains of Mali's imperial prestige.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mahmud_IV_(mansa)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/The_Great_Clay_Mosque_in_Djenne%2C_Mali.jpg/500px-The_Great_Clay_Mosque_in_Djenne%2C_Mali.jpg",
+      "imageAttribution": "Photo by Ondřej Havelka, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "The Great Mosque of Djenné, in the city where the 1599 battle was fought.",
+      "wikidataId": "Q6734486",
+      "location": {
+        "historicalName": "Djenné",
+        "city": "Djenné",
+        "country": "Mali",
+        "latitude": 13.90555556,
+        "longitude": -4.555
+      }
+    },
+    {
+      "year": 1610,
+      "sig": "major",
+      "tags": [
+        "collapse"
+      ],
+      "title": "Mali Empire Ends with the Death of Mahmud Keita IV",
+      "body": "Mali's last reigning emperor, Mahmud Keita IV, dies after retreating to the fortress of Sorokuru; his three sons divide what remains of the realm among themselves, and no single Keita ruler ever governs a unified Mali again.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mahmud_IV_(mansa)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Keita_dynasty_family_tree.png/500px-Keita_dynasty_family_tree.png",
+      "imageAttribution": "Diagram by Jansen.2, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "A family tree of the Keita dynasty that ruled the Mali Empire.",
+      "wikidataId": "Q6734486"
+    }
+  ]
+}

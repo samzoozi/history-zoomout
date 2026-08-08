@@ -1,0 +1,402 @@
+{
+  "id": "kush",
+  "name": "Kingdom of Kush",
+  "colorIndex": 5,
+  "start": -1070,
+  "end": 350,
+  "summary": "An ancient Nubian kingdom centered on the Nile south of Egypt, Kush rises after Egypt's New Kingdom withdraws from the region, later conquers and rules Egypt itself as the 25th Dynasty, and endures for centuries more from its southern capital at Meroe, known for its pyramids, ironworking, and a distinctive script, before fading amid internal strife and Aksumite pressure in the 4th century AD.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Kingdom_of_Kush",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Kushite_heartland_and_Kushite_Empire_of_the_25th_dynasty_circa_700_BCE.jpg/330px-Kushite_heartland_and_Kushite_Empire_of_the_25th_dynasty_circa_700_BCE.jpg",
+  "imageAttribution": "Map by Lommes and पाटलिपुत्र, CC BY-SA 4.0, via Wikimedia Commons",
+  "imageDescription": "A map showing the Kushite heartland and the extent of the Kushite Empire during the 25th Dynasty, around 700 BCE.",
+  "wikidataId": "Q241790",
+  "events": [
+    {
+      "year": -1070,
+      "sig": "major",
+      "title": "Kush Regains Independence After Egyptian Withdrawal",
+      "body": "As Egypt's New Kingdom empire disintegrates and its garrisons withdraw from Nubia, Kush re-emerges as an independent kingdom centered on the sacred mountain of Jebel Barkal near Napata, laying the foundation for over a thousand years of Kushite rule.",
+      "tags": [
+        "founding"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kingdom_of_Kush",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Gebel_Barkal.jpg/330px-Gebel_Barkal.jpg",
+      "imageAttribution": "Photo by LassiHU, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "Jebel Barkal, the sacred mountain near Napata that anchored Kushite religion and kingship.",
+      "wikidataId": "Q241790",
+      "location": {
+        "historicalName": "Napata",
+        "city": "Karima",
+        "country": "Sudan",
+        "latitude": 18.54,
+        "longitude": 31.83
+      }
+    },
+    {
+      "year": -770,
+      "sig": "minor",
+      "title": "Alara Founds the Napatan Ruling Dynasty",
+      "body": "Alara, later revered by his successors as the founder of their royal line, unifies Upper Nubia from the Third Cataract to Meroe and establishes Napata as Kush's religious capital; later Kushite kings invoke his name and pray for reigns as long as his.",
+      "tags": [
+        "founding"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Alara_of_Kush",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Cartouche_Alara_Lepsius.jpg",
+      "imageAttribution": "Drawing by Karl Richard Lepsius, public domain, via Wikimedia Commons",
+      "imageDescription": "A 19th-century facsimile of the royal cartouche of King Alara of Nubia.",
+      "wikidataId": "Q533610",
+      "location": {
+        "historicalName": "Napata",
+        "city": "Karima",
+        "country": "Sudan",
+        "latitude": 18.54,
+        "longitude": 31.83
+      }
+    },
+    {
+      "year": -750,
+      "sig": "minor",
+      "title": "Kashta Extends Kushite Influence into Thebes",
+      "body": "King Kashta peacefully extends Kushite authority into Upper Egypt by installing his daughter Amenirdis I as heiress to the office of God's Wife of Amun at Thebes, a religious appointment that quietly cements Kushite influence over Egypt's most powerful priesthood.",
+      "tags": [
+        "governance",
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kashta",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Egyptian_-_Situla_Bearing_the_names_of_Kashta_and_Amenirdis_-_Walters_543077.jpg/330px-Egyptian_-_Situla_Bearing_the_names_of_Kashta_and_Amenirdis_-_Walters_543077.jpg",
+      "imageAttribution": "Ritual vessel by an unknown Egyptian artist, public domain, via Wikimedia Commons",
+      "imageDescription": "A bronze situla inscribed with the names of King Kashta and his daughter Amenirdis I.",
+      "wikidataId": "Q546639",
+      "location": {
+        "historicalName": "Thebes",
+        "city": "Luxor",
+        "country": "Egypt",
+        "latitude": 25.72,
+        "longitude": 32.61
+      }
+    },
+    {
+      "year": -727,
+      "sig": "major",
+      "title": "Piye Conquers Lower Egypt and Founds the 25th Dynasty",
+      "body": "Marching north from Napata, King Piye's forces take Herakleopolis, Hermopolis, and Memphis, and receive the submission of the Nile Delta's rulers, uniting Egypt and Nubia under Kushite rule as the 25th Dynasty; he commemorates the campaign on a victory stela at Jebel Barkal.",
+      "tags": [
+        "battle",
+        "founding"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Piye",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Stele_Piye_Mariette.jpg/330px-Stele_Piye_Mariette.jpg",
+      "imageAttribution": "Drawing by Auguste Mariette, public domain, via Wikimedia Commons",
+      "imageDescription": "A 19th-century drawing of Piye's victory stela recording the submission of Lower Egypt's rulers.",
+      "wikidataId": "Q315695",
+      "location": {
+        "historicalName": "Memphis",
+        "city": "Mit Rahina",
+        "country": "Egypt",
+        "latitude": 29.85,
+        "longitude": 31.26
+      }
+    },
+    {
+      "year": -705,
+      "sig": "minor",
+      "title": "Shabaka Reunifies Egypt Under Kushite Rule",
+      "body": "Shabaka, the third Kushite pharaoh of the 25th Dynasty, defeats the remaining Delta rivals and completes his predecessors' conquest, bringing all of Egypt from the Nile Delta to Nubia under a single Kushite crown.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shabaka",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Shabaqa_Sphinx_Head_002.jpg/330px-Shabaqa_Sphinx_Head_002.jpg",
+      "imageAttribution": "Photo by woodsboy2011, CC BY-SA 2.0, via Wikimedia Commons",
+      "imageDescription": "A sphinx head bearing the likeness of King Shabaka.",
+      "wikidataId": "Q365929",
+      "location": {
+        "historicalName": "Memphis",
+        "city": "Mit Rahina",
+        "country": "Egypt",
+        "latitude": 29.85,
+        "longitude": 31.26
+      }
+    },
+    {
+      "year": -701,
+      "sig": "major",
+      "title": "Kushite Forces Aid Judah Against an Assyrian Siege",
+      "body": "As King Sennacherib of Assyria besieges Jerusalem, a Kushite army marches to Judah's aid and meets the Assyrians near Eltekeh, a campaign later credited to Taharqa that becomes one of the most widely cited Kushite military interventions in the ancient Near East.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Taharqa",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Taharqa%2C_Louvre_Museum.jpg/330px-Taharqa%2C_Louvre_Museum.jpg",
+      "imageAttribution": "Photo by Tangopaso, public domain, via Wikimedia Commons",
+      "imageDescription": "A statue of Taharqa displayed in the Louvre Museum.",
+      "wikidataId": "Q315714",
+      "location": {
+        "historicalName": "Eltekeh",
+        "city": null,
+        "country": "Israel",
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    {
+      "year": -700,
+      "sig": "minor",
+      "title": "The Shabaka Stone Preserves the Memphite Theology",
+      "body": "Shabaka orders an ancient, damaged papyrus recording Egyptian creation theology copied onto a basalt slab, preserving what is now known as the Memphite Theology for later generations.",
+      "tags": [
+        "religion",
+        "science"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shabaka_Stone",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Shabaka_Stone_at_the_British_Museum.jpg/330px-Shabaka_Stone_at_the_British_Museum.jpg",
+      "imageAttribution": "Photo by Sanjay ach, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "The Shabaka Stone on display at the British Museum.",
+      "wikidataId": "Q1188062",
+      "location": {
+        "historicalName": "Memphis",
+        "city": "Mit Rahina",
+        "country": "Egypt",
+        "latitude": 29.85,
+        "longitude": 31.26
+      }
+    },
+    {
+      "year": -680,
+      "sig": "minor",
+      "title": "Taharqa's Building Program Reshapes Napata and Karnak",
+      "body": "During his reign, Taharqa restores and expands temples across Egypt and Nubia, adding a great colonnaded kiosk at Karnak and raising the largest pyramid in the Nubian region at Nuri as his own tomb.",
+      "tags": [
+        "architecture"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nuri",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Royal_Pyramids_Of_Napata%2C_Nuri%2C_Sudan_%2819%29_%2834540703695%29_%28cropped%29.jpg/330px-Royal_Pyramids_Of_Napata%2C_Nuri%2C_Sudan_%2819%29_%2834540703695%29_%28cropped%29.jpg",
+      "imageAttribution": "Photo by Hans Birger Nilsen, CC BY-SA 2.0, via Wikimedia Commons",
+      "imageDescription": "The royal pyramids of the Napatan kings at Nuri, Sudan.",
+      "wikidataId": "Q2119839",
+      "location": {
+        "historicalName": "Nuri",
+        "city": "Karima",
+        "country": "Sudan",
+        "latitude": 18.56,
+        "longitude": 31.92
+      }
+    },
+    {
+      "year": -671,
+      "sig": "major",
+      "title": "Esarhaddon's Assyrians Sack Memphis",
+      "body": "Assyrian king Esarhaddon invades Egypt, storms Memphis, and captures Taharqa's family and court, forcing the Kushite pharaoh to flee south and breaking Kushite control over northern Egypt.",
+      "tags": [
+        "battle",
+        "collapse"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Taharqa",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Ashurbanipal_II%27s_army_attacking_Memphis%2C_Egypt%2C_645-635_BCE%2C_from_Nineveh%2C_Iraq._British_Museum.jpg/330px-Ashurbanipal_II%27s_army_attacking_Memphis%2C_Egypt%2C_645-635_BCE%2C_from_Nineveh%2C_Iraq._British_Museum.jpg",
+      "imageAttribution": "Photo by Osama Shukir Muhammed Amin FRCP(Glasg), CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "An Assyrian relief depicting the storming of an Egyptian fortress on the Nile.",
+      "wikidataId": "Q315714",
+      "location": {
+        "historicalName": "Memphis",
+        "city": "Mit Rahina",
+        "country": "Egypt",
+        "latitude": 29.85,
+        "longitude": 31.26
+      }
+    },
+    {
+      "year": -663,
+      "sig": "major",
+      "title": "The Sack of Thebes Ends Kushite Rule in Egypt",
+      "body": "Assyrian king Ashurbanipal's forces sack Thebes and rout the army of Tantamani, the last Kushite pharaoh of the 25th Dynasty, permanently ending Kushite control of Egypt and driving the dynasty's kings back to their Nubian heartland.",
+      "tags": [
+        "battle",
+        "collapse"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sack_of_Thebes",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Granite_Statue_of_King_Tantamani%2C_Sudan_National_Museum%2C_Khartoum_%283%29.jpg/330px-Granite_Statue_of_King_Tantamani%2C_Sudan_National_Museum%2C_Khartoum_%283%29.jpg",
+      "imageAttribution": "Photo by tobeytravels, CC BY-SA 2.0, via Wikimedia Commons",
+      "imageDescription": "A granite statue of King Tantamani, the last Kushite pharaoh of Egypt's 25th Dynasty.",
+      "wikidataId": "Q434535",
+      "location": {
+        "historicalName": "Thebes",
+        "city": "Luxor",
+        "country": "Egypt",
+        "latitude": 25.72,
+        "longitude": 32.61
+      }
+    },
+    {
+      "year": -592,
+      "sig": "minor",
+      "title": "Psamtik II Sacks Napata",
+      "body": "Egyptian pharaoh Psamtik II leads an army deep into Nubia, storming Napata and smashing statues of its Kushite kings in retaliation for the earlier 25th Dynasty's rule over Egypt.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Psamtik_II",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Statue_Psamtik_II_Louvre.jpg/330px-Statue_Psamtik_II_Louvre.jpg",
+      "imageAttribution": "Photo by OliBac, CC BY 2.0, via Wikimedia Commons",
+      "imageDescription": "A statue of Pharaoh Psamtik II on display at the Louvre-Lens.",
+      "wikidataId": "Q373521",
+      "location": {
+        "historicalName": "Napata",
+        "city": "Karima",
+        "country": "Sudan",
+        "latitude": 18.54,
+        "longitude": 31.83
+      }
+    },
+    {
+      "year": -591,
+      "sig": "major",
+      "title": "Aspelta Relocates the Capital to Meroe",
+      "body": "In the aftermath of Psamtik II's raid on Napata, King Aspelta shifts the kingdom's political center south to Meroe, a well-watered region rich in iron ore that offers safety from Egyptian attack and access to Red Sea trade routes.",
+      "tags": [
+        "founding",
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Aspelta",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Aspelta_statue_reconstruction%2C_with_Egyptian_headdress.jpg/330px-Aspelta_statue_reconstruction%2C_with_Egyptian_headdress.jpg",
+      "imageAttribution": "Photo by Jean-Pierre Dalbéra, CC BY 2.0, via Wikimedia Commons",
+      "imageDescription": "A reconstructed statue of King Aspelta wearing an Egyptian-style headdress.",
+      "wikidataId": "Q258949",
+      "location": {
+        "historicalName": "Meroe",
+        "city": "Shendi",
+        "country": "Sudan",
+        "latitude": 16.93,
+        "longitude": 33.73
+      }
+    },
+    {
+      "year": -300,
+      "sig": "minor",
+      "title": "Royal Burials Complete the Shift to Meroe",
+      "body": "By around 300 BC, Kushite kings and queens are buried exclusively at Meroe rather than Napata, a change scholars read as the monarchy finally breaking free of the Napatan priesthood's influence over royal succession.",
+      "tags": [
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kingdom_of_Kush",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/NubianMeroePyramids30sep2005%282%29.jpg/330px-NubianMeroePyramids30sep2005%282%29.jpg",
+      "imageAttribution": "Photo by Wufei07, public domain, via Wikimedia Commons",
+      "imageDescription": "Pyramids N26 and N27 in the royal cemetery at Meroe.",
+      "wikidataId": "Q241790",
+      "location": {
+        "historicalName": "Meroe",
+        "city": "Shendi",
+        "country": "Sudan",
+        "latitude": 16.93,
+        "longitude": 33.73
+      }
+    },
+    {
+      "year": -175,
+      "sig": "major",
+      "title": "The Meroitic Script Appears in Writing",
+      "body": "Kush develops its own alphasyllabic script, Meroitic, in cursive and hieroglyphic forms; the earliest known inscription dates to this period, making it one of only a handful of indigenous writing systems in ancient Africa.",
+      "tags": [
+        "science"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Meroitic_script",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Meroitic.png/330px-Meroitic.png",
+      "imageAttribution": "Meroitic alphabet chart, public domain, via Wikimedia Commons",
+      "imageDescription": "A chart comparing the Meroitic hieroglyphic and cursive scripts.",
+      "wikidataId": "Q1164926",
+      "location": {
+        "historicalName": "Meroe",
+        "city": "Shendi",
+        "country": "Sudan",
+        "latitude": 16.93,
+        "longitude": 33.73
+      }
+    },
+    {
+      "year": -25,
+      "sig": "major",
+      "title": "Amanirenas Leads Kush to War Against Rome",
+      "body": "Queen Amanirenas leads a Kushite army into Roman Egypt, sacking Syene and toppling statues of Augustus; though a Roman counterattack under prefect Petronius drives her forces back, the resulting treaty exempts Kush from tribute and secures its independence from Rome.",
+      "tags": [
+        "battle",
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Amanirenas",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Bar_4_Kush_queen_%28Lepsius%29.jpg",
+      "imageAttribution": "Drawing by Karl Richard Lepsius, public domain, via Wikimedia Commons",
+      "imageDescription": "A 19th-century facsimile of a relief from pyramid Bar. 4, identified by some scholars as the tomb of Amanirenas.",
+      "wikidataId": "Q175784",
+      "location": {
+        "historicalName": "Syene",
+        "city": "Aswan",
+        "country": "Egypt",
+        "latitude": 24.09,
+        "longitude": 32.9
+      }
+    },
+    {
+      "year": -24,
+      "sig": "minor",
+      "title": "Kushites Bury a Trophy Head of Augustus",
+      "body": "Kushite raiders carry off a bronze head from a statue of Augustus and bury it beneath the entrance steps of a Meroe temple, a symbolic act of subjugating the Roman emperor that preserves the sculpture intact for nearly two thousand years.",
+      "tags": [
+        "art"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mero%C3%AB_Head",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Augustus.JPG/330px-Augustus.JPG",
+      "imageAttribution": "Photo by Aiwok, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "The bronze Meroe Head of Augustus, now in the British Museum.",
+      "wikidataId": "Q16933444",
+      "location": {
+        "historicalName": "Meroe",
+        "city": "Shendi",
+        "country": "Sudan",
+        "latitude": 16.93,
+        "longitude": 33.73
+      }
+    },
+    {
+      "year": 50,
+      "sig": "major",
+      "title": "Natakamani and Amanitore Build the Lion Temple at Naqa",
+      "body": "Co-rulers Natakamani and Amanitore, shown as equals in royal regalia on its walls, build the Temple of Apedemak at Naqa, dedicating it to Kush's lion-headed warrior god and blending Egyptian temple design with Nubian religious tradition.",
+      "tags": [
+        "architecture",
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Naqa",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Naqa_Apedamak_temple.jpg/330px-Naqa_Apedamak_temple.jpg",
+      "imageAttribution": "Photo by LassiHU, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "The Temple of Apedemak, the Lion Temple, at Naqa.",
+      "wikidataId": "Q1760360",
+      "location": {
+        "historicalName": "Naqa",
+        "city": null,
+        "country": "Sudan",
+        "latitude": 16.27,
+        "longitude": 33.28
+      }
+    },
+    {
+      "year": 350,
+      "sig": "major",
+      "title": "Aksumite Pressure and Internal Strife End the Kingdom of Kush",
+      "body": "Weakened by Noba raids from the west and internal rebellion, Kush's capital at Meroe falls into decline; a Kushite king raises the region's last royal pyramid around this time, and an Aksumite military campaign under King Ezana delivers a blow from which ancient Nubia's kingdom never recovers.",
+      "tags": [
+        "collapse",
+        "rebellion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ezana_of_Axum",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/AXUM._Ezanas._Circa_330-360.jpg/330px-AXUM._Ezanas._Circa_330-360.jpg",
+      "imageAttribution": "Coin photo by CNG Coins, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A coin depicting King Ezana of Aksum, minted around 330–360 AD.",
+      "wikidataId": "Q379898",
+      "location": {
+        "historicalName": "Meroe",
+        "city": "Shendi",
+        "country": "Sudan",
+        "latitude": 16.93,
+        "longitude": 33.73
+      }
+    }
+  ]
+}

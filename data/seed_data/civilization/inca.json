@@ -1,0 +1,292 @@
+{
+  "id": "inca",
+  "name": "Inca",
+  "colorIndex": 7,
+  "start": 1438,
+  "end": 1572,
+  "summary": "After repelling a Chanka invasion around 1438, Pachacuti Inca Yupanqui rebuilds Cusco into an imperial capital and launches the campaigns that grow the Inca Empire into the largest state in the pre-Columbian Americas, stretching along the Andes from Ecuador to Chile and bound together by the Qhapaq Ñan road network. Huayna Capac's death from a mysterious epidemic in 1527 leaves his sons Huáscar and Atahualpa fighting a ruinous civil war that Atahualpa wins only months before Francisco Pizarro's small Spanish force ambushes and captures him at Cajamarca in 1532. Atahualpa's execution and the Spanish occupation of Cusco end organized imperial rule, but a rump Neo-Inca State holds out in the mountains at Vilcabamba until Spanish forces capture the stronghold and execute its last ruler, Túpac Amaru, in 1572.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Inca_Empire",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Tawantinsuyu_%28orthographic_projection%29.svg/330px-Tawantinsuyu_%28orthographic_projection%29.svg.png",
+  "imageAttribution": "Map by L'Américain, CC BY-SA 3.0, via Wikimedia Commons",
+  "imageDescription": "A modern orthographic map showing the extent of the Inca Empire, Tawantinsuyu, along the Andes.",
+  "wikidataId": "Q28573",
+  "events": [
+    {
+      "year": 1438,
+      "sig": "major",
+      "tags": [
+        "founding",
+        "battle"
+      ],
+      "title": "Pachacuti Begins the Inca Expansion",
+      "body": "After repelling an invasion by the rival Chanka people, Pachacuti Inca Yupanqui takes the throne, rebuilds Cusco as an imperial capital, and launches the conquests that transform a small highland kingdom into the Inca Empire.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pachacuti",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Brooklyn_Museum_-_Pachacuti%2C_Tenth_Inca%2C_1_of_14_Portraits_of_Inca_Kings_%28cropped%29.jpg/330px-Brooklyn_Museum_-_Pachacuti%2C_Tenth_Inca%2C_1_of_14_Portraits_of_Inca_Kings_%28cropped%29.jpg",
+      "imageAttribution": "Painting by an unknown artist, Public domain, via Wikimedia Commons",
+      "imageDescription": "An 18th-century portrait of Pachacuti, the ninth Sapa Inca, from a Brooklyn Museum series of paintings of Inca rulers.",
+      "wikidataId": "Q213758",
+      "location": {
+        "historicalName": "Cusco",
+        "city": "Cusco",
+        "country": "Peru",
+        "latitude": -13.5169,
+        "longitude": -71.9786
+      }
+    },
+    {
+      "year": 1440,
+      "sig": "major",
+      "tags": [
+        "religion",
+        "architecture"
+      ],
+      "title": "Pachacuti Rebuilds the Coricancha as the Empire's Sun Temple",
+      "body": "Pachacuti rebuilds Cusco's Coricancha, plating its walls in gold and dedicating it to Inti, the sun god; it becomes the empire's most sacred shrine and doubles as an observatory for tracking solstices and Inca constellations.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Coricancha",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Coricancha%2C_Cusco%2C_Per%C3%BA%2C_2015-07-31%2C_DD_68.JPG/330px-Coricancha%2C_Cusco%2C_Per%C3%BA%2C_2015-07-31%2C_DD_68.JPG",
+      "imageAttribution": "Photo by Diego Delso, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "The excavated stone walls of the Coricancha, the Inca Empire's principal sun temple in Cusco.",
+      "wikidataId": "Q817594",
+      "location": {
+        "historicalName": "Coricancha",
+        "city": "Cusco",
+        "country": "Peru",
+        "latitude": -13.52,
+        "longitude": -71.9756
+      }
+    },
+    {
+      "year": 1450,
+      "sig": "minor",
+      "tags": [
+        "architecture"
+      ],
+      "title": "Machu Picchu Is Built",
+      "body": "Pachacuti commissions a royal estate high in the Andes at Machu Picchu, connected to the rest of the empire by the Qhapaq Ñan network of mountain roads and suspension bridges.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Machu_Picchu",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Machu_Picchu_Panorama_2025_%28cropped%29.jpg/330px-Machu_Picchu_Panorama_2025_%28cropped%29.jpg",
+      "imageAttribution": "Photo by Jorge Castro Ruso, CC BY-SA 2.0, via Wikimedia Commons",
+      "imageDescription": "A panoramic view of the Inca citadel of Machu Picchu, built high in the Andes.",
+      "wikidataId": "Q676203",
+      "location": {
+        "historicalName": "Machu Picchu",
+        "city": "Machu Picchu",
+        "country": "Peru",
+        "latitude": -13.16333333,
+        "longitude": -72.54555556
+      }
+    },
+    {
+      "year": 1460,
+      "sig": "minor",
+      "tags": [
+        "architecture"
+      ],
+      "title": "Construction Begins on the Sacsayhuamán Fortress",
+      "body": "Pachacuti begins building the massive stone fortress of Sacsayhuamán above Cusco, a project his son Topa Inca Yupanqui and grandson Huayna Capac continue for decades using enormous interlocking limestone blocks.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sacsayhuam%C3%A1n",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Sacsayhuam%C3%A1n%2C_Cusco%2C_Per%C3%BA%2C_2015-07-31%2C_DD_27.JPG/330px-Sacsayhuam%C3%A1n%2C_Cusco%2C_Per%C3%BA%2C_2015-07-31%2C_DD_27.JPG",
+      "imageAttribution": "Photo by Diego Delso, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "The massive interlocking stone walls of Sacsayhuamán, the Inca fortress overlooking Cusco.",
+      "wikidataId": "Q828336",
+      "location": {
+        "historicalName": "Sacsayhuamán",
+        "city": "Cusco",
+        "country": "Peru",
+        "latitude": -13.5078,
+        "longitude": -71.9822
+      }
+    },
+    {
+      "year": 1470,
+      "sig": "major",
+      "tags": [
+        "battle"
+      ],
+      "title": "Topa Inca Yupanqui Conquers the Chimú Kingdom",
+      "body": "Topa Inca Yupanqui, Pachacuti's son and successor, defeats King Minchançaman and conquers the Chimú Kingdom, the last independent state capable of rivaling the Inca on the Peruvian coast, deporting its ruler to Cusco.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kingdom_of_Chimor",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Tupac-inca-yupanqui-small.png/330px-Tupac-inca-yupanqui-small.png",
+      "imageAttribution": "Illustration by Felipe Guaman Poma de Ayala, Public domain, via Wikimedia Commons",
+      "imageDescription": "A period illustration of Topa Inca Yupanqui, the tenth Sapa Inca, from Guaman Poma de Ayala's chronicle.",
+      "wikidataId": "Q581741",
+      "location": {
+        "historicalName": "Chan Chan",
+        "city": "Trujillo",
+        "country": "Peru",
+        "latitude": -8.1058,
+        "longitude": -79.0744
+      }
+    },
+    {
+      "year": 1527,
+      "sig": "major",
+      "tags": [
+        "rebellion"
+      ],
+      "title": "Huayna Capac Dies, Triggering a Succession Crisis",
+      "body": "Emperor Huayna Capac dies at Quito of a mysterious epidemic, possibly a European disease that outran the Spanish themselves, leaving no clear heir and setting his sons Huáscar and Atahualpa on a collision course over the throne.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Huayna_Capac",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Hp_inka11.jpg/330px-Hp_inka11.jpg",
+      "imageAttribution": "Illustration by Felipe Guaman Poma de Ayala, Public domain, via Wikimedia Commons",
+      "imageDescription": "A period illustration by the Inca chronicler Guaman Poma de Ayala depicting Emperor Huayna Capac.",
+      "wikidataId": "Q311433",
+      "location": {
+        "historicalName": "Quito",
+        "city": "Quito",
+        "country": "Ecuador",
+        "latitude": -0.22,
+        "longitude": -78.5125
+      }
+    },
+    {
+      "year": 1528,
+      "sig": "major",
+      "tags": [
+        "battle"
+      ],
+      "title": "Pizarro's Expedition Makes First Contact With the Inca Empire at Tumbes",
+      "body": "On his second voyage south, Francisco Pizarro lands at the Inca outpost of Tumbes, gathering firsthand evidence of a wealthy, organized empire that convinces the Spanish crown to authorize the conquest expedition he leads four years later.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Inca_Empire",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Henry_Perronet_Briggs_%281791-1793-1844%29_-_The_First_Interview_between_the_Spaniards_and_the_Peruvians_-_N00375_-_National_Gallery.jpg/330px-Henry_Perronet_Briggs_%281791-1793-1844%29_-_The_First_Interview_between_the_Spaniards_and_the_Peruvians_-_N00375_-_National_Gallery.jpg",
+      "imageAttribution": "Painting by Henry Perronet Briggs, Public domain, via Wikimedia Commons",
+      "imageDescription": null,
+      "wikidataId": "Q636771",
+      "location": {
+        "historicalName": "Tumbes",
+        "city": "Tumbes",
+        "country": "Peru",
+        "latitude": -3.5708,
+        "longitude": -80.4597
+      }
+    },
+    {
+      "year": 1532,
+      "sig": "minor",
+      "tags": [
+        "battle"
+      ],
+      "title": "Atahualpa Wins the Inca Civil War",
+      "body": "At the Battle of Quipaipan near Cusco, Atahualpa's generals crush Huáscar's army and capture him, ending years of civil war and leaving Atahualpa in control of the empire just as Spanish forces land on the coast.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Inca_Civil_War",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/John_Harris_Valda_-_Huscar_and_Atahualpa_fighting_over_the_Inca_Empire.jpg/330px-John_Harris_Valda_-_Huscar_and_Atahualpa_fighting_over_the_Inca_Empire.jpg",
+      "imageAttribution": "Painting by John Harris Valda, Public domain, via Wikimedia Commons",
+      "imageDescription": "A painting depicting the civil war fought between the half-brothers Huáscar and Atahualpa over the Inca throne.",
+      "wikidataId": "Q1763918",
+      "location": {
+        "historicalName": "Quipaipan",
+        "city": "Cusco",
+        "country": "Peru",
+        "latitude": -13.5169,
+        "longitude": -71.9786
+      }
+    },
+    {
+      "year": 1532,
+      "sig": "major",
+      "tags": [
+        "battle"
+      ],
+      "title": "Atahualpa Is Captured at Cajamarca",
+      "body": "In the town square of Cajamarca, Francisco Pizarro's small Spanish force ambushes Atahualpa's unarmed escort, massacring thousands and capturing the emperor, exploiting the recent civil war and the shock of Spanish horses and firearms.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Cajamarca",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/La_Captura_de_Atahualpa_-_Juan_Lepiani_1920s.png/330px-La_Captura_de_Atahualpa_-_Juan_Lepiani_1920s.png",
+      "imageAttribution": "Painting by Juan Lepiani, Public domain, via Wikimedia Commons",
+      "imageDescription": "A painting depicting the capture of Atahualpa by Spanish forces at the Battle of Cajamarca.",
+      "wikidataId": "Q1425362",
+      "location": {
+        "historicalName": "Cajamarca",
+        "city": "Cajamarca",
+        "country": "Peru",
+        "latitude": -7.1575,
+        "longitude": -78.5175
+      }
+    },
+    {
+      "year": 1533,
+      "sig": "minor",
+      "tags": [],
+      "title": "Atahualpa Is Executed",
+      "body": "Despite paying a legendary ransom in gold and silver for his release, Atahualpa is tried and garroted at Cajamarca on charges including treason and the murder of his brother Huáscar, and Spanish forces install a puppet emperor in Cusco.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Atahualpa",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Luis_Montero_-_The_Funerals_of_Inca_Atahualpa_-_Google_Art_Project.jpg/330px-Luis_Montero_-_The_Funerals_of_Inca_Atahualpa_-_Google_Art_Project.jpg",
+      "imageAttribution": "Painting by Luis Montero, Public domain, via Wikimedia Commons",
+      "imageDescription": "A 19th-century painting depicting the funeral of the executed Inca emperor Atahualpa.",
+      "wikidataId": "Q179577",
+      "location": {
+        "historicalName": "Cajamarca",
+        "city": "Cajamarca",
+        "country": "Peru",
+        "latitude": -7.1575,
+        "longitude": -78.5175
+      }
+    },
+    {
+      "year": 1535,
+      "sig": "major",
+      "tags": [
+        "religion",
+        "collapse"
+      ],
+      "title": "The Last Inti Raymi With an Inca Emperor Is Held, Then Banned",
+      "body": "Manco Inca, the Spanish-installed puppet emperor, presides over the last Inti Raymi sun festival held with a reigning Inca before Spanish colonial authorities and Catholic priests ban the ceremony and other Inca state religious practices.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Inti_Raymi",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Inca_carried_on_his_throne_during_the_Inti_Raymi_2011.jpg/330px-Inca_carried_on_his_throne_during_the_Inti_Raymi_2011.jpg",
+      "imageAttribution": "Photo by jack_g, CC BY-SA 2.0, via Wikimedia Commons",
+      "imageDescription": "A modern reenactment of the Inti Raymi sun festival in Cusco, with the Inca figure carried on a ceremonial throne.",
+      "wikidataId": "Q1165988",
+      "location": {
+        "historicalName": "Cusco",
+        "city": "Cusco",
+        "country": "Peru",
+        "latitude": -13.5169,
+        "longitude": -71.9786
+      }
+    },
+    {
+      "year": 1536,
+      "sig": "major",
+      "tags": [
+        "battle",
+        "founding",
+        "rebellion"
+      ],
+      "title": "Manco Inca's Rebellion Fails; the Neo-Inca State Is Founded",
+      "body": "Manco Inca Yupanqui, installed by the Spanish as a puppet ruler, turns on his overseers and lays a ten-month siege to Cusco; when it fails, he retreats to the remote mountain refuge of Vilcabamba and founds the independent Neo-Inca State.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Siege_of_Cusco",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/POMA0402v.jpg/330px-POMA0402v.jpg",
+      "imageAttribution": "Illustration by Felipe Guaman Poma de Ayala, Public domain, via Wikimedia Commons",
+      "imageDescription": "A period illustration by the Inca chronicler Guaman Poma de Ayala depicting Manco Inca's uprising against Spanish rule.",
+      "wikidataId": "Q2398589",
+      "location": {
+        "historicalName": "Cusco",
+        "city": "Cusco",
+        "country": "Peru",
+        "latitude": -13.5169,
+        "longitude": -71.9786
+      }
+    },
+    {
+      "year": 1572,
+      "sig": "major",
+      "tags": [
+        "collapse",
+        "battle"
+      ],
+      "title": "The Last Inca Stronghold Falls",
+      "body": "Spanish forces capture Túpac Amaru in the forests west of Vilcabamba, march him to Cusco, and publicly behead him before thousands in the central square, ending organized Inca resistance four decades after Pizarro's first landing.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/T%C3%BApac_Amaru",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/TupacamaruI.JPG/330px-TupacamaruI.JPG",
+      "imageAttribution": "Painting by an unidentified Cuzco School painter, Public domain, via Wikimedia Commons",
+      "imageDescription": "A Cuzco School portrait of Túpac Amaru, the last Sapa Inca of the Neo-Inca State.",
+      "wikidataId": "Q296269",
+      "location": {
+        "historicalName": "Vilcabamba",
+        "city": "Vilcabamba",
+        "country": "Peru",
+        "latitude": -12.904,
+        "longitude": -73.203
+      }
+    }
+  ]
+}

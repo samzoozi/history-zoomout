@@ -1,0 +1,504 @@
+{
+  "id": "ottoman",
+  "name": "Ottoman Empire",
+  "colorIndex": 1,
+  "start": 1299,
+  "end": 1922,
+  "summary": "The Ottoman Empire grows from a small Turkoman frontier principality founded by Osman I around 1299 into a vast Islamic empire spanning Europe, Asia, and North Africa -- conquering Constantinople in 1453, claiming the Islamic caliphate after Selim I's 1517 conquest of the Mamluks, and reaching its territorial and cultural height under Suleiman the Magnificent and the 18th-century Tulip Era. Centuries of slow retreat follow -- the loss of Greece, sweeping 19th-century reform and constitutional efforts, and the near-total loss of its remaining territory in the Balkan Wars and World War I -- before the Grand National Assembly abolishes the sultanate in 1922.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Ottoman_Empire",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/OttomanEmpireMain.png/500px-OttomanEmpireMain.png",
+  "imageAttribution": "Map by Chamboz, CC BY-SA 4.0, via Wikimedia Commons",
+  "imageDescription": "A map of the Ottoman Empire's territorial extent in 1683, near its greatest reach.",
+  "wikidataId": "Q12560",
+  "events": [
+    {
+      "year": 1299,
+      "sig": "major",
+      "title": "Osman I Founds the Ottoman Beylik",
+      "body": "Osman I, a Turkoman frontier lord ruling from the small Anatolian town of Söğüt, breaks from Seljuk overlordship and founds the beylik that will grow into the Ottoman Empire.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Osman_I",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/I_Osman.jpg/330px-I_Osman.jpg",
+      "imageAttribution": "Ottoman miniature painting, Public domain, via Wikimedia Commons",
+      "imageDescription": "An Ottoman miniature portrait of Osman I, founder of the Ottoman Empire.",
+      "wikidataId": "Q83100",
+      "location": {
+        "historicalName": "Söğüt",
+        "city": "Söğüt",
+        "country": "Turkey",
+        "latitude": 40.01861111,
+        "longitude": 30.18138889
+      },
+      "tags": [
+        "founding"
+      ]
+    },
+    {
+      "year": 1453,
+      "sig": "major",
+      "title": "Mehmed II Conquers Constantinople",
+      "body": "Sultan Mehmed II breaches Constantinople's ancient walls after a 53-day siege using massive cannon, ending the Byzantine Empire and transforming Ottoman rule from a regional power into an empire straddling Europe and Asia.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Siege_of_Constantinople_fresco%2C_Moldovi%C8%9Ba_monastery%2C_Vatra_Moldovi%C8%9Bei%2C_2017.jpg/330px-Siege_of_Constantinople_fresco%2C_Moldovi%C8%9Ba_monastery%2C_Vatra_Moldovi%C8%9Bei%2C_2017.jpg",
+      "imageAttribution": "Fresco, Moldovita Monastery, photo by DimiTalen, CC0, via Wikimedia Commons",
+      "imageDescription": "A modern fresco at Moldovita Monastery in Romania depicting the siege of Constantinople.",
+      "wikidataId": "Q160077",
+      "location": {
+        "historicalName": "Constantinople",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "latitude": 41.01361111,
+        "longitude": 28.955
+      },
+      "tags": [
+        "battle",
+        "collapse"
+      ]
+    },
+    {
+      "year": 1517,
+      "sig": "major",
+      "title": "Selim I Conquers the Mamluk Sultanate and Claims the Caliphate",
+      "body": "Sultan Selim I crushes the Mamluk Sultanate at the Battle of Ridaniya and captures Cairo, absorbing Egypt, Syria, and the holy cities of Mecca and Medina into Ottoman territory and transferring the Islamic caliphate's religious authority to the Ottoman throne.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ottoman%E2%80%93Mamluk_War_(1516%E2%80%931517)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/The_Ottoman-Mamluk_war_and_the_conquest_of_Mecca_and_Medina._Printed_in_Basel%2C_dated_1518.jpg/330px-The_Ottoman-Mamluk_war_and_the_conquest_of_Mecca_and_Medina._Printed_in_Basel%2C_dated_1518.jpg",
+      "imageAttribution": "16th-century Basel news pamphlet (1518), Public domain, via Wikimedia Commons",
+      "imageDescription": "A 1518 Basel news pamphlet documenting the Ottoman conquest of the Mamluk Sultanate and Mecca and Medina.",
+      "wikidataId": "Q4338038",
+      "tags": [
+        "battle",
+        "religion"
+      ],
+      "location": {
+        "historicalName": "Cairo",
+        "city": "Cairo",
+        "country": "Egypt",
+        "latitude": 30.04,
+        "longitude": 31.24
+      }
+    },
+    {
+      "year": 1529,
+      "sig": "major",
+      "title": "Suleiman the Magnificent Besieges Vienna",
+      "body": "Suleiman the Magnificent lays siege to the Habsburg capital of Vienna but withdraws after 18 days when rain, dwindling supplies, and the approaching winter make the walls unbreakable in time -- marking the deepest advance of Ottoman power into Central Europe.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Siege_of_Vienna_(1529)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Siegeofvienna1529.jpg/330px-Siegeofvienna1529.jpg",
+      "imageAttribution": "Engraving by Bartel Beham, Public domain, via Wikimedia Commons",
+      "imageDescription": "A contemporary engraving depicting the 1529 Ottoman siege of Vienna.",
+      "wikidataId": "Q207576",
+      "location": {
+        "historicalName": "Vienna",
+        "city": "Vienna",
+        "country": "Austria",
+        "latitude": 48.2083,
+        "longitude": 16.3725
+      },
+      "tags": [
+        "battle"
+      ]
+    },
+    {
+      "year": 1557,
+      "sig": "minor",
+      "title": "Mimar Sinan Completes the Süleymaniye Mosque",
+      "body": "Imperial architect Mimar Sinan completes the Süleymaniye Mosque on Istanbul's Third Hill, a domed complex commissioned by Suleiman the Magnificent that becomes the empire's grandest architectural expression of its classical-age power.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/S%C3%BCleymaniye_Mosque",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/S%C3%BCleymaniyeMosqueIstanbul_%28cropped%29.jpg/330px-S%C3%BCleymaniyeMosqueIstanbul_%28cropped%29.jpg",
+      "imageAttribution": "Photo by Hunanuk, CC0, via Wikimedia Commons",
+      "imageDescription": "The Süleymaniye Mosque in Istanbul, commissioned by Suleiman the Magnificent.",
+      "wikidataId": "Q178643",
+      "tags": [
+        "architecture"
+      ],
+      "location": {
+        "historicalName": "Constantinople",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "latitude": 41.01361111,
+        "longitude": 28.955
+      }
+    },
+    {
+      "year": 1571,
+      "sig": "major",
+      "title": "The Holy League Destroys the Ottoman Fleet at Lepanto",
+      "body": "A Holy League fleet of Spanish, Venetian, and papal galleys crushes the Ottoman navy in the Gulf of Patras, ending decades of unchallenged Ottoman dominance at sea even as the empire rebuilds its fleet within a year.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Lepanto",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Laureys_a_Castro_-_The_Battle_of_Lepanto.jpeg/330px-Laureys_a_Castro_-_The_Battle_of_Lepanto.jpeg",
+      "imageAttribution": "Painting by Laureys a Castro, Public domain, via Wikimedia Commons",
+      "imageDescription": "A 17th-century painting depicting the naval Battle of Lepanto.",
+      "wikidataId": "Q165425",
+      "location": {
+        "historicalName": "Lepanto",
+        "city": "Nafpaktos",
+        "country": "Greece",
+        "latitude": 38.39388889,
+        "longitude": 21.83055556
+      },
+      "tags": [
+        "battle"
+      ]
+    },
+    {
+      "year": 1577,
+      "sig": "minor",
+      "title": "Taqi al-Din Founds the Istanbul Observatory",
+      "body": "Astronomer Taqi al-Din Muhammad ibn Ma'ruf establishes an observatory in Istanbul rivaling the great observatories of the era, equipping it with instruments of his own design before conservative religious opposition leads to its demolition just three years later.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Constantinople_observatory_of_Taqi_ad-Din",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Taqi_al_din.jpg/330px-Taqi_al_din.jpg",
+      "imageAttribution": "Miniature painting by Ala ad-Din Mansur-Shirazi, Public domain, via Wikimedia Commons",
+      "imageDescription": "A miniature from the Şehinşahname depicting Ottoman astronomers at work at the Istanbul Observatory under Taqi al-Din.",
+      "wikidataId": "Q3348357",
+      "tags": [
+        "science"
+      ],
+      "location": {
+        "historicalName": "Constantinople",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "latitude": 41.01361111,
+        "longitude": 28.955
+      }
+    },
+    {
+      "year": 1683,
+      "sig": "major",
+      "title": "The Ottomans Are Routed at the Battle of Vienna",
+      "body": "A relief army led by Polish king John III Sobieski smashes the two-month Ottoman siege of Vienna, halting the empire's westward expansion for good and touching off a sixteen-year war that steadily rolls back Ottoman territory in Europe.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Vienna",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Anonym_Entsatz_Wien_1683.jpg/330px-Anonym_Entsatz_Wien_1683.jpg",
+      "imageAttribution": "Painting, Museum of Military History Vienna, Public domain, via Wikimedia Commons",
+      "imageDescription": "A monumental painting depicting the 1683 siege and relief of Vienna.",
+      "wikidataId": "Q200855",
+      "location": {
+        "historicalName": "Vienna",
+        "city": "Vienna",
+        "country": "Austria",
+        "latitude": 48.2083,
+        "longitude": 16.3725
+      },
+      "tags": [
+        "battle"
+      ]
+    },
+    {
+      "year": 1699,
+      "sig": "minor",
+      "title": "The Treaty of Karlowitz Ends the Great Turkish War",
+      "body": "Defeated in the Great Turkish War, the Ottoman Empire signs the Treaty of Karlowitz, ceding Hungary and other territories to the Habsburgs, Podolia to Poland-Lithuania, and Dalmatia and the Morea to Venice in its first major territorial retreat from a coalition of European powers.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Treaty_of_Karlowitz",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Treaty_of_Karlowitz.jpg/330px-Treaty_of_Karlowitz.jpg",
+      "imageAttribution": "Photo by O.Mustafin, CC0, via Wikimedia Commons",
+      "imageDescription": "A copy of the Treaty of Karlowitz document exhibited in the Doge's Palace in Venice.",
+      "wikidataId": "Q192303",
+      "location": {
+        "historicalName": "Karlowitz",
+        "city": "Sremski Karlovci",
+        "country": "Serbia",
+        "latitude": 45.20277778,
+        "longitude": 19.93361111
+      },
+      "tags": []
+    },
+    {
+      "year": 1718,
+      "sig": "minor",
+      "title": "The Tulip Era Ushers in a Golden Age of Ottoman Art",
+      "body": "Following the Treaty of Passarowitz, Sultan Ahmed III and Grand Vizier Nevşehirli Damat İbrahim Pasha open the Tulip Era, a period of relative peace marked by lavish gardens, Westward-looking court culture, and a flourishing of miniature painting and architecture in Istanbul.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tulip_Period",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Sultan_Ahmet_III_Fountain_%2848985208178%29.jpg/330px-Sultan_Ahmet_III_Fountain_%2848985208178%29.jpg",
+      "imageAttribution": "Photo by Julien Maury, Public domain, via Wikimedia Commons",
+      "imageDescription": "The Ahmed III Fountain in Istanbul, a landmark built during the Tulip Era.",
+      "wikidataId": "Q1343901",
+      "tags": [
+        "art",
+        "architecture"
+      ],
+      "location": {
+        "historicalName": "Constantinople",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "latitude": 41.01361111,
+        "longitude": 28.955
+      }
+    },
+    {
+      "year": 1727,
+      "sig": "minor",
+      "title": "İbrahim Müteferrika Opens the First Ottoman Printing Press",
+      "body": "Hungarian-born convert İbrahim Müteferrika receives a sultanic decree to establish the first printing press to use movable Arabic type in the Muslim world, publishing works on history, geography, and science from his Istanbul workshop.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ibrahim_Muteferrika",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Ibrahim_M%C3%BCteferrika.jpg/330px-Ibrahim_M%C3%BCteferrika.jpg",
+      "imageAttribution": "Photo of a statue by Ogodej, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A statue of İbrahim Müteferrika in Istanbul, near the Grand Bazaar.",
+      "wikidataId": "Q561445",
+      "tags": [
+        "science"
+      ],
+      "location": {
+        "historicalName": "Constantinople",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "latitude": 41.01361111,
+        "longitude": 28.955
+      }
+    },
+    {
+      "year": 1730,
+      "sig": "major",
+      "title": "The Patrona Halil Revolt Ends the Tulip Era",
+      "body": "A former janissary named Patrona Halil leads a mob uprising through Istanbul that forces Sultan Ahmed III to abdicate in favor of Mahmud I, ending the Tulip Era's cultural experimentation amid a conservative backlash against its costly extravagance.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Patrona_Halil",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Patrona_khalil_calkoen.jpeg/330px-Patrona_khalil_calkoen.jpeg",
+      "imageAttribution": "Painting by Jean Baptiste Vanmour, Public domain, via Wikimedia Commons",
+      "imageDescription": "A depiction of Patrona Halil leading the 1730 uprising that ended the Tulip Era.",
+      "wikidataId": "Q2305326",
+      "tags": [
+        "rebellion",
+        "governance"
+      ],
+      "location": {
+        "historicalName": "Constantinople",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "latitude": 41.01361111,
+        "longitude": 28.955
+      }
+    },
+    {
+      "year": 1774,
+      "sig": "major",
+      "title": "The Treaty of Küçük Kaynarca Marks the Empire's First Major Retreat",
+      "body": "Defeated by Russia after a six-year war, the Ottoman Empire signs the Treaty of Küçük Kaynarca, recognizing Crimean independence and granting Russia the right to intervene on behalf of Orthodox Christians within Ottoman territory -- a precedent later powers repeatedly invoke to justify meddling in Ottoman affairs.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Treaty_of_K%C3%BC%C3%A7%C3%BCk_Kaynarca",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Treaty_of_K%C3%BC%C3%A7%C3%BCk_Kaynarca_1774.jpg/330px-Treaty_of_K%C3%BC%C3%A7%C3%BCk_Kaynarca_1774.jpg",
+      "imageAttribution": "Allegorical 18th-century engraving, Cabinet of Engravings of the Romanian Academy, Public domain, via Wikimedia Commons",
+      "imageDescription": "A contemporary allegorical engraving depicting the Ottoman Empire losing territory under the 1774 treaty.",
+      "wikidataId": "Q123227",
+      "tags": [
+        "collapse"
+      ],
+      "location": {
+        "historicalName": "Küçük Kaynarca",
+        "city": "Kaynardzha",
+        "country": "Bulgaria",
+        "latitude": 43.98333333,
+        "longitude": 27.5
+      }
+    },
+    {
+      "year": 1826,
+      "sig": "major",
+      "title": "Mahmud II Abolishes the Janissary Corps in the Auspicious Incident",
+      "body": "Sultan Mahmud II crushes a janissary mutiny in Istanbul and forcibly disbands the centuries-old corps, clearing the way for a modern, European-style army and consolidating central authority after decades of janissary interference in politics.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Auspicious_Incident",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Welt-Galleria_T085.jpg/330px-Welt-Galleria_T085.jpg",
+      "imageAttribution": "Engraving by Christoph Weigel the Elder and Caspar Luyken, Public domain, via Wikimedia Commons",
+      "imageDescription": "A 1703 engraving depicting an Ottoman janissary, the corps abolished in the Auspicious Incident.",
+      "wikidataId": "Q2665576",
+      "tags": [
+        "governance",
+        "rebellion"
+      ],
+      "location": {
+        "historicalName": "Constantinople",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "latitude": 41.01361111,
+        "longitude": 28.955
+      }
+    },
+    {
+      "year": 1830,
+      "sig": "major",
+      "title": "The London Protocol Recognizes Greek Independence",
+      "body": "After nearly a decade of revolt across the Greek peninsula, the London Protocol formally recognizes Greece as an independent state, marking the Ottoman Empire's first loss of a subject nation to nationalist revolution.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/London_Protocol_(1830)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/%CE%A0%CF%81%CF%89%CF%84%CE%BF%CE%BA%CE%BF%CE%BB%CE%BB%CE%BF_%CE%B1%CE%BD%CE%B5%CE%BE%CE%B1%CF%81%CF%84%CE%B7%CF%83%CE%AF%CE%B1%CF%82.jpg/330px-%CE%A0%CF%81%CF%89%CF%84%CE%BF%CE%BA%CE%BF%CE%BB%CE%BB%CE%BF_%CE%B1%CE%BD%CE%B5%CE%BE%CE%B1%CF%81%CF%84%CE%B7%CF%83%CE%AF%CE%B1%CF%82.jpg",
+      "imageAttribution": "Fresco by Ludwig Michael von Schwanthaler, Public domain, via Wikimedia Commons",
+      "imageDescription": "A fresco in the Greek Parliament's Trophy Hall depicting the signing of the London Protocol.",
+      "wikidataId": "Q839396",
+      "tags": [
+        "rebellion",
+        "collapse"
+      ],
+      "location": {
+        "historicalName": "London",
+        "city": "London",
+        "country": "United Kingdom",
+        "latitude": 51.51,
+        "longitude": -0.13
+      }
+    },
+    {
+      "year": 1839,
+      "sig": "major",
+      "title": "The Edict of Gülhane Launches the Tanzimat Reforms",
+      "body": "Sultan Abdülmecid I proclaims the Edict of Gülhane at Topkapı Palace, launching the Tanzimat era of reforms that overhaul Ottoman law, education, and taxation in an attempt to modernize the empire and halt its long decline.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tanzimat",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Sultan_Abd%C3%BClmecid_I.jpg/330px-Sultan_Abd%C3%BClmecid_I.jpg",
+      "imageAttribution": "Painting by David Wilkie, Public domain, via Wikimedia Commons",
+      "imageDescription": "A portrait of Sultan Abdülmecid I, who proclaimed the Edict of Gülhane.",
+      "wikidataId": "Q330961",
+      "location": {
+        "historicalName": "Constantinople",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "latitude": 41.01361111,
+        "longitude": 28.955
+      },
+      "tags": [
+        "governance"
+      ]
+    },
+    {
+      "year": 1876,
+      "sig": "major",
+      "title": "The Ottoman Empire Adopts Its First Constitution",
+      "body": "Sultan Abdul Hamid II promulgates the empire's first written constitution, establishing an elected parliament and opening the First Constitutional Era before suspending it just two years later amid war with Russia.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/First_Constitutional_Era",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Ottoman_Parliament_1877.jpg/330px-Ottoman_Parliament_1877.jpg",
+      "imageAttribution": "Illustration from The Graphic (1877), Public domain, via Wikimedia Commons",
+      "imageDescription": "The first meeting of the Ottoman Parliament in Constantinople, March 1877.",
+      "wikidataId": "Q3545916",
+      "tags": [
+        "governance"
+      ],
+      "location": {
+        "historicalName": "Constantinople",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "latitude": 41.01361111,
+        "longitude": 28.955
+      }
+    },
+    {
+      "year": 1878,
+      "sig": "major",
+      "title": "The Congress of Berlin Strips the Ottomans of Balkan Territory",
+      "body": "European powers meeting in Berlin revise the harsh terms Russia imposed after the Russo-Turkish War, but still force the Ottoman Empire to cede vast Balkan territory and recognize the independence of Serbia, Montenegro, and Romania.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Congress_of_Berlin",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Congress_of_Berlin%2C_13_July_1878%2C_by_Anton_von_Werner.jpg/330px-Congress_of_Berlin%2C_13_July_1878%2C_by_Anton_von_Werner.jpg",
+      "imageAttribution": "Painting by Anton von Werner, Public domain, via Wikimedia Commons",
+      "imageDescription": "An 1892 painting depicting the Congress of Berlin of July 1878.",
+      "wikidataId": "Q151423",
+      "tags": [
+        "collapse"
+      ],
+      "location": {
+        "historicalName": "Berlin",
+        "city": "Berlin",
+        "country": "Germany",
+        "latitude": 52.52,
+        "longitude": 13.405
+      }
+    },
+    {
+      "year": 1908,
+      "sig": "minor",
+      "title": "The Young Turk Revolution Restores the Constitution",
+      "body": "Army officers of the Committee of Union and Progress rise up in Ottoman Macedonia and force Sultan Abdul Hamid II to restore the suspended 1876 constitution, ending three decades of autocratic rule and opening the empire's final constitutional era.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Young_Turk_Revolution",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Declaration_of_the_1908_Revolution_in_Ottoman_Empire.png/330px-Declaration_of_the_1908_Revolution_in_Ottoman_Empire.png",
+      "imageAttribution": "Photo by Charles Roden Buxton, Public domain, via Wikimedia Commons",
+      "imageDescription": "Religious leaders of different faiths appearing together to mark the 1908 constitutional restoration.",
+      "wikidataId": "Q4298662",
+      "location": {
+        "historicalName": "Monastir",
+        "city": "Bitola",
+        "country": "North Macedonia",
+        "latitude": 41.03194444,
+        "longitude": 21.33472222
+      },
+      "tags": [
+        "governance",
+        "rebellion"
+      ]
+    },
+    {
+      "year": 1913,
+      "sig": "major",
+      "title": "The Balkan Wars Strip the Ottomans of Nearly All European Territory",
+      "body": "Defeated by a coalition of Balkan states in the First Balkan War, the Ottoman Empire signs the Treaty of London, ceding almost all its remaining European provinces and the Aegean islands -- reducing six centuries of Ottoman Europe to a small strip of Eastern Thrace.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Treaty_of_London_(1913)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/London_Peace_Treaty_Signing_30_May_1913.jpg/330px-London_Peace_Treaty_Signing_30_May_1913.jpg",
+      "imageAttribution": "Public domain, via Wikimedia Commons",
+      "imageDescription": "The signing of the Treaty of London on 30 May 1913, ending the First Balkan War.",
+      "wikidataId": "Q584617",
+      "tags": [
+        "battle",
+        "collapse"
+      ],
+      "location": {
+        "historicalName": "London",
+        "city": "London",
+        "country": "United Kingdom",
+        "latitude": 51.51,
+        "longitude": -0.13
+      }
+    },
+    {
+      "year": 1915,
+      "sig": "major",
+      "title": "The Gallipoli Campaign Repels an Allied Invasion",
+      "body": "Ottoman forces under commanders including Mustafa Kemal successfully defend the Gallipoli Peninsula against a nine-month Allied invasion aimed at capturing Constantinople, inflicting a costly defeat that boosts Ottoman morale and launches Mustafa Kemal's rise to prominence.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gallipoli_campaign",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Anzac%2C_the_landing_1915.jpg/330px-Anzac%2C_the_landing_1915.jpg",
+      "imageAttribution": "Painting by George Washington Lambert, Public domain, via Wikimedia Commons",
+      "imageDescription": "Australian troops landing at Anzac Cove during the Gallipoli campaign, April 1915.",
+      "wikidataId": "Q164983",
+      "tags": [
+        "battle"
+      ],
+      "location": {
+        "historicalName": "Gallipoli",
+        "city": "Gelibolu",
+        "country": "Turkey",
+        "latitude": 40.41,
+        "longitude": 26.67
+      }
+    },
+    {
+      "year": 1915,
+      "sig": "major",
+      "title": "Ottoman Authorities Launch the Armenian Genocide",
+      "body": "Ottoman authorities arrest and deport hundreds of Armenian intellectuals from Constantinople on April 24, 1915, beginning a systematic campaign of massacre and forced deportation that kills hundreds of thousands to over a million Armenians by the war's end.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Armenian_genocide",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Column_of_deportees_walking_through_Harput_vilayet_during_the_Armenian_genocide_%28cropped%29.jpg/330px-Column_of_deportees_walking_through_Harput_vilayet_during_the_Armenian_genocide_%28cropped%29.jpg",
+      "imageAttribution": "Photograph published in Ravished Armenia, Public domain, via Wikimedia Commons",
+      "imageDescription": "A column of Armenian deportees being marched through the Harput region during the genocide.",
+      "wikidataId": "Q80034",
+      "tags": [
+        "collapse"
+      ],
+      "location": {
+        "historicalName": "Constantinople",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "latitude": 41.01361111,
+        "longitude": 28.955
+      }
+    },
+    {
+      "year": 1922,
+      "sig": "major",
+      "title": "The Grand National Assembly Abolishes the Sultanate",
+      "body": "The Grand National Assembly in Ankara abolishes the Ottoman sultanate, stripping Sultan Mehmed VI of political power and formally ending over six centuries of Ottoman rule as the last sultan departs Constantinople into exile.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Abolition_of_the_Ottoman_sultanate",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Sultanvahideddin.jpg/330px-Sultanvahideddin.jpg",
+      "imageAttribution": "Public domain, via Wikimedia Commons",
+      "imageDescription": "Sultan Mehmed VI departing Dolmabahçe Palace shortly before his exile in November 1922.",
+      "wikidataId": "Q3809270",
+      "location": {
+        "historicalName": "Constantinople",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "latitude": 41.01361111,
+        "longitude": 28.955
+      },
+      "tags": [
+        "collapse"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "id": "minoan_mycenaean",
+  "name": "Minoan & Mycenaean",
+  "colorIndex": 4,
+  "start": -3100,
+  "end": -1100,
+  "summary": "The Minoan civilization on Crete and the Mycenaean civilization on the Greek mainland were the Aegean world's first major Bronze Age societies, linked by trade, art, and eventually conquest. Minoan Crete built the Mediterranean's earliest palaces and a far-reaching maritime trading network, while Mycenaean Greece rose through a warrior aristocracy, fortified citadels, and Linear B administration. Volcanic disaster, internal upheaval, and the wider Late Bronze Age Collapse ended both civilizations, ushering in the Greek Dark Ages by 1100 BC.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Aegean_civilization",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Lion_Gate_-_Mycenae_by_Joy_of_Museums.jpg/330px-Lion_Gate_-_Mycenae_by_Joy_of_Museums.jpg",
+  "imageAttribution": "Photo by Joyofmuseums, CC BY-SA 4.0, via Wikimedia Commons",
+  "imageDescription": "The Lion Gate, the monumental entrance to the Mycenaean citadel at Mycenae.",
+  "wikidataId": "Q192530",
+  "events": [
+    {
+      "year": -3100,
+      "sig": "minor",
+      "title": "Bronze Age Settlement Begins on Crete",
+      "body": "Farming communities on Crete enter the Bronze Age, laying the groundwork for what will become Europe's first major civilization. Early Minoan society develops metalworking, seafaring, and the trade networks that later palaces will build on.",
+      "tags": [
+        "founding"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Minoan_civilization",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Map_Minoan_Crete-en.svg/330px-Map_Minoan_Crete-en.svg.png",
+      "imageAttribution": "Map by Bibi Saint-Pol, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A map of Minoan-era Crete showing its major settlements and palace sites.",
+      "wikidataId": "Q134178",
+      "location": {
+        "historicalName": "Crete",
+        "city": "Crete",
+        "country": "Greece",
+        "latitude": 35.21,
+        "longitude": 24.91
+      }
+    },
+    {
+      "year": -1900,
+      "sig": "major",
+      "title": "First Minoan Palaces Built at Knossos, Phaistos, and Malia",
+      "body": "Growing populations on Crete build the island's first monumental palace complexes at Knossos, Phaistos, and Malia, marking the start of the Old Palace period. These centers organize agriculture, craft production, and long-distance trade under a shared Minoan culture.",
+      "tags": [
+        "founding",
+        "architecture"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Knossos",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/KnossosCourt.jpg/330px-KnossosCourt.jpg",
+      "imageAttribution": "Photo by Dougal96, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "The reception courtyard at the palace of Knossos, where Minoan rulers received visitors.",
+      "wikidataId": "Q173527",
+      "location": {
+        "historicalName": "Knossos",
+        "city": "Heraklion",
+        "country": "Greece",
+        "latitude": 35.29805556,
+        "longitude": 25.16305556
+      }
+    },
+    {
+      "year": -1700,
+      "sig": "major",
+      "title": "Earthquake Destroys the Old Palaces; Knossos Rebuilt",
+      "body": "A powerful earthquake, or series of them, levels Crete's Old Palaces around 1700 BC. Knossos and the other centers are rebuilt on a grander scale, opening the Neopalatial period, the height of Minoan art and architecture.",
+      "tags": [
+        "architecture"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Knossos",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/KnossosNorthEntranceCropped.jpg/330px-KnossosNorthEntranceCropped.jpg",
+      "imageAttribution": "Photo by Frederic Boissonnas, Public domain, via Wikimedia Commons",
+      "imageDescription": "The north entrance of the rebuilt palace at Knossos.",
+      "wikidataId": "Q173527",
+      "location": {
+        "historicalName": "Knossos",
+        "city": "Heraklion",
+        "country": "Greece",
+        "latitude": 35.29805556,
+        "longitude": 25.16305556
+      }
+    },
+    {
+      "year": -1600,
+      "sig": "major",
+      "title": "Grave Circle A Marks the Rise of Mycenae's Warrior Elite",
+      "body": "A new royal burial ground at Mycenae, Grave Circle A, is stocked with gold masks, weapons, and jewelry, revealing a wealthy and increasingly powerful warrior aristocracy on the Greek mainland. The roughly 15 kilograms of gold buried across its shaft graves signal Mycenae's rise as a major Aegean power.",
+      "tags": [
+        "art"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Grave_Circle_A,_Mycenae",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Grave-Circle-A-Mycenae.jpg/330px-Grave-Circle-A-Mycenae.jpg",
+      "imageAttribution": "Photo by Andreas Trepte, CC BY-SA 2.5, via Wikimedia Commons",
+      "imageDescription": "Grave Circle A and the citadel entrance at Mycenae.",
+      "wikidataId": "Q5597783",
+      "location": {
+        "historicalName": "Mycenae",
+        "city": "Mycenae",
+        "country": "Greece",
+        "latitude": 37.73027778,
+        "longitude": 22.7575
+      }
+    },
+    {
+      "year": -1600,
+      "sig": "minor",
+      "title": "Snake Goddess Figurines Placed in Knossos's Temple Repositories",
+      "body": "Faience figurines of women holding snakes are deposited in stone-lined \"Temple Repositories\" at Knossos. Long treated as a symbol of Minoan religion, their exact meaning, whether goddesses, priestesses, or something else entirely, remains debated among scholars.",
+      "tags": [
+        "religion",
+        "art"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Minoan_snake_goddess_figurines",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/%CE%98%CE%B5%CE%AC_%CF%84%CF%89%CE%BD_%CE%8C%CF%86%CE%B5%CF%89%CE%BD_6393_%28cropped_2%29.JPG/330px-%CE%98%CE%B5%CE%AC_%CF%84%CF%89%CE%BD_%CE%8C%CF%86%CE%B5%CF%89%CE%BD_6393_%28cropped_2%29.JPG",
+      "imageAttribution": "Photo by C messier, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "One of the Minoan snake goddess figurines excavated at Knossos in 1903.",
+      "wikidataId": "Q1125985",
+      "location": {
+        "historicalName": "Knossos",
+        "city": "Heraklion",
+        "country": "Greece",
+        "latitude": 35.29805556,
+        "longitude": 25.16305556
+      }
+    },
+    {
+      "year": -1600,
+      "sig": "major",
+      "title": "Thera Eruption Devastates Akrotiri",
+      "body": "A massive volcanic eruption on Thera (Santorini) buries the town of Akrotiri in ash and reshapes the island, one of the largest eruptions in human history. The Minoans recover and enter their cultural peak in the decades after, though the eruption's role in the civilization's later decline is still debated.",
+      "tags": [],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Minoan_eruption",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Santorini_ASTER.jpg/330px-Santorini_ASTER.jpg",
+      "imageAttribution": "Satellite photo by NASA, Public domain, via Wikimedia Commons",
+      "imageDescription": "A satellite image of Santorini, the caldera left by the Minoan eruption.",
+      "wikidataId": "Q1144693",
+      "location": {
+        "historicalName": "Thera",
+        "city": "Santorini",
+        "country": "Greece",
+        "latitude": 36.415,
+        "longitude": 25.4325
+      }
+    },
+    {
+      "year": -1450,
+      "sig": "minor",
+      "title": "Bull-Leaping Fresco Captures a Minoan Ritual",
+      "body": "Palace artists at Knossos paint the Bull-Leaping Fresco, showing acrobats vaulting over a charging bull. The scene captures a ceremonial sport thought to carry religious significance, though its exact purpose is still unclear a century after its discovery.",
+      "tags": [
+        "art",
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bull-Leaping_Fresco",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Knossos_bull_leaping_fresco.jpg/330px-Knossos_bull_leaping_fresco.jpg",
+      "imageAttribution": "Photo by Gleb Simonov, Public domain, via Wikimedia Commons",
+      "imageDescription": "The restored Bull-Leaping Fresco from the palace at Knossos.",
+      "wikidataId": "Q3566545",
+      "location": {
+        "historicalName": "Knossos",
+        "city": "Heraklion",
+        "country": "Greece",
+        "latitude": 35.29805556,
+        "longitude": 25.16305556
+      }
+    },
+    {
+      "year": -1450,
+      "sig": "major",
+      "title": "Mycenaeans Take Control of Knossos",
+      "body": "Widespread destruction sweeps across Crete's palaces around 1450 BC, sparing only Knossos, which comes under Mycenaean Greek control. Linear B, an early form of Greek, replaces the still-undeciphered Linear A as the script of palace administration.",
+      "tags": [
+        "collapse",
+        "science"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Knossos",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Throne_Hall_Knossos.jpg/330px-Throne_Hall_Knossos.jpg",
+      "imageAttribution": "Photo by Chris 73, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "The throne hall at Knossos, used during the Mycenaean administration of the palace.",
+      "wikidataId": "Q173527",
+      "location": {
+        "historicalName": "Knossos",
+        "city": "Heraklion",
+        "country": "Greece",
+        "latitude": 35.29805556,
+        "longitude": 25.16305556
+      }
+    },
+    {
+      "year": -1350,
+      "sig": "major",
+      "title": "Fire Destroys Knossos, Ending Minoan Palatial Rule",
+      "body": "A fire destroys the palace at Knossos around 1350 BC, ending its role as a Mycenaean administrative center and closing the palatial era of Minoan civilization. The blaze bakes and preserves hundreds of Linear B tablets, offering a snapshot of the palace's final administration.",
+      "tags": [
+        "collapse"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Knossos",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Knossos_-_03.jpg/330px-Knossos_-_03.jpg",
+      "imageAttribution": "Photo by Lapplaender, CC BY-SA 3.0 DE, via Wikimedia Commons",
+      "imageDescription": "Ruins of the upper floor of the palace of Knossos, with Mount Giouchtas in the background.",
+      "wikidataId": "Q173527",
+      "location": {
+        "historicalName": "Knossos",
+        "city": "Heraklion",
+        "country": "Greece",
+        "latitude": 35.29805556,
+        "longitude": 25.16305556
+      }
+    },
+    {
+      "year": -1320,
+      "sig": "minor",
+      "title": "Uluburun Shipwreck Reveals Bronze Age Trade Networks",
+      "body": "A merchant ship sinks off the coast of Uluburun carrying copper, tin, glass, ivory, and luxury goods gathered from across the Mediterranean and Near East, likely bound for a Mycenaean palace. The wreck's cargo shows how deeply Mycenaean Greece was woven into Late Bronze Age royal trade and gift exchange.",
+      "tags": [
+        "art"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Uluburun_shipwreck",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Uluburun1.jpg/330px-Uluburun1.jpg",
+      "imageAttribution": "Photo by Martin Bahmann, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "An artifact recovered from the Uluburun shipwreck.",
+      "wikidataId": "Q573852",
+      "location": {
+        "historicalName": "Uluburun",
+        "city": "Kaş",
+        "country": "Turkey",
+        "latitude": 36.2,
+        "longitude": 29.64166667
+      }
+    },
+    {
+      "year": -1250,
+      "sig": "major",
+      "title": "Treasury of Atreus Built at Mycenae",
+      "body": "Mycenaean builders complete the Treasury of Atreus, a monumental tholos tomb with a corbelled dome roughly 14.5 meters wide. It remains the largest dome of its kind built anywhere for over a thousand years, until Roman engineers surpass it.",
+      "tags": [
+        "architecture"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Treasury_of_Atreus",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Treasury_of_Atreus_Mycenae.jpg/330px-Treasury_of_Atreus_Mycenae.jpg",
+      "imageAttribution": "Photo by Ken Russell Salvador, CC BY 2.0, via Wikimedia Commons",
+      "imageDescription": "The corbelled entrance passage of the Treasury of Atreus at Mycenae.",
+      "wikidataId": "Q1262524",
+      "location": {
+        "historicalName": "Mycenae",
+        "city": "Mycenae",
+        "country": "Greece",
+        "latitude": 37.73027778,
+        "longitude": 22.7575
+      }
+    },
+    {
+      "year": -1200,
+      "sig": "major",
+      "title": "Bronze Age Collapse Reaches the Mycenaean Mainland",
+      "body": "Palatial centers across the Greek mainland, including Mycenae and Tiryns, suffer earthquakes and destruction as the wider Late Bronze Age Collapse sweeps the eastern Mediterranean. Trade networks fracture and the palace economies that sustained Mycenaean power begin to unravel.",
+      "tags": [
+        "collapse"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Invasions%2C_destructions_and_possible_population_movements_during_the_Bronze_Age_Collapse%2C_ca._1200_BC.png/330px-Invasions%2C_destructions_and_possible_population_movements_during_the_Bronze_Age_Collapse%2C_ca._1200_BC.png",
+      "imageAttribution": "Map by Alexikoua, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A map of invasions, destructions, and population movements during the Bronze Age Collapse.",
+      "wikidataId": "Q1059758"
+    },
+    {
+      "year": -1184,
+      "sig": "major",
+      "title": "Legendary Fall of Troy",
+      "body": "Ancient chronographers, including Eratosthenes, date the fall of Troy to around 1184 BC, the climax of the Trojan War later immortalized in Homer's epics. Archaeologists have found a real destruction layer at Troy from around this time, though how closely it matches the legend is still debated.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Trojan_War",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Akhilleus_Patroklos_Antikensammlung_Berlin_F2278.jpg/330px-Akhilleus_Patroklos_Antikensammlung_Berlin_F2278.jpg",
+      "imageAttribution": "Painting attributed to the Sosias Painter, Public domain, via Wikimedia Commons",
+      "imageDescription": "A red-figure vase painting of Achilles tending to the wounded Patroclus, a scene from the Trojan War.",
+      "wikidataId": "Q42937",
+      "location": {
+        "historicalName": "Troy",
+        "city": "Hisarlık",
+        "country": "Turkey",
+        "latitude": 39.9575,
+        "longitude": 26.23888889
+      }
+    },
+    {
+      "year": -1180,
+      "sig": "major",
+      "title": "Palace of Nestor Burns, Preserving Pylos's Linear B Archive",
+      "body": "Fire destroys the Palace of Nestor at Pylos, but the same heat bakes and preserves over a thousand Linear B tablets, the largest such archive found in Greece. Among the records are some of the earliest written references to Greek gods, including Poseidon, Zeus, Hera, and Dionysus.",
+      "tags": [
+        "collapse",
+        "governance",
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Palace_of_Nestor",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Ancient_Bath_in_Pylos.jpg/330px-Ancient_Bath_in_Pylos.jpg",
+      "imageAttribution": "Photo by Alun Salt, CC BY-SA 2.0, via Wikimedia Commons",
+      "imageDescription": "Remains of a bathing structure at the Palace of Nestor in Pylos.",
+      "wikidataId": "Q2047396",
+      "location": {
+        "historicalName": "Pylos",
+        "city": "Pylos",
+        "country": "Greece",
+        "latitude": 36.91388889,
+        "longitude": 21.69638889
+      }
+    },
+    {
+      "year": -1100,
+      "sig": "major",
+      "title": "Mycenaean Civilization Ends",
+      "body": "By 1100 BC, the last Mycenaean palatial centers are abandoned and Linear B writing falls out of use, closing the Aegean Bronze Age. The centuries that follow, marked by smaller, isolated communities, become known as the Greek Dark Ages.",
+      "tags": [
+        "collapse"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Greek_Dark_Ages",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Mycenae_ruins_dsc06390.jpg/330px-Mycenae_ruins_dsc06390.jpg",
+      "imageAttribution": "Photo by David Monniaux, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "Ruins of the citadel at Mycenae.",
+      "wikidataId": "Q210443"
+    }
+  ]
+}

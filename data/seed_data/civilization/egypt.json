@@ -1,0 +1,536 @@
+{
+  "id": "egypt",
+  "name": "Egypt",
+  "colorIndex": 2,
+  "start": -3100,
+  "end": -30,
+  "summary": "Ancient Egypt's civilization ran from Narmer's unification of Upper and Lower Egypt around 3100 BC through the Old, Middle, and New Kingdoms -- each followed by a period of fragmentation and reunification -- to the Late Period's conquest by Persia, then Alexander the Great, and finally the Ptolemaic dynasty, which ended with Cleopatra VII's death in 30 BC.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Ancient_Egypt",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg/330px-Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg",
+  "imageAttribution": "Photo by Douwe C. van der Zee, CC BY-SA 4.0, via Wikimedia Commons",
+  "imageDescription": "A modern photograph of the Pyramid of Khufu at Giza, the last surviving Wonder of the Ancient World.",
+  "wikidataId": "Q11768",
+  "events": [
+    {
+      "year": -3100,
+      "sig": "major",
+      "title": "Narmer Unites Upper and Lower Egypt",
+      "body": "King Narmer conquers or absorbs Lower Egypt, uniting the Nile valley under a single ruler for the first time and founding the line of pharaohs that will govern Egypt for the next three millennia.",
+      "tags": [
+        "founding",
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Narmer",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Narmer_palette_%28obverse%29_%28cropped%29.jpg/330px-Narmer_palette_%28obverse%29_%28cropped%29.jpg",
+      "imageAttribution": "Public domain, via Wikimedia Commons",
+      "imageDescription": "The Narmer Palette, a ceremonial carved slate commemorating the unification of Upper and Lower Egypt.",
+      "wikidataId": "Q189582",
+      "location": {
+        "historicalName": "Hierakonpolis",
+        "city": "Kom el-Ahmar",
+        "country": "Egypt",
+        "latitude": 25.0972,
+        "longitude": 32.7794
+      }
+    },
+    {
+      "year": -2670,
+      "sig": "minor",
+      "title": "Djoser Builds the Step Pyramid at Saqqara",
+      "body": "Pharaoh Djoser's architect Imhotep builds Egypt's first monumental stone structure, a six-tiered pyramid that launches the Old Kingdom's age of pyramid-building.",
+      "tags": [
+        "architecture"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pyramid_of_Djoser",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Sakkara_01.jpg/500px-Sakkara_01.jpg",
+      "imageAttribution": "Photo via Wikimedia Commons, CC BY-SA 3.0",
+      "imageDescription": "The Step Pyramid of Djoser at Saqqara, Egypt's first monumental stone structure.",
+      "wikidataId": "Q192158",
+      "location": {
+        "historicalName": "Saqqara",
+        "city": "Saqqara",
+        "country": "Egypt",
+        "latitude": 29.8711,
+        "longitude": 31.2167
+      }
+    },
+    {
+      "year": -2560,
+      "sig": "major",
+      "title": "The Great Pyramid of Giza Is Completed",
+      "body": "Pharaoh Khufu's tomb is finished after roughly two decades of construction, standing as the largest pyramid ever built and the last surviving Ancient Wonder of the World.",
+      "tags": [
+        "architecture"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg/330px-Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg",
+      "imageAttribution": "Photo by Douwe C. van der Zee, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "A modern photograph of the Great Pyramid of Giza, built as Khufu's tomb.",
+      "wikidataId": "Q37200",
+      "location": {
+        "historicalName": "Giza",
+        "city": "Giza",
+        "country": "Egypt",
+        "latitude": 29.987,
+        "longitude": 31.2118
+      }
+    },
+    {
+      "year": -2181,
+      "sig": "major",
+      "title": "Old Kingdom Collapses, Egypt Fractures into Rival Dynasties",
+      "body": "Pepi II's exceptionally long reign ends in succession chaos, and central authority collapses as increasingly independent nomarchs carve up the country; Egypt splinters into rival Herakleopolitan and Theban dynasties for more than a century.",
+      "tags": [
+        "collapse",
+        "rebellion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/First_Intermediate_Period_of_Egypt",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Limestone_Stela_of_Tjetji.jpg/500px-Limestone_Stela_of_Tjetji.jpg",
+      "imageAttribution": "Limestone Stela of Tjetji, British Museum, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "A limestone stela of the official Tjetji, dated to Egypt's 11th Dynasty during the fractured First Intermediate Period.",
+      "wikidataId": "Q232211",
+      "location": {
+        "historicalName": "Herakleopolis Magna",
+        "city": "Ihnasya el-Medina",
+        "country": "Egypt",
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    {
+      "year": -2055,
+      "sig": "major",
+      "title": "Mentuhotep II Reunifies Egypt, Begins the Middle Kingdom",
+      "body": "After more than a century of division known as the First Intermediate Period, Mentuhotep II defeats his rivals and reunites Upper and Lower Egypt, founding the Middle Kingdom from his power base at Thebes.",
+      "tags": [
+        "founding",
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mentuhotep_II",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Statue_of_Montuhotep_from_Deir_al-Bahri%2C_11th_Dynasty%2C_2065-2014_BCE%3B_Egyptian_Museum%2C_Cairo_%283%29.jpg/330px-Statue_of_Montuhotep_from_Deir_al-Bahri%2C_11th_Dynasty%2C_2065-2014_BCE%3B_Egyptian_Museum%2C_Cairo_%283%29.jpg",
+      "imageAttribution": "Photo by Prof. Mortel, CC BY 2.0, via Wikimedia Commons",
+      "imageDescription": "A statue of Mentuhotep II from his mortuary complex at Deir el-Bahri, now in the Egyptian Museum, Cairo.",
+      "wikidataId": "Q296439",
+      "location": {
+        "historicalName": "Thebes",
+        "city": "Luxor",
+        "country": "Egypt",
+        "latitude": 25.7206,
+        "longitude": 32.6103
+      }
+    },
+    {
+      "year": -1971,
+      "sig": "minor",
+      "title": "The Story of Sinuhe Is Composed",
+      "body": "An unknown author writes the tale of Sinuhe, an official who flees Egypt after Amenemhat I's death and eventually returns home in old age; copied for over 700 years afterward, it becomes ancient Egypt's most celebrated work of literature.",
+      "tags": [
+        "art"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Story_of_Sinuhe",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Papyrus_Ramesseum_A_01.jpg/500px-Papyrus_Ramesseum_A_01.jpg",
+      "imageAttribution": "Photo by Olaf Tausch, CC BY 3.0, via Wikimedia Commons",
+      "imageDescription": "A hieratic papyrus copy of the Story of Sinuhe, now in Berlin's Neues Museum."
+    },
+    {
+      "year": -1950,
+      "sig": "minor",
+      "title": "Senusret I Founds the Temple of Karnak",
+      "body": "Pharaoh Senusret I begins construction at Karnak with a shrine to the god Amun, launching a building project that later pharaohs will expand for another two thousand years into Egypt's largest temple complex.",
+      "tags": [
+        "architecture",
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Karnak",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Hall_of_columns%2C_Karnac%2C_RP-F-F25403-AG.jpg/500px-Hall_of_columns%2C_Karnac%2C_RP-F-F25403-AG.jpg",
+      "imageAttribution": "Photo by Francis Frith, 1857, public domain (Rijksmuseum), via Wikimedia Commons",
+      "imageDescription": "The hypostyle hall at Karnak, part of the temple complex begun under Senusret I.",
+      "wikidataId": "Q522862",
+      "location": {
+        "historicalName": "Ipet-Isut",
+        "city": "Luxor",
+        "country": "Egypt",
+        "latitude": 25.7183,
+        "longitude": 32.6583
+      }
+    },
+    {
+      "year": -1850,
+      "sig": "major",
+      "title": "Senusret III Abolishes the Nomarch System",
+      "body": "Senusret III strips Egypt's hereditary provincial nomarchs of their power, replacing the traditional nome administration with a handful of large districts answering directly to the crown -- a centralizing reform that reshapes how the Middle Kingdom is governed.",
+      "tags": [
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Senusret_III",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Portrait_head_of_pharaoh_Sesostris-Senusret_III_from_a_sphinx_statue_02_%28cropped%29.jpg/330px-Portrait_head_of_pharaoh_Sesostris-Senusret_III_from_a_sphinx_statue_02_%28cropped%29.jpg",
+      "imageAttribution": "Photo by ArchaiOptix, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "A granite portrait head of Senusret III, broken from a sphinx statue, now in Munich's Staatliches Museum Ägyptischer Kunst.",
+      "wikidataId": "Q19248"
+    },
+    {
+      "year": -1600,
+      "sig": "minor",
+      "title": "The Edwin Smith Papyrus Is Copied",
+      "body": "A scribe copies out Egypt's oldest surviving surgical treatise, a text that diagnoses and treats 48 traumatic injuries through clinical observation -- inspection, smell, pulse-taking -- rather than incantation, making it one of history's earliest examples of rational medicine.",
+      "tags": [
+        "science"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Edwin_Smith_Papyrus",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Edwin_Smith_Papyrus_v2.jpg/330px-Edwin_Smith_Papyrus_v2.jpg",
+      "imageAttribution": "Public domain, via Wikimedia Commons",
+      "imageDescription": "A page of the Edwin Smith Papyrus, discussing the treatment of facial trauma.",
+      "wikidataId": "Q842363"
+    },
+    {
+      "year": -1558,
+      "sig": "minor",
+      "title": "Seqenenre Tao Rebels Against Hyksos Rule",
+      "body": "Theban ruler Seqenenre Tao opens hostilities against the Hyksos kings occupying northern Egypt; he dies violently, likely in combat, but his war of liberation is carried on by his son Kamose and completed by his grandson Ahmose I.",
+      "tags": [
+        "rebellion",
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Seqenenre_Tao",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Coffin_Seqenenre_Petrie.png",
+      "imageAttribution": "Illustration by Flinders Petrie, public domain, via Wikimedia Commons",
+      "imageDescription": "The rishi-style coffin of Seqenenre Tao, found in the Deir el-Bahari royal cache.",
+      "wikidataId": "Q31526",
+      "location": {
+        "historicalName": "Thebes",
+        "city": "Luxor",
+        "country": "Egypt",
+        "latitude": 25.7206,
+        "longitude": 32.6103
+      }
+    },
+    {
+      "year": -1550,
+      "sig": "major",
+      "title": "Ahmose I Expels the Hyksos, Begins the New Kingdom",
+      "body": "Ahmose I captures the Hyksos stronghold of Avaris, driving the foreign dynasty out of Egypt and founding the 18th Dynasty, which will carry Egypt to the height of its power and territorial reach.",
+      "tags": [
+        "founding",
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ahmose_I",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Head_of_Ahmose_I_MET_DP140854.jpg/330px-Head_of_Ahmose_I_MET_DP140854.jpg",
+      "imageAttribution": "Metropolitan Museum of Art, CC0, via Wikimedia Commons",
+      "imageDescription": "A carved head of Ahmose I, founder of Egypt's 18th Dynasty, at the Metropolitan Museum of Art.",
+      "wikidataId": "Q7222",
+      "location": {
+        "historicalName": "Avaris",
+        "city": "Tell el-Dab'a",
+        "country": "Egypt",
+        "latitude": 30.7833,
+        "longitude": 31.8333
+      }
+    },
+    {
+      "year": -1353,
+      "sig": "minor",
+      "title": "Akhenaten Launches Egypt's Religious Revolution",
+      "body": "Pharaoh Akhenaten abandons Egypt's traditional pantheon for the worship of a single sun-disc god, Aten, and builds a new capital at Amarna -- a radical break that his successors will reverse within a generation.",
+      "tags": [
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Akhenaten",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/GD-EG-Caire-Mus%C3%A9e061.JPG/330px-GD-EG-Caire-Mus%C3%A9e061.JPG",
+      "imageAttribution": "Photo via Wikimedia Commons, CC BY-SA 2.5",
+      "wikidataId": "Q81794",
+      "location": {
+        "historicalName": "Akhetaten",
+        "city": "Amarna",
+        "country": "Egypt",
+        "latitude": 27.6453,
+        "longitude": 30.8964
+      }
+    },
+    {
+      "year": -1345,
+      "sig": "minor",
+      "title": "Thutmose Sculpts the Nefertiti Bust",
+      "body": "The royal sculptor Thutmose creates a painted limestone bust of Queen Nefertiti in his workshop at Akhenaten's new capital -- a work that survives more than three thousand years to become one of the most reproduced images of ancient Egyptian art.",
+      "tags": [
+        "art"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nefertiti_Bust",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Nofretete_Neues_Museum.jpg/330px-Nofretete_Neues_Museum.jpg",
+      "imageAttribution": "Photo by Philip Pikart, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "The Nefertiti Bust on display in Berlin's Neues Museum.",
+      "wikidataId": "Q582172",
+      "location": {
+        "historicalName": "Akhetaten",
+        "city": "Amarna",
+        "country": "Egypt",
+        "latitude": 27.6453,
+        "longitude": 30.8964
+      }
+    },
+    {
+      "year": -1330,
+      "sig": "minor",
+      "title": "Tutankhamun Restores Egypt's Traditional Religion",
+      "body": "In the fourth year of his reign, the young pharaoh Tutankhamun reverses his father Akhenaten's religious revolution, ending the exclusive worship of Aten and restoring Amun and Egypt's traditional gods, an act he commemorates on the Restoration Stela.",
+      "tags": [
+        "religion",
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tutankhamun",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/CairoEgMuseumTaaMaskMostlyPhotographed.jpg/330px-CairoEgMuseumTaaMaskMostlyPhotographed.jpg",
+      "imageAttribution": "Photo by Roland Unger, public domain, via Wikimedia Commons",
+      "imageDescription": "The funerary mask of Tutankhamun, in the Egyptian Museum, Cairo.",
+      "wikidataId": "Q12154",
+      "location": {
+        "historicalName": "Thebes",
+        "city": "Luxor",
+        "country": "Egypt",
+        "latitude": 25.7206,
+        "longitude": 32.6103
+      }
+    },
+    {
+      "year": -1274,
+      "sig": "minor",
+      "title": "The Battle of Kadesh",
+      "body": "Ramesses II leads Egyptian forces against the Hittite army of Muwatalli II in one of history's largest chariot battles; both sides claim victory, and the standoff eventually produces the world's earliest surviving peace treaty.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Kadesh",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Egypt_Abou_Simbel6.jpg/330px-Egypt_Abou_Simbel6.jpg",
+      "imageAttribution": "Photo via Wikimedia Commons, CC BY-SA 3.0",
+      "imageDescription": "The temple of Abu Simbel, built by Ramesses II, whose reliefs commemorate his campaign at Kadesh.",
+      "wikidataId": "Q203729",
+      "location": {
+        "historicalName": "Kadesh",
+        "city": "Homs",
+        "country": "Syria",
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    {
+      "year": -1156,
+      "sig": "minor",
+      "title": "Tomb Workers Stage History's First Recorded Strike",
+      "body": "In the 29th year of Ramesses III's reign, the royal tomb-builders of Deir el-Medina down tools and march on nearby mortuary temples when their grain rations fail to arrive -- the earliest documented labor strike in recorded history.",
+      "tags": [
+        "rebellion",
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ramesses_III",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Deir_el-Medina%2C_Luxor%2C_Egipto%2C_2022-04-03%2C_DD_18.jpg/330px-Deir_el-Medina%2C_Luxor%2C_Egipto%2C_2022-04-03%2C_DD_18.jpg",
+      "imageAttribution": "Photo by Diego Delso, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "The workmen's village of Deir el-Medina, home to the artisans who staged the strike.",
+      "wikidataId": "Q1528",
+      "location": {
+        "historicalName": "Set Maat",
+        "city": "Deir el-Medina",
+        "country": "Egypt",
+        "latitude": 25.7283,
+        "longitude": 32.6014
+      }
+    },
+    {
+      "year": -650,
+      "sig": "minor",
+      "title": "Psamtik I's Reign Revives Middle Kingdom Artistic Style",
+      "body": "Under Psamtik I, founder of the Saite dynasty, Egyptian sculptors deliberately imitate the style of Middle Kingdom masterpieces from a thousand years earlier -- a conscious archaism that signals the restored, unified monarchy's claim to Egypt's classical past.",
+      "tags": [
+        "art"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Psamtik_I",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Bust_from_Statue_of_a_King_MET_EGX.358.jpeg/330px-Bust_from_Statue_of_a_King_MET_EGX.358.jpeg",
+      "imageAttribution": "Bust of Psamtik I, CC0, via Wikimedia Commons (Metropolitan Museum of Art)",
+      "imageDescription": "A bust from a statue of Psamtik I, sculpted in a deliberately archaizing style.",
+      "wikidataId": "Q328763"
+    },
+    {
+      "year": -609,
+      "sig": "minor",
+      "title": "Necho II Commissions a Nile-to-Red-Sea Canal",
+      "body": "Pharaoh Necho II begins cutting a canal to connect the Nile to the Red Sea, a forerunner of the modern Suez Canal, and according to Herodotus sends a Phoenician fleet on a three-year voyage that circumnavigates Africa entirely -- though he abandons the canal unfinished to fight in Syria.",
+      "tags": [
+        "science"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Necho_II",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Necho-KnellingStatue_BrooklynMuseum.png/330px-Necho-KnellingStatue_BrooklynMuseum.png",
+      "imageAttribution": "Photo by Keith Schengili-Roberts, CC BY 2.5, via Wikimedia Commons",
+      "imageDescription": "A bronze kneeling statuette of a Necho pharaoh, now in the Brooklyn Museum.",
+      "wikidataId": "Q125102"
+    },
+    {
+      "year": -525,
+      "sig": "major",
+      "title": "Cambyses II Conquers Egypt for Persia",
+      "body": "The Achaemenid king Cambyses II defeats Pharaoh Psamtik III at Pelusium and crowns himself pharaoh, ending Egypt's Late Period independence and folding it into the Persian Empire as a satrapy.",
+      "tags": [
+        "battle",
+        "collapse"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/First_Achaemenid_conquest_of_Egypt",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Western_part_of_the_Achaemenid_Empire.jpg/500px-Western_part_of_the_Achaemenid_Empire.jpg",
+      "imageAttribution": "Map by Mossmaps, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "A map of the western Achaemenid Empire, including Egypt after Cambyses II's conquest.",
+      "wikidataId": null,
+      "location": {
+        "historicalName": "Pelusium",
+        "city": "Tell el-Farama",
+        "country": "Egypt",
+        "latitude": 31.04166667,
+        "longitude": 32.545
+      }
+    },
+    {
+      "year": -404,
+      "sig": "major",
+      "title": "Amyrtaeus Ends Persian Rule, Restores Egyptian Independence",
+      "body": "Amyrtaeus of Sais leads a successful revolt against Achaemenid Persian occupation, expelling Persian forces from Egypt and founding the short-lived 28th Dynasty -- the last native Egyptian dynasty before Persia's second conquest a generation later.",
+      "tags": [
+        "rebellion",
+        "founding"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Amyrtaeus",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Amyrtaios_aramaic_papyrus_Sachau.png/330px-Amyrtaios_aramaic_papyrus_Sachau.png",
+      "imageAttribution": "Public domain, via Wikimedia Commons",
+      "imageDescription": "An Aramaic loan contract papyrus dated to the reign of Amyrtaeus, from Elephantine.",
+      "wikidataId": "Q318000",
+      "location": {
+        "historicalName": "Sais",
+        "city": "Sa el-Hagar",
+        "country": "Egypt",
+        "latitude": 30.96472222,
+        "longitude": 30.76833333
+      }
+    },
+    {
+      "year": -332,
+      "sig": "major",
+      "title": "Alexander the Great Conquers Egypt",
+      "body": "Alexander enters Egypt to a welcome as a liberator from Persian rule and is crowned pharaoh at Memphis, ending nearly two centuries of Achaemenid control and setting up the Macedonian Greek Ptolemaic dynasty that follows.",
+      "tags": [
+        "battle",
+        "collapse",
+        "founding"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Alexander_the_Great",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Alexander_Mosaic_detail_of_Alexander_the_Great_%283x4_cropped%29.jpg/330px-Alexander_Mosaic_detail_of_Alexander_the_Great_%283x4_cropped%29.jpg",
+      "imageAttribution": "Public domain, via Wikimedia Commons (detail of the Alexander Mosaic)",
+      "imageDescription": "A detail of the Alexander Mosaic from Pompeii, depicting Alexander the Great in battle.",
+      "wikidataId": "Q8409",
+      "location": {
+        "historicalName": "Memphis",
+        "city": "Mit Rahina",
+        "country": "Egypt",
+        "latitude": 29.8494,
+        "longitude": 31.255
+      }
+    },
+    {
+      "year": -286,
+      "sig": "minor",
+      "title": "Ptolemy I Promotes the Cult of Serapis",
+      "body": "Ptolemy I promotes worship of Serapis, a new god blending Egyptian Osiris and Apis with Greek iconography, in a deliberate bid to give his Greek and Egyptian subjects a shared object of devotion.",
+      "tags": [
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Serapis",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Serapis_Pio-Clementino_Inv689_n2.jpg/330px-Serapis_Pio-Clementino_Inv689_n2.jpg",
+      "imageAttribution": "Public domain, via Wikimedia Commons",
+      "imageDescription": "A Roman marble copy of a Greek bust of Serapis, from the Serapeum of Alexandria.",
+      "wikidataId": "Q214554",
+      "location": {
+        "historicalName": "Alexandria",
+        "city": "Alexandria",
+        "country": "Egypt",
+        "latitude": 31.1975,
+        "longitude": 29.8925
+      }
+    },
+    {
+      "year": -283,
+      "sig": "major",
+      "title": "The Library of Alexandria Takes Shape",
+      "body": "Under Ptolemy I and his son Ptolemy II, Alexandria's Library and adjoining Museum take shape as a state-funded center of scholarship, eventually amassing hundreds of thousands of scrolls and drawing the ancient world's leading scientists and scholars.",
+      "tags": [
+        "science"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Library_of_Alexandria",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Ancientlibraryalex.jpg/330px-Ancientlibraryalex.jpg",
+      "imageAttribution": "Illustration by O. Von Corven, public domain, via Wikimedia Commons",
+      "imageDescription": "A 19th-century artistic rendering of the Library of Alexandria's reading room.",
+      "wikidataId": "Q435",
+      "location": {
+        "historicalName": "Alexandria",
+        "city": "Alexandria",
+        "country": "Egypt",
+        "latitude": 31.1975,
+        "longitude": 29.8925
+      }
+    },
+    {
+      "year": -280,
+      "sig": "major",
+      "title": "The Lighthouse of Alexandria Is Completed",
+      "body": "After roughly twelve years of construction begun under Ptolemy I, the Lighthouse of Alexandria is completed under Ptolemy II on the island of Pharos, rising over 100 meters to become one of the tallest structures in the ancient world and one of its Seven Wonders.",
+      "tags": [
+        "architecture"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Lighthouse_-_Thiersch.png/330px-Lighthouse_-_Thiersch.png",
+      "imageAttribution": "Drawing by Hermann Thiersch, 1909, public domain, via Wikimedia Commons",
+      "imageDescription": "A reconstruction drawing of the Lighthouse of Alexandria by archaeologist Hermann Thiersch.",
+      "wikidataId": "Q43244",
+      "location": {
+        "historicalName": "Pharos",
+        "city": "Alexandria",
+        "country": "Egypt",
+        "latitude": 31.1975,
+        "longitude": 29.8925
+      }
+    },
+    {
+      "year": -196,
+      "sig": "minor",
+      "title": "The Rosetta Stone Decree Is Issued",
+      "body": "A congress of priests meeting at Memphis issues a decree honoring the young Ptolemy V, inscribing it in hieroglyphic, Demotic, and Greek on what becomes known as the Rosetta Stone -- the trilingual text that will let scholars decipher Egyptian hieroglyphs two thousand years later.",
+      "tags": [
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rosetta_Stone",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Rosetta_Stone.JPG/330px-Rosetta_Stone.JPG",
+      "imageAttribution": "Photo by Hans Hillewaert, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "The Rosetta Stone, on display in the British Museum.",
+      "wikidataId": "Q48584",
+      "location": {
+        "historicalName": "Memphis",
+        "city": "Mit Rahina",
+        "country": "Egypt",
+        "latitude": 29.8494,
+        "longitude": 31.255
+      }
+    },
+    {
+      "year": -30,
+      "sig": "major",
+      "title": "Death of Cleopatra VII",
+      "body": "Egypt's last active pharaoh dies by suicide after Rome's conquest of the Ptolemaic Kingdom, ending nearly three millennia of pharaonic rule and making Egypt a province of Rome.",
+      "tags": [
+        "collapse"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cleopatra",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kleopatra-VII.-Altes-Museum-Berlin1.jpg/330px-Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
+      "imageAttribution": "Photo by Louis le Grand, Public domain, via Wikimedia Commons",
+      "imageDescription": "A Roman marble bust of Cleopatra VII, dated to around the time of her visit to Rome, now in Berlin's Altes Museum.",
+      "wikidataId": "Q635",
+      "location": {
+        "historicalName": "Alexandria",
+        "city": "Alexandria",
+        "country": "Egypt",
+        "latitude": 31.1975,
+        "longitude": 29.8925
+      }
+    }
+  ]
+}

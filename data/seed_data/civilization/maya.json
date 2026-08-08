@@ -1,0 +1,390 @@
+{
+  "id": "maya",
+  "name": "Maya",
+  "colorIndex": 8,
+  "start": -2000,
+  "end": 1697,
+  "summary": "The Maya developed one of the ancient world's most sophisticated civilizations across the tropical lowlands of modern Mexico, Guatemala, Belize, and Honduras, without ever unifying into a single empire. Preclassic cities like Nakbe and El Mirador pioneered monumental pyramid-building by the first millennium BC; the Classic Period (c. 250-900 AD) saw rival city-states such as Tikal, Calakmul, Palenque, and Copán compete through warfare, dynastic marriage, and monumental art before a still-debated collapse depopulated the southern lowlands; and in the Postclassic era power shifted north to Chichen Itza and then Mayapan, whose fall in the 1440s fragmented the Yucatán into small kingdoms that resisted Spanish conquest until the last one fell in 1697.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Maya_civilization",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Tikal_Temple1_2006_08_11.JPG/330px-Tikal_Temple1_2006_08_11.JPG",
+  "imageAttribution": "Photo by Raymond Ostertag, CC BY-SA 2.5, via Wikimedia Commons",
+  "imageDescription": "Temple I, the Great Jaguar pyramid, rising over the Great Plaza at Tikal.",
+  "wikidataId": "Q28567",
+  "events": [
+    {
+      "year": -750,
+      "sig": "major",
+      "title": "Monumental Construction Begins at Nakbe",
+      "body": "In the Mirador Basin, Nakbe becomes one of the first Maya settlements to raise large stone platforms and pyramids, marking the start of large-scale Maya monumental architecture.",
+      "tags": [
+        "architecture"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nakbe",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Nakbe%2C_small_temple_1.jpg/330px-Nakbe%2C_small_temple_1.jpg",
+      "imageAttribution": "Photo by Simon Burchell, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "A small temple pyramid at Nakbe, one of the earliest major Maya sites.",
+      "wikidataId": "Q1964016",
+      "location": {
+        "historicalName": "Nakbe",
+        "city": null,
+        "country": "Guatemala",
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    {
+      "year": -300,
+      "sig": "major",
+      "title": "El Mirador Rises as the First Great Maya City",
+      "body": "Nearby El Mirador eclipses Nakbe to become the largest Preclassic Maya city, its La Danta pyramid ranking among the largest structures built anywhere in the ancient world by volume.",
+      "tags": [
+        "architecture"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/El_Mirador",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Pir%C3%A1mide_de_la_Danta%2C_Pet%C3%A9n.jpg/330px-Pir%C3%A1mide_de_la_Danta%2C_Pet%C3%A9n.jpg",
+      "imageAttribution": "Photo by Konjiki1, CC0, via Wikimedia Commons",
+      "imageDescription": "The La Danta pyramid complex at El Mirador, one of the largest structures of the ancient world by volume.",
+      "wikidataId": "Q504904",
+      "location": {
+        "historicalName": "El Mirador",
+        "city": null,
+        "country": "Guatemala",
+        "latitude": 17.755,
+        "longitude": -89.92055556
+      }
+    },
+    {
+      "year": -100,
+      "sig": "minor",
+      "title": "The San Bartolo Murals Depict Maya Creation Mythology and Kingship",
+      "body": "At San Bartolo in the Petén, muralists paint scenes of the maize god's birth and a king's coronation blessed by the gods -- the oldest known Maya paintings, showing that divine kingship was already established centuries earlier than once thought.",
+      "tags": [
+        "religion",
+        "art"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/San_Bartolo_(Maya_site)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/SBmural.jpg",
+      "imageAttribution": "Photo by Authenticmaya, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A mural fragment from San Bartolo depicting Preclassic Maya religious art, discovered in 2003.",
+      "wikidataId": "Q795599",
+      "location": {
+        "historicalName": "San Bartolo",
+        "city": null,
+        "country": "Guatemala",
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    {
+      "year": 150,
+      "sig": "major",
+      "title": "Preclassic Maya Cities Collapse",
+      "body": "El Mirador and most other major Preclassic centers are abandoned amid drought and political breakdown, closing out the Preclassic period before power later shifts to cities like Tikal.",
+      "tags": [
+        "collapse"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/El_Mirador",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Elmiradortigre.jpg/330px-Elmiradortigre.jpg",
+      "imageAttribution": "Photo by Authenticmaya, CC BY-SA 2.5, via Wikimedia Commons",
+      "imageDescription": "The jungle-covered Tigre pyramid at El Mirador, abandoned along with the rest of the city by about 150 AD.",
+      "wikidataId": "Q504904",
+      "location": {
+        "historicalName": "El Mirador",
+        "city": null,
+        "country": "Guatemala",
+        "latitude": 17.755,
+        "longitude": -89.92055556
+      }
+    },
+    {
+      "year": 250,
+      "sig": "major",
+      "title": "The Classic Period Begins",
+      "body": "Maya city-states like Tikal and Calakmul enter their peak era of monumental architecture, written history, and dynastic rivalry.",
+      "tags": [],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tikal",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Tikal_3.jpg/330px-Tikal_3.jpg",
+      "imageAttribution": "Photo by Mundo Maya, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "The Great Plaza at Tikal, one of the dominant Maya city-states of the Classic Period.",
+      "wikidataId": "Q181172"
+    },
+    {
+      "year": 378,
+      "sig": "major",
+      "title": "Teotihuacan's Entrada Remakes Tikal",
+      "body": "A Teotihuacan-backed general, Siyaj K'ak', arrives at Tikal the same day its king dies in battle; within a year a new Teotihuacan-aligned dynasty holds the throne and Tikal's power surges as the distant central Mexican city's proxy in the Maya lowlands.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tikal",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Tikal_Stela_31.jpg/330px-Tikal_Stela_31.jpg",
+      "imageAttribution": "Photo by Greg Willis, CC BY-SA 2.0, via Wikimedia Commons",
+      "imageDescription": "Stela 31 at Tikal, which depicts king Siyaj Chan K'awiil II and records the aftermath of the 378 AD entrada.",
+      "wikidataId": "Q181172",
+      "location": {
+        "historicalName": "Yax Mutal",
+        "city": "Tikal",
+        "country": "Guatemala",
+        "latitude": 17.22194444,
+        "longitude": -89.62361111
+      }
+    },
+    {
+      "year": 426,
+      "sig": "major",
+      "title": "K'inich Yax K'uk' Mo' Founds the Copán Dynasty",
+      "body": "A warrior-king linked to Tikal and the distant city of Teotihuacan establishes himself as Copán's first ajaw, founding a royal dynasty that will rule the southeastern Maya kingdom for four centuries.",
+      "tags": [
+        "founding"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/K%CA%BCinich_Yax_K%CA%BCuk%CA%BC_Mo%CA%BC",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Yax_Kuk_Mo.jpg/330px-Yax_Kuk_Mo.jpg",
+      "imageAttribution": "Photo by DuendeThumb, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A Classic-period ceramic incense burner from Copán believed to depict K'inich Yax K'uk' Mo', founder of the city's ruling dynasty.",
+      "wikidataId": "Q4164172",
+      "location": {
+        "historicalName": "Copán",
+        "city": "Copán Ruinas",
+        "country": "Honduras",
+        "latitude": 14.8375,
+        "longitude": -89.1425
+      }
+    },
+    {
+      "year": 615,
+      "sig": "major",
+      "title": "Pakal Ascends the Throne at Palenque",
+      "body": "Twelve-year-old K'inich Janaab' Pakal begins a 68-year reign that will make Palenque one of the Classic Period's greatest artistic centers.",
+      "tags": [
+        "art"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/K%CA%BCinich_Janaab%CA%BC_Pakal",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Maya_Jade_Mask_%26_Burial_Artifacts_of_Kinich_Hanab_Pakal%2C_Ruler_of_Palenque%2C_615-683_AD.jpg/330px-Maya_Jade_Mask_%26_Burial_Artifacts_of_Kinich_Hanab_Pakal%2C_Ruler_of_Palenque%2C_615-683_AD.jpg",
+      "imageAttribution": "Photo by Gary Todd, CC0, via Wikimedia Commons",
+      "imageDescription": "The jade funerary mask and burial regalia of K'inich Janaab' Pakal, displayed at Mexico City's National Museum of Anthropology.",
+      "wikidataId": "Q371384",
+      "location": {
+        "historicalName": "Lakamha",
+        "city": "Palenque",
+        "country": "Mexico",
+        "latitude": 17.48416667,
+        "longitude": -92.04638889
+      }
+    },
+    {
+      "year": 690,
+      "sig": "minor",
+      "title": "Kan Bahlam II Dedicates the Group of the Cross at Palenque",
+      "body": "Palenque's new king completes three temples honoring the Palenque Triad gods, their carved panels tracing his own accession back to the city's creation mythology and cementing his divine right to rule.",
+      "tags": [
+        "religion",
+        "art"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Temple_of_the_Cross_Complex",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Temples_of_the_Cross_Group.jpg",
+      "imageAttribution": "Illustration by Mdcarrasco, Public domain, via Wikimedia Commons",
+      "imageDescription": "A reconstruction illustration of the Temple of the Cross Complex, the three temples Kan Bahlam II dedicated to the Palenque Triad gods.",
+      "wikidataId": "Q7698757",
+      "location": {
+        "historicalName": "Lakamha",
+        "city": "Palenque",
+        "country": "Mexico",
+        "latitude": 17.48416667,
+        "longitude": -92.04638889
+      }
+    },
+    {
+      "year": 738,
+      "sig": "minor",
+      "title": "Quiriguá Captures and Sacrifices Copán's King",
+      "body": "Vassal city Quiriguá defeats its former overlord Copán in battle; king K'ak' Tiliw Chan Yopaat has Copán's ruler Waxaklajuun Ubaah K'awiil beheaded, upending the political order of the southeastern Maya lowlands.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Quirigu%C3%A1",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/GT_Quirigua_StelaE.JPG/330px-GT_Quirigua_StelaE.JPG",
+      "imageAttribution": "Photo by Jan Pesula, CC BY 2.5, via Wikimedia Commons",
+      "imageDescription": "Stela E at Quiriguá, a 12-meter monument raised in 771 by K'ak' Tiliw Chan Yopaat, the king who conquered Copán.",
+      "wikidataId": "Q318422",
+      "location": {
+        "historicalName": "Quiriguá",
+        "city": "Quiriguá",
+        "country": "Guatemala",
+        "latitude": 15.26944444,
+        "longitude": -89.04027778
+      }
+    },
+    {
+      "year": 790,
+      "sig": "minor",
+      "title": "Yajaw Chan Muwaan II Commissions the Bonampak Murals",
+      "body": "Bonampak's ruler has artists cover the walls of a three-room temple with scenes of courtly ceremony, a brutal battle and its aftermath, and bloodletting rites -- commemorating his son Chooj's accession and leaving the most vivid surviving record of Classic Maya court life.",
+      "tags": [
+        "art",
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bonampak",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Bonampak_painting.jpg",
+      "imageAttribution": "Photo by Jacob Rus, CC BY-SA 2.0, via Wikimedia Commons",
+      "imageDescription": "One of the Bonampak murals depicting a battle scene from the reign of Yajaw Chan Muwaan II.",
+      "wikidataId": "Q605455",
+      "location": {
+        "historicalName": "Bonampak",
+        "city": "Bonampak",
+        "country": "Mexico",
+        "latitude": 16.704,
+        "longitude": -91.065
+      }
+    },
+    {
+      "year": 909,
+      "sig": "major",
+      "title": "The Last Long Count Date Is Carved",
+      "body": "Monument 101 at Toniná records the final Classic Maya Long Count inscription, as southern lowland cities are abandoned in the following decades.",
+      "tags": [
+        "science"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tonin%C3%A1",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Templo_Mayor_Tonin%C3%A1_1.jpg/330px-Templo_Mayor_Tonin%C3%A1_1.jpg",
+      "imageAttribution": "Photo by J. Antonio Cruz Coutino, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "The Templo Mayor pyramid at Toniná, the Chiapas hill-city where Maya scribes carved their last Long Count date in 909.",
+      "wikidataId": "Q1042074",
+      "location": {
+        "historicalName": "Toniná",
+        "city": "Toniná",
+        "country": "Mexico",
+        "latitude": 16.90121944,
+        "longitude": -92.009675
+      }
+    },
+    {
+      "year": 950,
+      "sig": "major",
+      "title": "Chichen Itza Rises to Dominate the Yucatán",
+      "body": "Chichen Itza grows into the peninsula's dominant power, blending Maya and central Mexican Toltec architectural styles at monuments like El Castillo.",
+      "tags": [
+        "architecture"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chichen_Itza",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Chichen_Itza_3.jpg/330px-Chichen_Itza_3.jpg",
+      "imageAttribution": "Photo by Daniel Schwen, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "El Castillo, the step pyramid dedicated to Kukulcan at the center of Chichen Itza.",
+      "wikidataId": "Q5859",
+      "location": {
+        "historicalName": "Chichen Itza",
+        "city": "Chichen Itza",
+        "country": "Mexico",
+        "latitude": 20.68305556,
+        "longitude": -88.56861111
+      }
+    },
+    {
+      "year": 1200,
+      "sig": "minor",
+      "title": "Scribes Compile the Dresden Codex",
+      "body": "Maya scribes working in the Chichen Itza region produce the Dresden Codex, a bark-paper book of precise astronomical tables tracking lunar eclipses and the cycle of Venus -- one of only a handful of Maya books to survive the Spanish conquest.",
+      "tags": [
+        "science"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dresden_Codex",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Dresden_Codex_pp.58-62_78.jpg/330px-Dresden_Codex_pp.58-62_78.jpg",
+      "imageAttribution": "Scan of the Dresden Codex, Public domain, via Wikimedia Commons",
+      "imageDescription": "Pages of the Dresden Codex showing tables believed to record eclipses and other astronomical cycles.",
+      "wikidataId": "Q200944",
+      "location": {
+        "historicalName": "Chichen Itza",
+        "city": "Chichen Itza",
+        "country": "Mexico",
+        "latitude": 20.68305556,
+        "longitude": -88.56861111
+      }
+    },
+    {
+      "year": 1220,
+      "sig": "major",
+      "title": "Mayapan Becomes the Yucatán's New Capital",
+      "body": "Mayapan, a walled city modeled on Chichen Itza, becomes the political and cultural capital of the Yucatán Maya, eventually growing to more than 4,000 structures.",
+      "tags": [
+        "founding",
+        "architecture"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mayapan",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Mayapan_%272010_-_31.JPG/330px-Mayapan_%272010_-_31.JPG",
+      "imageAttribution": "Photo by SiMeCaIS, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "Ruins of Mayapan, walled capital of the Yucatán Maya from the 1220s to the 1440s.",
+      "wikidataId": "Q567966",
+      "location": {
+        "historicalName": "Mayapan",
+        "city": "Telchaquillo",
+        "country": "Mexico",
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    {
+      "year": 1221,
+      "sig": "minor",
+      "title": "Mayapan Adopts Multepal, a Council of Noble Lineages",
+      "body": "Rather than a single supreme ruler, Mayapan is governed by a council of noble families under the Cocom dynasty's paramount chief, a shared style of rule known as multepal that will hold the fractious city together for two centuries.",
+      "tags": [
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mayapan",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Mayapan2.jpg",
+      "imageAttribution": "Photo by HJPD, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A columned hall at Mayapan, seen from the site's Kukulcan pyramid.",
+      "wikidataId": "Q567966",
+      "location": {
+        "historicalName": "Mayapan",
+        "city": "Telchaquillo",
+        "country": "Mexico",
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    {
+      "year": 1441,
+      "sig": "major",
+      "title": "Mayapan Collapses, Fragmenting the Yucatán",
+      "body": "Rebellion topples Mayapan's ruling Cocom dynasty, and the Yucatán Maya splinter into rival, often warring city-states with no single dominant capital.",
+      "tags": [
+        "collapse",
+        "rebellion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mayapan",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Mayapan_Panorama.JPG/330px-Mayapan_Panorama.JPG",
+      "imageAttribution": "Photo by Pavel Vorobiev, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "Panoramic view of Mayapan's ruins from the temple of Kukulcan.",
+      "wikidataId": "Q567966",
+      "location": {
+        "historicalName": "Mayapan",
+        "city": "Telchaquillo",
+        "country": "Mexico",
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    {
+      "year": 1697,
+      "sig": "major",
+      "title": "Nojpetén Falls, Ending Independent Maya Rule",
+      "body": "Spanish forces under Martín de Ursúa storm Nojpetén, the Itza capital on Lake Petén Itzá, ending the last independent Maya kingdom more than 175 years after the conquest of Mexico began.",
+      "tags": [
+        "collapse",
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nojpet%C3%A9n",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Flores%2C_Pet%C3%A9n%2C_aerial_view_from_above_Santa_Elena.jpg/330px-Flores%2C_Pet%C3%A9n%2C_aerial_view_from_above_Santa_Elena.jpg",
+      "imageAttribution": "Photo by Rafael Amado Deras, CC BY 2.0, via Wikimedia Commons",
+      "imageDescription": "Flores, Guatemala, the modern town built on the island that was once Nojpetén, the Itza Maya capital.",
+      "wikidataId": "Q1577053",
+      "location": {
+        "historicalName": "Nojpetén",
+        "city": "Flores",
+        "country": "Guatemala",
+        "latitude": 16.92972222,
+        "longitude": -89.89166667
+      }
+    }
+  ]
+}

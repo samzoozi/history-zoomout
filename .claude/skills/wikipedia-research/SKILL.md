@@ -19,9 +19,10 @@ built the same way the Persia pilot was: real Wikipedia sources, verified facts,
 images, geocoded event locations, and a paper trail. The JSON output lands in `data/`
 (gitignored -- fetched/generated, not committed) and the tracking-doc entry in
 `docs/wikipedia-sources-<category>s.md` (committed -- it's the durable, human-curated
-record). Neither is the live seed file (`data/seed_data/`, also committed despite living
-under `data/` -- see the `!/data/seed_data/` exceptions in `.gitignore`) or the database --
-merging is a separate step the user asks for explicitly.
+record). Neither is the live seed file (`data/seed_data/<category>/<slug>.json`, one file
+per topic, also committed despite living under `data/` -- see the `!/data/seed_data/`
+exceptions in `.gitignore`) or the database -- merging is a separate step the user asks
+for explicitly.
 
 ## Before starting
 
@@ -41,8 +42,8 @@ different files.
 
 Confirm with the user, if not already given:
 - **Topic id, name, category, and date range** (start/end year). For an existing
-  civilization already in `civilizations.json`, use its existing `id`/`colorIndex` so a
-  future merge is a drop-in replacement rather than a rename.
+  civilization already in `data/seed_data/civilization/`, use its existing
+  `id`/`colorIndex` so a future merge is a drop-in replacement rather than a rename.
 - **Scope for this pass** -- one topic, or several? (Bias toward one at a time; each
   topic pilot is worth reviewing before repeating the process.)
 

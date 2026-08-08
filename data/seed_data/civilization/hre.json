@@ -1,0 +1,679 @@
+{
+  "id": "hre",
+  "name": "Holy Roman Empire",
+  "colorIndex": 4,
+  "start": 800,
+  "end": 1806,
+  "summary": "Founded when Pope Leo III crowns Charlemagne Emperor of the Romans in 800, the empire coalesces into its lasting form under the Ottonian dynasty, whose Otto I is crowned emperor in 962 after breaking a Magyar army at Lechfeld. Popes and emperors spend the next two centuries locked in the Investiture Controversy over who appoints bishops, a conflict that reaches its most humbling moment at Canossa and its formal end at the Concordat of Worms, while the Hohenstaufen emperors Frederick Barbarossa and Frederick II clash with the papacy and Italy's city-states before the dynasty's collapse plunges the empire into the Great Interregnum. Rudolf I's 1273 election restores order and begins the House of Habsburg's long grip on the imperial title, formalized by Charles IV's Golden Bull and Maximilian I's Imperial Reform -- even as Gutenberg's printing press at Mainz and Martin Luther's Ninety-five Theses at Wittenberg set off a Reformation that fractures the empire's religious unity and, after the catastrophic Thirty Years' War, leaves its central authority increasingly nominal. The empire limps on as a loose confederation of hundreds of states until Napoleon's pressure forces Francis II to dissolve it on 6 August 1806.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Holy_Roman_Empire",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/HRR_1648.png/330px-HRR_1648.png",
+  "imageAttribution": "Map by ziegelbrenner, CC BY 2.5, via Wikimedia Commons",
+  "imageDescription": "A map of the Holy Roman Empire's territories in 1648, near the end of the Thirty Years' War.",
+  "wikidataId": "Q12548",
+  "events": [
+    {
+      "year": 800,
+      "sig": "major",
+      "title": "Charlemagne Is Crowned Emperor",
+      "body": "Pope Leo III crowns Charlemagne \"Emperor of the Romans\" at St. Peter's Basilica on Christmas Day, reviving the Western imperial title and giving the later Holy Roman Empire its founding, legendary predecessor.",
+      "tags": [
+        "founding"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Charlemagne",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Karel_Leo.jpg/330px-Karel_Leo.jpg",
+      "imageAttribution": "Painting by unknown artist, Public domain, via Wikimedia Commons",
+      "imageDescription": "A medieval depiction of Pope Leo III crowning Charlemagne emperor.",
+      "wikidataId": "Q3044",
+      "location": {
+        "historicalName": "Old St. Peter's Basilica",
+        "city": "Rome",
+        "country": "Italy",
+        "latitude": 41.89333333,
+        "longitude": 12.48277778
+      }
+    },
+    {
+      "year": 805,
+      "sig": "minor",
+      "title": "The Palatine Chapel at Aachen Is Consecrated",
+      "body": "Charlemagne's octagonal chapel at his palace in Aachen is consecrated by Pope Leo III, becoming the burial place of Carolingian and later emperors and a model for imperial church architecture across the empire's history.",
+      "tags": [
+        "architecture"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Palatine_Chapel,_Aachen",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Aachener_Dom_Oktogon.jpg/330px-Aachener_Dom_Oktogon.jpg",
+      "imageAttribution": "Photo by Lokilech, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "The octagonal core of Charlemagne's Palatine Chapel at Aachen.",
+      "wikidataId": "Q2458522",
+      "location": {
+        "historicalName": "Aachen",
+        "city": "Aachen",
+        "country": "Germany",
+        "latitude": 50.77555556,
+        "longitude": 6.08361111
+      }
+    },
+    {
+      "year": 843,
+      "sig": "major",
+      "title": "The Treaty of Verdun Creates East Francia",
+      "body": "Charlemagne's three grandsons divide the Carolingian Empire at Verdun; Louis the German takes the eastern lands beyond the Rhine that grow into the medieval Kingdom of Germany, the core territory the Holy Roman Empire is built on.",
+      "tags": [
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Treaty_of_Verdun",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Louis_the_Pious_blessing_the_division_of_the_Carolingian_Empire_in_843_into_West_Francia%2C_Lotharingia%2C_and_East_Francia.jpg/330px-Louis_the_Pious_blessing_the_division_of_the_Carolingian_Empire_in_843_into_West_Francia%2C_Lotharingia%2C_and_East_Francia.jpg",
+      "imageAttribution": "Illustration by unknown artist, Public domain, via Wikimedia Commons",
+      "imageDescription": "Louis the Pious blesses the three-way division of the Carolingian Empire in 843.",
+      "wikidataId": "Q134840",
+      "location": {
+        "historicalName": "Verdun",
+        "city": "Verdun",
+        "country": "France",
+        "latitude": 49.162,
+        "longitude": 5.3876
+      }
+    },
+    {
+      "year": 955,
+      "sig": "major",
+      "title": "Otto I Crushes the Magyars at Lechfeld",
+      "body": "King Otto I annihilates a Magyar raiding army on the Lechfeld plain outside Augsburg, ending decades of Magyar incursions into Western Europe and building the military prestige that leads to his imperial coronation seven years later.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Lechfeld",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Lechfeld1457.jpg/330px-Lechfeld1457.jpg",
+      "imageAttribution": "Illustration by Hektor Mülich, Public domain, via Wikimedia Commons",
+      "imageDescription": "A 15th-century illustration of the Battle of Lechfeld.",
+      "wikidataId": "Q273069",
+      "location": {
+        "historicalName": "Lechfeld",
+        "city": "Augsburg",
+        "country": "Germany",
+        "latitude": 48.35,
+        "longitude": 10.92
+      }
+    },
+    {
+      "year": 962,
+      "sig": "major",
+      "title": "Otto I Is Crowned Holy Roman Emperor",
+      "body": "Pope John XII crowns Otto I emperor in Rome, reviving Charlemagne's imperial title after a nearly 40-year vacancy and founding the continuous line of emperors that historians treat as the Holy Roman Empire proper.",
+      "tags": [
+        "founding"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Otto_I,_Holy_Roman_Emperor",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Siegel_Otto_I_Posse.JPG/330px-Siegel_Otto_I_Posse.JPG",
+      "imageAttribution": "Illustration by Otto Posse, Public domain, via Wikimedia Commons",
+      "imageDescription": "The imperial seal of Otto I.",
+      "wikidataId": "Q43915",
+      "location": {
+        "historicalName": "Old St. Peter's Basilica",
+        "city": "Rome",
+        "country": "Italy",
+        "latitude": 41.89333333,
+        "longitude": 12.48277778
+      }
+    },
+    {
+      "year": 970,
+      "sig": "minor",
+      "title": "Archbishop Gero Commissions the Gero Cross",
+      "body": "Archbishop Gero of Cologne commissions a large wooden crucifix showing Christ dead rather than alive on the cross, the oldest surviving large-scale sculpture of the crucifixion in the West and a landmark of Ottonian religious art.",
+      "tags": [
+        "art",
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gero_Cross",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Gerokreuz_full_20050903.jpg/330px-Gerokreuz_full_20050903.jpg",
+      "imageAttribution": "Photo by Elya, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "The Gero Cross, the oldest known large Western sculpture of the crucified Christ.",
+      "wikidataId": "Q653601",
+      "location": {
+        "historicalName": "Cologne",
+        "city": "Cologne",
+        "country": "Germany",
+        "latitude": 50.93638889,
+        "longitude": 6.95277778
+      }
+    },
+    {
+      "year": 1077,
+      "sig": "major",
+      "title": "Henry IV Walks to Canossa",
+      "body": "Facing excommunication and a revolt of German princes, Emperor Henry IV travels to Canossa Castle and stands penitent in the snow for three days until Pope Gregory VII lifts his excommunication, the most humbling moment of the Investiture Controversy over who controls the appointment of bishops.",
+      "tags": [
+        "religion",
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Road_to_Canossa",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Schwoiser_Heinrich_vor_Canossa.jpg/330px-Schwoiser_Heinrich_vor_Canossa.jpg",
+      "imageAttribution": "Painting by Eduard Schwoiser, Public domain, via Wikimedia Commons",
+      "imageDescription": "A 19th-century painting of Henry IV's penitent journey to Canossa.",
+      "wikidataId": "Q325656",
+      "location": {
+        "historicalName": "Canossa",
+        "city": "Canossa",
+        "country": "Italy",
+        "latitude": 44.576,
+        "longitude": 10.456
+      }
+    },
+    {
+      "year": 1122,
+      "sig": "major",
+      "title": "The Concordat of Worms Ends the Investiture Controversy",
+      "body": "Emperor Henry V and Pope Callixtus II sign a compromise at Worms separating a bishop's spiritual authority, granted by the Church, from his secular authority as a landholder, granted by the emperor, closing five decades of conflict over who appoints Church officials.",
+      "tags": [
+        "governance",
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Concordat_of_Worms",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Urkunde_Wormser_Konkordat-bg.png/330px-Urkunde_Wormser_Konkordat-bg.png",
+      "imageAttribution": "Photo of the original document, Public domain, via Wikimedia Commons",
+      "imageDescription": "The original charter of the Concordat of Worms.",
+      "wikidataId": "Q154439",
+      "location": {
+        "historicalName": "Worms",
+        "city": "Worms",
+        "country": "Germany",
+        "latitude": 49.63194444,
+        "longitude": 8.36527778
+      }
+    },
+    {
+      "year": 1155,
+      "sig": "minor",
+      "title": "Frederick Barbarossa Is Crowned Emperor",
+      "body": "Pope Adrian IV crowns Frederick I \"Barbarossa\" emperor in Rome, beginning the reign of the Hohenstaufen dynasty's most famous ruler, who spends much of his 35-year reign trying to reassert imperial authority over northern Italy.",
+      "tags": [
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Frederick_Barbarossa",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Friedrich_I._Barbarossa.jpg/330px-Friedrich_I._Barbarossa.jpg",
+      "imageAttribution": "Photo by Montecappio, Public domain, via Wikimedia Commons",
+      "imageDescription": "A gilded bronze bust of Frederick Barbarossa, cast around 1160.",
+      "wikidataId": "Q79789",
+      "location": {
+        "historicalName": "Old St. Peter's Basilica",
+        "city": "Rome",
+        "country": "Italy",
+        "latitude": 41.89333333,
+        "longitude": 12.48277778
+      }
+    },
+    {
+      "year": 1176,
+      "sig": "major",
+      "title": "The Lombard League Defeats Barbarossa at Legnano",
+      "body": "A coalition of northern Italian city-states known as the Lombard League routs Frederick Barbarossa's imperial army at Legnano, proving communal militias could beat imperial knights and forcing the emperor to recognize the cities' self-government.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Legnano",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/BattagliaLegnano.jpg/330px-BattagliaLegnano.jpg",
+      "imageAttribution": "Painting by Amos Cassioli, Public domain, via Wikimedia Commons",
+      "imageDescription": "A 19th-century painting of the Battle of Legnano.",
+      "wikidataId": "Q283364",
+      "location": {
+        "historicalName": "Legnano",
+        "city": "Legnano",
+        "country": "Italy",
+        "latitude": 45.57805556,
+        "longitude": 8.91833333
+      }
+    },
+    {
+      "year": 1224,
+      "sig": "minor",
+      "title": "Frederick II Founds the University of Naples",
+      "body": "Emperor Frederick II, a patron of science known for his own treatise on falconry, charters the University of Naples as a state-funded institution independent of the Church, one of the first universities in the world established by royal rather than papal authority.",
+      "tags": [
+        "science",
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/University_of_Naples_Federico_II",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Frederick_II_and_eagle.jpg/330px-Frederick_II_and_eagle.jpg",
+      "imageAttribution": "Illustration by unknown artist, Public domain, via Wikimedia Commons",
+      "imageDescription": "Frederick II depicted with a falcon in his own treatise on hunting with birds.",
+      "wikidataId": "Q691851",
+      "location": {
+        "historicalName": "Naples",
+        "city": "Naples",
+        "country": "Italy",
+        "latitude": 40.8358,
+        "longitude": 14.2486
+      }
+    },
+    {
+      "year": 1248,
+      "sig": "minor",
+      "title": "Construction Begins on Cologne Cathedral",
+      "body": "Archbishop Konrad von Hochstaden lays the foundation stone for a new Gothic cathedral at Cologne, an undertaking so ambitious that construction stalls for centuries and the building isn't finished until 1880, decades after the empire that began it had ceased to exist.",
+      "tags": [
+        "architecture"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cologne_Cathedral",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/K%C3%B6lner_Dom_-_Westfassade_2022_ohne_Ger%C3%BCst-0968_b.jpg/330px-K%C3%B6lner_Dom_-_Westfassade_2022_ohne_Ger%C3%BCst-0968_b.jpg",
+      "imageAttribution": "Photo by Raimond Spekking, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "The west facade of Cologne Cathedral.",
+      "wikidataId": "Q4176",
+      "location": {
+        "historicalName": "Cologne",
+        "city": "Cologne",
+        "country": "Germany",
+        "latitude": 50.93638889,
+        "longitude": 6.95277778
+      }
+    },
+    {
+      "year": 1250,
+      "sig": "major",
+      "title": "Frederick II's Death Begins the Great Interregnum",
+      "body": "Frederick II dies at Castel Fiorentino in southern Italy, and without an emperor able to command wide recognition, the empire drifts for over two decades of rival kings and civil war remembered as the Great Interregnum.",
+      "tags": [
+        "collapse"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Interregnum_(Holy_Roman_Empire)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Das_Interregnum_Drei_M%C3%A4nner_am_Grab_eines_Kaisers.jpg/330px-Das_Interregnum_Drei_M%C3%A4nner_am_Grab_eines_Kaisers.jpg",
+      "imageAttribution": "Illustration by an unknown copyist (Diebold Lauber workshop), Public domain, via Wikimedia Commons",
+      "imageDescription": "A 15th-century manuscript illustration titled \"The Interregnum: Three Men at the Grave of an Emperor.\"",
+      "wikidataId": "Q5884356",
+      "location": {
+        "historicalName": "Castel Fiorentino",
+        "city": "Torremaggiore",
+        "country": "Italy",
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    {
+      "year": 1273,
+      "sig": "major",
+      "title": "Rudolf I of Habsburg Is Elected King, Ending the Interregnum",
+      "body": "The prince-electors unanimously choose the minor Swabian count Rudolf of Habsburg as King of the Romans at Frankfurt, ending 23 years without a widely recognized ruler and beginning the House of Habsburg's rise to become the empire's dominant dynasty.",
+      "tags": [
+        "founding",
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rudolf_I_of_Germany",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Kaiser_Rudolf_I._1275.jpg/330px-Kaiser_Rudolf_I._1275.jpg",
+      "imageAttribution": "Photo by Wolfgang Sauber, Public domain, via Wikimedia Commons",
+      "imageDescription": "The seal of Rudolf I of Habsburg.",
+      "wikidataId": "Q76956",
+      "location": {
+        "historicalName": "Frankfurt",
+        "city": "Frankfurt",
+        "country": "Germany",
+        "latitude": 50.11055556,
+        "longitude": 8.68222222
+      }
+    },
+    {
+      "year": 1347,
+      "sig": "minor",
+      "title": "Charles IV Founds Charles University in Prague",
+      "body": "Emperor Charles IV persuades Pope Clement VI to charter a university at Prague modeled on the University of Paris, founding the first university in Central Europe and turning his capital into a major center of medieval learning.",
+      "tags": [
+        "science"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Charles_University",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Medieval_Class_Bohemia.JPG/330px-Medieval_Class_Bohemia.JPG",
+      "imageAttribution": "Photo by Packare, of a 14th-century Bohemian manuscript facsimile, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "A depiction of a class in medieval Bohemia from a late 14th-century manuscript.",
+      "wikidataId": "Q31519",
+      "location": {
+        "historicalName": "Prague",
+        "city": "Prague",
+        "country": "Czech Republic",
+        "latitude": 50.0875,
+        "longitude": 14.42138889
+      }
+    },
+    {
+      "year": 1356,
+      "sig": "major",
+      "title": "The Golden Bull Fixes the Empire's Constitution",
+      "body": "Emperor Charles IV issues the Golden Bull, formally naming seven prince-electors -- three archbishops and four secular rulers -- with the sole right to elect future emperors, a framework for choosing the empire's ruler that holds for over four centuries.",
+      "tags": [
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Golden_Bull_of_1356",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Goldene_Bulle_Nahaufnahme.jpg/330px-Goldene_Bulle_Nahaufnahme.jpg",
+      "imageAttribution": "Photo of the original document, Public domain, via Wikimedia Commons",
+      "imageDescription": "A close-up of the sealed Golden Bull of 1356.",
+      "wikidataId": "Q567601",
+      "location": {
+        "historicalName": "Nuremberg",
+        "city": "Nuremberg",
+        "country": "Germany",
+        "latitude": 49.45388889,
+        "longitude": 11.0775
+      }
+    },
+    {
+      "year": 1455,
+      "sig": "major",
+      "title": "Gutenberg Completes the Printed Bible at Mainz",
+      "body": "Johannes Gutenberg finishes printing roughly 180 copies of a Latin Bible in Mainz using movable metal type, the first major book produced this way and the breakthrough that makes mass-produced, identical books possible across Europe.",
+      "tags": [
+        "science"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gutenberg_Bible",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg/330px-Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg",
+      "imageAttribution": "Photo by NYC Wanderer (Kevin Eng), CC BY-SA 2.0, via Wikimedia Commons",
+      "imageDescription": "A copy of the Gutenberg Bible held at the New York Public Library.",
+      "wikidataId": "Q158075",
+      "location": {
+        "historicalName": "Mainz",
+        "city": "Mainz",
+        "country": "Germany",
+        "latitude": 49.99944444,
+        "longitude": 8.27361111
+      }
+    },
+    {
+      "year": 1495,
+      "sig": "major",
+      "title": "The Diet of Worms Enacts the Imperial Reform",
+      "body": "Emperor Maximilian I and the Imperial Diet at Worms ban private feuding between the empire's territories, create an Imperial Chamber Court to settle disputes by law, and levy the empire's first general tax, an attempt to turn a loose patchwork of states into a functioning central government.",
+      "tags": [
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Imperial_Reform",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Reichstag_de_Worms_1495_%28timbre_RFA%29.jpg/330px-Reichstag_de_Worms_1495_%28timbre_RFA%29.jpg",
+      "imageAttribution": "Stamp design by Deutsche Bundespost, Public domain, via Wikimedia Commons",
+      "imageDescription": "A West German postage stamp commemorating the 1495 Diet of Worms.",
+      "wikidataId": "Q565476",
+      "location": {
+        "historicalName": "Worms",
+        "city": "Worms",
+        "country": "Germany",
+        "latitude": 49.63194444,
+        "longitude": 8.36527778
+      }
+    },
+    {
+      "year": 1517,
+      "sig": "major",
+      "title": "Martin Luther Publishes the Ninety-five Theses",
+      "body": "Martin Luther, a theology professor at Wittenberg, circulates ninety-five propositions attacking the Church's sale of indulgences, a challenge that spreads rapidly once it's printed and touches off the Reformation that splits the empire's religious unity.",
+      "tags": [
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ninety-five_Theses",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Luther_95_Thesen.png/330px-Luther_95_Thesen.png",
+      "imageAttribution": "Document by Martin Luther, Public domain, via Wikimedia Commons",
+      "imageDescription": "A printed copy of Martin Luther's Ninety-five Theses.",
+      "wikidataId": "Q157506",
+      "location": {
+        "historicalName": "Wittenberg",
+        "city": "Wittenberg",
+        "country": "Germany",
+        "latitude": 51.8671,
+        "longitude": 12.6484
+      }
+    },
+    {
+      "year": 1521,
+      "sig": "major",
+      "title": "The Diet of Worms Outlaws Martin Luther",
+      "body": "Summoned before Emperor Charles V and the Imperial Diet at Worms, Luther refuses to recant his writings; the emperor responds with the Edict of Worms, declaring him a heretic and outlaw and banning the spread of his ideas across the empire.",
+      "tags": [
+        "religion",
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Diet_of_Worms",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/%D0%9B%D1%8E%D1%82%D0%B5%D1%80_%D0%B2_%D0%92%D0%BE%D1%80%D0%BC%D1%81%D0%B5.jpg/330px-%D0%9B%D1%8E%D1%82%D0%B5%D1%80_%D0%B2_%D0%92%D0%BE%D1%80%D0%BC%D1%81%D0%B5.jpg",
+      "imageAttribution": "Painting by Anton von Werner, Public domain, via Wikimedia Commons",
+      "imageDescription": "A 19th-century painting of Martin Luther before the Diet of Worms.",
+      "wikidataId": "Q536822",
+      "location": {
+        "historicalName": "Worms",
+        "city": "Worms",
+        "country": "Germany",
+        "latitude": 49.63194444,
+        "longitude": 8.36527778
+      }
+    },
+    {
+      "year": 1525,
+      "sig": "major",
+      "title": "Peasant Armies Are Crushed at Frankenhausen",
+      "body": "Preacher Thomas Müntzer leads thousands of peasants into battle at Frankenhausen, the final major engagement of the German Peasants' War; the poorly armed rebels are slaughtered by the forces of Hesse and Saxony, part of a wider revolt whose defeat costs an estimated 100,000 peasant lives across the empire.",
+      "tags": [
+        "rebellion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Frankenhausen",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Page077_Die_letzte_Bauernschlacht_bei_Frankenhausen_am_25._Mai_1525.jpg/330px-Page077_Die_letzte_Bauernschlacht_bei_Frankenhausen_am_25._Mai_1525.jpg",
+      "imageAttribution": "Illustration by unknown artist, Public domain, via Wikimedia Commons",
+      "imageDescription": "An engraving of the final battle of the German Peasants' War at Frankenhausen.",
+      "wikidataId": "Q703363",
+      "location": {
+        "historicalName": "Frankenhausen",
+        "city": "Bad Frankenhausen",
+        "country": "Germany",
+        "latitude": 51.35583333,
+        "longitude": 11.10111111
+      }
+    },
+    {
+      "year": 1526,
+      "sig": "minor",
+      "title": "Dürer Paints The Four Apostles",
+      "body": "Albrecht Dürer, who has recently embraced Lutheranism, paints a diptych of John, Peter, Paul, and Mark and gives it to his native Nuremberg's town council, pairing the apostles with inscribed scripture warning against \"human misguidance\" as a public statement of Reformation belief.",
+      "tags": [
+        "art",
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Four_Apostles",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Albrecht_D%C3%BCrer_-_The_Four_Apostles%2C_Saints_John_and_Peter.jpg/330px-Albrecht_D%C3%BCrer_-_The_Four_Apostles%2C_Saints_John_and_Peter.jpg",
+      "imageAttribution": "Painting by Albrecht Dürer, Public domain, via Wikimedia Commons",
+      "imageDescription": "The John and Peter panel of Dürer's The Four Apostles.",
+      "wikidataId": "Q829270",
+      "location": {
+        "historicalName": "Nuremberg",
+        "city": "Nuremberg",
+        "country": "Germany",
+        "latitude": 49.45388889,
+        "longitude": 11.0775
+      }
+    },
+    {
+      "year": 1555,
+      "sig": "major",
+      "title": "The Peace of Augsburg Divides the Empire's Faiths",
+      "body": "Charles V's brother Ferdinand negotiates a settlement letting each prince choose Catholicism or Lutheranism as his territory's official faith, ending years of religious war within the empire under the principle that a ruler's religion determines his subjects' -- though it recognizes neither Calvinism nor the rights of individual dissenters.",
+      "tags": [
+        "religion",
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Peace_of_Augsburg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Druck_Augsburger_Reichsfrieden.jpg/330px-Druck_Augsburger_Reichsfrieden.jpg",
+      "imageAttribution": "Photo by User:Michail, Public domain, via Wikimedia Commons",
+      "imageDescription": "The title page of the printed 1555 Peace of Augsburg.",
+      "wikidataId": "Q154577",
+      "location": {
+        "historicalName": "Augsburg",
+        "city": "Augsburg",
+        "country": "Germany",
+        "latitude": 48.37,
+        "longitude": 10.9
+      }
+    },
+    {
+      "year": 1609,
+      "sig": "major",
+      "title": "Kepler Publishes His Laws of Planetary Motion in Prague",
+      "body": "Working as imperial mathematician at Rudolf II's court in Prague, Johannes Kepler publishes Astronomia Nova, showing planets move in ellipses rather than perfect circles and overturning two thousand years of assumptions about how the heavens move.",
+      "tags": [
+        "science"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Astronomia_nova",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Astronomia_Nova.jpg/330px-Astronomia_Nova.jpg",
+      "imageAttribution": "Illustration by Johannes Kepler, Public domain, via Wikimedia Commons",
+      "imageDescription": "The title page of Kepler's 1609 Astronomia Nova.",
+      "wikidataId": "Q779311",
+      "location": {
+        "historicalName": "Prague",
+        "city": "Prague",
+        "country": "Czech Republic",
+        "latitude": 50.0875,
+        "longitude": 14.42138889
+      }
+    },
+    {
+      "year": 1618,
+      "sig": "major",
+      "title": "The Defenestration of Prague Ignites the Thirty Years' War",
+      "body": "Protestant nobles storm Prague Castle and throw two Catholic royal governors and a secretary out of a third-story window in protest of Habsburg religious policy; all three survive the fall, but the act of open rebellion triggers a war that engulfs the empire for the next thirty years.",
+      "tags": [
+        "rebellion",
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Defenestrations_of_Prague",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Prager_Fenstersturz_Wahrhafftige_Zeitung_aus_Prag.JPG/330px-Prager_Fenstersturz_Wahrhafftige_Zeitung_aus_Prag.JPG",
+      "imageAttribution": "Illustration by unknown artist, Public domain, via Wikimedia Commons",
+      "imageDescription": "A contemporary broadsheet depicting the 1618 Defenestration of Prague.",
+      "wikidataId": "Q374696",
+      "location": {
+        "historicalName": "Prague Castle",
+        "city": "Prague",
+        "country": "Czech Republic",
+        "latitude": 50.09,
+        "longitude": 14.4
+      }
+    },
+    {
+      "year": 1620,
+      "sig": "major",
+      "title": "Catholic Forces Crush the Bohemian Revolt at White Mountain",
+      "body": "Imperial and Catholic League forces rout the army of Frederick V, the Protestant \"Winter King\" of Bohemia, outside Prague, ending the Bohemian phase of the Thirty Years' War, cementing Habsburg control over Bohemia, and setting off a brutal re-Catholicization of the kingdom.",
+      "tags": [
+        "battle",
+        "rebellion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_White_Mountain",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/The_Battle_of_White_Mountain_%28by_Peter_Snayers%29.jpg/330px-The_Battle_of_White_Mountain_%28by_Peter_Snayers%29.jpg",
+      "imageAttribution": "Painting by Peter Snayers, Public domain, via Wikimedia Commons",
+      "imageDescription": "A 1630s painting of the Battle of White Mountain.",
+      "wikidataId": "Q4373",
+      "location": {
+        "historicalName": "Bílá Hora (White Mountain)",
+        "city": "Prague",
+        "country": "Czech Republic",
+        "latitude": null,
+        "longitude": null
+      }
+    },
+    {
+      "year": 1648,
+      "sig": "major",
+      "title": "The Peace of Westphalia Ends the Thirty Years' War",
+      "body": "Treaties signed at Münster and Osnabrück end thirty years of war that killed a large share of the empire's population, granting its territorial rulers greater religious and legal autonomy -- including recognition of Calvinism alongside Catholicism and Lutheranism -- while leaving the emperor's formal authority intact but increasingly nominal.",
+      "tags": [
+        "governance",
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Peace_of_Westphalia",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Fredsf%C3%B6rdraget_i_Osnabr%C3%BCck_24_oktober_1648_-_Westfaliska_freden.tif/lossy-page1-330px-Fredsf%C3%B6rdraget_i_Osnabr%C3%BCck_24_oktober_1648_-_Westfaliska_freden.tif.jpg",
+      "imageAttribution": "Photo of the original treaty document, Public domain, via Wikimedia Commons",
+      "imageDescription": "A copy of the 1648 peace treaty signed at Osnabrück.",
+      "wikidataId": "Q150995",
+      "location": {
+        "historicalName": "Osnabrück",
+        "city": "Osnabrück",
+        "country": "Germany",
+        "latitude": 52.28333333,
+        "longitude": 8.05
+      }
+    },
+    {
+      "year": 1713,
+      "sig": "minor",
+      "title": "The Pragmatic Sanction Secures Maria Theresa's Succession",
+      "body": "Emperor Charles VI issues the Pragmatic Sanction, decreeing that the Habsburg lands pass undivided to a daughter if he has no son, the legal groundwork that lets Maria Theresa inherit the Habsburg monarchy in 1740 and hold it together against rival claimants.",
+      "tags": [
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pragmatic_Sanction_of_1713",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Pragmatica_Sanc.jpg/330px-Pragmatica_Sanc.jpg",
+      "imageAttribution": "Illustration by User:Magellan, Public domain, via Wikimedia Commons",
+      "imageDescription": "Charles VI ratifying the Pragmatic Sanction's articles in 1723.",
+      "wikidataId": "Q313102",
+      "location": {
+        "historicalName": "Vienna",
+        "city": "Vienna",
+        "country": "Austria",
+        "latitude": 48.2083,
+        "longitude": 16.3725
+      }
+    },
+    {
+      "year": 1716,
+      "sig": "minor",
+      "title": "Charles VI Commissions the Karlskirche",
+      "body": "Fulfilling a vow made during Vienna's last major plague outbreak, Emperor Charles VI commissions a grand domed church dedicated to the plague saint Charles Borromeo; architect Johann Bernhard Fischer von Erlach designs it, and his son completes it after his death, in 1737.",
+      "tags": [
+        "architecture",
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Karlskirche",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Karlskirche_Abendsonne_1.jpg/330px-Karlskirche_Abendsonne_1.jpg",
+      "imageAttribution": "Photo by Thomas Ledl, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "The Karlskirche in Vienna, lit by evening sun.",
+      "wikidataId": "Q408847",
+      "location": {
+        "historicalName": "Vienna",
+        "city": "Vienna",
+        "country": "Austria",
+        "latitude": 48.2083,
+        "longitude": 16.3725
+      }
+    },
+    {
+      "year": 1781,
+      "sig": "minor",
+      "title": "Joseph II Issues the Patent of Toleration",
+      "body": "Emperor Joseph II grants Lutherans, Calvinists, and Orthodox Christians in Habsburg lands the right to worship privately and hold public office, a landmark Enlightenment-era retreat from centuries of enforced Catholic uniformity, though it still falls short of full religious equality.",
+      "tags": [
+        "religion",
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Patent_of_Toleration",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Patent_of_Tolerance_13.10.1781_p1.jpg/330px-Patent_of_Tolerance_13.10.1781_p1.jpg",
+      "imageAttribution": "Document by Joseph II, Public domain, via Wikimedia Commons",
+      "imageDescription": "The first page of Joseph II's 1781 Patent of Toleration.",
+      "wikidataId": "Q262654",
+      "location": {
+        "historicalName": "Vienna",
+        "city": "Vienna",
+        "country": "Austria",
+        "latitude": 48.2083,
+        "longitude": 16.3725
+      }
+    },
+    {
+      "year": 1806,
+      "sig": "major",
+      "title": "Francis II Dissolves the Holy Roman Empire",
+      "body": "Facing an ultimatum from Napoleon, who has just organized sixteen German states into his own Confederation of the Rhine, Emperor Francis II abdicates the imperial throne and formally dissolves the Holy Roman Empire rather than let Napoleon claim the ancient title for himself.",
+      "tags": [
+        "collapse"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dissolution_of_the_Holy_Roman_Empire",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Map_of_Holy_Roman_Empire_1789.svg/330px-Map_of_Holy_Roman_Empire_1789.svg.png",
+      "imageAttribution": "Map by Alphathon, CC0, via Wikimedia Commons",
+      "imageDescription": "A map of the Holy Roman Empire's territories in 1789, shortly before its dissolution.",
+      "wikidataId": "Q19902208",
+      "location": {
+        "historicalName": "Vienna",
+        "city": "Vienna",
+        "country": "Austria",
+        "latitude": 48.2083,
+        "longitude": 16.3725
+      }
+    }
+  ]
+}

@@ -1,0 +1,438 @@
+{
+  "id": "greece",
+  "name": "Greece",
+  "colorIndex": 4,
+  "start": -800,
+  "end": -146,
+  "summary": "Ancient Greece rose from a loose collection of city-states in the Archaic period, through the Classical age's wars with Persia and each other, to Alexander the Great's Macedonian-led conquests that opened the Hellenistic era -- before falling under Roman control after the Achaean War in 146 BC.",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Ancient_Greece",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Parthenon_%2830276156187%29.jpg/330px-Parthenon_%2830276156187%29.jpg",
+  "imageAttribution": "Photo by Phanatic, CC BY-SA 2.0, via Wikimedia Commons",
+  "imageDescription": "The Parthenon, the temple to Athena atop the Acropolis in Athens.",
+  "wikidataId": "Q11772",
+  "events": [
+    {
+      "year": -776,
+      "sig": "major",
+      "title": "The First Olympic Games",
+      "body": "City-states across Greece send athletes to Olympia for a festival of competition held in honor of Zeus, beginning a tradition that will continue every four years for over a thousand years.",
+      "tags": [
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ancient_Olympic_Games",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/GR-olympia-palaestra.jpg/330px-GR-olympia-palaestra.jpg",
+      "imageAttribution": "Photo by Bgabel, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "The ruins of the palaestra (wrestling school) at Olympia, site of the ancient Olympic Games.",
+      "wikidataId": "Q188468",
+      "location": {
+        "historicalName": "Olympia",
+        "city": "Olympia",
+        "country": "Greece",
+        "latitude": 37.64,
+        "longitude": 21.63
+      }
+    },
+    {
+      "year": -621,
+      "sig": "minor",
+      "title": "Draco's Harsh Laws Are Written Down",
+      "body": "Athens gets its first written law code under the lawgiver Draco, whose penalties are so severe -- reportedly prescribing death for even minor offenses -- that his name gives us the word \"draconian.\"",
+      "tags": [
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Draco_(legislator)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Draco_engraving_from_1833_%28cropped%29.jpg/330px-Draco_engraving_from_1833_%28cropped%29.jpg",
+      "imageAttribution": "Engraving by Max Karl Baldamus, Public domain, via Wikimedia Commons",
+      "imageDescription": "An 1833 engraved portrait of the Athenian lawgiver Draco.",
+      "wikidataId": "Q28626",
+      "location": {
+        "historicalName": "Athens",
+        "city": "Athens",
+        "country": "Greece",
+        "latitude": 37.98,
+        "longitude": 23.73
+      }
+    },
+    {
+      "year": -594,
+      "sig": "minor",
+      "title": "Solon Enacts Sweeping Reforms",
+      "body": "Chosen archon amid rising unrest, Solon cancels the debts binding many Athenians into servitude and rewrites the city's law code, opening political participation beyond the old aristocracy for the first time.",
+      "tags": [
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Solon",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Ignoto%2C_c.d._solone%2C_replica_del_90_dc_ca_da_orig._greco_del_110_ac._ca%2C_6143.JPG/330px-Ignoto%2C_c.d._solone%2C_replica_del_90_dc_ca_da_orig._greco_del_110_ac._ca%2C_6143.JPG",
+      "imageAttribution": "Photo by Sailko, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A Roman-era marble bust believed to depict the Athenian lawgiver Solon.",
+      "wikidataId": "Q133337",
+      "location": {
+        "historicalName": "Athens",
+        "city": "Athens",
+        "country": "Greece",
+        "latitude": 37.98,
+        "longitude": 23.73
+      }
+    },
+    {
+      "year": -508,
+      "sig": "major",
+      "title": "Cleisthenes Founds Athenian Democracy",
+      "body": "Cleisthenes reorganizes Athens' constitution around ten new tribes cutting across old aristocratic loyalties, laying the groundwork for direct democratic government by its citizens.",
+      "tags": [
+        "founding",
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cleisthenes",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Cleisthenes.jpg/330px-Cleisthenes.jpg",
+      "imageAttribution": "Unknown artist, CC BY, via Wikimedia Commons",
+      "imageDescription": "A modern bust of Cleisthenes, regarded as the father of Athenian democracy.",
+      "wikidataId": "Q207634",
+      "location": {
+        "historicalName": "Athens",
+        "city": "Athens",
+        "country": "Greece",
+        "latitude": 37.98,
+        "longitude": 23.73
+      }
+    },
+    {
+      "year": -499,
+      "sig": "minor",
+      "title": "The Ionian Revolt Begins",
+      "body": "Led by Aristagoras of Miletus, Greek cities along the Anatolian coast rise up against Persian rule, a six-year rebellion that draws in Athens and Eretria and sets the stage for Persia's invasions of the Greek mainland.",
+      "tags": [
+        "rebellion",
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ionian_Revolt",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Ionian_Revolt_Campaign_Map-en.svg/330px-Ionian_Revolt_Campaign_Map-en.svg.png",
+      "imageAttribution": "Map by Eric Gaba and MinisterForBadTimes, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A map of the military campaigns of the Ionian Revolt against Persian rule.",
+      "wikidataId": "Q208261",
+      "location": {
+        "historicalName": "Miletus",
+        "city": "Balat",
+        "country": "Turkey",
+        "latitude": 37.53027778,
+        "longitude": 27.27833333
+      }
+    },
+    {
+      "year": -490,
+      "sig": "minor",
+      "title": "Victory at Marathon",
+      "body": "An outnumbered Athenian army routs the first Persian invasion force on the plain of Marathon, a victory that becomes a defining Athenian legend of citizen-soldiers defending their homeland.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Marathon",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Scene_of_the_Battle_of_Marathon.jpg/330px-Scene_of_the_Battle_of_Marathon.jpg",
+      "imageAttribution": "Illustration by John Steeple Davis, Public domain, via Wikimedia Commons",
+      "imageDescription": "An illustration of the Battle of Marathon.",
+      "wikidataId": "Q31900",
+      "location": {
+        "historicalName": "Marathon",
+        "city": "Marathon",
+        "country": "Greece",
+        "latitude": 38.15,
+        "longitude": 23.96
+      }
+    },
+    {
+      "year": -480,
+      "sig": "major",
+      "title": "The Battle of Salamis",
+      "body": "A Greek fleet under the Athenian Themistocles lures Xerxes' much larger Persian navy into the narrow straits of Salamis and destroys it, breaking Persia's second invasion of Greece.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Salamis",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Battle_of_salamis.png/330px-Battle_of_salamis.png",
+      "imageAttribution": "Department of History, United States Military Academy, Public domain, via Wikimedia Commons",
+      "imageDescription": "A map showing the Persian advance from Thermopylae to Salamis in 480 BC.",
+      "wikidataId": "Q178850",
+      "location": {
+        "historicalName": "Salamis",
+        "city": "Salamis Island",
+        "country": "Greece",
+        "latitude": 37.93,
+        "longitude": 23.5
+      }
+    },
+    {
+      "year": -447,
+      "sig": "minor",
+      "title": "Construction Begins on the Parthenon",
+      "body": "Under Pericles' building program, work starts on a new temple to Athena atop the Acropolis, designed by the architects Ictinus and Callicrates and overseen by the sculptor Phidias.",
+      "tags": [
+        "architecture",
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Parthenon",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/The_Parthenon_in_Athens.jpg/330px-The_Parthenon_in_Athens.jpg",
+      "imageAttribution": "Photo by Steve Swayne, CC BY 2.0, via Wikimedia Commons",
+      "imageDescription": "The Parthenon temple on the Acropolis of Athens.",
+      "wikidataId": "Q10288",
+      "location": {
+        "historicalName": "Athens",
+        "city": "Athens",
+        "country": "Greece",
+        "latitude": 37.98,
+        "longitude": 23.73
+      }
+    },
+    {
+      "year": -435,
+      "sig": "minor",
+      "title": "Phidias Completes the Statue of Zeus at Olympia",
+      "body": "The sculptor Phidias finishes a 40-foot seated figure of Zeus in gold and ivory for the god's temple at Olympia, a work later counted among the Seven Wonders of the Ancient World.",
+      "tags": [
+        "art",
+        "religion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Statue_of_Zeus_at_Olympia",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Le_Jupiter_Olympien_ou_l%27art_de_la_sculpture_antique.jpg/330px-Le_Jupiter_Olympien_ou_l%27art_de_la_sculpture_antique.jpg",
+      "imageAttribution": "Illustration by Quatremère de Quincy, Public domain, via Wikimedia Commons",
+      "imageDescription": "A 19th-century reconstruction of Phidias's gold-and-ivory statue of Zeus in its temple at Olympia.",
+      "wikidataId": "Q46239",
+      "location": {
+        "historicalName": "Olympia",
+        "city": "Olympia",
+        "country": "Greece",
+        "latitude": 37.64,
+        "longitude": 21.63
+      }
+    },
+    {
+      "year": -431,
+      "sig": "major",
+      "title": "The Peloponnesian War Begins",
+      "body": "Long-simmering rivalry between Athens and Sparta erupts into open war between their respective alliances, a 27-year conflict that will exhaust both sides and end Athens' golden age.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Peloponnesian_War",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Pelop_war_en.png/330px-Pelop_war_en.png",
+      "imageAttribution": "Map by Captain Blood, translated by Kenmayer, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A map of the alliances and campaigns of the Peloponnesian War.",
+      "wikidataId": "Q33745",
+      "location": {
+        "historicalName": "Sparta",
+        "city": "Sparta",
+        "country": "Greece",
+        "latitude": 37.08,
+        "longitude": 22.42
+      }
+    },
+    {
+      "year": -404,
+      "sig": "minor",
+      "title": "Sparta Installs the Thirty Tyrants in Athens",
+      "body": "Following Athens' defeat in the Peloponnesian War, Sparta imposes a pro-Spartan oligarchy of thirty men who suspend democratic government and carry out a violent purge of political opponents.",
+      "tags": [
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Thirty_Tyrants",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Lysander-Sparta.jpg/330px-Lysander-Sparta.jpg",
+      "imageAttribution": "Engraving published by Guillaume Rouillé, Public domain, via Wikimedia Commons",
+      "imageDescription": "A 16th-century engraved portrait of the Spartan general Lysander, who installed the Thirty Tyrants in Athens.",
+      "wikidataId": "Q643488",
+      "location": {
+        "historicalName": "Athens",
+        "city": "Athens",
+        "country": "Greece",
+        "latitude": 37.98,
+        "longitude": 23.73
+      }
+    },
+    {
+      "year": -403,
+      "sig": "minor",
+      "title": "Thrasybulus Restores Democracy in Athens",
+      "body": "Democratic exiles led by Thrasybulus defeat the forces of the Thirty Tyrants at Munychia and force the oligarchs to step down, restoring Athens' democratic constitution after less than a year of oligarchic rule.",
+      "tags": [
+        "rebellion",
+        "governance"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Thrasybulus",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/9/90/Thrasybulus1.gif",
+      "imageAttribution": "Illustration from Andrea Alciato's Emblemata, Public domain, via Wikimedia Commons",
+      "imageDescription": "A woodcut depicting Thrasybulus being crowned with an olive garland.",
+      "wikidataId": "Q354403",
+      "location": {
+        "historicalName": "Munychia",
+        "city": "Piraeus",
+        "country": "Greece",
+        "latitude": 37.943,
+        "longitude": 23.64694444
+      }
+    },
+    {
+      "year": -399,
+      "sig": "major",
+      "title": "Athens Puts Socrates on Trial",
+      "body": "A jury of Athenian citizens convicts Socrates of impiety and corrupting the youth and sentences him to death by hemlock, a verdict that becomes a defining test case for the relationship between philosophy and the state.",
+      "tags": [
+        "science"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Trial_of_Socrates",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/David_-_The_Death_of_Socrates.jpg/330px-David_-_The_Death_of_Socrates.jpg",
+      "imageAttribution": "Painting by Jacques-Louis David, Public domain, via Wikimedia Commons",
+      "imageDescription": "Jacques-Louis David's 1787 painting The Death of Socrates, depicting the philosopher's execution by hemlock.",
+      "wikidataId": "Q3110066",
+      "location": {
+        "historicalName": "Athens",
+        "city": "Athens",
+        "country": "Greece",
+        "latitude": 37.98,
+        "longitude": 23.73
+      }
+    },
+    {
+      "year": -338,
+      "sig": "major",
+      "title": "Philip II Defeats the Greek Alliance at Chaeronea",
+      "body": "Macedonian forces under Philip II, with his son Alexander commanding the cavalry, crush a coalition of Athens and Thebes, ending the independent city-states' resistance and bringing mainland Greece under Macedonian control.",
+      "tags": [
+        "battle",
+        "collapse"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Chaeronea_(338_BC)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Battle_of_Chaeronea%2C_338_BC_en.svg/330px-Battle_of_Chaeronea%2C_338_BC_en.svg.png",
+      "imageAttribution": "Map by Kirill Lokshin and Dipa_1965, Public domain, via Wikimedia Commons",
+      "imageDescription": "A map of troop positions at the Battle of Chaeronea in 338 BC.",
+      "wikidataId": "Q200716",
+      "location": {
+        "historicalName": "Chaeronea",
+        "city": "Chaeronea",
+        "country": "Greece",
+        "latitude": 38.495,
+        "longitude": 22.8475
+      }
+    },
+    {
+      "year": -335,
+      "sig": "minor",
+      "title": "Aristotle Founds the Lyceum",
+      "body": "Returning to Athens after tutoring Alexander the Great, Aristotle begins teaching regularly at the Lyceum and establishes it as a formal school, launching what becomes known as the Peripatetic tradition of philosophy.",
+      "tags": [
+        "science",
+        "founding"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lyceum_(classical)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Sanzio_01_cropped.png/330px-Sanzio_01_cropped.png",
+      "imageAttribution": "Painting by Raphael, Public domain, via Wikimedia Commons",
+      "imageDescription": "A detail from Raphael's The School of Athens depicting Plato and Aristotle.",
+      "wikidataId": "Q1160664",
+      "location": {
+        "historicalName": "Athens",
+        "city": "Athens",
+        "country": "Greece",
+        "latitude": 37.98,
+        "longitude": 23.73
+      }
+    },
+    {
+      "year": -334,
+      "sig": "major",
+      "title": "Alexander Invades the Persian Empire",
+      "body": "Leading a mostly Macedonian and Greek army across the Hellespont, Alexander wins his first battle against Achaemenid forces at the Granicus River, opening a decade of conquest that will remake the Greek world.",
+      "tags": [
+        "battle"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_the_Granicus",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Charles_Le_Brun%2C_Le_Passage_du_Granique%2C_1665.png/330px-Charles_Le_Brun%2C_Le_Passage_du_Granique%2C_1665.png",
+      "imageAttribution": "Painting by Charles Le Brun, Public domain, via Wikimedia Commons",
+      "imageDescription": "Charles Le Brun's 1665 painting Le Passage du Granique, depicting Alexander's forces crossing the Granicus River.",
+      "wikidataId": "Q192938",
+      "location": {
+        "historicalName": "Granicus",
+        "city": "Biga",
+        "country": "Turkey",
+        "latitude": 40.22805556,
+        "longitude": 27.24222222
+      }
+    },
+    {
+      "year": -323,
+      "sig": "major",
+      "title": "The Wars of the Diadochi Begin",
+      "body": "Alexander the Great's sudden death without a clear heir plunges his empire into decades of conflict, as his generals carve up his conquests -- including Greece and Macedon -- into rival successor kingdoms.",
+      "tags": [
+        "battle",
+        "rebellion"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Wars_of_the_Diadochi",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Diadochi_LA.svg/330px-Diadochi_LA.svg.png",
+      "imageAttribution": "Map derived from William R. Shepherd's 1911 Historical Atlas, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageDescription": "A map of the successor kingdoms carved from Alexander the Great's empire.",
+      "wikidataId": "Q2912306"
+    },
+    {
+      "year": -280,
+      "sig": "minor",
+      "title": "The Colossus of Rhodes Is Completed",
+      "body": "The sculptor Chares of Lindos finishes a bronze statue of the sun god Helios towering over the harbor of Rhodes, funded by the sale of siege equipment abandoned after the island's successful defense against Macedonian siege -- a work later counted among the Seven Wonders of the Ancient World.",
+      "tags": [
+        "architecture",
+        "art"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Colossus_of_Rhodes",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Colosse_de_Rhodes_%28Barclay%29.jpg/330px-Colosse_de_Rhodes_%28Barclay%29.jpg",
+      "imageAttribution": "Engraving by Sidney Barclay, Public domain, via Wikimedia Commons",
+      "imageDescription": "A 19th-century engraving imagining the Colossus of Rhodes standing over the harbor.",
+      "wikidataId": "Q41553",
+      "location": {
+        "historicalName": "Rhodes",
+        "city": "Rhodes",
+        "country": "Greece",
+        "latitude": 36.17,
+        "longitude": 27.92
+      }
+    },
+    {
+      "year": -240,
+      "sig": "minor",
+      "title": "Eratosthenes Calculates the Earth's Circumference",
+      "body": "Working as chief librarian at Alexandria, Eratosthenes compares the sun's angle at noon in Alexandria and Syene to calculate the Earth's circumference, arriving at a figure remarkably close to the modern measurement.",
+      "tags": [
+        "science"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Eratosthenes",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Eratosthenes_measure_of_Earth_circumference.svg/330px-Eratosthenes_measure_of_Earth_circumference.svg.png",
+      "imageAttribution": "Illustration by cmglee, David Monniaux, and jimht at shaw dot ca, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageDescription": "A diagram illustrating Eratosthenes' method for calculating the Earth's circumference using shadow angles at Alexandria and Syene.",
+      "wikidataId": "Q43182",
+      "location": {
+        "historicalName": "Alexandria",
+        "city": "Alexandria",
+        "country": "Egypt",
+        "latitude": 31.1975,
+        "longitude": 29.8925
+      }
+    },
+    {
+      "year": -146,
+      "sig": "major",
+      "title": "Rome Conquers Greece",
+      "body": "Roman forces defeat the Achaean League at Corinth and raze the city, ending Greek political independence and absorbing the Greek world into Rome's expanding Mediterranean empire.",
+      "tags": [
+        "battle",
+        "collapse"
+      ],
+      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Corinth_(146_BC)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Tony_robert-fleury%2C_l%27ultimo_giorno_di_corinto%2C_ante_1870.JPG/330px-Tony_robert-fleury%2C_l%27ultimo_giorno_di_corinto%2C_ante_1870.JPG",
+      "imageAttribution": "Painting by Tony Robert-Fleury, photographed by Sailko, CC BY 3.0, via Wikimedia Commons",
+      "imageDescription": "A 19th-century painting depicting the Roman sack of Corinth in 146 BC.",
+      "wikidataId": "Q587983",
+      "location": {
+        "historicalName": "Corinth",
+        "city": "Corinth",
+        "country": "Greece",
+        "latitude": 37.9053455,
+        "longitude": 22.8801924
+      }
+    }
+  ]
+}

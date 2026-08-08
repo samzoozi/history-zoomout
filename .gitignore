@@ -21,11 +21,14 @@ infra/cdk.context.json
 infra/.venv
 
 # Fetched/generated data (not committed -- see docs/wikipedia-sources.md for provenance)
-/data/
+/data/*
 
 # Live seed data merged into the database -- committed, unlike the rest of /data/
+# One subfolder per category, one JSON file per topic. (Git can't re-include a file
+# whose parent dir is excluded, so every level needs its own "!" -- see `gitignore(5)`.)
 !/data/seed_data/
-!/data/seed_data/*.json
+!/data/seed_data/*/
+!/data/seed_data/*/*.json
 
 # Generated at deploy time by infra/stacks/frontend_stack.py; only needed locally for testing
 # against the live API

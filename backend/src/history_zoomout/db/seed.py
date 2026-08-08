@@ -8,17 +8,15 @@ from .models import Event, Location, Topic
 REPO_ROOT = Path(__file__).resolve().parents[4]
 SEED_DATA_DIR = REPO_ROOT / "data" / "seed_data"
 
-# (category, seed_data filename) pairs. Add an entry here once a new
-# category's seed file lands under data/seed_data/ -- seeding logic itself
-# doesn't need to change.
-SEED_FILES = [
-    ("civilization", "civilizations.json"),
-]
+# Each subfolder of data/seed_data/ is a category; each *.json file inside it
+# is one topic. Add a new category by creating its subfolder -- seeding logic
+# itself doesn't need to change.
 
 
-def load_seed_data(filename: str) -> list[dict]:
-    path = SEED_DATA_DIR / filename
-    return json.loads(path.read_text())
+def load_category(category_dir: Path) -> list[dict]:
+    return [
+        json.loads(path.read_text()) for path in sorted(category_dir.glob("*.json"))
+    ]
 
 
 def build_location(loc: dict | None) -> Location | None:
@@ -43,9 +41,11 @@ def seed() -> None:
         db.query(Topic).delete()
         db.flush()
 
+        categories = sorted(p for p in SEED_DATA_DIR.iterdir() if p.is_dir())
         total = 0
-        for category, filename in SEED_FILES:
-            topics = load_seed_data(filename)
+        for category_dir in categories:
+            category = category_dir.name
+            topics = load_category(category_dir)
             for topic in topics:
                 db.add(
                     Topic(
@@ -81,7 +81,7 @@ def seed() -> None:
                 )
             total += len(topics)
         db.commit()
-        print(f"Seeded {total} topics across {len(SEED_FILES)} categories.")
+        print(f"Seeded {total} topics across {len(categories)} categories.")
     finally:
         db.close()
 
