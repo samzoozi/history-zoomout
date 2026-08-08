@@ -18,3 +18,9 @@ class DomainStack(Stack):
             value=Fn.join(", ", self.hosted_zone.hosted_zone_name_servers),
             description=f"Set these as the NS records for {DOMAIN_NAME} at the domain registrar",
         )
+
+        route53.TxtRecord(
+            self, "GoogleSiteVerification",
+            zone=self.hosted_zone,
+            values=["google-site-verification=gUw6E_D3t2LS0bDRX1xMK_rvS-7BGXZdbppqvENrvmk"],
+        )
