@@ -4,6 +4,7 @@
   var DOMAIN_PADDING_YEARS = 60;
   var BASE_PX_PER_YEAR = 0.62;
   var SIDEBAR_GUTTER = 360; // scroll room so the open detail panel never covers the timeline's end
+  var COUNTRY_INITIAL_SCROLL_END_YEAR = 2030; // initial load scrolls the country view so this year lands at the viewport's right edge
   var AUTO_TICK_MIN_PX_SPACING = 170; // smallest step whose pixel gap at the CURRENT zoom clears this; recomputed every render so ticks get denser as pxPerYear() grows with zoom
   var NICE_TICK_STEPS_YEARS = [10, 25, 50, 100, 200, 250, 500, 1000, 2000, 2500, 5000, 10000, 25000];
   var MIN_MARKER_GAP_PX = 16; // minimum center-to-center spacing between markers in a lane, so close-in-time events never render as one indistinguishable blob
@@ -11,13 +12,16 @@
   // Countries run from a medieval/early-modern founding straight through to
   // the present, and the present is where most of their events (and nearly
   // all of the reader's interest) cluster. For the `country` category only,
-  // the axis runs at a higher px/year than other categories so that crowded
-  // modern era stays readable -- still a plain linear scale throughout, just
-  // zoomed in further by default (a log-compressed early era was tried and
-  // reverted: it fixed the modern crowding but introduced its own visible
-  // artifacts -- a slope discontinuity right at the log/linear handoff, and
-  // clipped labels/markers at the compressed domain start).
-  var COUNTRY_LINEAR_PX_PER_YEAR = 2.2;
+  // px/year ramps up smoothly from a lower value at the domain start to a
+  // higher value at the domain end, so the ancient founding era is
+  // compressed and the crowded modern era gets stretched out. The ramp is
+  // linear in year, which makes year->x a plain quadratic with a closed-form
+  // inverse -- continuous everywhere, unlike an earlier log-below/linear-
+  // above attempt that was tried and reverted for a visible slope
+  // discontinuity at the handoff and clipped labels/markers where the log
+  // segment's slope collapsed toward the domain start.
+  var COUNTRY_MIN_PX_PER_YEAR = 0.35; // px/year at the domain start (ancient founding)
+  var COUNTRY_MAX_PX_PER_YEAR = 6.5; // px/year at the domain end (present day)
 
   // Per-category timeline rendering config. `civilization` keeps the original
   // curated eras/domain; any category not listed here gets a domain fitted
@@ -52,7 +56,7 @@
   var CATEGORY = getCategory();
   var TIMELINE_CONFIG = CATEGORY_TIMELINE_CONFIG[CATEGORY] || DEFAULT_TIMELINE_CONFIG;
   var CATEGORY_LABEL = CATEGORY.charAt(0).toUpperCase() + CATEGORY.slice(1);
-  var USE_LOG_SCALE = CATEGORY === "country";
+  var COUNTRY_SCALE = CATEGORY === "country";
 
   var DOMAIN_START = TIMELINE_CONFIG.domainStart;
   var DOMAIN_END = TIMELINE_CONFIG.domainEnd;
@@ -72,14 +76,43 @@
   // naturally returns a smaller (denser) step as you zoom in, rather than a
   // step picked once for "about N ticks across the whole domain" that then
   // never changes as zoom changes.
-  function pickTickStep() {
+  function pickStepForPxPerYear(ppy) {
     for (var i = 0; i < NICE_TICK_STEPS_YEARS.length; i++) {
       var step = NICE_TICK_STEPS_YEARS[i];
-      if (step * pxPerYear() >= AUTO_TICK_MIN_PX_SPACING) {
+      if (step * ppy >= AUTO_TICK_MIN_PX_SPACING) {
         return step;
       }
     }
     return NICE_TICK_STEPS_YEARS[NICE_TICK_STEPS_YEARS.length - 1];
+  }
+
+  function pickTickStep() {
+    return pickStepForPxPerYear(pxPerYear());
+  }
+
+  // The country ramp makes a single global step look wrong at both ends: a
+  // step small enough to stay legible at the (slow) domain start is way
+  // sparser than the (fast) present-day slope needs, which is what left the
+  // 1500-2000 stretch with no ticks in it at all. Instead walk forward and
+  // re-pick the step at each tick from that tick's own local slope, so step
+  // size shrinks smoothly as the ramp's slope grows toward the present --
+  // never a big jump, since slope is continuous and NICE_TICK_STEPS_YEARS
+  // moves in small nice increments.
+  function generateCountryTicks(start, end) {
+    var span = DOMAIN_END - DOMAIN_START;
+    var rampSlope = span > 0 ? (COUNTRY_MAX_PX_PER_YEAR - COUNTRY_MIN_PX_PER_YEAR) / span : 0;
+    function localPxPerYear(year) {
+      return (COUNTRY_MIN_PX_PER_YEAR + rampSlope * (year - DOMAIN_START)) * state.zoom;
+    }
+    var ticks = [];
+    var step = pickStepForPxPerYear(localPxPerYear(start));
+    var y = Math.ceil(start / step) * step;
+    while (y <= end) {
+      ticks.push(Math.round(y));
+      step = pickStepForPxPerYear(localPxPerYear(y));
+      y += step;
+    }
+    return ticks;
   }
 
   // Recomputed on every render (see renderAxisAndEras) so it always reflects
@@ -87,6 +120,7 @@
   function generateTicks(start, end) {
     var span = end - start;
     if (span <= 0) return [Math.round(start)];
+    if (COUNTRY_SCALE) return generateCountryTicks(start, end);
     var step = pickTickStep();
     var first = Math.ceil(start / step) * step;
     var ticks = [];
@@ -130,13 +164,49 @@
   var navClose = document.getElementById("navClose");
   var navList = document.getElementById("navList");
 
+  // Used only to pick a legible tick step (see pickTickStep). For the country
+  // category this is the slope AT THE DOMAIN START -- the smallest slope on
+  // the ramp -- so a step that clears AUTO_TICK_MIN_PX_SPACING there stays
+  // just as legible everywhere else too, since px/year only increases from
+  // there toward the present.
   function pxPerYear() {
-    return (USE_LOG_SCALE ? COUNTRY_LINEAR_PX_PER_YEAR : BASE_PX_PER_YEAR) * state.zoom;
+    return (COUNTRY_SCALE ? COUNTRY_MIN_PX_PER_YEAR : BASE_PX_PER_YEAR) * state.zoom;
   }
-  function yearToX(year) { return (year - DOMAIN_START) * pxPerYear(); }
+
+  // px/year ramps linearly in year from COUNTRY_MIN_PX_PER_YEAR at
+  // DOMAIN_START to COUNTRY_MAX_PX_PER_YEAR at DOMAIN_END; x(year) is the
+  // integral of that ramp, i.e. a quadratic in (year - DOMAIN_START).
+  function countryYearToX(year) {
+    var span = DOMAIN_END - DOMAIN_START;
+    if (span <= 0) return 0;
+    var dy = year - DOMAIN_START;
+    var rampSlope = (COUNTRY_MAX_PX_PER_YEAR - COUNTRY_MIN_PX_PER_YEAR) / span;
+    return (COUNTRY_MIN_PX_PER_YEAR * dy + (rampSlope / 2) * dy * dy) * state.zoom;
+  }
+  // Closed-form inverse of countryYearToX (quadratic formula) -- screen/scroll
+  // math (see screenXToYear) needs to go from a pixel position back to the
+  // year under it, not just the reverse.
+  function countryXToYear(x) {
+    var span = DOMAIN_END - DOMAIN_START;
+    if (span <= 0) return DOMAIN_START;
+    var rampSlope = (COUNTRY_MAX_PX_PER_YEAR - COUNTRY_MIN_PX_PER_YEAR) / span;
+    var x0 = x / state.zoom;
+    if (rampSlope === 0) return DOMAIN_START + x0 / COUNTRY_MIN_PX_PER_YEAR;
+    var a = rampSlope / 2, b = COUNTRY_MIN_PX_PER_YEAR, c = -x0;
+    var dy = (-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a);
+    return DOMAIN_START + dy;
+  }
+
+  function yearToX(year) {
+    if (COUNTRY_SCALE) return countryYearToX(year);
+    return (year - DOMAIN_START) * pxPerYear();
+  }
   // Inverse of yearToX -- screen/scroll math (see screenXToYear) needs to go
   // from a pixel position back to the year under it, not just the reverse.
-  function xToYear(x) { return DOMAIN_START + x / pxPerYear(); }
+  function xToYear(x) {
+    if (COUNTRY_SCALE) return countryXToYear(x);
+    return DOMAIN_START + x / pxPerYear();
+  }
   function trackWidth() { return yearToX(DOMAIN_END) - yearToX(DOMAIN_START); }
   // Read live rather than hardcode: .axis-spacer's width is set in CSS and
   // shrinks under the mobile breakpoint, so this stays in sync with whatever
@@ -880,10 +950,20 @@
 
     // Countries run right up to the present, and that's what readers open
     // this view to see -- start scrolled to the end of the timeline instead
-    // of the medieval/early-modern founding at the far left. Has to happen
-    // after stageEl is unhidden: scroller has no layout box (and so no
-    // meaningful scrollWidth) while its ancestor is still `hidden`.
-    if (CATEGORY === "country") scroller.scrollLeft = scroller.scrollWidth;
+    // of the medieval/early-modern founding at the far left. Scrolled so
+    // COUNTRY_INITIAL_SCROLL_END_YEAR lands at the viewport's right edge,
+    // not scroller.scrollWidth or DOMAIN_END: scrollWidth includes
+    // SIDEBAR_GUTTER (dead space reserved for the detail panel to scroll
+    // into once it's open), and DOMAIN_END has DOMAIN_PADDING_YEARS of empty
+    // axis past the last real event -- both push present-day content further
+    // left of the viewport's right edge than intended if used as the scroll
+    // target. Has to happen after stageEl is unhidden: scroller has no
+    // layout box (and so no meaningful clientWidth) while its ancestor is
+    // still `hidden`.
+    if (CATEGORY === "country") {
+      scroller.scrollLeft = Math.max(0,
+        labelWidth() + yearToX(COUNTRY_INITIAL_SCROLL_END_YEAR) - scroller.clientWidth);
+    }
     initialized = true;
 
     showScrollHintIfNeeded();
