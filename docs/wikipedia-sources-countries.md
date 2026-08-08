@@ -149,3 +149,177 @@ civilizations doc).
   `civilization` category already uses the bare id `japan` — a future country topic for
   Japan would collide with it. Every `country` topic id is prefixed `country-` to avoid
   this; the JSON's `name` field ("France") is unaffected and still displays normally.
+
+## Germany (topic id: `country-germany`) — pulled 2026-08-08
+
+Status: **new topic** — file written to `data/wikipedia-data/country/germany.json` only;
+merging into the live seed is a separate step.
+
+**The start year, 962, was an explicit user decision**, made after weighing three
+candidates against the France precedent (843, Treaty of Verdun): 843 itself (East
+Francia, the direct territorial ancestor of the German lands, keeping symmetry with
+France), 962 (Otto I's coronation as Holy Roman Emperor, the traditional start of a
+distinctly *German* kingdom), and 1871 (German unification, the literal birth of the
+modern nation-state). The user asked to weight the topic toward the modern concept of
+the country without losing historical context entirely, so 962 was chosen as the
+middle path: it skips the ~120 years of East Francia that are arguably more "Frankish"
+than "German," while still tracing real medieval roots rather than starting cold at
+1871. Per that same steer, the pre-1806 stretch of the timeline (962–1806, 844 years)
+is deliberately kept sparse — 9 events, one per major turning point (imperial founding,
+Investiture Controversy, Golden Bull, Gutenberg, the Reformation, Peace of Augsburg, the
+Thirty Years' War, Peace of Westphalia, the rise of Prussia under Frederick the Great) —
+while the 1806–2026 span (220 years) carries the bulk of the research, 32 events, matching
+the "focus more on the modern concept" instruction.
+
+There is also an existing `civilization` topic, `hre` (Holy Roman Empire), covering
+roughly the same medieval centuries in a founding→fall framing. This `country` topic is
+scoped deliberately differently — it doesn't stop at a "fall" (the Empire's 1806
+dissolution is a single event here, not an ending point) and continues straight through
+Prussia's rise, unification, both World Wars, division, and reunification to the present
+day. The two topics' early events (e.g. Otto I's coronation) may overlap in subject
+matter, which is expected — they're answering different questions ("what was the Holy
+Roman Empire's own arc" vs. "how did the German nation-state get here") — but this pass
+did not attempt to deduplicate against `hre.json`'s own event list.
+
+`colorIndex: 2` was assigned in the `country` category's own index space (France already
+uses `1`), not coordinated with the `civilization` category's rotation.
+
+### Topic-level source
+
+- **History of Germany** — https://en.wikipedia.org/wiki/History_of_Germany — Wikidata
+  Q122131
+  - The article's own lead thumbnail is a flat 18th-century map of the "Imperium
+    Romano-Germanicum," similar to France's own generic-map problem. Used a photo of the
+    **Brandenburg Gate** instead (sourced from its own article, not embedded in History
+    of Germany) — it's the single most recognizable visual shorthand for Germany as a
+    nation, and it also appears as the backdrop to two of the topic's own 20th-century
+    events (the Fall of the Wall and reunification), tying the topic image to the
+    timeline's own modern climax.
+
+### Event-level sources
+
+| Event | Year | Article | Wikidata | Image credit |
+|---|---|---|---|---|
+| Otto I crowned Holy Roman Emperor | 962 | [Otto the Great](https://en.wikipedia.org/wiki/Otto_the_Great) | Q43915 | Otto Posse (illustration), Public domain |
+| Henry IV's Walk to Canossa | 1077 | [Road to Canossa](https://en.wikipedia.org/wiki/Road_to_Canossa) | Q325656 | Eduard Schwoiser (painting), Public domain |
+| Golden Bull of 1356 issued | 1356 | [Golden Bull of 1356](https://en.wikipedia.org/wiki/Golden_Bull_of_1356) | Q567601 | Document photo, Public domain |
+| Gutenberg invents the printing press | 1450 | [Johannes Gutenberg](https://en.wikipedia.org/wiki/Johannes_Gutenberg) | Q8958 | Kenneth C. Zirkel (photo), CC BY-SA 4.0 |
+| Luther posts the Ninety-Five Theses | 1517 | [Ninety-five Theses](https://en.wikipedia.org/wiki/Ninety-five_Theses) | Q157506 | Document image, Public domain |
+| Peace of Augsburg | 1555 | [Peace of Augsburg](https://en.wikipedia.org/wiki/Peace_of_Augsburg) | Q154577 | Document photo, Public domain |
+| Thirty Years' War begins | 1618 | [Thirty Years' War](https://en.wikipedia.org/wiki/Thirty_Years%27_War) | Q2487 | Carl Friedrich Lessing (painting), Public domain |
+| Peace of Westphalia ends the war | 1648 | [Peace of Westphalia](https://en.wikipedia.org/wiki/Peace_of_Westphalia) | Q150995 | Dietmar Rabich (photo), CC BY-SA 4.0 |
+| Frederick the Great ascends the Prussian throne | 1740 | [Frederick the Great](https://en.wikipedia.org/wiki/Frederick_the_Great) | Q33550 | Johann Georg Ziesenis (painting), Public domain |
+| Holy Roman Empire dissolved | 1806 | [Dissolution of the Holy Roman Empire](https://en.wikipedia.org/wiki/Dissolution_of_the_Holy_Roman_Empire) | Q19902208 | Alphathon (map), CC0 |
+| German Confederation formed | 1815 | [German Confederation](https://en.wikipedia.org/wiki/German_Confederation) | Q151624 | TRAJAN 117 (map), CC BY-SA 3.0 |
+| Zollverein customs union established | 1834 | [Zollverein](https://en.wikipedia.org/wiki/Zollverein) | Q155707 | 52 Pickup (map), CC BY-SA 3.0 |
+| Revolutions of 1848 sweep the German states | 1848 | [German revolutions of 1848–1849](https://en.wikipedia.org/wiki/German_revolutions_of_1848%E2%80%931849) | Q3699 | Unknown (illustration), Public domain |
+| Austro-Prussian War | 1866 | [Austro-Prussian War](https://en.wikipedia.org/wiki/Austro-Prussian_War) | Q153650 | Georg Bleibtreu (painting), Public domain |
+| German Empire proclaimed at Versailles | 1871 | [Proclamation of the German Empire](https://en.wikipedia.org/wiki/Proclamation_of_the_German_Empire) | Q10354157 | Anton von Werner (painting), Public domain |
+| Cologne Cathedral completed | 1880 | [Cologne Cathedral](https://en.wikipedia.org/wiki/Cologne_Cathedral) | Q4176 | Raimond Spekking (photo), CC BY-SA 4.0 |
+| Bismarck enacts social insurance laws | 1883 | [Otto von Bismarck](https://en.wikipedia.org/wiki/Otto_von_Bismarck) | Q8442 | Unknown (portrait), Public domain |
+| Carl Benz patents the automobile | 1886 | [Carl Benz](https://en.wikipedia.org/wiki/Carl_Benz) | Q40224 | Bahnfrend (photo), CC BY-SA 4.0 |
+| World War I begins | 1914 | [World War I](https://en.wikipedia.org/wiki/World_War_I) | Q361 | Collection DocAnciens/docpix.fr (photo), Public domain |
+| German Revolution ends the Kaiserreich | 1918 | [German revolution of 1918–1919](https://en.wikipedia.org/wiki/German_revolution_of_1918%E2%80%931919) | Q170306 | Unknown (photo), Public domain |
+| Bauhaus school founded | 1919 | [Bauhaus](https://en.wikipedia.org/wiki/Bauhaus) | Q124354 | Spyrosdrakopoulos (photo), CC BY-SA 4.0 |
+| Weimar Constitution adopted | 1919 | [Weimar Constitution](https://en.wikipedia.org/wiki/Weimar_Constitution) | Q156003 | Document photo, Public domain |
+| Hyperinflation devastates the economy | 1923 | [Hyperinflation in the Weimar Republic](https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic) | Q695052 | Bundesarchiv (photo), CC BY-SA 3.0 DE |
+| Hitler appointed Chancellor | 1933 | [Adolf Hitler's rise to power](https://en.wikipedia.org/wiki/Adolf_Hitler%27s_rise_to_power) | Q4684105 | Bundesarchiv (photo), CC BY-SA 3.0 DE |
+| Enabling Act passed | 1933 | [Enabling Act of 1933](https://en.wikipedia.org/wiki/Enabling_Act_of_1933) | Q310218 | Georg Pahl / Bundesarchiv (photo), CC BY-SA 3.0 DE |
+| Nuremberg Laws enacted | 1935 | [Nuremberg Laws](https://en.wikipedia.org/wiki/Nuremberg_Laws) | Q27906 | Document photo, Public domain |
+| Kristallnacht pogrom | 1938 | [Kristallnacht](https://en.wikipedia.org/wiki/Kristallnacht) | Q36756 | Unknown (photo), Public domain |
+| Invasion of Poland starts World War II | 1939 | [Invasion of Poland](https://en.wikipedia.org/wiki/Invasion_of_Poland) | Q150812 | Ai6z83xl3g (photo montage), CC BY-SA 3.0 |
+| Wannsee Conference plans the Holocaust | 1942 | [Wannsee Conference](https://en.wikipedia.org/wiki/Wannsee_Conference) | Q152120 | A.Savin (photo), CC BY-SA 3.0 |
+| Germany surrenders, ending WWII in Europe | 1945 | [German Instrument of Surrender](https://en.wikipedia.org/wiki/German_Instrument_of_Surrender) | Q700983 | National Archives, restored by Adam Cuerden (photo), Public domain |
+| Potsdam Conference divides Germany | 1945 | [Potsdam Conference](https://en.wikipedia.org/wiki/Potsdam_Conference) | Q151187 | US Dept. of Energy (photo), Public domain |
+| Berlin Blockade and Airlift | 1948 | [Berlin Blockade](https://en.wikipedia.org/wiki/Berlin_Blockade) | Q151349 | Henry Ries / Library of Congress (photo), Public domain |
+| Federal Republic of Germany founded | 1949 | [West Germany](https://en.wikipedia.org/wiki/West_Germany) | Q713750 | Katherine Young / Bundesarchiv (photo), CC BY-SA 3.0 DE |
+| German Democratic Republic founded | 1949 | [East Germany](https://en.wikipedia.org/wiki/East_Germany) | Q16957 | Züchlsdorf / Bundesarchiv (photo), CC BY-SA 3.0 DE |
+| Berlin Wall built | 1961 | [Berlin Wall](https://en.wikipedia.org/wiki/Berlin_Wall) | Q5086 | Thierry Noir (photo), CC BY-SA 3.0 |
+| Basic Treaty normalizes inter-German relations | 1972 | [Basic Treaty, 1972](https://en.wikipedia.org/wiki/Basic_Treaty,_1972) | Q672112 | Engelbert Reineke / Bundesarchiv (photo), CC BY-SA 3.0 DE |
+| Fall of the Berlin Wall | 1989 | [Fall of the Berlin Wall](https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall) | Q69163529 | Reproduction by Lear 21 (photo), CC BY-SA 3.0 |
+| German reunification | 1990 | [German reunification](https://en.wikipedia.org/wiki/German_reunification) | Q56039 | Thomas Uhlemann / Bundesarchiv (photo), CC BY-SA 3.0 DE |
+| Euro replaces the Deutsche Mark | 2002 | [Euro](https://en.wikipedia.org/wiki/Euro) | Q4916 | The RedBurn (photo) |
+| Angela Merkel becomes Chancellor | 2005 | [Angela Merkel](https://en.wikipedia.org/wiki/Angela_Merkel) | Q567 | Raimond Spekking (photo), CC BY-SA 4.0 |
+| Zeitenwende speech marks defense policy shift | 2022 | [Zeitenwende speech](https://en.wikipedia.org/wiki/Zeitenwende_speech) | Q113649169 | Sandro Halank (photo), CC BY-SA 4.0 |
+
+### Event locations
+
+| Event | Historical name | Modern city, country | Coordinates |
+|---|---|---|---|
+| Otto I crowned | Rome | Rome, Italy | 41.9028, 12.4964 |
+| Walk to Canossa | Canossa | Canossa, Italy | 44.58, 10.46 |
+| Golden Bull issued | Nuremberg | Nuremberg, Germany | 49.4521, 11.0767 |
+| Gutenberg's press | Mainz | Mainz, Germany | 50.00, 8.2711 |
+| Luther's Theses | Wittenberg | Lutherstadt Wittenberg, Germany | 51.8671, 12.6484 |
+| Peace of Augsburg | Augsburg | Augsburg, Germany | 48.37, 10.90 |
+| Thirty Years' War begins | — | (no single place; a continent-spanning war) | — |
+| Peace of Westphalia | Münster | Münster, Germany | 51.96, 7.63 |
+| Frederick the Great ascends | Berlin | Berlin, Germany | 52.52, 13.41 |
+| Holy Roman Empire dissolved | Vienna | Vienna, Austria | 48.21, 16.37 |
+| German Confederation formed | Vienna | Vienna, Austria | 48.21, 16.37 |
+| Zollverein established | — | (no single place; a multi-state union) | — |
+| Revolutions of 1848 | Berlin | Berlin, Germany | 52.52, 13.41 |
+| Austro-Prussian War | Königgrätz | Hradec Králové, Czech Republic | 50.2092, 15.8322 |
+| German Empire proclaimed | Versailles | Versailles, France | 48.8047, 2.1203 |
+| Cologne Cathedral completed | Cologne | Cologne, Germany | 50.9364, 6.9528 |
+| Bismarck's social insurance laws | Berlin | Berlin, Germany | 52.52, 13.41 |
+| Carl Benz patents the automobile | Mannheim | Mannheim, Germany | 49.4878, 8.4661 |
+| World War I begins | — | (no single place; a multi-front war) | — |
+| German Revolution / Kaiserreich ends | Berlin | Berlin, Germany | 52.52, 13.41 |
+| Bauhaus founded | Weimar | Weimar, Germany | 50.9811, 11.3294 |
+| Weimar Constitution adopted | Weimar | Weimar, Germany | 50.9811, 11.3294 |
+| Hyperinflation crisis | Berlin | Berlin, Germany | 52.52, 13.41 |
+| Hitler appointed Chancellor | Berlin | Berlin, Germany | 52.52, 13.41 |
+| Enabling Act passed | Berlin | Berlin, Germany | 52.52, 13.41 |
+| Nuremberg Laws enacted | Nuremberg | Nuremberg, Germany | 49.4521, 11.0767 |
+| Kristallnacht | — | (nationwide pogrom, no single place) | — |
+| Invasion of Poland | Westerplatte | Gdańsk, Poland | 54.4075, 18.6714 |
+| Wannsee Conference | Wannsee | Berlin, Germany | 52.52, 13.41 |
+| Germany surrenders | Berlin-Karlshorst | Berlin, Germany | 52.52, 13.41 |
+| Potsdam Conference | Potsdam | Potsdam, Germany | 52.4006, 13.0592 |
+| Berlin Blockade and Airlift | Berlin | Berlin, Germany | 52.52, 13.41 |
+| FRG founded | Bonn | Bonn, Germany | 50.7353, 7.1022 |
+| GDR founded | East Berlin | Berlin, Germany | 52.52, 13.41 |
+| Berlin Wall built | Berlin | Berlin, Germany | 52.52, 13.41 |
+| Basic Treaty | East Berlin | Berlin, Germany | 52.52, 13.41 |
+| Fall of the Berlin Wall | Berlin | Berlin, Germany | 52.52, 13.41 |
+| German reunification | Berlin | Berlin, Germany | 52.52, 13.41 |
+| Euro replaces the Deutsche Mark | — | (nationwide currency change) | — |
+| Merkel becomes Chancellor | Berlin | Berlin, Germany | 52.52, 13.41 |
+| Zeitenwende speech | Berlin | Berlin, Germany | 52.52, 13.41 |
+
+### Corrections / decisions made
+
+- N/A on corrections to existing seed data — this is a brand-new topic, not a
+  replacement.
+- **Wannsee Conference and the Basic Treaty use Berlin's general coordinates**, not the
+  specific villa/signing-site coordinates, since those weren't cleanly available from
+  the article's own coordinate data — both are within Berlin, so the approximation is
+  minor.
+- **Hitler's appointment as Chancellor (30 January 1933) uses a photo from 1 February
+  1933** — his first radio address as the new Chancellor — since no well-attributed
+  photo from the appointment date itself turned up in the article's image list. Same
+  gap-filling approach as France's 1958/1961 de Gaulle photo.
+- **Angela Merkel's becoming Chancellor (2005) uses a 2019 photo** — no photo from
+  around 2005 specifically tied to her turned up in the article's image list. Same
+  gap-filling approach as above; the gap here is wider (14 years) but she's the same
+  clearly-identified figure throughout.
+- **Carl Benz's automobile patent (1886) uses a photo of an 1888 Patent-Motorwagen**
+  rather than a portrait of Benz himself, on the judgment that a photo of the actual
+  invention is more illustrative than a portrait for a `science`-tagged event; the two-year
+  gap is the vehicle's model year, not a different invention.
+- **Golden Bull, Peace of Augsburg, Weimar Constitution, and Nuremberg Laws all use
+  "Document photo, Public domain" as their attribution** rather than a named
+  artist/photographer — these are photographs of the documents/decrees themselves, which
+  don't have a credited photographer in their extmetadata, matching the France doc's
+  precedent for the Edict of Nantes.
+- **Overlap with the `hre` civilization topic** is expected and not treated as a
+  duplication bug — see the scope note above. This pass did not cross-check
+  `hre.json`'s own event list for exact date/fact conflicts, since the two topics are
+  answering different questions and are not being merged into one.
+- Every event and topic-level image URL used in the final JSON was fetched with a real
+  Wikimedia API call (either the REST summary's `thumbnail.source` or an explicit
+  `imageinfo` lookup with `iiprop=url`) rather than pattern-matched from another file's
+  hash path.
+- **`id` is `country-germany`, not `germany`**, for the same global-primary-key reason as
+  `country-france` — see that entry's note above.
