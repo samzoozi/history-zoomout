@@ -8,6 +8,17 @@
   var NICE_TICK_STEPS_YEARS = [10, 25, 50, 100, 200, 250, 500, 1000, 2000, 2500, 5000, 10000, 25000];
   var MIN_MARKER_GAP_PX = 16; // minimum center-to-center spacing between markers in a lane, so close-in-time events never render as one indistinguishable blob
 
+  // Countries run from a medieval/early-modern founding straight through to
+  // the present, and the present is where most of their events (and nearly
+  // all of the reader's interest) cluster. For the `country` category only,
+  // the axis runs at a higher px/year than other categories so that crowded
+  // modern era stays readable -- still a plain linear scale throughout, just
+  // zoomed in further by default (a log-compressed early era was tried and
+  // reverted: it fixed the modern crowding but introduced its own visible
+  // artifacts -- a slope discontinuity right at the log/linear handoff, and
+  // clipped labels/markers at the compressed domain start).
+  var COUNTRY_LINEAR_PX_PER_YEAR = 2.2;
+
   // Per-category timeline rendering config. `civilization` keeps the original
   // curated eras/domain; any category not listed here gets a domain fitted
   // purely to its data (no artificial floor) with no era-band overlay.
@@ -41,6 +52,7 @@
   var CATEGORY = getCategory();
   var TIMELINE_CONFIG = CATEGORY_TIMELINE_CONFIG[CATEGORY] || DEFAULT_TIMELINE_CONFIG;
   var CATEGORY_LABEL = CATEGORY.charAt(0).toUpperCase() + CATEGORY.slice(1);
+  var USE_LOG_SCALE = CATEGORY === "country";
 
   var DOMAIN_START = TIMELINE_CONFIG.domainStart;
   var DOMAIN_END = TIMELINE_CONFIG.domainEnd;
@@ -118,14 +130,76 @@
   var navClose = document.getElementById("navClose");
   var navList = document.getElementById("navList");
 
-  function pxPerYear() { return BASE_PX_PER_YEAR * state.zoom; }
+  function pxPerYear() {
+    return (USE_LOG_SCALE ? COUNTRY_LINEAR_PX_PER_YEAR : BASE_PX_PER_YEAR) * state.zoom;
+  }
   function yearToX(year) { return (year - DOMAIN_START) * pxPerYear(); }
-  function trackWidth() { return (DOMAIN_END - DOMAIN_START) * pxPerYear(); }
+  // Inverse of yearToX -- screen/scroll math (see screenXToYear) needs to go
+  // from a pixel position back to the year under it, not just the reverse.
+  function xToYear(x) { return DOMAIN_START + x / pxPerYear(); }
+  function trackWidth() { return yearToX(DOMAIN_END) - yearToX(DOMAIN_START); }
   // Read live rather than hardcode: .axis-spacer's width is set in CSS and
   // shrinks under the mobile breakpoint, so this stays in sync with whatever
   // the stylesheet currently says instead of drifting out of alignment with
   // the (same-width) sticky .lane-label column.
   function labelWidth() { return axisSpacer.getBoundingClientRect().width; }
+
+  // Finds the placement closest to every marker's true (natural) year
+  // position subject to a minimum center-to-center gap, via isotonic
+  // regression / pool-adjacent-violators (PAVA): subtracting i*GAP from each
+  // sorted natural x turns "each marker >= previous + GAP" into a plain
+  // non-decreasing constraint, which PAVA solves optimally by averaging
+  // together ("pooling") any run of markers that would otherwise overlap.
+  // This is the standard bounded solution to the problem -- a run of close
+  // markers only ever pulls in *that run's own* neighbors, so one early
+  // collision can't drag every later, well-separated marker in the lane
+  // further and further from its true position (a plain sequential
+  // "push right of the previous marker" pass was tried first and did
+  // exactly that, and centering fixed-size clusters on their own mean was
+  // tried second but could still cascade at cluster boundaries).
+  function resolveMarkerPositions(events) {
+    var natural = events
+      .map(function (ev) { return { ev: ev, x: yearToX(ev.year) }; })
+      .sort(function (a, b) { return a.x - b.x; });
+
+    var blocks = natural.map(function (p, i) {
+      return { sum: p.x - i * MIN_MARKER_GAP_PX, count: 1, items: [p] };
+    });
+    var i = 0;
+    while (i < blocks.length - 1) {
+      if (blocks[i].sum / blocks[i].count > blocks[i + 1].sum / blocks[i + 1].count) {
+        blocks[i].sum += blocks[i + 1].sum;
+        blocks[i].count += blocks[i + 1].count;
+        blocks[i].items = blocks[i].items.concat(blocks[i + 1].items);
+        blocks.splice(i + 1, 1);
+        if (i > 0) i--;
+      } else {
+        i++;
+      }
+    }
+
+    var positioned = [];
+    var index = 0;
+    blocks.forEach(function (block) {
+      var mean = block.sum / block.count;
+      block.items.forEach(function (p, j) { p.x = mean + (index + j) * MIN_MARKER_GAP_PX; });
+      positioned.push.apply(positioned, block.items);
+      index += block.count;
+    });
+
+    // The least-squares pooling above can place a lane's very first marker
+    // to the left of its own natural x (e.g. two naturally-close points at
+    // 0 and 5 optimally centering as -5.5/10.5) -- fine in the abstract, but
+    // if that first natural x was already near the domain's left edge (as
+    // it commonly is under the country category's log-compressed early
+    // years), the result renders at a negative offset, off the start of the
+    // lane. Shift the whole (already internally-optimal) placement right by
+    // whatever's needed to keep it on-track, rather than reworking the
+    // pooling itself.
+    var minX = positioned.reduce(function (m, p) { return Math.min(m, p.x); }, 0);
+    if (minX < 0) positioned.forEach(function (p) { p.x -= minX; });
+    return positioned;
+  }
 
   function fitDomainToData() {
     if (!TOPICS.length) return;
@@ -216,17 +290,13 @@
 
       // Resolve x positions before creating any marker elements: at low zoom,
       // events close in time land within a few px of each other and render
-      // as one indistinguishable, barely-clickable blob. Sort by ideal x and
-      // push later markers apart just enough to keep a minimum gap, rather
-      // than rendering them at their literal (possibly identical) pixel position.
-      var positioned = topic.events
-        .filter(function (ev) { return state.tags.size === 0 || (ev.tags || []).some(function (t) { return state.tags.has(t); }); })
-        .map(function (ev) { return { ev: ev, x: yearToX(ev.year) }; })
-        .sort(function (a, b) { return a.x - b.x; });
-      for (var i = 1; i < positioned.length; i++) {
-        var minX = positioned[i - 1].x + MIN_MARKER_GAP_PX;
-        if (positioned[i].x < minX) positioned[i].x = minX;
-      }
+      // as one indistinguishable, barely-clickable blob. resolveMarkerPositions
+      // spaces them apart, bounded to what's actually needed, instead of
+      // rendering them at their literal (possibly identical) pixel position.
+      var visibleEvents = topic.events.filter(function (ev) {
+        return state.tags.size === 0 || (ev.tags || []).some(function (t) { return state.tags.has(t); });
+      });
+      var positioned = resolveMarkerPositions(visibleEvents);
 
       positioned.forEach(function (p) {
         var ev = p.ev;
@@ -640,7 +710,7 @@
   function screenXToYear(clientX) {
     var rect = scroller.getBoundingClientRect();
     var screenX = clientX - rect.left;
-    return DOMAIN_START + (scroller.scrollLeft + screenX - labelWidth()) / pxPerYear();
+    return xToYear(scroller.scrollLeft + screenX - labelWidth());
   }
   function scrollLeftToPinYear(year, clientX) {
     var rect = scroller.getBoundingClientRect();
@@ -807,6 +877,13 @@
 
     loadStateEl.hidden = true;
     stageEl.hidden = false;
+
+    // Countries run right up to the present, and that's what readers open
+    // this view to see -- start scrolled to the end of the timeline instead
+    // of the medieval/early-modern founding at the far left. Has to happen
+    // after stageEl is unhidden: scroller has no layout box (and so no
+    // meaningful scrollWidth) while its ancestor is still `hidden`.
+    if (CATEGORY === "country") scroller.scrollLeft = scroller.scrollWidth;
     initialized = true;
 
     showScrollHintIfNeeded();
