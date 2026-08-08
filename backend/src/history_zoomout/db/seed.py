@@ -1,3 +1,4 @@
+import argparse
 import json
 from pathlib import Path
 
@@ -31,26 +32,50 @@ def build_location(loc: dict | None) -> Location | None:
     )
 
 
-def seed() -> None:
+def seed(category: str | None = None) -> None:
     Base.metadata.create_all(bind=engine)
+
+    all_category_dirs = sorted(p for p in SEED_DATA_DIR.iterdir() if p.is_dir())
+    if category is not None:
+        category_dirs = [p for p in all_category_dirs if p.name == category]
+        if not category_dirs:
+            available = ", ".join(p.name for p in all_category_dirs)
+            raise SystemExit(f"Unknown category {category!r}; available: {available}")
+    else:
+        category_dirs = all_category_dirs
 
     db = SessionLocal()
     try:
-        db.query(Event).delete()
-        db.query(Location).delete()
-        db.query(Topic).delete()
+        if category is None:
+            db.query(Event).delete()
+            db.query(Location).delete()
+            db.query(Topic).delete()
+        else:
+            # Only this category's rows -- a single-category reseed must
+            # leave every other category's data untouched.
+            topic_ids = [
+                row[0] for row in db.query(Topic.id).filter(Topic.category == category)
+            ]
+            db.query(Event).filter(Event.topic_id.in_(topic_ids)).delete(
+                synchronize_session=False
+            )
+            db.query(Location).filter(~Location.events.any()).delete(
+                synchronize_session=False
+            )
+            db.query(Topic).filter(Topic.category == category).delete(
+                synchronize_session=False
+            )
         db.flush()
 
-        categories = sorted(p for p in SEED_DATA_DIR.iterdir() if p.is_dir())
         total = 0
-        for category_dir in categories:
-            category = category_dir.name
+        for category_dir in category_dirs:
+            cat = category_dir.name
             topics = load_category(category_dir)
             for topic in topics:
                 db.add(
                     Topic(
                         id=topic["id"],
-                        category=category,
+                        category=cat,
                         name=topic["name"],
                         color_index=topic["colorIndex"],
                         start_year=topic["start"],
@@ -81,13 +106,24 @@ def seed() -> None:
                 )
             total += len(topics)
         db.commit()
-        print(f"Seeded {total} topics across {len(categories)} categories.")
+        print(f"Seeded {total} topics across {len(category_dirs)} categories.")
     finally:
         db.close()
 
 
 def main() -> None:
-    seed()
+    parser = argparse.ArgumentParser(
+        description="Seed the database from data/seed_data/."
+    )
+    parser.add_argument(
+        "category",
+        nargs="?",
+        default=None,
+        help="Only (re)seed this category, e.g. 'country' -- other categories' "
+        "data is left untouched. Seeds every category if omitted.",
+    )
+    args = parser.parse_args()
+    seed(args.category)
 
 
 if __name__ == "__main__":

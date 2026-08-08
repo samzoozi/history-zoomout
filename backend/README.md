@@ -37,3 +37,10 @@ uv run alembic upgrade head
 
 `history-zoomout-seed` clears and reloads all topics/events from every category
 subfolder under `data/seed_data/` (repo root, one JSON file per topic) — safe to re-run.
+
+Pass a category name to reseed just that one, leaving every other category's data
+untouched:
+
+```
+uv run history-zoomout-seed country
+```
