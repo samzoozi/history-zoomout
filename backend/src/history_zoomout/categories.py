@@ -7,4 +7,5 @@ new category's seed data lands.
 
 CATEGORY_LABELS: dict[str, str] = {
     "civilization": "Civilizations",
+    "country": "Countries",
 }
